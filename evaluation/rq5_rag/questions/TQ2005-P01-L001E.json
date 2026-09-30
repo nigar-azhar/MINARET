@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q33",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ کے دیگر کون کون سے نام بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["TQ2005-P01-L001E_chunk_0005"],
+    "note": "Fact verified directly against the transcript (segment 14-15: ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، الکنز). gold_chunk_ids backfilled 2026-09-24 after all 3 models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) gave correct_grounded answers citing chunk_0005, verified against chunk text (141.32s-174.84s)."
+  },
+  {
+    "question_id": "Q34",
+    "question": "According to the lecturer, what are the other names given for Surah Al-Fatiha?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["TQ2005-P01-L001E_chunk_0005"],
+    "note": "Cross-lingual variant of Q33 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 on the same evidence as Q33."
+  },
+  {
+    "question_id": "Q67",
+    "question": "لیکچرر کے مطابق لفظ 'رب' کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["TQ2005-P01-L001E_chunk_0009", "TQ2005-P01-L001E_chunk_0010", "TQ2005-P01-L001E_chunk_0012"],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 29-33: gradually nurturing/bringing something from a small beginning to its full completion - پالنے والا، آہستہ آہستہ ذرے سے کمال تک پہنچانے والا). gold_chunk_ids backfilled 2026-09-24: qwen3.5-9b-mlx and gemma-4-e4b-it gave correct_grounded answers citing chunk_0009 (287.16s-332.44s, core 'gradually to perfection' definition), chunk_0010 (333.08s-356.38s, nurturer/rearer extension), and chunk_0012 (382.7s-409.98s, master/owner sense for humans) — all verified against chunk text. meta-llama-3.1-8b-instruct@q6_k also gave a correct_grounded answer citing only chunk_0009 (the core definition)."
+  },
+  {
+    "question_id": "Q68",
+    "question": "According to the lecturer, what meaning is given for the word 'Rabb' in this word-analysis session?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["TQ2005-P01-L001E_chunk_0009", "TQ2005-P01-L001E_chunk_0010", "TQ2005-P01-L001E_chunk_0012"],
+    "note": "Cross-lingual variant of Q67 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 on the same evidence as Q67."
+  }
+]

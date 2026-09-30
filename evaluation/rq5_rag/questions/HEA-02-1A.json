@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q51",
+    "question": "لیکچرر کے مطابق نرمی کے لیے استعمال ہونے والے عربی لفظ 'رفق' کا مادہ (روٹ) کیا ہے، اور اس سے ملتے جلتے کون سے دوسرے الفاظ بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["HEA-02-1A_chunk_0006", "HEA-02-1A_chunk_0007", "HEA-02-1A_chunk_0008"],
+    "note": "Fact verified directly against the transcript (segments 12-18: root ر ف ق; related words رفیق/companion, مرفق/comfort). gold_chunk_ids backfilled 2026-09-24 after grading the RAG pipeline run: chunk_0006 gives the root (را،فا،قاف) and رفق's own meaning; chunk_0007 gives رافقہ; chunk_0008 gives رفیق، مرفق، مرتفق. Confirmed by reading the chunk text directly (not inferred from a model's claim) and cross-checked against qwen3.5-9b-mlx's correct_grounded answer citing exactly these three chunks."
+  },
+  {
+    "question_id": "Q52",
+    "question": "According to the lecturer, what is the Arabic root of the word 'rifq' (gentleness), and what related words are given from the same root?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["HEA-02-1A_chunk_0006", "HEA-02-1A_chunk_0007", "HEA-02-1A_chunk_0008"],
+    "note": "Cross-lingual variant of Q51 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24, same chunks as Q51 (see Q51 note)."
+  },
+  {
+    "question_id": "Q73",
+    "question": "لیکچرر کے مطابق بخاری اور مسلم کی روایت میں مومن کی مثال کس چیز سے دی گئی ہے، اور کیوں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["HEA-02-1A_chunk_0010", "HEA-02-1A_chunk_0012", "HEA-02-1A_chunk_0018"],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 21-25: the believer is compared to a plant/crop that the wind keeps bending - it bends but does not break - unlike a rigid person who breaks under pressure). gold_chunk_ids backfilled 2026-09-24: chunk_0010 introduces the plant analogy and names the Bukhari/Muslim hadith; chunk_0012 elaborates the wind/plant imagery (\"زرعی پودے... ہوائیں ہلاتی رہتی ہیں\"); chunk_0018 confirms the Bukhari/Muslim attribution and the firmness-in-belief contrast. Confirmed by reading the chunk text directly and cross-checked against multiple models' correct_grounded answers citing these chunks."
+  },
+  {
+    "question_id": "Q74",
+    "question": "According to the Bukhari and Muslim narration cited by the lecturer, what is the believer compared to, and why?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["HEA-02-1A_chunk_0010", "HEA-02-1A_chunk_0012", "HEA-02-1A_chunk_0018"],
+    "note": "Cross-lingual variant of Q73 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24, same chunks as Q73 (see Q73 note)."
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "question_id": "Q13",
+    "question": "According to the lecture, are both medicine (dawa) and supplication (dua) described as beneficial for healing, or only one of them?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0002",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0002_chunk_0011"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0002_chunk_0011",
+        "SKD_U001_S001_0002_chunk_0047",
+        "SKD_U001_S001_0002_chunk_0048"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecture, both medicine (dawa) and supplication (dua) are described as beneficial for healing. The lecture explicitly states that \"both things are beneficial for healing\" (chunk 0011). It further clarifies that while medicine is a means of healing with Allah's permission, supplication alone can also bring healing (chunk 0047, chunk 0048).\n\n**Citations:**\n[chunk_id=SKD_U001_S001_0002_chunk_0011]\n[chunk_id=SKD_U001_S001_0002_chunk_0047]\n[chunk_id=SKD_U001_S001_0002_chunk_0048]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 9712,
+    "elapsed_seconds": 119.95,
+    "generated_at": "2026-09-23T18:56:17.494633+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked gold chunk_0011 (start 364.76-394.76s): \"دوا بھی ہوتی ہے اور دعا بھی ہوتی ہے دونوں چیزیں شفا کے لئے فائدہ مند ہوتی ہیں\" = 'both medicine and supplication are beneficial for healing' - directly confirms the answer's core claim. Answer also cites chunk_0047 (\"لیکن دوا اللہ کے اذن سے شفا کا باعث بنے گی\" - medicine heals by Allah's permission) which supports the 'medicine is a means of healing with Allah's permission' elaboration. The 'supplication alone can also bring healing' clause is actually substantiated by chunk_0046 (\"محض صرف دعا کرنے سے شفا مل جاتی ہے\") which was sent to the model but not explicitly cited for that sentence - a minor citation-attribution slip (cites 0047/0048 instead of 0046), not a factual error; the underlying claim is true and grounded in the retrieved context."
+  },
+  {
+    "question_id": "Q18",
+    "question": "لیکچر کے مطابق کیا دوا اور دعا دونوں شفا کے لیے فائدہ مند بتائی گئی ہیں، یا صرف ایک؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0002",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0002_chunk_0011"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0002_chunk_0011",
+        "SKD_U001_S001_0002_chunk_0046",
+        "SKD_U001_S001_0002_chunk_0047"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nجی ہاں، لیکچر کے مطابق دوا اور دعا دونوں شفا کے لیے فائدہ مند بتائی گئی ہیں۔ اس بات کی تصدیق chunk_id=SKD_U001_S001_0002_chunk_0011 میں موجود ہے جہاں واضح طور پر بیان کیا گیا ہے کہ \"یعنی دوا بھی ہوتی ہے اور دعا بھی ہوتی ہیں دونوں چیزیں شفا کے لئے فائدہ مند ہوتی ہیں\"۔ اس کے علاوہ chunk_id=SKD_U001_S001_0002_chunk_0046 اور chunk_id=SKD_U001_S001_0002_chunk_0047 میں بھی یہی تعلیم دی گئی ہے کہ \"دعا کو لازم پکڑنا ہے اور دوا بھی کرنی ہے\"۔\n\nChunk IDs:\n- SKD_U001_S001_0002_chunk_0011\n- SKD_U001_S001_0002_chunk_0046\n- SKD_U001_S001_0002_chunk_0047",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 13411,
+    "elapsed_seconds": 151.53,
+    "generated_at": "2026-09-23T18:58:49.021867+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu paired question to Q13, same gold chunk_0011. Answer quotes chunk_0011 verbatim and correctly (\"یعنی دوا بھی ہوتی ہے اور دعا بھی ہوتی ہیں دونوں چیزیں شفا کے لئے فائدہ مند ہوتی ہیں\") and paraphrases chunk_0047 (\"دعا کو لازم پکڑنا ہے اور دوا بھی کرنی ہے\" - hold to dua and also take dawa) correctly, attributing it to chunk_0046/0047 (the phrase is literally in 0047, 0046 is the immediately preceding sentence leading into it - close but harmless). Matches gold and source text; correctly answers 'both, not only one'."
+  },
+  {
+    "question_id": "Q14",
+    "question": "What does the lecturer say about the rituals of Hajj, such as Ihram or the stoning at Jamarat?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0002",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question. The retrieved excerpts discuss topics related to Ruqyah (spiritual healing), the importance of words and vibration in illness, specific stories about companions seeking healing from a snake bite or blindness, and the four remedies for sickness (Dua, Dawa, Dam, and Dana). There is no mention of the rituals of Hajj, Ihram, or stoning at Jamarat.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 63.6,
+    "generated_at": "2026-09-23T18:59:52.629549+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Verified by grepping all 78 chunks in artifacts/rag/index/SKD_U001_S001_0002/chunks.json for احرام/رمی/جمرات/حج/Ihram/Jamarat/Hajj - zero hits. The lecture is entirely about Quranic shifa (healing), consistent with the gold note. Model correctly declined with the required refusal string and accurately summarized what the retrieved chunks actually cover instead (ruqyah, dua/dawa/dam/dana) rather than fabricating a Hajj answer."
+  },
+  {
+    "question_id": "Q19",
+    "question": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0002",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 3278,
+    "elapsed_seconds": 84.48,
+    "generated_at": "2026-09-23T19:01:17.110662+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Urdu paired question to Q14. Same verification (no Hajj-ritual vocabulary anywhere in the 78-chunk index). Model correctly refused with the exact required sentence, no citations fabricated."
+  }
+]

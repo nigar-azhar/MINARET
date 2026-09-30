@@ -1,0 +1,1024 @@
+[
+  {
+    "slug": "Self_Accountability_Muhasabah",
+    "name_en": "Self-Accountability (Muhasabah)",
+    "description_en": "Evaluating one's own actions, recognizing personal flaws, and taking responsibility for self-improvement.",
+    "series": [
+      "TQ2005",
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Intellect_Aql",
+    "name_en": "Intellect ('Aql)",
+    "description_en": "Intellect as a divine trust and test, the faculty distinguishing humans from animals, and purposeful living.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Calling_to_Good_Da_wah",
+    "name_en": "Calling to Good (Da'wah)",
+    "description_en": "Guiding others towards virtue, sharing beneficial reminders, and earning reward equal to the doer.",
+    "series": [
+      "TQ2005",
+      "HAJJLT22",
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "The_Hereafter_Akhirah",
+    "name_en": "The Hereafter (Akhirah)",
+    "description_en": "Contrasting temporary worldly assistance with everlasting salvation in the Akhirah.",
+    "series": [
+      "TQ2005",
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Internalization_of_Knowledge_Ilm_wa_Amal",
+    "name_en": "Internalization of Knowledge ('Ilm wa 'Amal)",
+    "description_en": "The necessity of digesting and practicing knowledge rather than merely accumulating passive information.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Minding_One_s_Affairs_Tark_Ma_La_Ya_nih",
+    "name_en": "Minding One's Affairs (Tark Ma La Ya'nih)",
+    "description_en": "Excellence in faith demonstrated by self-restraint and avoiding unnecessary interference in what does not concern one.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Prayer_and_Discipline_Salah",
+    "name_en": "Prayer and Discipline (Salah)",
+    "description_en": "Straightening and aligning rows in prayer as an integral element of worship and communal order.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Moral_Example_and_Accountability_Qudwah",
+    "name_en": "Moral Example and Accountability (Qudwah)",
+    "description_en": "Living as an embodiment of Islamic values before society while maintaining consciousness of divine watch.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Majesty_of_the_Quran_Azmat_e_Quran",
+    "name_en": "Majesty of the Quran (Azmat-e-Quran)",
+    "description_en": "The transcendent weight, solemnity, and decisive nature of divine revelation.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Revelation_and_Descent_Wahy_wa_Inzal",
+    "name_en": "Revelation and Descent (Wahy wa Inzal)",
+    "description_en": "The historical timeframe, angel of revelation, and linguistic conveyance in clear Arabic.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Dialogue_with_People_of_the_Book_Mukalamah",
+    "name_en": "Dialogue with People of the Book (Mukalamah)",
+    "description_en": "Establishing common grounds in communication and acknowledging prior scriptures.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Miraculous_Nature_of_the_Quran_I_jaz",
+    "name_en": "Miraculous Nature of the Quran (I'jaz)",
+    "description_en": "Textual invariance across fourteen centuries and alignment with scientific realities.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Compilation_and_Scribing_Jam_wa_Kitabat",
+    "name_en": "Compilation and Scribing (Jam' wa Kitabat)",
+    "description_en": "The roles of scribes of revelation, Abu Bakr's compilation, and Uthman's official codices.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Oral_Tradition_and_Recitation_Qira_at",
+    "name_en": "Oral Tradition and Recitation (Qira'at)",
+    "description_en": "The preservation of phonetics, tajweed, and oral transmission alongside calligraphy.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Comprehension_and_Contemplation_Fahm_wa_Tadabbur",
+    "name_en": "Comprehension and Contemplation (Fahm wa Tadabbur)",
+    "description_en": "Direct engagement with the text, leveraging linguistic affinity with Urdu, and daily practice.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Divine_Mercy_and_Compassion_Rahmah",
+    "name_en": "Divine Mercy and Compassion (Rahmah)",
+    "description_en": "The invocation of Allah's name and His attributes of all-encompassing Mercy (Ar-Rahman, Ar-Rahim).",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Praise_and_Divine_Sovereignty_Hamd_wa_Rububiyyah",
+    "name_en": "Praise and Divine Sovereignty (Hamd wa Rububiyyah)",
+    "description_en": "All absolute praise belonging to Allah, the Lord and Sustainer of all creations and realms.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "The_Day_of_Recompense_Yawm_ad_Din",
+    "name_en": "The Day of Recompense (Yawm ad-Din)",
+    "description_en": "Affirmation of Allah's absolute ownership and judgment on the Day of Resurrection and accountability.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Exclusive_Worship_and_Reliance_Tawhid_al_Ibadah",
+    "name_en": "Exclusive Worship and Reliance (Tawhid al-'Ibadah)",
+    "description_en": "Direct covenant reserving all acts of worship and ultimate reliance to Allah alone.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Seeking_the_Straight_Path_Al_Hidayah",
+    "name_en": "Seeking the Straight Path (Al-Hidayah)",
+    "description_en": "Supplication for divine guidance to the straight path trodden by the blessed, avoiding divine wrath and astray paths.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Idiomatic_Translation_and_Word_Analysis_Tafhim_al_Alfaz",
+    "name_en": "Idiomatic Translation and Word Analysis (Tafhim al-Alfaz)",
+    "description_en": "Sentence-level meaning of Surah Al-Fatihah, grammatical particles (lam, wa), and roots of core vocabulary.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "The_Meaning_of_Ad_Din_and_Divine_Judgment_Al_Jaza",
+    "name_en": "The Meaning of Ad-Din and Divine Judgment (Al-Jaza')",
+    "description_en": "Examining the specific Quranic usage of 'Ad-Din' as retribution, recompense, and accountability on the Last Day.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Active_Self_Testing_and_Memorization_Discipline_Hifz_wa_Tamrin",
+    "name_en": "Active Self-Testing and Memorization Discipline (Hifz wa Tamrin)",
+    "description_en": "Techniques for learning vocabulary independently, shielding translations to test recall, and group recitation standards.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Sincerity_Willpower_and_Overcoming_Learning_Barriers_Al_Ikhlas",
+    "name_en": "Sincerity, Willpower, and Overcoming Learning Barriers (Al-Ikhlas)",
+    "description_en": "The transformative miracle of the Quran across ages, language backgrounds, and the role of sincere intention.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Jurisprudence_of_Recitation_and_Handling_the_Mushaf_Ahkam_al_Mushaf",
+    "name_en": "Jurisprudence of Recitation and Handling the Mushaf (Ahkam al-Mushaf)",
+    "description_en": "Rulings on reciting without touching the Mushaf during menses, using barriers/gloves, and distinguishing menses from junub.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Etymology_and_Root_Words_of_Divine_Names_Ishtiq_q",
+    "name_en": "Etymology and Root-Words of Divine Names (Ishtiqāq)",
+    "description_en": "Linguistic derivation of Bism, Allah, Ar-Rahman, Ar-Rahim, and the superlative weight of Fa'lan.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "The_Experience_and_Reality_of_Hamd_Haqiqat_al_Hamd",
+    "name_en": "The Experience and Reality of Hamd (Haqiqat al-Hamd)",
+    "description_en": "Hamd as an innate spiritual experience of awe, contemplation of human creation, and universal praise.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Divine_Nurturing_and_Cosmic_Lordship_Ar_Rububiyyah",
+    "name_en": "Divine Nurturing and Cosmic Lordship (Ar-Rububiyyah)",
+    "description_en": "Gradual elevation of creation from nothingness to perfection, maternal care, and the sign of 'Alam.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "The_Essence_of_Worship_Humility_and_Love_Al_Ibadah",
+    "name_en": "The Essence of Worship: Humility and Love (Al-'Ibadah)",
+    "description_en": "The lexical definition of 'Ubudiyyah combining total submission (Khudu') and utmost love (Kamal al-Hubb).",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Exclusive_Reliance_and_Divine_Guidance_Al_Isti_anah_wal_Hidayah",
+    "name_en": "Exclusive Reliance and Divine Guidance (Al-Isti'anah wal-Hidayah)",
+    "description_en": "Seeking help solely from Allah and navigating the threefold stages of Hidayah: pathfinding, traversing, and arriving.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "The_Straight_Path_and_the_Trial_of_the_Pul_Sirat_As_Sirat",
+    "name_en": "The Straight Path and the Trial of the Pul-Sirat (As-Sirat)",
+    "description_en": "The earthly and heavenly bridges of Sirat, satanic detours, steadfastness, and avoiding the paths of wrath and error.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Virtues_and_Unique_Status_of_Surah_Al_Fatihah_Fada_il_al_Fatihah",
+    "name_en": "Virtues and Unique Status of Surah Al-Fatihah (Fada'il al-Fatihah)",
+    "description_en": "Revelation of the two lights, greatest Surah, cure (Shifa), and mother of the book (Umm al-Kitab).",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Isti_adhah_Protection_from_Whispers_Al_Isti_adhah",
+    "name_en": "Isti'adhah: Protection from Whispers (Al-Isti'adhah)",
+    "description_en": "Seeking divine sanctuary from Satan upon commencing recitation and understanding demonic vulnerability.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Reliance_on_Allah_vs_Material_Causes_At_Tawakkul",
+    "name_en": "Reliance on Allah vs Material Causes (At-Tawakkul)",
+    "description_en": "True reliance versus mere reliance on material means and beginning all affairs with the Basmalah.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "The_Station_and_Multiplied_Rewards_of_Hamd_Al_Hamd",
+    "name_en": "The Station and Multiplied Rewards of Hamd (Al-Hamd)",
+    "description_en": "Filling the scales of judgment, gratitude for visible and concealed blessings, and post-ruku' praise.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Divine_Sovereignty_on_the_Day_of_Judgment_Malik_Yawm_ad_Din",
+    "name_en": "Divine Sovereignty on the Day of Judgment (Malik Yawm ad-Din)",
+    "description_en": "Accountability, the absolute manifestation of divine kingship, and retribution on the Last Day.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "The_Covenant_of_Worship_and_the_Hadith_of_Dividing_Salah_Al_Ahd",
+    "name_en": "The Covenant of Worship and the Hadith of Dividing Salah (Al-'Ahd)",
+    "description_en": "The sacred dialogue between Allah and the servant in prayer through Surah Al-Fatihah.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "The_Spiritual_Map_Sirat_al_Mustaqim_and_Human_Categories_As_Sirat",
+    "name_en": "The Spiritual Map: Sirat al-Mustaqim and Human Categories (As-Sirat)",
+    "description_en": "The righteous path of prophets and martyrs contrasted with knowledge without action and action without knowledge.",
+    "series": [
+      "TQ2005"
+    ]
+  },
+  {
+    "slug": "Virtues_of_Hajj_and_Umrah",
+    "name_en": "Virtues of Hajj and Umrah",
+    "description_en": "Expiation of sins through consecutive Umrahs and the guaranteed reward of Paradise (Jannah) for an accepted Hajj (Hajj Mabroor).",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Sincerity_in_Worship_Ikhlas",
+    "name_en": "Sincerity in Worship (Ikhlas)",
+    "description_en": "Fulfilling pilgrimage rites purely for the pleasure and approval of Allah, guarding against ostentation, fame, and double intentions.",
+    "series": [
+      "HAJJLT22",
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Charity_Sadaqah",
+    "name_en": "Charity (Sadaqah)",
+    "description_en": "Distributing monetary charity and sharing food and Zamzam with pilgrims in need.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Ihsan",
+    "name_en": "Ihsan",
+    "description_en": "Going beyond the minimum for fellow pilgrims -- caring for the elderly and gifting authentic educational literature.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Seeking_Forgiveness_Istighfar_Tawbah",
+    "name_en": "Seeking Forgiveness (Istighfar & Tawbah)",
+    "description_en": "Maintaining constant repentance morning and evening, reflecting upon personal shortcomings, and adhering to the Prophetic tradition of istighfar.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Patience_Sabr",
+    "name_en": "Patience (Sabr)",
+    "description_en": "Enduring travel hardships with emotional resilience and remaining steadfast in obedience.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "God_Consciousness_Taqwa",
+    "name_en": "God-Consciousness (Taqwa)",
+    "description_en": "Refraining from arguments and staying conscious of Allah's watchfulness at every moment.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "The_Islamic_Will_Al_Wasiyyah",
+    "name_en": "The Islamic Will (Al-Wasiyyah)",
+    "description_en": "The legal and spiritual necessity of drafting a binding Islamic will to settle all debts and moral responsibilities before departing.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Supplication_in_Islam_Ad_Du_a",
+    "name_en": "Supplication in Islam (Ad-Du'a)",
+    "description_en": "Engaging in continuous supplication, systematically compiling spiritual and life goals into a dedicated personal du'a diary.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Seeking_Islamic_Knowledge_Talab_al_Ilm",
+    "name_en": "Seeking Islamic Knowledge (Talab al-'Ilm)",
+    "description_en": "Preparing for worship through authentic Quranic and Sunnah knowledge, personal day-planners, and studying verified religious guides.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Obligation_of_Hajj_Fardiyyat_al_Hajj",
+    "name_en": "Obligation of Hajj (Fardiyyat al-Hajj)",
+    "description_en": "The doctrinal status of Hajj as an indispensable pillar of Islam incumbent once in a lifetime upon capable individuals.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Hastening_to_Good_Deeds_Al_Mubadarah_ilal_Khayrat",
+    "name_en": "Hastening to Good Deeds (Al-Mubadarah ilal-Khayrat)",
+    "description_en": "Performing obligatory Hajj promptly without delaying for marriage, worldly accumulation, or old age, given life's uncertainties.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Historical_Origins_of_Hajj",
+    "name_en": "Historical Origins of Hajj",
+    "description_en": "The establishment of Baitullah by angels during the time of Adam A.S. and its reconstruction by Ibrahim and Ismail.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Sanctity_and_Virtues_of_Makkah",
+    "name_en": "Sanctity and Virtues of Makkah",
+    "description_en": "The sacred status of Makkah as Al-Balad al-Amin, its blessings, security, and multiplication of rewards.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Excellence_and_Rewards_of_Pilgrimage",
+    "name_en": "Excellence and Rewards of Pilgrimage",
+    "description_en": "The spiritual superiority of Hajj, expiation of past sins, removal of poverty, and being counted among Allah's delegations.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Monotheism_and_Sincerity_Tawheed",
+    "name_en": "Monotheism and Sincerity (Tawheed)",
+    "description_en": "Foundational establishment of pure Tawheed at the Kaaba, shunning all forms of idolatry and shirk.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Sanctity_and_Cleanliness_of_Sacred_Spaces_Taharah",
+    "name_en": "Sanctity and Cleanliness of Sacred Spaces (Taharah)",
+    "description_en": "Inward spiritual purification from sins and outward cleanliness of the House of Allah for worshippers.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Supplication_Du_a",
+    "name_en": "Supplication (Du'a)",
+    "description_en": "The necessity of accompanying da'wah with sincere prayer for those being called.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Ease_and_Moderation_in_Worship_Rifq_Yusr",
+    "name_en": "Ease and Moderation in Worship (Rifq & Yusr)",
+    "description_en": "Avoiding self-imposed hardship and utilizing permissible conveyances in religious devotion.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Remembrance_of_Allah_Dhikrullah",
+    "name_en": "Remembrance of Allah (Dhikrullah)",
+    "description_en": "Continuous glorification of Allah during the first ten days of Dhul-Hijjah and the days of Tashreeq.",
+    "series": [
+      "HAJJLT22",
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Sacrifice_Hady",
+    "name_en": "Sacrifice (Hady)",
+    "description_en": "Ritual slaughter of sacrificial livestock during Hajj.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Feeding_the_Needy_Sadaqah",
+    "name_en": "Feeding the Needy (Sadaqah)",
+    "description_en": "The mandate to feed the destitute and impoverished from the sacrifice.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Fulfilling_Vows_and_Legal_Pledges_Al_Wafa_bil_Nadhr",
+    "name_en": "Fulfilling Vows and Legal Pledges (Al-Wafa bil-Nadhr)",
+    "description_en": "The mandatory fulfillment of personal religious vows undertaken for the sake of Allah.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Veneration_of_Divine_Symbols_Ta_dheem_Sha_air_Allah",
+    "name_en": "Veneration of Divine Symbols (Ta'dheem Sha'air Allah)",
+    "description_en": "Honoring sacred places, sacrificial beasts, and pilgrimage ordinances as evidence of piety in the heart.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Truthfulness_Sidq",
+    "name_en": "Truthfulness (Sidq)",
+    "description_en": "The virtue and command of speaking truthfully.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Avoiding_Falsehood_Ijtinab_az_Zoor",
+    "name_en": "Avoiding Falsehood (Ijtinab az-Zoor)",
+    "description_en": "Strict prohibition of mendacity, deceit, and false testimony, alongside the denunciation of idols.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Jurisprudence_of_Pilgrimage_Modalities_Fiqh_al_Hajj",
+    "name_en": "Jurisprudence of Pilgrimage Modalities (Fiqh al-Hajj)",
+    "description_en": "Legal criteria, timelines, and procedural distinctions between Hajj Tamattu', Qiran, and Ifrad.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Prophetic_Authority_and_Ritual_Adherence_Manasik",
+    "name_en": "Prophetic Authority and Ritual Adherence (Manasik)",
+    "description_en": "The command of Rasulullah to learn pilgrimage rites directly from his practice without human innovation.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Sincerity_and_Exclusivity_of_Devotion_Ikhlas",
+    "name_en": "Sincerity and Exclusivity of Devotion (Ikhlas)",
+    "description_en": "Undertaking pilgrimage solely for the pleasure of Allah, completely free of ostentation, pride, or worldly gain.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Jurisprudence_of_Ihsar_Impediments_to_Pilgrimage",
+    "name_en": "Jurisprudence of Ihsar (Impediments to Pilgrimage)",
+    "description_en": "Rules governing pilgrims prevented from completing Hajj or Umrah due to sickness, injury, or hostility.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Sacrificial_Animals_and_Fidya_for_Violations_Hady_Kaffarah",
+    "name_en": "Sacrificial Animals and Fidya for Violations (Hady & Kaffarah)",
+    "description_en": "Compensatory ransoms of fasting, charity, or sacrifice for shaving or committing unavoidable Ihram infractions.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Pilgrimage_Modalities_and_Fasting_Expiation_Tamattu_Siyam",
+    "name_en": "Pilgrimage Modalities and Fasting Expiation (Tamattu' & Siyam)",
+    "description_en": "The legitimacy of Hajj Tamattu' and the substitution of ten fasts when sacrificial livestock cannot be procured.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Etiquettes_and_Prohibitions_of_Pilgrimage_Ijtinab_ar_Rafath_wal_Fusuq",
+    "name_en": "Etiquettes and Prohibitions of Pilgrimage (Ijtinab ar-Rafath wal-Fusuq)",
+    "description_en": "Strict prohibition of obscenity, sinful misconduct, and contentious disputes throughout the sacred journey.",
+    "series": [
+      "HAJJLT22"
+    ]
+  },
+  {
+    "slug": "Gratitude_Shukr",
+    "name_en": "Gratitude (Shukr)",
+    "description_en": "Gratitude for Islam, life and health, and using health for worship and service.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Supplication_and_reliance_on_Allah",
+    "name_en": "Supplication and reliance on Allah",
+    "description_en": "Combining treatment with supplication, reliance and humility before Allah.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Names_and_attributes_of_Allah",
+    "name_en": "Names and attributes of Allah",
+    "description_en": "Divine nearness and response to prayer, as explained through Al-Qarib and Al-Mujib.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Supplication_as_worship",
+    "name_en": "Supplication as worship",
+    "description_en": "Distinguishing worship from asking for needs, and recognizing dependence on Allah.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Supplication_and_humility",
+    "name_en": "Supplication and humility",
+    "description_en": "Creation and the prophets ask Allah; arrogance prevents supplication.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Obedience_and_certainty_of_faith",
+    "name_en": "Obedience and certainty of faith",
+    "description_en": "Connecting acceptance of supplication with obedience and trust in Allah.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Oneness_of_Allah_Tawhid",
+    "name_en": "Oneness of Allah (Tawhid)",
+    "description_en": "The lecturer argues for directing supplication to Allah alone and critiques appeals to the dead.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Knowledge_of_Allah_and_certainty",
+    "name_en": "Knowledge of Allah and certainty",
+    "description_en": "Strengthening faith through Quran, divine names, reflection on creation and good company.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Hope_and_perseverance_in_supplication",
+    "name_en": "Hope and perseverance in supplication",
+    "description_en": "Avoiding heedlessness and despair while persisting in prayer and accepting different outcomes.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Healing_and_supplication",
+    "name_en": "Healing and supplication",
+    "description_en": "The prayer of Ayyub and the lecturer’s discussion of prayer alongside treatment.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Contentment_and_etiquette_of_supplication",
+    "name_en": "Contentment and etiquette of supplication",
+    "description_en": "Accepting Allah’s decisions, sincerity, humility, persistence and lawful provision.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Good_speech_and_ruqyah",
+    "name_en": "Good speech and ruqyah",
+    "description_en": "Encouraging constructive speech and recitation rather than discouraging the sick.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Good_expectations_and_protection_from_whisperings",
+    "name_en": "Good expectations and protection from whisperings",
+    "description_en": "Discussion of negative thoughts, harmful speech, hope and Quranic recitation.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Supplication_and_visiting_the_sick",
+    "name_en": "Supplication and visiting the sick",
+    "description_en": "Occasions for supplication and the instruction to speak good near the sick or deceased.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Linguistic_and_Conceptual_Definition_of_Shifa",
+    "name_en": "Linguistic and Conceptual Definition of Shifa",
+    "description_en": "Etymological and practical meanings of Shifa (healing/cure) and its contrast with literal boundaries.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Quranic_Verses_on_Healing_Shifa",
+    "name_en": "Quranic Verses on Healing (Shifa)",
+    "description_en": "Detailed examination of the six Quranic references mentioning Shifa in various contexts.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Al_Shafi_The_Divine_Attribute_of_Healing",
+    "name_en": "Al-Shafi: The Divine Attribute of Healing",
+    "description_en": "Understanding Allah as Al-Shafi, recognizing that true healing comes exclusively from Him.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Spiritual_Remedies_and_the_Power_of_Remembrance",
+    "name_en": "Spiritual Remedies and the Power of Remembrance",
+    "description_en": "The impact of Quranic recitation, dhikr, and positive mental/spiritual conditioning on health and disease.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Prophetic_Examples_of_Shifa_Through_Du_a",
+    "name_en": "Prophetic Examples of Shifa Through Du'a",
+    "description_en": "Examples of healing without material medicine from the lives of Ayyub, Ya'qub, Zakariyya, and prophetic traditions.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "The_Distressed_Supplicant_Al_Mudhtarr",
+    "name_en": "The Distressed Supplicant (Al-Mudhtarr)",
+    "description_en": "Definition of Al-Mudhtarr (the distressed) and how sincere du'a in extreme hardship invokes divine relief.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Trials_as_Means_of_Purification_and_Sincerity",
+    "name_en": "Trials as Means of Purification and Sincerity",
+    "description_en": "Understanding why Allah tests believers with hardships to strip away reliance on others and foster pure sincerity (ikhlas).",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Blessings_and_Expiation_of_Sins_in_Illness",
+    "name_en": "Blessings and Expiation of Sins in Illness",
+    "description_en": "How physical and mental sufferings, even a prick of a thorn or fever, serve as expiation for sins and elevate ranks.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Patience_and_the_Sunnah_Du_a_upon_Calamity",
+    "name_en": "Patience and the Sunnah Du'a upon Calamity",
+    "description_en": "The etiquettes of reacting to calamities with 'Inna Lillahi wa inna ilaihi raji'un' and seeking a better substitute from Allah.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Acceptance_of_Divine_Decree_and_Contentment_Rida",
+    "name_en": "Acceptance of Divine Decree and Contentment (Rida)",
+    "description_en": "Embracing trials with absolute trust, avoiding despair, and recognizing tests as part of the earthly trial (Dar al-Imtihan).",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Hamd_and_Shukr_in_Times_of_Affliction",
+    "name_en": "Hamd and Shukr in Times of Affliction",
+    "description_en": "Praising and thanking Allah in every circumstance, viewing trials as disguised mercies rather than burdens.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "The_Four_Spiritual_Stations_of_Calamity",
+    "name_en": "The Four Spiritual Stations of Calamity",
+    "description_en": "Categorization of human responses to hardship: discontentment, patience (sabr), contentment (rida), and gratitude (shukr).",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Inner_Nature_of_Hamd_and_Sincere_Love_for_Allah",
+    "name_en": "Inner Nature of Hamd and Sincere Love for Allah",
+    "description_en": "Understanding hamd as praise rooted in deep love, gratitude, and recognition of the Benefactor (Al-Mun'im).",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Psychological_and_Neurobiological_Benefits_of_Gratitude",
+    "name_en": "Psychological and Neurobiological Benefits of Gratitude",
+    "description_en": "The healing effects of active gratitude journaling, positive self-talk, and brain re-wiring via Hebbian learning.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Tasbeeh_and_Divine_Transcendence_in_Tribulations",
+    "name_en": "Tasbeeh and Divine Transcendence in Tribulations",
+    "description_en": "How glorification (subhan Allah wa bihamdihi) removes anxiety and brings deliverance, illustrated by Prophet Yunus and the celestial hosts.",
+    "series": [
+      "SKD2025"
+    ]
+  },
+  {
+    "slug": "Authority_and_Preservation_of_Sunnah_Hujjiyyat_wa_Tadwin_al_Hadith",
+    "name_en": "Authority and Preservation of Sunnah / Hujjiyyat wa Tadwin al-Hadith",
+    "description_en": "The theological status of the Prophet's Sunnah as divine revelation (Wahy Ghayr Matlu), the living Quran, and the historical reality of its written preservation from the Prophetic era.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Morals_and_Ethics_Husn_al_Khuluq",
+    "name_en": "Morals and Ethics / Husn al-Khuluq",
+    "description_en": "The linguistic and spiritual foundation of moral character, emphasizing that outward conduct is the reflection of internal taqwa and loving for others what one loves for oneself.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Prophetic_Exemplar_Uswah_Hasanah",
+    "name_en": "Prophetic Exemplar / Uswah Hasanah",
+    "description_en": "The sublime moral perfection of Prophet Muhammad as witnessed by his companions, servant Zayd ibn Harithah, and family.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Companions_of_the_Prophet_Sahabah",
+    "name_en": "Companions of the Prophet / Sahabah",
+    "description_en": "The life, profound dedication to Hadith, piety, filial devotion, and poverty of Abu Hurairah under the Prophet's tutelage.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Filial_Piety_Birr_al_Walidayn",
+    "name_en": "Filial Piety / Birr al-Walidayn",
+    "description_en": "Devotion, daily supplication, respectful manners, and service towards parents even when faced with religious opposition.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "The_Scales_of_Judgment_Mizan",
+    "name_en": "The Scales of Judgment / Mizan",
+    "description_en": "Good character weighing heavier than any deed on the Scales of the Hereafter, elevating a believer to the rank of those who continuously fast and pray.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Supplication_for_Good_Character_Du_a_Husn_al_Khuluq",
+    "name_en": "Supplication for Good Character (Du'a Husn al-Khuluq)",
+    "description_en": "Contemplating inner spiritual beauty alongside physical appearance through the consistent practice of the mirror supplication.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Linguistic_Roots_and_Essence_of_Gentleness_Al_Rifq",
+    "name_en": "Linguistic Roots and Essence of Gentleness (Al-Rifq)",
+    "description_en": "Detailed analysis of the root Ra-Fa-Qaf, signifying compassion, ease, assistance, mutual friendship, and pleasant companionship.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "The_Parable_of_the_Believer_and_Ethical_Resilience",
+    "name_en": "The Parable of the Believer and Ethical Resilience",
+    "description_en": "The prophetic metaphor comparing the believer to an adaptable plant bending gracefully under life's storms without snapping.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Curbing_Pride_Ego_and_Obstinacy_Takabbur_wa_al_Ana",
+    "name_en": "Curbing Pride, Ego, and Obstinacy (Takabbur wa al-Ana)",
+    "description_en": "Overcoming relational rigidity, stubborn self-righteousness, and recognizing supreme greatness solely for Allah.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Awakening_Moral_Conscience_Through_Gentleness",
+    "name_en": "Awakening Moral Conscience Through Gentleness",
+    "description_en": "Choosing gentle responses to disarm adversaries and stimulate personal conscience rather than instigating arrogant defense.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Prophetic_Gentleness_in_Da_wah_and_Interpersonal_Ties",
+    "name_en": "Prophetic Gentleness in Da'wah and Interpersonal Ties",
+    "description_en": "Reflecting on Surah Ali 'Imran:159 detailing how divine mercy made the Prophet gentle, attracting hearts toward Islam.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Humility_Tawadu_and_Lowering_the_Wings_of_Mercy",
+    "name_en": "Humility (Tawadu') and Lowering the Wings of Mercy",
+    "description_en": "Quranic mandate to lower one's wings in kindness towards disciples, juniors, and maintaining warmth across all social tiers.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Domestic_Harmony_and_Family_Prosperity_Through_Rifq",
+    "name_en": "Domestic Harmony and Family Prosperity Through Rifq",
+    "description_en": "Authentic Hadith of Aisha (RA) declaring that when Allah intends goodness for a household, He infuses gentleness among them.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Virtues_and_Scholarly_Eminence_of_Mother_of_the_Believers_Aisha_RA",
+    "name_en": "Virtues and Scholarly Eminence of Mother of the Believers Aisha (RA)",
+    "description_en": "Highlighting Aisha's legal jurisprudence, inheritance expertise, medicine, memory, and unparalleled charity.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Spiritual_Forfeiture_Incurred_by_Lacking_Gentleness",
+    "name_en": "Spiritual Forfeiture Incurred by Lacking Gentleness",
+    "description_en": "Prophetic traditions warning that being deprived of gentleness is synonymous with being barred from all comprehensive goodness.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Prophetic_Forbearance_Hilm_in_Responding_to_Hostility",
+    "name_en": "Prophetic Forbearance (Hilm) in Responding to Hostility",
+    "description_en": "The Prophet's dignified composure in answering the verbal abuse of the Jews, enjoining gentleness and forbidding obscenity.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Immunity_from_Hellfire_for_the_Lenient_and_Gentle_Believer",
+    "name_en": "Immunity from Hellfire for the Lenient and Gentle Believer",
+    "description_en": "Canonical tradition from Ibn Mas'ud affirming that Jahannam is forbidden for every accessible, gentle, and accommodating person.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Purifying_the_Soul_from_Vices_Tazkiyat_al_Nafs",
+    "name_en": "Purifying the Soul from Vices (Tazkiyat al-Nafs)",
+    "description_en": "The profound personal struggle required to purge deep-seated vices and bad habits from oneself, needing sustained effort and divine aid.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Ontology_and_Linguistic_Definition_of_Injustice_Al_Zulm",
+    "name_en": "Ontology and Linguistic Definition of Injustice (Al-Zulm)",
+    "description_en": "Linguistic root and theological reality of Zulm as placing something outside its rightful place, darkness, and exceeding boundaries.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "The_Prohibition_of_Injustice_in_Sacred_Texts_Tahrim_al_Zulm",
+    "name_en": "The Prohibition of Injustice in Sacred Texts (Tahrim al-Zulm)",
+    "description_en": "Quranic condemnations of oppressors and the solemn Hadith Qudsi where Allah declares injustice forbidden upon Himself and His servants.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Exemplary_Companionship_Biography_and_Conversion_of_Abu_Dharr_RA",
+    "name_en": "Exemplary Companionship: Biography and Conversion of Abu Dharr (RA)",
+    "description_en": "Historical account of Abu Dharr al-Ghifari's truth-seeking journey from Banu Ghifar to Makkah, early conversion, and unyielding courage.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Asceticism_Zuhd_and_Universal_Divine_Justice_Adl",
+    "name_en": "Asceticism (Zuhd) and Universal Divine Justice (Adl)",
+    "description_en": "The detached lifestyle of Abu Dharr (RA) in al-Rabadhah contrasted with the cosmos operating upon pristine, balanced justice.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Categories_of_Injustice_Physical_Abuse_and_Emotional_Torture",
+    "name_en": "Categories of Injustice: Physical Abuse and Emotional Torture",
+    "description_en": "Analysis of verbal abuse, character assassination, backbiting, ridicule, and psychological harm as severe forms of oppression.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Fulfilling_Mutual_Rights_and_Maintaining_Family_Balance",
+    "name_en": "Fulfilling Mutual Rights and Maintaining Family Balance",
+    "description_en": "Synthesizing parental rights with spousal obligations without imbalance, unjustified favoritism, or coercive ultimatums.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Invasion_of_Privacy_Breach_of_Duty_and_Time_Theft",
+    "name_en": "Invasion of Privacy, Breach of Duty, and Time Theft",
+    "description_en": "Treating meddling in others' personal space, abandoning primary vocational duties, and carelessly wasting people's valuable time as injustice.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  },
+  {
+    "slug": "Personal_Hygiene_Resource_Stewardship_and_Eschatological_Accounting",
+    "name_en": "Personal Hygiene, Resource Stewardship, and Eschatological Accounting",
+    "description_en": "Nuisance caused by foul odors, wastage of communal resources, and the inevitability of surrendering good deeds on the Day of Resurrection.",
+    "series": [
+      "HUSN_AKHL"
+    ]
+  }
+]

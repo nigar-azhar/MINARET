@@ -1,0 +1,604 @@
+[
+  {
+    "question_id": "Q1",
+    "question": "قرآن میں ابراہیم علیہ السلام کی کونسی آیت شفا کے بارے میں بیان کی گئی ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0001_chunk_0006"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 3,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0006",
+        "SKD_U001_S001_0002_chunk_0015",
+        "SKD_U001_S001_0002_chunk_0020"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "قرآن مجید میں ابراہیم علیہ السلام کا قول جو شفا کے بارے میں بیان کیا گیا ہے وہ ہے: وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ (یا وَإِذَا مَرِضْتُ فَهُوَيَشْفِينَ) [chunk_id=SKD_U001_S001_0002_chunk_0020, chunk_id=SKD_U001_S001_0002_chunk_0015, chunk_id=SKD_U001_S001_0001_chunk_0006]۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1418,
+    "elapsed_seconds": 46.05,
+    "generated_at": "2026-09-24T09:18:47.485375+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked all 4 sent chunks. The answer quotes Ibrahim's Quranic verse (وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ) which is verbatim confirmed in chunk_0002_0020, chunk_0002_0015, and the gold chunk_0001_0006 (all three lecture parts state the same verse). Series-scope pulled in two supporting chunks from lecture 0002 (a different lecture part than the gold 0001) that happen to be a continuation of the same dua/shifa topic and even add the Surah name/number (Al-Shu'ara 80) -- a beneficial case of cross-lecture pooling, no factual harm."
+  },
+  {
+    "question_id": "Q2",
+    "question": "According to the lecture, who actually does the healing when a person is sick, according to the verse spoken by Prophet Ibrahim (peace be upon him)?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0001_chunk_0006"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0002_chunk_0016"
+      ],
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, when a person is sick, the healing belongs to Allah Almighty (اللہ تعالیٰ کے ہاتھ میں) [chunk_id=SKD_U001_S001_0006]. The speaker notes that Prophet Ibrahim's statement implies that no one provides healing except Him [chunk_id=SKD_U001_S001_0002_chunk_0016].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2079,
+    "elapsed_seconds": 15.7,
+    "generated_at": "2026-09-24T09:19:03.185969+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Claim 'healing belongs to Allah' is directly supported by gold chunk_0001_0006 ('شفا کس کے ہاتھ میں ہے اللہ تعالیٰ کے ہاتھ میں') and reinforced by chunk_0002_0016 ('اس کے سوا کوئی اور شفا نہیں دیتا') pulled in from a DIFFERENT lecture part (0002) via series-scope search -- same topic thread as 0001, so the cross-lecture chunk reinforces rather than distorts the answer. Note: one citation tag in the answer is malformed ('chunk_id=SKD_U001_S001_0006', missing the '_0001_chunk_' segment), which is why the automated citation match shows precision/recall 0.0 despite the underlying content being correctly grounded -- flagging the malformed tag as a data-quality issue distinct from the correctness verdict."
+  },
+  {
+    "question_id": "Q4",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1958,
+    "elapsed_seconds": 13.73,
+    "generated_at": "2026-09-24T09:19:16.916493+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Unanswerable question (adab of Hajj/Umrah). All 4 sent chunks were checked: chunk_0001_0084 (closing dua-sharing remarks), chunk_0003_0071 (mentoring orphans, pooled in from a different, unrelated lecture 0003 via series-scope), chunk_0003_0034 (not having performed Hajj yet), chunk_0001_0052 (gatherings/company). None discuss Hajj/Umrah etiquette, so the exact-refusal answer is correct. Series-scope pooling added lecture-0003 noise here but it did not mislead the model into fabricating content, unlike the Urdu twin question Q16 which used different (also off-topic) lecture-0001 chunks and DID fabricate a substantive answer -- worth noting as a language-conditioned refusal-calibration gap already flagged in Q16's notes."
+  },
+  {
+    "question_id": "Q16",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0026",
+        "SKD_U001_S001_0001_chunk_0027",
+        "SKD_U001_S001_0001_chunk_0028"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "حج اور عمرہ کے بارے میں بتایا گیا ہے کہ:\n\n1.  یہ عبادات اپنے آپ میں ایک طرح سے دعا کا قائم مقام ہیں، جو انسان کی حالت کو درست کر دیں گی [SKD_U001_S001_0001_chunk_0027, SKD_U001_S001_0001_chunk_0028]۔\n2.  ایک حدیث کا حوالہ دیا گیا ہے کہ عمرے پر عمرہ اور حج پر حج کرنے سے فقر دور ہو جاتا ہے اور انسان کی حالت درست ہوتی ہے [SKD_U001_S001_0001_chunk_0027]۔\n\n(یہ عبادات دراصل اللہ کی طرف وسیلہ بناتی ہیں، جس پر ثواب اور اجر ملتا ہے) [SKD_U001_S001_0001_chunk_0026]۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2668,
+    "elapsed_seconds": 19.93,
+    "generated_at": "2026-09-23T20:05:56.764656+00:00",
+    "answer_verdict": "incorrectly_answered",
+    "grader_notes": "Checked cited chunks 0026, 0027, 0028. Chunk_0026 is about worship in general being a means (وسیلہ) to reward; chunk_0027/0028 are the same 'spiritual benefit / removing poverty / duas within Umrah' material as in the Q4 gemma answer. None of this is etiquette/adab content. Same issue as Q4: the model answers substantively (three bullet points) instead of refusing, repackaging general spiritual-benefit content as an answer to an adab question. incorrectly_answered, and notably the model fails to refuse in Urdu even though it also failed to refuse in English (Q4) -- refusal calibration does not hold cross-lingually for this model. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q13",
+    "question": "According to the lecture, are both medicine (dawa) and supplication (dua) described as beneficial for healing, or only one of them?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0002_chunk_0011"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 4,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0065",
+        "SKD_U001_S001_0002_chunk_0011",
+        "SKD_U001_S001_0002_chunk_0047"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "Both medicine (dawa) and supplication (dua) are described as being beneficial for healing.\n\n*   One excerpt states: \"ٹھیک ہے یعنی دوا بھی ہوتی ہے اور دعا بھی ہوتی ہے دونوں چیزیں شفا کے لئے فائدہ مند ہوتی ہیں\" (Yes, there is medicine and there is supplication. Both things are beneficial for healing) [chunk_id=SKD_U001_S001_0002_chunk_0011].\n*   Another excerpt mentions that treatment was of three types: with natural medicines, with divine medicines, and the combination of both, meaning with supplications along with medicines [chunk_id=SKD_U001_S001_0001_chunk_0065].\n*   Additionally, it is advised to \"دعا کو لازم پکڑنا ہے اور دوا بھی کرنی ہے\" (hold fast to supplication and also take medicine) [chunk_id=SKD_U001_S001_0002_chunk_0047].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2010,
+    "elapsed_seconds": 17.94,
+    "generated_at": "2026-09-24T09:19:34.854319+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "All three quoted claims verified against the sent chunks: 'دوا بھی ہوتی ہے اور دعا بھی ہوتی ہے دونوں ... فائدہ مند' matches gold chunk_0002_0011 verbatim; the 'three types of treatment' summary matches chunk_0001_0065 verbatim; 'دعا کو لازم پکڑنا ہے اور دوا بھی کرنی ہے' matches chunk_0002_0047 verbatim. Series-scope pooled in chunk_0001_0065 from a different lecture part (0001) than the gold lecture (0002); it is on-topic (same dua/shifa series) and adds a correct, complementary detail rather than distorting the answer."
+  },
+  {
+    "question_id": "Q18",
+    "question": "لیکچر کے مطابق کیا دوا اور دعا دونوں شفا کے لیے فائدہ مند بتائی گئی ہیں، یا صرف ایک؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0002_chunk_0011"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0002_chunk_0011",
+        "SKD_U001_S001_0002_chunk_0047"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچر کے مطابق، دوا اور دعا دونوں شفا کے لیے فائدہ مند ہیں، نہ کہ صرف ایک۔\n\nاس بات کی تصدیق درج ذیل چنکس سے ہوتی ہے:\n\n*   [chunk_id=SKD_U001_S001_0002_chunk_0011]: یہاں واضح طور پر کہا گیا ہے کہ \"دوا بھی ہوتی ہے اور دعا بھی ہوتی ہے دونوں چیزیں شفا کے لئے فائدہ مند ہوتی ہیں\"۔\n*   [chunk_id=SKD_U001_S001_0002_chunk_0047]: اس میں یہ بات بھی کہی گئی ہے کہ \"ہر تکلیف میں اور خصوصا بیماریوں میں دعا کو لازم پکڑنا ہے اور دوا بھی کرنی ہے\"۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1715,
+    "elapsed_seconds": 14.22,
+    "generated_at": "2026-09-24T09:19:49.075385+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu twin of Q13, same verdict. Both quoted excerpts ('دوا بھی ہوتی ہے اور دعا بھی ہوتی ہے ...' from chunk_0002_0011, and 'دعا کو لازم پکڑنا ہے اور دوا بھی کرنی ہے' from chunk_0002_0047) are verbatim matches. Retrieval also pulled in chunk_0001_0008 and chunk_0001_0011 from a different lecture part (0001) via series-scope, but the model did not need or misuse them; answer is fully grounded in the two chunks it actually cited."
+  },
+  {
+    "question_id": "Q14",
+    "question": "What does the lecturer say about the rituals of Hajj, such as Ihram or the stoning at Jamarat?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1215,
+    "elapsed_seconds": 9.79,
+    "generated_at": "2026-09-24T09:19:58.863151+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Unanswerable question (Hajj rituals like Ihram/Jamarat). Checked all 4 sent chunks: chunk_0001_0084 (closing remarks), chunk_0002_0000 (lecture intro, pooled in from a different lecture part via series-scope), chunk_0001_0083 (etiquette of visiting the sick), chunk_0002_0023 (ruqyah discussion, also pooled from lecture 0002). None mention Ihram, Jamarat, or Hajj rituals at all, so the exact-refusal answer is correct. Cross-lecture pooling added noise from lecture 0002 but did not change the correct outcome."
+  },
+  {
+    "question_id": "Q19",
+    "question": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1961,
+    "elapsed_seconds": 13.54,
+    "generated_at": "2026-09-24T09:20:12.405692+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Unanswerable question (Hajj rituals like Ihram/Jamarat), Urdu phrasing. Sent chunks (all from lecture 0001: chunk_0084, chunk_0027, chunk_0026, chunk_0083) discuss Hajj/Umrah only as a general form of ibadah/dua that removes poverty and improves one's state -- none mention Ihram or rami al-Jamarat specifically, so the model's exact-refusal is correct. No cross-lecture chunks were pulled in here (all from lecture 0001), unlike the English twin Q14 which did get lecture-0002 chunks mixed in -- still both correctly refused."
+  },
+  {
+    "question_id": "Q43",
+    "question": "لیکچرر کے مطابق رسول اللہ صلی اللہ علیہ وسلم کا بیماری اور اس کے علاج کے بارے میں کیا فرمان بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0003_chunk_0016"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 5,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0002_chunk_0047",
+        "SKD_U001_S001_0003_chunk_0016",
+        "SKD_U001_S001_0003_chunk_0027"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق رسول اللہ صلی اللہ علیہ وسلم نے بیماری اور اس کے علاج کے بارے میں کئی احادیث بیان فرمائی ہیں:\n\n1.  **بیماری کا وجود:** آپ صلی اللہ علیہ وسلم کا فرمان ہے کہ \"اللہ تعالیٰ نے کوئی بیماری ایسی نہیں اتاری جس کا علاج نہ اتارا ہو۔\" [chunk_id=SKD_U001_S001_0003_chunk_0016]\n2.  **علاج کی دستیابی:** آپ صلی اللہ علیہ وسلم نے فرمایا کہ \"ہر بیماری کے لیے دوا ہے ہر بیماری کے لیے دوا ہے۔\" [chunk_id=SKD_U001_S001_0002_chunk_0047]\n3.  **بیماری کا فائدہ (گناہوں کی معافی):** ابو ہریرہ رضی اللہ عنہ سے روایت ہے کہ آپ صلی اللہ علیہ وسلم نے فرمایا: \"مسلمان کو جو بھی مصیبت، بیماری، رنج و غم، تکلیف اور پریشانی آتی ہے، یہاں تک کہ اگر اسے کانٹا بھی چبھتا ہے، تو اللہ اس کے بدلے اس کے گناہ دور کر دیتا ہے۔\" [chunk_id=SKD_U001_S001_0003_chunk_0027]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2048,
+    "elapsed_seconds": 19.77,
+    "generated_at": "2026-09-24T09:20:32.170961+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "All three hadith quotes verified verbatim: 'اللہ تعالیٰ نے کوئی بیماری ایسی نہیں اتاری جس کا علاج نہ اتارا ہو' matches gold chunk_0003_0016; 'ہر بیماری کے لیے دوا ہے' matches chunk_0002_0047; the Abu Hurairah thorn-prick/sins narration matches chunk_0003_0027. Series-scope pooled chunk_0002_0047 in from a different lecture part (0002) than the gold lecture (0003); it is on-topic and correctly attributed, so the cross-lecture mixing strengthened rather than harmed this answer."
+  },
+  {
+    "question_id": "Q44",
+    "question": "According to the lecturer, what did the Prophet (peace be upon him) say about illness and its cure?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0003_chunk_0016"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "Based on the excerpts, the lecturer mentions several sayings of the Prophet (peace be upon him) regarding illness and its cure:\n\n1.  He said that Allah did not send any illness for which there is no cure (علاج) [SKD_U001_S001_0003].\n2.  He also stated, \"There is medicine for every illness\" [SKD_U001_S001_0002].\n3.  Furthermore, a narration from Abu Hurairah reports that whatever calamity, illness, sorrow, grief, pain, or trouble comes to a Muslim—even if it's just a thorn prick—Allah removes his sins in return [SKD_U001_S001_0003].\n\nAdditionally, the lecturer mentions that Hazrat Aisha (RA) narrated that the Messenger of Allah used to blow and recite certain prayers [SKD_U001_S001_0002].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2182,
+    "elapsed_seconds": 19.52,
+    "generated_at": "2026-09-24T09:20:51.694914+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English twin of Q43. All four claims verified against sent chunks, including the added detail 'Aisha narrated the Messenger used to blow and recite prayers,' which matches chunk_0002_0016 verbatim ('حضرت عائشہ رضی اللہ عنہ سے مروی ہے کہ رسول اللہ صلی اللہ علیہ وسلم دم کیا کرتے تھے اور یہ دعا پڑھتے تھے') -- another chunk pulled in from a different lecture part (0002) than the gold lecture (0003) via series-scope, and it correctly extended the answer. Note the answer's citation tags are truncated to lecture-id only (e.g. 'SKD_U001_S001_0003' with no chunk number), which is why the automated citation match shows no_citation_found=true despite every claim being verifiably grounded in the actual retrieved text."
+  },
+  {
+    "question_id": "Q77",
+    "question": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0027"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات، کے بارے میں تفصیلات نہیں بتائی گئی ہیں۔ تاہم، یہ بتایا گیا ہے کہ حج ایک قسم کی عبادت (\"دعا ئےعبادت\") ہے جو انسان کی حالت کو درست کرتی ہے، اور اس حوالے سے ایک حدیث کا ذکر کیا گیا ہے جس میں عمرے پر عمرہ اور حج پر حج کرنے کا ذکر ہے۔ (SKD_U001_S001_0001_chunk_0027)",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2578,
+    "elapsed_seconds": 16.44,
+    "generated_at": "2026-09-24T09:21:08.132200+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Unanswerable question (Hajj rituals like Ihram/Jamarat), same chunks as Q19 (all lecture 0001: chunk_0084, chunk_0027, chunk_0026, chunk_0083), none of which mention Ihram or rami al-Jamarat. Flagging as a borderline case for your review: unlike Q19's clean exact-refusal, this answer opens with an explicit statement that ritual details are 'not provided' (تفصیلات نہیں بتائی گئی ہیں), then adds tangential-but-accurate content about Hajj/Umrah as a form of dua/ibadah (correctly grounded in chunk_0001_0027). Judged as correctly_refused because the model does not fabricate anything about the actual rituals asked about and explicitly flags the gap, but it deviates from the exact required refusal string and is less clean than Q19/Q14/Q78 given the identical retrieved context -- worth a second look given this is the exact same question text and chunk set as Q19, which answered with the plain refusal string."
+  },
+  {
+    "question_id": "Q78",
+    "question": "What does the lecturer say about the rituals of Hajj, such as Ihram or the stoning at Jamarat, in this lecture?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0003_chunk_0034"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "The lecturer mentions that they have not performed Hajj this year but plan to do it later [chunk_id=SKD_U001_S001_0003_chunk_0034]. However, the provided excerpts do not contain any information about specific rituals of Hajj, such as Ihram or stoning at Jamarat.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1520,
+    "elapsed_seconds": 12.57,
+    "generated_at": "2026-09-24T09:21:20.704216+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "English twin of Q77/Q14. Sent chunks (chunk_0001_0084, chunk_0002_0000, chunk_0003_0034, chunk_0002_0074) were pooled from three different lecture parts via series-scope, none of which mention Ihram or Jamarat rituals. The model correctly states the excerpts contain no ritual information, and the one incidental detail it reports ('lecturer has not performed Hajj this year but plans to') is verbatim-accurate to chunk_0003_0034. Cross-lecture pooling added irrelevant chunks (0002_0000, 0002_0074) here but did not cause any fabrication."
+  },
+  {
+    "question_id": "Q45",
+    "question": "لیکچرر کے مطابق مشکل حالات کا سامنا کرنے والے لوگوں کی کون سی چار اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0010",
+      "SKD_U001_S001_0004_chunk_0011",
+      "SKD_U001_S001_0004_chunk_0012",
+      "SKD_U001_S001_0004_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 1.0,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.25,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق مشکل حالات کا سامنا کرنے والے لوگوں کی چار اقسام درج ذیل ہیں:\n\n1. **پہلے درجہ والے:** جو ناخوش ہوتے ہیں۔\n2. **دوسرے درجہ والے:** صابر (صبر کرنے والے)۔\n3. **تیسرے درجہ والے:** راضی (اللہ کی رضا پر خوش رہنے والے)۔\n4. **چوتھے درجہ والے:** شکر ادا کرنے والے۔\n\n(Sources: [chunk_id=SKD_U001_S001_0004_chunk_0013])",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2041,
+    "elapsed_seconds": 15.87,
+    "generated_at": "2026-09-24T09:21:36.577297+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "All four gold chunks (0004_0010-0013) were sent and are all from lecture 0004 -- no cross-lecture pooling occurred for this question, so series-scope had no effect here. The four-level list (ناخوش/صابر/راضی/شکر ادا کرنے والے) is a verbatim match to chunk_0004_0013."
+  },
+  {
+    "question_id": "Q46",
+    "question": "According to the lecturer, what are the four types of people described in how they respond to hardship?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0010",
+      "SKD_U001_S001_0004_chunk_0011",
+      "SKD_U001_S001_0004_chunk_0012",
+      "SKD_U001_S001_0004_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 0.75
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0011",
+        "SKD_U001_S001_0004_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "The lecturer describes four degrees/types of people in how they respond to hardship:\n\n1.  **First degree:** Displeased (ناخوش) [chunk_id=SKD_U001_S001_0004_chunk_0013].\n2.  **Second degree:** Patient (صابر) [chunk_id=SKD_U001_S001_0004_chunk_0013].\n3.  **Third degree:** Content/Accepting God's will (راضی) [chunk_id=SKD_U001_S001_0004_chunk_0013]. This is described as a higher level than the previous one, and being content with God's pleasure is considered difficult [chunk_id=SKD_U001_S001_0004_chunk_0011].\n4.  **Fourth degree:** Thankful/Grateful (شکر ادا کرنے والے), which is stated to be the highest level [chunk_id=SKD_U001_S001_0004_chunk_0013].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2297,
+    "elapsed_seconds": 22.93,
+    "generated_at": "2026-09-24T09:21:59.499358+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English twin of Q45. Three of the four gold chunks were sent (0004_0010, 0004_0011, 0004_0013); series-scope substituted in chunk_0003_0078 from a different lecture (a distinct, unrelated 'two types of patient people' framework) in place of gold chunk_0004_0012. The model correctly ignored the off-topic chunk_0003_0078 and did not let it contaminate the answer -- all four levels and the 'higher/highest level' claims are verbatim-supported by chunk_0004_0013 and chunk_0004_0011. Good example of the model resisting series-scope noise."
+  },
+  {
+    "question_id": "Q55",
+    "question": "لیکچرر کے مطابق اللہ تعالیٰ کن پانچ چیزوں سے پاک ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0055"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق اللہ تعالیٰ درج ذیل چیزوں سے پاک ہیں، جنہیں پانچ الفاظ میں بیان کیا گیا ہے:\n\n*   عیب\n*   نقص\n*   کمی\n*   کمزوری\n*   خطا اور برائی\n\n(chunk_id=SKD_U001_S001_0004_chunk_0055)",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2428,
+    "elapsed_seconds": 33.64,
+    "generated_at": "2026-09-24T09:22:33.139734+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Retrieval here stayed within lecture 0004 (chunks 0055, 0056, 0052, 0071), no cross-lecture pooling, so series-scope had no bearing on this one. Per the same source material used to grade the English twin Q56 (already graded partially_correct: correct 5 are عیب, نقص, کمزوری, خطا, برائی, with 'کمی' being a spoken gloss of نقص rather than a 6th item), this Urdu answer lists عیب, نقص, کمی, کمزوری, خطا اور برائی -- it correctly includes عیب (which the English answer omitted) but wrongly double-counts نقص as a separate 'کمی' item, so it names 6 words for a 'پانچ چیزیں' (five things) question. Chunk_0004_0055 citation is accurate; the enumeration itself is off by one extra spurious item."
+  },
+  {
+    "question_id": "Q56",
+    "question": "According to the lecturer, which five things is Allah described as being free from?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "SKD2025",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0055"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0055"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, Allah is described as being free from these five things:\n1. نقص (defect)\n2. کمی (lack/deficiency)\n3. کمزوری (weakness)\n4. خطا (error)\n5. برائی (evil)\n\n(chunk_id=SKD_U001_S001_0004_chunk_0055)",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1765,
+    "elapsed_seconds": 15.98,
+    "generated_at": "2026-09-23T20:10:26.115076+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "English pair of Q55, same content and same error - lists نقص, کمی, کمزوری, خطا, برائی. Per V3 segments 915-924, the correct 5 items are عیب, نقص, کمزوری, خطا, برائی; 'کمی' (segment 921) is a gloss of نقص, not a separate item, and عیب is missing. 4/5 items correct, citation to chunk_0055 is accurate in general location but the specific list is slightly off. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  }
+]

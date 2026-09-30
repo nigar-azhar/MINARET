@@ -1,0 +1,316 @@
+@prefix minaret: <http://minaret-eval.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+
+@base <http://minaret-eval.org/ontology#> .
+
+#################################################################
+#  MINARET Knowledge Graph Schema
+#  Status: draft, pilot scope = TQ2005
+#  This is a lightweight KG schema, not a formalized ontology.
+#  See README.md in this directory for full rationale.
+#################################################################
+
+<http://minaret-eval.org/ontology> rdf:type owl:Ontology ;
+    terms:title "MINARET Knowledge Graph Schema" ;
+    terms:description "Schema for the knowledge graph constructed from MINARET's validated transcripts (V3) and validated entities (E2), pilot scope TQ2005." ;
+    owl:versionInfo "0.1.0-draft" .
+
+
+#################################################################
+#  Collection / provenance layer
+#################################################################
+
+minaret:AudioSeries a owl:Class ;
+    rdfs:label "Audio series" ;
+    rdfs:comment "A named lecture series, e.g. TQ2005 (Talim al-Qur'an 2005). Sourced from the publisher's series catalogue." .
+
+minaret:Recording a owl:Class ;
+    rdfs:label "Recording" ;
+    rdfs:comment "One audio recording = one content-split unit (e.g. the 'Recap' part of a lesson). recordingId is the publisher's audio code, e.g. TQ2005_U001_S002_0001. Not the same as a pedagogical 'lesson' -- a lesson may be split across several Recordings." .
+
+minaret:Audio a owl:Class ;
+    rdfs:label "Audio" ;
+    rdfs:comment "The physical audio file for a Recording. Mirrors one row of the publisher's audio catalogue. 1:1 with Recording." .
+
+minaret:Transcript a owl:Class ;
+    rdfs:label "Transcript" ;
+    rdfs:comment "Holds only the final validated (V3 / Golden Transcript) text and pipeline provenance. V0-V2 are not represented in the graph." .
+
+minaret:TranscriptSegment a owl:Class ;
+    rdfs:label "Transcript segment" ;
+    rdfs:comment "A ~10-second fixed transcript window, V3 text only. Stable id/order/count across V0-V3." .
+
+minaret:SegmentGroup a owl:Class ;
+    rdfs:label "Segment group" ;
+    rdfs:comment "A contiguous run of TranscriptSegments materialized at graph-construction time as the anchor for one entity occurrence or one topic assignment. Flat -- never contains another SegmentGroup. Always used, even for a single-segment span." .
+
+minaret:Speaker a owl:Class ;
+    rdfs:label "Speaker" ;
+    rdfs:comment "Canonical, reusable across series and recordings. Sourced from the publisher's speaker list (name_en, name_ur, speaker_code), not a per-series lecturer text field." .
+
+minaret:Language a owl:Class ;
+    rdfs:label "Language" ;
+    rdfs:comment "Small fixed controlled vocabulary." .
+
+minaret:Heading a owl:Class ;
+    rdfs:label "Heading" ;
+    rdfs:comment "A coarse structural marker within a Recording (navigation only, not part of the concept taxonomy). Deliberately lightweight: own startTime/endTime only, no SegmentGroup / containsSegment linkage." .
+
+
+#################################################################
+#  Semantic grounding layer
+#################################################################
+
+minaret:VerseOccurrence a owl:Class ;
+    rdfs:label "Verse occurrence" ;
+    rdfs:comment "One grounded mention of a Quranic verse within a SegmentGroup. Renamed from QuranOccurrence, then from AyaOccurrence -- the latter for consistency with SemanticHadith's own ontology (data/DBs/SemanticHadithOntology.owl, same author's prior published work), which uses 'Verse' as the class name for the equivalent concept, not 'Ayah'." ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty minaret:occursIn ; owl:someValuesFrom minaret:SegmentGroup ] ,
+                    [ a owl:Restriction ; owl:onProperty minaret:refersTo ; owl:someValuesFrom minaret:QuranVerse ] ,
+                    [ a owl:Restriction ; owl:onProperty minaret:hasUsageType ; owl:someValuesFrom minaret:CitationUsage ] ,
+                    [ a owl:Restriction ; owl:onProperty minaret:hasExtentType ; owl:someValuesFrom minaret:CitationExtent ] .
+
+minaret:QuranVerse a owl:Class ;
+    rdfs:label "Quran verse" ;
+    rdfs:comment "Canonical, reusable across the entire lecture archive. Content sourced from data/DBs/quran.csv (Uthmani/Indopak/clean text, en_sahih, ur_farhat, juz) -- not from the external Quran ontology. Every instance additionally carries skos:exactMatch to the external qur:quran{surah}-{ayah} individual (quranontology.com), computed directly from surahNumber/verseNumber -- see README section 6b. Renamed from QuranAyah for consistency with SemanticHadith's own 'Verse' terminology (see VerseOccurrence comment)." .
+
+minaret:HadithOccurrence a owl:Class ;
+    rdfs:label "Hadith occurrence" ;
+    rdfs:comment "One grounded mention of a hadith within a SegmentGroup. hasUsageType frequently 'Translation' or 'Paraphrase' rather than verbatim quotation." ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty minaret:occursIn ; owl:someValuesFrom minaret:SegmentGroup ] ,
+                    [ a owl:Restriction ; owl:onProperty minaret:refersTo ; owl:someValuesFrom minaret:Hadith ] ,
+                    [ a owl:Restriction ; owl:onProperty minaret:hasUsageType ; owl:someValuesFrom minaret:CitationUsage ] .
+
+minaret:Hadith a owl:Class ;
+    rdfs:label "Hadith" ;
+    rdfs:comment "Always our own instance -- HadithOccurrence.refersTo never points directly at an external hadith: individual, so its range stays uniform regardless of external coverage. When resolvable against the SemanticHadith KG (six collections in the current data dump), the instance additionally carries skos:exactMatch to the external hadith:{PREFIX}-HDxxxx individual and is populated with its fullHadithText. When not resolvable (e.g. Musnad Ahmad references), the instance holds only reference + expandedReference as extracted, with no skos link -- absence of a skos:exactMatch/closeMatch is itself the queryable 'not yet externally grounded' signal. Like QuranVerse and Dua, it has no class-level tie to an external ontology: own node always, skos link only when resolvable. Deliberately does NOT store an authenticity/transmission-chain grade (SemanticHadith's own HadithType, e.g. marfu) -- MINARET has no way to verify or maintain that classification itself; a consumer who needs it follows skos:exactMatch to the external SemanticHadith KG, which is authoritative for it." .
+
+minaret:DuaOccurrence a owl:Class ;
+    rdfs:label "Dua occurrence" ;
+    rdfs:comment "One grounded mention of a dua within a SegmentGroup." ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty minaret:occursIn ; owl:someValuesFrom minaret:SegmentGroup ] ,
+                    [ a owl:Restriction ; owl:onProperty minaret:refersTo ; owl:someValuesFrom minaret:Dua ] ,
+                    [ a owl:Restriction ; owl:onProperty minaret:hasUsageType ; owl:someValuesFrom minaret:CitationUsage ] ,
+                    [ a owl:Restriction ; owl:onProperty minaret:hasExtentType ; owl:someValuesFrom minaret:CitationExtent ] .
+
+minaret:Dua a owl:Class ;
+    rdfs:label "Dua" ;
+    rdfs:comment "Canonical, reusable. Sourced from data/DBs/duas.csv, keyed by duaId (matches the 'reference' field already present in entity JSON, e.g. QuranicDua-08)." .
+
+minaret:Topic a owl:Class ;
+    rdfs:label "Topic" ;
+    rdfs:comment "Canonical, deduplicated (see README section 7 -- alias/merge dictionary, tracked via E3). NOT typed as a subclass of any SemanticHadith Topic concept (PillarsOfIslam/ArticlesOfFaith/Crime) -- that would be a stronger ontological commitment than agreed. Where a topic instance corresponds to such a concept, a skos:closeMatch or skos:exactMatch annotation is added instead, on the instance, logged in E3." .
+
+minaret:CitationUsage a owl:Class ;
+    rdfs:label "Citation usage" ;
+    rdfs:comment "Small fixed controlled vocabulary (individuals below) for how a VerseOccurrence/HadithOccurrence/DuaOccurrence cites its source text -- object property (minaret:hasUsageType), not a string, following the same pattern SemanticHadith uses for its own HadithType classification. 'explicit paraphrase' seen in some source E2 data is a wording variant of Paraphrase, not a distinct 4th value -- normalized on ingestion." .
+
+minaret:CitationExtent a owl:Class ;
+    rdfs:label "Citation extent" ;
+    rdfs:comment "Small fixed controlled vocabulary (individuals below) for whether a VerseOccurrence/DuaOccurrence citation is the complete verse/dua text or a partial quotation -- object property (minaret:hasExtentType), not a string. Hadith occurrences do not currently carry this." .
+
+
+#################################################################
+#  Object properties
+#################################################################
+#  Every property below has an explicit owl:inverseOf pair. Only the forward
+#  direction is ever asserted by the build scripts -- the inverse triples are
+#  left for a reasoner to materialize (GraphDB's OWL/RDFS profiles do this;
+#  plain rdflib does not, so reverse-direction SPARQL against a raw .ttl file
+#  needs an explicit property-path (^) or an OWL-RL reasoner layered on top).
+#################################################################
+
+minaret:hasRecording a owl:ObjectProperty ; rdfs:domain minaret:AudioSeries ; rdfs:range minaret:Recording ;
+    rdfs:label "has recording" .
+minaret:belongsToSeries a owl:ObjectProperty ; owl:inverseOf minaret:hasRecording ;
+    rdfs:domain minaret:Recording ; rdfs:range minaret:AudioSeries ; rdfs:label "belongs to series" .
+
+minaret:hasAudio a owl:ObjectProperty ; rdfs:domain minaret:Recording ; rdfs:range minaret:Audio ;
+    rdfs:label "has audio" .
+minaret:isAudioOfRecording a owl:ObjectProperty ; owl:inverseOf minaret:hasAudio ;
+    rdfs:domain minaret:Audio ; rdfs:range minaret:Recording ; rdfs:label "is audio of recording" .
+
+minaret:hasTranscript a owl:ObjectProperty ; rdfs:domain minaret:Recording ; rdfs:range minaret:Transcript ;
+    rdfs:label "has transcript" .
+minaret:isTranscriptOfRecording a owl:ObjectProperty ; owl:inverseOf minaret:hasTranscript ;
+    rdfs:domain minaret:Transcript ; rdfs:range minaret:Recording ; rdfs:label "is transcript of recording" .
+
+minaret:hasPrimarySpeaker a owl:ObjectProperty ; rdfs:domain minaret:Recording ; rdfs:range minaret:Speaker ;
+    rdfs:label "has primary speaker" .
+minaret:isPrimarySpeakerOfRecording a owl:ObjectProperty ; owl:inverseOf minaret:hasPrimarySpeaker ;
+    rdfs:domain minaret:Speaker ; rdfs:range minaret:Recording ; rdfs:label "is primary speaker of recording" .
+
+minaret:hasSpeaker a owl:ObjectProperty ; rdfs:domain minaret:Recording ; rdfs:range minaret:Speaker ;
+    rdfs:label "has speaker" ;
+    rdfs:comment "For co-speakers beyond the primary. Currently unused -- no built series has more than one speaker." .
+minaret:isSpeakerOfRecording a owl:ObjectProperty ; owl:inverseOf minaret:hasSpeaker ;
+    rdfs:domain minaret:Speaker ; rdfs:range minaret:Recording ; rdfs:label "is speaker of recording" .
+
+minaret:hasPrimaryLanguage a owl:ObjectProperty ; rdfs:domain minaret:Recording ; rdfs:range minaret:Language ;
+    rdfs:label "has primary language" .
+minaret:isPrimaryLanguageOfRecording a owl:ObjectProperty ; owl:inverseOf minaret:hasPrimaryLanguage ;
+    rdfs:domain minaret:Language ; rdfs:range minaret:Recording ; rdfs:label "is primary language of recording" .
+
+minaret:hasLanguage a owl:ObjectProperty ; rdfs:domain minaret:Recording ; rdfs:range minaret:Language ;
+    rdfs:label "has language" ;
+    rdfs:comment "For secondary/code-switched languages beyond the primary. Currently unused." .
+minaret:isLanguageOfRecording a owl:ObjectProperty ; owl:inverseOf minaret:hasLanguage ;
+    rdfs:domain minaret:Language ; rdfs:range minaret:Recording ; rdfs:label "is language of recording" .
+
+minaret:hasHeading a owl:ObjectProperty ; rdfs:domain minaret:Recording ; rdfs:range minaret:Heading ;
+    rdfs:label "has heading" .
+minaret:isHeadingOfRecording a owl:ObjectProperty ; owl:inverseOf minaret:hasHeading ;
+    rdfs:domain minaret:Heading ; rdfs:range minaret:Recording ; rdfs:label "is heading of recording" .
+
+minaret:hasSegment a owl:ObjectProperty ; rdfs:domain minaret:Transcript ; rdfs:range minaret:TranscriptSegment ;
+    rdfs:label "has segment" .
+minaret:isSegmentOfTranscript a owl:ObjectProperty ; owl:inverseOf minaret:hasSegment ;
+    rdfs:domain minaret:TranscriptSegment ; rdfs:range minaret:Transcript ; rdfs:label "is segment of transcript" .
+
+minaret:precedesSegment a owl:ObjectProperty ; rdfs:domain minaret:TranscriptSegment ; rdfs:range minaret:TranscriptSegment ;
+    rdfs:label "precedes segment" ;
+    rdfs:comment "Adjacent-pair link within one Transcript, in sequenceIndex order (sequenceIndex(a)+1 = sequenceIndex(b)). Redundant with sequenceIndex/startTime for query purposes -- SPARQL can already order/filter on those -- but sequenceIndex is a literal, so it never renders as a graph edge in tools like GraphDB's Visual Graph. This makes segment order directly navigable/visible there." .
+minaret:followsSegment a owl:ObjectProperty ; owl:inverseOf minaret:precedesSegment ;
+    rdfs:domain minaret:TranscriptSegment ; rdfs:range minaret:TranscriptSegment ; rdfs:label "follows segment" .
+
+minaret:containsSegment a owl:ObjectProperty ; rdfs:domain minaret:SegmentGroup ; rdfs:range minaret:TranscriptSegment ;
+    rdfs:label "contains segment" ;
+    rdfs:comment "Materialized once at graph-construction time from timestamp overlap. Never authored by hand." .
+minaret:isContainedInSegmentGroup a owl:ObjectProperty ; owl:inverseOf minaret:containsSegment ;
+    rdfs:domain minaret:TranscriptSegment ; rdfs:range minaret:SegmentGroup ; rdfs:label "is contained in segment group" .
+
+minaret:discussesTopic a owl:ObjectProperty ; rdfs:domain minaret:SegmentGroup ; rdfs:range minaret:Topic ;
+    rdfs:label "discusses topic" .
+minaret:isDiscussedIn a owl:ObjectProperty ; owl:inverseOf minaret:discussesTopic ;
+    rdfs:domain minaret:Topic ; rdfs:range minaret:SegmentGroup ; rdfs:label "is discussed in" .
+
+minaret:occursIn a owl:ObjectProperty ; rdfs:range minaret:SegmentGroup ;
+    rdfs:label "occurs in" ;
+    rdfs:comment "Domain: VerseOccurrence, HadithOccurrence, or DuaOccurrence -- no single rdfs:domain fits since three classes share this property; formally expressed instead as an owl:Restriction (someValuesFrom SegmentGroup) attached to each of those three classes, the same technique SemanticHadith uses for its own multi-class properties." .
+minaret:hasOccurrence a owl:ObjectProperty ; owl:inverseOf minaret:occursIn ;
+    rdfs:domain minaret:SegmentGroup ; rdfs:label "has occurrence" ;
+    rdfs:comment "Range: VerseOccurrence, HadithOccurrence, or DuaOccurrence." .
+
+minaret:refersTo a owl:ObjectProperty ;
+    rdfs:label "refers to" ;
+    rdfs:comment "Domain: VerseOccurrence, HadithOccurrence, or DuaOccurrence. Range: QuranVerse, Hadith, or Dua respectively -- always our own instance, never an external individual directly (see minaret:Hadith comment). External grounding, where it exists, is a skos:exactMatch/closeMatch annotation on that instance, not the refersTo target itself. Domain and range both vary by which of the three Occurrence classes is the subject, so neither is expressible as a single rdfs:domain/range; formally expressed instead as a per-class owl:Restriction (someValuesFrom the matching canonical class) on VerseOccurrence/HadithOccurrence/DuaOccurrence." .
+minaret:isReferencedBy a owl:ObjectProperty ; owl:inverseOf minaret:refersTo ;
+    rdfs:label "is referenced by" ;
+    rdfs:comment "Domain: QuranVerse, Hadith, or Dua. Range: VerseOccurrence, HadithOccurrence, or DuaOccurrence respectively." .
+
+minaret:hasUsageType a owl:ObjectProperty ; rdfs:range minaret:CitationUsage ;
+    rdfs:label "has usage type" ;
+    rdfs:comment "Domain: VerseOccurrence, HadithOccurrence, DuaOccurrence -- formally expressed as an owl:Restriction (someValuesFrom CitationUsage) attached to each of those three classes. An object property onto the minaret:CitationUsage controlled vocabulary, as SemanticHadith models its HadithType classification." .
+minaret:isUsageTypeOf a owl:ObjectProperty ; owl:inverseOf minaret:hasUsageType ;
+    rdfs:domain minaret:CitationUsage ; rdfs:label "is usage type of" .
+
+minaret:hasExtentType a owl:ObjectProperty ; rdfs:range minaret:CitationExtent ;
+    rdfs:label "has extent type" ;
+    rdfs:comment "Domain: VerseOccurrence, DuaOccurrence (Hadith occurrences do not currently carry this) -- formally expressed as an owl:Restriction (someValuesFrom CitationExtent) attached to VerseOccurrence and DuaOccurrence only. An object property onto the minaret:CitationExtent controlled vocabulary." .
+minaret:isExtentTypeOf a owl:ObjectProperty ; owl:inverseOf minaret:hasExtentType ;
+    rdfs:domain minaret:CitationExtent ; rdfs:label "is extent type of" .
+
+
+#################################################################
+#  Data properties -- AudioSeries / Recording / Audio / Transcript
+#################################################################
+
+minaret:seriesCode a owl:DatatypeProperty ; rdfs:domain minaret:AudioSeries ; rdfs:range xsd:string .
+minaret:titleEn a owl:DatatypeProperty ; rdfs:range xsd:string .
+minaret:titleUr a owl:DatatypeProperty ; rdfs:range xsd:string .
+minaret:category a owl:DatatypeProperty ; rdfs:domain minaret:AudioSeries ; rdfs:range xsd:string ;
+    rdfs:comment "Parent/top-level category only, assigned manually per series (e.g. Quran for TQ2005, Hadith for HUSN_AKHL). Replaces the earlier separate Domain class -- one field, not two parallel representations of the same fact." .
+minaret:categoryId a owl:DatatypeProperty ; rdfs:domain minaret:AudioSeries ; rdfs:range xsd:integer ;
+    rdfs:comment "The publisher's raw category_id, kept for provenance/joinback only -- not elaborated into a class hierarchy." .
+minaret:seriesType a owl:DatatypeProperty ; rdfs:domain minaret:AudioSeries ; rdfs:range xsd:string .
+minaret:datePublication a owl:DatatypeProperty ; rdfs:range xsd:date ;
+    rdfs:comment "Used on both AudioSeries (series-level) and Recording (per-recording, from the publisher's upload date where available)." .
+
+minaret:recordingId a owl:DatatypeProperty ; rdfs:domain minaret:Recording ; rdfs:range xsd:string ;
+    rdfs:comment "= the publisher's audio code, e.g. TQ2005_U001_S002_0001. Primary key." .
+
+minaret:url a owl:DatatypeProperty ; rdfs:domain minaret:Audio ; rdfs:range xsd:anyURI .
+minaret:durationSeconds a owl:DatatypeProperty ; rdfs:domain minaret:Audio ; rdfs:range xsd:decimal ;
+    rdfs:comment "The source duration is a formatted string (H:MM:SS); parse to seconds on ingestion." .
+minaret:sessionDate a owl:DatatypeProperty ; rdfs:domain minaret:Audio ; rdfs:range xsd:date .
+minaret:uploadDate a owl:DatatypeProperty ; rdfs:domain minaret:Audio ; rdfs:range xsd:date .
+minaret:asrModel a owl:DatatypeProperty ; rdfs:domain minaret:Transcript ; rdfs:range xsd:string .
+minaret:correctionModel a owl:DatatypeProperty ; rdfs:domain minaret:Transcript ; rdfs:range xsd:string .
+minaret:correctionPromptVersion a owl:DatatypeProperty ; rdfs:domain minaret:Transcript ; rdfs:range xsd:string .
+minaret:validatedAt a owl:DatatypeProperty ; rdfs:domain minaret:Transcript ; rdfs:range xsd:date .
+
+minaret:sequenceIndex a owl:DatatypeProperty ; rdfs:domain minaret:TranscriptSegment ; rdfs:range xsd:integer .
+minaret:startTime a owl:DatatypeProperty ; rdfs:range xsd:decimal .
+minaret:endTime a owl:DatatypeProperty ; rdfs:range xsd:decimal .
+minaret:text a owl:DatatypeProperty ; rdfs:domain minaret:TranscriptSegment ; rdfs:range xsd:string ;
+    rdfs:comment "Validated V3 text." .
+
+minaret:groupId a owl:DatatypeProperty ; rdfs:domain minaret:SegmentGroup ; rdfs:range xsd:string .
+
+minaret:speakerCode a owl:DatatypeProperty ; rdfs:domain minaret:Speaker ; rdfs:range xsd:string ;
+    rdfs:comment "Dedup key, e.g. dr_farhat_hashmi." .
+minaret:nameEn a owl:DatatypeProperty ; rdfs:range xsd:string .
+minaret:nameUr a owl:DatatypeProperty ; rdfs:range xsd:string .
+
+minaret:languageCode a owl:DatatypeProperty ; rdfs:domain minaret:Language ; rdfs:range xsd:string ;
+    rdfs:comment "ISO 639-1, e.g. ur / ar / en." .
+minaret:label a owl:DatatypeProperty ; rdfs:range xsd:string .
+
+
+#################################################################
+#  Data properties -- semantic grounding layer
+#################################################################
+
+minaret:evidenceText a owl:DatatypeProperty ; rdfs:range xsd:string ;
+    rdfs:comment "Domain: VerseOccurrence, HadithOccurrence, DuaOccurrence. The as-spoken text supporting this occurrence." .
+
+minaret:surahNumber a owl:DatatypeProperty ; rdfs:domain minaret:QuranVerse ; rdfs:range xsd:integer ;
+    rdfs:comment "Cast from string on ingestion -- source JSON stores this as e.g. \"21\", not an integer." .
+minaret:verseNumber a owl:DatatypeProperty ; rdfs:domain minaret:QuranVerse ; rdfs:range xsd:integer .
+minaret:juz a owl:DatatypeProperty ; rdfs:domain minaret:QuranVerse ; rdfs:range xsd:integer .
+minaret:textUthmani a owl:DatatypeProperty ; rdfs:domain minaret:QuranVerse ; rdfs:range xsd:string .
+minaret:textIndopak a owl:DatatypeProperty ; rdfs:domain minaret:QuranVerse ; rdfs:range xsd:string .
+minaret:textClean a owl:DatatypeProperty ; rdfs:domain minaret:QuranVerse ; rdfs:range xsd:string .
+minaret:translationEn a owl:DatatypeProperty ; rdfs:range xsd:string ;
+    rdfs:comment "Domain: QuranVerse (en_sahih), Dua (dua_en)." .
+minaret:translationUr a owl:DatatypeProperty ; rdfs:range xsd:string ;
+    rdfs:comment "Domain: QuranVerse (ur_farhat), Dua (dua_ur)." .
+
+minaret:reference a owl:DatatypeProperty ; rdfs:range xsd:string ;
+    rdfs:comment "Domain: Hadith (fallback only), Dua. Dedup key, e.g. JT_2670, QuranicDua-08." .
+minaret:expandedReference a owl:DatatypeProperty ; rdfs:domain minaret:Hadith ; rdfs:range xsd:string .
+
+minaret:duaTypeEn a owl:DatatypeProperty ; rdfs:domain minaret:Dua ; rdfs:range xsd:string .
+minaret:duaTypeUr a owl:DatatypeProperty ; rdfs:domain minaret:Dua ; rdfs:range xsd:string .
+minaret:transliteration a owl:DatatypeProperty ; rdfs:domain minaret:Dua ; rdfs:range xsd:string .
+
+minaret:descriptionEn a owl:DatatypeProperty ; rdfs:domain minaret:Topic ; rdfs:range xsd:string .
+minaret:descriptionUr a owl:DatatypeProperty ; rdfs:domain minaret:Topic ; rdfs:range xsd:string .
+
+minaret:titleEnHeading a owl:DatatypeProperty ; rdfs:domain minaret:Heading ; rdfs:range xsd:string ;
+    rdfs:comment "Heading uses titleEn/titleUr (shared properties above); listed here only as a domain note." .
+
+
+#################################################################
+#  Controlled-vocabulary individuals
+#################################################################
+
+minaret:Urdu a minaret:Language ; minaret:languageCode "ur" ; minaret:label "Urdu" .
+minaret:Arabic a minaret:Language ; minaret:languageCode "ar" ; minaret:label "Arabic" .
+minaret:English a minaret:Language ; minaret:languageCode "en" ; minaret:label "English" .
+
+minaret:Quotation a minaret:CitationUsage ; minaret:label "Quotation" ;
+    rdfs:comment "Verbatim recitation of the source text." .
+minaret:Translation a minaret:CitationUsage ; minaret:label "Translation" ;
+    rdfs:comment "Rendered into another language rather than recited verbatim." .
+minaret:Paraphrase a minaret:CitationUsage ; minaret:label "Paraphrase" ;
+    rdfs:comment "Restated in the speaker's own words. Covers source data's occasional 'explicit paraphrase' wording -- same value, not a distinct 4th type." .
+
+minaret:CompleteCitation a minaret:CitationExtent ; minaret:label "Complete" ;
+    rdfs:comment "The full verse/dua text is cited." .
+minaret:PartialCitation a minaret:CitationExtent ; minaret:label "Partial" ;
+    rdfs:comment "Only part of the verse/dua text is cited." .

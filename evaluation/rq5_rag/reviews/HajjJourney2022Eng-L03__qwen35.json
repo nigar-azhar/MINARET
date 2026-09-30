@@ -1,0 +1,159 @@
+[
+  {
+    "question_id": "Q41",
+    "question": "According to the lecturer, what are the three months during which Hajj takes place?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L03",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0084",
+        "HajjJourney2022Eng-L03_chunk_0087",
+        "HajjJourney2022Eng-L03_chunk_0096"
+      ],
+      "citation_precision": 0.6666666666666666,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nAccording to the retrieved excerpts, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\nThis is stated in chunk 0084: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n\n**Chunk ID:** HajjJourney2022Eng-L03_chunk_0084\n\nAdditionally, chunk 0087 confirms this by stating: \"So we cannot wear ihram in Ramadan or any other month, it should be Shawwal, Dhul-Qa'dah, or Dhul-Hijjah.\"\n\n**Chunk ID:** HajjJourney2022Eng-L03_chunk_0087\n\n**Chunk ID:** HajjJourney2022Eng-L03_chunk_0096\n\n**Answer:** Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\n\n**Citations:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Note:** The question asks for the three months during which Hajj takes place. While chunk 0084 explicitly lists them, chunks 0087 and 0096 provide context regarding the Sunnah of entering ihram during these specific months, reinforcing that Hajj occurs within this timeframe. However, the direct answer is found in chunk 0084.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I need to format the output exactly as requested.**\n\"Answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.\"\n\n**Revised Output:**\nAccording to the retrieved excerpts, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should just provide the answer and citations.**\n\"Answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used.\"\n\n**Final Plan:**\n1. State the answer clearly based on the text.\n2. List the chunk IDs used.\n\n**Draft:**\nAccording to the lecturer, the three months during which Hajj takes place are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\n\nCitations: HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Refinement:**\nThe prompt asks to \"Cite the chunk id(s) you used.\" It doesn't specify a format, but usually, it's best to be clear. I will list the answer and then the citations below it or integrated.\n\n**Let's check chunk 0081:**\n\"Another objective is that we learn to respect the Hajj months and Hajj sites.\" - This mentions \"Hajj months\" but doesn't list them. So it's not a primary source for the names, though it confirms the concept of \"Hajj months\". I will stick to 0084, 0087, and 0096 as they explicitly name the months.\n\n**Final Answer Formulation:**\nAccording to the retrieved excerpts, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   HajjJourney2022Eng-L03_chunk_0084\n*   HajjJourney2022Eng-L03_chunk_0087\n*   HajjJourney2022Eng-L03_chunk_0096\n\n**Explanation:**\n*   Chunk 0084 explicitly states: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\"\n*   Chunk 0087 reinforces this by stating that the Sunnah is to enter ihram for Hajj only during these months.\n*   Chunk 0096 reiterates that if one is going for Hajj, they must wear the ihram during the Hajj months.\n\n**Citation IDs:** HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L03_chunk_0087, HajjJourney2022Eng-L03_chunk_0096.\n\n**Wait, I should not include \"Explanation\" or \"Citation IDs\" as separate headers if the prompt doesn't ask for it, but just \"Cite the chunk id(s)\".**\nI will provide a concise answer with the citations listed.\n\n**Final Answer:**\nAccording to the lecturer, the three months during which Hajj takes place are **Shawwal**, **Dhu al-Qa'dah**, and **Dhu al-Hijjah**.\n\n**Citations:**\n*   Hajj",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 210.99,
+    "generated_at": "2026-09-23T18:34:51.379372+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HajjJourney2022Eng-L03_chunk_0084 (start 3017.09-3050.07), which states verbatim: \"So when it comes to Hajj months: there are three. The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\" This directly supports the model's answer (Shawwal, Dhu al-Qa'dah, Dhu al-Hijjah). Also checked chunk_0087 (3132.51-3168.57), which confirms the same three month names in the ihram-timing context. Chunk_0096 (cited but weaker) only says ihram for Hajj is worn 'during Hajj months' without naming them, so it is tangential support, not load-bearing. Core factual claim is correct and grounded. Note: response is degenerate/repetitive (finish_reason=length, model looped restating the same answer ~15x with meta-commentary like 'Wait, I should...') -- a generation-quality defect, but the substantive answer embedded in it is factually correct and cites the right chunk."
+  },
+  {
+    "question_id": "Q42",
+    "question": "لیکچرر کے مطابق حج کے تین مہینے کون سے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L03",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0084",
+        "HajjJourney2022Eng-L03_chunk_0087"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچر کے مطابق حج کے تین مہینے شوال، ذوالقعدہ اور ذوالحجہ ہیں۔\n\n[chunk_id=HajjJourney2022Eng-L03_chunk_0084]\n[chunk_id=HajjJourney2022Eng-L03_chunk_0087]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 6193,
+    "elapsed_seconds": 118.44,
+    "generated_at": "2026-09-23T18:36:49.827320+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu answer states \"حج کے تین مہینے شوال، ذوالقعدہ اور ذوالحجہ ہیں\" (the three Hajj months are Shawwal, Dhu al-Qa'dah, Dhu al-Hijjah), citing chunk_0084 and chunk_0087. Same source chunks verified for Q41 support this directly (chunk_0084: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah\"). Cross-checked against this model's English Q41 answer -- same three months, consistent. Correct and grounded."
+  },
+  {
+    "question_id": "Q61",
+    "question": "According to the lecturer, what are the three types of Hajj mentioned in the lecture?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L03",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0091"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecturer, the three types of Hajj are Tamattu', Qiran, and Ifrad.\n\n[chunk_id=HajjJourney2022Eng-L03_chunk_0091]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 6174,
+    "elapsed_seconds": 109.83,
+    "generated_at": "2026-09-23T18:38:39.657608+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HajjJourney2022Eng-L03_chunk_0091 (start 3293.45-3331.97): \"There are three types of Hajj: Tamattu', Qiran, and Ifrad.\" Model's answer (\"Tamattu', Qiran, and Ifrad\") matches this verbatim and cites exactly this chunk. Correct and grounded."
+  },
+  {
+    "question_id": "Q62",
+    "question": "لیکچرر کے مطابق حج کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L03",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0091"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق حج کی تین اقسام Tamattu', Qiran اور Ifrad ہیں۔\n[chunk_id=HajjJourney2022Eng-L03_chunk_0091]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 14391,
+    "elapsed_seconds": 164.09,
+    "generated_at": "2026-09-23T18:41:23.753266+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu answer \"حج کی تین اقسام Tamattu', Qiran اور Ifrad ہیں\" citing chunk_0091, which states \"There are three types of Hajj: Tamattu', Qiran, and Ifrad.\" Matches, and consistent with this model's own English Q61 answer. Correct and grounded."
+  }
+]

@@ -1,0 +1,224 @@
+{
+  "series_code": "SKD2025",
+  "recordings_dir": "SKD2025",
+  "category": "Dua",
+  "series": {
+    "title_en": "Shifa' Ki Dua'ein 2025",
+    "title_ur": "شفا کی دعائیں 2025",
+    "category_id": 52,
+    "series_type": "audio"
+  },
+  "speaker": {
+    "code": "dr_farhat_hashmi",
+    "name_en": "Dr. Farhat Hashmi",
+    "name_ur": "ڈاکٹر فرحت ہاشمی"
+  },
+  "language": {
+    "code": "ur",
+    "label": "Urdu"
+  },
+  "recordings": [
+    {
+      "recording_id": "SKD_U001_S001_0001",
+      "kg_recording_id": "SKD2025-0001",
+      "audio": {
+        "id": 1,
+        "audio_link": "https://data.alhudamedia.com/Media/Duaain/Shifa/Shifa_Ki_Duaein-01_Dua_Awr_Shifa_01-05-2025.mp3",
+        "english_name": "01 Du'a Awr Shifa'",
+        "urdu_name": "01 دعا اور شفاء",
+        "duration": "0:47:24"
+      }
+    },
+    {
+      "recording_id": "SKD_U001_S001_0002",
+      "kg_recording_id": "SKD2025-0002",
+      "audio": {
+        "id": 2,
+        "audio_link": "https://data.alhudamedia.com/Media/Duaain/Shifa/Shifa_Ki_Duaein-02_Shifa_Awr_Al-Shaafi_05-05-2025.mp3",
+        "english_name": "02 Shifa' Awr Al-Shaafi",
+        "urdu_name": "02 شفاء اور الشافی",
+        "duration": "0:45:24"
+      }
+    },
+    {
+      "recording_id": "SKD_U001_S001_0003",
+      "kg_recording_id": "SKD2025-0003",
+      "audio": {
+        "id": 3,
+        "audio_link": "https://data.alhudamedia.com/Media/Duaain/Shifa/Shifa_Ki_Duaein-03_Muqaddimah_Mareez_Kay_Liay_Khushkhabri_Takleef_Aanay_Par_Yeh_Dua_Maangain_Page_4-6_06-05-2025.mp3",
+        "english_name": "03 Muqaddimah, Mareez Kay Liay Khushkhabri, Takleef Aanay Par Yeh Du'a Maangain Page 4-6",
+        "urdu_name": "03 مقدمہ، مریض کے لئے خوشخبری، تکلیف آنے پر یہ دعا مانگیں Page 4-6",
+        "duration": "0:45:36"
+      }
+    },
+    {
+      "recording_id": "SKD_U001_S001_0004",
+      "kg_recording_id": "SKD2025-0004",
+      "audio": {
+        "id": 4,
+        "audio_link": "https://data.alhudamedia.com/Media/Duaain/Shifa/Shifa_Ki_Duaein-04_Har_Haal_Mein_Allah_Taala_Ki_Hamd_o_Sana_Bayan_Karein_Dua_1_Page_7_07-05-2025.mp3",
+        "english_name": "04 Har Haal Mein Allah Ta'ala Ki Hamd o Sana' Bayan Karein Dua 1 Page 7",
+        "urdu_name": "04 ہر حال میں اللہ تعالیٰ کی حمد و ثناء بیان کریں Dua 1 Page 7",
+        "duration": "0:44:13"
+      }
+    }
+  ],
+  "concept_keywords": {
+    "hadith:PillarsOfIslam": [
+      "salah",
+      "prayer",
+      "zakah",
+      "zakat",
+      "sawm",
+      "fasting",
+      "hajj",
+      "shahada"
+    ],
+    "hadith:ArticlesOfFaith": [
+      "iman",
+      "angel",
+      "revealed book",
+      "messenger",
+      "day of judgment",
+      "qadar",
+      "predestination",
+      "hereafter",
+      "akhirah",
+      "taqwa",
+      "tawhid",
+      "oneness of allah"
+    ],
+    "hadith:Tauhid": [
+      "tawheed",
+      "tauhid",
+      "monotheism",
+      "oneness of allah"
+    ]
+  },
+  "reviewed_merges": [
+    {
+      "topics": [
+        "Supplication and humility",
+        "Supplication and reliance on Allah"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Supplication and reliance on Allah",
+        "Supplication and visiting the sick"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Supplication and humility",
+        "Supplication as worship"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Supplication and visiting the sick",
+        "Supplication as worship"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Supplication and humility",
+        "Supplication and visiting the sick"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Healing and supplication",
+        "Hope and perseverance in supplication"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Contentment and etiquette of supplication",
+        "Hope and perseverance in supplication"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Oneness of Allah (Tawhid)",
+        "Remembrance of Allah (Dhikr)"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Calling to Allah (Dawah)",
+        "Oneness of Allah (Tawhid)"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Supplication (Du'a)",
+        "Supplication as worship"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Supplication (Du'a)",
+        "Supplication and humility"
+      ],
+      "decision": "reject"
+    }
+  ],
+  "reviewed_concepts": [
+    {
+      "topic": "Oneness of Allah (Tawhid)",
+      "concept": "hadith:ArticlesOfFaith",
+      "decision": "reject"
+    },
+    {
+      "topic": "Oneness of Allah (Tawhid)",
+      "concept": "hadith:Tauhid",
+      "decision": "accept"
+    },
+    {
+      "topic": "Names and attributes of Allah",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "reject"
+    },
+    {
+      "topic": "Hope and perseverance in supplication",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "reject"
+    },
+    {
+      "topic": "Healing and supplication",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "reject"
+    }
+  ],
+  "topic_related": [],
+  "hub_related": {
+    "hub": "Supplication in Islam (Ad-Du'a)",
+    "members": [
+      "Supplication and reliance on Allah",
+      "Supplication as worship",
+      "Supplication and humility",
+      "Supplication and visiting the sick",
+      "Hope and perseverance in supplication",
+      "Healing and supplication",
+      "Contentment and etiquette of supplication"
+    ]
+  },
+  "manual_concept_matches": [
+    {
+      "topic": "Names and attributes of Allah",
+      "concept": "hadith:ArticlesOfFaith",
+      "match": "closeMatch"
+    }
+  ]
+}

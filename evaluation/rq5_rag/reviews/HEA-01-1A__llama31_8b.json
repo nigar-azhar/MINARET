@@ -1,0 +1,144 @@
+[
+  {
+    "question_id": "Q49",
+    "question": "لیکچرر کے مطابق آئینہ دیکھتے وقت پڑھی جانے والی مسنون دعا کیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-01-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-01-1A_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "دعا یہ ہے: اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 29.23,
+    "generated_at": "2026-09-23T20:48:42.566447+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked the trace's chunks_sent_to_model for this record - HEA-01-1A_chunk_0002 was among the 4 sent (along with chunk_0000, chunk_0063, chunk_0076). Chunk_0002's text contains the dua verbatim: 'اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ'. Model's answer 'دعا یہ ہے: اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ' matches this exactly. Note: the answer text contains no [chunk_id=...] tag so the automated citation_metrics flagged no_citation_found=true / cited_chunk_ids=[] - this is a citation-formatting miss by the model, not a factual error; the content itself is fully grounded in chunk_0002 which was in context."
+  },
+  {
+    "question_id": "Q50",
+    "question": "According to the lecturer, what is the recommended (masnoon) dua to recite when looking in a mirror?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-01-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-01-1A_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-01-1A_chunk_0002"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "وسلم آئینے کو دیکھ کر اپنے لئے مانگا کرتے تھے اور آپ کے طریقے میں ہمارے لئے نمونہ ہے کیا دعا ہے اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ (chunk_id=HEA-01-1A_chunk_0002 lecture_id=HEA-01-1A start=79.10s end=118.82s)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 30.51,
+    "generated_at": "2026-09-23T20:49:13.083225+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HEA-01-1A_chunk_0002 (start=79.10s end=118.82s, matches the timestamps the model cited). Model's answer reproduces chunk_0002's text almost verbatim ('وسلم آئینے کو دیکھ کر اپنے لئے مانگا کرتے تھے اور آپ کے طریقے میں ہمارے لئے نمونہ ہے کیا دعا ہے اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ'), explicitly cites chunk_0002 with correct start/end offsets, and adds no unsupported claims (unlike qwen's Q50 answer, which fabricated a detail about 'seeing the Salaam' not present in this or any other retrieved chunk)."
+  },
+  {
+    "question_id": "Q81",
+    "question": "اس لیکچر میں حج کے مناسک کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-01-1A",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 22.93,
+    "generated_at": "2026-09-23T20:49:36.015883+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Q81, deliberately-unanswerable Hajj-rituals question. Model gave the exact required refusal string, no citation, no fabricated Hajj content. Consistent with lecture subject matter (husn-al-khulq), confirmed via chunks read for other models' Q82 answers."
+  },
+  {
+    "question_id": "Q82",
+    "question": "What does the lecturer say about the rituals of Hajj in this lecture?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-01-1A",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 25.48,
+    "generated_at": "2026-09-23T20:50:01.498399+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Q82, English mirror of Q81 (Hajj rituals, unanswerable). Model gave the exact required refusal string with no citation and no fabricated Hajj content. Correct refusal."
+  }
+]

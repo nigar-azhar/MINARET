@@ -1,0 +1,148 @@
+[
+  {
+    "question_id": "Q9",
+    "question": "کامیاب انسان بننے کے لیے کن پہلوؤں کا جاگنا ضروری بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001A_chunk_0003",
+      "TQ2005-P01-L001A_chunk_0004"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.5
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0003"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "چونکہ کامیاب انسان بننے کے لیے کن پہلوؤں کا جاگنا ضروری بتایا گیا ہے، اس سوال کا جواب دینے کے لیے میں chunk_id=TQ2005-P01-L001A_chunk_0003 lecture_id=TQ2005-P01-L001A start=87.04s end=116.34s کو استعمال کر رہا ہوں۔\n\nاس چنک کے مطابق، کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 35.66,
+    "generated_at": "2026-09-23T20:18:59.304168+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0003 (\"کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت... ان سب کے اندر ایک ہارمونی اور بیلنس ہو (chunk_0003, 87.04-116.34s)\"), cited correctly with timestamp. Model quotes the chunk almost verbatim in Urdu. Accepted per gold file's documented widening for this question."
+  },
+  {
+    "question_id": "Q24",
+    "question": "According to the lecture, which aspects of a person need to 'awaken' in order to become a successful person?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001A_chunk_0003",
+      "TQ2005-P01-L001A_chunk_0004"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0003"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to chunk_id=TQ2005-P01-L001A_chunk_0003 lecture_id=TQ2005-P01-L001A start=87.04s end=116.34s, the aspects of a person that need to 'awaken' in order to become a successful person are:\n\n1. جسمانی (physical)\n2. ذہنی (mental/intellectual)\n3. روحانی (spiritual)\n4. امم جذباتی اور سماجی (emotional and social)\n\nThese aspects should be balanced and harmonious for a person to be considered successful.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 31.76,
+    "generated_at": "2026-09-23T20:19:31.067744+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Only cites chunk_0003 (\"کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت... ان سب کے اندر ایک ہارمونی اور بیلنس ہو (chunk_0003, 87.04-116.34s)\") - citation_recall=0.5, chunk_0004 (the chunk that actually uses the word 'awaken'/جاگتا, about the mental/intellectual/consciousness aspect) is never cited or engaged with. The model lists the 5 balance-aspects from chunk_0003 under the heading 'aspects that need to awaken', which is a looser paraphrase than gemma's/qwen's answers (chunk_0003 itself talks about 'harmony and balance', not 'awakening' - that specific term only appears in chunk_0004). Content is grounded and directionally correct (same underlying concept as the accepted gold widening for Q9), but it's less complete/precise than the other two models since it never surfaces the chunk_0004 'awaken' claim at all - marking partially_correct rather than correct_grounded because a reader would come away without the piece of the lecture that literally answers the question's 'awaken' wording."
+  },
+  {
+    "question_id": "Q11",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001A",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 29.89,
+    "generated_at": "2026-09-23T20:20:00.959497+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Model refused with no citations. checked chunks 0023 (continuous learning/knowledge-seeking), 0029 (being watched, setting example), 0032 (discipline/rows in class), 0033 (personal conduct as walking dawah) - none mention Hajj/Umrah etiquette, confirming this lecture (a course-logistics/Al-Fatiha recap lesson) genuinely does not cover that topic. Correct refusal."
+  },
+  {
+    "question_id": "Q26",
+    "question": "اس سبق میں حج اور عمرہ کے آداب کے بارے میں کیا بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001A",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 31.99,
+    "generated_at": "2026-09-23T20:20:32.957371+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Urdu cross-lingual variant of Q11. checked chunks 0023 (continuous learning/knowledge-seeking), 0029 (being watched, setting example), 0032 (discipline/rows in class), 0033 (personal conduct as walking dawah) - none mention Hajj/Umrah etiquette, confirming this lecture (a course-logistics/Al-Fatiha recap lesson) genuinely does not cover that topic. Model correctly refused."
+  }
+]

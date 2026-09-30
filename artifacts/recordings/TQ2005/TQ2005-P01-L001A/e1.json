@@ -1,0 +1,185 @@
+{
+  "ayat": [
+    {
+      "surah_number": "1",
+      "ayah_number": "1",
+      "text": "بِسْمِ اللهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "start": 0.62,
+      "end": 11.08,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "25",
+      "text": "رَبِّ اشْرَحْ لِي صَدْرِي",
+      "start": 0.62,
+      "end": 17.9,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "26",
+      "text": "وَيَسِّرْ لِي أَمْرِي",
+      "start": 11.08,
+      "end": 17.9,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "27",
+      "text": "وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي",
+      "start": 11.08,
+      "end": 17.9,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "28",
+      "text": "يَفْقَهُوا قَوْلِي",
+      "start": 11.08,
+      "end": 17.9,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "hadith": [
+    {
+      "reference": "JT_2670",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb al-ʿIlm (Book 41: Knowledge), Bāb 14, Hadith 2670",
+      "text": "الدَّالُّ عَلَى الْخَيْرِ كَفَاعِلِهِ",
+      "start": 244.82,
+      "end": 256.82,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2670",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb al-ʿIlm (Book 41: Knowledge), Bāb 14, Hadith 2670",
+      "text": "الدَّالُّ عَلَى الْخَيْرِ كَفَاعِلِهِ",
+      "start": 258.32,
+      "end": 269.24,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2670",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb al-ʿIlm (Book 41: Knowledge), Bāb 14, Hadith 2670",
+      "text": "نیکی کی طرف رہنمائی کرنے والا ایسا ہی ہے جیسے خود کرنے والا",
+      "start": 258.32,
+      "end": 269.24,
+      "usage": "translation"
+    },
+    {
+      "reference": "JT_2317",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb az-Zuhd (Book 36: Asceticism), Bāb 11, Hadith 2317",
+      "text": "مِنْ حُسْنِ إِسْلَامِ الْمَرْءِ تَرْكُهُ مَا لَا يَعْنِيهِ",
+      "start": 936.94,
+      "end": 948.26,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2317",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb az-Zuhd (Book 36: Asceticism), Bāb 11, Hadith 2317",
+      "text": "اسلام کا حسن کیا ہے، خوبصورتی کیا ہے؟ کہ ان باتوں کو چھوڑ دے جس سے اس کا کوئی مطلب نہیں۔",
+      "start": 936.94,
+      "end": 948.26,
+      "usage": "translation"
+    },
+    {
+      "reference": "SB_2942",
+      "expanded_reference": "Ṣaḥīḥ al-Bukhārī, Kitāb al-Jihād was-Siyar (Book 56: Fighting for the Cause of Allah), Bāb 102, Hadith 2942",
+      "text": "اور ایک شخص آپ کو دیکھ کے مسلمان ہو گیا نا، تو وہ آپ کے لیے سرخ قیمتی اونٹوں سے زیادہ بہتر ہے، دنیا کی بڑی بڑی نعمتوں سے زیادہ بہتر ہے۔",
+      "start": 1091.72,
+      "end": 1114.32,
+      "usage": "translation"
+    }
+  ],
+  "dua": [
+    {
+      "reference": "QuranicDua-08",
+      "text": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي",
+      "start": 0.62,
+      "end": 17.9,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Self-Accountability (Muhasabah)",
+      "description": "Evaluating one's own actions, recognizing personal flaws, and taking responsibility for self-improvement.",
+      "start": 20.66,
+      "end": 50.8
+    },
+    {
+      "name": "Intellect ('Aql)",
+      "description": "Intellect as a divine trust and test, the faculty distinguishing humans from animals, and purposeful living.",
+      "start": 52.96,
+      "end": 140.42
+    },
+    {
+      "name": "Calling to Good (Da'wah)",
+      "description": "Guiding others towards virtue, sharing beneficial reminders, and earning reward equal to the doer.",
+      "start": 203.06,
+      "end": 347.44
+    },
+    {
+      "name": "The Hereafter (Akhirah)",
+      "description": "Contrasting temporary worldly assistance with everlasting salvation in the Akhirah.",
+      "start": 280.3,
+      "end": 375.0
+    },
+    {
+      "name": "Internalization of Knowledge ('Ilm wa 'Amal)",
+      "description": "The necessity of digesting and practicing knowledge rather than merely accumulating passive information.",
+      "start": 608.46,
+      "end": 802.46
+    },
+    {
+      "name": "Minding One's Affairs (Tark Ma La Ya'nih)",
+      "description": "Excellence in faith demonstrated by self-restraint and avoiding unnecessary interference in what does not concern one.",
+      "start": 925.42,
+      "end": 960.1
+    },
+    {
+      "name": "Prayer and Discipline (Salah)",
+      "description": "Straightening and aligning rows in prayer as an integral element of worship and communal order.",
+      "start": 1036.18,
+      "end": 1064.22
+    },
+    {
+      "name": "Moral Example and Accountability (Qudwah)",
+      "description": "Living as an embodiment of Islamic values before society while maintaining consciousness of divine watch.",
+      "start": 1083.56,
+      "end": 1133.2
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "Self-Accountability and the Purpose of Intellect",
+      "title_ur": "محاسبۂ نفس اور نعمتِ عقل کا مقصد",
+      "start": 0.62,
+      "end": 347.44
+    },
+    {
+      "title_en": "Calling to Virtue and the Primacy of the Hereafter",
+      "title_ur": "دعوتِ خیر اور آخرت کی ترجیح",
+      "start": 347.44,
+      "end": 607.58
+    },
+    {
+      "title_en": "Internalizing Knowledge and Moving Beyond Information",
+      "title_ur": "علم کا فہم و ہضم: معلومات سے عمل تک",
+      "start": 607.58,
+      "end": 865.56
+    },
+    {
+      "title_en": "Discipline, Practical Representation, and Divine Vigilance",
+      "title_ur": "نظم و ضبط، اسلام کی عملی نمائندگی اور احتساب کا شعور",
+      "start": 865.56,
+      "end": 1133.2
+    }
+  ]
+}

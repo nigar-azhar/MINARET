@@ -1,0 +1,14 @@
+# CQ12 -- How many TranscriptSegment are there in Recording X's Transcript?
+# Paper-reported result: `510` — matches the known segment count for this recording's gold transcript exactly.
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (COUNT(?seg) AS ?numSegments) WHERE {
+  ?rec minaret:recordingId "SKD2025-0001" .
+  ?rec minaret:hasTranscript ?t .
+  ?t minaret:hasSegment ?seg .
+}

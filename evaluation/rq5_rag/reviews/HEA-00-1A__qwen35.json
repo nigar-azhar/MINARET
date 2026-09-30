@@ -1,0 +1,150 @@
+[
+  {
+    "question_id": "Q47",
+    "question": "روایت کے مطابق حضرت ابو ہریرہ نے یہ حدیث بیان کرتے وقت کیسا جذباتی ردعمل ظاہر کیا؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-00-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-00-1A_chunk_0006",
+      "HEA-00-1A_chunk_0007",
+      "HEA-00-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-00-1A_chunk_0006",
+        "HEA-00-1A_chunk_0007",
+        "HEA-00-1A_chunk_0008"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nروایت کے مطابق حضرت ابو ہریرہ حدیث بیان کرتے وقت اتنے متاثر ہوئے کہ وہ بے ہوش ہو گئے اور اپنے چہرے کو پونچھا۔ اس کی وجہ ان کے دل کی شدید کیفیت تھی۔\n\nChunk IDs: HEA-00-1A_chunk_0006, HEA-00-1A_chunk_0007, HEA-00-1A_chunk_0008",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 14480,
+    "elapsed_seconds": 161.67,
+    "generated_at": "2026-09-23T19:20:09.096856+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked chunks HEA-00-1A_chunk_0006/0007/0008 (text: 'نشغة اخری...سسکی لی آہ بھری اور بے ہوش ہو گئے...مسح' / 'چیخ مار کر لمبی سسکی لیتے ہوئے بے ہوش ہو گئے' / 'نشغة شدیدة...بے ہوش ہوئے اور شدید قسم کے حال سے'). Model's claim ('اتنے متاثر ہوئے کہ بے ہوش ہو گئے اور چہرہ پونچھا، دل کی شدید کیفیت') is accurate but thin: it captures only a single fainting+face-wipe event and the general 'severe state', omitting that Abu Hurairah sobbed/choked (نشغة/سسکی) and fainted repeatedly with escalating severity (chunk 0008->0009 shows him leaning and being held up by the narrator, 'فاسندته طویلا'). Grounded but incomplete -> partially_correct."
+  },
+  {
+    "question_id": "Q48",
+    "question": "According to the narration, how did Abu Hurairah react emotionally while narrating this hadith about the Day of Judgment?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-00-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-00-1A_chunk_0006",
+      "HEA-00-1A_chunk_0007",
+      "HEA-00-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 16112,
+    "elapsed_seconds": 154.67,
+    "generated_at": "2026-09-23T19:22:43.764794+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "Model output 'This lecture does not provide enough information to answer that question.' with zero citations, even though this is the English twin of Q47 which the same model (and Gemma, Llama) answered using chunks 0006-0008 (text confirms fainting/sobbing narrative is present and retrievable). This is an answerable question the model failed to answer -> incorrect (not correctly_refused, which only applies to answerable=false questions)."
+  },
+  {
+    "question_id": "Q71",
+    "question": "اس حدیث کے مطابق وہ کون سے تین قسم کے لوگ ہیں جن کے اعمال قیامت کے دن مسترد کر دیے جائیں گے کیونکہ انہوں نے وہ اعمال دکھاوے کے لیے کیے تھے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-00-1A",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 18528,
+    "elapsed_seconds": 200.4,
+    "generated_at": "2026-09-23T19:26:04.167381+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is essentially empty ('\\n\\n'), finish_reason='length' (model exhausted its token budget on reasoning_content before producing an answer). No chunks cited. The real answer (qari, martyr, wealthy philanthropist judged for showing off - HEA-00-1A_chunk_0011 through 0017) was never attempted -> incorrect."
+  },
+  {
+    "question_id": "Q72",
+    "question": "According to this hadith, who are the three types of people whose deeds will be rejected on the Day of Judgment because they did them to be seen and praised by others?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-00-1A",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 14652,
+    "elapsed_seconds": 159.58,
+    "generated_at": "2026-09-23T19:28:43.745987+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "Model output the canned refusal 'This lecture does not provide enough information...' with zero citations. This is the English twin of Q71; Gemma and Llama both retrieved HEA-00-1A_chunk_0017 (which directly discusses one of the three men being accused of showing off: 'بَلْ اَرَدْتَّ اَنْ یُّقَالَ فُلَانٌ جَرِیْٓءٌ') for the same underlying question, so the content was retrievable. Refusing on an answerable question -> incorrect."
+  }
+]

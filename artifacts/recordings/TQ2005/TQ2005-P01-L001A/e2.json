@@ -1,0 +1,225 @@
+{
+  "ayat": [
+    {
+      "surah_number": "1",
+      "ayah_number": "1",
+      "text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "start": 0.62,
+      "end": 11.08,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "25",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْ",
+      "start": 0.62,
+      "end": 17.9,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "26",
+      "text": "وَیَسِّرْ لِیْۤ اَمْرِیْ",
+      "start": 11.08,
+      "end": 17.9,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "27",
+      "text": "وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْ",
+      "start": 11.08,
+      "end": 17.9,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "28",
+      "text": "یَفْقَهُوْا قَوْلِیْ",
+      "start": 11.08,
+      "end": 17.9,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "hadith": [
+    {
+      "reference": "JT_2670",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb al-ʿIlm (Book 41: Knowledge), Bāb 14, Hadith 2670",
+      "text": "«اَلدَّالُّ عَلَى الْخَیْرِ كَفَاعِلِهٖ»",
+      "start": 244.82,
+      "end": 256.82,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2670",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb al-ʿIlm (Book 41: Knowledge), Bāb 14, Hadith 2670",
+      "text": "«اَلدَّالُّ عَلَى الْخَیْرِ كَفَاعِلِهٖ»",
+      "start": 258.32,
+      "end": 269.24,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2670",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb al-ʿIlm (Book 41: Knowledge), Bāb 14, Hadith 2670",
+      "text": "نیکی کی طرف رہنمائی کرنے والا ایسا ہی ہے جیسے خود کرنے والا",
+      "start": 258.32,
+      "end": 269.24,
+      "usage": "translation"
+    },
+    {
+      "reference": "JT_2317",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb az-Zuhd (Book 36: Asceticism), Bāb 11, Hadith 2317",
+      "text": "«مِنْ حُسْنِ اِسْلَامِ الْمَرْءِ تَرْكُهٗ مَا لَا یَعْنِیْهِ»",
+      "start": 936.94,
+      "end": 948.26,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2317",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb az-Zuhd (Book 36: Asceticism), Bāb 11, Hadith 2317",
+      "text": "اسلام کا حسن کیا ہے، خوبصورتی کیا ہے؟ کہ ان باتوں کو چھوڑ دے جس سے اس کا کوئی مطلب نہیں۔",
+      "start": 936.94,
+      "end": 948.26,
+      "usage": "translation"
+    },
+    {
+      "reference": "SB_723",
+      "expanded_reference": "Ṣaḥīḥ al-Bukhārī, Kitāb al-Adhān (Book 10: Call to Prayers), Bāb 74, Hadith 723",
+      "text": "«فَاِنَّ تَسْوِیَةَ الصُّفُوْفِ مِنْ اِقَامَةِ الصَّلٰوةِ»",
+      "start": 1046.46,
+      "end": 1050.62,
+      "usage": "quotation"
+    },
+    {
+      "reference": "SB_723",
+      "expanded_reference": "Ṣaḥīḥ al-Bukhārī, Kitāb al-Adhān (Book 10: Call to Prayers), Bāb 74, Hadith 723",
+      "text": "صفوں کی درستگی نماز کا حصہ ہے۔",
+      "start": 1050.62,
+      "end": 1053.74,
+      "usage": "translation"
+    },
+    {
+      "reference": "SB_2942",
+      "expanded_reference": "Ṣaḥīḥ al-Bukhārī, Kitāb al-Jihād was-Siyar (Book 56: Fighting for the Cause of Allah), Bāb 102, Hadith 2942",
+      "text": "اور ایک شخص آپ کو دیکھ کے مسلمان ہو گیا نا، تو وہ آپ کے لیے سرخ قیمتی اونٹوں سے زیادہ بہتر ہے، دنیا کی بڑی بڑی نعمتوں سے زیادہ بہتر ہے۔",
+      "start": 1091.72,
+      "end": 1114.32,
+      "usage": "translation"
+    }
+  ],
+  "dua": [
+    {
+      "reference": "QuranicDua-08",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْ وَیَسِّرْ لِیْۤ اَمْرِیْ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْ یَفْقَهُوْا قَوْلِیْ",
+      "start": 0.62,
+      "end": 17.9,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "topics": [
+    {
+      "name_en": "Self-Accountability (Muhasabah)",
+      "name_ur": "محاسبۂ نفس (محاسبہ)",
+      "description_en": "Evaluating one's own actions, recognizing personal flaws, and taking responsibility for self-improvement.",
+      "description_ur": "اپنے اعمال کا جائزہ لینا، ذاتی کمزوریوں کو پہچاننا اور اصلاحِ نفس کی ذمہ داری قبول کرنا۔",
+      "start": 20.66,
+      "end": 50.8,
+      "ur_translation_generated": true
+    },
+    {
+      "name_en": "Intellect ('Aql)",
+      "name_ur": "عقل",
+      "description_en": "Intellect as a divine trust and test, the faculty distinguishing humans from animals, and purposeful living.",
+      "description_ur": "عقل بطور امانتِ الٰہی اور آزمائش، وہ صلاحیت جو انسان کو حیوانات سے ممتاز کرتی ہے، اور بامقصد زندگی۔",
+      "start": 52.96,
+      "end": 140.42,
+      "ur_translation_generated": true
+    },
+    {
+      "name_en": "Calling to Good (Da'wah)",
+      "name_ur": "دعوتِ خیر (دعوہ)",
+      "description_en": "Guiding others towards virtue, sharing beneficial reminders, and earning reward equal to the doer.",
+      "description_ur": "دوسروں کو نیکی کی طرف رہنمائی کرنا، مفید نصیحت پہنچانا، اور عمل کرنے والے کے برابر اجر پانا۔",
+      "start": 203.06,
+      "end": 347.44,
+      "ur_translation_generated": true
+    },
+    {
+      "name_en": "The Hereafter (Akhirah)",
+      "name_ur": "آخرت",
+      "description_en": "Contrasting temporary worldly assistance with everlasting salvation in the Akhirah.",
+      "description_ur": "دنیاوی عارضی مدد کا آخرت کی ابدی نجات سے موازنہ۔",
+      "start": 280.3,
+      "end": 375.0,
+      "ur_translation_generated": true
+    },
+    {
+      "name_en": "Internalization of Knowledge ('Ilm wa 'Amal)",
+      "name_ur": "علم و عمل کا حقیقی حصول",
+      "description_en": "The necessity of digesting and practicing knowledge rather than merely accumulating passive information.",
+      "description_ur": "علم کو محض جمع کرنے کے بجائے اسے ہضم کرنے اور عمل میں لانے کی ضرورت۔",
+      "start": 608.46,
+      "end": 802.46,
+      "ur_translation_generated": true
+    },
+    {
+      "name_en": "Minding One's Affairs (Tark Ma La Ya'nih)",
+      "name_ur": "اپنے معاملات میں مشغولیت (ترکِ ما لا یعنیہ)",
+      "description_en": "Excellence in faith demonstrated by self-restraint and avoiding unnecessary interference in what does not concern one.",
+      "description_ur": "کامل ایمان کی نشانی یہ ہے کہ انسان اپنے نفس پر قابو رکھے اور غیر ضروری امور میں دخل اندازی سے گریز کرے۔",
+      "start": 925.42,
+      "end": 960.1,
+      "ur_translation_generated": true
+    },
+    {
+      "name_en": "Prayer and Discipline (Salah)",
+      "name_ur": "نماز اور نظم و ضبط",
+      "description_en": "Straightening and aligning rows in prayer as an integral element of worship and communal order.",
+      "description_ur": "نماز میں صفیں سیدھی اور برابر رکھنا عبادت اور اجتماعی نظم کا لازمی حصہ ہے۔",
+      "start": 1036.18,
+      "end": 1064.22,
+      "ur_translation_generated": true
+    },
+    {
+      "name_en": "Moral Example and Accountability (Qudwah)",
+      "name_ur": "نمونۂ عمل اور احتساب (قدوہ)",
+      "description_en": "Living as an embodiment of Islamic values before society while maintaining consciousness of divine watch.",
+      "description_ur": "معاشرے کے سامنے اسلامی اقدار کا عملی نمونہ بن کر زندگی گزارنا، اور اللہ کی نگرانی کا احساس برقرار رکھنا۔",
+      "start": 1083.56,
+      "end": 1133.2,
+      "ur_translation_generated": true
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "Self-Accountability and the Purpose of Intellect",
+      "title_ur": "محاسبۂ نفس اور نعمتِ عقل کا مقصد",
+      "start": 0.62,
+      "end": 347.44
+    },
+    {
+      "title_en": "Calling to Virtue and the Primacy of the Hereafter",
+      "title_ur": "دعوتِ خیر اور آخرت کی ترجیح",
+      "start": 347.44,
+      "end": 607.58
+    },
+    {
+      "title_en": "Internalizing Knowledge and Moving Beyond Information",
+      "title_ur": "علم کا فہم و ہضم: معلومات سے عمل تک",
+      "start": 607.58,
+      "end": 865.56
+    },
+    {
+      "title_en": "Discipline, Practical Representation, and Divine Vigilance",
+      "title_ur": "نظم و ضبط، اسلام کی عملی نمائندگی اور احتساب کا شعور",
+      "start": 865.56,
+      "end": 1133.2
+    }
+  ]
+}

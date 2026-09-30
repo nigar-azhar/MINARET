@@ -1,0 +1,144 @@
+[
+  {
+    "question_id": "Q39",
+    "question": "According to the lecturer, what are the three conditions of 'istita'ah' (ability) that make Hajj mandatory on a person?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L02",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 22410,
+    "elapsed_seconds": 278.27,
+    "generated_at": "2026-09-23T18:18:39.856819+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is empty (\"\\n\\n\"); finish_reason=\"length\" with reasoning_content_length=22410 chars, meaning the model exhausted its token budget on internal reasoning and never emitted the final answer text. No citation, no content. Checked chunks_sent_to_model (0061,0074,0063,0059) — evidence for the correct answer (financial means [chunk_0061: \"It has three understandings...travel expenses...enough expenses for the people he's leaving behind\"], safety and physical capability [chunk_0063: \"safe way, when a person's life and property is safe...physical capability is also one of the conditions\"]) was present in context but never used. Graded incorrect (empty/non-answer to an answerable question, not a proper refusal, not hallucinated since it asserts nothing false)."
+  },
+  {
+    "question_id": "Q40",
+    "question": "لیکچرر کے مطابق 'استطاعت' کی وہ تین شرائط کیا ہیں جن کی بنا پر کسی شخص پر حج فرض ہوتا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L02",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 22083,
+    "elapsed_seconds": 283.52,
+    "generated_at": "2026-09-23T18:23:23.377229+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is empty (\"\\n\\n\"); finish_reason=\"length\", reasoning_content_length=22083 — same token-exhaustion failure as Q39 (Urdu variant). chunks_sent (0061,0063,0074,0062) contained the correct answer. No answer text produced, so incorrect."
+  },
+  {
+    "question_id": "Q59",
+    "question": "According to the lecturer, what are the first four points given to explain why Makkah is a place of safety and security?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L02",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 21101,
+    "elapsed_seconds": 254.78,
+    "generated_at": "2026-09-23T18:27:38.162976+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is empty (\"\\n\\n\"); finish_reason=\"length\", reasoning_content_length=21101 — same token-exhaustion pattern. chunks_sent (0051,0055,0042,0048) only partially covered the true 4 points (see notes on Q59 for gemma/llama below re: the retrieval gap missing chunks 0052-0054 which hold points 2 and 3), but qwen produced no text regardless. Graded incorrect."
+  },
+  {
+    "question_id": "Q60",
+    "question": "لیکچرر کے مطابق مکہ کے امن و سلامتی کا مقام ہونے کی وہ پہلی چار وجوہات کیا ہیں جو بتائی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L02",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 20573,
+    "elapsed_seconds": 213.31,
+    "generated_at": "2026-09-23T18:31:11.397182+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is empty (\"\\n\\n\"); finish_reason=\"length\", reasoning_content_length=20573. Same failure mode as the other three qwen answers in this set — the model spent its entire generation budget on <think> reasoning and returned no final text. Graded incorrect."
+  }
+]

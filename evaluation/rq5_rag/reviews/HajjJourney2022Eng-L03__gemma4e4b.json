@@ -1,0 +1,158 @@
+[
+  {
+    "question_id": "Q41",
+    "question": "According to the lecturer, what are the three months during which Hajj takes place?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L03",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0084",
+        "HajjJourney2022Eng-L03_chunk_0087"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah (chunk_id=HajjJourney2022Eng-L03_chunk_0084). Additionally, it is mentioned that the ihram for Hajj should be worn during these months, not in Ramadan or any other month (chunk_id=HajjJourney2022Eng-L03_chunk_0087).",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1714,
+    "elapsed_seconds": 38.99,
+    "generated_at": "2026-09-23T20:02:37.981380+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0084: \"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\" Matches the model's answer exactly. Chunk_0087 (also cited) additionally confirms via the ihram-timing statement \"it should be Shawwal, Dhul-Qa'dah, or Dhul-Hijjah.\" Both citations genuinely support the claim. Correct and grounded, and the answer stays concise/faithful (contrast with qwen3.5's degenerate repetition on the same question)."
+  },
+  {
+    "question_id": "Q42",
+    "question": "لیکچرر کے مطابق حج کے تین مہینے کون سے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L03",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0084",
+        "HajjJourney2022Eng-L03_chunk_0087"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "حج کے تین مہینے شوال، ذو القعدہ، اور ذو الحجج ہیں (Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah) [chunk_id=HajjJourney2022Eng-L03_chunk_0084, chunk_id=HajjJourney2022Eng-L03_chunk_0087]۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1877,
+    "elapsed_seconds": 14.32,
+    "generated_at": "2026-09-23T20:02:52.298057+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu answer names Shawwal, Dhu al-Qa'dah, Dhu al-Hijjah (with a minor spelling slip \"ذو الحجج\" instead of \"ذو الحجہ\", not a factual error) citing chunk_0084 and chunk_0087, both verified above to state exactly these three months. Consistent with this model's English Q41 answer. Correct and grounded."
+  },
+  {
+    "question_id": "Q61",
+    "question": "According to the lecturer, what are the three types of Hajj mentioned in the lecture?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L03",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0091"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "The three types of Hajj are Tamattu', Qiran, and Ifrad (HajjJourney2022Eng-L03_chunk_0091).",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1127,
+    "elapsed_seconds": 9.8,
+    "generated_at": "2026-09-23T20:03:02.097366+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0091: \"There are three types of Hajj: Tamattu', Qiran, and Ifrad.\" Matches model's answer exactly, single citation is the exact supporting chunk. Correct and grounded."
+  },
+  {
+    "question_id": "Q62",
+    "question": "لیکچرر کے مطابق حج کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L03",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0091"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق حج کی تین اقسام ہیں:\n1. **Tamattu'**\n2. **Qiran**\n3. **Ifrad**\n\n(Sources: [chunk_id=HajjJourney2022Eng-L03_chunk_0091])",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1678,
+    "elapsed_seconds": 11.83,
+    "generated_at": "2026-09-23T20:03:13.926178+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu answer lists Tamattu', Qiran, Ifrad citing chunk_0091 (\"There are three types of Hajj: Tamattu', Qiran, and Ifrad\"). Matches and is consistent with this model's English Q61 answer. Correct and grounded."
+  }
+]

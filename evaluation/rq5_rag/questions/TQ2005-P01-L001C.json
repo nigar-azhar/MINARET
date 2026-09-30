@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q29",
+    "question": "لیکچر کے لفظی ترجمے کے مطابق سورۃ الفاتحہ کی آیت 'اِیَّاكَ نَعْبُدُ' کا لفظ بہ لفظ ترجمہ کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["TQ2005-P01-L001C_chunk_0001"],
+    "note": "This lecture is a short (12-segment) word-by-word (lafzi) translation of Al-Fatiha; fact verified directly against the transcript (segment 6: 'صرف تیری ہی، ہم عبادت کرتے ہیں'). gold_chunk_id backfilled 2026-09-24: chunk_0001's text ('«اِیَّاكَ» صرف تیری ہی، «نَعْبُدُ» ہم عبادت کرتے ہیں،') was verified to support this answer, and both qwen3.5-9b-mlx and gemma-4-e4b-it gave correct_grounded answers citing exactly this chunk (see evaluation/rq5_rag/reviews/TQ2005-P01-L001C__qwen35.json and __gemma4e4b.json)."
+  },
+  {
+    "question_id": "Q30",
+    "question": "According to the lecture's word-for-word translation, what is the literal meaning given for the phrase 'Iyyaka na'budu' in Surah Al-Fatiha?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["TQ2005-P01-L001C_chunk_0001"],
+    "note": "Cross-lingual variant of Q29 (same content, reverse language direction). gold_chunk_id backfilled 2026-09-24: same chunk_0001 evidence as Q29 - verified qwen3.5-9b-mlx and gemma-4-e4b-it both gave correct_grounded answers citing chunk_0001 (see evaluation/rq5_rag/reviews/TQ2005-P01-L001C__qwen35.json and __gemma4e4b.json). Note meta-llama-3.1-8b-instruct@q6_k incorrectly refused this exact question despite chunk_0001 being in its context - see that review file's grader_notes for Q30."
+  },
+  {
+    "question_id": "Q79",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - added 2026-09-23 as part of balancing the gold set to 2 concepts (answerable + unanswerable) per recording. This lecture is a short word-by-word translation of Al-Fatiha only, with no Hajj content."
+  },
+  {
+    "question_id": "Q80",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q79 (same deliberately-unanswerable question, reverse language direction)."
+  }
+]

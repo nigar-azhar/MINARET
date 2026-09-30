@@ -1,0 +1,616 @@
+[
+  {
+    "question_id": "Q47",
+    "question": "روایت کے مطابق حضرت ابو ہریرہ نے یہ حدیث بیان کرتے وقت کیسا جذباتی ردعمل ظاہر کیا؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-00-1A_chunk_0006",
+      "HEA-00-1A_chunk_0007",
+      "HEA-00-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-00-1A_chunk_0006",
+        "HEA-00-1A_chunk_0007",
+        "HEA-01-1A_chunk_0038"
+      ],
+      "citation_precision": 0.6666666666666666,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "چونکہ چند حصوں میں اس بات کی وضاحت کی گئی ہے کہ حضرت ابو ہریرہ نے حدیث بیان کرنے کے بعد شدید قسم کا جذباتی ردعمل ظاہر کیا، جس میں وہ سسکی لیتے ہوئے بے ہوش ہو گئے تھے (chunk_id=HEA-00-1A_chunk_0007, chunk_id=HEA-00-1A_chunk_0006) اور پھر افاقہ ہوا اور انہوں نے اپنے چہرے کو پونچھا (chunk_id=HEA-00-1A_chunk_0006, chunk_id=HEA-01-1A_chunk_0038)۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 52.49,
+    "generated_at": "2026-09-24T10:14:06.980584+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "The core claim (fainting/sobbing then recovering and wiping his face) is accurate and grounded in gold chunks HEA-00-1A_chunk_0006/0007, but the answer also cites HEA-01-1A_chunk_0038 (pulled in from a different lecture in the series) as support for 'wiped his face' -- that chunk actually describes an unrelated later episode (Abu Hurairah returning joyfully with news) and does not contain that content, so part of the citation is not actually grounded even though the underlying fact is true elsewhere."
+  },
+  {
+    "question_id": "Q48",
+    "question": "According to the narration, how did Abu Hurairah react emotionally while narrating this hadith about the Day of Judgment?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-00-1A_chunk_0006",
+      "HEA-00-1A_chunk_0007",
+      "HEA-00-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 33.31,
+    "generated_at": "2026-09-24T10:14:40.290412+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "The model was sent all three gold chunks (0006/0007/0008) describing Abu Hurairah's fainting/sobbing reaction -- identical retrieval to Q47 -- yet it refused, claiming insufficient information. Series-scope retrieval worked fine here (the right chunks were present); the failure is in generation, not retrieval."
+  },
+  {
+    "question_id": "Q71",
+    "question": "اس حدیث کے مطابق وہ کون سے تین قسم کے لوگ ہیں جن کے اعمال قیامت کے دن مسترد کر دیے جائیں گے کیونکہ انہوں نے وہ اعمال دکھاوے کے لیے کیے تھے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-00-1A_chunk_0017"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "[chunk_id=HEA-00-1A_chunk_0017 lecture_id=HEA-00-1A start=621.24s end=677.32s]\n\nاس حدیث کے مطابق وہ تین قسم کے لوگ ہیں جن کے اعمال قیامت کے دن مسترد کر دیے جائیں گے کیونکہ انہوں نے وہ اعمال دکھاوے کے لیے کیے تھے۔ اللہ تعالیٰ فرمائے گا: \"بَلْ اَرَدْتَّ اَنْ یُّقَالَ، بلکہ تو نے تو چاہا تھا کہ کہا جائے: فُلَانٌ جَرِیْٓءٌ، فلاں بڑا بہادر ہے،\" یعنی وہ لوگ جنہوں نے اپنے اعمال دکھاوے کے لیے کیے تھے۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 47.9,
+    "generated_at": "2026-09-24T10:15:28.191445+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Retrieved HEA-00-1A_chunk_0017 covers only the setup and the 'boastful/brave' rebuke, not the continuation naming all three types (Quran reciter, martyr, generous giver); gold_chunk_ids is empty for this question, consistent with the full answer not being retrievable. The answer accurately reflects the retrieved snippet but never actually enumerates the three types, so it's incomplete rather than wrong. Series-scope retrieval also pulled in an unrelated chunk from HEA-03-1A that went unused."
+  },
+  {
+    "question_id": "Q72",
+    "question": "According to this hadith, who are the three types of people whose deeds will be rejected on the Day of Judgment because they did them to be seen and praised by others?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 43.72,
+    "generated_at": "2026-09-24T10:16:11.915948+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "Unlike Q71, series-scope retrieval for this English phrasing surfaced HEA-00-1A_chunk_0011, which actually begins the correct hadith (naming the Quran-reciter and the martyr as two of the three types) -- but the model refused anyway, ignoring relevant partial evidence that was sitting in its context. The other three retrieved chunks (two from HEA-03-1A, one from HEA-01-1A) are unrelated noise pulled in by series-scope pooling."
+  },
+  {
+    "question_id": "Q49",
+    "question": "لیکچرر کے مطابق آئینہ دیکھتے وقت پڑھی جانے والی مسنون دعا کیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-01-1A_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 7,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 3,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-00-1A_chunk_0077",
+        "HEA-01-1A_chunk_0002"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "(chunk_id=HEA-00-1A_chunk_0077 lecture_id=HEA-00-1A start=2696.46s end=2730.12s) اور (chunk_id=HEA-01-1A_chunk_0002 lecture_id=HEA-01-1A start=79.10s end=118.82s)\n\nآئینہ دیکھتے وقت پڑھی جانے والی مسنون دعا یہ ہے:\n\n\"صلی اللہ علیہ وسلم یقول اَللّٰهُمَّ حَسَّنْتَ خَلْقِیْ فَاَحْسِنْ خُلُقِیْ\"\n\nیا\n\n\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 45.95,
+    "generated_at": "2026-09-24T10:16:57.871159+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Answer correctly gives both attested wordings of the mirror dua, accurately quoting gold chunk HEA-01-1A_chunk_0002 and HEA-00-1A_chunk_0077, a variant phrasing from a different lecture in the series -- a good example of series-scope retrieval correctly surfacing corroborating parallel content across lectures, which the model used accurately without conflating anything."
+  },
+  {
+    "question_id": "Q50",
+    "question": "According to the lecturer, what is the recommended (masnoon) dua to recite when looking in a mirror?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-01-1A_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 6,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 3,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-01-1A_chunk_0002",
+        "HEA-02-1A_chunk_0002"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "The recommended dua to recite when looking in a mirror is: اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ، اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ۔ \n\nThis dua is mentioned in the following excerpts:\n\n[chunk_id=HEA-01-1A_chunk_0002 lecture_id=HEA-01-1A start=79.10s end=118.82s]\nوسلم آئینے کو دیکھ کر اپنے لئے مانگا کرتے تھے اور آپ کے طریقے میں ہمارے لئے نمونہ ہے کیا دعا ہے اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\n\n[chunk_id=HEA-02-1A_chunk_0002 lecture_id=HEA-02-1A start=58.92s end=98.18s]\nچلیے پڑھیے: اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ، اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 50.15,
+    "generated_at": "2026-09-24T10:17:48.025775+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Answer correctly quotes the mirror dua from gold chunk HEA-01-1A_chunk_0002 and correctly corroborates it with a matching quote from HEA-02-1A_chunk_0002 (a different lecture in the series describing the same 'write it by your mirror' homework); both quoted excerpts verified verbatim against the chunk text, no fabrication."
+  },
+  {
+    "question_id": "Q81",
+    "question": "اس لیکچر میں حج کے مناسک کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 39.36,
+    "generated_at": "2026-09-24T10:18:27.387814+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Deliberately unanswerable question. None of the four series-scope retrieved chunks (all from HEA-00-1A) discuss Hajj rituals -- Hajj is named only once in passing as one of several pillars of worship covered by hadith. Model correctly refused rather than inventing ritual details."
+  },
+  {
+    "question_id": "Q82",
+    "question": "What does the lecturer say about the rituals of Hajj in this lecture?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 34.32,
+    "generated_at": "2026-09-24T10:19:01.709610+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Same unanswerable question in English. Retrieved chunks (series-scope, all from HEA-00-1A) mention Hajj only in passing or not at all and contain no ritual detail. Model correctly refused rather than fabricating ritual content."
+  },
+  {
+    "question_id": "Q51",
+    "question": "لیکچرر کے مطابق نرمی کے لیے استعمال ہونے والے عربی لفظ 'رفق' کا مادہ (روٹ) کیا ہے، اور اس سے ملتے جلتے کون سے دوسرے الفاظ بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0006",
+        "HEA-02-1A_chunk_0008"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "مادہ (روٹ) 'رفق' کا Ra, Fa, Qaf ہے۔ اور اس سے ملتے جلتے لفظ مرتفق، رفق، مرفق بتائے گئے ہیں۔ \n\n(chunk_id=HEA-02-1A_chunk_0006 lecture_id=HEA-02-1A start=216.72s end=255.28s)\n(chunk_id=HEA-02-1A_chunk_0008 lecture_id=HEA-02-1A start=276.12s end=315.50s)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 28.12,
+    "generated_at": "2026-09-23T20:50:32.940991+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked chunk_0006 (root را،فا،قاف - correct) and chunk_0008. Model lists مرتفق، رفق، مرفق as \"related words\" but omits رفیق (companion/friend) entirely, despite chunk_0008 explicitly defining رفیق (\"رفیق کس کو کہتے ہیں؟ ساتھی کو، دوست کو\") and despite chunk_0008 being in the model's own cited context. رفیق is arguably the most central related word in the lecture's explanation, so this is a meaningful gap. Root correct, word list incomplete/missing a key term. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q52",
+    "question": "According to the lecturer, what is the Arabic root of the word 'rifq' (gentleness), and what related words are given from the same root?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 0.6666666666666666
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0006"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to chunk_id=HEA-02-1A_chunk_0006 lecture_id=HEA-02-1A start=216.72s end=255.28s, the Arabic root of the word 'rifq' (gentleness) is: را، فا، قاف۔ \n\nThe related words given from the same root are:\n- رفق کہتے ہیں کسی کو نفع پہنچانا، کسی کو فائدہ دینا۔\n- رفق کہتے ہیں نرم، آسان اور مہربانی کے برتاؤ کو۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 24.9,
+    "generated_at": "2026-09-23T20:50:57.842476+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked chunk_0006. Root (را، فا، قاف) correctly given. However for \"related words from the same root\" the model just restates two definitions of رفق itself (\"نفع پہنچانا\"، \"نرم، آسان اور مہربانی\") rather than giving any actual derived/related word (رفیق, مرفق, مرتفق, رافقہ) - despite chunk_0008 and chunk_0007 both being present in chunks_sent_to_model (confirmed via trace: Q52 sent chunk_0006, 0040, 0008, 0073). The model only cited chunk_0006 and ignored chunk_0008's content, so the second half of the question goes essentially unanswered. Root right, related-words part effectively wrong/empty. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q73",
+    "question": "لیکچرر کے مطابق بخاری اور مسلم کی روایت میں مومن کی مثال کس چیز سے دی گئی ہے، اور کیوں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0010",
+        "HEA-02-1A_chunk_0018"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "(chunk_id=HEA-02-1A_chunk_0010 lecture_id=HEA-02-1A start=354.60s end=413.00s) اور (chunk_id=HEA-02-1A_chunk_0018 lecture_id=HEA-02-1A start=712.12s end=752.00s)\n\nلیکچرر کے مطابق، بخاری اور مسلم کی روایت میں مومن کی مثال ایک پودے سے دی گئی ہے جسے ہوا کا جھونکا گرا دیتا ہے اور دوسرا جھونکا اٹھا دیتا ہے۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 47.18,
+    "generated_at": "2026-09-24T10:19:48.893133+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Correctly identifies and quotes the plant-in-the-wind comparison from gold chunk HEA-02-1A_chunk_0010, but the question also asks 'why' and the answer omits the reasoning (winds/trials from every direction, yet required firmness in matters of belief) that is present in the retrieved gold chunks 0012 and 0018 -- an incomplete rather than incorrect answer."
+  },
+  {
+    "question_id": "Q74",
+    "question": "According to the Bukhari and Muslim narration cited by the lecturer, what is the believer compared to, and why?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.3333333333333333
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0018"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "[chunk_id=HEA-02-1A_chunk_0018 lecture_id=HEA-02-1A start=712.12s end=752.00s]\nیہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے۔ مختلف لوگوں کے رویے اور حالات کیا کرتے ہیں؟ اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے، پھر ہو جاتا ہے۔ پھر اسی طرح آپ دیکھیے کہ انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔ جہاں انسان اور رب کا معاملہ ہو، اللہ کی وحدانیت کا معاملہ ہو، وہاں انسان کو فرم رہنا ہے اپنے\n\nThe believer is compared to a bird that flaps its wings, and the reason for this comparison is related to the concept of faith (عقیدے کے معاملے میں).",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 55.08,
+    "generated_at": "2026-09-24T10:20:43.976262+00:00",
+    "answer_verdict": "hallucinated",
+    "grader_notes": "Hallucinated -- the answer claims the believer is compared to 'a bird that flaps its wings,' but no retrieved chunk says this. The actual hadith (established in gold chunks 0010/0012, describing a plant bent flat by wind and springing back up) was NOT sent to the model this time; only the continuation chunk 0018 was retrieved, which refers back with the ambiguous pronoun 'it' (اس کو) without ever naming a plant. Missing the antecedent chunk appears to have caused the model to invent a 'bird' image instead. The 'why' (a matter of faith/aqeedah) is accurately grounded in chunk 0018, but the central claim is fabricated -- a clear case of series-scope chunking splitting an analogy across chunks and only some being retrieved."
+  },
+  {
+    "question_id": "Q53",
+    "question": "لیکچرر کے مطابق روایت میں پہاڑ کے اپنی جگہ سے ہلنے اور انسان کے اپنی بری عادت چھوڑنے کے بارے میں کیا تقابل بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0009"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "[chunk_id=HEA-03-1A_chunk_0009 lecture_id=HEA-03-1A start=314.02s end=353.58s]\n\nلیکچرر کے مطابق روایت میں پہاڑ کے اپنی جگہ سے ہلنے اور انسان کے اپنی بری عادت چھوڑنے کے بارے میں یہ تقابل بیان کیا گیا ہے:\n\n\"پہاڑ کو اپنی جگہ سے ہلانے سے بھی زیادہ مشکل کام بری عادتیں چھوڑنا ہے کیونکہ پہاڑ تو زمین میں گڑے ہوئے ہیں، لیکن بری عادتیں ہماری رگ و پے میں سرایت کی ہوئی ہیں، ہماری روح اور جسم اور جان کا حصہ بنی پڑی ہیں، ان میں گھلی ملی ہوئی ہیں۔\"",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 51.45,
+    "generated_at": "2026-09-24T10:21:35.428762+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Answer accurately quotes gold chunk HEA-03-1A_chunk_0009 verbatim, correctly capturing the comparison (giving up a bad habit is harder than moving a mountain, since habits are embedded in body/soul while mountains are merely embedded in earth). Retrieval stayed on the correct lecture here; no cross-lecture interference affected the answer."
+  },
+  {
+    "question_id": "Q54",
+    "question": "According to the narration cited by the lecturer, what comparison is made between a mountain moving from its place and a person abandoning a bad habit?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0009"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to chunk_id=HEA-03-1A_chunk_0009 lecture_id=HEA-03-1A start=314.02s end=353.58s, the lecturer says: \"یہ پہاڑ کو اپنی جگہ سے ہلانے سے بھی زیادہ مشکل کام ہے کیونکہ پہاڑ تو زمین میں گڑے ہوئے ہیں، لیکن بری عادتیں ہماری رگ و پے میں سرایت کی ہوئی ہیں، ہماری روح اور جسم اور جان کا حصہ بنی پڑی ہیں، ان میں گھلی ملی ہوئی،\"\n\nThis implies that the comparison made is between a mountain moving from its place (which is difficult) and abandoning a bad habit (which is even more difficult).",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 45.84,
+    "generated_at": "2026-09-24T10:22:21.272617+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English-language counterpart of Q53; correctly quotes gold chunk HEA-03-1A_chunk_0009 and accurately paraphrases the comparison in English (habit harder to break than moving a mountain). Retrieval and grounding both correct; the extra series-scope chunks sent (from HEA-01-1A and HEA-02-1A) were unrelated and correctly ignored."
+  },
+  {
+    "question_id": "Q75",
+    "question": "لیکچرر کے مطابق بغیر کسی وجہ کے گھر کے اچھے بھلے اونٹ کو ذبح کر دینے کی مثال سے 'ظلم' کے بارے میں کیا سمجھایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0012",
+      "HEA-03-1A_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0012",
+        "HEA-03-1A_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "chunk_id=HEA-03-1A_chunk_0012, chunk_id=HEA-03-1A_chunk_0013\n\nلیکچرر کے مطابق، بغیر کسی وجہ کے گھر کے اچھے بھلے اونٹ کو ذبح کر دینا ظلم ہے۔ اس مثال سے یہ سمجھایا گیا ہے کہ 'ظلم' کا لفظ کسی چیز کو اس کی جگہ سے ہٹا کر کسی دوسری جگہ رکھنے یا بے موقع رکھنے کا ہے، اور یہ ظلم وقت سے پہلے ہونے والے کاموں میں آتا ہے۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 33.61,
+    "generated_at": "2026-09-23T20:53:57.853056+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunks 0012 (zulm defined as displacing something from its place/out of season) and 0013 (camel example + before-its-time generalization). The model's Urdu answer states both the camel example and the 'displacing from its place/out of season' definition of zulm accurately, matching both cited chunks. Correct. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q76",
+    "question": "According to the lecturer, what does the example of slaughtering a perfectly healthy camel without any reason illustrate about the concept of 'zulm' (injustice)?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0012",
+      "HEA-03-1A_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0012",
+        "HEA-03-1A_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "[chunk_id=HEA-03-1A_chunk_0012 lecture_id=HEA-03-1A start=457.96s end=516.46s]\n[chunk_id=HEA-03-1A_chunk_0013 lecture_id=HEA-03-1A start=516.46s end=556.10s]\n\nThe lecturer states that the example of slaughtering a perfectly healthy camel without any reason illustrates that this action is an act of 'zulm' (injustice).",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 31.5,
+    "generated_at": "2026-09-23T20:54:29.351051+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked chunks 0012 and 0013 (cited with matching timestamps: chunk_0012 start=457.96/end=516.46, chunk_0013 start=516.46/end=556.10 -- both confirmed accurate against chunks.json). The factual claim given (slaughtering a healthy camel without reason = zulm) is correct and grounded. However, unlike the qwen35 and gemma4e4b answers to the same question, this answer does not actually explain what the example illustrates about the broader concept of zulm -- it omits the source's generalization in chunk_0013 ('anything done before its proper time is zulm' / doing something out of its proper place or season), which is the substantive 'illustration' the question asks for. The answer is essentially a restatement of the premise rather than an explanation, so it is correct but incomplete relative to what was asked. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  }
+]

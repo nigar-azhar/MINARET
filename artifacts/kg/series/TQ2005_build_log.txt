@@ -1,0 +1,18 @@
+Loaded quran.csv: 6236 ayat.
+Loaded duas.csv: 1427 duas.
+Loaded 84 resolved SemanticHadith blocks.
+Loaded topic registry: 0 topics from prior series.
+Hadith Ahmad_4142: no SemanticHadith match (collection not in KG dump) -- stays unresolved (reference + expandedReference only).
+Topic dedup uses difflib lexical similarity as a placeholder for the paper's BGE-M3 embedding approach (no embedding model available). tau=0.6 on normalized-name ratio. All candidates logged to E3 as 'proposed'.
+Topic dedup: 38 topic instances, 3 merge candidates flagged (0 cross-series), 5 concept-mapping candidates flagged.
+Topic merge REJECTED (kept separate): 'Self-Accountability (Muhasabah)' / 'Moral Example and Accountability (Qudwah)' -- linked via skos:related.
+Topic merge REJECTED (kept separate): 'Revelation and Descent (Wahy wa Inzal)' / 'Compilation and Scribing (Jam' wa Kitabat)' -- linked via skos:related.
+Topic merge ACCEPTED: 'The Station and Multiplied Rewards of Hamd (Al-Hamd)' merged into 'The Experience and Reality of Hamd (Haqiqat al-Hamd)'.
+Topic concept mapping ACCEPTED: 'The Hereafter (Akhirah)' closeMatch hadith:ArticlesOfFaith.
+Topic concept mapping ACCEPTED: 'Prayer and Discipline (Salah)' closeMatch hadith:PillarsOfIslam.
+Topic concept mapping REJECT: 'Revelation and Descent (Wahy wa Inzal)' -> hadith:ArticlesOfFaith.
+Topic concept mapping ACCEPTED: 'Divine Sovereignty on the Day of Judgment (Malik Yawm ad-Din)' closeMatch hadith:ArticlesOfFaith.
+Topic concept mapping ACCEPTED: 'The Covenant of Worship and the Hadith of Dividing Salah (Al-'Ahd)' closeMatch hadith:PillarsOfIslam.
+Wrote artifacts/kg/instances/TQ2005.ttl -- 8218 triples.
+Wrote artifacts/kg/series/TQ2005_topic_proposals.json -- 8 records.
+Wrote artifacts/kg/series/TQ2005_topics.md.

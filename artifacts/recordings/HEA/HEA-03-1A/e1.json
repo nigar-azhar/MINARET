@@ -1,0 +1,281 @@
+{
+  "ayat": [
+    {
+      "surah_number": "3",
+      "ayah_number": "86",
+      "text": "وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
+      "start": 635.74,
+      "end": 655.46,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "3",
+      "ayah_number": "86",
+      "text": "اللہ ظالموں کو ہدایت نہیں دیا کرتا",
+      "start": 656.26,
+      "end": 665.54,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "18",
+      "text": "مَا لِلظَّالِمِينَ مِنْ حَمِيمٍ وَلَا شَفِيعٍ يُطَاعُ",
+      "start": 693.46,
+      "end": 713.32,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "18",
+      "text": "ظالموں کا نہ کوئی مشفق دوست ہوگا اور نہ کوئی سفارش کرنے والا جس کی بات مانی جائے",
+      "start": 693.46,
+      "end": 732.46,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "7",
+      "text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+      "start": 909.64,
+      "end": 929.24,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "7",
+      "text": "ہمیں انہی کے راستے پہ چلا جن پہ تو نے انعام کیا",
+      "start": 909.64,
+      "end": 929.24,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "106",
+      "ayah_number": "2",
+      "text": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+      "start": 989.34,
+      "end": 1009.18,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "106",
+      "ayah_number": "2",
+      "text": "گرمیوں میں شام کی طرف اور سردیوں میں یمن کی طرف یہ سفر کرتے تھے اور تجارت کرتے تھے",
+      "start": 989.34,
+      "end": 1009.18,
+      "usage": "explicit paraphrase",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "21",
+      "ayah_number": "33",
+      "text": "كُلٌّ فِي فَلَكٍ يَسْبَحُونَ",
+      "start": 1505.38,
+      "end": 1524.58,
+      "usage": "quotation",
+      "extent": "partial"
+    }
+  ],
+  "hadith": [
+    {
+      "reference": "SM_2577",
+      "expanded_reference": "Sahih Muslim, Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship (Kitab al-Birr wa al-Silah), Chapter: The Prohibition of Injustice, Hadith 2577",
+      "text": "إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا فَلَا تَظَالَمُوا",
+      "start": 732.46,
+      "end": 752.04,
+      "usage": "quotation"
+    },
+    {
+      "reference": "SM_2577",
+      "expanded_reference": "Sahih Muslim, Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship (Kitab al-Birr wa al-Silah), Chapter: The Prohibition of Injustice, Hadith 2577",
+      "text": "میں نے اپنے نفس پر ظلم کو حرام کیا ہے اور اپنے بندوں کے درمیان بھی اسے حرام قرار دیا ہے، تو تم آپس میں ظلم نہ کرو",
+      "start": 830.66,
+      "end": 850.28,
+      "usage": "translation"
+    },
+    {
+      "reference": "SB_3513",
+      "expanded_reference": "Sahih al-Bukhari, Book of Virtues and Merits of the Companions, Chapter: The Merits of Ghifar and Aslam, Hadith 3513",
+      "text": "اے اللہ! غفار کو بخش دے اور بنو اسلم کو سلامت رکھ",
+      "start": 870.1,
+      "end": 889.68,
+      "usage": "translation"
+    },
+    {
+      "reference": "SB_5971",
+      "expanded_reference": "Sahih al-Bukhari, Book of Good Manners (Kitab al-Adab), Chapter: Who is Most Entitled to Good Companionship, Hadith 5971",
+      "text": "سب سے زیادہ حق کس کا ہے؟ تمہاری ماں کا ہے۔ ایک شخص آپ کے پاس آیا اور کہنے لگا کہ یا رسول اللہ صلی اللہ علیہ وسلم! سب سے زیادہ مجھے اچھا سلوک کس سے کرنا ہے؟ تو آپ نے فرمایا: اپنی ماں سے کرو۔ پھر تین دفعہ، چوتھی دفعہ کیا کہا؟ باپ سے",
+      "start": 1981.08,
+      "end": 2020.9,
+      "usage": "explicit paraphrase"
+    },
+    {
+      "reference": "JT_3895",
+      "expanded_reference": "Jami' at-Tirmidhi, Chapters on Virtues, Chapter: The Virtue of the Prophet's Wives, Hadith 3895",
+      "text": "تم میں سب سے اچھا وہ ہے جو اپنی بیوی کے حق میں اچھا ہے، اور میں تم میں سب سے زیادہ اپنی بیویوں کے حق میں اچھا ہوں",
+      "start": 2000.98,
+      "end": 2020.9,
+      "usage": "translation"
+    }
+  ],
+  "dua": [
+    {
+      "reference": "MasnoonDua-118",
+      "text": "اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+      "start": 55.86,
+      "end": 75.6,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-163",
+      "text": "وَاهْدِنِي لِأَحْسَنِ الْأَخْلَاقِ، وَاهْدِنِي لِأَحْسَنِ الْأَخْلَاقِ، لَا يَهْدِي لِأَحْسَنِهَا إِلَّا أَنْتَ، وَاصْرِفْ عَنِّي سَيِّئَهَا لَا يَصْرِفُ عَنِّي سَيِّئَهَا إِلَّا أَنْتَ",
+      "start": 134.32,
+      "end": 233.86,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-163",
+      "text": "اے اللہ! میری سب سے اچھے اخلاق کی طرف رہنمائی فرما، تیرے سوا اچھے اخلاق کی راہ کوئی نہیں دکھا سکتا، اور برے اخلاق کو مجھ سے دور کر دے، انہیں تیرے سوا مجھ سے کوئی اور دور نہیں کر سکتا",
+      "start": 273.66,
+      "end": 313.38,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-163",
+      "text": "وَاهْدِنِي لِأَحْسَنِ الْأَخْلَاقِ لَا يَهْدِي لِأَحْسَنِهَا إِلَّا أَنْتَ، لَا يَصْرِفُ عَنِّي سَيِّئَهَا إِلَّا أَنْتَ",
+      "start": 373.52,
+      "end": 453.12,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-159",
+      "text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَّا إِلٰهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "start": 2660.12,
+      "end": 2685.36,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Supplication for Noble Character and Eliminating Habits",
+      "description": "Exposition on Masnoon supplications asking Allah to bestow excellent conduct and the profound difficulty of purging deep-seated vices without divine aid.",
+      "start": 55.86,
+      "end": 373.52
+    },
+    {
+      "name": "Ontology and Linguistic Definition of Injustice (Al-Zulm)",
+      "description": "Linguistic root and theological reality of Zulm as placing something outside its rightful place, darkness, and exceeding boundaries.",
+      "start": 457.96,
+      "end": 635.18
+    },
+    {
+      "name": "The Prohibition of Injustice in Sacred Texts (Tahrim al-Zulm)",
+      "description": "Quranic condemnations of oppressors and the solemn Hadith Qudsi where Allah declares injustice forbidden upon Himself and His servants.",
+      "start": 635.74,
+      "end": 850.28
+    },
+    {
+      "name": "Exemplary Companionship: Biography and Conversion of Abu Dharr (RA)",
+      "description": "Historical account of Abu Dharr al-Ghifari's truth-seeking journey from Banu Ghifar to Makkah, early conversion, and unyielding courage.",
+      "start": 850.28,
+      "end": 1227.52
+    },
+    {
+      "name": "Asceticism (Zuhd) and Universal Divine Justice (Adl)",
+      "description": "The detached lifestyle of Abu Dharr (RA) in al-Rabadhah contrasted with the cosmos operating upon pristine, balanced justice.",
+      "start": 1227.52,
+      "end": 1563.18
+    },
+    {
+      "name": "Categories of Injustice: Physical Abuse and Emotional Torture",
+      "description": "Analysis of verbal abuse, character assassination, backbiting, ridicule, and psychological harm as severe forms of oppression.",
+      "start": 1663.36,
+      "end": 1861.6
+    },
+    {
+      "name": "Fulfilling Mutual Rights and Maintaining Family Balance",
+      "description": "Synthesizing parental rights with spousal obligations without imbalance, unjustified favoritism, or coercive ultimatums.",
+      "start": 1861.6,
+      "end": 2200.16
+    },
+    {
+      "name": "Invasion of Privacy, Breach of Duty, and Time Theft",
+      "description": "Treating meddling in others' personal space, abandoning primary vocational duties, and carelessly wasting people's valuable time as injustice.",
+      "start": 2220.34,
+      "end": 2540.08
+    },
+    {
+      "name": "Personal Hygiene, Resource Stewardship, and Eschatological Accounting",
+      "description": "Nuisance caused by foul odors, wastage of communal resources, and the inevitability of surrendering good deeds on the Day of Resurrection.",
+      "start": 2540.08,
+      "end": 2685.36
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "Supplication for Noble Character and the Challenge of Habits",
+      "title_ur": "حسنِ اخلاق کی مسنون دعا اور عادات کی تبدیلی کی آزمائش",
+      "start": 0.0,
+      "end": 314.02
+    },
+    {
+      "title_en": "The Concept of Injustice (Al-Zulm): Linguistic and Ethical Meaning",
+      "title_ur": "ظلم کا مفہوم: لغوی تعریف اور شرعی حقیقت",
+      "start": 314.02,
+      "end": 635.74
+    },
+    {
+      "title_en": "Divine Warning Against Oppression: Hadith Qudsi of Abu Dharr",
+      "title_ur": "ظلم کی قرآنی مذمت اور حضرت ابو ذرؓ کی روایت کردہ حدیثِ قدسی",
+      "start": 635.74,
+      "end": 929.24
+    },
+    {
+      "title_en": "Biography of Abu Dharr: Lineage, Quest, and Early Acceptance of Islam",
+      "title_ur": "حضرت ابو ذر غفاریؓ: نسب، تلاشِ حق اور قبولِ اسلام کا واقعہ",
+      "start": 929.24,
+      "end": 1227.52
+    },
+    {
+      "title_en": "The Asceticism of Abu Dharr and Cosmic Foundation of Justice",
+      "title_ur": "سیدنا ابو ذرؓ کا فقیرانہ زہد اور کائنات کا نظامِ عدل",
+      "start": 1227.52,
+      "end": 1563.18
+    },
+    {
+      "title_en": "Physical and Psychological Dimensions of Oppression",
+      "title_ur": "ظلم کی اقسام: جسمانی اذیت سے لے کر ذہنی و جذباتی تشدد تک",
+      "start": 1563.18,
+      "end": 1861.6
+    },
+    {
+      "title_en": "Equilibrium in Domestic Rights: Parents and Spouses",
+      "title_ur": "حقوق میں توازن: ماں اور بیوی کے حقوق کے درمیان اعتدال",
+      "start": 1861.6,
+      "end": 2180.3
+    },
+    {
+      "title_en": "Unjust Meddling, Dereliction of Duty, and Time Theft",
+      "title_ur": "ذاتی زندگی میں بے جا مداخلت، فرائض سے غفلت اور وقت کا ضیاع",
+      "start": 2180.3,
+      "end": 2480.4
+    },
+    {
+      "title_en": "Subtle Daily Transgressions and Final Accounting before Allah",
+      "title_ur": "روزمرہ کے غیرمحسوس مظالم اور یومِ حساب پر عمل کا بدلہ",
+      "start": 2480.4,
+      "end": 2685.36
+    }
+  ]
+}

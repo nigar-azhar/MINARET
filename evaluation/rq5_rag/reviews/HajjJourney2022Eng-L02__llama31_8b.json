@@ -1,0 +1,157 @@
+[
+  {
+    "question_id": "Q39",
+    "question": "According to the lecturer, what are the three conditions of 'istita'ah' (ability) that make Hajj mandatory on a person?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L02",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L02_chunk_0061"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, there are three understandings based on the concept of 'istita'ah'. The first one is when a person has the travel expenses. The second condition is that this person should have enough expenses for the people he's leaving behind (chunk_id=HajjJourney2022Eng-L02_chunk_0061). \n\nThe third condition is not explicitly mentioned in the provided excerpts, but it can be inferred from another excerpt where physical capability and safety are mentioned as conditions. However, these are not directly stated as part of 'istita'ah'.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 22.73,
+    "generated_at": "2026-09-23T20:32:46.564783+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Model gives condition 1 (travel expenses) and folds \"enough expenses for people left behind\" in as a separate \"second condition\" — both sourced from chunk_0061, and both are really facets of the single financial condition. For the third condition it hedges: \"it can be inferred from another excerpt where physical capability and safety are mentioned as conditions. However, these are not directly stated as part of 'istita'ah'.\" Checked chunk_0063 (present in chunks_sent_to_model): \"if a person is not physically able to go, then again that person is not required to go. So, physical capability is also one of the conditions\" — this directly follows chunk_0061's \"It has three understandings\" framing, so physical capability (and safety, same chunk) IS presented by the lecturer as part of the istita'ah conditions, contrary to the model's hedge. Graded partially_correct: correctly surfaces the financial condition and correctly notices safety/physical capability exist in the source material, but explicitly (and incorrectly) denies they're part of istita'ah, so it never commits to the right 3-part structure."
+  },
+  {
+    "question_id": "Q40",
+    "question": "لیکچرر کے مطابق 'استطاعت' کی وہ تین شرائط کیا ہیں جن کی بنا پر کسی شخص پر حج فرض ہوتا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L02",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L02_chunk_0061",
+        "HajjJourney2022Eng-L02_chunk_0063"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لکچرر کے مطابق 'استطاعت' کی تین شرائط یہ ہیں:\n\n1. جب ایک شخص سفر کے لئے اخراجات کا سامنا کر سکتا ہو، یعنی وہ سفر کرنے کے قابل ہو (chunk_id=HajjJourney2022Eng-L02_chunk_0061)\n2. جب ایک شخص اپنی زندگی اور ملکیت کی حفاظت کے لئے محفوظ راستہ ہو، یعنی اس کا جان اور مال محفوظ ہو (chunk_id=HajjJourney2022Eng-L02_chunk_0063)\n3. جب ایک شخص فیزیکل طور پر سفر کرنے کے قابل ہو (chunk_id=HajjJourney2022Eng-L02_chunk_0063)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 20.82,
+    "generated_at": "2026-09-23T20:33:07.388415+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu variant. Model gives: (1) travel/financial ability [chunk_0061], (2) life and property safety [chunk_0063], (3) physical capability [chunk_0063]. Verified against source: chunk_0061 (\"when a person has the travel expenses...when a person is able to travel\"), chunk_0063 (\"safe way, when a person's life and property is safe...So, physical capability is also one of the conditions\"). This correctly matches the lecture's actual three conditions of istita'ah (financial means, safety, physical capability), matching the question's own note (segments 200-209: financial means, safety of the journey, physical capability). Graded correct_grounded — the one fully accurate, properly cited answer among all 12 in this set."
+  },
+  {
+    "question_id": "Q59",
+    "question": "According to the lecturer, what are the first four points given to explain why Makkah is a place of safety and security?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L02",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L02_chunk_0042",
+        "HajjJourney2022Eng-L02_chunk_0048",
+        "HajjJourney2022Eng-L02_chunk_0051",
+        "HajjJourney2022Eng-L02_chunk_0055"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, the first four points explaining why Makkah is a place of safety and security are:\n\n1. Sacred place till Qiyamah (chunk_id=HajjJourney2022Eng-L02_chunk_0051)\n2. Safety from Dajjal's fitna (chunk_id=HajjJourney2022Eng-L02_chunk_0055)\n3. Ayat bayyinat, clear proofs, open proofs for all of us (specifically mentioned in chunk_id=HajjJourney2022Eng-L02_chunk_0042 but the first point is not explicitly stated as one of the four points; however, it can be inferred that the other three points are: \n   - The barren land where Makkah was built\n   - Zamzam water being a big miracle)\n4. Security (chunk_id=HajjJourney2022Eng-L02_chunk_0048)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 18.58,
+    "generated_at": "2026-09-23T20:33:25.964067+00:00",
+    "answer_verdict": "hallucinated",
+    "grader_notes": "Model lists 4 items: (1) sacred till Qiyamah [0051, correct — matches point 1], (2) \"safety from Dajjal's fitna\" [0055] mislabeled as point 2 (it is actually point 4, per chunk_0055 itself: \"fourth point: safety from Dajjal's fitna\"), (3) \"ayat bayyinat, clear proofs\" plus barren land / Zamzam water [chunk_0042], (4) \"Security\" [chunk_0048]. Checked chunk_0042 and chunk_0048: both come from the lecturer's separate 'ayat bayyinat' (six clear proofs) discussion, not from the four-points-of-Makkah's-safety list (chunks 0051-0055). Chunk_0048 is about Maqam Ibrahim and the Qur'anic verse on entering Makkah being safe — not one of the four enumerated safety points either. True points 2 and 3 (thorny bushes/game/lost items not disturbed; whoever leaves for Hajj is under Allah's guarantee) are in chunks 0052-0054, which were not retrieved/sent. Graded hallucinated: 2 of the 4 claimed \"points\" are backed by citations that do not actually support the specific claim, and the real point 4 is misnumbered as point 2."
+  },
+  {
+    "question_id": "Q60",
+    "question": "لیکچرر کے مطابق مکہ کے امن و سلامتی کا مقام ہونے کی وہ پہلی چار وجوہات کیا ہیں جو بتائی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L02",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L02_chunk_0042",
+        "HajjJourney2022Eng-L02_chunk_0051"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "مکہ کے امن و سلامتی کا مقام ہونے کی پہلی چار وجوہات یہ ہیں:\n\n1. مکیہ ایک مقدس جگہ ہے جو قیامت تک برقرار رہے گی (chunk_id=HajjJourney2022Eng-L02_chunk_0051)\n2. مکہ میں آیت بائنات، واضح ثبوت موجود ہیں (chunk_id=HajjJourney2022Eng-L02_chunk_0042)\n3. مکہ ایک بارے زمین پر تعمیر کیا گیا ہے جہاں معمول سے زیادہ کوئی نہیں ہوتا (chunk_id=HajjJourney2022Eng-L02_chunk_0042)\n4. مکہ میں زَمزم کا پانی ایک بڑا معجزہ ہے (chunk_id=HajjJourney2022Eng-L02_chunk_0042)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 19.29,
+    "generated_at": "2026-09-23T20:33:45.252119+00:00",
+    "answer_verdict": "hallucinated",
+    "grader_notes": "Urdu variant, same context as Q59. Model gives: (1) sacred till Qiyamah [0051, correct], (2) \"ayat bayyinat, clear proofs\" [0042], (3) \"built on barren land\" [0042], (4) \"Zamzam water is a big miracle\" [0042]. Checked chunk_0042: confirmed this is the lecturer's separate proofs-of-Allah list (\"ayat bayyinat...First one: the biggest proof is that this amazing house of Allah is built on a very barren land...And Zamzam...is a very big miracle\") — none of this is presented in the source as a reason Makkah is a place of safety/security, which is what the question asks. The model also fails to use chunk_0055 (Dajjal's fitna, the real point 4), even though it was present in chunks_sent_to_model, in favor of fabricated content. Graded hallucinated: 3 of 4 items include a real point-1 but points 2-4 are all sourced from a chunk that does not support the specific 'reason Makkah is safe' claim being made, and the one correct available fact (Dajjal's fitna) was ignored."
+  }
+]

@@ -1,0 +1,23 @@
+Loaded quran.csv: 6236 ayat.
+Loaded duas.csv: 1427 duas.
+Loaded 84 resolved SemanticHadith blocks.
+Loaded topic registry: 71 topics from prior series.
+WARNING: Dua MasnoonDua-InnaLillahi not found in duas.csv -- storing occurrence text only.
+Topic dedup uses difflib lexical similarity as a placeholder for the paper's BGE-M3 embedding approach (no embedding model available). tau=0.6 on normalized-name ratio. All candidates logged to E3 as 'proposed'.
+Topic dedup: 31 topic instances, 9 merge candidates flagged (2 cross-series), 5 concept-mapping candidates flagged.
+Topic concept mapping REJECT: 'Names and attributes of Allah' -> hadith:PillarsOfIslam.
+Topic concept mapping REJECT: 'Oneness of Allah (Tawhid)' -> hadith:ArticlesOfFaith.
+Topic concept mapping ACCEPTED: 'Oneness of Allah (Tawhid)' closeMatch hadith:Tauhid.
+Topic concept mapping REJECT: 'Hope and perseverance in supplication' -> hadith:PillarsOfIslam.
+Topic concept mapping REJECT: 'Healing and supplication' -> hadith:PillarsOfIslam.
+Topic relation ADDED (reviewer decision): 'Supplication and reliance on Allah' skos:related 'Supplication in Islam (Ad-Du'a)'.
+Topic relation ADDED (reviewer decision): 'Supplication as worship' skos:related 'Supplication in Islam (Ad-Du'a)'.
+Topic relation ADDED (reviewer decision): 'Supplication and humility' skos:related 'Supplication in Islam (Ad-Du'a)'.
+Topic relation ADDED (reviewer decision): 'Supplication and visiting the sick' skos:related 'Supplication in Islam (Ad-Du'a)'.
+Topic relation ADDED (reviewer decision): 'Hope and perseverance in supplication' skos:related 'Supplication in Islam (Ad-Du'a)'.
+Topic relation ADDED (reviewer decision): 'Healing and supplication' skos:related 'Supplication in Islam (Ad-Du'a)'.
+Topic relation ADDED (reviewer decision): 'Contentment and etiquette of supplication' skos:related 'Supplication in Islam (Ad-Du'a)'.
+Topic concept mapping ADDED (reviewer decision): 'Names and attributes of Allah' closeMatch hadith:ArticlesOfFaith.
+Wrote artifacts/kg/instances/SKD2025.ttl -- 23900 triples.
+Wrote artifacts/kg/series/SKD2025_topic_proposals.json -- 14 records.
+Wrote artifacts/kg/series/SKD2025_topics.md.

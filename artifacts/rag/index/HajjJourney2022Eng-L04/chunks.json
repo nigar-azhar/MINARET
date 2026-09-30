@@ -1,0 +1,1458 @@
+{
+  "lecture_id": "HajjJourney2022Eng-L04",
+  "series": "HajjJourney2022Eng",
+  "source_gold_file": "artifacts/recordings/HajjJourney2022Eng/HajjJourney2022Eng-L04/v3.json",
+  "chunk_policy": {
+    "version": "lecture-rag-chunk-v1",
+    "target_seconds": 30,
+    "minimum_seconds": 15,
+    "maximum_seconds": 60,
+    "pause_seconds": 1.0
+  },
+  "chunk_count": 101,
+  "chunks": [
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0000",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 0,
+      "start": 0.0,
+      "end": 31.34,
+      "constituent_segment_ids": [
+        "idx_0",
+        "idx_1",
+        "idx_2"
+      ],
+      "text": "نَحْمَدُهُ وَنُصَلِّيَ لَا رَسُولِهِ الْكَرِيمِ أَمَّا بَعَدْ فَأَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ رَبِّ شْرَحْلِي صَدْرِي وَيَسِرْلِي أَمْرِي وَحْلُ الْأُقْدَةً مِنْ لِسَانِي يَفْقَهُ قَوْلِي رَبَّنَا زِدَنَا عِلْمًا اللَّهُمَّ فَقِّهْنَا فِي الدِّينِ May Allah give us the correct understanding of every deen. Inshallah today we're going to focus on the ayat from Surah Al-Baqarah. And inshallah we'll learn about what Allah subhanahu wa ta'ala mentions in these ayat for us."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0001",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 1,
+      "start": 31.62,
+      "end": 74.44,
+      "constituent_segment_ids": [
+        "idx_3",
+        "idx_4"
+      ],
+      "text": "So let's begin inshallah, let's listen to the recitation and remember when the recitation is going on we are supposed to listen quietly. وَاَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلّٰهِ ؕ فَاِنْ اُحْصِرْتُمْ فَمَا اسْتَیْسَرَ مِنَ الْهَدْیِ ۚ وَلَا تَحْلِقُوْا رُءُوْسَكُمْ حَتّٰی یَبْلُغَ الْهَدْیُ مَحِلَّهٗ ؕ فَمَنْ كَانَ مِنْكُمْ مَّرِیْضًا اَوْ بِهٖۤ اَذًی مِّنْ رَّأْسِهٖ فَفِدْیَةٌ مِّنْ صِیَامٍ اَوْ صَدَقَةٍ اَوْ نُسُكٍ ۚ"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0002",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 2,
+      "start": 74.44,
+      "end": 116.38,
+      "constituent_segment_ids": [
+        "idx_5",
+        "idx_6",
+        "idx_7",
+        "idx_8",
+        "idx_9"
+      ],
+      "text": "حَتّٰی یَبْلُغَ الْهَدْیُ مَحِلَّهٗ ؕ فَمَنْ كَانَ مِنْكُمْ مَّرِیْضًا اَوْ بِهٖۤ اَذًی مِّنْ رَّأْسِهٖ فَفِدْیَةٌ مِّنْ صِیَامٍ اَوْ صَدَقَةٍ اَوْ نُسُكٍ ۚ فَاِذَاۤ اَمِنْتُمْ ٝ فَمَنْ تَمَتَّعَ بِالْعُمْرَةِ اِلَی الْحَجِّ فَمَا اسْتَیْسَرَ مِنَ الْهَدْیِ ۚ فَمَنْ لَّمْ یَجِدْ فَصِیَامُ ثَلٰثَةِ اَیَّامٍ فِی الْحَجِّ وَسَبْعَةٍ اِذَا رَجَعْتُمْ ؕ فَمَنْ لَّمْ یَجِدْ فَصِیَامُ ثَلٰثَةِ اَیَّامٍ فِی الْحَجِّ وَسَبْعَةٍ اِذَا رَجَعْتُمْ ؕ تِلْكَ عَشَرَةٌ كَامِلَةٌ ؕ ذٰلِكَ لِمَنْ لَّمْ یَكُنْ اَهْلُهٗ حَاضِرِی الْمَسْجِدِ الْحَرَامِ ؕ"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0003",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 3,
+      "start": 117.78,
+      "end": 169.94,
+      "constituent_segment_ids": [
+        "idx_10",
+        "idx_11",
+        "idx_12",
+        "idx_13",
+        "idx_14",
+        "idx_15"
+      ],
+      "text": "وَاتَّقُوا اللّٰهَ وَاعْلَمُوْۤا اَنَّ اللّٰهَ شَدِیْدُ الْعِقَابِ ۟ اَلْحَجُّ اَشْهُرٌ مَّعْلُوْمٰتٌ ۚ فَمَنْ فَرَضَ فِیْهِنَّ الْحَجَّ فَلَا رَفَثَ وَلَا فُسُوْقَ وَلَا جِدَالَ فِی الْحَجِّ ؕ وَمَا تَفْعَلُوْا مِنْ خَیْرٍ یَّعْلَمْهُ اللّٰهُ ؕ وَتَزَوَّدُوْا فَاِنَّ خَیْرَ الزَّادِ التَّقْوٰی ۖ وَاتَّقُوْنِ یٰۤاُولِی الْاَلْبَابِ ۟ وَاتَّقُوْنِ یٰۤاُولِی الْاَلْبَابِ ۟"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0004",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 4,
+      "start": 171.44,
+      "end": 199.86,
+      "constituent_segment_ids": [
+        "idx_16",
+        "idx_17",
+        "idx_18"
+      ],
+      "text": "And complete the Hajj and Umrah for Allah. But if you are prevented, then offer what can be obtained with ease of sacrificial animals. And do not shave your heads until the sacrificial animal has reached its place of slaughter. And whoever among you is ill or has an ailment of the head, making shaving necessary, must offer a ransom of fasting three days, or charity, or sacrifice."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0005",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 5,
+      "start": 200.14,
+      "end": 227.28,
+      "constituent_segment_ids": [
+        "idx_19",
+        "idx_20",
+        "idx_21"
+      ],
+      "text": "And when you are secure, then whoever performs Umrah during the Hajj months, followed by Hajj offers what can be obtained with ease of sacrificial animals. And whoever cannot find or afford such an animal, then a fast of three days during Hajj and of seven when you have returned home. Those are ten complete days. This is for those whose family is not in the area of Al-Masjid Al-Haram."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0006",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 6,
+      "start": 227.76,
+      "end": 259.78,
+      "constituent_segment_ids": [
+        "idx_22",
+        "idx_23",
+        "idx_24"
+      ],
+      "text": "And fear Allah and know that Allah is sweer in penalty. Hajj is during well-known months. So whoever has made Hajj obligatory upon himself therein, by entering the state of Ihram, there is to be from him no sexual relations and no disobedience and no disputing during Hajj. And whatever good you do, Allah knows it. And take provisions. But indeed, the best provision is fear of Allah. And fear me, O you of understanding."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0007",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 7,
+      "start": 259.78,
+      "end": 287.86,
+      "constituent_segment_ids": [
+        "idx_25",
+        "idx_26",
+        "idx_27"
+      ],
+      "text": "So subhanAllah, when you look at these verses, just by going over the translation of these verses, we realize that these verses are the most comprehensive verses, explaining the etiquettes of Hajj and also some rulings to do with Hajj. The rites of Hajj and Umrah were well-known among Arabs even before Islam. But they included some acts which contained a lot of, you can say, shirk and many false and superstitious things."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0008",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 8,
+      "start": 287.86,
+      "end": 319.54,
+      "constituent_segment_ids": [
+        "idx_28",
+        "idx_29",
+        "idx_30"
+      ],
+      "text": "But what Islam did was, the best deeds were added in Umrah and Hajj, which were highly rewardable. So this made Hajj and Umrah a super special ibadah for us. Rasulullah ﷺ, he commanded the Muslims to follow the same path that he had followed himself in performing these two duties. And he told the believers to, خُذُوا عَنِّي مَنَاسِكَكُمْ So take these manasik from me. Take these acts, rites and rituals, acts of worship from me."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0009",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 9,
+      "start": 319.68,
+      "end": 347.9,
+      "constituent_segment_ids": [
+        "idx_31",
+        "idx_32",
+        "idx_33"
+      ],
+      "text": "And this is exactly what we are supposed to do when it comes to any ibadah. We are not supposed to make up our own ways. We should learn it from Rasulullah ﷺ. So while we are talking about Hajj, something amazing about Hajj is that it is mentioned a lot in the Qur'an. Even though it's fard, it's mandatory only once in a lifetime, but it is mentioned a lot in the Qur'an. What does it show? The importance of this amazing act of worship."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0010",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 10,
+      "start": 348.16,
+      "end": 376.58,
+      "constituent_segment_ids": [
+        "idx_34",
+        "idx_35",
+        "idx_36"
+      ],
+      "text": "And also the details which are mentioned. And also the different type of case studies which are mentioned about Hajj. It's just mind-blowing. Because if you think about fasting, which is every year, it's only mentioned once in the Qur'an. So Allah is mentioned a lot in the Qur'an, but the method isn't mentioned. But Hajj, it's rites, it's rituals, rituals, you know, they're mentioned a lot in the Qur'an. So if you want to learn about Hajj, you can find verses in Surah Al-Baqarah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0011",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 11,
+      "start": 376.78,
+      "end": 406.76,
+      "constituent_segment_ids": [
+        "idx_37",
+        "idx_38",
+        "idx_39"
+      ],
+      "text": "If you want to learn about Hajj, you can find verses in Surah Al-Imran. You can also find them in Surah Al-Ma'idah. You can also find them in Surah Al-Hajj. Subhanallah. So there are a lot Qur'an offers in order for us to learn and implement these rulings to do with Hajj. So inshallah, we're going to learn it from Qur'an and Sunnah both. Because in order to understand exactly, you'll get the clear picture of something, we need inshallah both. So let's see what Rasulullah s.a.w."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0012",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 12,
+      "start": 407.28,
+      "end": 440.2,
+      "constituent_segment_ids": [
+        "idx_40",
+        "idx_41",
+        "idx_42"
+      ],
+      "text": "mentioned about خُذُوا عَنِّي مَنَاسِكَكُمْ Jابir r.a. reported, I saw Rasulullah s.a.w. flinging pebbles while riding his camel on the day of Nahr. So he was doing this act at the place Jamarat. And he was saying, learn your rituals. Learn your rituals, like learn it from me, by seeing me performing them. And then Rasulullah s.a.w. also hinted that for I don't know whether I would be performing Hajj after this Hajj of mine or not. And subhanallah, that was true."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0013",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 13,
+      "start": 440.2,
+      "end": 467.62,
+      "constituent_segment_ids": [
+        "idx_43",
+        "idx_44",
+        "idx_45"
+      ],
+      "text": "So after this final Hajj of Rasulullah s.a.w. he passed away after two months. So this final Hajj, whatever Rasulullah s.a.w. did on this, Alhamdulillah, it has been reported by many Sahaba and we get a clear picture of Hajj, Alhamdulillah, from the life of Rasulullah s.a.w. as well. And even at that time when Rasulullah s.a.w. was performing Hajj, he was teaching people what to do."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0014",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 14,
+      "start": 467.62,
+      "end": 500.34,
+      "constituent_segment_ids": [
+        "idx_46",
+        "idx_47",
+        "idx_48"
+      ],
+      "text": "We learn about that from another narration where we learn that it was narrated from Amar bin Abdullah that Yazid bin Shaiban said, we were standing in Arafat in a place far from the place of standing. Like they were far away from Rasulullah s.a.w. And then Ibn Mirba' al-Ansari, he came and he said, I am the messenger of the messenger of Rasulullah s.a.w. Like he sent him and he said, stay where you are for it is a place of ritual for you are following the legacy of your father Ibrahim alayhi s.a.w."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0015",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 15,
+      "start": 500.56,
+      "end": 533.92,
+      "constituent_segment_ids": [
+        "idx_49",
+        "idx_50",
+        "idx_51",
+        "idx_52"
+      ],
+      "text": "So you don't have to all crowd up at one place. You can stay wherever you are because the plane of Arafat is big. You don't have to all go towards one point and, you know, create problems for others and yourselves. So subhanallah, this was going on at that time as well. The teaching on the side while the Hajj was going on. So from these verses, let's us understand major rulings, inshallah. So Surah Al-Baqarah, ayah number 196 starts with وَأَتِّمُّ الْحَجَّ وَالْعُمْرَةَ لِلَّهِ And complete your Hajj and Umrah for Allah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0016",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 16,
+      "start": 534.18,
+      "end": 567.62,
+      "constituent_segment_ids": [
+        "idx_53",
+        "idx_54",
+        "idx_55"
+      ],
+      "text": "We have talked about this ayah before as well, or this part of the ayah before as well. It gives us this comprehensive understanding that whenever we perform Hajj and Umrah, what should we do? We should make sure that pillars, conditions and manners are perfect and they are done purely for Allah subhanahu wa ta'ala. They are done purely to get the pleasure of Allah subhanahu wa ta'ala. So the method should be correct and the intention also should be correct. So how it is done and why is it done? So we should have the answers of why and how and they should be very clear in our mind before we do anything."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0017",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 17,
+      "start": 567.86,
+      "end": 594.94,
+      "constituent_segment_ids": [
+        "idx_56",
+        "idx_57",
+        "idx_58"
+      ],
+      "text": "So why are we doing what we are doing? We are doing it for Allah. And how are we doing it? We are doing it the way Rasulullah sallallahu alayhi wa sallam, he taught us to do. And when we look at this part of the ayah, it gives us four different understandings. Actually, there are many different understandings. We are going to look at the four major ones. One is completing the arkan pillars and wajibat, which means mandatory acts of Hajj and Umrah according to Sunnah. So this is how we are going to do it."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0018",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 18,
+      "start": 595.44,
+      "end": 630.66,
+      "constituent_segment_ids": [
+        "idx_59",
+        "idx_60",
+        "idx_61"
+      ],
+      "text": "Our Hajj and Umrah should be completed with all the arkan and wajibat. They are based on Sunnah. Another understanding is we should not reduce any rites and rituals of Hajj and Umrah. It has been seen that people, they find some ihram restrictions very difficult and they don't want to follow them. So this doesn't really, you know, fit in this part of the ayah. If we really want to obey Allah, then inshallah we need to follow all the restrictions and all the rules. Another understanding of this part of the ayah is that we should complete Hajj and Umrah after making the intention."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0019",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 19,
+      "start": 630.66,
+      "end": 659.14,
+      "constituent_segment_ids": [
+        "idx_62",
+        "idx_63",
+        "idx_64"
+      ],
+      "text": "So once you make this intention, you cannot just go back. For example, let's say a person reaches Makkah, is in ihram, but then realizes it's too hot and it's too crowded. It's very hard for this person to do it. And that person says, okay, that's it, over, I'm going back. We cannot do that, right? Even if it's for Nafil Hajj, we cannot do that. We should complete what we start. This is like a, you can say a normal general rule for anything. We should complete whatever we start, whatever we begin."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0020",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 20,
+      "start": 659.14,
+      "end": 685.7,
+      "constituent_segment_ids": [
+        "idx_65",
+        "idx_66",
+        "idx_67"
+      ],
+      "text": "But in this case, it's a noble act and we have, you know, taken this ihram, we are in this state of ihram. For Allah, we should not just back off just like that. And subhanAllah, it's a beautiful experience. Once we reach there, we forget about everything, alhamdulillah. And fourth is completing Hajj and Umrah purely for Allah, right? So all of these meanings, they fit in this beautiful phrase of this ayah. When we say purely for Allah, what does that mean?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0021",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 21,
+      "start": 686.12,
+      "end": 716.54,
+      "constituent_segment_ids": [
+        "idx_68",
+        "idx_69",
+        "idx_70"
+      ],
+      "text": "Not for any praise, not for any parties when we come back, not for any gifts from people, not for trade opportunities, not for any contacts. Because back in the day, Mushrikhin of Makkah, they would come for Hajj for business reasons. That we will meet new people, we will tell them about our products, we'll, you know, sign up new business trips and whatnot. So not for contacts, not for trade opportunities. Trade is halal there. When we go there, that can be a side thing, but that should not be the main thing."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0022",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 22,
+      "start": 716.82,
+      "end": 747.18,
+      "constituent_segment_ids": [
+        "idx_71",
+        "idx_72",
+        "idx_73"
+      ],
+      "text": "And also, Hajj is not to please people. Some people say, I just wanted to make my parents proud. Or I just wanted them to be happy that I did my Hajj. That's the wrong reason. You have just lost it right there, subhanAllah. So it's not to please people. It's not for any worldly benefits. It is only for Allah. And there was another beautiful narration which tells us about a beautiful du'a by Rasulullah sallallahu alayhi wa sallam. I really want all of you to jot down this du'a and also the translation of it."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0023",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 23,
+      "start": 747.46,
+      "end": 776.16,
+      "constituent_segment_ids": [
+        "idx_74",
+        "idx_75",
+        "idx_76"
+      ],
+      "text": "We learned that Rasulullah sallallallahu alayhi wa sallam performed Hajj on an old saddle, wearing a cloak that was worth only four dirhams or less. Then he said, Allahumma hijjatun la riya'a fiha wala sum'a. Oh Allah, a Hajj in which there is no showing off nor reputation sought. SubhanAllah. Not for any riya, not for any sum'a. Not that people say that, oh, he did Hajj like this and not for any shawaf, subhanAllah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0024",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 24,
+      "start": 776.46,
+      "end": 806.32,
+      "constituent_segment_ids": [
+        "idx_77",
+        "idx_78",
+        "idx_79"
+      ],
+      "text": "He was Rasulullah sallallahu alayhi wa sallam, right? So he was teaching us actually that this is what should be on our mind when we are going for Hajj al-Umrah. We should not have any wrong intentions. And Umar radiyaullah once said something very profound. He said, there are many who go in groups for Hajj al-Umrah, but only a few are Hajjis. Only a few are pilgrims. What does that mean? Only few have the right intention or only few will get acceptance. So may Allah make us among those few."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0025",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 25,
+      "start": 806.64,
+      "end": 837.2,
+      "constituent_segment_ids": [
+        "idx_80",
+        "idx_81",
+        "idx_82"
+      ],
+      "text": "So based on this, a lot of people or a lot of scholars also discuss this factor that does it mean the way Hajj is mandatory? Umrah is also mandatory? What do you guys think? Is Umrah mandatory just like Hajj is? So is Umrah wajib? Wajib is a term which refers to something which is mandatory, right? Because this ayah says complete Hajj in Umrah for Allah, a lot of people, they assume that it is because maybe both are equal in status and both are supposed to be performed."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0026",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 26,
+      "start": 837.8399999999999,
+      "end": 870.52,
+      "constituent_segment_ids": [
+        "idx_83",
+        "idx_84",
+        "idx_85"
+      ],
+      "text": "So let's see, there is a difference of opinion on this and Imam Bukhari also, he brings a chapter in his book about it and we learned that Ibn Umar, the son of Umrah r.a, his opinion was that Hajj and Umrah are obligatory on everyone. Ibn Abbas r.a, he said, they are companions in the book of Allah, like they come together. Imam Bukhari, he used to support this position that it is wajib. Ibn Baas, rahimahullah, he said like Hajj, Umrah is an obligation once in a lifetime. Ibn Uthaymeen said what appears to be that Umrah is an obligation."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0027",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 27,
+      "start": 870.72,
+      "end": 898.3,
+      "constituent_segment_ids": [
+        "idx_86",
+        "idx_87",
+        "idx_88"
+      ],
+      "text": "Subhanallah. So from this, what did we learn? The thing is, a lot of people, you know, they don't really think of Umrah like that because whenever they go for Hajj, they do Umrah anyways, right? So both are fulfilled. But let's look at another aspect. Some people are too scared of going to Umrah because they think if you go for Umrah, then your Hajj becomes wajid. Did you ever hear this? This is actually, you know, you can say it's a myth. Your Hajj is wajib when you're rich enough. Okay?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0028",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 28,
+      "start": 898.76,
+      "end": 923.64,
+      "constituent_segment_ids": [
+        "idx_89",
+        "idx_90",
+        "idx_91"
+      ],
+      "text": "Your Hajj is wajib when you're rich enough, when you're able enough, when you're physically able, when you're financially able, then Hajj is wajib on you. So your Umrah doesn't have anything to do with the wujub of Hajj. So it's not linked like that. But if we have enough resources to go for Umrah, we should not delay. Let's say this person is saving up for Hajj. But Hajj is getting expensive every year."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0029",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 29,
+      "start": 923.8,
+      "end": 956.24,
+      "constituent_segment_ids": [
+        "idx_92",
+        "idx_93",
+        "idx_94"
+      ],
+      "text": "So this person is not able to go for Hajj, but he has enough money to go for Umrah. So based on this opinion that Umrah is quite important and maybe it is an obligation, so what should this person do? What do you guys think? This person should go for Umrah. Exactly. And remember that beautiful Hadith that when a person goes to Hajj and Umrah frequently, that person doesn't stay destitute. Right? That the poverty is removed from that person. So Inshallah, when we go for Umrah, Umrah upon Umrah, Inshallah, Allah will make us rich enough that one day we can also go for Hajj."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0030",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 30,
+      "start": 956.66,
+      "end": 988.76,
+      "constituent_segment_ids": [
+        "idx_95",
+        "idx_96",
+        "idx_97"
+      ],
+      "text": "So this is a myth that if you do Umrah, Hajj becomes wajib. Hajj is already wajib if you're rich enough. If you're not, then it's not even wajib. So there is no such connection as such. But let's say you were not able to go for Umrah before, but now you have enough means to go for Hajj, then Inshallah, when you go for Hajj, you do perform Umrah as well. And that's what a lot of people do when they go from the other countries. They do Hajj tamadur. It's a combination of both Umrah and Hajj. Alhamdulillah. Okay, the next part of the ayah tells us that if something stops you, right, if there's a hurdle, then what should a person do?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0031",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 31,
+      "start": 989.2,
+      "end": 1019.96,
+      "constituent_segment_ids": [
+        "idx_98",
+        "idx_99",
+        "idx_100"
+      ],
+      "text": "The person should slaughter an animal. So what can stop a person? A person can be stopped because of sickness. Some people get really, really sick that they get hospitalized. So they reach there for Hajj or Umrah, but they're not even able to perform anything of that sort and they are landed in the hospital. So in that case, they won't be able to continue. So they can sacrifice an animal and they can get their head shaved or hair trimmed and they can come out of their ihram restrictions."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0032",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 32,
+      "start": 1020.36,
+      "end": 1049.12,
+      "constituent_segment_ids": [
+        "idx_101",
+        "idx_102",
+        "idx_103"
+      ],
+      "text": "Another reason one can be stopped is because of some enemy or sometimes people even get lost. Subhanallah. Some people get lost in Minna 10th. Some people get lost here and there. So it is possible. There are so many possibilities. So whatever stops a person from reaching Makkah and doing the Hajj rites or Umrah rites, then that person should sacrifice the animal that person brought or buy it from there and sacrifice and then get head shaved, hair trimmed and come out of the state of ihram."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0033",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 33,
+      "start": 1049.34,
+      "end": 1079.72,
+      "constituent_segment_ids": [
+        "idx_104",
+        "idx_105",
+        "idx_106"
+      ],
+      "text": "So Rasulullah sallallahu alayhi wa sallam said, if anyone breaks a bone or leg or becomes lame, he has come out of ihram. He has come out of the sacred state of ihram and must perform Hajj the following year. Right? That person is not sinful because these situations were not in that person's control. So another narration which is of very similar sort is just the one word is added here which is marid. So whoever breaks a bone, falls sick or becomes lame has exited ihram and he has to perform Hajj the following year."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0034",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 34,
+      "start": 1079.88,
+      "end": 1110.2,
+      "constituent_segment_ids": [
+        "idx_107",
+        "idx_108",
+        "idx_109"
+      ],
+      "text": "You may wonder that, you know, when a person just breaks a bone can just get a plaster done and can still do everything. Right? Alhamdulillah it's easier now with the help of wheelchairs and everything. So if it's a possibility a person is able to do it then that person can do it. But, you know, Umrah is easy because all done in you can say Masjid al-Haram. So a person can, you know, arrange or hire someone to do the wheelchair for that person or get on the cart and do the whole thing on his or her own."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0035",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 35,
+      "start": 1110.58,
+      "end": 1143.26,
+      "constituent_segment_ids": [
+        "idx_110",
+        "idx_111",
+        "idx_112"
+      ],
+      "text": "But when it comes to Hajj rites, you know, going to Minad and going to Musdalifad and walking here and there and Jamarat, it's not possible and it's not easy to do everything on a wheelchair. Right? If a person is totally crippled and it's impossible or is very sick or let's say COVID. Right? So if it's COVID then person should be, you know, away from the people and you know, the new type of virus is coming out every day subhanAllah. If a person knows that person is sick, that person should not put other people in danger because of him or her and Allah knows best. Another case study."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0036",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 36,
+      "start": 1143.4,
+      "end": 1174.56,
+      "constituent_segment_ids": [
+        "idx_113",
+        "idx_114",
+        "idx_115"
+      ],
+      "text": "So let's say there was a person who was coming for Hajj and then he passes away. There was a person who was coming for Hajj and he passes away. What should be done for that person? His errors should complete it. Somebody should do Hajj Badal for this person. Especially if it's a mandatory Hajj, right? If it's Fard Hajj, this person intended, this person wanted to go but before this person even got on the flight, this person passes away. So like someone is going to do Hajj for this person."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0037",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 37,
+      "start": 1174.84,
+      "end": 1203.1,
+      "constituent_segment_ids": [
+        "idx_116",
+        "idx_117",
+        "idx_118"
+      ],
+      "text": "Another situation, let's say a person passes away after getting in the state of ihram. Maybe this person has done half the Hajj rites and then passes away. What should be done for this person? The answer is Alhamdulillah. Yes. Nothing. Because this person will be raised saying Talbiya on the Day of Judgment. This person was performing the Hajj. Alhamdulillah, right? So this person will be raised saying Labbaik Allahuma Labbaik. So Alhamdulillah that person was doing the task."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0038",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 38,
+      "start": 1203.36,
+      "end": 1238.32,
+      "constituent_segment_ids": [
+        "idx_119",
+        "idx_120",
+        "idx_121"
+      ],
+      "text": "So it's not considered undone. And it is a must that a person sacrifices an animal and why is this term used here? Istaisara It's from Yusr. Ease. So whichever animal can be found easily. It doesn't have to be of a particular type. So any animal which is found easily in that area in Makkah can be bought and can be sacrificed. And which animals? Again, Alhamdulillah we understand all the Shara'i animals like Bahimatul An'am we have talked about yesterday. So camel, cow, goat, sheep any of them."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0039",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 39,
+      "start": 1238.62,
+      "end": 1271.26,
+      "constituent_segment_ids": [
+        "idx_122",
+        "idx_123",
+        "idx_124"
+      ],
+      "text": "So they should be of mature age except in the case of a ram. What we learned from our hadith is Rasulullah sallallahu alayhi wa sallam said Sacrifice only a grown up animal unless it is difficult for you in which case sacrifice a ram which is of even less than a year old but more than six months of age. And then we also learn about this whole situation of getting stopped from reaching Makkah the situation when Rasulullah sallallahu alayhi wa sallam wasn't able to perform Umrah he intended to and he actually was in the state of Ihram."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0040",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 40,
+      "start": 1271.46,
+      "end": 1303.3,
+      "constituent_segment_ids": [
+        "idx_125",
+        "idx_126",
+        "idx_127"
+      ],
+      "text": "So the example of Rasulullah sallallahu alayhi wa sallam is found in the story of Hudaybiya. So if you remember the story of Hudaybiya inshaAllah you can understand this point very clearly but let me just quickly go over what we know. So when Rasulullah sallallahu alayhi wa sallam he made a peace deal with Quraysh agreeing to go back and not enter Makkah this time and he told his companions get up and offer your sacrifices. So the narrator who is narrating this narration he mentioned that by Allah not one person among them got up until he had said that three times."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0041",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 41,
+      "start": 1303.5,
+      "end": 1333.98,
+      "constituent_segment_ids": [
+        "idx_128",
+        "idx_129",
+        "idx_130"
+      ],
+      "text": "When no one got up he went to Um Salamah his wife radiallahu anha and he told her how the people had reacted Um Salamah radiallahu anha gave a beautiful advice and she said Ya Rasulullah do you want them to do that and then if you do go out and do not say a word to any one of them until you sacrifice your camel and call your barber to shave your head. When he did that they got up sahaba they got up and they offered their sacrifices as well subhanallah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0042",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 42,
+      "start": 1334.16,
+      "end": 1358.52,
+      "constituent_segment_ids": [
+        "idx_131",
+        "idx_132"
+      ],
+      "text": "So this is the ruling that when we are stopped we are still supposed to offer the sacrifices it doesn't mean that we take them back usually people back in the day they would bring their hadhi with them they would bring their sacrificial animals with them for hajj and umrah. So what's the ruling? Let's look at that when Abdullah bin Umar radiallahu anhumah set out for Makkah intending to perform Umrah but it was the time of fitnah after Rasulullah sallallahu alayhi wa sallam."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0043",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 43,
+      "start": 1358.82,
+      "end": 1378.62,
+      "constituent_segment_ids": [
+        "idx_133",
+        "idx_134"
+      ],
+      "text": "So he said if I should be prevented from reaching the Kaaba then I would do the same as Rasulullah sallallahu alayhi wa sallam did so. So I assumed the ihram for Umrah as Rasulullah sallallahu alayhi wa sallam assumed the ihram for Umrah in the ear of Hudaybiyyah. So a person should follow the example of Rasulullah sallallahu alayhi wa sallam if anything of this sort arises."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0044",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 44,
+      "start": 1378.64,
+      "end": 1412.22,
+      "constituent_segment_ids": [
+        "idx_135",
+        "idx_136",
+        "idx_137"
+      ],
+      "text": "So we should not become so sad and we should not feel like a letdown or what not when anything of this sort happens because subhanallah policies keep on changing things are changing subhanallah this year as well a lot of people were going for hajj but now because of the new system people are really worried but inshallah just take it as you know Allah subhanahu wa ta'ala's will and accept it there must be khayr in it and Allah only knows what's the best for all of us. And then let's look at the next part وَلَا تَحْلِقُ رُؤُوسَكُمْ Otherwise don't cut your hair don't trim your hair why?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0045",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 45,
+      "start": 1412.94,
+      "end": 1444.06,
+      "constituent_segment_ids": [
+        "idx_138",
+        "idx_139",
+        "idx_140"
+      ],
+      "text": "until and unless you're done with sacrifice. So shaving part should not be done before sacrifice this is something we learn from this ayah it also includes cutting the nails it also includes shaving off any hair from any part of the body unwanted hair so all of this comes under this so what is usually done when it comes to Umrah and Hajj for women what is done just taqseer you know trimming and for the men what's the best that they"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0046",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 46,
+      "start": 1444.06,
+      "end": 1474.42,
+      "constituent_segment_ids": [
+        "idx_141",
+        "idx_142",
+        "idx_143"
+      ],
+      "text": "actually shave their heads and trim is okay as well it's allowed but what is better is that they shave and they should do that after they're done with their hadhi after they're done with their sacrificial animal and there are two timings of that one is that the Eid day comes and when sacrificial animals are slaughtered right so that is the tenth of Dulhijjah or the sacrificial animal is slaughtered so it is possible that Eid"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0047",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 47,
+      "start": 1474.42,
+      "end": 1504.22,
+      "constituent_segment_ids": [
+        "idx_144",
+        "idx_145",
+        "idx_146"
+      ],
+      "text": "day was so busy for many Hujjaj and their sacrificial animal wasn't slaughtered on Eid day maybe it was slaughtered on eleventh right and sometimes it is sacrificed on twelfth and sometimes because of this you know hurdle on the way maybe it is sacrificed on the first of the Hujjah so whenever the sacrificial animal is slaughtered a person can shave after that not before that so let's understand the time of sacrifice and Hajj Qiran Hafsa the wife of Rasulullah ﷺ said Ya"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0048",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 48,
+      "start": 1504.22,
+      "end": 1534.58,
+      "constituent_segment_ids": [
+        "idx_147",
+        "idx_148",
+        "idx_149"
+      ],
+      "text": "Rasulullah why have the people finished their Ihram after performing Umrah but you have not finished your Ihram after performing Umrah he replied I have matted my hair and I have garlanded my hadith like my sacrificial animal has that type of tag or that type of necklace to show that it was for sacrifice and hair was you know stuck on the head in a way that you know they don't fall off so Rasulullah ﷺ said so I will not finish my"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0049",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 49,
+      "start": 1534.58,
+      "end": 1565.14,
+      "constituent_segment_ids": [
+        "idx_150",
+        "idx_151",
+        "idx_152"
+      ],
+      "text": "Ihram till I have slaughtered my animal subhanallah so what do we learn from this so this was a different type of Hajj the rest of Sahaba and some of Sahaba actually not all of them some of them were also doing the Hajj which is when you're done Umrah you can come out of Ihram restrictions you can do whatever you want to do after that but when Hajj days enter starting from 8th of Dhul Hijjah then a person can go back in Ihram and that is Hajj but because Rasulullah ﷺ he was doing Hajj"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0050",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 50,
+      "start": 1565.82,
+      "end": 1595.78,
+      "constituent_segment_ids": [
+        "idx_153",
+        "idx_154",
+        "idx_155"
+      ],
+      "text": "that's why he did not come out of his Ihram restrictions so when a person is supposed to shave or trim before or after the sacrifice let's see there is no harm if one gets his hair shaved or trimmed before the sacrifice and it is more virtuous to get it done after the sacrifice so what is better after the sacrifice so why are we learning about this because a lot of people go for Hajj these days right and it is not possible to get all the animals slaughtered on one day like the 10th"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0051",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 51,
+      "start": 1595.78,
+      "end": 1626.02,
+      "constituent_segment_ids": [
+        "idx_156",
+        "idx_157",
+        "idx_158"
+      ],
+      "text": "so sometimes they have to slaughter animals on 11th 12th as well but as long as we know that animal will be slaughtered so inshallah both options are there to be exact so one can do the good part as well or if you want to go for the best and inshallah most virtuous is to get it done after the sacrifice so the words of Hajj Tamattu was revealed in Allah's book so Sahaba mentioned like Imran bin Hussain is saying so we performed it with Rasul Allah and nothing"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0052",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 52,
+      "start": 1626.02,
+      "end": 1651.2,
+      "constituent_segment_ids": [
+        "idx_159",
+        "idx_160"
+      ],
+      "text": "was revealed in the Quran to make it illegal nor did Rasul Allah prohibit it till he died but the man who regarded it illegal just expressed what his own mind suggested the thing was that before Islam Mushrikeen of Makkah they would dislike this act that you know you do Umrah and Hajj in the same trip so they did not like that and they used to think that it was wrong"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0053",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 53,
+      "start": 1651.2,
+      "end": 1681.24,
+      "constituent_segment_ids": [
+        "idx_161",
+        "idx_162",
+        "idx_163"
+      ],
+      "text": "so Imran bin Hussain he is mentioning that here that it is mentioned in the Quran it's allowed for us to do it that we can do Umrah and Hajj in the same trip and that Alhamdulillah makes it easy for the Muslims they don't have to take two trips to do their Umrah and Hajj they can just go for one trip and they can do both inshallah in that and when it comes to Hajj rites and rituals Rasulullah he was you know mashallah very easy going in that regard so let's look at this beautiful narration Rasulullah"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0054",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 54,
+      "start": 1681.24,
+      "end": 1706.34,
+      "constituent_segment_ids": [
+        "idx_164",
+        "idx_165"
+      ],
+      "text": "stopped for a while near Jamar at Mina during his last Hajj for the people that they were asking him questions so this was a Q&A session you can say a man came and said I forgot and got my head shaved before slaughtering the Hadi Rasulullah said there is no harm go and do the slaughtering now then another person came and said I forgot and slaughtered before Rami at Jamarat"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0055",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 55,
+      "start": 1706.34,
+      "end": 1736.22,
+      "constituent_segment_ids": [
+        "idx_166",
+        "idx_167",
+        "idx_168"
+      ],
+      "text": "Rasulullah said do the Rami now there is no harm so the narrator added so on that day when Rasulullah was asked about anything as regards to the ceremonies of Hajj the rituals of Hajj performed before or after its due time his reply was do it now there is no harm subhanAllah so as long as you're doing everything you're good and subhanAllah when we are going to go over the steps of the Hajj you will notice that on 10th of Dhul Hijjah a lot of things are going on you know for a"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0056",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 56,
+      "start": 1736.22,
+      "end": 1766.52,
+      "constituent_segment_ids": [
+        "idx_169",
+        "idx_170",
+        "idx_171"
+      ],
+      "text": "haji so it's sometimes very hard to keep track of everything in order so Alhamdulillah for this ease from our deen Alhamdulillah there's another narration which talks about this similar Rasulullah was asked about slaughtering and shaving of the head and doing a furami before or after the due times he said there is no harm in that subhanAllah next part of the ayah talks about another situation when there is a person who is marid or has some type of hurt or harm"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0057",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 57,
+      "start": 1766.52,
+      "end": 1798.88,
+      "constituent_segment_ids": [
+        "idx_172",
+        "idx_173",
+        "idx_174"
+      ],
+      "text": "on his head then what should a person do then that person should give a fidya that person can shave the head for whatever ailment sometimes you know people they have to get some treatment done and for that doctors have to remove some hair in order to do the stitches sometimes people get some type of lice in their head and what not or sometimes for whatever reason people will have to remove their hair from part of the body or sometimes they have some really bad smell in their body so they would have to use some type of perfume so all of these are restrictions"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0058",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 58,
+      "start": 1799.6599999999999,
+      "end": 1855.46,
+      "constituent_segment_ids": [
+        "idx_175",
+        "idx_176",
+        "idx_177",
+        "idx_178",
+        "idx_179",
+        "idx_180"
+      ],
+      "text": "we are not supposed to put on perfume in you're not supposed to trim nails but if a person has no choice and has some genuine need a valid reason for that is allowed to do that but there will be a fidya right so there will be a fidya so the word fidya is used here and that's very beautiful, the word kaffarah is not used here. What's the difference? Fidya is paid for some inability due to a valid reason so it's paid for something we have done which is not right but we had no choice and there's a valid reason for that it's not that we just felt like doing it as sadly a lot of people do so when they reach Hajj and they're like oh I cannot do this this is too hard that is too hard you know let give fidya for that that that's not the right approach. We have to, Insha'Allah, remember that this is an act of worship and all of these restrictions are part of our Hajj journey, and we need to embrace them, enjoy them,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0059",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 59,
+      "start": 1855.46,
+      "end": 1883.66,
+      "constituent_segment_ids": [
+        "idx_181",
+        "idx_182",
+        "idx_183"
+      ],
+      "text": "love them and Alhamdulillah we learn from everything we learn from every restriction so much so much of self control Alhamdulillah we learn so much of taqwa we gain so much of patience and we become grateful so many benefits of all of these restrictions Alhamdulillah but it has been seen that people you know they create a lot of fuss there they're like oh I cannot especially for brothers you're not supposed to wear anything which is stitched so they're like always fighting over wearing"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0060",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 60,
+      "start": 1883.66,
+      "end": 1941.54,
+      "constituent_segment_ids": [
+        "idx_184",
+        "idx_185",
+        "idx_186",
+        "idx_187",
+        "idx_188"
+      ],
+      "text": "this and that that no I really want to wear an underwear or I really want to have a cap or I really want to wear my sneakers or joggers and whatnot so this is not the right approach. We need to learn before we go and we have to show patience and we have to be nice to our group leads and whatnot. It has been seen that people start fighting with their group leads, that: 'How dare you tell me what to do and how to do it?' SubhanAllah, it's not them telling us, it's actually the law given to us, and this is how hajj or umrah is performed so fidya is something which is given when a person is not able to fulfill any of the ihram restrictions then the person gives fidya to fix you know those problems in ihram kafara is something which is paid for breaking a rule without a valid reason right the word kafara is not used here because it's a fidya when there is some ailment or when there is some type of pain in the head, and because of that a person is not able to keep the hair,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0061",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 61,
+      "start": 1941.54,
+      "end": 1972.66,
+      "constituent_segment_ids": [
+        "idx_189",
+        "idx_190",
+        "idx_191",
+        "idx_192"
+      ],
+      "text": "has to get them shaved then fidya of getting head shaved due to sickness before time is either fast or give sadaqah or sacrifice but how much fasting how many days how much sadaqah and what kind of sacrifice so all of this we learn from the sunnah and this shows us the importance of ahadith subhanallah right so Quran only tells us sadaqah and nusuk but then when we look at ahadith, we learn: it's three fasts, or"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0062",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 62,
+      "start": 1972.6599999999999,
+      "end": 2003.04,
+      "constituent_segment_ids": [
+        "idx_193",
+        "idx_194",
+        "idx_195"
+      ],
+      "text": "sadaqah is food for six needy people and nusuk is sacrifice of one goat or one ram so what do we learn from this is it in order the answer is no if a person is able to fast amazing if person wants to give sadaqah no problem if person wants to give a goat as sacrifice that's beautiful that's actually the best so most virtuous would be to sacrifice one animal you know we can do whatever but otherwise if you think about this verse"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0063",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 63,
+      "start": 2003.04,
+      "end": 2058.12,
+      "constituent_segment_ids": [
+        "idx_196",
+        "idx_197",
+        "idx_198",
+        "idx_199"
+      ],
+      "text": "this verse is not telling us to do this first if you're not able to do this after and if you're not able to do this after no this is not what it means. These are three options available for everyone, for every ihram violation, a person can do any one of them. So it's the same fidya for all ihram violations, not just for shaving off the head. So it is also if a person trims a nail because the nail maybe is hurting or is like too big anything can happen right subhanallah so one of that or if a person accidentally puts on perfume so that person can also give fidya before this person comes back from hajj inshaallah so what's the kaffara for shaving head? So there's a story about the whole thing, SubhanAllah: we learn that Ka'b bin Ujrah, he said Rasulullah Sallallahu Alayhi wa Sallam asked him: 'Perhaps your lice have troubled you?' Ka'b replied: 'Yes, ya Rasulullah.' Rasulullah Sallallahu Alayhi wa Sallam said: 'Have your head shaved, then either fast three days,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0064",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 64,
+      "start": 2058.12,
+      "end": 2085.4,
+      "constituent_segment_ids": [
+        "idx_200",
+        "idx_201",
+        "idx_202"
+      ],
+      "text": "or feed six poor persons or slaughter one sheep as a sacrifice so all of these three options were given by him to kaff so let's say this person was stopped and is not able to go for umrah or hajj but inshaallah whenever there is safety whenever a person is able to go back should go back and complete the hajj and umrah that's what we learned from this part of the verse whenever"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0065",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 65,
+      "start": 2086.42,
+      "end": 2139.52,
+      "constituent_segment_ids": [
+        "idx_203",
+        "idx_204",
+        "idx_205",
+        "idx_206",
+        "idx_207"
+      ],
+      "text": "you are safe then what do you do then go for umrah and hajj and complete it and also give tahadi the sacrificial animal and another thing we need to remember is that ihram is to be observed in hajj months and ihram is not only ihram clothing ihram when we say it's about the state so ihram clothing can be changed many times while you are in the state of ihram because a lot of times people think that okay when i'm wearing this ihram this outfit is stuck to me and i have to keep wearing it till the end of my hajj journey that's not true so in that state we can take showers we can do many things and it doesn't harm our ihram, Insha'Allah. So when we are going for Hajj, we cannot go in ihram in Ramadan. Remember that point, Insha'Allah? So let's say some people, they are there in Makkah for six months,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0066",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 66,
+      "start": 2139.52,
+      "end": 2173.68,
+      "constituent_segment_ids": [
+        "idx_208",
+        "idx_209",
+        "idx_210"
+      ],
+      "text": "and they do their umrah in ramadan they do their umrah even before ramadan and now they want to perform hajj but they want to make it tamattu they just come to minna on 8th of dhu hijj and they assume that they are doing tamattu that won't be correct because their umrah should be done in hajj months in order for their hajj to be tamattu so inshallah something to remember so ihram in hajj months will be considered for hajj before that would be umrah inshallah but not for hajj and when it comes to hajj days we have learned about that these"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0067",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 67,
+      "start": 2173.68,
+      "end": 2219.72,
+      "constituent_segment_ids": [
+        "idx_211",
+        "idx_212",
+        "idx_213",
+        "idx_214"
+      ],
+      "text": "are the three months: Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah—these are the Hajj months. But when it comes to Dhu al-Hijjah, there is a difference of opinion: some scholars say the whole of Dhu al-Hijjah is a Hajj month, some scholars say only the first 10 days of Dhu al-Hijjah are Hajj months, like those first 10 days of the hajj are considered part of the hajj months and Allah knows best so we talked about three types of hajj the other day hajj tamattu haj qiran and haj ifraad so in two of them sacrifice is required but in one of them sacrifice is not required for haj tamattu sacrifice is required for haj qiran sacrifice is required for haj ifraad sacrifice is not required and we have talked about these three types of hajj so when"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0068",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 68,
+      "start": 2221.38,
+      "end": 2249.22,
+      "constituent_segment_ids": [
+        "idx_215",
+        "idx_216",
+        "idx_217",
+        "idx_218"
+      ],
+      "text": "will this sacrifice take place and where so the place of sacrifice for hajj would be anywhere in minna or makkah anywhere in Mina or Makkah, and time is from the morning of 10th of dul hijj till the sunset of the 13th of dul hijj so any time from 10th to 13th our sacrifice can be done and it is valid and Allah knows best if a person is not able to give sacrifice"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0069",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 69,
+      "start": 2249.7400000000002,
+      "end": 2277.76,
+      "constituent_segment_ids": [
+        "idx_219",
+        "idx_220",
+        "idx_221",
+        "idx_222",
+        "idx_223"
+      ],
+      "text": "for whatever reason maybe because of financial reasons or maybe sometimes because of shortage sometimes a lot of people are there and they don't have enough animals so in in case when a person is not able to sacrifice an animal and is doing hajj so what should a person do in that case this ayah tells us فَمَنْ لَّمْ یَجِدْ فَصِیَامُ ثَلٰثَةِ اَیَّامٍ فِی الْحَجِّ— so three days during hajj when وَسَبْعَةٍ اِذَا رَجَعْتُمْ ؕ تِلْكَ عَشَرَةٌ كَامِلَةٌ ؕ—and seven when"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0070",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 70,
+      "start": 2277.76,
+      "end": 2330.1,
+      "constituent_segment_ids": [
+        "idx_224",
+        "idx_225",
+        "idx_226",
+        "idx_227",
+        "idx_228"
+      ],
+      "text": "you return and it becomes ten total so seven fasts after you go home and three fasts during hajj and hajj months so when are you going to fast these three fasts so for that alhamdulillah there are many options if a person knows that a person won't be able to give a sacrificial animal for this hajj this person can fast inshallah before eid as well so when this person is in minna can fast but let's say the person found out on the eid day that person won't be able to get a sacrificial animal or what not that person can still fast after eid during the days of tashriq so what's the ruling about that aisha and ibn Umar both of them said nobody was allowed to fast on the days of Tashreeq, like 11th, 12th, and 13th of Dhu al-Hijjah are called days of Tashreeq."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0071",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 71,
+      "start": 2330.1,
+      "end": 2364.58,
+      "constituent_segment_ids": [
+        "idx_229",
+        "idx_230",
+        "idx_231"
+      ],
+      "text": "so no one was allowed no one is still allowed to fast on days of tashriq when you're not at hajj when you're back home you're not supposed to fast on 11 12 and 13 because these are the days of eating and drinking and it's right after eid so they're considered eid days for believers so nobody was allowed to fast on the days of tashriq except those who could not afford the sacrificial animal subhanallah so for them there's a rukhsa and they can fast these three days right there at 11th 12th and 13th and seven fast after a person reaches home so"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0072",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 72,
+      "start": 2365.16,
+      "end": 2394.86,
+      "constituent_segment_ids": [
+        "idx_232",
+        "idx_233",
+        "idx_234"
+      ],
+      "text": "who is included in that seven fast after a person reaches home a person who actually goes back home so let's say there are some people they are from makkah right they are from haram area they don't go back home right that's their home haram boundaries their home then it doesn't apply to them so let's learn ibn umar he said during the last hajjj of rasul allah he performed umrain hajj he drove a hadhi along with him from dhu hulaifah rasul allah started by"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0073",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 73,
+      "start": 2394.86,
+      "end": 2421.5,
+      "constituent_segment_ids": [
+        "idx_235",
+        "idx_236",
+        "idx_237"
+      ],
+      "text": "assuming ihram from umrain haj like he got in the umrain haj and the people to perform the umrain haj along with rasul allah some of them brought their sacrificial animal and drove it along with them while the others did not so when rasul allah arrived makkah he said to them whoever among you has driven the sacrificial animal with them should not finish their ihram till this person completes"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0074",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 74,
+      "start": 2421.5,
+      "end": 2455.78,
+      "constituent_segment_ids": [
+        "idx_238",
+        "idx_239",
+        "idx_240"
+      ],
+      "text": "his hajj and whoever among you has not driven the hajj with him should perform tawaf of the ka'bah and tawaf between safa and marwa which is sa'i then cut short his hair and finish his ihram and should later assume ihram for hajj so this was the method of hajj tamattu but he must offer a sacrifice and if anyone cannot afford a had he should fast for three days during the hajj and seven days when he returns home rasul allah performed tawaf of the ka'bah on his arrival at makkah he touched the black stone"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0075",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 75,
+      "start": 2457.58,
+      "end": 2487.84,
+      "constituent_segment_ids": [
+        "idx_241",
+        "idx_242",
+        "idx_243"
+      ],
+      "text": "which is he touched it first of all and then he did ramal fast walking with moving the shoulders like almost like a job during the first three rounds around the ka'bah and during the last four rounds he walked after finishing tawaf of the ka'bah he offered two rakat prayer at maqam ibrahim and after finishing the prayer he went to safi and marwah and then he performed seven rounds of sa'i between them and he did not do any deed forbidden because of ihram so he was following the ihram"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0076",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 76,
+      "start": 2487.84,
+      "end": 2515.58,
+      "constituent_segment_ids": [
+        "idx_244",
+        "idx_245",
+        "idx_246"
+      ],
+      "text": "restrictions till he finished all the ceremonies of his hajj and he sacrificed his hadhi on the day of nahar which is eid day 10th of du hij he then hastened onwards to makkah and he performed tawaf of the ka'bah and then everything that was forbidden because of ihram became halal like everything was done now so those who took and drove the hadhi with them did the same as rasul allah did so sahih al-bukhari hadith number 1998 gives us a clear picture"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0077",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 77,
+      "start": 2515.58,
+      "end": 2543.22,
+      "constituent_segment_ids": [
+        "idx_247",
+        "idx_248",
+        "idx_249"
+      ],
+      "text": "of what to be done. So sacrifice is mandatory in Hajj Tamattu', that's what we have learned. But when it comes to the people who are locals they live in haram boundaries then they don't have to worry about the sacrificial animal so while we are talking about haram boundaries we need to remember haram boundaries are not just al-masjid al-haram that's why you must have heard scholars saying that you know these hotels they come under haram bounds or these areas they come under"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0078",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 78,
+      "start": 2543.22,
+      "end": 2573.22,
+      "constituent_segment_ids": [
+        "idx_250",
+        "idx_251",
+        "idx_252"
+      ],
+      "text": "haram bounds so if you pray anywhere there even outside masjid you get the reward of praying 100,000 prayers another point to remember that when you pray in al-masjid al-haram not only you get the reward of one prayer which is 100,000 prayers elsewhere but time it by 27 right because praying in jama'ah gets you 27 times more reward so subhanallah praying in masjid al-haram behind the imam"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0079",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 79,
+      "start": 2573.22,
+      "end": 2615.98,
+      "constituent_segment_ids": [
+        "idx_253",
+        "idx_254",
+        "idx_255",
+        "idx_256",
+        "idx_257"
+      ],
+      "text": "is very rewardable so that should not be missed subhanallah and know وَاتَّقُوا اللّٰهَ وَاعْلَمُوْۤا اَنَّ اللّٰهَ شَدِیْدُ الْعِقَابِ ۟—fear Allah, have taqwa of Allah, and know that Allah is shadeed al-iqab so what are some of the lessons we learn from this verse we learn about the proof of the obligation of we learn about fulfilling the duties and obligations of and we should complete the hajj when it started we should complete the umrah when it started and we should perform hajj and umrah properly with its given rights and the ihraam of hajj and umrah can be opened only under compulsion right it can be removed we can come out of ihraam state if there is a need for that and allah knows best the next ayah starts off by"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0080",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 80,
+      "start": 2617.28,
+      "end": 2641.18,
+      "constituent_segment_ids": [
+        "idx_258",
+        "idx_259",
+        "idx_260"
+      ],
+      "text": "so hajj happens in these known months not before and after and they're not supposed to be played around with like mushrikeen of makkah used to do whenever they would want to fight or whenever they would want to do something they would just move the months here and there they would move the sacred month around they would also move the hajj month around So we need to remember that Hajj months are important and Hajj is to be done during Hajj months only."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0081",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 81,
+      "start": 2641.18,
+      "end": 2687.16,
+      "constituent_segment_ids": [
+        "idx_261",
+        "idx_262",
+        "idx_263",
+        "idx_264",
+        "idx_265",
+        "idx_266"
+      ],
+      "text": "so Aisha Radiyallahu Anha said: 'We set out with Rasulullah Sallallahu Alayhi wa Sallam in the months of Hajj, and in the nights of Hajj, and at the time and places of Hajj, and in the state of Hajj.' So all of these are sacred and all of these are important. So in this ayah we all of these are important so in this ayah we learn whoever makes hajj further upon him what does that mean like whoever starts saying talbiya labbayk allahum labbayk and whoever gets in ihraam mode then this person should do what should not do rafas should not do fusuq and should not do jidal so should avoid husband wife relationship and should avoid fusuq and should avoid jidal. What is fusuq?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0082",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 82,
+      "start": 2687.16,
+      "end": 2717.32,
+      "constituent_segment_ids": [
+        "idx_267",
+        "idx_268",
+        "idx_269"
+      ],
+      "text": "fusuq is a plural of fusq fusq is sinful behavior so what is fusuq that should not be done during hajj any act which is forbidden in ihraam like any of the ihraam violations will become sins like otherwise if you're not in ihraam you can trim your nails you can cut your hair no problem it's allowed but because you are in the state of ihraam that becomes forbidden for you that becomes haram for you so if you do it it is a sinful act"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0083",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 83,
+      "start": 2717.32,
+      "end": 2747.8,
+      "constituent_segment_ids": [
+        "idx_270",
+        "idx_271",
+        "idx_272"
+      ],
+      "text": "so that can be fixed if there's a genuine need with fidya but let's say a person has no need no valid reason for that and does this and this person still does something which goes against the rulings of ihraam this person is committing a sin so that's what is mentioned here that a person should not do that second is that another example of fusook would be calling with bad titles like calling people with bad names mocking them making fun of"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0084",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 84,
+      "start": 2747.8,
+      "end": 2778.18,
+      "constituent_segment_ids": [
+        "idx_273",
+        "idx_274",
+        "idx_275"
+      ],
+      "text": "them backbiting gossiping all of this comes under an abusive language using swear words or becoming rude and crude all of that comes under fisk and all sorts of disobediences any act which is considered disobedience like wasting your time is also disobedience of Allah especially there when you are in haramain and watching youtube videos sadly with gadgets a lot of people they misuse their time a lot and they waste their time a lot and sacrificing for"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0085",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 85,
+      "start": 2778.18,
+      "end": 2819.14,
+      "constituent_segment_ids": [
+        "idx_276",
+        "idx_277",
+        "idx_278",
+        "idx_279"
+      ],
+      "text": "idols that is also wrong a lot of people they don't really sacrifice for idols especially like believers the ones who go there but they sacrifice for some saints or some religious figures so we have to be very cautious about that as well so what's the reward of performing hajj without rafas and fusuq whoever performs hajj to this kaaba and does not get involved in husband wife relationship and nor commit any sins he will come out as sinless as a newborn child, just delivered by his mother, SubhanAllah. And another thing which is not supposed to be done during Hajj is jidal: لَا جِدَالَ—no jidal. What is jidal? Fighting."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0086",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 86,
+      "start": 2819.14,
+      "end": 2871.98,
+      "constituent_segment_ids": [
+        "idx_280",
+        "idx_281",
+        "idx_282",
+        "idx_283"
+      ],
+      "text": "what kind of fighting all of this arguments and also ikhtilaf during hajj days what is ikhtilaf it is possible that some people traveling with you follow you know another scholar right and they're following their own ways and they're doing what they're taught so if they're doing all of that don't start fighting with them don't start giving them dalail at that point because it won't be easy for them to take it right so don't do any type of fighting not even arguments not even respectful arguments right if you really want to help them, you can give them something to read and that's all. There will be a lot of differences, exactly. So we have to be extremely cautious about how we behave in those situations: no abusive language in fighting, and first of all no fighting. And sometimes people, they taunt with their tone, sometimes they're very condescending in their behavior and in their words,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0087",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 87,
+      "start": 2871.98,
+      "end": 2901.98,
+      "constituent_segment_ids": [
+        "idx_284",
+        "idx_285"
+      ],
+      "text": "so we should avoid anything which can lead to fight and anything which is considered sin or anything which is not from good akhlaq that should be avoided at all costs and there should be no argument on hajj rights do it like this, why did you do it like that? None of that. And Insha'Allah don't fight over Hajj days. Some people start assuming and start saying things like: 'Oh, it seems like government did not really sight the moon properly, seems like it's not the 9th yet, or it seems like it's not the 10th yet, look at the"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0088",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 88,
+      "start": 2901.98,
+      "end": 2932.28,
+      "constituent_segment_ids": [
+        "idx_286",
+        "idx_287",
+        "idx_288"
+      ],
+      "text": "sides of the moon and all of that this is none of our business right so we are there to worship focus on what you are supposed to do don't worry about what's happening around you and Allah knows best even though it's mentioned clearly in the Quran but people still fight people fight over petty things like why did you move my bag why did you touch my stuff and you know people living together in a tent and camp, it's not very easy to stay away from everything of everyone, right, SubhanAllah? So we have to be more patient"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0089",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 89,
+      "start": 2932.2799999999997,
+      "end": 2964.78,
+      "constituent_segment_ids": [
+        "idx_289",
+        "idx_290",
+        "idx_291"
+      ],
+      "text": "with other things and don't worry too much about worldly belongings forget it inshallah exactly we have to pack our taqwa and sabr with us so if you really want hajj mabroor then the definition is there should be no rafas no fusuq and no jidal so inshallah then our hajj will be al-hajj al-mabroor subhanallah a lot of times people say right may Allah grant you hajj al-mabroor and we wonder what's that, so that's one way to understand Al-Hajj Al-Mabroor, and Insha'Allah in future we'll talk about it more. So what's the reward of Al-Hajj Al-Mabroor? Nothing but Jannah. Rasulullah Sallallahu Alayhi wa Sallam"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0090",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 90,
+      "start": 2964.78,
+      "end": 2995.1,
+      "constituent_segment_ids": [
+        "idx_292",
+        "idx_293",
+        "idx_294"
+      ],
+      "text": "said and the reward of hajj mabroor is nothing except jannah and whatever good you do there Allah knows it subhanallah you don't need to tell people about it whatever good you do there you know it's recorded by angels it's known by Allah you don't have to worry about show off part subhanallah so doing any act of goodness to get closeness to Allah is something which you don't need to worry about its reward, Allah is the best Appreciator, Allah is the best who can give you rewards."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0091",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 91,
+      "start": 2995.1,
+      "end": 3037.54,
+      "constituent_segment_ids": [
+        "idx_295",
+        "idx_296",
+        "idx_297",
+        "idx_298"
+      ],
+      "text": "so when we are at hajj there's a beautiful advice by Dr. Farid Hashmi that try to do three types of good deeds one type of good deeds are your personal ibadat so pray more do more adhkar recite Quran more and do everything beautifully and properly that's one type of good deeds the second type of good deeds are when you do social work so help others do anything for them to make their Hajj easy for them, you know, help them, you know, if they are on a wheelchair, maybe help them with that if they want something water or anything get it for them buy food for people do whatever to make things easy for them so do social work there as well insha'Allah and third is"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0092",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 92,
+      "start": 3038.9,
+      "end": 3054.78,
+      "constituent_segment_ids": [
+        "idx_299",
+        "idx_300"
+      ],
+      "text": "so tell people about what's right and stop them from doing something wrong but again remember it should not turn into jidal so you have to be extremely wise and nice to do that. So let's say if you notice that someone is doing something so wrong, let's say someone's praying,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0093",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 93,
+      "start": 3054.78,
+      "end": 3084.78,
+      "constituent_segment_ids": [
+        "idx_301",
+        "idx_302",
+        "idx_303"
+      ],
+      "text": "but her hair are coming out and her ankles are showing her feet are showing and her arms are showing then you can nicely tell her after she's done praying that would you allow me to tell you something about this part of you know and what not so insha'Allah this is a nice way to ask first and then if they're ready and willing to learn then tell them subhanallah a lot of times people tell you: 'Don't tell us!' So recently what happened was, you know, in Haram it has been seen, especially ladies, a lot of"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0094",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 94,
+      "start": 3084.78,
+      "end": 3117.8,
+      "constituent_segment_ids": [
+        "idx_304",
+        "idx_305",
+        "idx_306"
+      ],
+      "text": "ladies they don't pray funeral prayer for whatever reason so you know I just asked a lady that should I tell you about the benefits of funeral prayer she said no I was like it's very rewardable she said no I don't want to know subhanallah so yeah if they're not willing to learn so it's okay leave them alone but you can insha'Allah try your best subhanallah so take advantage of opportunities for doing good days during Hajj your smile is also sadaqah so insha'Allah keep smiling there commanding good and forbidding evil is sadaqah you're giving directions to a person who's lost is"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0095",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 95,
+      "start": 3117.8,
+      "end": 3149.52,
+      "constituent_segment_ids": [
+        "idx_307",
+        "idx_308",
+        "idx_309"
+      ],
+      "text": "sadaqah you're seeing of a man with bad sight like you know you help that person who's not able to see so you help that person find the way and your removal of a rock a thorn or a bone from the road is sadaqah for you your pouring water remains from your bucket into the bucket of another brother is charity for you and subhanallah if you look at this beautiful hadith we can do pretty much all of this there at Hajj and pack with you taqwa the best travel fund you should have with you is insha'Allah taqwa"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0096",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 96,
+      "start": 3150.82,
+      "end": 3177.68,
+      "constituent_segment_ids": [
+        "idx_310",
+        "idx_311",
+        "idx_312",
+        "idx_313"
+      ],
+      "text": "and it doesn't mean that you should not have money because this part of the ayah was revealed about the people who used to come from yaman so the people of yaman used to come for hajj and they would not bring enough provisions with them and they used to say that they are trusting allah they are doing tawakkul on allah but on their arrival in Mecca they used to beg to people so allah revealed this ayah and وَتَزَوَّدُوْا فَاِنَّ خَیْرَ الزَّادِ التَّقْوٰی—"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0097",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 97,
+      "start": 3177.68,
+      "end": 3216.72,
+      "constituent_segment_ids": [
+        "idx_314",
+        "idx_315",
+        "idx_316",
+        "idx_317"
+      ],
+      "text": "take a provision with you for the journey but the best provision is the fear of allah so take the provision for your body and also take the provision for your soul so food for the body for that you need money and food for soul you need taqwa and once you have taqwa you won't beg to people for resources or for anything and what is taqwa obedience to allah's commands and staying away from allah's prohibitions to stay safe from allah's punishment so from this verse of surah we learn not entering the state of iram before the month of hajj is something to be observed respecting the iram of hajj when we respect"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0098",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 98,
+      "start": 3217.88,
+      "end": 3245.98,
+      "constituent_segment_ids": [
+        "idx_318",
+        "idx_319",
+        "idx_320"
+      ],
+      "text": "all its restrictions and purifying good deeds only for Allah and create peace in the soul and subhanallah it happens when we don't fight there right we feel at peace you know it is possible that you would have this urge of telling this person off or you would have this urge to tell this person that person is wrong but you stop yourself when you stop yourself you will feel a lot of peace in yourself inshaallah and hajj is a great opportunity"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0099",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 99,
+      "start": 3254.64,
+      "end": 3311.06,
+      "constituent_segment_ids": [
+        "idx_321",
+        "idx_322",
+        "idx_323",
+        "idx_324",
+        "idx_325"
+      ],
+      "text": "to attain taqwa. So how are we going to achieve taqwa by Hajj? Few things Insha'Allah before we conclude: putting the command of Allah before every command so if someone tells you it's in the quran right so put allah's command before every other command and then a person does not show weakness and laziness to do any good deeds during hajj and especially after hajj if a person takes hajj as a boot camp if a person takes hajj as a training trip that person comes back you know filled with this strength for doing good deeds filled with this happiness and this eagerness to do more and more because we know we have to do it, SubhanAllah, right? And we do it happily. And love of dunya will not make such a person resort to haram earning. And SubhanAllah about this, you know, I remember there was one time when we were traveling to another country, and the taxi drivers were not all very honest there, SubhanAllah, majority of them."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L04_chunk_0100",
+      "lecture_id": "HajjJourney2022Eng-L04",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 100,
+      "start": 3311.06,
+      "end": 3361.62,
+      "constituent_segment_ids": [
+        "idx_326",
+        "idx_327",
+        "idx_328",
+        "idx_329",
+        "idx_330",
+        "idx_331"
+      ],
+      "text": "so we got into a taxi and we asked the person about the rate and everything and that person says I will not cheat you because whatever I earn I'm saving it for hajj subhanallah and that was so beautiful so this is something which hajj teaches us we cannot earn haram because we cannot really go for hajj with haram earnings and such a person will avoid haram desires because this person actually in ihram even stayed away from halal desires so this person will have this strong self control after hajj and will not even go for haram desires and this person will prefer the pleasure of Allah over his pleasure may Allah make us among those who actually come back like this after Hajj, Ameen. Jazakumullahu Khayran Katheera everyone, Barakallahu feekum. Subhanakallahumma wa bihamdika, ashhadu alla ilaha illa anta, astaghfiruka wa atoobu ilayk. Assalamu alaykum wa rahmatullahi wa barakatuh. thank you"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+[
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "SKD2025-0001",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Supplication_and_reliance_on_Allah",
+    "name_a": "Supplication and reliance on Allah",
+    "recordingId_b": "SKD2025-0001",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_Supplication_and_humility",
+    "name_b": "Supplication and humility",
+    "lexicalSimilarity": 0.644,
+    "status": "reject"
+  },
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "SKD2025-0001",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Supplication_and_reliance_on_Allah",
+    "name_a": "Supplication and reliance on Allah",
+    "recordingId_b": "SKD2025-0001",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_Supplication_and_visiting_the_sick",
+    "name_b": "Supplication and visiting the sick",
+    "lexicalSimilarity": 0.618,
+    "status": "reject"
+  },
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "SKD2025-0001",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Supplication_as_worship",
+    "name_a": "Supplication as worship",
+    "recordingId_b": "SKD2025-0001",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_Supplication_and_humility",
+    "name_b": "Supplication and humility",
+    "lexicalSimilarity": 0.708,
+    "status": "reject"
+  },
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "SKD2025-0001",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Supplication_as_worship",
+    "name_a": "Supplication as worship",
+    "recordingId_b": "SKD2025-0001",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_Supplication_and_visiting_the_sick",
+    "name_b": "Supplication and visiting the sick",
+    "lexicalSimilarity": 0.632,
+    "status": "reject"
+  },
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "SKD2025-0001",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Supplication_and_humility",
+    "name_a": "Supplication and humility",
+    "recordingId_b": "SKD2025-0001",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_Supplication_and_visiting_the_sick",
+    "name_b": "Supplication and visiting the sick",
+    "lexicalSimilarity": 0.678,
+    "status": "reject"
+  },
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "SKD2025-0001",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Hope_and_perseverance_in_supplication",
+    "name_a": "Hope and perseverance in supplication",
+    "recordingId_b": "SKD2025-0001",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_Healing_and_supplication",
+    "name_b": "Healing and supplication",
+    "lexicalSimilarity": 0.623,
+    "status": "reject"
+  },
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "SKD2025-0001",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Hope_and_perseverance_in_supplication",
+    "name_a": "Hope and perseverance in supplication",
+    "recordingId_b": "SKD2025-0001",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_Contentment_and_etiquette_of_supplication",
+    "name_b": "Contentment and etiquette of supplication",
+    "lexicalSimilarity": 0.615,
+    "status": "reject"
+  },
+  {
+    "type": "topic_merge",
+    "scope": "cross_series",
+    "recordingId_a": "SKD2025-0001",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Supplication_as_worship",
+    "name_a": "Supplication as worship",
+    "recordingId_b": "HAJJLT22",
+    "topicId_b": "minaret:Topic_Supplication_Du_a",
+    "name_b": "Supplication (Du'a)",
+    "lexicalSimilarity": 0.667,
+    "status": "reject"
+  },
+  {
+    "type": "topic_merge",
+    "scope": "cross_series",
+    "recordingId_a": "SKD2025-0001",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Supplication_and_humility",
+    "name_a": "Supplication and humility",
+    "recordingId_b": "HAJJLT22",
+    "topicId_b": "minaret:Topic_Supplication_Du_a",
+    "name_b": "Supplication (Du'a)",
+    "lexicalSimilarity": 0.636,
+    "status": "reject"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "SKD2025-0001",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Names_and_attributes_of_Allah",
+    "name": "Names and attributes of Allah",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['prayer']",
+    "status": "reject"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "SKD2025-0001",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Oneness_of_Allah_Tawhid",
+    "name": "Oneness of Allah (Tawhid)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:ArticlesOfFaith",
+    "rationale": "keyword heuristic matched on: ['tawhid', 'oneness of allah']",
+    "status": "reject"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "SKD2025-0001",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Oneness_of_Allah_Tawhid",
+    "name": "Oneness of Allah (Tawhid)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:Tauhid",
+    "rationale": "keyword heuristic matched on: ['oneness of allah']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "SKD2025-0001",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Hope_and_perseverance_in_supplication",
+    "name": "Hope and perseverance in supplication",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['prayer']",
+    "status": "reject"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "SKD2025-0001",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Healing_and_supplication",
+    "name": "Healing and supplication",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['prayer']",
+    "status": "reject"
+  }
+]

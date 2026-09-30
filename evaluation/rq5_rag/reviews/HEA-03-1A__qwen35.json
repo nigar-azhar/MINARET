@@ -1,0 +1,160 @@
+[
+  {
+    "question_id": "Q53",
+    "question": "لیکچرر کے مطابق روایت میں پہاڑ کے اپنی جگہ سے ہلنے اور انسان کے اپنی بری عادت چھوڑنے کے بارے میں کیا تقابل بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-03-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0009"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق روایت میں یہ تقابل بیان کیا گیا ہے کہ انسان کی بری عادت چھوڑنا، پہاڑ کو اپنی جگہ سے ہلانے کے مقابلے میں زیادہ مشکل کام ہے۔ لیکچرر نے کہا کہ پہاڑ کو ہلانے کی بات پر یقین کرنا جائز ہے، لیکن عادت چھوڑنے کی بات پر یقین نہیں کرنا چاہیے، کیونکہ پہاڑ زمین میں گڑے ہوئے ہیں جبکہ بری عادتیں ہماری رگ و پے میں سرایت کی ہوئی ہیں۔\n\n[chunk_id=HEA-03-1A_chunk_0009]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 7937,
+    "elapsed_seconds": 121.47,
+    "generated_at": "2026-09-23T19:46:08.770537+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HEA-03-1A_chunk_0009 (start 314.02-353.58s), which reads (paraphrased): 'if someone says a mountain has shifted/moved from its place, believe it; but if someone says a person has abandoned a bad habit, don't believe it — because leaving bad habits is harder than moving a mountain, since mountains are embedded in the earth while bad habits have permeated our veins and become part of soul/body/life.' The model's Urdu answer restates this comparison accurately (habit-breaking is harder than moving a mountain; mountains embedded in earth vs. habits ingrained in a person) and cites chunk_0009 correctly. No unsupported claims added."
+  },
+  {
+    "question_id": "Q54",
+    "question": "According to the narration cited by the lecturer, what comparison is made between a mountain moving from its place and a person abandoning a bad habit?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-03-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0009"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0007",
+        "HEA-03-1A_chunk_0008",
+        "HEA-03-1A_chunk_0009"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided transcript excerpts, here is the answer:\n\nAccording to the narration cited by the lecturer (specifically referencing a Hadith), there is a comparison made regarding the **difficulty** of these two actions:\n\n1.  **Moving a mountain:** The lecturer states that if someone claims a mountain has moved from its place, one should believe them. This implies it is an **easy** or accepted fact that a mountain can move (e.g., due to earthquakes).\n2.  **Abandoning a bad habit:** The lecturer states that if someone claims a person has abandoned their bad habits, one should **not** believe them. The lecturer explains that abandoning bad habits is a task **\"more difficult than moving a mountain\"** (یہ پہاڑ کو اپنی جگہ سے ہلانے سے بھی زیادہ مشکل کام ہے).\n\nThe lecturer explains this comparison by noting that while mountains are embedded in the earth, bad habits have deeply penetrated a person's **\"veins and bones\"** (رگ و پے) and become part of their soul, body, and life.\n\n**Citation:**\n*   **chunk_id=HEA-03-1A_chunk_0009** (Contains the direct comparison: \"یہ پہاڑ کو اپنی جگہ سے ہلانے سے بھی زیادہ مشکل کام ہے\" - This is a task more difficult than moving the mountain from its place).\n*   **chunk_id=HEA-03-1A_chunk_0008** (Provides the context of the narration regarding who can remove bad habits).\n*   **chunk_id=HEA-03-1A_chunk_0007** (Provides the context of the narration regarding guidance and removal).\n\n*(Note: The specific Hadith text \"If a mountain moves, believe it; if a man abandons his bad habits, do not believe him\" is cited in the lecture as found in chunk 0009.)*",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 66.33,
+    "generated_at": "2026-09-23T19:47:15.099804+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Same source fact as Q53, chunk HEA-03-1A_chunk_0009 confirms the core comparison (mountain moving = believable, habit abandonment = not believable, because habit-breaking is 'more difficult than moving a mountain'; mountains rooted in earth vs. habits in 'veins and bones'). The English answer states this correctly and quotes the Urdu phrase accurately. It also adds chunks 0007/0008 as supporting citations (context: a Hadith/dua about God being the only one who can guide toward good character and remove bad character) — chunks_0007/0008 checked and are relevant context but not the actual comparison; over-citation, not a factual error. One added editorial gloss ('implies it is an easy or accepted fact... e.g. due to earthquakes') is the model's own inference, not stated in the source, but does not contradict or misrepresent it, and is clearly framed as explanation rather than a quoted fact. Core answer is correct and grounded."
+  },
+  {
+    "question_id": "Q75",
+    "question": "لیکچرر کے مطابق بغیر کسی وجہ کے گھر کے اچھے بھلے اونٹ کو ذبح کر دینے کی مثال سے 'ظلم' کے بارے میں کیا سمجھایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-03-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0012",
+      "HEA-03-1A_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0012",
+        "HEA-03-1A_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر نے اس مثال سے یہ سمجھایا ہے کہ بغیر کسی مرض اور علت کے اونٹ کو ذبح کر دینا 'ظلم' ہے۔ اس مثال سے یہ بھی واضح ہوتا ہے کہ ظلم کا معنی کسی چیز کو بے موقع رکھنا یا وقت سے پہلے کام کرنا ہے۔ لیکچرر نے کہا کہ \"ہر وہ کام جس کو وقت سے پہلے کیا جائے اس پہ ظلم کا اطلاق ہوتا ہے۔\"\n\nChunks used: HEA-03-1A_chunk_0012, HEA-03-1A_chunk_0013",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 7844,
+    "elapsed_seconds": 112.34,
+    "generated_at": "2026-09-23T19:49:07.439465+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HEA-03-1A_chunk_0012 (defines zulm as displacing something from its place/out of season, and glosses 'ظَلَمَ الْبَعِيرَ' as slaughtering a camel with no disease/cause) and chunk_0013 (start 516.46-556.1s: 'there was a fine camel in the house, slaughtered without reason — that is zulm on the camel; likewise, anything done before its proper time is zulm'). The model's answer states both facts (slaughtering the healthy camel without cause = zulm; zulm = doing something out of place/before its time) accurately and cites both chunks correctly."
+  },
+  {
+    "question_id": "Q76",
+    "question": "According to the lecturer, what does the example of slaughtering a perfectly healthy camel without any reason illustrate about the concept of 'zulm' (injustice)?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-03-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0012",
+      "HEA-03-1A_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0012",
+        "HEA-03-1A_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecturer, the example illustrates that 'zulm' (injustice) involves doing something before its proper time or without a valid reason. The lecturer explains that the phrase 'ظَلَمَ الْبَعِيرَ' means slaughtering a camel without any disease or cause (Chunk 0012). He further clarifies that this is because \"ہر وہ کام جس کو وقت سے پہلے کیا جائے اس پہ ظلم کا اطلاق ہوتا ہے\" (any action done before its time is considered injustice) (Chunk 0013).\n\n**Citations:**\n*   HEA-03-1A_chunk_0012\n*   HEA-03-1A_chunk_0013",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 5309,
+    "elapsed_seconds": 98.69,
+    "generated_at": "2026-09-23T19:50:46.126544+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Same chunks as Q75 (0012, 0013), verified against source text above. English answer correctly states the camel-slaughter-without-cause example is zulm, and correctly extends it to 'any action done before its time is zulm,' quoting the Urdu phrase 'ہر وہ کام جس کو وقت سے پہلے کیا جائے اس پہ ظلم کا اطلاق ہوتا ہے' which matches chunk_0013 verbatim."
+  }
+]

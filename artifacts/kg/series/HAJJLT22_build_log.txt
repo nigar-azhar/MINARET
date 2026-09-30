@@ -1,0 +1,28 @@
+Loaded quran.csv: 6236 ayat.
+Loaded duas.csv: 1427 duas.
+Loaded 84 resolved SemanticHadith blocks.
+Loaded topic registry: 38 topics from prior series.
+Hadith Ahmad_2867: no SemanticHadith match (collection not in KG dump) -- stays unresolved (reference + expandedReference only).
+WARNING: Dua IbnMajah_2890_Dua not found in duas.csv -- storing occurrence text only.
+Topic dedup uses difflib lexical similarity as a placeholder for the paper's BGE-M3 embedding approach (no embedding model available). tau=0.6 on normalized-name ratio. All candidates logged to E3 as 'proposed'.
+Topic dedup: 34 topic instances, 1 merge candidates flagged (0 cross-series), 15 concept-mapping candidates flagged.
+Topic merge ACCEPTED: 'Supplication (Du'a)' merged into 'Supplication in Islam (Ad-Du'a)'.
+Topic concept mapping ACCEPTED: 'Virtues of Hajj and Umrah' closeMatch hadith:PillarsOfIslam.
+Topic concept mapping ACCEPTED: 'God-Consciousness (Taqwa)' closeMatch hadith:ArticlesOfFaith.
+Topic concept mapping ACCEPTED: 'Obligation of Hajj (Fardiyyat al-Hajj)' closeMatch hadith:PillarsOfIslam.
+Topic concept mapping ACCEPTED: 'Hastening to Good Deeds (Al-Mubadarah ilal-Khayrat)' closeMatch hadith:PillarsOfIslam.
+Topic concept mapping REJECT: 'Historical Origins of Hajj' -> hadith:PillarsOfIslam.
+Topic concept mapping REJECT: 'Historical Origins of Hajj' -> hadith:ArticlesOfFaith.
+Topic concept mapping ACCEPTED: 'Excellence and Rewards of Pilgrimage' closeMatch hadith:PillarsOfIslam.
+Topic concept mapping ACCEPTED: 'Monotheism and Sincerity (Tawheed)' closeMatch hadith:Tauhid.
+Topic concept mapping REJECT: 'Calling to Good (Da'wah)' -> hadith:PillarsOfIslam.
+Topic concept mapping REJECT: 'Supplication (Du'a)' -> hadith:PillarsOfIslam.
+Topic concept mapping ACCEPTED: 'Sacrifice (Hady)' closeMatch hadith:PillarsOfIslam.
+Topic concept mapping ACCEPTED: 'Jurisprudence of Pilgrimage Modalities (Fiqh al-Hajj)' closeMatch hadith:PillarsOfIslam.
+Topic concept mapping ACCEPTED: 'Jurisprudence of Ihsar (Impediments to Pilgrimage)' closeMatch hadith:PillarsOfIslam.
+Topic concept mapping ACCEPTED: 'Sacrificial Animals and Fidya for Violations (Hady & Kaffarah)' closeMatch hadith:PillarsOfIslam.
+Topic concept mapping ACCEPTED: 'Pilgrimage Modalities and Fasting Expiation (Tamattu' & Siyam)' closeMatch hadith:PillarsOfIslam.
+Topic relation ADDED: 'Historical Origins of Hajj' skos:related 'Obligation of Hajj (Fardiyyat al-Hajj)'.
+Wrote artifacts/kg/instances/HAJJLT22.ttl -- 12872 triples.
+Wrote artifacts/kg/series/HAJJLT22_topic_proposals.json -- 16 records.
+Wrote artifacts/kg/series/HAJJLT22_topics.md.

@@ -1,0 +1,922 @@
+[
+  {
+    "question_id": "Q9",
+    "question": "کامیاب انسان بننے کے لیے کن پہلوؤں کا جاگنا ضروری بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001A_chunk_0003",
+      "TQ2005-P01-L001A_chunk_0004"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.5
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0003"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "کامیاب انسان کے لیے جسمانی، ذہنی، روحانی، جذباتی اور سماجی شخصیت یا زندگی کے تمام پہلوؤں میں ایک ہم آہنگی (ہارمونی) اور توازن (بیلنس) کا ہونا ضروری بتایا گیا ہے۔ [chunk_id=TQ2005-P01-L001A_chunk_0003]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1453,
+    "elapsed_seconds": 52.89,
+    "generated_at": "2026-09-24T07:16:00.255950+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "The question asks specifically which aspect must 'جاگنا' (awaken); the true answer is in gold chunk_0004 (the mental/intellectual/consciousness aspect must awaken for religious progress), but series-scope retrieval only surfaced gold chunk_0003 (sent_recall=0.5) plus an unrelated chunk pulled in from a different lecture (TQ2005-P01-L001F_chunk_0010). The model answered accurately from chunk_0003 about harmony/balance across the five personality aspects, but that is a related-but-distinct claim that never addresses 'awakening' or the mental/intellectual aspect the question is keyed to, so the answer is incomplete rather than fully correct."
+  },
+  {
+    "question_id": "Q24",
+    "question": "According to the lecture, which aspects of a person need to 'awaken' in order to become a successful person?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001A_chunk_0003",
+      "TQ2005-P01-L001A_chunk_0004"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0003",
+        "TQ2005-P01-L001A_chunk_0004"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, a successful person has a balanced personality across physical, mental, spiritual, emotional, and social aspects (جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت) [TQ2005-P01-L001A_chunk_0003]. Furthermore, progress cannot be made until the following aspects \"awaken\":\n*   Mental health or intellectual aspect (ذہنی صحت یا ہمارا ذہنی ایسپیکٹ)\n*   Consciousness and thought aspect (ہمارے شعور اور سوچ کا ایسپیکٹ) [TQ2005-P01-L001A_chunk_0004]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1804,
+    "elapsed_seconds": 14.37,
+    "generated_at": "2026-09-23T19:51:44.789743+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0003 (\"کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت... ان سب کے اندر ایک ہارمونی اور بیلنس ہو (chunk_0003, 87.04-116.34s)\") and chunk_0004 (\"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے (chunk_0004, 116.34-140.42s)\"), both cited. This is the cleanest of the three Q24 answers: it correctly and concisely separates the balance claim (chunk_0003) from the specific 'awaken' claim about the mental/intellectual/consciousness aspect (chunk_0004). Fully grounded, no fabrication. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q11",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1329,
+    "elapsed_seconds": 24.75,
+    "generated_at": "2026-09-24T07:16:25.006085+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Deliberately unanswerable question (no gold chunks). Series-scope retrieval pooled chunks from lectures L001A, L001B, and L001E — none discuss Hajj/Umrah etiquette (they cover classroom discipline, the Quran's revelation history, and Arabic root exercises instead). The model correctly stated the lecture does not provide enough information; pooling across lectures did not surface any relevant content because none exists in this series."
+  },
+  {
+    "question_id": "Q26",
+    "question": "اس سبق میں حج اور عمرہ کے آداب کے بارے میں کیا بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1568,
+    "elapsed_seconds": 23.12,
+    "generated_at": "2026-09-24T07:16:48.124854+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Deliberately unanswerable question (no gold chunks), Urdu phrasing of the same Hajj/Umrah-etiquette question. Series-scope retrieval pooled chunks from L001F, L001A, L001E, and L001B (four different lectures), none of which mention Hajj or Umrah etiquette. Correct refusal; the broader pooled retrieval still found nothing relevant."
+  },
+  {
+    "question_id": "Q27",
+    "question": "لیکچرر کے مطابق قرآن مجید کے کتنے فیصد الفاظ عام اردو بولنے والے پہلے سے اپنی روزمرہ زبان میں استعمال کرتے ہیں، اور کتنے فیصد الفاظ ایسے ہیں جن پر غور و فکر کی ضرورت ہوتی ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0048",
+      "TQ2005-P01-L001B_chunk_0049",
+      "TQ2005-P01-L001B_chunk_0050"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0048",
+        "TQ2005-P01-L001B_chunk_0049",
+        "TQ2005-P01-L001B_chunk_0050"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق، قرآن مجید کے 65% الفاظ عام اردو بولنے والے اپنی روزمرہ زبان میں استعمال کرتے ہیں (TQ2005-P01-L001B_chunk_0048)۔\n\nدوسری طرف، صرف پندرہ فیصد یعنی 15% ایسے الفاظ رہ جاتے ہیں جن پر غور و فکر اور تدبر کی ضرورت ہوتی ہے (TQ2005-P01-L001B_chunk_0049, TQ2005-P01-L001B_chunk_0050)۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1568,
+    "elapsed_seconds": 37.93,
+    "generated_at": "2026-09-23T19:52:43.405702+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0048 (65% of Quran words used in daily Urdu) and chunk_0049/chunk_0050 (15% require tadabbur — chunk_0050 restates '15%' explicitly: '...آپ کو محنت کرنا ہے؟ 15%'). Answer states 65% and 15%, matches all three cited chunks, clean and concise, no extraneous claims. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q28",
+    "question": "According to the lecturer, what percentage of the Quran's words does an ordinary Urdu speaker already understand from daily usage, and what percentage require real reflection (tadabbur) to understand?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0048",
+      "TQ2005-P01-L001B_chunk_0049",
+      "TQ2005-P01-L001B_chunk_0050"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0048",
+        "TQ2005-P01-L001B_chunk_0049",
+        "TQ2005-P01-L001B_chunk_0050"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer:\n\n*   An ordinary Urdu speaker already understands 65% of the Quran's words from daily usage in Urdu [chunk_id=TQ2005-P01-L001B_chunk_0048].\n*   Only fifteen percent (15%) of the words require deep thought and reflection (*tadabbur*) to understand [chunk_id=TQ2005-P01-L001B_chunk_0049, chunk_id=TQ2005-P01-L001B_chunk_0050].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1568,
+    "elapsed_seconds": 29.37,
+    "generated_at": "2026-09-24T07:17:17.493388+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "All three gold chunks (L001B_chunk_0048/0049/0050) were retrieved and cited; the 65% (words already known from daily Urdu) and 15% (words needing tadabbur) figures are stated verbatim in the retrieved text. No series-scope distortion here — the correct lecture's chunks were retrieved and fully support the answer."
+  },
+  {
+    "question_id": "Q63",
+    "question": "لیکچرر کے مطابق مکہ میں کتنے لوگ لکھنا جانتے تھے، اور ان میں سے کتنے لوگ عموماً رسول اللہ صلی اللہ علیہ وسلم کے حکم کا انتظار کرتے رہتے تھے تاکہ وحی فوراً لکھ سکیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0021"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0021"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق، مکہ میں صرف سترہ لوگ لکھنا جانتے تھے، اور ان میں سے تقریباً بارہ لوگ آپ صلی اللہ علیہ وسلم کے حکم کا منتظر رہتے تھے تاکہ وحی فوراً لکھ سکیں (TQ2005-P01-L001B_chunk_0021)۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1601,
+    "elapsed_seconds": 12.21,
+    "generated_at": "2026-09-23T19:53:09.784206+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0021 (verified above: 17 knew how to write, ~12 usually ready awaiting the Prophet's command). Answer matches exactly, correctly cited, concise. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q64",
+    "question": "According to the lecturer, how many people in Makkah knew how to write, and how many of them were usually ready and waiting to write down revelation immediately when called?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0021"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0021"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "In Makkah, seventeen people knew how to write, and out of these, approximately twelve people were waiting for your command and would immediately record any revelation when called upon [chunk_id=TQ2005-P01-L001B_chunk_0021].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1591,
+    "elapsed_seconds": 12.01,
+    "generated_at": "2026-09-23T19:53:21.790889+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant of Q63, same chunk_0021 verified. Answer states 17 total, ~12 ready to write immediately when called — matches source. Grounded and accurate. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q29",
+    "question": "لیکچر کے لفظی ترجمے کے مطابق سورۃ الفاتحہ کی آیت 'اِیَّاكَ نَعْبُدُ' کا لفظ بہ لفظ ترجمہ کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001C_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": false,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": false,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": false,
+      "sent_precision": 0.0,
+      "sent_recall": 0.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0001",
+        "TQ2005-P01-L001E_chunk_0027",
+        "TQ2005-P01-L001F_chunk_0029"
+      ],
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچر کے مطابق 'اِیَّاكَ نَعْبُدُ' کا لفظی ترجمہ ہے: صرف تیری ہم عبادت کرتے ہیں [TQ2005-P01-L001D_chunk_0001, TQ2005-P01-L001E_chunk_0027, TQ2005-P01-L001F_chunk_0029]۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1618,
+    "elapsed_seconds": 30.32,
+    "generated_at": "2026-09-24T07:17:47.813768+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Series-scope retrieval did not surface the intended gold chunk (L001C_chunk_0001, the word-tagged 'لفظی' translation from this lecture instance) and instead pulled the phrase from the 'بامحاورہ' (idiomatic) translation section of a different lecture recording (L001D_chunk_0001, L001E_chunk_0027). For this short verse the idiomatic and literal wordings happen to coincide ('صرف تیری ہم عبادت کرتے ہیں'), so despite citing chunks from a different lecture/section than the gold one, the translation given is factually accurate and grounded in the cited text."
+  },
+  {
+    "question_id": "Q30",
+    "question": "According to the lecture's word-for-word translation, what is the literal meaning given for the phrase 'Iyyaka na'budu' in Surah Al-Fatiha?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001C_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": false,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": false,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": false,
+      "sent_precision": 0.0,
+      "sent_recall": 0.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0001",
+        "TQ2005-P01-L001E_chunk_0027"
+      ],
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, the literal meaning given for 'Iyyaka na'budu' is \"صرف تیری ہم عبادت کرتے ہیں\" (We worship only You) [TQ2005-P01-L001E_chunk_0027, TQ2005-P01-L001D_chunk_0001].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1371,
+    "elapsed_seconds": 26.26,
+    "generated_at": "2026-09-24T07:18:14.073751+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English-phrased twin of Q29. Series-scope retrieval again missed gold chunk L001C_chunk_0001 and instead cited the idiomatic-translation chunks from lecture L001D/L001E, but the wording of the translation given ('We worship only You') is identical to what the literal-translation chunk would give, so the answer is correct and grounded despite the cross-lecture substitution."
+  },
+  {
+    "question_id": "Q79",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1519,
+    "elapsed_seconds": 24.08,
+    "generated_at": "2026-09-24T07:18:38.155226+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Deliberately unanswerable question (no gold chunks), Urdu twin of Q80/Q11. Series-scope retrieval pooled chunks from L001A, L001B, L001E (three different lectures), none of which mention Hajj or Umrah etiquette. Correct refusal."
+  },
+  {
+    "question_id": "Q80",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1547,
+    "elapsed_seconds": 24.48,
+    "generated_at": "2026-09-24T07:19:02.638149+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Deliberately unanswerable question (no gold chunks), English twin of Q79/Q26. Series-scope retrieval pooled chunks from L001A, L001B, L001E — none touch Hajj/Umrah etiquette. Correct refusal."
+  },
+  {
+    "question_id": "Q31",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ میں صرف ایک ایسا نیا لفظ ہے جو اردو میں اسی معنی میں استعمال نہیں ہوتا، وہ کون سا لفظ ہے اور اس کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0002"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق پوری سورت میں صرف ایک نیا لفظ «الدِّیْنِ» ہے جو اردو میں اس معنی میں استعمال نہیں ہوتا۔ اس کا مطلب جزا و سزا یا بدلے سے متعلق بیان کیا گیا ہے۔ [chunk_id=TQ2005-P01-L001D_chunk_0002]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1861,
+    "elapsed_seconds": 40.83,
+    "generated_at": "2026-09-24T07:19:43.468322+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Gold chunk L001D_chunk_0002 was retrieved and cited directly, matching the correct lecture; the answer accurately identifies 'الدِّیْنِ' as the sole new word and gives the reward/punishment meaning stated in the transcript verbatim. No series-scope distortion for this question."
+  },
+  {
+    "question_id": "Q32",
+    "question": "According to the lecturer, which is the only word in Surah Al-Fatiha that is genuinely new (not used in that sense in everyday Urdu), and what meaning is given for it?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0002"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, the only new word in the entire Surah is «الدِّیْنِ» (Ad-Deen). Although it is used in the sense of religion (like *deen-e-Islam*), the specific meaning presented here—that of reward and punishment, or retribution—is a new meaning that is not typically used for this word in Urdu.\n\n[chunk_id=TQ2005-P01-L001D_chunk_0002]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2140,
+    "elapsed_seconds": 38.1,
+    "generated_at": "2026-09-24T07:20:21.574789+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English-phrased twin of Q31; gold chunk L001D_chunk_0002 was retrieved and cited, and the answer correctly describes 'الدِّیْنِ' as the only new word with the reward/punishment meaning given in the transcript. No scope-related issues."
+  },
+  {
+    "question_id": "Q65",
+    "question": "لیکچرر کے مطابق شیخ ابن باز کے فتوے میں حالتِ حیض میں قرآن پاک کو ہاتھ لگا کر سبق یاد کرنے کے بارے میں کیا کہا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0021",
+      "TQ2005-P01-L001D_chunk_0024"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 2,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0020",
+        "TQ2005-P01-L001D_chunk_0021"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "شیخ ابن باز کے فتوے کے مطابق، بغیر مصحف کو چھوئے قرآن پڑھنا جائز ہے کیونکہ اس کی عدمِ جواز یعنی جائز نہ ہونے کی کوئی دلیل ثابت نہیں ہے۔ (TQ2005-P01-L001D_chunk_0021)\n\nاس کے علاوہ، دونوں قسم کی عورتیں کسی پاک کپڑے یا میڈیکل گلوز کا استعمال کر کے قرآن کو پکڑ سکتی ہیں، جس سے صفحہ پلٹنا اور سبق یاد کرنا وغیرہ آسان ہو جاتا ہے۔ (TQ2005-P01-L001D_chunk_0021)\n\nیہ بات اس سوال کے جواب میں کہ کیا پیریڈز کے دنوں میں کالج کی طالبات کے لیے قرآنِ کریم کا ایک پارہ حفظ کرنا جائز ہے، اٹھائی گئی تھی۔ (TQ2005-P01-L001D_chunk_0020)",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2575,
+    "elapsed_seconds": 18.96,
+    "generated_at": "2026-09-23T19:55:57.196997+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0021: 'بغیر مصحف چھوئے قرآن پڑھنا جائز ہے، اس لیے کہ عدمِ جواز... کوئی دلیل ثابت نہیں... دونوں قسم کی عورتیں کسی پاک کپڑے یا... میڈیکل گلوز... کے ذریعے قرآن کو پکڑ سکتی ہیں' and chunk_0020 (641.34s-669.08s, the college-exam context that raised the question). Model's three claims -- (1) permissible without touching mushaf directly since no evidence forbids it, (2) can hold with clean cloth/medical gloves, (3) this was raised re: college students needing to memorize a para during exam periods -- all match the cited chunks; no unsupported claims added. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q66",
+    "question": "According to the lecturer, what does Sheikh Ibn Baz's fatwa say about a woman memorizing the Quran during her menstrual period without directly touching the mus-haf?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0021",
+      "TQ2005-P01-L001D_chunk_0024"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0019",
+        "TQ2005-P01-L001D_chunk_0021",
+        "TQ2005-P01-L001D_chunk_0024"
+      ],
+      "citation_precision": 0.6666666666666666,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, Sheikh Ibn Baz's fatwa addresses whether it is permissible for a woman to memorize lessons from the Quran during her menstrual period (پیریڈز کی حالت میں) [TQ2005-P01-L001D_chunk_0019].\n\nThe excerpts state that:\n*   Reading the Quran without touching the Mus-haf is permissible, as there is no established evidence of impermissibility [TQ2005-P01-L001D_chunk_0021].\n*   Regarding menstruation and postnatal bleeding (حائضہ اور نفاس), the hadith stating that a woman should not read the Quran during these times is considered a weak narration from Ibn Umar, and there is no authentic hadith prohibiting a woman from learning, reading, or teaching the Quran during those days [TQ2005-P01-L001D_chunk_0024].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 3850,
+    "elapsed_seconds": 25.67,
+    "generated_at": "2026-09-23T19:56:22.865749+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0019 (603.4s-640.32s: 'کیا آپ کے لیے جائز ہے پیریڈز کی حالت میں قرآن کو اٹھا کر سبق یاد کرنا یا نہیں؟'), chunk_0021 (permissible without touching mushaf, no evidence of impermissibility), and chunk_0024 ('وہ ابن عمر کی روایت ہے، ضعیف حدیث ہے... کوئی صحیح حدیث ایسی نہیں کہ جس میں عورت کو قرآن کی تعلیم حاصل کرنے سے ان دنوں میں روکا گیا ہو'). All three of the model's claims -- fatwa topic, permissibility without touching mus-haf, and the Ibn Umar hadith being weak/no authentic prohibition -- are accurately grounded in the respective cited chunks. This is the most complete of the three models' Q66 answers. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q33",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ کے دیگر کون کون سے نام بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق سورۃ الفاتحہ کے دیگر نام یہ ہیں: ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، اور الکنز۔\n\n(Source: [chunk_id=TQ2005-P01-L001E_chunk_0005])",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1532,
+    "elapsed_seconds": 36.3,
+    "generated_at": "2026-09-24T07:20:57.872920+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Gold chunk L001E_chunk_0005 was retrieved and cited; the five alternate names listed (ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، الکنز) match the chunk text exactly. Other retrieved chunks (from L001F, L001B) were not needed and did not affect the answer; no scope-related errors."
+  },
+  {
+    "question_id": "Q34",
+    "question": "According to the lecturer, what are the other names given for Surah Al-Fatiha?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0005",
+        "TQ2005-P01-L001F_chunk_0004"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, other names given for Surah Al-Fatiha include:\n\n*   ام الکتاب (Umm al-Kitab)\n*   ام القرآن (Umm al-Quran)\n*   سورۃ الحمد (Surah Al-Hamd)\n*   الشفاء (Ash-Shifa)\n*   الکنز (Al-Kanz) [TQ2005-P01-L001E_chunk_0005]\n\nAdditionally, the lecturer mentions that it is also called الرقیہ (Ar-Ruqyah) [TQ2005-P01-L001F_chunk_0004].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1843,
+    "elapsed_seconds": 37.36,
+    "generated_at": "2026-09-24T07:21:35.232067+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English-phrased twin of Q33, but here series-scope pooling retrieved an additional chunk from a different lecture (L001F_chunk_0004) alongside the gold chunk (L001E_chunk_0005). The model correctly used both to list the five names from chunk_0005 plus 'الرقیہ' (Ar-Ruqyah), which only appears in the L001F chunk — a case where cross-lecture pooling produced a more complete, still fully grounded answer."
+  },
+  {
+    "question_id": "Q67",
+    "question": "لیکچرر کے مطابق لفظ 'رب' کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0009",
+      "TQ2005-P01-L001E_chunk_0010",
+      "TQ2005-P01-L001E_chunk_0012"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.3333333333333333
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق، 'رب' کا مطلب ہے کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا۔ وہ وضاحت کرتا ہے کہ اگر ہم صرف \"پالنے والا\" کہیں تو یہ ایک محدود معنی دیتا ہے۔ (TQ2005-P01-L001E_chunk_0009)",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1907,
+    "elapsed_seconds": 31.21,
+    "generated_at": "2026-09-24T07:22:06.439407+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Gold chunk L001E_chunk_0009 was retrieved and cited; the paraphrase of 'رب' (gradually bringing something from a particle to perfection; 'پالنے والا' being a limited translation) matches the transcript closely. Other retrieved chunks from L001C/L001D/L001F (different lecture recordings covering the same verse) were not needed and introduce no factual conflict."
+  },
+  {
+    "question_id": "Q68",
+    "question": "According to the lecturer, what meaning is given for the word 'Rabb' in this word-analysis session?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0009",
+      "TQ2005-P01-L001E_chunk_0010",
+      "TQ2005-P01-L001E_chunk_0012"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 4,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 2,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.3333333333333333
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, 'Rab' means someone who gradually brings something from a particle (ذرے) to perfection (کمال تک پہنچانے والا). The lecture notes that calling it merely \"پالنے والا\" (nurturing/raising) is limited in meaning; therefore, it can be understood as the one who causes growth or development (پرورش کرنے والا) [TQ2005-P01-L001E_chunk_0009].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1482,
+    "elapsed_seconds": 29.33,
+    "generated_at": "2026-09-24T07:22:35.765991+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English-phrased twin of Q67; gold chunk L001E_chunk_0009 was retrieved and cited, and the answer's explanation of 'Rab' matches the transcript. No scope-related issues affected correctness."
+  },
+  {
+    "question_id": "Q35",
+    "question": "لیکچر میں بیان کردہ روایت کے مطابق حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو کن دو نوروں کی خوشخبری دی، جو اس سے پہلے کسی نبی کو نہیں دیے گئے تھے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچر میں بیان کردہ روایت کے مطابق، حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو دو نوروں کی خوشخبری دی:\n1. ایک سورۃ الفاتحہ۔\n2. دوسرا سورۃ البقرہ کی آخری دو آیات۔\n\n(Source: [chunk_id=TQ2005-P01-L001F_chunk_0001])",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1981,
+    "elapsed_seconds": 38.03,
+    "generated_at": "2026-09-24T07:23:13.794040+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Gold chunk L001F_chunk_0001 was retrieved and cited; the answer's identification of the two lights (Surah Al-Fatiha and the closing two verses of Surah Al-Baqarah) matches the narration verbatim. No scope-related issues."
+  },
+  {
+    "question_id": "Q36",
+    "question": "According to the narration cited in the lecture, which two lights did Jibreel (peace be upon him) announce to the Prophet (peace be upon him) as having never been given to any prophet before him?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the narration, the two lights given to the Prophet that had never been given to any prophet before him were Surah Al-Fatiha and the last two verses of Surah Al-Baqarah (TQ2005-P01-L001F_chunk_0001).",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1915,
+    "elapsed_seconds": 33.3,
+    "generated_at": "2026-09-24T07:23:47.095618+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English-phrased twin of Q35; gold chunk L001F_chunk_0001 was retrieved and cited, and the two lights are correctly named. No scope-related issues."
+  },
+  {
+    "question_id": "Q69",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے قرآن کی کونسی سورت ہے، اور اس میں کیا خاص بات بیان کی گئی ہے کہ یہ کیسے نازل ہوئی؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق، سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے پانچویں نمبر پر آتی ہے (chunk_id=TQ2005-P01-L001F_chunk_0005)۔\n\nاس بارے میں خاص بات یہ بیان کی گئی ہے کہ یہ پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری تھی، جبکہ باقی سورتیں کے کچھ حصے مختلف وقتوں پر نازل ہوئے اور بعد میں اکٹھے کیے گئے۔ اس نے نبوت کے ابتدائی دور میں نازل ہوئی (chunk_id=TQ2005-P01-L001F_chunk_0005)۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2556,
+    "elapsed_seconds": 43.96,
+    "generated_at": "2026-09-24T07:24:31.052961+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Gold chunk L001F_chunk_0005 was retrieved and cited; the answer correctly states Al-Fatiha is 5th in revelation order and was the first surah revealed complete in one piece, matching the transcript. A corroborating chunk pulled from a different lecture (L001B_chunk_0025) agrees (also states 5th), reinforcing rather than contradicting the answer."
+  },
+  {
+    "question_id": "Q70",
+    "question": "According to the lecturer, which surah in order of revelation is Al-Fatiha, and what is noted as special about the way it was revealed?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, Surah Al-Fatiha is fifth in order of revelation (ترتیبِ نزولی کے اعتبار سے پانچویں نمبر پر آتی ہے) [TQ2005-P01-L001F_chunk_0005]. What is noted as special about its revelation is that it was the first surah to come down completely in one sitting (پوری کی پوری ایک ہی بار اتری) [TQ2005-P01-L001F_chunk_0005].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1742,
+    "elapsed_seconds": 35.3,
+    "generated_at": "2026-09-24T07:25:06.354974+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English-phrased twin of Q69; gold chunk L001F_chunk_0005 was retrieved and cited, and the answer correctly reports the 5th revelation-order position and the single-piece revelation detail. No scope-related issues."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "question_id": "Q27",
+    "question": "لیکچرر کے مطابق قرآن مجید کے کتنے فیصد الفاظ عام اردو بولنے والے پہلے سے اپنی روزمرہ زبان میں استعمال کرتے ہیں، اور کتنے فیصد الفاظ ایسے ہیں جن پر غور و فکر کی ضرورت ہوتی ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0048",
+      "TQ2005-P01-L001B_chunk_0049",
+      "TQ2005-P01-L001B_chunk_0050"
+    ],
+    "note": "Fact verified directly against this lecture's V3 transcript (segments citing Professor Abdul Jabbar Shakir's 65%/20%/15% breakdown of Quranic vocabulary familiarity for Urdu speakers). gold_chunk_ids backfilled 2026-09-24 after RQ5 grading: all 3 models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) gave correct_grounded answers citing chunk_0048 (\"...65% الفاظ ہم اپنی روزمرہ اردو زبان میں استعمال کرتے ہیں...\") for the 65% figure and chunk_0049/chunk_0050 (\"...صرف پندرہ فیصد یعنی 15%...\" / \"...15%.\") for the 15% figure; text of all three chunks verified against chunks.json."
+  },
+  {
+    "question_id": "Q28",
+    "question": "According to the lecturer, what percentage of the Quran's words does an ordinary Urdu speaker already understand from daily usage, and what percentage require real reflection (tadabbur) to understand?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0048",
+      "TQ2005-P01-L001B_chunk_0049",
+      "TQ2005-P01-L001B_chunk_0050"
+    ],
+    "note": "Cross-lingual variant of Q27 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24, same evidence as Q27 (qwen3.5-9b-mlx and gemma-4-e4b-it both correct_grounded citing these chunks; meta-llama-3.1-8b-instruct@q6_k's answer was factually correct but graded partially_correct because it cited no chunk id at all)."
+  },
+  {
+    "question_id": "Q63",
+    "question": "لیکچرر کے مطابق مکہ میں کتنے لوگ لکھنا جانتے تھے، اور ان میں سے کتنے لوگ عموماً رسول اللہ صلی اللہ علیہ وسلم کے حکم کا انتظار کرتے رہتے تھے تاکہ وحی فوراً لکھ سکیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0021"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segment 67: only 17 people in Makkah could write, about 12 of whom were always ready to write down revelation immediately). gold_chunk_ids backfilled 2026-09-24 after RQ5 grading: all 3 models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) gave correct_grounded answers citing chunk_0021 (\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے...\"), text verified against chunks.json."
+  },
+  {
+    "question_id": "Q64",
+    "question": "According to the lecturer, how many people in Makkah knew how to write, and how many of them were usually ready and waiting to write down revelation immediately when called?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0021"
+    ],
+    "note": "Cross-lingual variant of Q63 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24, same evidence as Q63. qwen3.5-9b-mlx also cited chunk_0022 (Abu Bakr carrying writing materials during hijrah) as supporting context, but the core 17/12 figures are stated only in chunk_0021, so only that chunk is included as gold."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q53",
+    "question": "لیکچرر کے مطابق روایت میں پہاڑ کے اپنی جگہ سے ہلنے اور انسان کے اپنی بری عادت چھوڑنے کے بارے میں کیا تقابل بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["HEA-03-1A_chunk_0009"],
+    "note": "Fact verified directly against the transcript (segment 18: if someone says a mountain has moved from its place, believe it; but if someone says a person has abandoned a bad habit, don't believe it). gold_chunk_ids backfilled 2026-09-24 after all three models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) gave correct_grounded answers citing HEA-03-1A_chunk_0009, confirmed against chunks.json to contain the exact comparison."
+  },
+  {
+    "question_id": "Q54",
+    "question": "According to the narration cited by the lecturer, what comparison is made between a mountain moving from its place and a person abandoning a bad habit?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["HEA-03-1A_chunk_0009"],
+    "note": "Cross-lingual variant of Q53 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24; see Q53 note."
+  },
+  {
+    "question_id": "Q75",
+    "question": "لیکچرر کے مطابق بغیر کسی وجہ کے گھر کے اچھے بھلے اونٹ کو ذبح کر دینے کی مثال سے 'ظلم' کے بارے میں کیا سمجھایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["HEA-03-1A_chunk_0012", "HEA-03-1A_chunk_0013"],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 29-32: slaughtering a healthy camel without any reason is zulm/injustice against the camel; the same principle applies to doing anything before its proper time). gold_chunk_ids backfilled 2026-09-24: chunk_0012 defines zulm and the phrase 'ظَلَمَ الْبَعِيرَ' (slaughtering a camel without disease/cause), chunk_0013 gives the camel-in-the-house example plus the 'anything done before its time is zulm' generalization; qwen3.5-9b-mlx and meta-llama-3.1-8b-instruct@q6_k both gave correct_grounded answers citing this exact pair, and gemma-4-e4b-it's correct_grounded answer (citing only 0013) is also consistent since 0013 alone supports the core claim."
+  },
+  {
+    "question_id": "Q76",
+    "question": "According to the lecturer, what does the example of slaughtering a perfectly healthy camel without any reason illustrate about the concept of 'zulm' (injustice)?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["HEA-03-1A_chunk_0012", "HEA-03-1A_chunk_0013"],
+    "note": "Cross-lingual variant of Q75 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24; see Q75 note."
+  }
+]

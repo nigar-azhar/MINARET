@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MINARET Reviewer Panel</title>
+<link rel="icon" href="/minaret-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/" title="MINARET home"><img src="/minaret-mark.svg" alt="" width="22" height="22"> MINARET <span>reviewer panel</span></a>
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="review">Review</button>
+    <button class="tab" data-tab="super">Super review <span id="escalated-count" class="count"></span></button>
+    <button class="tab" data-tab="pipeline">Pipeline</button>
+    <button class="tab" data-tab="ask">Ask</button>
+    <button class="tab" data-tab="settings">Settings</button>
+  </nav>
+  <div id="env" class="env"></div>
+</header>
+
+<main>
+  <!-- REVIEW -------------------------------------------------------------------------------- -->
+  <section id="tab-review" class="tabpanel active">
+    <div class="toolbar">
+      <select id="rec-select" aria-label="Recording"></select>
+      <button id="btn-open">Open</button>
+      <button id="btn-reset" class="ghost" title="Discard this review and start again from V2/E1">Restart review</button>
+      <span class="sep"></span>
+      <span id="replay-controls" class="replay hidden">
+        <button id="btn-replay" title="Reconstruct the reviewer actions that produced this recording's V3/E2">Replay review</button>
+        <button id="btn-step" class="hidden">Step</button>
+        <button id="btn-step10" class="hidden">Step ×10</button>
+        <button id="btn-runall" class="hidden">Run to end</button>
+        <button id="btn-stop" class="ghost hidden">Stop replay</button>
+        <span id="replay-progress" class="muted"></span>
+      </span>
+    </div>
+
+    <div id="empty-review" class="empty">Pick a recording with V2 and E1 and press <b>Open</b>.</div>
+
+    <div id="review" class="hidden">
+      <div class="sticky">
+        <div class="audiobar">
+          <audio id="audio" controls preload="none"></audio>
+          <span id="audio-note" class="muted"></span>
+        </div>
+        <div class="statusbar">
+          <span id="progress"></span>
+          <select id="filter" aria-label="Show">
+            <option value="all">All segments</option>
+            <option value="unreviewed">Unreviewed</option>
+            <option value="entities">With entities</option>
+            <option value="flags">With flags</option>
+          </select>
+          <span id="pager" class="replay"></span>
+          <span id="span-note" class="span-note"></span>
+          <span class="grow"></span>
+          <span id="blockers" class="muted"></span>
+          <button id="btn-finalize" class="primary">Finalize V3 / E2</button>
+          <button id="btn-reopen" class="ghost hidden">Reopen</button>
+        </div>
+        <div id="replay-upcoming" class="upcoming hidden"></div>
+        <div id="finalized" class="notice hidden"></div>
+      </div>
+      <div class="layout">
+        <div><div class="colhead">Transcript (V2 → V3)</div><div id="rows"></div></div>
+        <aside><div class="colhead">Entities (E1 → E2)</div><div id="side" class="side"></div></aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPER REVIEW -------------------------------------------------------------------------- -->
+  <section id="tab-super" class="tabpanel">
+    <p class="lead">Items the first-level reviewer marked <b>Need Review</b>. The super reviewer makes the final
+      decision on wording, reference or usage classification; finalizing is blocked until every item is resolved.</p>
+    <div id="super-list"></div>
+  </section>
+
+  <!-- PIPELINE ------------------------------------------------------------------------------ -->
+  <section id="tab-pipeline" class="tabpanel">
+    <p class="lead">Run the automatic stages one at a time. Outputs go to <code id="runs-dir"></code>; each stage
+      checks what it needs first and says what is missing.</p>
+    <div class="grid2">
+      <form class="card" data-job="transcribe">
+        <h3>1 · Transcribe <small>audio → V0</small></h3>
+        <label>Audio path or URL <input name="audio" required></label>
+        <label>Series <input name="series" required></label>
+        <label>Recording id <input name="recording" required></label>
+        <button>Run</button>
+      </form>
+      <form class="card" data-job="correct">
+        <h3>2 · Correct <small>V0 → V1</small></h3>
+        <label>Recording with a V0 <select name="target" id="correct-target" required></select></label>
+        <button>Run</button>
+      </form>
+      <form class="card" data-job="extract">
+        <h3>3 · Extract + validate <small>V1 → E1, V2</small></h3>
+        <label>Recording with a V1 <select name="target" id="extract-target" required></select></label>
+        <button>Run</button>
+      </form>
+      <div class="card">
+        <h3>4 · Review <small>V2, E1 → V3, E2</small></h3>
+        <p class="muted">Open the recording in the Review tab (source <i>runs</i>) and finalize it.</p>
+      </div>
+      <form class="card" data-job="kg">
+        <h3>5 · Build KG <small>V3, E2 → TTL</small></h3>
+        <label>Series <select name="series" id="kg-series" required></select></label>
+        <p class="muted" id="kg-series-note">Builds the series from its finalized recordings in runs/, using its series config.</p>
+        <button>Run</button>
+      </form>
+      <form class="card" data-job="rag_index">
+        <h3>6 · Build RAG index <small>V3 → chunks</small></h3>
+        <label>Finalized recording <select name="target" id="rag-build-target" required></select></label>
+        <p class="muted">Builds the recording's lecture index and rebuilds its series index.</p>
+        <button>Run</button>
+      </form>
+    </div>
+    <h3>Jobs</h3>
+    <table class="table" id="jobs"><thead><tr><th>Stage</th><th>Recording</th><th>Status</th><th>Started</th><th>Result</th></tr></thead><tbody></tbody></table>
+  </section>
+
+  <!-- ASK ----------------------------------------------------------------------------------- -->
+  <section id="tab-ask" class="tabpanel">
+    <div class="grid2">
+      <div class="card">
+        <h3>RAG</h3>
+        <div class="row">
+          <label>Index <select id="rag-index"></select></label>
+          <label>Scope <select id="rag-scope"><option value="lecture">Lecture</option><option value="series">Series</option></select></label>
+          <label class="grow">Target <select id="rag-target"></select></label>
+        </div>
+        <textarea id="rag-question" rows="2" placeholder="Ask a question about the lecture…" dir="auto"></textarea>
+        <button id="btn-rag">Ask</button>
+        <div id="rag-out"></div>
+      </div>
+      <div class="card">
+        <h3>Knowledge graph</h3>
+        <div class="row">
+          <label>Graph <select id="kg-graph"></select></label>
+          <label class="grow">Competency question <select id="kg-cq"><option value="">— write your own —</option></select></label>
+        </div>
+        <textarea id="kg-query" rows="9" spellcheck="false" placeholder="SELECT … (SELECT and ASK queries)"></textarea>
+        <button id="btn-kg">Run query</button>
+        <div id="kg-out"></div>
+      </div>
+    </div>
+  </section>
+  <!-- SETTINGS ------------------------------------------------------------------------------ -->
+  <section id="tab-settings" class="tabpanel">
+    <p class="lead">Configure the models and the pipeline for this machine. Changes are saved to
+      <code id="set-local"></code>, which is merged over <code id="set-config"></code> and not committed;
+      API keys go to <code id="set-env"></code> and are never shown again.</p>
+    <div id="settings-form"></div>
+    <div class="savebar">
+      <button id="btn-set-save" class="primary">Save settings</button>
+      <button id="btn-set-restore" class="ghost">Restore defaults</button>
+      <span id="set-msg" class="muted"></span>
+    </div>
+  </section>
+</main>
+
+<div id="toast" class="toast hidden" role="status"></div>
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+[
+  {
+    "question_id": "Q35",
+    "question": "لیکچر میں بیان کردہ روایت کے مطابق حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو کن دو نوروں کی خوشخبری دی، جو اس سے پہلے کسی نبی کو نہیں دیے گئے تھے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچر میں بیان کردہ روایت کے مطابق حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو ایک سورۃ الفاتحہ اور دوسرا سورۆ البقرہ کی آخری دو آیات کی خوشخبری دی۔\n\n[chunk_id=TQ2005-P01-L001F_chunk_0001]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 5770,
+    "elapsed_seconds": 152.17,
+    "generated_at": "2026-09-23T17:56:02.016610+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "checked chunk_0001 (start=32.4-66.58s): \"...دو نوروں کی خوشخبری دی...ایک سورۃ الفاتحہ اور دوسرا سورۃ البقرہ کی آخری دو آیات\" (Jibreel announced two lights never given to a prophet before: Surah Al-Fatiha and the last two ayahs of Al-Baqarah). Model's answer states exactly this and cites chunk_0001. Fully supported."
+  },
+  {
+    "question_id": "Q36",
+    "question": "According to the narration cited in the lecture, which two lights did Jibreel (peace be upon him) announce to the Prophet (peace be upon him) as having never been given to any prophet before him?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the narration cited in lecture **TQ2005-P01-L001F_chunk_0001**, the two lights are **Surah Al-Fatiha** and the **last two verses of Surah Al-Baqarah**.\n\nThe excerpt states: \"ایک سورۃ الفاتحہ اور دوسرا سورۂ البقرہ کی آخری دو آیات\" (One Surah Al-Fatiha and the second [Surah] Al-Baqarah's last two verses).",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 5201,
+    "elapsed_seconds": 133.75,
+    "generated_at": "2026-09-23T17:58:15.762201+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "same evidence as Q35 (English-language variant). chunk_0001 text confirms the two lights are Al-Fatiha and the last two ayahs of Al-Baqarah, never given to any prophet before. Model cites chunk_0001 and states this correctly, with a direct quote of the source. Supported."
+  },
+  {
+    "question_id": "Q69",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے قرآن کی کونسی سورت ہے، اور اس میں کیا خاص بات بیان کی گئی ہے کہ یہ کیسے نازل ہوئی؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے **پانچویں نمبر** پر آتی ہے۔ اس میں یہ خاص بات بیان کی گئی ہے کہ یہ **پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری** (باقی سورتیں حصہ بہ حصہ اترا کرتے ہیں)۔\n\n[chunk_id=TQ2005-P01-L001F_chunk_0005]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 5034,
+    "elapsed_seconds": 157.12,
+    "generated_at": "2026-09-23T18:00:52.890733+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "checked chunk_0005 (start=190.06-223.6s): \"سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے پانچویں نمبر پر آتی ہے...یہ پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری\" (Al-Fatiha is 5th in order of revelation; unlike other surahs revealed in parts, it was revealed whole at once). Model's answer (5th surah, revealed complete in one go) matches this exactly, citing chunk_0005. Supported."
+  },
+  {
+    "question_id": "Q70",
+    "question": "According to the lecturer, which surah in order of revelation is Al-Fatiha, and what is noted as special about the way it was revealed?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001",
+        "TQ2005-P01-L001F_chunk_0002",
+        "TQ2005-P01-L001F_chunk_0005"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided transcript excerpts, here are the answers to your questions:\n\n1.  **Order of Revelation:** According to the lecturer, Surah Al-Fatiha is the **fifth** surah in order of descending revelation (نمبرِ نزولی).\n    *   *Source:* [chunk_id=TQ2005-P01-L001F_chunk_0005] (\"سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے پانچویں نمبر پر آتی ہے\")\n\n2.  **Special Note on Revelation:** It is noted as special because it was the **first surah to be revealed in its entirety** (پوری کی پوری ایک ہی بار اتری). Unlike other surahs which were revealed in parts over time, Al-Fatiha was revealed all at once (پوری سات آیات اکٹھی اتری ہیں).\n    *   *Source:* [chunk_id=TQ2005-P01-L001F_chunk_0005] (\"یہ پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری... لیکن یہ پوری سات آیات اکٹھی اتری ہیں\")\n\nAdditionally, the lecturer notes that it was revealed during the **beginning of the Prophethood** (نبوت کے ابتدائی دور میں).\n*   *Source:* [chunk_id=TQ2005-P01-L001F_chunk_0005] (\"اور یوں یہ نبوت کے ابتدائی دور میں نازل ہوئی\")\n\nThe lecturer also mentions that it was revealed along with the last two verses of Surah Al-Baqarah as a special gift from Allah to Prophet Muhammad (PBUH).\n*   *Source:* [chunk_id=TQ2005-P01-L001F_chunk_0001] (\"دوسرا سورۃ البقرہ کی آخری دو آیات\") and [chunk_id=TQ2005-P01-L001F_chunk_0002] (\"ہم نے آپ کو سات بار بار دہرائی جانے والی آیات عطا کی ہیں، اور اس سے مراد سورۃ الفاتحہ ہی ہے\")\n\n**Citations:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 110.6,
+    "generated_at": "2026-09-23T18:02:43.493124+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant of Q69. Core claims (5th in revelation order; first surah revealed whole at once, unlike others revealed piecemeal) match chunk_0005 verbatim and are correctly cited. Note: model adds supplementary claims citing chunk_0001 (\"revealed along with the last two verses of Al-Baqarah as a special gift\") and chunk_0002 (the 'sab'an min al-mathani' verse) — these chunks are real and on-topic (chunk_0001 = the Jibreel hadith about the two lights, chunk_0002 = the Quranic verse identifying Al-Fatiha as 'the seven oft-repeated verses') but do not actually state Al-Fatiha's Quranic revelation-order event happened 'along with' the Baqarah verses being given — that specific linking is the model's own inference, not something the transcript asserts. Since the core question (revelation order + what's special about it) is answered correctly and precisely from chunk_0005, this minor unsupported elaboration doesn't change the verdict, but flagging it as an overreach beyond the cited sources."
+  }
+]

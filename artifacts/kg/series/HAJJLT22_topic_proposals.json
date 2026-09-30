@@ -1,0 +1,164 @@
+[
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "HAJJLT22-7038",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Supplication_in_Islam_Ad_Du_a",
+    "name_a": "Supplication in Islam (Ad-Du'a)",
+    "recordingId_b": "HAJJLT22-7040",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_Supplication_Du_a",
+    "name_b": "Supplication (Du'a)",
+    "lexicalSimilarity": 0.76,
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7038",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Virtues_of_Hajj_and_Umrah",
+    "name": "Virtues of Hajj and Umrah",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['hajj', 'umrah']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7038",
+    "topicId": "http://minaret-eval.org/ontology#Topic_God_Consciousness_Taqwa",
+    "name": "God-Consciousness (Taqwa)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:ArticlesOfFaith",
+    "rationale": "keyword heuristic matched on: ['taqwa']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7038",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Obligation_of_Hajj_Fardiyyat_al_Hajj",
+    "name": "Obligation of Hajj (Fardiyyat al-Hajj)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['hajj']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7038",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Hastening_to_Good_Deeds_Al_Mubadarah_ilal_Khayrat",
+    "name": "Hastening to Good Deeds (Al-Mubadarah ilal-Khayrat)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['hajj']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7039",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Historical_Origins_of_Hajj",
+    "name": "Historical Origins of Hajj",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['hajj']",
+    "status": "reject"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7039",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Historical_Origins_of_Hajj",
+    "name": "Historical Origins of Hajj",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:ArticlesOfFaith",
+    "rationale": "keyword heuristic matched on: ['angel']",
+    "status": "reject"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7039",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Excellence_and_Rewards_of_Pilgrimage",
+    "name": "Excellence and Rewards of Pilgrimage",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['hajj']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7040",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Monotheism_and_Sincerity_Tawheed",
+    "name": "Monotheism and Sincerity (Tawheed)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:Tauhid",
+    "rationale": "keyword heuristic matched on: ['tawheed', 'monotheism']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7040",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Calling_to_Good_Da_wah",
+    "name": "Calling to Good (Da'wah)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['hajj']",
+    "status": "reject"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7040",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Supplication_Du_a",
+    "name": "Supplication (Du'a)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['prayer']",
+    "status": "reject"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7040",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Sacrifice_Hady",
+    "name": "Sacrifice (Hady)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['hajj']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7040",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Jurisprudence_of_Pilgrimage_Modalities_Fiqh_al_Hajj",
+    "name": "Jurisprudence of Pilgrimage Modalities (Fiqh al-Hajj)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['hajj']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7041",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Jurisprudence_of_Ihsar_Impediments_to_Pilgrimage",
+    "name": "Jurisprudence of Ihsar (Impediments to Pilgrimage)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['hajj', 'umrah']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7041",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Sacrificial_Animals_and_Fidya_for_Violations_Hady_Kaffarah",
+    "name": "Sacrificial Animals and Fidya for Violations (Hady & Kaffarah)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['fasting', 'ihram']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HAJJLT22-7041",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Pilgrimage_Modalities_and_Fasting_Expiation_Tamattu_Siyam",
+    "name": "Pilgrimage Modalities and Fasting Expiation (Tamattu' & Siyam)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['fasting', 'hajj']",
+    "status": "accepted"
+  }
+]

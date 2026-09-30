@@ -1,0 +1,12 @@
+# CQ6 -- Which topics "skos:closeMatch" a formal hadith:PillarsOfIslam concept?
+# Paper-reported result: 11 topics, e.g. "Prayer and Discipline (Salah)", "Excellence and Rewards of Pilgrimage".
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?nameEn WHERE {
+  ?topic skos:closeMatch hadith:PillarsOfIslam ; minaret:nameEn ?nameEn .
+}

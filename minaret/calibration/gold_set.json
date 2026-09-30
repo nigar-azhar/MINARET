@@ -1,0 +1,3202 @@
+[
+  {
+    "recording_id": "TQ2005-P01-L001A",
+    "type": "ayah",
+    "query_text": "بِسْمِ اللهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    "e1_proposed_key": "CH001_V001",
+    "start": 0.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V001"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001A",
+    "type": "ayah",
+    "query_text": "رَبِّ اشْرَحْ لِي صَدْرِي",
+    "e1_proposed_key": "CH020_V025",
+    "start": 0.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V025"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001A",
+    "type": "ayah",
+    "query_text": "وَيَسِّرْ لِي أَمْرِي",
+    "e1_proposed_key": "CH020_V026",
+    "start": 11.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V026"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001A",
+    "type": "ayah",
+    "query_text": "وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي",
+    "e1_proposed_key": "CH020_V027",
+    "start": 11.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V027"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001A",
+    "type": "ayah",
+    "query_text": "يَفْقَهُوا قَوْلِي",
+    "e1_proposed_key": "CH020_V028",
+    "start": 11.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V028"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001A",
+    "type": "dua",
+    "query_text": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي",
+    "e1_proposed_key": "QuranicDua-08",
+    "start": 0.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-08"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "لَوْ أَنْزَلْنَا هَٰذَا الْقُرْآنَ عَلَىٰ جَبَلٍ لَّرَأَيْتَهُ خَاشِعًا مُّتَصَدِّعًا مِّنْ خَشْيَةِ اللهِ",
+    "e1_proposed_key": "CH059_V021",
+    "start": 11.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH059_V021"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "اگر اس قرآن کو ہم کسی پہاڑ پر اتارتے، پہاڑ پر رکھتے، تو تم دیکھتے کہ وہ دب گیا ہے، دب گیا ہے۔ خَاشِعًا مُّتَصَدِّعًا، پھٹ گیا ہے، ٹکڑے ٹکڑے ہو گیا ہے، مِّنْ خَشْيَةِ اللهِ، اللہ کے خوف سے۔",
+    "e1_proposed_key": "CH059_V021",
+    "start": 23.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH059_V021"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "إِنَّهُ لَقَوْلٌ فَصْلٌ",
+    "e1_proposed_key": "CH086_V013",
+    "start": 38.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH086_V013"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "وَمَا هُوَ بِالْهَزْلِ",
+    "e1_proposed_key": "CH086_V014",
+    "start": 38.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH086_V014"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "وَإِنَّهُ لَتَنزِيلُ رَبِّ الْعَالَمِينَ",
+    "e1_proposed_key": "CH026_V192",
+    "start": 264.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V192"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "نَزَلَ بِهِ الرُّوحُ الْأَمِينُ",
+    "e1_proposed_key": "CH026_V193",
+    "start": 279.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V193"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ الْمُنذِرِينَ",
+    "e1_proposed_key": "CH026_V194",
+    "start": 279.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V194"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "بِلِسَانٍ عَرَبِيٍّ مُّبِينٍ",
+    "e1_proposed_key": "CH026_V195",
+    "start": 279.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V195"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "وَإِنَّهُ لَفِي زُبُرِ الْأَوَّلِينَ",
+    "e1_proposed_key": "CH026_V196",
+    "start": 279.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V196"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "وَإِنَّهُ لَتَنزِيلُ رَبِّ الْعَالَمِينَ",
+    "e1_proposed_key": "CH026_V192",
+    "start": 331.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V192"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "نَزَلَ بِهِ الرُّوحُ الْأَمِينُ",
+    "e1_proposed_key": "CH026_V193",
+    "start": 342.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V193"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ الْمُنذِرِينَ",
+    "e1_proposed_key": "CH026_V194",
+    "start": 342.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V194"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "بِلِسَانٍ عَرَبِيٍّ مُّبِينٍ",
+    "e1_proposed_key": "CH026_V195",
+    "start": 364.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V195"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "وَإِنَّهُ لَفِي زُبُرِ الْأَوَّلِينَ",
+    "e1_proposed_key": "CH026_V196",
+    "start": 364.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V196"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "تَعَالَوْا إِلَىٰ كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ",
+    "e1_proposed_key": "CH003_V064",
+    "start": 503.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V064"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "آؤ ایک بات کی طرف جو ہمارے اور تمہارے درمیان برابر ہے",
+    "e1_proposed_key": "CH003_V064",
+    "start": 503.3,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V064"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001B",
+    "type": "ayah",
+    "query_text": "ہم نے قرآن کو نصیحت کے لیے آسان بنا دیا، تو ہے کوئی جو نصیحت حاصل کرے؟",
+    "e1_proposed_key": "CH054_V017",
+    "start": 1699.8,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH054_V017"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    "e1_proposed_key": "CH001_V001",
+    "start": 0.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V001"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "بِ ساتھ، اسْمِ نام، اللَّهِ اللہ کے، اللہ کے نام کے ساتھ یا اللہ کے نام سے۔ الرَّحْمَٰنِ جو بہت مہربان ہے، الرَّحِيمِ نہایت رحم کرنے والا ہے۔",
+    "e1_proposed_key": "CH001_V001",
+    "start": 9.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V001"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+    "e1_proposed_key": "CH001_V002",
+    "start": 27.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V002"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "الْحَمْدُ سب تعریف، لِلَّهِ اللہ کے لیے ہے، رَبِّ جو رب ہے، الْعَالَمِينَ تمام جہانوں کا",
+    "e1_proposed_key": "CH001_V002",
+    "start": 27.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V002"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "الرَّحْمَٰنِ الرَّحِيمِ",
+    "e1_proposed_key": "CH001_V003",
+    "start": 46.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V003"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "الرَّحْمَٰنِ بہت مہربان ہے، الرَّحِيمِ نہایت رحم کرنے والا ہے۔",
+    "e1_proposed_key": "CH001_V003",
+    "start": 46.0,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V003"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "مَالِكِ يَوْمِ الدِّينِ",
+    "e1_proposed_key": "CH001_V004",
+    "start": 46.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V004"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "مَالِكِ مالک ہے، يَوْمِ دن کا، الدِّينِ بدلے کے، یعنی قیامت کے۔",
+    "e1_proposed_key": "CH001_V004",
+    "start": 46.0,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V004"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+    "e1_proposed_key": "CH001_V005",
+    "start": 55.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V005"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "إِيَّاكَ صرف تیری ہی، نَعْبُدُ ہم عبادت کرتے ہیں، وَ اور، إِيَّاكَ صرف تیری ہی، نَسْتَعِينُ ہم مدد چاہتے ہیں۔",
+    "e1_proposed_key": "CH001_V005",
+    "start": 55.6,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V005"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+    "e1_proposed_key": "CH001_V006",
+    "start": 64.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V006"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "اهْدِنَا ہدایت دے ہمیں، الصِّرَاطَ راستے، الْمُسْتَقِيمَ سیدھے کی",
+    "e1_proposed_key": "CH001_V006",
+    "start": 64.9,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V006"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+    "e1_proposed_key": "CH001_V007",
+    "start": 74.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V007"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "ayah",
+    "query_text": "صِرَاطَ راستہ، الَّذِينَ ان کا، أَنْعَمْتَ انعام کیا تو نے، عَلَيْهِمْ جن پر، غَيْرِ نہ، الْمَغْضُوبِ ان کا جو غضب کیا گیا، عَلَيْهِمْ جن پر، وَ اور، لَا نہ، الضَّالِّينَ ان کا جو گمراہ ہیں۔",
+    "e1_proposed_key": "CH001_V007",
+    "start": 74.3,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V007"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001C",
+    "type": "dua",
+    "query_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+    "e1_proposed_key": "QuranicDua-62",
+    "start": 64.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-62"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+    "e1_proposed_key": "CH001_V002",
+    "start": 4.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V002"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "سب تعریف اللہ کے لیے ہے، جو رب ہے تمام جہانوں کا، یا جو تمام جہانوں کا رب ہے۔",
+    "e1_proposed_key": "CH001_V002",
+    "start": 4.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V002"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "الرَّحْمَٰنِ الرَّحِيمِ",
+    "e1_proposed_key": "CH001_V003",
+    "start": 17.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V003"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "نہایت مہربان، بار بار رحم کرنے والا۔",
+    "e1_proposed_key": "CH001_V003",
+    "start": 17.4,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V003"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "مَالِكِ يَوْمِ الدِّينِ",
+    "e1_proposed_key": "CH001_V004",
+    "start": 17.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V004"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "روزِ جزا کا مالک ہے۔",
+    "e1_proposed_key": "CH001_V004",
+    "start": 17.4,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V004"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+    "e1_proposed_key": "CH001_V005",
+    "start": 28.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V005"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "صرف تیری ہم عبادت کرتے ہیں، اور صرف تجھ ہی سے ہم مدد چاہتے ہیں۔",
+    "e1_proposed_key": "CH001_V005",
+    "start": 28.7,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V005"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+    "e1_proposed_key": "CH001_V006",
+    "start": 28.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V006"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "ہمیں سیدھا راستہ دکھا۔",
+    "e1_proposed_key": "CH001_V006",
+    "start": 28.7,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V006"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+    "e1_proposed_key": "CH001_V007",
+    "start": 43.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V007"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "ayah",
+    "query_text": "ان لوگوں کا راستہ جن پر تُو نے انعام کیا، نہ ان کا جن پر غضب کیا گیا، اور نہ وہ گمراہ ہوئے۔",
+    "e1_proposed_key": "CH001_V007",
+    "start": 43.8,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V007"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001D",
+    "type": "dua",
+    "query_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+    "e1_proposed_key": "QuranicDua-62",
+    "start": 28.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-62"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "ayah",
+    "query_text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    "e1_proposed_key": "CH001_V001",
+    "start": 22.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V001"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "ayah",
+    "query_text": "الْحَمْدُ لِلَّهِ",
+    "e1_proposed_key": "CH001_V002",
+    "start": 309.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V002"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "ayah",
+    "query_text": "رَّبِّ زِدْنِي عِلْمًا",
+    "e1_proposed_key": "CH020_V114",
+    "start": 434.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V114"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "ayah",
+    "query_text": "وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ",
+    "e1_proposed_key": "CH051_V056",
+    "start": 782.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH051_V056"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "ayah",
+    "query_text": "اللہ نے ہمیں اپنی عبادت کے لیے پیدا کیا اور ہم بندوں کے اونلی یورز ہو گئے۔",
+    "e1_proposed_key": "CH051_V056",
+    "start": 782.8,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH051_V056"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "ayah",
+    "query_text": "إِيَّاكَ نَعْبُدُ",
+    "e1_proposed_key": "CH001_V005",
+    "start": 836.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V005"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "ayah",
+    "query_text": "صرف تیری ہم عبادت کرتے ہیں",
+    "e1_proposed_key": "CH001_V005",
+    "start": 836.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V005"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "ayah",
+    "query_text": "وَإِيَّاكَ نَسْتَعِينُ",
+    "e1_proposed_key": "CH001_V005",
+    "start": 847.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V005"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "ayah",
+    "query_text": "اور صرف تجھ سے ہم مدد چاہتے ہیں",
+    "e1_proposed_key": "CH001_V005",
+    "start": 847.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V005"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "ayah",
+    "query_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+    "e1_proposed_key": "CH001_V006",
+    "start": 968.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V006"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "dua",
+    "query_text": "رَّبِّ زِدْنِي عِلْمًا",
+    "e1_proposed_key": "QuranicDua-61",
+    "start": 434.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-61"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001E",
+    "type": "dua",
+    "query_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+    "e1_proposed_key": "QuranicDua-62",
+    "start": 968.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-62"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    "e1_proposed_key": "CH001_V001",
+    "start": 0.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V001"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "ہم نے آپ کو سات بار بار دہرائی جانے والی آیات عطا کی ہیں اور اس سے مراد سورۃ الفاتحہ ہی ہے",
+    "e1_proposed_key": "CH015_V087",
+    "start": 108.8,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH015_V087"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+    "e1_proposed_key": "CH001_V002",
+    "start": 127.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V002"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "فَإِذَا قَرَأْتَ الْقُرْآنَ فَاسْتَعِذْ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+    "e1_proposed_key": "CH016_V098",
+    "start": 224.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH016_V098"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "جب تم قرآن کی تلاوت کرو تو شیطان مردود سے اللہ کی پناہ مانگو",
+    "e1_proposed_key": "CH016_V098",
+    "start": 232.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH016_V098"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "جو میرے بندے بن جائیں گے بے شک میرے بندے ان پر تیرا کوئی زور نہیں چلے گا",
+    "e1_proposed_key": "CH015_V042",
+    "start": 292.0,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH015_V042"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+    "e1_proposed_key": "CH001_V002",
+    "start": 581.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V002"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "سب تعریف اللہ کے لیے ہے جو رب ہے تمام جہانوں کا",
+    "e1_proposed_key": "CH001_V002",
+    "start": 581.9,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V002"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "الرَّحْمَٰنِ الرَّحِيمِ",
+    "e1_proposed_key": "CH001_V003",
+    "start": 842.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V003"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "مَالِكِ يَوْمِ الدِّينِ",
+    "e1_proposed_key": "CH001_V004",
+    "start": 898.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V004"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "يَوْمَ هُم بَارِزُونَ لَا يَخْفَىٰ عَلَى اللَّهِ مِنْهُمْ شَيْءٌ لِّمَنِ الْمُلْكُ الْيَوْمَ لِلَّهِ الْوَاحِدِ الْقَهَّارِ",
+    "e1_proposed_key": "CH040_V016",
+    "start": 929.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH040_V016"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+    "e1_proposed_key": "CH001_V005",
+    "start": 1031.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V005"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+    "e1_proposed_key": "CH001_V006",
+    "start": 1099.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V006"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+    "e1_proposed_key": "CH002_V002",
+    "start": 1493.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V002"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+    "e1_proposed_key": "CH001_V007",
+    "start": 1514.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V007"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "فَاطِرَ السَّمَاوَاتِ وَالْأَرْضِ أَنتَ وَلِيِّي فِي الدُّنْيَا وَالْآخِرَةِ تَوَفَّنِي مُسْلِمًا وَأَلْحِقْنِي بِالصَّالِحِينَ",
+    "e1_proposed_key": "CH012_V101",
+    "start": 1587.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH012_V101"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "أَدْخِلْنِي بِرَحْمَتِكَ فِي عِبَادِكَ الصَّالِحِينَ",
+    "e1_proposed_key": "CH027_V019",
+    "start": 1574.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH027_V019"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "فَأُولَٰئِكَ مَعَ الَّذِينَ أَنْعَمَ اللَّهُ عَلَيْهِم مِّنَ النَّبِيِّينَ وَالصِّدِّيقِينَ وَالشُّهَدَاءِ وَالصَّالِحِينَ",
+    "e1_proposed_key": "CH004_V069",
+    "start": 1646.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH004_V069"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ",
+    "e1_proposed_key": "CH001_V007",
+    "start": 1653.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V007"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "وَلَا الضَّالِّينَ",
+    "e1_proposed_key": "CH001_V007",
+    "start": 1964.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V007"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "ayah",
+    "query_text": "أَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي",
+    "e1_proposed_key": "CH005_V003",
+    "start": 2042.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH005_V003"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "dua",
+    "query_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+    "e1_proposed_key": "QuranicDua-62",
+    "start": 1099.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-62"
+  },
+  {
+    "recording_id": "TQ2005-P01-L001F",
+    "type": "dua",
+    "query_text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ٭ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ٭ الرَّحْمَٰنِ الرَّحِيمِ ٭ مَالِكِ يَوْمِ الدِّينِ ٭ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ٭ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ٭ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+    "e1_proposed_key": "Healing-04",
+    "start": 2215.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "Healing-04"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "ayah",
+    "query_text": "وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ",
+    "e1_proposed_key": "CH002_V196",
+    "start": 478.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V196"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "ayah",
+    "query_text": "And complete the Hajj and 'Umrah for Allah.",
+    "e1_proposed_key": "CH002_V196",
+    "start": 482.0,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V196"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "ayah",
+    "query_text": "Hajj is during well-known months",
+    "e1_proposed_key": "CH002_V197",
+    "start": 1588.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V197"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "ayah",
+    "query_text": "and whoever fears Allah whoever has taqwa of Allah will make his matters easy and Allah will also make ways out for such a person who has taqwa",
+    "e1_proposed_key": "CH065_V004",
+    "start": 1754.0,
+    "usage": "explicit paraphrase",
+    "gold_label": "reject",
+    "gold_key": null
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "ayah",
+    "query_text": "رَبِّ أَنْزِلْنِي مُنْزَلًا مُبَارَكًا وَأَنْتَ خَيْرُ الْمُنْزِلِينَ",
+    "e1_proposed_key": "CH023_V029",
+    "start": 1806.7,
+    "usage": "quotation",
+    "gold_label": "reject",
+    "gold_key": null
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "ayah",
+    "query_text": "My Lord, let me land at a blessed landing place, and You are the best to accommodate us.",
+    "e1_proposed_key": "CH023_V029",
+    "start": 1809.6,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH023_V029"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "ayah",
+    "query_text": "Complete your Hajj and Umrah for Allah",
+    "e1_proposed_key": "CH002_V196",
+    "start": 2751.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V196"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "ayah",
+    "query_text": "For whoever is able to find thereto a way. But whoever disbelieves, then indeed Allah is free from need of the worlds.",
+    "e1_proposed_key": "CH003_V097",
+    "start": 2933.0,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V097"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "dua",
+    "query_text": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ.",
+    "e1_proposed_key": "ZRHU-03-IhramTalbiyah-05",
+    "start": 0.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "ZRHU-03-IhramTalbiyah-05"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "dua",
+    "query_text": "اللَّهُمَّ ابْسُطْ عَلَيْنَا مِنْ بَرَكَاتِكَ وَرَحْمَتِكَ وَفَضْلِكَ وَرِزْقِكَ.",
+    "e1_proposed_key": "MasnoonDua-119",
+    "start": 312.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-119"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "dua",
+    "query_text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ لَذَّةَ النَّظَرِ إِلَى وَجْهِكَ، وَالشَّوْقَ إِلَى لِقَائِكَ، فِي غَيْرِ ضَرَّاءَ مُضِرَّةٍ، وَلَا فِتْنَةٍ مُضِلَّةٍ.",
+    "e1_proposed_key": "MasnoonDua-57",
+    "start": 871.0,
+    "usage": "quotation",
+    "gold_label": "reject",
+    "gold_key": null
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "dua",
+    "query_text": "اللَّهُمَّ اغْفِرْ لِي مَا قَدَّمْتُ وَمَا أَخَّرْتُ وَمَا أَسْرَرْتُ وَمَا أَعْلَنْتُ وَمَا أَسْرَفْتُ وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي أَنْتَ الْمُقَدِّمُ وَأَنْتَ الْمُؤَخِّرُ، لَا إِلٰهَ إِلَّا أَنْتَ",
+    "e1_proposed_key": "MasnoonDua-44",
+    "start": 1483.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-44"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L01",
+    "type": "dua",
+    "query_text": "رَبِّ أَنْزِلْنِي مُنْزَلًا مُبَارَكًا وَأَنْتَ خَيْرُ الْمُنْزِلِينَ",
+    "e1_proposed_key": "QuranicDua-16",
+    "start": 1806.7,
+    "usage": "quotation",
+    "gold_label": "reject",
+    "gold_key": null
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L02",
+    "type": "ayah",
+    "query_text": "رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيُّ الْعِلِيمِ",
+    "e1_proposed_key": "CH002_V127",
+    "start": 570.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V127"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L02",
+    "type": "ayah",
+    "query_text": "Have We not established for them a safe sanctuary to which are brought the fruits of all things as provision from Us?",
+    "e1_proposed_key": "CH028_V057",
+    "start": 1274.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH028_V057"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L02",
+    "type": "ayah",
+    "query_text": "وَاتَّخِزُوا مِمْ مَقَامِ إِبْرَاهِيمًا مُصَلَّ",
+    "e1_proposed_key": "CH002_V125",
+    "start": 1703.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V125"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L02",
+    "type": "ayah",
+    "query_text": "رَبِّ جُعَلْ هَا وَالْبَلَدَ آمِنًا",
+    "e1_proposed_key": "CH002_V126",
+    "start": 1744.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V126"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L02",
+    "type": "ayah",
+    "query_text": "وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ",
+    "e1_proposed_key": "CH003_V097",
+    "start": 2018.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V097"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L02",
+    "type": "dua",
+    "query_text": "رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيُّ الْعِلِيمِ",
+    "e1_proposed_key": "QuranicDua-11",
+    "start": 570.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-11"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L02",
+    "type": "dua",
+    "query_text": "رَبَّنَا وَجَعَلْنَا مُسْلِمَيْنِ لَكَ",
+    "e1_proposed_key": "QuranicDua-12",
+    "start": 580.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-12"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L02",
+    "type": "dua",
+    "query_text": "رَبِّ اجْعَلْ هَذَا بَلَدًا آمِنًا",
+    "e1_proposed_key": "QuranicDua-13",
+    "start": 1744.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-13"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "رَبِّ زِدْنِي عِلْمًا",
+    "e1_proposed_key": "CH020_V114",
+    "start": 21.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V114"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "And mention when We designated for Ibrahim the site of the House: 'Do not associate anything with Me and purify My House for those who perform tawaf and those who stand in prayer and those who bow and those who prostrate.'",
+    "e1_proposed_key": "CH022_V026",
+    "start": 183.7,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH022_V026"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "And proclaim to the people the Hajj; they will come to you on foot and on every lean camel, they will come from every distant pass",
+    "e1_proposed_key": "CH022_V027",
+    "start": 200.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH022_V027"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "that they may witness benefits for themselves and mention the name of Allah on known days over what He has provided for them of sacrificial animals. So eat of them and feed the miserable and poor.",
+    "e1_proposed_key": "CH022_V028",
+    "start": 207.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH022_V028"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "Then let them end their untidiness and fulfill their vows and perform tawaf around the Ancient House.",
+    "e1_proposed_key": "CH022_V029",
+    "start": 219.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH022_V029"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "That has been commanded, and whoever honors the sacred ordinances of Allah, it is best for him in the sight of his Lord. And permitted to you are the grazing livestock except what is recited to you. So avoid the uncleanniness of idols and avoid false statement.",
+    "e1_proposed_key": "CH022_V030",
+    "start": 229.8,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH022_V030"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "وَطَهِّرَا بَيْتِيَ لِلطَّائِفِينَ وَالْعَاكِفِينَ وَالرُّكَّعِ السُّجُودِ",
+    "e1_proposed_key": "CH002_V125",
+    "start": 916.7,
+    "usage": "quotation",
+    "gold_label": "reject",
+    "gold_key": null
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "فَاجْعَلْ أَفْئِدَةً مِنَ النَّاسِ تَهْوِي إِلَيْهِمْ",
+    "e1_proposed_key": "CH014_V037",
+    "start": 1131.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH014_V037"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "ذَلِكَ وَمَنْ يُعَظِّمْ شَعَائِرَ اللَّهِ فَإِنَّهَا مِنْ تَقْوَى الْقُلُوبِ",
+    "e1_proposed_key": "CH022_V032",
+    "start": 2363.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH022_V032"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "فَاذْكُرُوا اللَّهَ",
+    "e1_proposed_key": "CH002_V200",
+    "start": 2851.8,
+    "usage": "quotation",
+    "gold_label": "reject",
+    "gold_key": null
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "وَاذْكُرُوا اللَّهَ فِي أَيَّامٍ مَعْدُودَاتٍ",
+    "e1_proposed_key": "CH002_V203",
+    "start": 2860.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V203"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "ayah",
+    "query_text": "اَلْحَجُّ أَشْهُرٌ مَعْلُومَاتٌ",
+    "e1_proposed_key": "CH002_V197",
+    "start": 3037.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V197"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "dua",
+    "query_text": "رَبِّ زِدْنِي عِلْمًا",
+    "e1_proposed_key": "QuranicDua-09",
+    "start": 21.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-09"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "dua",
+    "query_text": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+    "e1_proposed_key": "ZRHU-03-IhramTalbiyah-05",
+    "start": 2840.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "ZRHU-03-IhramTalbiyah-05"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "dua",
+    "query_text": "اللَّهُمَّ مَحِلِّي حَيْثُ حَبَسْتَنِي",
+    "e1_proposed_key": "ZRHU-03-IhramTalbiyah-02",
+    "start": 3262.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "ZRHU-03-IhramTalbiyah-02"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L03",
+    "type": "dua",
+    "query_text": "سُبْحَانَكَ اللّٰهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ",
+    "e1_proposed_key": "MasnoonDua-159",
+    "start": 3480.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-159"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "ayah",
+    "query_text": "رَبَّنَا زِدْنَا عِلْمًا",
+    "e1_proposed_key": "CH020_V114",
+    "start": 10.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V114"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "ayah",
+    "query_text": "And complete the Hajj and Umrah for Allah. But if you are prevented, then offer what can be obtained with ease of sacrificial animals. And do not shave your heads until the sacrificial animal has reached its place of slaughter. And whoever among you is ill or has an ailment of the head, making shaving necessary, must offer a ransom of fasting three days, or charity, or sacrifice. And when you are secure, then whoever performs Umrah during the Hajj months, followed by Hajj offers what can be obtained with ease of sacrificial animals. And whoever cannot find or afford such an animal, then a fast of three days during Hajj and of seven when you have returned home. Those are ten complete days. This is for those whose family is not in the area of Al-Masjid Al-Haram. And fear Allah and know that Allah is severe in penalty.",
+    "e1_proposed_key": "CH002_V196",
+    "start": 171.4,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V196"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "ayah",
+    "query_text": "Hajj is during well-known months. So whoever has made Hajj obligatory upon himself therein, by entering the state of Ihram, there is to be from him no sexual relations and no disobedience and no disputing during Hajj. And whatever good you do, Allah knows it. And take provisions. But indeed, the best provision is fear of Allah. And fear me, O you of understanding.",
+    "e1_proposed_key": "CH002_V197",
+    "start": 235.4,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V197"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "ayah",
+    "query_text": "وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ",
+    "e1_proposed_key": "CH002_V196",
+    "start": 524.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V196"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "ayah",
+    "query_text": "وَلَا تَحْلِقُوا رُءُوسَكُمْ",
+    "e1_proposed_key": "CH002_V196",
+    "start": 1403.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V196"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "ayah",
+    "query_text": "فَمَنْ لَمْ يَجِدْ فَصِيَامُ ثَلَاثَةِ أَيَّامٍ فِي الْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ تِلْكَ عَشَرَةٌ كَامِلَةٌ",
+    "e1_proposed_key": "CH002_V196",
+    "start": 2269.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V196"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "ayah",
+    "query_text": "وَاتَّقُوا اللَّهَ وَاعْلَمُوا أَنَّ اللَّهَ شَدِيدُ الْعِقَابِ",
+    "e1_proposed_key": "CH002_V196",
+    "start": 2578.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V196"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "ayah",
+    "query_text": "الْحَجُّ أَشْهُرٌ مَعْلُومَاتٌ فَمَنْ فَرَضَ فِيهِنَّ الْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي الْحَجِّ",
+    "e1_proposed_key": "CH002_V197",
+    "start": 2617.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V197"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "ayah",
+    "query_text": "وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَى",
+    "e1_proposed_key": "CH002_V197",
+    "start": 3175.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V197"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "dua",
+    "query_text": "رَبَّنَا زِدْنَا عِلْمًا",
+    "e1_proposed_key": "QuranicDua-09",
+    "start": 10.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-09"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "dua",
+    "query_text": "اللَّهُمَّ حِجَّةٌ لَا رِيَاءَ فِيهَا وَلَا سُمْعَةَ",
+    "e1_proposed_key": "IbnMajah_2890_Dua",
+    "start": 756.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "IbnMajah_2890_Dua"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "dua",
+    "query_text": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ",
+    "e1_proposed_key": "ZRHU-03-IhramTalbiyah-05",
+    "start": 1194.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "ZRHU-03-IhramTalbiyah-05"
+  },
+  {
+    "recording_id": "HajjJourney2022Eng-L04",
+    "type": "dua",
+    "query_text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ",
+    "e1_proposed_key": "MasnoonDua-159",
+    "start": 3346.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-159"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    "e1_proposed_key": "CH001_V001",
+    "start": 9.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V001"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "رَبِّ اشْرَحْ لِي صَدْرِي",
+    "e1_proposed_key": "CH020_V025",
+    "start": 9.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V025"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَيَسِّرْ لِي أَمْرِي",
+    "e1_proposed_key": "CH020_V026",
+    "start": 19.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V026"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي",
+    "e1_proposed_key": "CH020_V027",
+    "start": 19.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V027"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "يَفْقَهُوا قَوْلِي",
+    "e1_proposed_key": "CH020_V028",
+    "start": 19.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V028"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَأَسْبَغَ عَلَيْكُمْ نِعَمَهُ ظَاهِرَةً وَبَاطِنَةً",
+    "e1_proposed_key": "CH031_V020",
+    "start": 29.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH031_V020"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَمَا خَلَقْتُ الْجِنَّ وَالْإِنْسَ إِلَّا لِيَعْبُدُونِ",
+    "e1_proposed_key": "CH051_V056",
+    "start": 110.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH051_V056"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "اور جب میں بیمار ہوتا ہوں تو وہی مجھے شفا دیتا ہے",
+    "e1_proposed_key": "CH026_V080",
+    "start": 192.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V080"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ فَلْيَسْتَجِيبُوا لِي وَلْيُؤْمِنُوا بِي لَعَلَّهُمْ يَرْشُدُونَ",
+    "e1_proposed_key": "CH002_V186",
+    "start": 425.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "اور جب میرے بندے آپ سے میرے بارے میں سوال کریں",
+    "e1_proposed_key": "CH002_V186",
+    "start": 463.9,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "تو کہہ دیجئے بے شک میں قریب ہوں میں بندے کے قریب ہوں میں پکارنے والے کی پکار کا جواب دیتا ہوں",
+    "e1_proposed_key": "CH002_V186",
+    "start": 475.0,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "میں پکارنے والے کی پکار کا جواب دیتا ہوں جب وہ مجھے پکارے",
+    "e1_proposed_key": "CH002_V186",
+    "start": 519.8,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وہ میرا حکم مانے وہ بھی میری بات مانا کریں",
+    "e1_proposed_key": "CH002_V186",
+    "start": 529.9,
+    "usage": "explicit paraphrase",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "اور مجھ پر ایمان رکھیں اعتماد کریں یقین کر لیں تاکہ وہ ہدایت پائیں",
+    "e1_proposed_key": "CH002_V186",
+    "start": 529.9,
+    "usage": "explicit paraphrase",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "فَإِنِّي قَرِيبٌ",
+    "e1_proposed_key": "CH002_V186",
+    "start": 571.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "میں قریب ہوں",
+    "e1_proposed_key": "CH002_V186",
+    "start": 571.8,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+    "e1_proposed_key": "CH009_V040",
+    "start": 677.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH009_V040"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَأَنَّ اللَّهَ مَعَ الْمُؤْمِنِينَ",
+    "e1_proposed_key": "CH008_V019",
+    "start": 687.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH008_V019"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ",
+    "e1_proposed_key": "CH002_V186",
+    "start": 736.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "أُجِيبُ دَعْوَةَ الدَّاعِ",
+    "e1_proposed_key": "CH002_V186",
+    "start": 940.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "اے لوگو تم سب اللہ کے محتاج ہو",
+    "e1_proposed_key": "CH035_V015",
+    "start": 1002.8,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH035_V015"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "آسمانوں میں جو بھی مخلوق ہے ہمیں تو صرف فرشتوں کا پتہ ہے نا اس کے علاوہ بھی جو کوئی ہے وہ سب سوال کرتے ہیں",
+    "e1_proposed_key": "CH055_V029",
+    "start": 1075.9,
+    "usage": "explicit paraphrase",
+    "gold_label": "accept",
+    "gold_key": "CH055_V029"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "اور جو زمین میں وہ سارے کے سارے وہ سب سوال کرتے ہیں",
+    "e1_proposed_key": "CH055_V029",
+    "start": 1075.9,
+    "usage": "explicit paraphrase",
+    "gold_label": "accept",
+    "gold_key": "CH055_V029"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "ہر روز وہ ایک نئی شان میں",
+    "e1_proposed_key": "CH055_V029",
+    "start": 1103.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH055_V029"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَقَالَ رَبُّكُمُ ادْعُونِي أَسْتَجِبْ لَكُمْ إِنَّ الَّذِينَ يَسْتَكْبِرُونَ عَنْ عِبَادَتِي سَيَدْخُلُونَ جَهَنَّمَ دَاخِرِينَ",
+    "e1_proposed_key": "CH040_V060",
+    "start": 1146.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH040_V060"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "تمہارے رب نے فرمایا مجھے پکارو مجھ سے دعا مانگو میں تمہاری دعا قبول کروں گا",
+    "e1_proposed_key": "CH040_V060",
+    "start": 1165.8,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH040_V060"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "بے شک وہ لوگ جو میری عبادت سے، یعنی یہاں دعا مطلب ہے تکبر کرتے ہیں",
+    "e1_proposed_key": "CH040_V060",
+    "start": 1181.4,
+    "usage": "explicit paraphrase",
+    "gold_label": "accept",
+    "gold_key": "CH040_V060"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "عنقریب وہ ذلیل ہو کر جہنم میں داخل ہوں گے",
+    "e1_proposed_key": "CH040_V060",
+    "start": 1192.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH040_V060"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَقَالَ رَبُّكُمُ ادْعُونِي",
+    "e1_proposed_key": "CH040_V060",
+    "start": 1202.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH040_V060"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "مجھ سے مانگو مجھے پکارو",
+    "e1_proposed_key": "CH040_V060",
+    "start": 1202.4,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH040_V060"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "فَلْيَسْتَجِيبُوا لِي وَلْيُؤْمِنُوا بِي لَعَلَّهُمْ يَرْشُدُونَ",
+    "e1_proposed_key": "CH002_V186",
+    "start": 1355.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "چاہیے وہ بھی میری بات مانیں",
+    "e1_proposed_key": "CH002_V186",
+    "start": 1355.6,
+    "usage": "explicit paraphrase",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "مجھے یاد کرو میں تمہیں یاد کروں گا",
+    "e1_proposed_key": "CH002_V152",
+    "start": 1398.9,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V152"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَلْيُؤْمِنُوا بِي",
+    "e1_proposed_key": "CH002_V186",
+    "start": 1408.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "چاہیے کہ وہ مجھ پر ایمان لائیں مجھ پر اعتماد کریں",
+    "e1_proposed_key": "CH002_V186",
+    "start": 1408.9,
+    "usage": "explicit paraphrase",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "لَعَلَّهُمْ يَرْشُدُونَ",
+    "e1_proposed_key": "CH002_V186",
+    "start": 1566.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "فَأَمَّا مَنْ أَعْطَى وَاتَّقَى",
+    "e1_proposed_key": "CH092_V005",
+    "start": 1596.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH092_V005"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَصَدَّقَ بِالْحُسْنَى",
+    "e1_proposed_key": "CH092_V006",
+    "start": 1596.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH092_V006"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "فَسَنُيَسِّرُهُ لِلْيُسْرَى",
+    "e1_proposed_key": "CH092_V007",
+    "start": 1596.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH092_V007"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "لَعَلَّهُمْ يَرْشُدُونَ",
+    "e1_proposed_key": "CH002_V186",
+    "start": 1607.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V186"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "پس وہ جس نے دیا اور پھر تقویٰ اختیار کیا",
+    "e1_proposed_key": "CH092_V005",
+    "start": 1607.3,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH092_V005"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "اس نے سب سے اچھی بات کو سچ مانا",
+    "e1_proposed_key": "CH092_V006",
+    "start": 1607.3,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH092_V006"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "تو یقیناً ہم اسے آسان راستے کی سہولت دیں گے",
+    "e1_proposed_key": "CH092_V007",
+    "start": 1607.3,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH092_V007"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+    "e1_proposed_key": "CH001_V005",
+    "start": 1850.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V005"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+    "e1_proposed_key": "CH001_V006",
+    "start": 1861.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V006"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "بھلا کون ہے جو لاچار کی فریاد رسی کرتا ہے جب وہ اسے پکارتا ہے اور اس کی تکلیف دور کرتا ہے",
+    "e1_proposed_key": "CH027_V062",
+    "start": 1898.6,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH027_V062"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "اگر اللہ تمہیں کوئی تکلیف پہنچائے تو اس کے سوا کوئی دور نہیں کر سکتا اور اگر وہ تجھے کوئی بھلائی پہنچائے تو وہ ہر چیز پر پوری طرح قادر ہے",
+    "e1_proposed_key": "CH006_V017",
+    "start": 1910.3,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH006_V017"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "لَمْ أَكُنْ بِدُعَائِكَ رَبِّ شَقِيًّا",
+    "e1_proposed_key": "CH019_V004",
+    "start": 1977.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH019_V004"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "اللہ آپ سے مانگ کے تو میں کبھی بدبخت ہوا ہی نہیں",
+    "e1_proposed_key": "CH019_V004",
+    "start": 1977.8,
+    "usage": "explicit paraphrase",
+    "gold_label": "accept",
+    "gold_key": "CH019_V004"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَأَيُّوبَ إِذْ نَادَى رَبَّهُ أَنِّي مَسَّنِيَ الضُّرُّ وَأَنْتَ أَرْحَمُ الرَّاحِمِينَ",
+    "e1_proposed_key": "CH021_V083",
+    "start": 2032.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V083"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "فَاسْتَجَبْنَا لَهُ فَكَشَفْنَا مَا بِهِ مِنْ ضُرٍّ وَآتَيْنَاهُ أَهْلَهُ وَمِثْلَهُمْ مَعَهُمْ رَحْمَةً مِنْ عِنْدِنَا",
+    "e1_proposed_key": "CH021_V084",
+    "start": 2042.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V084"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "رَحْمَةً مِنْ عِنْدِنَا",
+    "e1_proposed_key": "CH021_V084",
+    "start": 2068.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V084"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "وَذِكْرَى لِلْعَابِدِينَ",
+    "e1_proposed_key": "CH021_V084",
+    "start": 2073.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V084"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "اور ایوب جب اس نے اپنے رب کو پکارا کہ بے شک مجھے تکلیف پہنچی ہے اور تو رحم کرنے والوں میں سب سے زیادہ رحم والا ہے",
+    "e1_proposed_key": "CH021_V083",
+    "start": 2073.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V083"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "تو ہم نے اس کی دعا قبول کر لی پس اسے جو بھی تکلیف تھی دور کر دی اور اسے اس کے گھر والے اور ان کے ساتھ ان کی مانند اور عطا کر دیے اپنے پاس سے رحمت کے لیے اور ان لوگوں کی یاد دہانی کرنے کے لیے جو عبادت کرنے والے ہیں",
+    "e1_proposed_key": "CH021_V084",
+    "start": 2083.0,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V084"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+    "e1_proposed_key": "CH021_V087",
+    "start": 2336.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V087"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "رَبَّنَا ظَلَمْنَا أَنْفُسَنَا وَإِنْ لَمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
+    "e1_proposed_key": "CH007_V023",
+    "start": 2336.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH007_V023"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
+    "e1_proposed_key": "CH114_V005",
+    "start": 2463.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH114_V005"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "ayah",
+    "query_text": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+    "e1_proposed_key": "CH114_V006",
+    "start": 2463.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH114_V006"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "dua",
+    "query_text": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي يَفْقَهُوا قَوْلِي",
+    "e1_proposed_key": "QuranicDua-08",
+    "start": 9.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-08"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "dua",
+    "query_text": "لَمْ أَكُنْ بِدُعَائِكَ رَبِّ شَقِيًّا",
+    "e1_proposed_key": "SH-ShifaDuas-GoodExpectations-13",
+    "start": 1977.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "SH-ShifaDuas-GoodExpectations-13"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "dua",
+    "query_text": "أَنِّي مَسَّنِيَ الضُّرُّ وَأَنْتَ أَرْحَمُ الرَّاحِمِينَ",
+    "e1_proposed_key": "QuranicDua-46",
+    "start": 2032.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-46"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "dua",
+    "query_text": "بے شک مجھے تکلیف پہنچی ہے اور تو رحم کرنے والوں میں سب سے زیادہ رحم والا ہے",
+    "e1_proposed_key": "QuranicDua-46",
+    "start": 2073.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-46"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "dua",
+    "query_text": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+    "e1_proposed_key": "QuranicDua-47",
+    "start": 2336.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-47"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "dua",
+    "query_text": "رَبَّنَا ظَلَمْنَا أَنْفُسَنَا وَإِنْ لَمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
+    "e1_proposed_key": "QuranicDua-35",
+    "start": 2336.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-35"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "dua",
+    "query_text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ",
+    "e1_proposed_key": "MasnoonDua-159",
+    "start": 2749.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-159"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0001",
+    "type": "dua",
+    "query_text": "اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+    "e1_proposed_key": "QuranicDua-07",
+    "start": 2807.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-07"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "ويشف صدور قوم مؤمنين",
+    "e1_proposed_key": "CH009_V014",
+    "start": 202.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH009_V014"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "وشفاء لما في الصدور",
+    "e1_proposed_key": "CH010_V057",
+    "start": 271.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH010_V057"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "فيه شفاء للناس",
+    "e1_proposed_key": "CH016_V069",
+    "start": 336.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH016_V069"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "وننزل من القرآن ما هو شفاء ورحمة للمؤمنين",
+    "e1_proposed_key": "CH017_V082",
+    "start": 384.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH017_V082"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "قل هو للذين آمنوا هدى وشفاء",
+    "e1_proposed_key": "CH041_V044",
+    "start": 481.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH041_V044"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "وإذا مرضت فهو يشفين",
+    "e1_proposed_key": "CH026_V080",
+    "start": 532.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V080"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "وَذَا النُّونِ إِذ ذَهَبَ مُغَاضِبًا فَظَنَّ أَن لَّن نَّقْدِرَ عَلَيْهِ فَنَادَى فِي الظُّلُمَاتِ أَن لَّا إِلَهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ",
+    "e1_proposed_key": "CH021_V087",
+    "start": 840.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V087"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "فَاسْتَجَبْنَا لَهُ وَنَجَّيْنَاهُ مِنَ الْغَمِّ وَكَذَلِكَ نُنْجِي الْمُؤْمِنِينَ",
+    "e1_proposed_key": "CH021_V088",
+    "start": 915.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V088"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "اذْهَبُوا بِقَمِيصِي هَٰذَا فَأَلْقُوهُ عَلَى وَجْهِ أَبِي يَأْتِ بَصِيرًا وَأْتُونِي بِأَهْلِكُمْ أَجْمَعِينَ",
+    "e1_proposed_key": "CH012_V093",
+    "start": 1990.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH012_V093"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "يَا زَكَرِيَّا إِنَّا نُبَشِّرُكَ بِغُلَامٍ اسْمُهُ يَحْيَى لَمْ نَجْعَلْ لَهُ مِنْ قَبْلُ سَمِيًّا",
+    "e1_proposed_key": "CH019_V007",
+    "start": 2045.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH019_V007"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "قَالَ رَبِّ أَنَّى يَكُونُ لِي غُلَامٌ وَكَانَتِ امْرَأَتِي عَاقِرًا وَقَدْ بَلَغْتُ مِنَ الْكِبَرِ عِتِيًّا",
+    "e1_proposed_key": "CH019_V008",
+    "start": 2054.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH019_V008"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "قَالَ كَذَلِكَ قَالَ رَبُّكَ هُوَ عَلَيَّ هَيِّنٌ وَقَدْ خَلَقْتُكَ مِنْ قَبْلُ وَلَمْ تَكُ شَيْئًا",
+    "e1_proposed_key": "CH019_V009",
+    "start": 2084.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH019_V009"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "وَأَيُّوبَ إِذْ نَادَى رَبَّهُ أَنِّي مَسَّنِيَ الضُّرُّ وَأَنتَ أَرْحَمُ الرَّاحِمِينَ",
+    "e1_proposed_key": "CH021_V083",
+    "start": 1803.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V083"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "ayah",
+    "query_text": "فَاسْتَجَبْنَا لَهُ فَكَشَفْنَا مَا بِهِ مِنْ ضُرٍّ وَآتَيْنَاهُ أَهْلَهُ وَمِثْلَهُمْ مَعَهُمْ رَحْمَةً مِنْ عِنْدِنَا وَذِكْرَى لِلْعَابِدِينَ",
+    "e1_proposed_key": "CH021_V084",
+    "start": 1814.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V084"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0002",
+    "type": "dua",
+    "query_text": "رب اشرح لي صدري ويسر لي أمري واحلل عقدة من لساني يفقهوا قولي",
+    "e1_proposed_key": "QuranicDua-08",
+    "start": 10.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-08"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0003",
+    "type": "ayah",
+    "query_text": "أَمَّنْ يُجِيبُ الْمُضْطَرَّ إِذَا دَعَاهُ وَيَكْشِفُ السُّوءَ",
+    "e1_proposed_key": "CH027_V062",
+    "start": 42.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH027_V062"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0003",
+    "type": "ayah",
+    "query_text": "وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ",
+    "e1_proposed_key": "CH021_V080",
+    "start": 1621.9,
+    "usage": "quotation",
+    "gold_label": "accept_different",
+    "gold_key": "CH026_V080"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0003",
+    "type": "ayah",
+    "query_text": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا",
+    "e1_proposed_key": "CH067_V002",
+    "start": 2105.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH067_V002"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0003",
+    "type": "ayah",
+    "query_text": "مَا أَصَابَ مِنْ مُصِيبَةٍ إِلَّا بِإِذْنِ اللَّهِ وَمَنْ يُؤْمِنْ بِاللَّهِ يَهْدِ قَلْبَهُ",
+    "e1_proposed_key": "CH064_V011",
+    "start": 2223.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH064_V011"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0003",
+    "type": "ayah",
+    "query_text": "لِكَيْلاَ تَأْسَوْا عَلَى مَا فَاتَكُمْ وَلاَ تَفْرَحُوا بِمَا آتَاكُمْ",
+    "e1_proposed_key": "CH057_V022",
+    "start": 2312.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH057_V022"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0003",
+    "type": "dua",
+    "query_text": "رب اشرح لي صدري ويسر لي أمري واحلل عقدة من لساني يفقهوا قولي",
+    "e1_proposed_key": "QuranicDua-08",
+    "start": 1.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-08"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0003",
+    "type": "dua",
+    "query_text": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ، اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي وَأَخْلِفْ لِي خَيْرًا مِنْهَا",
+    "e1_proposed_key": "MasnoonDua-InnaLillahi",
+    "start": 1353.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-InnaLillahi"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "كَتَبَ عَلَى نَفْسِهِ الرَّحْمَةَ",
+    "e1_proposed_key": "CH006_V012",
+    "start": 78.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH006_V012"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ",
+    "e1_proposed_key": "CH014_V007",
+    "start": 601.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH014_V007"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "وَسَيَجْزِي اللَّهُ الشَّاكِرِينَ",
+    "e1_proposed_key": "CH003_V144",
+    "start": 794.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V144"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "هُوَ الْحَيُّ لَا إِلَهَ إِلَّا هُوَ فَادْعُوهُ مُخْلِصِينَ لَهُ الدِّينَ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+    "e1_proposed_key": "CH040_V065",
+    "start": 1758.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH040_V065"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "إِنَّ اللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍ",
+    "e1_proposed_key": "CH004_V040",
+    "start": 1849.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH004_V040"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "فَلَوْلَا أَنَّهُ كَانَ مِنَ الْمُسَبِّحِينَ",
+    "e1_proposed_key": "CH037_V143",
+    "start": 1886.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH037_V143"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "لَلَبِثَ فِي بَطْنِهِ إِلَى يَوْمِ يُبْعَثُونَ",
+    "e1_proposed_key": "CH037_V144",
+    "start": 1889.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH037_V144"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "وَذَا النُّونِ إِذ ذَّهَبَ مُغَاضِبًا فَظَنَّ أَن لَّن نَّقْدِرَ عَلَيْهِ فَنَادَى فِي الظُّلُمَاتِ أَن لَّا إِلَهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ",
+    "e1_proposed_key": "CH021_V087",
+    "start": 1976.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V087"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "فَاسْتَجَبْنَا لَهُ وَنَجَّيْنَاهُ مِنَ الْغَمِّ وَكَذَلِكَ نُنْجِي الْمُؤْمِنِينَ",
+    "e1_proposed_key": "CH021_V088",
+    "start": 2007.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V088"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "وَلَقَدْ نَعْلَمُ أَنَّكَ يَضِيقُ صَدْرُكَ بِمَا يَقُولُونَ",
+    "e1_proposed_key": "CH015_V097",
+    "start": 2026.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH015_V097"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ السَّاجِدِينَ",
+    "e1_proposed_key": "CH015_V098",
+    "start": 2036.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH015_V098"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "فَاصْبِرْ عَلَى مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ الشَّمْسِ وَقَبْلَ غُرُوبِهَا وَمِنْ آنَاءِ اللَّيْلِ فَسَبِّحْ وَأَطْرَافَ النَّهَارِ لَعَلَّكَ تَرْضَى",
+    "e1_proposed_key": "CH020_V130",
+    "start": 2167.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V130"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "قَالَ أَوْسَطُهُمْ أَلَمْ أَقُل لَّكُمْ لَوْلَا تُسَبِّحُونَ",
+    "e1_proposed_key": "CH068_V028",
+    "start": 2275.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH068_V028"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "قَالُوا سُبْحَانَ رَبِّنَا إِنَّا كُنَّا ظَالِمِينَ",
+    "e1_proposed_key": "CH068_V029",
+    "start": 2280.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH068_V029"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ",
+    "e1_proposed_key": "CH037_V180",
+    "start": 2304.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH037_V180"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "وَالْمَلَائِكَةُ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ",
+    "e1_proposed_key": "CH042_V005",
+    "start": 2362.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH042_V005"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "فَقُلِ الْحَمْدُ لِلَّهِ الَّذِي نَجَّانَا مِنَ الْقَوْمِ الظَّالِمِينَ",
+    "e1_proposed_key": "CH023_V028",
+    "start": 2382.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH023_V028"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "الْحَمْدُ لِلَّهِ الَّذِي وَهَبَ لِي عَلَى الْكِبَرِ إِسْمَاعِيلَ وَإِسْحَاقَ",
+    "e1_proposed_key": "CH014_V039",
+    "start": 2386.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH014_V039"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "الْحَمْدُ لِلَّهِ الَّذِي فَضَّلَنَا عَلَى كَثِيرٍ مِّنْ عِبَادِهِ الْمُؤْمِنِينَ",
+    "e1_proposed_key": "CH027_V015",
+    "start": 2394.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH027_V015"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "قُلِ الْحَمْدُ لِلَّهِ وَسَلَامٌ عَلَى عِبَادِهِ الَّذِينَ اصْطَفَى آللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ",
+    "e1_proposed_key": "CH027_V059",
+    "start": 2404.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH027_V059"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "التَّائِبُونَ الْعَابِدُونَ الْحَامِدُونَ",
+    "e1_proposed_key": "CH009_V112",
+    "start": 2415.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH009_V112"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "وَلَهُ الْحَمْدُ فِي السَّمَاوَاتِ وَالْأَرْضِ وَعَشِيًّا وَحِينَ تُظْهِرُونَ",
+    "e1_proposed_key": "CH030_V018",
+    "start": 2424.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH030_V018"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "ayah",
+    "query_text": "تُسَبِّحُ لَهُ السَّمَاوَاتُ السَّبْعُ",
+    "e1_proposed_key": "CH017_V044",
+    "start": 2427.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH017_V044"
+  },
+  {
+    "recording_id": "SKD_U001_S001_0004",
+    "type": "dua",
+    "query_text": "رب اشرح لي صدري ويسر لي أمري واحلل عقدة من لساني يفقهوا قولی",
+    "e1_proposed_key": "QuranicDua-08",
+    "start": 21.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-08"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "رَبِّ اشْرَحْ لِي صَدْرِي",
+    "e1_proposed_key": "CH020_V025",
+    "start": 8.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V025"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "وَيَسِّرْ لِي أَمْرِي",
+    "e1_proposed_key": "CH020_V026",
+    "start": 12.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V026"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي",
+    "e1_proposed_key": "CH020_V027",
+    "start": 14.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V027"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "يَفْقَهُوا قَوْلِي",
+    "e1_proposed_key": "CH020_V028",
+    "start": 16.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V028"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "وَكُلُّ أُمَّةٍ جَاثِيَةٌ",
+    "e1_proposed_key": "CH045_V028",
+    "start": 376.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH045_V028"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "ہر امت، ہر گروہ، اور امت کیا ہوتی؟ ایک نظریہ اور ایک دور کے لوگ، یعنی ایک گروہ۔ ہر امت، ہر نیشن، ہر قوم، لوگوں کی سب اکڑ اور سب تکبر ختم ہو چکا ہوگا اور سب جھکے ہوئے ہوں گے۔",
+    "e1_proposed_key": "CH045_V028",
+    "start": 379.7,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH045_V028"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ",
+    "e1_proposed_key": "CH059_V007",
+    "start": 1008.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH059_V007"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "کہ جو تمہیں رسول دے رہے ہیں وہ لے لو",
+    "e1_proposed_key": "CH059_V007",
+    "start": 1011.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH059_V007"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "وَمَا نَهَاكُمْ عَنْهُ فَانْتَهُوا",
+    "e1_proposed_key": "CH059_V007",
+    "start": 1056.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH059_V007"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "اور جس چیز سے آپ روکیں اس سے رک بھی جاؤ",
+    "e1_proposed_key": "CH059_V007",
+    "start": 1059.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH059_V007"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "وَمَا يَنْطِقُ عَنِ الْهَوَى",
+    "e1_proposed_key": "CH053_V003",
+    "start": 1065.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH053_V003"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "کہ آپ اپنی خواہش نفس سے باتیں نہیں کرتے، آپ اپنی مرضی اور اپنی پسند و ناپسند سے باتیں نہیں کرتے",
+    "e1_proposed_key": "CH053_V003",
+    "start": 1071.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH053_V003"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "إِنْ هُوَ إِلَّا وَحْيٌ يُوحَى",
+    "e1_proposed_key": "CH053_V004",
+    "start": 1068.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH053_V004"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "ayah",
+    "query_text": "وہ وحی ہے جو آپ کی طرف اللہ کی طرف سے القا کی گئی ہے، بھیجی گئی ہے",
+    "e1_proposed_key": "CH053_V004",
+    "start": 1081.6,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH053_V004"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "dua",
+    "query_text": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي يَفْقَهُوا قَوْلِي",
+    "e1_proposed_key": "QuranicDua-08",
+    "start": 8.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-08"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "dua",
+    "query_text": "اللَّهُمَّ حَسَّنْتَ خَلْقِي فَأَحْسِنْ خُلُقِي",
+    "e1_proposed_key": "MasnoonDua-118",
+    "start": 2699.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-118"
+  },
+  {
+    "recording_id": "HEA-00-1A",
+    "type": "dua",
+    "query_text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+    "e1_proposed_key": "MasnoonDua-159",
+    "start": 3119.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-159"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "رَبِّ اشْرَحْ لِي صَدْرِي",
+    "e1_proposed_key": "CH020_V025",
+    "start": 9.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V025"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "وَيَسِّرْ لِي أَمْرِي",
+    "e1_proposed_key": "CH020_V026",
+    "start": 12.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V026"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي",
+    "e1_proposed_key": "CH020_V027",
+    "start": 14.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V027"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "يَفْقَهُوا قَوْلِي",
+    "e1_proposed_key": "CH020_V028",
+    "start": 16.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V028"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "وَعِبَادُ الرَّحْمٰنِ الَّذِينَ يَمْشُونَ عَلَى الْأَرْضِ هَوْنًا",
+    "e1_proposed_key": "CH025_V063",
+    "start": 578.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH025_V063"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "کہ رحمن کے بندے زمین پر آہستگی سے چلتے ہیں وہ زمین کو بھی اس کا حق دیتے ہوئے چلتے ہیں",
+    "e1_proposed_key": "CH025_V063",
+    "start": 583.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH025_V063"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ",
+    "e1_proposed_key": "CH068_V004",
+    "start": 632.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH068_V004"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "اور بے شک تم اخلاق کے بڑے مرتبے پر ہو",
+    "e1_proposed_key": "CH068_V004",
+    "start": 641.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH068_V004"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "فَبِمَا رَحْمَةٍ مِنَ اللَّهِ لِنْتَ لَهُمْ وَلَوْ كُنْتَ فَظًّا غَلِيظَ الْقَلْبِ لَانْفَضُّوا مِنْ حَوْلِكَ",
+    "e1_proposed_key": "CH003_V159",
+    "start": 690.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V159"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "اے پیغمبر صلی اللہ علیہ وسلم یہ اللہ کی بڑی رحمت ہے کہ تم ان لوگوں کے لیے بہت نرم مزاج واقع ہوئے ہو ورنہ اگر کہیں تم تندخو اور سنگ دل ہوتے تو یہ سب تمہارے گرد و پیش سے چھٹ جاتے سب بھاگ جاتے",
+    "e1_proposed_key": "CH003_V159",
+    "start": 703.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V159"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "تَعْرِفُهُمْ بِسِيمَاهُمْ لَا يَسْأَلُونَ النَّاسَ إِلْحَافًا",
+    "e1_proposed_key": "CH002_V273",
+    "start": 1763.2,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V273"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "تم انہیں ان کے چہروں سے پہچانو گے وہ لوگوں کے پیچھے پڑ کے نہیں مانگا کرتے",
+    "e1_proposed_key": "CH002_V273",
+    "start": 1767.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH002_V273"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "أَنِ اشْكُرْ لِي وَلِوَالِدَيْكَ",
+    "e1_proposed_key": "CH031_V014",
+    "start": 2090.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH031_V014"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "میں اپنے والدہ کا شکر گزار کہ جس نے میری بچپن میں تربیت کی",
+    "e1_proposed_key": "CH031_V014",
+    "start": 2093.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH031_V014"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "فَقُولَا لَهُ قَوْلًا لَيِّنًا",
+    "e1_proposed_key": "CH020_V044",
+    "start": 3388.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V044"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "نرم بات کرنا",
+    "e1_proposed_key": "CH020_V044",
+    "start": 3391.3,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH020_V044"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "فَقُلْ هَلْ لَكَ إِلَى أَنْ تَزَكَّى",
+    "e1_proposed_key": "CH079_V018",
+    "start": 3393.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH079_V018"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "ayah",
+    "query_text": "کیا آپ چاہتے ہیں کہ میں آپ کو ایسی بات بتاؤں جس سے آپ کا تزکیہ ہو کیا آپ تزکیہ اختیار کرنا چاہیں گے",
+    "e1_proposed_key": "CH079_V018",
+    "start": 3429.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH079_V018"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "dua",
+    "query_text": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي يَفْقَهُوا قَوْلِي",
+    "e1_proposed_key": "QuranicDua-08",
+    "start": 9.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-08"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "dua",
+    "query_text": "اَللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ۔ اَللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+    "e1_proposed_key": "SharhSadr-01",
+    "start": 23.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "SharhSadr-01"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "dua",
+    "query_text": "اَللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+    "e1_proposed_key": "MasnoonDua-118",
+    "start": 90.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-118"
+  },
+  {
+    "recording_id": "HEA-01-1A",
+    "type": "dua",
+    "query_text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+    "e1_proposed_key": "MasnoonDua-159",
+    "start": 3494.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-159"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "ayah",
+    "query_text": "وَسَاءَتْ مُرْتَفَقًا",
+    "e1_proposed_key": "CH018_V029",
+    "start": 296.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH018_V029"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "ayah",
+    "query_text": "وَحَسُنَتْ مُرْتَفَقًا",
+    "e1_proposed_key": "CH018_V031",
+    "start": 315.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH018_V031"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "ayah",
+    "query_text": "فَبِمَا رَحْمَةٍ مِّنَ اللَّهِ لِنْتَ لَهُمْ وَلَوْ كُنْتَ فَظًّا غَلِيظَ الْقَلْبِ لَانْفَضُّوا مِنْ حَوْلِكَ",
+    "e1_proposed_key": "CH003_V159",
+    "start": 1365.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V159"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "ayah",
+    "query_text": "کہ اگر آپ سخت ہوتے، بد خلق ہوتے، سخت مزاج ہوتے تو یہ سب آپ سے بھاگ جاتے",
+    "e1_proposed_key": "CH003_V159",
+    "start": 1385.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V159"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "ayah",
+    "query_text": "وَاخْفِضْ جَنَاحَكَ لِمَنِ اتَّبَعَكَ مِنَ الْمُؤْمِنِينَ",
+    "e1_proposed_key": "CH026_V215",
+    "start": 1602.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V215"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "ayah",
+    "query_text": "اور ایمان لانے والوں میں سے جو لوگ تمہاری پیروی اختیار کریں ان کے ساتھ تواضع سے پیش آؤ، نرمی سے پیش آؤ",
+    "e1_proposed_key": "CH026_V215",
+    "start": 1622.2,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH026_V215"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "ayah",
+    "query_text": "أَذِلَّةٍ عَلَى الْمُؤْمِنِينَ أَعِزَّةٍ عَلَى الْكَافِرِينَ",
+    "e1_proposed_key": "CH005_V054",
+    "start": 1780.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH005_V054"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "ayah",
+    "query_text": "جو مومنوں پر نرم اور کفار پر سخت ہوں گے",
+    "e1_proposed_key": "CH005_V054",
+    "start": 1780.1,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH005_V054"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "ayah",
+    "query_text": "وَكُلَّ إِنْسَانٍ أَلْزَمْنَاهُ طَائِرَهُ فِي عُنُقِهِ",
+    "e1_proposed_key": "CH017_V013",
+    "start": 2848.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH017_V013"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "ayah",
+    "query_text": "ہر انسان کا شگون اس کی گردن میں لٹک رہا ہے",
+    "e1_proposed_key": "CH017_V013",
+    "start": 2848.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH017_V013"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "dua",
+    "query_text": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي",
+    "e1_proposed_key": "QuranicDua-08",
+    "start": 0.0,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "QuranicDua-08"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "dua",
+    "query_text": "اَللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَّعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَّجِيدٌ. اَللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَّعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَّجِيدٌ",
+    "e1_proposed_key": "MasnoonDua-205",
+    "start": 19.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-205"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "dua",
+    "query_text": "اَللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+    "e1_proposed_key": "MasnoonDua-118",
+    "start": 78.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-118"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "dua",
+    "query_text": "اَللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+    "e1_proposed_key": "MasnoonDua-118",
+    "start": 118.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-118"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "dua",
+    "query_text": "اَللَّهُمَّ، اے اللہ! كَمَا، جیسا کہ، حَسَّنْتَ، تُو نے اچھا بنایا خوبصورت بنایا، خَلْقِي، میری خلق کو میری صورت کو میری شکل کو، فَحَسِّنْ، تُو اچھا بنا دے خوبصورت بنا دے، خُلُقِي، میرے خلق کو میرے اخلاق کو میری عادات کو",
+    "e1_proposed_key": "MasnoonDua-118",
+    "start": 138.0,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-118"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "dua",
+    "query_text": "اَللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+    "e1_proposed_key": "MasnoonDua-118",
+    "start": 157.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-118"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "dua",
+    "query_text": "فَحَسِّنْ خُلُقِي، اَللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+    "e1_proposed_key": "MasnoonDua-118",
+    "start": 196.8,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-118"
+  },
+  {
+    "recording_id": "HEA-02-1A",
+    "type": "dua",
+    "query_text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَّا إِلٰهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+    "e1_proposed_key": "MasnoonDua-159",
+    "start": 3600.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-159"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "ayah",
+    "query_text": "وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
+    "e1_proposed_key": "CH003_V086",
+    "start": 635.7,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V086"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "ayah",
+    "query_text": "اللہ ظالموں کو ہدایت نہیں دیا کرتا",
+    "e1_proposed_key": "CH003_V086",
+    "start": 656.3,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH003_V086"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "ayah",
+    "query_text": "مَا لِلظَّالِمِينَ مِنْ حَمِيمٍ وَلَا شَفِيعٍ يُطَاعُ",
+    "e1_proposed_key": "CH040_V018",
+    "start": 693.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH040_V018"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "ayah",
+    "query_text": "ظالموں کا نہ کوئی مشفق دوست ہوگا اور نہ کوئی سفارش کرنے والا جس کی بات مانی جائے",
+    "e1_proposed_key": "CH040_V018",
+    "start": 693.5,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH040_V018"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "ayah",
+    "query_text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+    "e1_proposed_key": "CH001_V007",
+    "start": 909.6,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V007"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "ayah",
+    "query_text": "ہمیں انہی کے راستے پہ چلا جن پہ تو نے انعام کیا",
+    "e1_proposed_key": "CH001_V007",
+    "start": 909.6,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "CH001_V007"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "ayah",
+    "query_text": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+    "e1_proposed_key": "CH106_V002",
+    "start": 989.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH106_V002"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "ayah",
+    "query_text": "گرمیوں میں شام کی طرف اور سردیوں میں یمن کی طرف یہ سفر کرتے تھے اور تجارت کرتے تھے",
+    "e1_proposed_key": "CH106_V002",
+    "start": 989.3,
+    "usage": "explicit paraphrase",
+    "gold_label": "accept",
+    "gold_key": "CH106_V002"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "ayah",
+    "query_text": "كُلٌّ فِي فَلَكٍ يَسْبَحُونَ",
+    "e1_proposed_key": "CH021_V033",
+    "start": 1505.4,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "CH021_V033"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "dua",
+    "query_text": "اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+    "e1_proposed_key": "MasnoonDua-118",
+    "start": 55.9,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-118"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "dua",
+    "query_text": "وَاهْدِنِي لِأَحْسَنِ الْأَخْلَاقِ، وَاهْدِنِي لِأَحْسَنِ الْأَخْلَاقِ، لَا يَهْدِي لِأَحْسَنِهَا إِلَّا أَنْتَ، وَاصْرِفْ عَنِّي سَيِّئَهَا لَا يَصْرِفُ عَنِّي سَيِّئَهَا إِلَّا أَنْتَ",
+    "e1_proposed_key": "MasnoonDua-163",
+    "start": 134.3,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-163"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "dua",
+    "query_text": "اے اللہ! میری سب سے اچھے اخلاق کی طرف رہنمائی فرما، تیرے سوا اچھے اخلاق کی راہ کوئی نہیں دکھا سکتا، اور برے اخلاق کو مجھ سے دور کر دے، انہیں تیرے سوا مجھ سے کوئی اور دور نہیں کر سکتا",
+    "e1_proposed_key": "MasnoonDua-163",
+    "start": 273.7,
+    "usage": "translation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-163"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "dua",
+    "query_text": "وَاهْدِنِي لِأَحْسَنِ الْأَخْلَاقِ لَا يَهْدِي لِأَحْسَنِهَا إِلَّا أَنْتَ، لَا يَصْرِفُ عَنِّي سَيِّئَهَا إِلَّا أَنْتَ",
+    "e1_proposed_key": "MasnoonDua-163",
+    "start": 373.5,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-163"
+  },
+  {
+    "recording_id": "HEA-03-1A",
+    "type": "dua",
+    "query_text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَّا إِلٰهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+    "e1_proposed_key": "MasnoonDua-159",
+    "start": 2660.1,
+    "usage": "quotation",
+    "gold_label": "accept",
+    "gold_key": "MasnoonDua-159"
+  }
+]

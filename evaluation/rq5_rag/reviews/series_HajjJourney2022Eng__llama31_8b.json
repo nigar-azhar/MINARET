@@ -1,0 +1,610 @@
+[
+  {
+    "question_id": "Q37",
+    "question": "According to the lecturer, what are the three types of people described when it comes to going for Hajj?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0007"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0007"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, the three types of people described when it comes to going for Hajj are:\n\n1. Those who can afford and want to go (chunk_id=HajjJourney2022Eng-L01_chunk_0007).\n2. Those who cannot afford but still want to go (chunk_id=HajjJourney2022Eng-L01_chunk_0007).\n3. Those who can afford but don't really want to go, and therefore delay it (chunk_id=HajjJourney2022Eng-L01_chunk_0007).",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 44.75,
+    "generated_at": "2026-09-24T08:28:36.425861+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Chunk_0007 states the three types exactly as the model describes them (afford+want, can't afford+want, afford+delay/don't want) — verbatim match, correctly grounded. Series-scope pooling pulled in two distractor chunks from other lectures that also mention 'three types of X' (L03_chunk_0091 three types of Hajj, L04_chunk_0091 three types of good deeds), but the model correctly ignored them and cited only the right chunk."
+  },
+  {
+    "question_id": "Q38",
+    "question": "لیکچرر کے مطابق حج پر جانے کے حوالے سے لوگوں کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0007"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0007"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "chunk_id=HajjJourney2022Eng-L01_chunk_0007 lecture_id=HajjJourney2022Eng-L01 start=181.66s end=241.48s\nلکچرر کے مطابق حج پر جانے کے حوالے سے لوگوں کی تین اقسام یہ ہیں:\n1. وہ جو اپنے پاس پیسہ ہے اور وہ بھی چاہتے ہیں کہ حج کریں\n2. وہ جو اپنے پاس پیسہ نہیں ہے لیکن وہ بھی چاہتے ہیں کہ حج کریں\n3. وہ جو اپنے پاس پیسہ ہے لیکن وہ حج نہیں کرنا چاہتے",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 38.75,
+    "generated_at": "2026-09-24T08:29:15.142519+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu translation of the same chunk_0007 content is accurate (all three categories correctly rendered). Same cross-lecture 'three types of X' distractors from L03/L04 (three types of Hajj, Hajj months context) were present in context but did not derail the answer."
+  },
+  {
+    "question_id": "Q57",
+    "question": "According to the lecturer, which four things do we ask Allah for in the beautiful du'a he introduces at the start of the course?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0010"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0010"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, we ask Allah for four things in this du'a: بَرَكَات (barakat), رَحْمَة (rahmat), فَضْل (fadl), and رِزْق (rizq). \n\n[chunk_id=HajjJourney2022Eng-L01_chunk_0010 lecture_id=HajjJourney2022Eng-L01 start=291.80s end=319.64s]",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 47.43,
+    "generated_at": "2026-09-24T08:30:02.614472+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Chunk_0010 literally lists the four things asked for as barakat, rahmat, fadl, rizq — the model's answer is a verbatim match, correctly cited. Series-scope retrieval added distractor chunks from L01/L02/L03 (a different du'a list, a different lecture's opening) but the model stayed on the right chunk."
+  },
+  {
+    "question_id": "Q58",
+    "question": "لیکچرر کے مطابق کورس کے آغاز میں سکھائی جانے والی دعا میں اللہ تعالیٰ سے کون سی چار چیزیں مانگی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0010"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "chunk_id=HajJourney2022Eng-L01_chunk_0010 lecture_id=HajjJourney2022Eng-L01 start=291.80s end=319.64s\nدعا میں اللہ تعالیٰ سے چار چیزیں مانگی گئی ہیں: برکات، رحمت، فضل، اور رزق۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 47.73,
+    "generated_at": "2026-09-24T08:30:50.340618+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Same content as Q57, correctly translated to Urdu and matching chunk_0010 verbatim. Note: citation.cited_chunk_ids is empty only because the model typo'd the chunk id as 'HajJourney2022Eng-...' (missing a 'j'), which the automated extractor couldn't match — the answer text itself is fully grounded in the correct chunk, so I graded on content rather than the broken auto-citation."
+  },
+  {
+    "question_id": "Q39",
+    "question": "According to the lecturer, what are the three conditions of 'istita'ah' (ability) that make Hajj mandatory on a person?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L02_chunk_0061"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, there are three understandings based on the condition of 'istita'ah'. The first two conditions mentioned in the lecture are:\n\n1. When a person has the travel expenses.\n2. Also this person should have enough expenses for the people he's leaving behind.\n\nThese excerpts can be found in [chunk_id=HajjJourney2022Eng-L02_chunk_0061 lecture_id=HajjJourney2022Eng-L02 start=2133.72s end=2163.68s].",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 41.28,
+    "generated_at": "2026-09-24T08:31:31.626796+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Chunk_0061 (cited) gives the first istita'ah condition (financial: travel costs + costs for dependents left behind), which the model reports accurately as two sub-items. But chunk_0063 — also sent to the model in the same context, not cited or used — contains the remaining two conditions (safety of life/property, physical capability). The model never states these and even hedges by calling its list 'the first two conditions' without giving the third. Graded partially_correct: what is stated is accurate and grounded, but the answer is incomplete despite the model having all the needed context in front of it."
+  },
+  {
+    "question_id": "Q40",
+    "question": "لیکچرر کے مطابق 'استطاعت' کی وہ تین شرائط کیا ہیں جن کی بنا پر کسی شخص پر حج فرض ہوتا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L02_chunk_0061"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "chunk_id=HajjJourney2022Eng-L02_chunk_0061 lecture_id=HajjJourney2022Eng-L02 start=2133.72s end=2163.68s\n\nاستطاعت کی تین شرائط یہ ہیں:\n\nپہلی شرط: جب کہ شخص سفر کے لئے آساني سے آسانی سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آساني سے آس",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 333.85,
+    "generated_at": "2026-09-24T08:37:05.472546+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "Generation failure, not a factual error — the model's output degenerates into an endless repetition of 'آساني سے' (easily) starting from the very first sentence and is cut off by the length limit (finish_reason=length) without ever stating any of the three istita'ah conditions. Both gold chunks (0061, 0063) were correctly retrieved and sent (series-scope worked fine here — everything needed came from the right lecture, L02), so this is a pure decoding/generation collapse, not a retrieval problem. Graded incorrect rather than hallucinated since it never asserts a false claim, it just fails to produce any usable content."
+  },
+  {
+    "question_id": "Q59",
+    "question": "According to the lecturer, what are the first four points given to explain why Makkah is a place of safety and security?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L02_chunk_0042",
+        "HajjJourney2022Eng-L02_chunk_0048",
+        "HajjJourney2022Eng-L02_chunk_0051",
+        "HajjJourney2022Eng-L02_chunk_0055"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, the first four points explaining why Makkah is a place of safety and security are:\n\n1. Sacred place till Qiyamah (chunk_id=HajjJourney2022Eng-L02_chunk_0051)\n2. Safety from Dajjal's fitna (chunk_id=HajjJourney2022Eng-L02_chunk_0055)\n3. Ayat bayyinat, clear proofs, open proofs for all of us (specifically mentioned in chunk_id=HajjJourney2022Eng-L02_chunk_0042 but the first point is not explicitly stated as one of the four points; however, it can be inferred that the other three points are: \n   - The barren land where Makkah was built\n   - Zamzam water being a big miracle)\n4. Security (chunk_id=HajjJourney2022Eng-L02_chunk_0048)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 18.58,
+    "generated_at": "2026-09-23T20:33:25.964067+00:00",
+    "answer_verdict": "hallucinated",
+    "grader_notes": "Model lists 4 items: (1) sacred till Qiyamah [0051, correct — matches point 1], (2) \"safety from Dajjal's fitna\" [0055] mislabeled as point 2 (it is actually point 4, per chunk_0055 itself: \"fourth point: safety from Dajjal's fitna\"), (3) \"ayat bayyinat, clear proofs\" plus barren land / Zamzam water [chunk_0042], (4) \"Security\" [chunk_0048]. Checked chunk_0042 and chunk_0048: both come from the lecturer's separate 'ayat bayyinat' (six clear proofs) discussion, not from the four-points-of-Makkah's-safety list (chunks 0051-0055). Chunk_0048 is about Maqam Ibrahim and the Qur'anic verse on entering Makkah being safe — not one of the four enumerated safety points either. True points 2 and 3 (thorny bushes/game/lost items not disturbed; whoever leaves for Hajj is under Allah's guarantee) are in chunks 0052-0054, which were not retrieved/sent. Graded hallucinated: 2 of the 4 claimed \"points\" are backed by citations that do not actually support the specific claim, and the real point 4 is misnumbered as point 2. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q60",
+    "question": "لیکچرر کے مطابق مکہ کے امن و سلامتی کا مقام ہونے کی وہ پہلی چار وجوہات کیا ہیں جو بتائی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L02_chunk_0042",
+        "HajjJourney2022Eng-L02_chunk_0051"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "مکہ کے امن و سلامتی کا مقام ہونے کی پہلی چار وجوہات یہ ہیں:\n\n1. مکیہ ایک مقدس جگہ ہے جو قیامت تک برقرار رہے گی (chunk_id=HajjJourney2022Eng-L02_chunk_0051)\n2. مکہ میں آیت بائنات، واضح ثبوت موجود ہیں (chunk_id=HajjJourney2022Eng-L02_chunk_0042)\n3. مکہ ایک بارے زمین پر تعمیر کیا گیا ہے جہاں معمول سے زیادہ کوئی نہیں ہوتا (chunk_id=HajjJourney2022Eng-L02_chunk_0042)\n4. مکہ میں زَمزم کا پانی ایک بڑا معجزہ ہے (chunk_id=HajjJourney2022Eng-L02_chunk_0042)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 19.29,
+    "generated_at": "2026-09-23T20:33:45.252119+00:00",
+    "answer_verdict": "hallucinated",
+    "grader_notes": "Urdu variant, same context as Q59. Model gives: (1) sacred till Qiyamah [0051, correct], (2) \"ayat bayyinat, clear proofs\" [0042], (3) \"built on barren land\" [0042], (4) \"Zamzam water is a big miracle\" [0042]. Checked chunk_0042: confirmed this is the lecturer's separate proofs-of-Allah list (\"ayat bayyinat...First one: the biggest proof is that this amazing house of Allah is built on a very barren land...And Zamzam...is a very big miracle\") — none of this is presented in the source as a reason Makkah is a place of safety/security, which is what the question asks. The model also fails to use chunk_0055 (Dajjal's fitna, the real point 4), even though it was present in chunks_sent_to_model, in favor of fabricated content. Graded hallucinated: 3 of 4 items include a real point-1 but points 2-4 are all sourced from a chunk that does not support the specific 'reason Makkah is safe' claim being made, and the one correct available fact (Dajjal's fitna) was ignored. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q41",
+    "question": "According to the lecturer, what are the three months during which Hajj takes place?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0043",
+        "HajjJourney2022Eng-L03_chunk_0084",
+        "HajjJourney2022Eng-L04_chunk_0067"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah. \n\n[chunk_id=HajjJourney2022Eng-L03_chunk_0084 lecture_id=HajjJourney2022Eng-L03 start=3017.09s end=3050.07s]\n اَلْحَجُّ أَشْهُرٌ مَعْلُومَاتٌ—so Hajj is during well-known months, and these are the three months.\n\n[chunk_id=HajjJourney2022Eng-L01_chunk_0043 lecture_id=HajjJourney2022Eng-L01 start=1567.26s end=1617.46s]\nAlso Shawwal is a Hajj month, which is this month, the current month. Actually it is over in some of the countries, so it's already Dhul-Qa'dah. So three months are the Hajj months: Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\n\n[chunk_id=HajjJourney2022Eng-L04_chunk_0067 lecture_id=HajjJourney2022Eng-L04 start=2173.68s end=2219.72s]\nare the three months: Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah—these are the Hajj months.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 61.27,
+    "generated_at": "2026-09-24T08:38:06.749434+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "'Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah' is confirmed verbatim by all three cited chunks. Notably the model cited L01_chunk_0043 and L04_chunk_0067 in addition to the gold L03_chunk_0084 — both from different lectures than the question's source lecture, pulled in by series-scope pooling because they independently restate the same three months. This is the series-scope phenomenon in action, and here it only reinforced a correct answer rather than causing confusion."
+  },
+  {
+    "question_id": "Q42",
+    "question": "لیکچرر کے مطابق حج کے تین مہینے کون سے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.5
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0043",
+        "HajjJourney2022Eng-L03_chunk_0084",
+        "HajjJourney2022Eng-L04_chunk_0067"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "chunk_id=HajjJourney2022Eng-L03_chunk_0084, HajjJourney2022Eng-L04_chunk_0067, HajjJourney2022Eng-L01_chunk_0043 \n\nلیکچر کے مطابق حج کے تین مہینے شوال، ذو القعدہ، اور ذی الحجہ ہیں۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 46.15,
+    "generated_at": "2026-09-24T08:38:52.900047+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Same underlying evidence as Q41, correctly translated to Urdu ('شوال، ذو القعدہ، اور ذی الحجہ'), with the same cross-lecture citations (L01, L04) alongside the gold L03 chunk all confirming the answer."
+  },
+  {
+    "question_id": "Q61",
+    "question": "According to the lecturer, what are the three types of Hajj mentioned in the lecture?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 2,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0007",
+        "HajjJourney2022Eng-L03_chunk_0091"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, there are two different sets of information regarding \"three types\" mentioned. \n\nFirstly, in [chunk_id=HajjJourney2022Eng-L01_chunk_0007], the lecturer mentions that there are three types of people when it comes to Hajj: those who can afford and want to go, those who cannot afford but still want to go, and those who can afford but don't really want to go. \n\nSecondly, in [chunk_id=HajjJourney2022Eng-L03_chunk_0091], the lecturer explains that there are three types of Hajj: Tamattu', Qiran, and Ifrad.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 50.11,
+    "generated_at": "2026-09-24T08:39:43.008804+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "The question asks specifically for the three types of Hajj (Tamattu', Qiran, Ifrad — chunk_0091, correctly stated in the answer's 'Secondly' section). But series-scope retrieval also pulled in L01_chunk_0007 ('three types of people' re: going to Hajj) from a different lecture purely because of surface similarity to 'three types', and the model treated it as an equally valid answer, padding/hedging its response with that irrelevant material instead of directly answering. The correct fact is present and accurate, but I graded partially_correct because the response fails to commit to the one thing actually asked and is muddled by an off-topic cross-lecture chunk — a clear example of series-scope retrieval degrading answer quality even without introducing a factual error."
+  },
+  {
+    "question_id": "Q62",
+    "question": "لیکچرر کے مطابق حج کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0091",
+        "HajjJourney2022Eng-L04_chunk_0067"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "chunk_id=HajjJourney2022Eng-L03_chunk_0091 lecture_id=HajjJourney2022Eng-L03 start=3293.45s end=3331.97s\nchunk_id=HajjJourney2022Eng-L04_chunk_0067 lecture_id=HajjJourney2022Eng-L04 start=2173.68s end=2219.72s\n\nلیچرر کے مطابق حج کی تین اقسام یہ ہیں: Tamattu', Qiran, اور Ifrad۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 54.17,
+    "generated_at": "2026-09-24T08:40:37.178769+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "The same distractor chunks were sent (L01_chunk_0007 'three types of people', L03_chunk_0084 'three Hajj months') alongside the correct L03_chunk_0091 chunk, but this time the model answered cleanly and directly with only Tamattu'/Qiran/Ifrad, correctly grounded, without the hedging seen on the identical question in English (Q61)."
+  },
+  {
+    "question_id": "Q5",
+    "question": "What does the lecturer say a pilgrim should do if they break a bone or become lame while in ihram?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L04_chunk_0033"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L04_chunk_0033"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to chunk_id=HajjJourney2022Eng-L04_chunk_0033 (lecture_id=HajjJourney2022Eng-L04 start=1049.34s end=1079.72s), the lecturer says that if anyone breaks a bone or leg or becomes lame, they have come out of ihram and must perform Hajj the following year.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 45.28,
+    "generated_at": "2026-09-24T08:41:22.465164+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Chunk_0033 states verbatim that breaking a bone/leg or becoming lame takes a pilgrim out of ihram and requires performing Hajj the following year — the model's answer matches exactly. Distractor chunks from other lectures (L03_chunk_0011 on completing Hajj rituals, L02_chunk_0100 on funeral rites, L04_chunk_0065 on ihram clothing) were present from series-scope pooling but did not affect the correct answer."
+  },
+  {
+    "question_id": "Q20",
+    "question": "لیکچرر کے مطابق اگر کوئی حاجی احرام کی حالت میں اپنی ہڈی توڑ بیٹھے یا لنگڑا ہو جائے تو اسے کیا کرنا چاہیے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L04_chunk_0033"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L04_chunk_0033"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لکچرر کے مطابق اگر کوئی حاجی احرام کی حالت میں اپنی ہڈی توڑ بیٹھے یا لنگڑا ہو جائے تو وہ احرام سے باہر آجاتا ہے اور اس کے لیے پھر سے حج کرنا ہوتا ہے (chunk_id=HajjJourney2022Eng-L04_chunk_0033).",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 45.46,
+    "generated_at": "2026-09-24T08:42:07.924340+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Correct Urdu translation of chunk_0033's content (exits ihram, must perform Hajj again next year), matching the same distractor-laden context as Q5 without being derailed by it."
+  },
+  {
+    "question_id": "Q8",
+    "question": "What does the lecturer say about the Quranic concept of shifa (healing) and its six occurrences in the Qur'an?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 33.71,
+    "generated_at": "2026-09-24T08:42:41.636050+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "This question is about the Qur'anic concept of 'shifa' (healing) and its six occurrences — a topic that belongs to a different lecture series entirely and is not covered anywhere in HajjJourney2022Eng, so it is correctly unanswerable here. None of the four series-pooled chunks sent to the model (on Hajj benefits, Qur'anic mentions of Hajj rituals, fidya rules) discuss 'shifa' at all, and the model correctly gave the required refusal string."
+  },
+  {
+    "question_id": "Q23",
+    "question": "اس لیکچر میں قرآن میں لفظ 'شفا' کے چھ مقامات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 31.08,
+    "generated_at": "2026-09-24T08:43:12.719474+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Urdu variant of Q8, same out-of-series topic (six Qur'anic occurrences of 'shifa'), correctly unanswerable. Worth noting: chunk_0051 sent to the model discusses a different 'six points' list (six reasons Makkah is a place of safety/security) — a tempting near-miss distractor from series-scope pooling that could plausibly have been conflated with 'six occurrences of shifa', but the model did not take the bait and correctly refused."
+  }
+]

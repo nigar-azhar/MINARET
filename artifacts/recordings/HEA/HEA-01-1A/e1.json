@@ -1,0 +1,422 @@
+{
+  "ayat": [
+    {
+      "surah_number": "20",
+      "ayah_number": "25",
+      "text": "رَبِّ اشْرَحْ لِي صَدْرِي",
+      "start": 9.66,
+      "end": 12.8,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "26",
+      "text": "وَيَسِّرْ لِي أَمْرِي",
+      "start": 12.8,
+      "end": 14.5,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "27",
+      "text": "وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي",
+      "start": 14.5,
+      "end": 16.8,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "28",
+      "text": "يَفْقَهُوا قَوْلِي",
+      "start": 16.8,
+      "end": 19.12,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "25",
+      "ayah_number": "63",
+      "text": "وَعِبَادُ الرَّحْمٰنِ الَّذِينَ يَمْشُونَ عَلَى الْأَرْضِ هَوْنًا",
+      "start": 578.5,
+      "end": 583.5,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "25",
+      "ayah_number": "63",
+      "text": "کہ رحمن کے بندے زمین پر آہستگی سے چلتے ہیں وہ زمین کو بھی اس کا حق دیتے ہوئے چلتے ہیں",
+      "start": 583.5,
+      "end": 591.0,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "68",
+      "ayah_number": "4",
+      "text": "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ",
+      "start": 632.5,
+      "end": 636.12,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "68",
+      "ayah_number": "4",
+      "text": "اور بے شک تم اخلاق کے بڑے مرتبے پر ہو",
+      "start": 641.5,
+      "end": 644.9,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "3",
+      "ayah_number": "159",
+      "text": "فَبِمَا رَحْمَةٍ مِنَ اللَّهِ لِنْتَ لَهُمْ وَلَوْ كُنْتَ فَظًّا غَلِيظَ الْقَلْبِ لَانْفَضُّوا مِنْ حَوْلِكَ",
+      "start": 690.5,
+      "end": 701.06,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "3",
+      "ayah_number": "159",
+      "text": "اے پیغمبر صلی اللہ علیہ وسلم یہ اللہ کی بڑی رحمت ہے کہ تم ان لوگوں کے لیے بہت نرم مزاج واقع ہوئے ہو ورنہ اگر کہیں تم تندخو اور سنگ دل ہوتے تو یہ سب تمہارے گرد و پیش سے چھٹ جاتے سب بھاگ جاتے",
+      "start": 703.5,
+      "end": 723.52,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "273",
+      "text": "تَعْرِفُهُمْ بِسِيمَاهُمْ لَا يَسْأَلُونَ النَّاسَ إِلْحَافًا",
+      "start": 1763.16,
+      "end": 1767.5,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "273",
+      "text": "تم انہیں ان کے چہروں سے پہچانو گے وہ لوگوں کے پیچھے پڑ کے نہیں مانگا کرتے",
+      "start": 1767.5,
+      "end": 1774.0,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "31",
+      "ayah_number": "14",
+      "text": "أَنِ اشْكُرْ لِي وَلِوَالِدَيْكَ",
+      "start": 2090.92,
+      "end": 2093.5,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "31",
+      "ayah_number": "14",
+      "text": "میں اپنے والدہ کا شکر گزار کہ جس نے میری بچپن میں تربیت کی",
+      "start": 2093.5,
+      "end": 2098.5,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "44",
+      "text": "فَقُولَا لَهُ قَوْلًا لَيِّنًا",
+      "start": 3388.5,
+      "end": 3391.28,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "44",
+      "text": "نرم بات کرنا",
+      "start": 3391.28,
+      "end": 3392.02,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "79",
+      "ayah_number": "18",
+      "text": "فَقُلْ هَلْ لَكَ إِلَى أَنْ تَزَكَّى",
+      "start": 3393.5,
+      "end": 3397.0,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "79",
+      "ayah_number": "18",
+      "text": "کیا آپ چاہتے ہیں کہ میں آپ کو ایسی بات بتاؤں جس سے آپ کا تزکیہ ہو کیا آپ تزکیہ اختیار کرنا چاہیں گے",
+      "start": 3429.5,
+      "end": 3439.38,
+      "usage": "translation",
+      "extent": "complete"
+    }
+  ],
+  "hadith": [
+    {
+      "reference": "Ahmad_8952",
+      "expanded_reference": "Musnad Ahmad, Musnad Abi Hurairah, Hadith 8952 (also Al-Adab Al-Mufrad 273)",
+      "text": "إِنَّمَا بُعِثْتُ لِأُتَمِّمَ صَالِحَ الْأَخْلَاقِ",
+      "start": 1152.0,
+      "end": 1157.0,
+      "usage": "quotation"
+    },
+    {
+      "reference": "Ahmad_8952",
+      "expanded_reference": "Musnad Ahmad, Musnad Abi Hurairah, Hadith 8952 (also Al-Adab Al-Mufrad 273)",
+      "text": "بے شک میں اچھے اخلاق کی تکمیل کے لیے بھیجا گیا ہوں",
+      "start": 1164.0,
+      "end": 1169.7,
+      "usage": "translation"
+    },
+    {
+      "reference": "SM_2310",
+      "expanded_reference": "Sahih Muslim, Book 43 (The Book of Virtues), Chapter 13: His Good Character, Hadith 2310",
+      "text": "كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَحْسَنَ النَّاسِ خُلُقًا",
+      "start": 2281.0,
+      "end": 2286.0,
+      "usage": "quotation"
+    },
+    {
+      "reference": "SM_2310",
+      "expanded_reference": "Sahih Muslim, Book 43 (The Book of Virtues), Chapter 13: His Good Character, Hadith 2310",
+      "text": "رسول اللہ صلی اللہ علیہ وسلم لوگوں میں سب سے زیادہ اچھے اخلاق کے مالک تھے",
+      "start": 2292.0,
+      "end": 2297.0,
+      "usage": "translation"
+    },
+    {
+      "reference": "AD_4682",
+      "expanded_reference": "Sunan Abi Dawud, Book 42 (Model Behavior of the Prophet / Kitab As-Sunnah), Chapter: Degree of Faith, Hadith 4682",
+      "text": "أَكْمَلُ الْمُؤْمِنِينَ إِيمَانًا أَحْسَنُهُمْ خُلُقًا",
+      "start": 2313.0,
+      "end": 2317.0,
+      "usage": "quotation"
+    },
+    {
+      "reference": "AD_4682",
+      "expanded_reference": "Sunan Abi Dawud, Book 42 (Model Behavior of the Prophet / Kitab As-Sunnah), Chapter: Degree of Faith, Hadith 4682",
+      "text": "سب سے زیادہ کامل سب سے زیادہ مکمل ایمان میں کون ہے جو سب سے اچھے ہیں اخلاق میں",
+      "start": 2331.0,
+      "end": 2348.3,
+      "usage": "translation"
+    },
+    {
+      "reference": "JT_2003",
+      "expanded_reference": "Jami` at-Tirmidhi, Book 27 (Chapters on Righteousness and Maintaining Good Relations), Chapter 62: Good Character, Hadith 2003",
+      "text": "مَا مِنْ شَيْءٍ يُوضَعُ فِي الْمِيزَانِ أَثْقَلُ مِنْ حُسْنِ الْخُلُقِ وَإِنَّ صَاحِبَ حُسْنِ الْخُلُقِ لَيَبْلُغُ بِهِ دَرَجَةَ صَاحِبِ الصَّوْمِ وَالصَّلَاةِ",
+      "start": 2367.0,
+      "end": 2382.06,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2003",
+      "expanded_reference": "Jami` at-Tirmidhi, Book 27 (Chapters on Righteousness and Maintaining Good Relations), Chapter 62: Good Character, Hadith 2003",
+      "text": "میزان میں جو نیکی سب سے زیادہ وزنی ہوگی وہ حسن اخلاق ہوگا... اور اچھے اخلاق کے ذریعے پہنچ جاتا ہے ایک انسان روزے اور نماز والے کے درجے کو",
+      "start": 2450.44,
+      "end": 2493.18,
+      "usage": "translation"
+    },
+    {
+      "reference": "JT_2684",
+      "expanded_reference": "Jami` at-Tirmidhi, Book 41 (Chapters on Knowledge), Chapter 19: What Has Been Related Regarding Understanding the Religion, Hadith 2684",
+      "text": "خَصْلَتَانِ لَا تَجْتَمِعَانِ فِي مُنَافِقٍ: حُسْنُ سَمْتٍ وَلَا فِقْهٌ فِي الدِّينِ",
+      "start": 2536.3,
+      "end": 2544.5,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2684",
+      "expanded_reference": "Jami` at-Tirmidhi, Book 41 (Chapters on Knowledge), Chapter 19: What Has Been Related Regarding Understanding the Religion, Hadith 2684",
+      "text": "دو خصلتیں دو عادتیں اخلاق کی دو باتیں نہیں جمع ہو سکتیں کسی منافق میں: اچھی چال چلن اور نہ دین کی سمجھ",
+      "start": 2555.0,
+      "end": 2580.0,
+      "usage": "translation"
+    },
+    {
+      "reference": "IM_3436",
+      "expanded_reference": "Sunan Ibn Majah, Book 31 (Chapters on Medicine), Chapter 1: Medicine and Healing, Hadith 3436",
+      "text": "مَا خَيْرُ مَا أُعْطِيَ النَّاسُ؟ قَالَ: إِنَّ النَّاسَ لَمْ يُعْطَوْا شَيْئًا خَيْرًا مِنْ خُلُقٍ حَسَنٍ",
+      "start": 2611.0,
+      "end": 2646.0,
+      "usage": "quotation"
+    },
+    {
+      "reference": "IM_3436",
+      "expanded_reference": "Sunan Ibn Majah, Book 31 (Chapters on Medicine), Chapter 1: Medicine and Healing, Hadith 3436",
+      "text": "وہ کون سی بھلائی ہے جو سب سے زیادہ بہتر ہے جو لوگوں کو دی گئی؟ فرمایا کہ انسانوں کو اچھے اخلاق سے بڑھ کر کوئی بھی چیز اچھی نہیں ملی",
+      "start": 2613.0,
+      "end": 2648.0,
+      "usage": "translation"
+    },
+    {
+      "reference": "JT_1987",
+      "expanded_reference": "Jami` at-Tirmidhi, Book 27 (Chapters on Righteousness and Maintaining Good Relations), Chapter 55: Fear of Allah and Good Conduct, Hadith 1987",
+      "text": "اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا، وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ",
+      "start": 2673.0,
+      "end": 2681.36,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_1987",
+      "expanded_reference": "Jami` at-Tirmidhi, Book 27 (Chapters on Righteousness and Maintaining Good Relations), Chapter 55: Fear of Allah and Good Conduct, Hadith 1987",
+      "text": "تو جہاں کہیں بھی ہو اللہ سے ڈر اور برائی کے پیچھے نیکی کر نیکی برائی کو مٹا دے گی اور لوگوں کے ساتھ اچھے اخلاق سے پیش آؤ",
+      "start": 2730.0,
+      "end": 2742.0,
+      "usage": "translation"
+    },
+    {
+      "reference": "JT_2007",
+      "expanded_reference": "Jami` at-Tirmidhi, Book 27 (Chapters on Righteousness and Maintaining Good Relations), Chapter 63: Doing Good to Those Who Do Good to You, Hadith 2007",
+      "text": "تم لوگوں کے تابع نہ بنو یہ نہ کہو کہ لوگ اچھا کریں گے تو ہم بھی اچھا کریں گے اور اگر برا کریں گے تو ہم بھی برا کریں گے بلکہ کیا کہو اگر وہ ہمارے ساتھ اچھا کریں گے تو بھی اچھا کریں گے اور اگر وہ برا کریں گے تو بھی اچھا کریں گے",
+      "start": 3474.0,
+      "end": 3494.0,
+      "usage": "translation"
+    }
+  ],
+  "dua": [
+    {
+      "reference": "QuranicDua-08",
+      "text": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي يَفْقَهُوا قَوْلِي",
+      "start": 9.66,
+      "end": 19.12,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "SharhSadr-01",
+      "text": "اَللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ۔ اَللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "start": 23.0,
+      "end": 55.0,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-118",
+      "text": "اَللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+      "start": 90.0,
+      "end": 95.0,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-159",
+      "text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "start": 3494.0,
+      "end": 3499.5,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Morals and Ethics / Husn al-Khuluq",
+      "description": "The linguistic root and theological foundation of moral character as an ingrained internal disposition governing outward human interaction and etiquette.",
+      "start": 49.58,
+      "end": 609.94
+    },
+    {
+      "name": "Prophetic Exemplar / Uswah Hasanah",
+      "description": "The sublime moral perfection of Prophet Muhammad as witnessed by his companions, servant Zayd ibn Harithah, and family.",
+      "start": 609.94,
+      "end": 1283.02
+    },
+    {
+      "name": "Companions of the Prophet / Sahabah",
+      "description": "The life, profound dedication to Hadith, piety, filial devotion, and poverty of Abu Hurairah under the Prophet's tutelage.",
+      "start": 1283.02,
+      "end": 2276.48
+    },
+    {
+      "name": "Filial Piety / Birr al-Walidayn",
+      "description": "Devotion, daily supplication, respectful manners, and service towards parents even when faced with religious opposition.",
+      "start": 2008.56,
+      "end": 2176.1
+    },
+    {
+      "name": "The Scales of Judgment / Mizan",
+      "description": "Good character weighing heavier than any deed on the Scales of the Hereafter, elevating a believer to the rank of those who continuously fast and pray.",
+      "start": 2361.4,
+      "end": 2526.28
+    },
+    {
+      "name": "Self-Accountability / Muhasabah",
+      "description": "Reflecting on personal moral failures, instant emotional reactions, diary documentation, and adopting proactive forgiveness rather than reciprocal harm.",
+      "start": 3094.24,
+      "end": 3495.68
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "Essence and Linguistic Definition of Husn al-Khuluq",
+      "title_ur": "حُسنِ خُلق کی تعریف اور مفہوم",
+      "start": 0.0,
+      "end": 358.68
+    },
+    {
+      "title_en": "Inner Moral Beauty and Universal Social Etiquette",
+      "title_ur": "باطنی خوبصورتی اور آدابِ معاشرت",
+      "start": 358.68,
+      "end": 609.94
+    },
+    {
+      "title_en": "The Prophetic Character and the Devotion of Zayd ibn Harithah",
+      "title_ur": "رسول اللہ صلی اللہ علیہ وسلم کا اخلاق اور وفائے زید بن حارثہؓ",
+      "start": 609.94,
+      "end": 997.5
+    },
+    {
+      "title_en": "True Evaluation of Moral Conduct within the Household",
+      "title_ur": "گھریلو زندگی اور قریبی تعلقات میں اخلاق کا اصل امتحان",
+      "start": 997.5,
+      "end": 1283.02
+    },
+    {
+      "title_en": "The Mission of Perfecting Morals and Abu Hurairah's Background",
+      "title_ur": "تکمیلِ اخلاق کی بعثت اور حضرت ابو ہریرہؓ کا تعارف",
+      "start": 1283.02,
+      "end": 1606.14
+    },
+    {
+      "title_en": "Abu Hurairah's Pursuit of Knowledge and Life at As-Suffah",
+      "title_ur": "حضرت ابو ہریرہؓ کا شوقِ علم اور اصحابِ صفہ کا دور",
+      "start": 1606.14,
+      "end": 1940.48
+    },
+    {
+      "title_en": "Filial Piety, Exemplary Conduct, and the Departure of Abu Hurairah",
+      "title_ur": "ماں کے ساتھ حسنِ سلوک اور حضرت ابو ہریرہؓ کی وفات",
+      "start": 1940.48,
+      "end": 2276.48
+    },
+    {
+      "title_en": "Prophetic Traditions on the Weight and Degrees of Character",
+      "title_ur": "میزان میں حسنِ اخلاق کی فضیلت اور احادیثِ مبارکہ",
+      "start": 2276.48,
+      "end": 2661.14
+    },
+    {
+      "title_en": "Three Golden Maxims of Righteous Interaction",
+      "title_ur": "تقویٰ، نیکی کے ذریعے برائی کا ازالہ اور باہمی برتاؤ",
+      "start": 2661.14,
+      "end": 3094.24
+    },
+    {
+      "title_en": "Practical Diary Assignment and Gentle Persuasion",
+      "title_ur": "عملی محاسبہ ڈائری اور نرم گفتگو کا قرآنی اسلوب",
+      "start": 3094.24,
+      "end": 3500.38
+    }
+  ]
+}

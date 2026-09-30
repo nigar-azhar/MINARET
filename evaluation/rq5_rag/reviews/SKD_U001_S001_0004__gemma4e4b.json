@@ -1,0 +1,158 @@
+[
+  {
+    "question_id": "Q45",
+    "question": "لیکچرر کے مطابق مشکل حالات کا سامنا کرنے والے لوگوں کی کون سی چار اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0004",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0010",
+      "SKD_U001_S001_0004_chunk_0011",
+      "SKD_U001_S001_0004_chunk_0012",
+      "SKD_U001_S001_0004_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 0.75
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.25,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق مشکل حالات کا سامنا کرنے والے لوگوں کی چار اقسام درج ذیل ہیں:\n\n1. **ناخوش** (پہلا درجہ) [chunk_id=SKD_U001_S001_0004_chunk_0013]\n2. **صابر** (دوسرا درجہ) [chunk_id=SKD_U001_S001_0004_chunk_0013]\n3. **راضی** (تیسرا درجہ) [chunk_id=SKD_U001_S001_0004_chunk_0013]\n4. **شکر ادا کرنے والے** (چوتھا اور سب سے اونچا درجہ) [chunk_id=SKD_U001_S001_0004_chunk_0013]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2403,
+    "elapsed_seconds": 46.28,
+    "generated_at": "2026-09-23T20:09:25.812652+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0013 (\"پہلے درجہ والے ناخوش دوسرے درجہ والے صابر تیسرے درجہ والے راضی چوتھے درجہ والے شکر ادا کرنے والے\"), confirmed against V3 segments 420-428. Model's 4-item list (ناخوش، صابر، راضی، شکر ادا کرنے والے) with correct ordinal labels matches exactly. Correctly grounded."
+  },
+  {
+    "question_id": "Q46",
+    "question": "According to the lecturer, what are the four types of people described in how they respond to hardship?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0004",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0010",
+      "SKD_U001_S001_0004_chunk_0011",
+      "SKD_U001_S001_0004_chunk_0012",
+      "SKD_U001_S001_0004_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 1.0,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.25,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, the four degrees/types of people described in response to hardship are:\n\n1.  Those who are unhappy/displeased (ناخوش) [chunk_id=SKD_U001_S001_0004_chunk_0013].\n2.  The patient (صابر) [chunk_id=SKD_U001_S001_0004_chunk_0013].\n3.  Those who are content/satisfied with Allah's pleasure (راضی) [chunk_id=SKD_U001_S001_0004_chunk_0013].\n4.  Those who give thanks (شکر ادا کرنے والے), which is stated to be the highest degree [chunk_id=SKD_U001_S001_0004_chunk_0013].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2412,
+    "elapsed_seconds": 21.0,
+    "generated_at": "2026-09-23T20:09:46.812297+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English pair of Q45. Model's list (unhappy/دissatisfied=ناخوش, patient=صابر, content/راضی, grateful=شکر ادا کرنے والے, noted as highest) matches chunk_0013 and the supporting narrative in chunks_0010/0011/0012. Correctly grounded."
+  },
+  {
+    "question_id": "Q55",
+    "question": "لیکچرر کے مطابق اللہ تعالیٰ کن پانچ چیزوں سے پاک ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0004",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0055"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق اللہ تعالیٰ پانچ چیزوں سے پاک ہیں: نقص، کمی، کمزوری، خطا اور برائی۔\n\n(Source: [chunk_id=SKD_U001_S001_0004_chunk_0055])",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1900,
+    "elapsed_seconds": 23.32,
+    "generated_at": "2026-09-23T20:10:10.135102+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked chunk_0055 and cross-checked against V3 segments 915-924, which give the lecturer's actual 5-word list: عیب (fault), نقص (deficiency), کمزوری (weakness), خطا (error), برائی (evil) - explicitly stated as 'یہ پانچ لفظ' (these five words) at segment 918, with 'کمی' at segment 921 being a parenthetical gloss explaining what نقص means, not a separate 6th/5th item. Model's answer (نقص، کمی، کمزوری، خطا، برائی) is 4/5 right (نقص, کمزوری, خطا, برائی) but wrongly treats the explanatory gloss 'کمی' as a distinct list item and omits 'عیب' (fault) entirely. Same error repeated in Q56 (English pair)."
+  },
+  {
+    "question_id": "Q56",
+    "question": "According to the lecturer, which five things is Allah described as being free from?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0004",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0055"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0055"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, Allah is described as being free from these five things:\n1. نقص (defect)\n2. کمی (lack/deficiency)\n3. کمزوری (weakness)\n4. خطا (error)\n5. برائی (evil)\n\n(chunk_id=SKD_U001_S001_0004_chunk_0055)",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1765,
+    "elapsed_seconds": 15.98,
+    "generated_at": "2026-09-23T20:10:26.115076+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "English pair of Q55, same content and same error - lists نقص, کمی, کمزوری, خطا, برائی. Per V3 segments 915-924, the correct 5 items are عیب, نقص, کمزوری, خطا, برائی; 'کمی' (segment 921) is a gloss of نقص, not a separate item, and عیب is missing. 4/5 items correct, citation to chunk_0055 is accurate in general location but the specific list is slightly off."
+  }
+]

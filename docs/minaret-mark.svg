@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MINARET">
+  <defs>
+    <linearGradient id="mg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#8cc63f"/>
+      <stop offset="1" stop-color="#00a7e1"/>
+    </linearGradient>
+    <mask id="crescent">
+      <rect width="64" height="64" fill="#fff"/>
+      <circle cx="34.2" cy="5.6" r="3.4" fill="#000"/>
+    </mask>
+    <mask id="arches">
+      <rect width="64" height="64" fill="#fff"/>
+      <path d="M29.5 41v-4.2a2.5 2.5 0 0 1 5 0V41z" fill="#000"/>
+      <path d="M30.2 33.2h3.6v1.2h-3.6z" fill="#000"/>
+    </mask>
+  </defs>
+  <circle cx="32" cy="7" r="4.2" fill="url(#mg)" mask="url(#crescent)"/>
+  <rect x="31.3" y="11" width="1.4" height="5.2" rx="0.7" fill="url(#mg)"/>
+  <g fill="url(#mg)" mask="url(#arches)">
+    <path d="M24.5 25.5C24.5 19.4 27.8 16 32 16s7.5 3.4 7.5 9.5z"/>
+    <rect x="21.5" y="25.5" width="21" height="3.2" rx="1.6"/>
+    <path d="M25.5 28.7h13l-0.8 26.3H26.3z"/>
+    <rect x="22.8" y="44.5" width="18.4" height="2.8" rx="1.4"/>
+    <rect x="19.5" y="55" width="25" height="4.5" rx="1.5"/>
+  </g>
+</svg>

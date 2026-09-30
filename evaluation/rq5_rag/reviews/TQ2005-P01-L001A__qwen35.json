@@ -1,0 +1,154 @@
+[
+  {
+    "question_id": "Q9",
+    "question": "کامیاب انسان بننے کے لیے کن پہلوؤں کا جاگنا ضروری بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001A_chunk_0003",
+      "TQ2005-P01-L001A_chunk_0004"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.5
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0003"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nاس لیکچر میں کامیاب انسان بننے کے لیے درج ذیل پہلوؤں کا ہارمونی اور بیلنس ہونا ضروری بتایا گیا ہے: جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی۔ اس کے علاوہ زندگی کو سوچ سمجھ کے ساتھ گزارنا بھی ضروری ہے۔\n\n[chunk_id=TQ2005-P01-L001A_chunk_0003]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 15261,
+    "elapsed_seconds": 282.9,
+    "generated_at": "2026-09-23T16:55:33.531874+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0003 text: \"کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت... ان سب کے اندر ایک ہارمونی اور بیلنس ہو (chunk_0003, 87.04-116.34s)\". Model's Urdu answer (\"جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی... ہارمونی اور بیلنس\") paraphrases this chunk accurately and cites it correctly. Per the gold file's note, chunk_0003 is accepted as an equally direct answer to this 'awaken' question alongside chunk_0004, so citing chunk_0003 alone is sufficient."
+  },
+  {
+    "question_id": "Q24",
+    "question": "According to the lecture, which aspects of a person need to 'awaken' in order to become a successful person?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001A_chunk_0003",
+      "TQ2005-P01-L001A_chunk_0004"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0003",
+        "TQ2005-P01-L001A_chunk_0004"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided lecture excerpts, the following aspects of a person need to 'awaken' (or be active) in order for them to become successful:\n\n1.  **Intellectual Aspect (ذہنی ایسپیکٹ / انٹلیکچوئل ایسپیکٹ):** The speaker states that until the intellectual aspect, consciousness (شعور), and thinking aspect (سوچ کا ایسپیکٹ) awaken, one cannot progress in religion.\n2.  **Moderate Personality (معتدل شخصیت):** A successful person is described as having a moderate personality that maintains harmony and balance across all life aspects.\n\n**Specific Aspects requiring Balance/Harmony:**\nThe lecture mentions that a successful person's personality must be balanced in the following areas:\n*   Physical (جسمانی)\n*   Mental/Intellectual (ذہنی)\n*   Spiritual (روحانی)\n*   Emotional (امم جذباتی - likely a transcription error for \"Emotional\")\n*   Social (سماجی)\n\n**Citations:**\n*   **Chunk 0003 (TQ2005-P01-L001A_chunk_0003):** Defines a successful person as having a moderate personality with harmony and balance in physical, mental, spiritual, emotional, and social aspects.\n*   **Chunk 0004 (TQ2005-P01-L001A_chunk_0004):** States that the mental aspect, intellectual aspect, consciousness, and thinking aspect must awaken for progress.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا ان",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 299.04,
+    "generated_at": "2026-09-23T17:00:32.557751+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0003 (\"کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت... ان سب کے اندر ایک ہارمونی اور بیلنس ہو (chunk_0003, 87.04-116.34s)\") and chunk_0004 (\"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے (chunk_0004, 116.34-140.42s)\"), both cited. Answer correctly separates the 'awaken' claim (intellectual/consciousness/thinking aspect, from chunk_0004) from the 'balance across 5 aspects' claim (chunk_0003) and both are accurately grounded. NOTE: generation hit the token limit (finish_reason=length) and degenerated into ~15x verbatim repetition of the same 'Answer:' block - a generation-quality defect, but the content that is present is not fabricated and matches the source, so grading on correctness not fluency."
+  },
+  {
+    "question_id": "Q11",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001A",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0023",
+        "TQ2005-P01-L001A_chunk_0029",
+        "TQ2005-P01-L001A_chunk_0032",
+        "TQ2005-P01-L001A_chunk_0033"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question. The retrieved excerpts discuss the importance of continuous learning, discipline in class (such as sitting in rows), and how one's actions serve as a model for others, but they do not mention the specific etiquettes of Hajj or Umrah.\n\n**Citation:**\n- TQ2005-P01-L001A_chunk_0023\n- TQ2005-P01-L001A_chunk_0033\n- TQ2005-P01-L001A_chunk_0032\n- TQ2005-P01-L001A_chunk_0029",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 76.12,
+    "generated_at": "2026-09-23T17:01:48.697286+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Model refused, citing chunks 0023/0029/0032/0033 as the retrieved-but-irrelevant excerpts. checked chunks 0023 (continuous learning/knowledge-seeking), 0029 (being watched, setting example), 0032 (discipline/rows in class), 0033 (personal conduct as walking dawah) - none mention Hajj/Umrah etiquette, confirming this lecture (a course-logistics/Al-Fatiha recap lesson) genuinely does not cover that topic. Correct refusal, not a hallucinated answer."
+  },
+  {
+    "question_id": "Q26",
+    "question": "اس سبق میں حج اور عمرہ کے آداب کے بارے میں کیا بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001A",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 4204,
+    "elapsed_seconds": 130.57,
+    "generated_at": "2026-09-23T17:03:59.265268+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Urdu cross-lingual variant of Q11, same lecture content applies. checked chunks 0023 (continuous learning/knowledge-seeking), 0029 (being watched, setting example), 0032 (discipline/rows in class), 0033 (personal conduct as walking dawah) - none mention Hajj/Umrah etiquette, confirming this lecture (a course-logistics/Al-Fatiha recap lesson) genuinely does not cover that topic. Model correctly refused ('This lecture does not provide enough information...') despite citing no chunks."
+  }
+]

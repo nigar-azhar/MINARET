@@ -1,0 +1,156 @@
+[
+  {
+    "question_id": "Q31",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ میں صرف ایک ایسا نیا لفظ ہے جو اردو میں اسی معنی میں استعمال نہیں ہوتا، وہ کون سا لفظ ہے اور اس کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001D",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0002"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "chunk_id=TQ2005-P01-L001D_chunk_0002 lecture_id=TQ2005-P01-L001D start=61.66s end=99.76s\nاب اس میں آپ دیکھیے کہ نیا لفظ پوری سورت میں صرف ایک ہے اور وہ کیا ہے؟ «الدِّیْنِ»۔ «الدِّیْنِ» کا لفظ جو ہے، اگرچہ ہم دین کے معنوں میں استعمال کرتے ہیں، دینِ اسلام کے معنوں میں، لیکن دین کا یہ معنی جو یہاں بیان کیا گیا ہے، جزا و سزا کا، بدلے کا، یہ نیا لفظ ہے۔\n\nیہ اردو میں دین اس معنی میں استعمال نہیں ہوتا، سمجھے؟\n\nاس سے پتہ چلتا ہے کہ نیا لفظ «الدِّیْنِ» ہے اور اس کا مطلب جزا و سزا کا یا بدلے کا ہے، جو اردو میں دین کے معنی میں استعمال نہیں ہوتا۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 36.38,
+    "generated_at": "2026-09-23T20:24:36.132114+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0002 -- model quotes the chunk verbatim ('نیا لفظ پوری سورت میں صرف ایک ہے... «الدِّیْنِ»... جزا و سزا کا، بدلے کا') then restates it; matches source exactly, correct chunk."
+  },
+  {
+    "question_id": "Q32",
+    "question": "According to the lecturer, which is the only word in Surah Al-Fatiha that is genuinely new (not used in that sense in everyday Urdu), and what meaning is given for it?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001D",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0002"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, the new word in Surah Al-Fatiha is «الدِّیْنِ» (chunk_id=TQ2005-P01-L001D_chunk_0002). The lecturer explains that although we use the word 'dīn' in Urdu with the meaning of religion or Islam, in this context, it means \"جزا و سزا کا\" (reward and punishment) which is a new sense for this word.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 29.72,
+    "generated_at": "2026-09-23T20:25:05.852286+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0002, same source text as Q31. English answer (الدین, meaning reward/punishment, new sense) accurately matches, consistent with the model's own Urdu answer (Q31)."
+  },
+  {
+    "question_id": "Q65",
+    "question": "لیکچرر کے مطابق شیخ ابن باز کے فتوے میں حالتِ حیض میں قرآن پاک کو ہاتھ لگا کر سبق یاد کرنے کے بارے میں کیا کہا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001D",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0021",
+      "TQ2005-P01-L001D_chunk_0024"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 2,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0021"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "شیخ ابن باز کے فتوے میں حالتِ حیض میں قرآن پاک کو ہاتھ لگا کر سبق یاد کرنے کے بارے میں یہ کہا گیا ہے:\n\n\"بغیر مصحف چھوئے قرآن پڑھنا جائز ہے، اس لیے کہ عدمِ جواز یعنی جائز نہ ہونے کی کوئی دلیل ثابت نہیں۔ دونوں قسم کی عورتیں کسی پاک کپڑے کے ذریعے قرآن کو پکڑ سکتی ہیں۔\" (chunk_id=TQ2005-P01-L001D_chunk_0021)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 39.19,
+    "generated_at": "2026-09-23T20:25:45.043085+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0021 -- model quotes 'بغیر مصحف چھوئے قرآن پڑھنا جائز ہے، اس لیے کہ عدمِ جواز یعنی جائز نہ ہونے کی کوئی دلیل ثابت نہیں۔ دونوں قسم کی عورتیں کسی پاک کپڑے کے ذریعے قرآن کو پکڑ سکتی ہیں' nearly verbatim from the source (dropped the medical-gloves clause but kept the core ruling). Accurate, correctly grounded, though slightly less complete than gemma's/qwen's Q65 answers which also cover the gloves detail."
+  },
+  {
+    "question_id": "Q66",
+    "question": "According to the lecturer, what does Sheikh Ibn Baz's fatwa say about a woman memorizing the Quran during her menstrual period without directly touching the mus-haf?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001D",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0021",
+      "TQ2005-P01-L001D_chunk_0024"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0021"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture excerpts, Sheikh Ibn Baz says that it is permissible for a woman to recite the Quran during her menstrual period without directly touching the mus-haf (TQ2005-P01-L001D_chunk_0021). He also mentions that there is no evidence to prove that it is not permissible.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 32.1,
+    "generated_at": "2026-09-23T20:26:17.141949+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0021 only (model did not retrieve/cite chunk_0024). 'بغیر مصحف چھوئے قرآن پڑھنا جائز ہے... عدمِ جواز... کوئی دلیل ثابت نہیں' supports both claims made (permissible without directly touching mus-haf; no evidence it's impermissible). Answer is accurate but narrower/less complete than qwen's and gemma's Q66 answers, which additionally cite chunk_0024's point about the weak Ibn Umar hadith -- still correct as far as it goes, no unsupported claims."
+  }
+]

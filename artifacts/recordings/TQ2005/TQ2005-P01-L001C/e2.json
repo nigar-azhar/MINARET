@@ -1,0 +1,196 @@
+{
+  "ayat": [
+    {
+      "surah_number": "1",
+      "ayah_number": "1",
+      "text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "start": 0.0,
+      "end": 9.1,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "1",
+      "text": "«بِ» ساتھ، «اسْمِ» نام، «اللّٰهِ» اللہ کے، اللہ کے نام کے ساتھ یا اللہ کے نام سے۔ «الرَّحْمٰنِ» جو بہت مہربان ہے، «الرَّحِیْمِ» نہایت رحم کرنے والا ہے۔",
+      "start": 9.1,
+      "end": 27.48,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "2",
+      "text": "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ",
+      "start": 27.48,
+      "end": 45.96,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "2",
+      "text": "«اَلْحَمْدُ» سب تعریف، «لِلّٰهِ» اللہ کے لیے ہے، «رَبِّ» جو رب ہے، «الْعٰلَمِیْنَ» تمام جہانوں کا",
+      "start": 27.48,
+      "end": 45.96,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "3",
+      "text": "الرَّحْمٰنِ الرَّحِیْمِ",
+      "start": 45.96,
+      "end": 55.58,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "3",
+      "text": "«الرَّحْمٰنِ» بہت مہربان ہے، «الرَّحِیْمِ» نہایت رحم کرنے والا ہے۔",
+      "start": 45.96,
+      "end": 55.58,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "4",
+      "text": "مٰلِكِ یَوْمِ الدِّیْنِ",
+      "start": 45.96,
+      "end": 64.86,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "4",
+      "text": "«مٰلِكِ» مالک ہے، «یَوْمِ» دن کا، «الدِّیْنِ» بدلے کے، یعنی قیامت کے۔",
+      "start": 45.96,
+      "end": 64.86,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ",
+      "start": 55.58,
+      "end": 74.26,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "«اِیَّاكَ» صرف تیری ہی، «نَعْبُدُ» ہم عبادت کرتے ہیں، «وَ» اور، «اِیَّاكَ» صرف تیری ہی، «نَسْتَعِیْنُ» ہم مدد چاہتے ہیں۔",
+      "start": 55.58,
+      "end": 74.26,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "6",
+      "text": "اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ",
+      "start": 64.86,
+      "end": 83.66,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "6",
+      "text": "«اِهْدِنَا» ہدایت دے ہمیں، «الصِّرَاطَ» راستے، «الْمُسْتَقِیْمَ» سیدھے کی",
+      "start": 64.86,
+      "end": 83.66,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "7",
+      "text": "صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ",
+      "start": 74.26,
+      "end": 106.36,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "7",
+      "text": "«صِرَاطَ» راستہ، «الَّذِیْنَ» ان کا، «اَنْعَمْتَ» انعام کیا تو نے، «عَلَیْهِمْ» جن پر، «غَیْرِ» نہ، «الْمَغْضُوْبِ» ان کا جو غضب کیا گیا، «عَلَیْهِمْ» جن پر، «وَ» اور، «لَا» نہ، «الضَّآلِّیْنَ» ان کا جو گمراہ ہیں۔",
+      "start": 74.26,
+      "end": 106.36,
+      "usage": "translation",
+      "extent": "complete"
+    }
+  ],
+  "hadith": [],
+  "dua": [
+    {
+      "reference": "QuranicDua-62",
+      "text": "اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ",
+      "start": 64.86,
+      "end": 83.66,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "topics": [
+    {
+      "name_en": "Divine Mercy and Compassion (Rahmah)",
+      "name_ur": "رحمتِ الٰہی: رحمن و رحیم",
+      "description_en": "The invocation of Allah's name and His attributes of all-encompassing Mercy (Ar-Rahman, Ar-Rahim).",
+      "description_ur": "اللہ کے بابرکت نام سے آغاز اور اس کی وسیع اور کامل رحمت کی صفات کا اقرار۔",
+      "start": 0.0,
+      "end": 36.92,
+      "ur_translation_generated": false
+    },
+    {
+      "name_en": "Praise and Divine Sovereignty (Hamd wa Rububiyyah)",
+      "name_ur": "حمد اور ربوبیتِ الٰہی",
+      "description_en": "All absolute praise belonging to Allah, the Lord and Sustainer of all creations and realms.",
+      "description_ur": "تمام کائنات کے پروردگار اور رب العالمین کے لیے تمام تر حمد و ثنا کا اعتراف۔",
+      "start": 27.48,
+      "end": 45.96,
+      "ur_translation_generated": false
+    },
+    {
+      "name_en": "The Day of Recompense (Yawm ad-Din)",
+      "name_ur": "مالکِ روزِ جزا",
+      "description_en": "Affirmation of Allah's absolute ownership and judgment on the Day of Resurrection and accountability.",
+      "description_ur": "قیامت کے دن کی حاکمیت اور جزا و سزا کے نظام پر ایمان۔",
+      "start": 45.96,
+      "end": 64.86,
+      "ur_translation_generated": false
+    },
+    {
+      "name_en": "Exclusive Worship and Reliance (Tawhid al-'Ibadah)",
+      "name_ur": "توحیدِ عبادت و استعانت",
+      "description_en": "Direct covenant reserving all acts of worship and ultimate reliance to Allah alone.",
+      "description_ur": "صرف اللہ تعالیٰ کی بندگی اور ہر معاملے میں صرف اسی سے مدد طلب کرنے کا عہد۔",
+      "start": 55.58,
+      "end": 74.26,
+      "ur_translation_generated": false
+    },
+    {
+      "name_en": "Seeking the Straight Path (Al-Hidayah)",
+      "name_ur": "طلبِ ہدایت اور صراطِ مستقیم",
+      "description_en": "Supplication for divine guidance to the straight path trodden by the blessed, avoiding divine wrath and astray paths.",
+      "description_ur": "سیدھے راستے کی دعا، جو انعام یافتہ بندوں کا راستہ ہے، اور گمراہی و غضب کے راستوں سے پناہ۔",
+      "start": 64.86,
+      "end": 106.36,
+      "ur_translation_generated": false
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "Word-by-Word Translation of Surah Al-Fatihah",
+      "title_ur": "سورۃ الفاتحہ کا لفظی ترجمہ",
+      "start": 0.0,
+      "end": 106.36
+    }
+  ]
+}

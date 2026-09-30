@@ -1,0 +1,274 @@
+{
+ "paper": {
+  "title": "MINARET: From Multilingual Audios to Knowledge Graphs via LLM-Assisted Semantic Enrichment",
+  "url": null,
+  "authors": [
+   {
+    "name": "Nigar Azhar Butt",
+    "orcid": "0009-0009-7560-1023"
+   },
+   {
+    "name": "Amna Binte Kamran",
+    "orcid": "0009-0003-1397-4912"
+   },
+   {
+    "name": "Amna Basharat",
+    "orcid": "0000-0002-5744-6498"
+   }
+  ],
+  "affiliation": "FAST National University of Computer and Emerging Sciences, Islamabad, Pakistan"
+ },
+ "repo_url": null,
+ "examples": [
+  {
+   "id": "ur",
+   "label": "Urdu lecture",
+   "notes": {
+    "asr": "Whisper hears the Arabic without its vowel marks and mishears two words: القحار for القهار, and على الله run together as علاللہ.",
+    "correct": "The correction model restores the Arabic, adds its diacritics and marks the quotation.",
+    "validate": "The quotation is matched to Surah Ghafir 40:16 in the Quran corpus and replaced with the canonical text.",
+    "review": "The reviewer accepts the ayah as a complete quotation and corrects a pause mark and one letter form in the quotation."
+   },
+   "language": "ur",
+   "recording": {
+    "id": "TQ2005-P01-L001F",
+    "kg_id": "TQ2005-0319",
+    "title_en": "Tafsir 1-7",
+    "title_ur": "تفسیر 1-7",
+    "series_en": "Talim al-Qur'an 2005",
+    "series_ur": "تعلیم القرآن 2005",
+    "series_code": "TQ2005",
+    "speaker_en": "Dr. Farhat Hashmi",
+    "speaker_ur": "ڈاکٹر فرحت ہاشمی",
+    "audio_url": "https://data.alhudamedia.com/Media/Al-Quran/Talim_al-Quran/TQ2005/TQ2005-P01-L001F_Al-Fatihah_1-7_Tafsir_1-7.mp3"
+   },
+   "segment": {
+    "start": 929.04,
+    "end": 939.8,
+    "text": {
+     "v0": "سورت المؤمن میں آتا ہے یوم ہم بارزون لا يخفى علاللہ منہم شیئ لمن الملک اليوم للہ الواحد القحار",
+     "v1": "سورۃ المؤمن میں آتا ہے: «يَوْمَ هُم بَارِزُونَ ۖ لَا يَخْفَىٰ عَلَى اللَّهِ مِنْهُمْ شَيْءٌ ۚ لِّمَنِ الْمُلْكُ الْيَوْمَ ۖ لِلَّهِ الْوَاحِدِ الْقَهَّارِ»",
+     "v2": "سورۃ المؤمن میں آتا ہے: «یَوْمَ هُمْ بَارِزُوْنَ ۖ لَا یَخْفٰی عَلَی اللّٰهِ مِنْهُمْ شَیْءٌ ؕ لِمَنِ الْمُلْكُ الْیَوْمَ ؕ لِلّٰهِ الْوَاحِدِ الْقَهَّارِ»",
+     "v3": "سورۃ المؤمن میں آتا ہے: «یَوْمَ هُمْ بَارِزُوْنَ ۬ۚ لَا یَخْفٰی عَلَى اللّٰهِ مِنْهُمْ شَیْءٌ ؕ لِمَنِ الْمُلْكُ الْیَوْمَ ؕ لِلّٰهِ الْوَاحِدِ الْقَهَّارِ»"
+    },
+    "time": {
+     "v0": [
+      929.04,
+      939.8
+     ],
+     "v1": [
+      929.04,
+      939.8
+     ],
+     "v2": [
+      929.04,
+      939.8
+     ],
+     "v3": [
+      929.04,
+      939.8
+     ]
+    }
+   },
+   "ayah": {
+    "surah": 40,
+    "ayah": 16,
+    "surah_name": "Ghafir (al-Mu'min)",
+    "e1": {
+     "text": "يَوْمَ هُم بَارِزُونَ لَا يَخْفَىٰ عَلَى اللَّهِ مِنْهُمْ شَيْءٌ لِّمَنِ الْمُلْكُ الْيَوْمَ لِلَّهِ الْوَاحِدِ الْقَهَّارِ",
+     "usage": "quotation",
+     "extent": "complete"
+    },
+    "e2": {
+     "text": "«یَوْمَ هُمْ بَارِزُوْنَ ۬ۚ لَا یَخْفٰی عَلَى اللّٰهِ مِنْهُمْ شَیْءٌ ؕ لِمَنِ الْمُلْكُ الْیَوْمَ ؕ لِلّٰهِ الْوَاحِدِ الْقَهَّارِ»",
+     "usage": "quotation",
+     "extent": "complete",
+     "start": 929.04,
+     "end": 939.8
+    },
+    "kg": {
+     "iri": "http://minaret-eval.org/ontology#QuranVerse_40_16",
+     "exact_match": [
+      "http://quranontology.com/Resource/quran40-16",
+      "http://www.semantictafsir.com/ontology/V040_016"
+     ],
+     "translation_en": "The Day they come forth nothing concerning them will be concealed from Allah. To whom belongs [all] sovereignty this Day? To Allah, the One, the Prevailing."
+    }
+   },
+   "topics": [
+    {
+     "name_en": "Divine Sovereignty on the Day of Judgment (Malik Yawm ad-Din)",
+     "name_ur": "مالکِ روزِ جزا اور اخروی جوابدہی",
+     "name": null,
+     "start": 898.6,
+     "end": 1031.6
+    }
+   ],
+   "headings": [
+    {
+     "title_en": "Absolute Sovereignty on Yawm ad-Din and Physical Submission",
+     "title_ur": "روزِ جزا کی مطلق حاکمیت اور سجدۂ عبودیت",
+     "start": 898.6,
+     "end": 1230.68
+    }
+   ],
+   "rag": {
+    "answer": {
+     "question": "لیکچر میں بیان کردہ روایت کے مطابق حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو کن دو نوروں کی خوشخبری دی، جو اس سے پہلے کسی نبی کو نہیں دیے گئے تھے؟",
+     "language": "urdu",
+     "answer": "لیکچر میں بیان کردہ روایت کے مطابق، حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو دو نوروں کی خوشخبری دی جو یہ تھے: ایک سورۃ الفاتحہ اور دوسرا سورۃ البقرہ کی آخری دو آیات [chunk_id=TQ2005-P01-L001F_chunk_0001]۔",
+     "model": "gemma-4-e4b-it",
+     "verdict": "correct_grounded",
+     "chunks": [
+      {
+       "id": "TQ2005-P01-L001F_chunk_0001",
+       "start": 32.4,
+       "end": 66.58,
+       "text": "انہوں نے اپنا سر اٹھایا، پھر فرمایا: یہ آسمان کا ایک دروازہ ہے جو آج سے پہلے کبھی نہیں کھلا۔ پھر فرمایا: یہ ایک فرشتہ ہے جو آج سے پہلے زمین پر کبھی نہیں اترا۔ پھر اس فرشتے نے آپ صلی اللہ علیہ وسلم کو سلام کیا اور دو نوروں کی خوشخبری دی، اور کہا: یہ دو نور آپ ہی کو دیے جا رہے ہیں، آپ سے پہلے کسی نبی کو نہیں دیے گئے۔ ایک سورۃ الفاتحہ اور دوسرا سورۃ البقرہ کی آخری دو آیات۔"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "en",
+   "label": "English lecture",
+   "notes": {
+    "asr": "The lecturer recites Al-Baqarah 2:197 before explaining it in English. Whisper hears this part of the recitation correctly.",
+    "correct": "Here the correction model makes it worse: رَفَثَ becomes رَفَسَ and فُسُوقَ becomes فُتُوْقَ.",
+    "validate": "Corpus validation matches the verse to Al-Baqarah 2:197 and puts back the canonical wording, undoing the model's errors.",
+    "review": "The reviewer moves الْحَجَّ back to the previous segment, where its sentence begins, and accepts the ayah as a complete quotation."
+   },
+   "language": "en",
+   "recording": {
+    "id": "HajjJourney2022Eng-L04",
+    "kg_id": "HAJJLT22-7041",
+    "title_en": "L04 Complete Hajj and Umrah for Allah, Fidyah, Sacrifice, Hajj Etiquettes, Good Deeds at Hajj, Achieving Taqwa by Hajj",
+    "title_ur": "L04 اللہ کے لیے مکمل حج اور عمرہ، فدیہ، قربانی، حج کے آداب، حج میں نیک اعمال، حج کے ذریعے تقویٰ کا حصول",
+    "series_en": "Hajj Journey of a lifetime",
+    "series_ur": "سفرِ حج",
+    "series_code": "HAJJLT22",
+    "speaker_en": "Maryam Saeed",
+    "speaker_ur": "مریم سعید",
+    "audio_url": "https://data.alhudamedia.com/Media/Fiqh/Hajj_o_Umrah/HajjJourney22/HajjJourney2022Eng-L04_Complete_Hajj_and_Umrah_for_Allah_Fidyah_Sacrifice_Hajj_Etiquettes_Good_Deeds_at_Hajj_Achieving_Taqwa_by_Hajj.mp3"
+   },
+   "segment": {
+    "start": 141.16,
+    "end": 151.04,
+    "text": {
+     "v0": "الْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي الْحَجِّ ۗ وَمَا تَفْعَلُوا مِنْ",
+     "v1": "الْحَجَّ فَلَا رَفَسَ وَلَا فُتُوْقَ وَلَا جِدَالَ فِي الْحَجِّ وَمَا تَفْعَلُوا مِنْ",
+     "v2": "الْحَجَّ فَلَا رَفَثَ وَلَا فُسُوْقَ وَلَا جِدَالَ فِی الْحَجِّ ؕ وَمَا تَفْعَلُوْا مِنْ",
+     "v3": "فَلَا رَفَثَ وَلَا فُسُوْقَ وَلَا جِدَالَ فِی الْحَجِّ ؕ وَمَا تَفْعَلُوْا مِنْ"
+    },
+    "time": {
+     "v0": [
+      141.16,
+      151.04
+     ],
+     "v1": [
+      141.16,
+      151.04
+     ],
+     "v2": [
+      141.16,
+      151.04
+     ],
+     "v3": [
+      141.16,
+      151.04
+     ]
+    }
+   },
+   "ayah": {
+    "surah": 2,
+    "ayah": 197,
+    "surah_name": "Al-Baqarah",
+    "e1": null,
+    "e2": {
+     "text": "اَلْحَجُّ اَشْهُرٌ مَّعْلُوْمٰتٌ ۚ فَمَنْ فَرَضَ فِیْهِنَّ الْحَجَّ فَلَا رَفَثَ وَلَا فُسُوْقَ وَلَا جِدَالَ فِی الْحَجِّ ؕ وَمَا تَفْعَلُوْا مِنْ خَیْرٍ یَّعْلَمْهُ اللّٰهُ ؕ وَتَزَوَّدُوْا فَاِنَّ خَیْرَ الزَّادِ التَّقْوٰی ۖ وَاتَّقُوْنِ یٰۤاُولِی الْاَلْبَابِ ۟",
+     "usage": "quotation",
+     "extent": "complete",
+     "start": 130.5,
+     "end": 169.94
+    },
+    "kg": {
+     "iri": "http://minaret-eval.org/ontology#QuranVerse_2_197",
+     "exact_match": [
+      "http://quranontology.com/Resource/quran2-197",
+      "http://www.semantictafsir.com/ontology/V002_197"
+     ],
+     "translation_en": "Hajj is [during] well-known months, so whoever has made Hajj obligatory upon himself therein [by entering the state of ihram], there is [to be for him] no sexual relations and no disobedience and no disputing during Hajj. And whatever good you do - Allah knows it. And take provisions, but indeed, the best provision is fear of Allah. And fear Me, O you of understanding."
+    }
+   },
+   "topics": [],
+   "headings": [
+    {
+     "title_en": "Orientation to Surah Al-Baqarah and Recitation of Verses 196-197",
+     "title_ur": "سورۃ البقرہ کا تعارف اور آیاتِ حج کی تلاوت",
+     "start": 0.0,
+     "end": 260.0
+    }
+   ],
+   "rag": {
+    "answer": {
+     "question": "What does the lecturer say a pilgrim should do if they break a bone or become lame while in ihram?",
+     "language": "english",
+     "answer": "If a person breaks a bone or becomes lame while in *ihram*, they have exited the sacred state of *ihram* and must perform Hajj the following year (HajjJourney2022Eng-L04_chunk_0033).",
+     "model": "gemma-4-e4b-it",
+     "verdict": "correct_grounded",
+     "chunks": [
+      {
+       "id": "HajjJourney2022Eng-L04_chunk_0033",
+       "start": 1049.34,
+       "end": 1079.72,
+       "text": "So Rasulullah sallallahu alayhi wa sallam said, if anyone breaks a bone or leg or becomes lame, he has come out of ihram. He has come out of the sacred state of ihram and must perform Hajj the following year. Right? That person is not sinful because these situations were not in that person's control. So another narration which is of very similar sort is just the one word is added here which is marid. So whoever breaks a bone, falls sick or becomes lame has exited ihram and he has to perform Hajj the following year."
+      }
+     ]
+    },
+    "refusal": {
+     "question": "What does the lecturer say about the Quranic concept of shifa (healing) and its six occurrences in the Qur'an?",
+     "language": "english",
+     "answer": "This lecture does not provide enough information to answer that question.",
+     "model": "gemma-4-e4b-it",
+     "verdict": "correctly_refused",
+     "chunks": []
+    }
+   }
+  }
+ ],
+ "released": {
+  "series": [
+   {
+    "title_en": "Hajj Journey of a lifetime",
+    "title_ur": "سفرِ حج",
+    "language": "English",
+    "speaker": "Maryam Saeed",
+    "recordings": 4
+   },
+   {
+    "title_en": "Husn e Akhlaq",
+    "title_ur": "حسنِ اخلاق",
+    "language": "Urdu",
+    "speaker": "Dr. Farhat Hashmi",
+    "recordings": 4
+   },
+   {
+    "title_en": "Shifa' Ki Dua'ein 2025",
+    "title_ur": "شفا کی دعائیں 2025",
+    "language": "Urdu",
+    "speaker": "Dr. Farhat Hashmi",
+    "recordings": 4
+   },
+   {
+    "title_en": "Talim al-Qur'an 2005",
+    "title_ur": "تعلیم القرآن 2005",
+    "language": "Urdu",
+    "speaker": "Dr. Farhat Hashmi",
+    "recordings": 6
+   }
+  ],
+  "recordings": 18
+ },
+ "mode": "static"
+}

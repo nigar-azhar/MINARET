@@ -1,0 +1,18 @@
+# CQ10 -- Find Dua "refersTo" by DuaOccurrence in Recording X.
+# Paper-reported result: 5 duas with canonical English translations, e.g. `("QuranicDua-46", "Indeed, adversity has touched me, and you are the most merciful of the merciful.")`.
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?ref ?translationEn WHERE {
+  ?rec minaret:recordingId "SKD2025-0001" .
+  ?rec minaret:hasTranscript/minaret:hasSegment ?seg .
+  ?occ a minaret:DuaOccurrence ; minaret:occursIn ?sg .
+  ?sg minaret:containsSegment ?seg .
+  ?occ minaret:refersTo ?dua .
+  ?dua minaret:reference ?ref .
+  OPTIONAL { ?dua minaret:translationEn ?translationEn }
+} LIMIT 5

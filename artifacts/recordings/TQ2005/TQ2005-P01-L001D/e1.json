@@ -1,0 +1,184 @@
+{
+  "ayat": [
+    {
+      "surah_number": "1",
+      "ayah_number": "2",
+      "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "start": 4.54,
+      "end": 16.38,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "2",
+      "text": "سب تعریف اللہ کے لیے ہے، جو رب ہے تمام جہانوں کا، یا جو تمام جہانوں کا رب ہے۔",
+      "start": 4.54,
+      "end": 16.38,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "3",
+      "text": "الرَّحْمَٰنِ الرَّحِيمِ",
+      "start": 17.4,
+      "end": 27.3,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "3",
+      "text": "نہایت مہربان، بار بار رحم کرنے والا۔",
+      "start": 17.4,
+      "end": 27.3,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "4",
+      "text": "مَالِكِ يَوْمِ الدِّينِ",
+      "start": 17.4,
+      "end": 27.3,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "4",
+      "text": "روزِ جزا کا مالک ہے۔",
+      "start": 17.4,
+      "end": 27.3,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "start": 28.68,
+      "end": 42.92,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "صرف تیری ہم عبادت کرتے ہیں، اور صرف تجھ ہی سے ہم مدد چاہتے ہیں۔",
+      "start": 28.68,
+      "end": 42.92,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "6",
+      "text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "start": 28.68,
+      "end": 42.92,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "6",
+      "text": "ہمیں سیدھا راستہ دکھا۔",
+      "start": 28.68,
+      "end": 42.92,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "7",
+      "text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "start": 43.78,
+      "end": 60.01,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "7",
+      "text": "ان لوگوں کا راستہ جن پر تُو نے انعام کیا، نہ ان کا جن پر غضب کیا گیا، اور نہ وہ گمراہ ہوئے۔",
+      "start": 43.78,
+      "end": 60.01,
+      "usage": "translation",
+      "extent": "complete"
+    }
+  ],
+  "hadith": [
+    {
+      "reference": "JT_131",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb aṭ-Ṭahārah (Book 1: Purification), Bāb 98, Hadith 131",
+      "text": "حائضہ اور نفاس والی عورت جو ہے وہ قرآن نہ پڑھے",
+      "start": 767.42,
+      "end": 779.86,
+      "usage": "explicit paraphrase"
+    }
+  ],
+  "dua": [
+    {
+      "reference": "QuranicDua-62",
+      "text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "start": 28.68,
+      "end": 42.92,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Idiomatic Translation and Word Analysis (Tafhim al-Alfaz)",
+      "description": "Sentence-level meaning of Surah Al-Fatihah, grammatical particles (lam, wa), and roots of core vocabulary.",
+      "start": 0.0,
+      "end": 197.22
+    },
+    {
+      "name": "The Meaning of Ad-Din and Divine Judgment (Al-Jaza')",
+      "description": "Examining the specific Quranic usage of 'Ad-Din' as retribution, recompense, and accountability on the Last Day.",
+      "start": 61.66,
+      "end": 89.48
+    },
+    {
+      "name": "Active Self-Testing and Memorization Discipline (Hifz wa Tamrin)",
+      "description": "Techniques for learning vocabulary independently, shielding translations to test recall, and group recitation standards.",
+      "start": 197.22,
+      "end": 457.64
+    },
+    {
+      "name": "Sincerity, Willpower, and Overcoming Learning Barriers (Al-Ikhlas)",
+      "description": "The transformative miracle of the Quran across ages, language backgrounds, and the role of sincere intention.",
+      "start": 457.64,
+      "end": 603.4
+    },
+    {
+      "name": "Jurisprudence of Recitation and Handling the Mushaf (Ahkam al-Mushaf)",
+      "description": "Rulings on reciting without touching the Mushaf during menses, using barriers/gloves, and distinguishing menses from junub.",
+      "start": 603.4,
+      "end": 824.26
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "Idiomatic Translation of Surah Al-Fatihah and Lexical Breakdown",
+      "title_ur": "سورۃ الفاتحہ کا بامحاورہ ترجمہ اور لغوی تجزیہ",
+      "start": 0.0,
+      "end": 208.66
+    },
+    {
+      "title_en": "Active Study Methodology, Vocabulary Mastery, and Group Standards",
+      "title_ur": "حفظ و فہم کا طریقہ کار: خود آزمائی اور نیت کا اخلاص",
+      "start": 208.66,
+      "end": 555.86
+    },
+    {
+      "title_en": "Rulings on Touching the Mushaf, Recitation During Menses, and Sheikh Ibn Baz's Fatwa",
+      "title_ur": "مسِ مصحف کے احکام، حالتِ حیض میں تلاوت اور فتاویٰ شیخ ابن باز",
+      "start": 555.86,
+      "end": 824.26
+    }
+  ]
+}

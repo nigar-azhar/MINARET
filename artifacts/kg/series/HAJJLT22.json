@@ -1,0 +1,210 @@
+{
+  "series_code": "HAJJLT22",
+  "recordings_dir": "HajjJourney2022Eng",
+  "category": "Fiqh",
+  "series": {
+    "title_en": "Hajj Journey of a lifetime",
+    "title_ur": "سفرِ حج",
+    "category_id": 38,
+    "series_type": "audio"
+  },
+  "speaker": {
+    "code": "maryam_saeed",
+    "name_en": "Maryam Saeed",
+    "name_ur": "مریم سعید"
+  },
+  "language": {
+    "code": "en",
+    "label": "English"
+  },
+  "recordings": [
+    {
+      "recording_id": "HajjJourney2022Eng-L01",
+      "kg_recording_id": "HAJJLT22-7038",
+      "audio": {
+        "id": 7038,
+        "audio_link": "https://data.alhudamedia.com/Media/Fiqh/Hajj_o_Umrah/HajjJourney22/HajjJourney2022Eng-L01_How_to_prepare_for_Hajj.mp3",
+        "english_name": "L01 How to prepare for Hajj?",
+        "urdu_name": "L01 حج کی تیاری کیسے کی جائے؟",
+        "duration": "00:55:43",
+        "upload_date": "2022-06-29"
+      }
+    },
+    {
+      "recording_id": "HajjJourney2022Eng-L02",
+      "kg_recording_id": "HAJJLT22-7039",
+      "audio": {
+        "id": 7039,
+        "audio_link": "https://data.alhudamedia.com/Media/Fiqh/Hajj_o_Umrah/HajjJourney22/HajjJourney2022Eng-L02_Beginning_of_Hajj_Definition_and_Obligation_of_Hajj_Importance_and_Virtues_of_Hajj_Reward_Like_Hajj.mp3",
+        "english_name": "L02 Beginning of Hajj, Definition and Obligation of Hajj, Importance and Virtues of Hajj, Reward Like Hajj",
+        "urdu_name": "L02 حج کا آغاز، حج کی تعریف اور فرض، حج کی اہمیت اور فضائل، حج جیسا ثواب",
+        "duration": "01:00:09",
+        "upload_date": "2022-06-29"
+      }
+    },
+    {
+      "recording_id": "HajjJourney2022Eng-L03",
+      "kg_recording_id": "HAJJLT22-7040",
+      "audio": {
+        "id": 7040,
+        "audio_link": "https://data.alhudamedia.com/Media/Fiqh/Hajj_o_Umrah/HajjJourney22/HajjJourney2022Eng-L03_Aims_and_Objectives_of_Hajj_Hajj_Rulings.mp3",
+        "english_name": "L03 Aims and Objectives of Hajj, Hajj Rulings",
+        "urdu_name": "L03 حج کے اغراض و مقاصد، حج کے احکام",
+        "duration": "00:58:06",
+        "upload_date": "2022-06-29"
+      }
+    },
+    {
+      "recording_id": "HajjJourney2022Eng-L04",
+      "kg_recording_id": "HAJJLT22-7041",
+      "audio": {
+        "id": 7041,
+        "audio_link": "https://data.alhudamedia.com/Media/Fiqh/Hajj_o_Umrah/HajjJourney22/HajjJourney2022Eng-L04_Complete_Hajj_and_Umrah_for_Allah_Fidyah_Sacrifice_Hajj_Etiquettes_Good_Deeds_at_Hajj_Achieving_Taqwa_by_Hajj.mp3",
+        "english_name": "L04 Complete Hajj and Umrah for Allah, Fidyah, Sacrifice, Hajj Etiquettes, Good Deeds at Hajj, Achieving Taqwa by Hajj",
+        "urdu_name": "L04 اللہ کے لیے مکمل حج اور عمرہ، فدیہ، قربانی، حج کے آداب، حج میں نیک اعمال، حج کے ذریعے تقویٰ کا حصول",
+        "duration": "00:55:54",
+        "upload_date": "2022-06-29"
+      }
+    }
+  ],
+  "concept_keywords": {
+    "hadith:PillarsOfIslam": [
+      "salah",
+      "prayer",
+      "zakah",
+      "zakat",
+      "sawm",
+      "fasting",
+      "hajj",
+      "shahada",
+      "umrah",
+      "tawaf",
+      "ihram"
+    ],
+    "hadith:ArticlesOfFaith": [
+      "iman",
+      "angel",
+      "revealed book",
+      "messenger",
+      "day of judgment",
+      "qadar",
+      "predestination",
+      "hereafter",
+      "akhirah",
+      "taqwa"
+    ],
+    "hadith:Tauhid": [
+      "tawheed",
+      "tauhid",
+      "monotheism"
+    ]
+  },
+  "reviewed_merges": [
+    {
+      "topics": [
+        "Supplication (Du'a)",
+        "Supplication in Islam (Ad-Du'a)"
+      ],
+      "decision": "accept"
+    },
+    {
+      "topics": [
+        "Supplication (Du'a)",
+        "Supplication as worship"
+      ],
+      "decision": "reject"
+    },
+    {
+      "topics": [
+        "Supplication (Du'a)",
+        "Supplication and humility"
+      ],
+      "decision": "reject"
+    }
+  ],
+  "reviewed_concepts": [
+    {
+      "topic": "Virtues of Hajj and Umrah",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    },
+    {
+      "topic": "Obligation of Hajj (Fardiyyat al-Hajj)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    },
+    {
+      "topic": "Hastening to Good Deeds (Al-Mubadarah ilal-Khayrat)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    },
+    {
+      "topic": "Excellence and Rewards of Pilgrimage",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    },
+    {
+      "topic": "Jurisprudence of Pilgrimage Modalities (Fiqh al-Hajj)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    },
+    {
+      "topic": "Jurisprudence of Ihsar (Impediments to Pilgrimage)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    },
+    {
+      "topic": "Sacrificial Animals and Fidya for Violations (Hady & Kaffarah)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    },
+    {
+      "topic": "Pilgrimage Modalities and Fasting Expiation (Tamattu' & Siyam)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    },
+    {
+      "topic": "Monotheism and Sincerity (Tawheed)",
+      "concept": "hadith:Tauhid",
+      "decision": "accept"
+    },
+    {
+      "topic": "Calling to Good (Da'wah)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "reject"
+    },
+    {
+      "topic": "Sacrifice (Hady)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    },
+    {
+      "topic": "Historical Origins of Hajj",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "reject"
+    },
+    {
+      "topic": "Historical Origins of Hajj",
+      "concept": "hadith:ArticlesOfFaith",
+      "decision": "reject"
+    },
+    {
+      "topic": "Supplication (Du'a)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "reject"
+    },
+    {
+      "topic": "God-Consciousness (Taqwa)",
+      "concept": "hadith:ArticlesOfFaith",
+      "decision": "accept"
+    }
+  ],
+  "topic_related": [
+    [
+      "Historical Origins of Hajj",
+      "Obligation of Hajj (Fardiyyat al-Hajj)"
+    ]
+  ],
+  "hub_related": null,
+  "manual_concept_matches": []
+}

@@ -1,0 +1,930 @@
+[
+  {
+    "question_id": "Q9",
+    "question": "کامیاب انسان بننے کے لیے کن پہلوؤں کا جاگنا ضروری بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001A_chunk_0003",
+      "TQ2005-P01-L001A_chunk_0004"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.5
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0003",
+        "TQ2005-P01-L001A_chunk_0023"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nاس لیکچر کے مطابق کامیاب انسان بننے کے لیے درج ذیل پہلوؤں کا ہونا اور ان پر توجہ مرکوز کرنا ضروری بتایا گیا ہے:\n\n1. **معتدل شخصیت:** کامیاب انسان ایک معتدل شخصیت ہوتا ہے۔\n2. **پہلوں کا توازن (ہارمونی اور بیلنس):** جسمانی، ذہنی، روحانی، جذباتی اور سماجی شخصیت کے تمام پہلوؤں میں ایک ہارمونی اور بیلنس ہونا ضروری ہے۔\n3. **سوچ سمجھ کی زندگی:** اندھا دھند یا آنکھیں بند کر کے نہیں بلکہ سوچ سمجھ کی زندگی بسر کرنی ہے۔\n4. **علم کو ڈائجسٹ کرنا اور یاد دہانی:** انسان کو علم کو مختلف طریقوں سے (کتاب، دیگر انسان) ڈائجسٹ کرنا چاہیے اور سیکھتے رہنے کی ضرورت ہے، کیونکہ انسان بھولتا ہے۔\n\n**حوالہ:**\n[chunk_id=TQ2005-P01-L001A_chunk_0003]\n[chunk_id=TQ2005-P01-L001A_chunk_0023]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 10996,
+    "elapsed_seconds": 204.04,
+    "generated_at": "2026-09-24T06:33:25.495533+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "The answer's four claims (moderate/balanced personality across physical-mental-spiritual-emotional-social aspects, living thoughtfully rather than blindly, digesting knowledge from multiple sources, needing reminders since humans forget) are all directly supported by the two retrieved TQ2005-P01-L001A chunks (0003, 0023) it cites. The gold chunk_0004 was never actually sent to the model — series-scope retrieval substituted a later same-lecture chunk (0023) plus an off-topic chunk from a different lecture (L001F_chunk_0010) that the model correctly ignored — so despite the retrieval gap the answer is fully grounded in what it did receive."
+  },
+  {
+    "question_id": "Q24",
+    "question": "According to the lecture, which aspects of a person need to 'awaken' in order to become a successful person?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001A_chunk_0003",
+      "TQ2005-P01-L001A_chunk_0004"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0003",
+        "TQ2005-P01-L001A_chunk_0004"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided lecture excerpts, the following aspects of a person need to 'awaken' (or be active) in order for them to become successful:\n\n1.  **Intellectual Aspect (ذہنی ایسپیکٹ / انٹلیکچوئل ایسپیکٹ):** The speaker states that until the intellectual aspect, consciousness (شعور), and thinking aspect (سوچ کا ایسپیکٹ) awaken, one cannot progress in religion.\n2.  **Moderate Personality (معتدل شخصیت):** A successful person is described as having a moderate personality that maintains harmony and balance across all life aspects.\n\n**Specific Aspects requiring Balance/Harmony:**\nThe lecture mentions that a successful person's personality must be balanced in the following areas:\n*   Physical (جسمانی)\n*   Mental/Intellectual (ذہنی)\n*   Spiritual (روحانی)\n*   Emotional (امم جذباتی - likely a transcription error for \"Emotional\")\n*   Social (سماجی)\n\n**Citations:**\n*   **Chunk 0003 (TQ2005-P01-L001A_chunk_0003):** Defines a successful person as having a moderate personality with harmony and balance in physical, mental, spiritual, emotional, and social aspects.\n*   **Chunk 0004 (TQ2005-P01-L001A_chunk_0004):** States that the mental aspect, intellectual aspect, consciousness, and thinking aspect must awaken for progress.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے۔\"\n\n**Note:** The lecture emphasizes that the \"awakening\" of the mental/intellectual/thinking aspects is a prerequisite for progress, while the \"balance\" of all five personality aspects (physical, mental, spiritual, emotional, social) defines a successful person.\n\n**Cited Chunks:** TQ2005-P01-L001A_chunk_0003, TQ2005-P01-L001A_chunk_0004.\n\n**Answer:**\nAccording to the lecture, a person needs to have an **awakened intellectual aspect** (including consciousness and thinking) and maintain a **balanced personality** across physical, mental, spiritual, emotional, and social aspects to be considered successful.\n\n*   **Chunk 0003:** \"جو ہم نے بات کی تھی نا کہ کامیاب انسان کون ہوتا ہے؟ تو اس میں کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت جو ہے یا لائف کے جو ایسپیکٹس ہیں، ان سب کے اندر ایک ہارمونی اور بیلنس ہو۔\"\n*   **Chunk 0004:** \"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا ان",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 299.04,
+    "generated_at": "2026-09-23T17:00:32.557751+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0003 (\"کامیاب انسان ایک معتدل شخصیت ہوتا ہے جس کی جسمانی، ذہنی، روحانی اور امم جذباتی اور سماجی شخصیت... ان سب کے اندر ایک ہارمونی اور بیلنس ہو (chunk_0003, 87.04-116.34s)\") and chunk_0004 (\"اور جب تک ہماری ذہنی صحت یا ہمارا ذہنی ایسپیکٹ یا انٹلیکچوئل ایسپیکٹ یا ہمارے شعور اور سوچ کا ایسپیکٹ جاگتا نہیں، اس وقت تک ہم دین میں ترقی نہیں کر سکتے (chunk_0004, 116.34-140.42s)\"), both cited. Answer correctly separates the 'awaken' claim (intellectual/consciousness/thinking aspect, from chunk_0004) from the 'balance across 5 aspects' claim (chunk_0003) and both are accurately grounded. NOTE: generation hit the token limit (finish_reason=length) and degenerated into ~15x verbatim repetition of the same 'Answer:' block - a generation-quality defect, but the content that is present is not fabricated and matches the source, so grading on correctness not fluency. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q11",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0032",
+        "TQ2005-P01-L001B_chunk_0005",
+        "TQ2005-P01-L001B_chunk_0018",
+        "TQ2005-P01-L001E_chunk_0043"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question. The retrieved excerpts discuss the importance of discipline and proper conduct in education (specifically regarding rows in prayer), the introduction to a course on the Quran, and Arabic grammar roots. None of the excerpts mention the etiquettes of Hajj or Umrah.\n\n**Citations:**\n- TQ2005-P01-L001A_chunk_0032\n- TQ2005-P01-L001B_chunk_0005\n- TQ2005-P01-L001E_chunk_0043\n- TQ2005-P01-L001B_chunk_0018",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 76.01,
+    "generated_at": "2026-09-24T06:34:41.507478+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Deliberately unanswerable Hajj/Umrah etiquette question; series-scope pooling retrieved four chunks from three different lectures (L001A, L001B, L001E) covering discipline, the Quran's revelation history, and Arabic root analysis — none mention Hajj/Umrah — and the model correctly refused rather than fabricating an answer."
+  },
+  {
+    "question_id": "Q26",
+    "question": "اس سبق میں حج اور عمرہ کے آداب کے بارے میں کیا بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 73.93,
+    "generated_at": "2026-09-24T06:35:55.434809+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Urdu duplicate of the unanswerable Hajj/Umrah etiquette question; series-scope search pulled chunks from four different lectures (L001F, L001A, L001E, L001B) on unrelated topics (daily self-accounting, prayer-row discipline, Arabic roots, preservation of the Quran), none of which touch Hajj/Umrah, and the model correctly refused."
+  },
+  {
+    "question_id": "Q27",
+    "question": "لیکچرر کے مطابق قرآن مجید کے کتنے فیصد الفاظ عام اردو بولنے والے پہلے سے اپنی روزمرہ زبان میں استعمال کرتے ہیں، اور کتنے فیصد الفاظ ایسے ہیں جن پر غور و فکر کی ضرورت ہوتی ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0048",
+      "TQ2005-P01-L001B_chunk_0049",
+      "TQ2005-P01-L001B_chunk_0050"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0048",
+        "TQ2005-P01-L001B_chunk_0049"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق قرآن مجید کے 65 فیصد الفاظ عام اردو بولنے والے پہلے سے اپنی روزمرہ زبان میں استعمال کرتے ہیں [chunk_id=TQ2005-P01-L001B_chunk_0048]۔ اور 15 فیصد الفاظ ایسے ہیں جن پر غور و فکر کی ضرورت ہوتی ہے [chunk_id=TQ2005-P01-L001B_chunk_0049]۔",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 9058,
+    "elapsed_seconds": 215.99,
+    "generated_at": "2026-09-23T17:07:41.709248+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0048 ('...قرآن مجید کے 65 یعنی 65% الفاظ ہم اپنی روزمرہ اردو زبان میں استعمال کرتے ہیں...') and chunk_0049 ('...صرف پندرہ فیصد یعنی 15% ایسے ورڈز رہ جاتے ہیں جن پر غور و فکر اور تدبر کی ضرورت ہے۔'). Answer states 65% and 15%, matching both cited chunks exactly. Clean, correctly cited. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q28",
+    "question": "According to the lecturer, what percentage of the Quran's words does an ordinary Urdu speaker already understand from daily usage, and what percentage require real reflection (tadabbur) to understand?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0048",
+      "TQ2005-P01-L001B_chunk_0049",
+      "TQ2005-P01-L001B_chunk_0050"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0048",
+        "TQ2005-P01-L001B_chunk_0049",
+        "TQ2005-P01-L001B_chunk_0050"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided lecture excerpts, an ordinary Urdu speaker already understands **65%** of the Quran's words from daily usage. The percentage that requires real reflection and contemplation (tadabbur) is **15%**.\n\n**Evidence:**\n*   The lecturer states that \"65% of the words of the Holy Quran are used in our daily Urdu language\" (chunk_id=TQ2005-P01-L001B_chunk_0048).\n*   The lecturer explains that after accounting for 20% repeated words, only \"15% of such words remain on which reflection and contemplation (tadabbur) is needed\" (chunk_id=TQ2005-P01-L001B_chunk_0049).\n\n**Citations:**\n*   Chunk 0048 (TQ2005-P01-L001B_chunk_0048)\n*   Chunk 0049 (TQ2005-P01-L001B_chunk_0049)\n*   Chunk 0050 (TQ2005-P01-L001B_chunk_0050)",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 85.87,
+    "generated_at": "2026-09-24T06:37:21.313999+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "The 65%/15% figures cited are exact matches to chunks TQ2005-P01-L001B_chunk_0048 ('65% الفاظ ہم اپنی روزمرہ اردو زبان میں استعمال کرتے ہیں') and _0049 ('پندرہ فیصد یعنی 15% ... تدبر کی ضرورت ہے'). All retrieved chunks for this question come from the correct lecture (L001B) — no cross-lecture substitution occurred here — so this is a clean correct_grounded case."
+  },
+  {
+    "question_id": "Q63",
+    "question": "لیکچرر کے مطابق مکہ میں کتنے لوگ لکھنا جانتے تھے، اور ان میں سے کتنے لوگ عموماً رسول اللہ صلی اللہ علیہ وسلم کے حکم کا انتظار کرتے رہتے تھے تاکہ وحی فوراً لکھ سکیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0021"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0021"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق مکہ میں صرف سترہ لوگ لکھنا جانتے تھے، اور ان میں سے تقریباً بارہ لوگ رسول اللہ صلی اللہ علیہ وسلم کے حکم کا انتظار کرتے رہتے تھے۔\n\nChunk ID: TQ2005-P01-L001B_chunk_0021",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 5512,
+    "elapsed_seconds": 137.08,
+    "generated_at": "2026-09-23T17:15:18.353365+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0021: 'مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے...'. Answer says 17 (سترہ) knew how to write, ~12 (بارہ) awaited the Prophet's command — exact match, correctly cited, concise. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q64",
+    "question": "According to the lecturer, how many people in Makkah knew how to write, and how many of them were usually ready and waiting to write down revelation immediately when called?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0021"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0021",
+        "TQ2005-P01-L001B_chunk_0022"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided transcript excerpts, here are the answers:\n\n*   **Total people who knew how to write:** 17 (سترہ)\n*   **People ready and waiting immediately:** Approximately 12 (تقریباً بارہ)\n\n**Source:**\n*   [chunk_id=TQ2005-P01-L001B_chunk_0021] (Contains the specific numbers regarding scribes in Makkah).\n\n**Quote from excerpt:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n*(Note: The excerpt also mentions that these scribes accompanied the Prophet during the Hijrah, including Abu Bakr and Zayd bin Thabit.)*\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021, TQ2005-P01-L001B_chunk_0022.\n\n**Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately **12** were usually ready and waiting to write down revelation immediately when called.\n\nThis information is found in **TQ2005-P01-L001B_chunk_0021**.\n\n**Reference:**\n\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے\" (In Makkah, only 17 people knew how to write, and out of them, approximately 12 were waiting for your command).\n\n**Chunk IDs used:** TQ2005-P01-L001B_chunk_0021.\n\n**Final Answer:**\nAccording to the lecturer, there were **17** people in Makkah who knew how to write. Out of these, approximately",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 305.08,
+    "generated_at": "2026-09-23T17:20:23.439571+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant of Q63. Cites chunk_0021 (verified: 17 total, ~12 always ready) and chunk_0022 (verified: describes Abu Bakr carrying writing materials during hijrah — supporting context, not the core count but not contradictory either). Numbers 17/12 match chunk_0021 exactly. Same degenerate repetition-loop artifact as Q28 (finish_reason=length) but factual content stays correct and consistent throughout, so graded correct_grounded on substance; repetition flagged as a quality issue, not a correctness one. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q29",
+    "question": "لیکچر کے لفظی ترجمے کے مطابق سورۃ الفاتحہ کی آیت 'اِیَّاكَ نَعْبُدُ' کا لفظ بہ لفظ ترجمہ کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001C_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": false,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": false,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": false,
+      "sent_precision": 0.0,
+      "sent_recall": 0.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 17254,
+    "elapsed_seconds": 317.98,
+    "generated_at": "2026-09-24T06:42:39.295986+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is effectively empty ('\\n\\n') — the model exhausted its token budget during reasoning (reasoning_content_length ~17k tokens, finish_reason='length') and never emitted an actual answer. The retrieved chunks (including L001C_chunk_0002's word-by-word breakdown style and L001E/L001D/L001F's phrase translations of the same verse) contained adequate evidence to answer, so this is a generation failure rather than a retrieval gap. Graded incorrect since no answer content was produced for an answerable question."
+  },
+  {
+    "question_id": "Q30",
+    "question": "According to the lecture's word-for-word translation, what is the literal meaning given for the phrase 'Iyyaka na'budu' in Surah Al-Fatiha?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001C_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": false,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": false,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": false,
+      "sent_precision": 0.0,
+      "sent_recall": 0.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0001",
+        "TQ2005-P01-L001D_chunk_0002",
+        "TQ2005-P01-L001D_chunk_0006",
+        "TQ2005-P01-L001E_chunk_0027"
+      ],
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question. The provided excerpts discuss the meaning of 'Iyyaka na'budu' as \"We worship only You\" (Chunk 0027, Chunk 0001) and analyze the root of 'Nasta'inu', but they do not contain a specific word-for-word translation or breakdown for the phrase 'Iyyaka na'budu'.\n\n**Citations:**\n- TQ2005-P01-L001E_chunk_0027\n- TQ2005-P01-L001D_chunk_0001\n- TQ2005-P01-L001D_chunk_0006\n- TQ2005-P01-L001D_chunk_0002\n\n**Reasoning:**\nThe excerpts provide the Urdu translation (\"صرف تیری ہم عبادت کرتے ہیں\") and mention that 'Iyyaka na'budu' means \"We worship only You,\" but they do not offer a literal, word-for-word breakdown (e.g., \"To you we worship\") as requested by the question. Chunk 0027 explains the root of a different word ('Nasta'inu') and Chunk 0002 discusses the word 'Deen'. Therefore, the specific \"word-for-word\" translation is not present in the text.\n\n**Answer:**\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 85.59,
+    "generated_at": "2026-09-24T06:44:04.890707+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "Model explicitly refused ('does not provide enough information'), but the retrieved chunks TQ2005-P01-L001E_chunk_0027 and L001D_chunk_0001 do give the direct translation of the exact phrase asked about ('اییاک نعبد' = 'صرف تیری ہم عبادت کرتے ہیں'). The true gold chunk (L001C_chunk_0001, which holds the lecture's specifically formatted word-by-word table) was never retrieved — not even in the initial top-10 — because series-scope search surfaced topically similar L001D/L001E chunks about the same verse from other lectures instead of the specific L001C chunk. The model was overly conservative in refusing when the phrase-level translation it did have was actually sufficient to answer. Graded incorrect; this is a clear example of series-scope retrieval missing the needed chunk in favor of cross-lecture near-duplicates."
+  },
+  {
+    "question_id": "Q79",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 12967,
+    "elapsed_seconds": 230.53,
+    "generated_at": "2026-09-24T06:47:55.420492+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Same deliberately unanswerable Hajj/Umrah etiquette question (Urdu phrasing); series-scope retrieval again spans three different lectures (L001A, L001B, L001E) on unrelated topics (class discipline, revelation history, dawah through conduct), none of which mention Hajj/Umrah, and the model correctly refused."
+  },
+  {
+    "question_id": "Q80",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001A_chunk_0032",
+        "TQ2005-P01-L001B_chunk_0005",
+        "TQ2005-P01-L001B_chunk_0018",
+        "TQ2005-P01-L001E_chunk_0043"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question. The retrieved excerpts discuss the importance of discipline and proper conduct in class (rows, circles), the introduction to the Quran as a book revealed in the 7th century, and Arabic grammar roots (e.g., \"نَعْبُدُ\", \"الضَّآلِّیْنَ\"), but they do not mention the etiquettes of Hajj or Umrah.\n\nCitations:\n[chunk_id=TQ2005-P01-L001A_chunk_0032]\n[chunk_id=TQ2005-P01-L001B_chunk_0005]\n[chunk_id=TQ2005-P01-L001E_chunk_0043]\n[chunk_id=TQ2005-P01-L001B_chunk_0018]\n\n**Answer:**\nThis lecture does not provide enough information to answer that question. The retrieved excerpts discuss the importance of discipline and proper conduct in class (rows, circles), the introduction to the Quran as a book revealed in the 7th century, and Arabic grammar roots (e.g., \"نَعْبُدُ\", \"الضَّآلِّیْنَ\"), but they do not mention the etiquettes of Hajj or Umrah.\n\n**Citations:**\n[chunk_id=TQ2005-P01-L001A_chunk_0032]\n[chunk_id=TQ2005-P01-L001B_chunk_0005]\n[chunk_id=TQ2005-P01-L001E_chunk_0043]\n[chunk_id=TQ2005-P01-L001B_chunk_0018]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 86.16,
+    "generated_at": "2026-09-24T06:49:21.586443+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "English duplicate of the Hajj/Umrah etiquette question; series-scope pooling again returned chunks from L001A, L001B, and L001E on discipline, Quran revelation history, and Arabic roots — none relevant — and the model correctly refused rather than fabricating content."
+  },
+  {
+    "question_id": "Q31",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ میں صرف ایک ایسا نیا لفظ ہے جو اردو میں اسی معنی میں استعمال نہیں ہوتا، وہ کون سا لفظ ہے اور اس کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0002"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق سورۃ الفاتحہ میں وہ نیا لفظ جو اردو میں اسی معنی میں استعمال نہیں ہوتا، وہ **«الدِّیْنِ»** ہے۔ اس کے مطابق دین کا یہاں بیان کردہ معنی **«جزا و سزا»** اور **«بدلے کا»** ہے۔\n\n[chunk_id=TQ2005-P01-L001D_chunk_0002]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 6096,
+    "elapsed_seconds": 147.25,
+    "generated_at": "2026-09-24T06:51:48.829079+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "The claim that 'الدِّیْنِ' is the only genuinely new word in Al-Fatiha, meaning 'جزا و سزا/بدلے کا' (reward/recompense), is an exact match to the single retrieved and cited chunk TQ2005-P01-L001D_chunk_0002. This question's gold chunk was retrieved directly (no cross-lecture substitution), giving a clean correct_grounded result."
+  },
+  {
+    "question_id": "Q32",
+    "question": "According to the lecturer, which is the only word in Surah Al-Fatiha that is genuinely new (not used in that sense in everyday Urdu), and what meaning is given for it?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0002"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided transcript excerpts, the only word in Surah Al-Fatiha that is genuinely new (not used in that sense in everyday Urdu) is **«الدِّیْنِ»** (Deen).\n\nAccording to the lecturer, while this word is commonly used in the sense of \"Islam\" (Deen-e-Islam), its specific meaning here is **reward and punishment** or **exchange/recompense** (جزا و سزا کا، بدلے کا).\n\nThis information is found in **chunk_id=TQ2005-P01-L001D_chunk_0002**.\n\n**Citation:**\n[chunk_id=TQ2005-P01-L001D_chunk_0002]\n\"اب اس میں آپ دیکھیے کہ نیا لفظ پوری سورت میں صرف ایک ہے اور وہ کیا ہے؟ «الدِّیْنِ»۔ «الدِّیْنِ» کا لفظ جو ہے، اگرچہ ہم دین کے معنوں میں استعمال کرتے ہیں، دینِ اسلام کے معنوں میں، لیکن دین کا یہ معنی جو یہاں بیان کیا گیا ہے، جزا و سزا کا، بدلے کا، یہ نیا لفظ ہے۔ یہ اردو میں دین اس معنی میں استعمال نہیں ہوتا، سمجھے؟\"",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 80.48,
+    "generated_at": "2026-09-24T06:53:09.319331+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English-phrased duplicate of Q31; same single gold chunk TQ2005-P01-L001D_chunk_0002 was retrieved and correctly cited, and the answer's claim about 'الدِّیْنِ' (Deen) meaning reward/recompense here rather than 'Islam' matches the chunk text verbatim — correct_grounded."
+  },
+  {
+    "question_id": "Q65",
+    "question": "لیکچرر کے مطابق شیخ ابن باز کے فتوے میں حالتِ حیض میں قرآن پاک کو ہاتھ لگا کر سبق یاد کرنے کے بارے میں کیا کہا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0021",
+      "TQ2005-P01-L001D_chunk_0024"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 2,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق شیخ ابن باز کے فتوے میں یہ کہا گیا ہے کہ حالتِ حیض میں قرآن پاک کو ہاتھ لگا کر سبق یاد کرنا جائز ہے، بشرطیکہ قرآن کو کسی پاک کپڑے یا میڈیکل گلوز کے ذریعے پکرا جائے۔ اس طرح مصحف کو اٹھا کر سبق یاد کیا جا سکتا ہے (Chunk 0021)۔",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 14218,
+    "elapsed_seconds": 253.34,
+    "generated_at": "2026-09-23T17:39:31.820491+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0021 (669.08s-722.38s): 'شیخ ابن باز فرماتے ہیں کہ ہاں، بغیر مصحف چھوئے قرآن پڑھنا جائز ہے... دونوں قسم کی عورتیں کسی پاک کپڑے کے ذریعے قرآن کو پکڑ سکتی ہیں۔ تو کپڑے میں اگر مشکل ہو تو یہ جو میڈیکل گلوز ہوتے ہیں... سبق یاد بھی کر سکتے ہیں'. Model's answer (permissible via clean cloth or medical gloves, no direct hand contact) accurately paraphrases this chunk. Note: the answer text names '(Chunk 0021)' but not in the parser's expected '[chunk_id=...]' format, so the automated citation extractor recorded cited_chunk_ids=[] / no_citation_found=true above -- this is a citation-format/scoring artifact, not a correctness problem; content is correctly grounded in chunk_0021. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q66",
+    "question": "According to the lecturer, what does Sheikh Ibn Baz's fatwa say about a woman memorizing the Quran during her menstrual period without directly touching the mus-haf?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0021",
+      "TQ2005-P01-L001D_chunk_0024"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001D_chunk_0021",
+        "TQ2005-P01-L001D_chunk_0024"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecturer, Sheikh Ibn Baz's fatwa states that it is permissible (جائز ہے) for a woman during her menstrual period to memorize the Quran without directly touching the Mushaf. The lecturer explains that women can use a clean cloth or medical gloves to handle the pages, which allows them to read and memorize (سبق یاد بھی کر سکتے ہیں) without direct contact with the Mushaf itself [chunk_id=TQ2005-P01-L001D_chunk_0021]. Additionally, the lecturer notes that there is no authentic hadith preventing women from learning or memorizing during these days [chunk_id=TQ2005-P01-L001D_chunk_0024].\n\n**Citations:**\n*   TQ2005-P01-L001D_chunk_0021\n*   TQ2005-P01-L001D_chunk_0024",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 12971,
+    "elapsed_seconds": 213.79,
+    "generated_at": "2026-09-23T17:43:05.611588+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0021 ('بغیر مصحف چھوئے قرآن پڑھنا جائز ہے... کسی پاک کپڑے کے ذریعے... میڈیکل گلوز... سبق یاد بھی کر سکتے ہیں') and chunk_0024 (767.42s-824.26s: 'کوئی صحیح حدیث ایسی نہیں کہ جس میں عورت کو قرآن کی تعلیم حاصل کرنے سے ان دنوں میں روکا گیا ہو، پڑھنے یا پڑھانے یا سیکھنے یا سکھانے سے'). Model's answer (permissible without directly touching mus-haf, using cloth/gloves [0021]; no authentic hadith prevents learning/memorizing during these days [0024]) matches both chunks accurately and completely. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q33",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ کے دیگر کون کون سے نام بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیچرر کے مطابق سورۃ الفاتحہ کے دیگر نام یہ ہیں: ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، الکنز۔\n\nChunk ID: TQ2005-P01-L001E_chunk_0005",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 4770,
+    "elapsed_seconds": 126.89,
+    "generated_at": "2026-09-24T06:55:16.210909+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "The five alternate names listed (ام الکتاب، ام القرآن، سورة الحمد، الشفاء، الکنز) exactly match the retrieved and cited chunk TQ2005-P01-L001E_chunk_0005, with no extraneous or fabricated names added — correct_grounded."
+  },
+  {
+    "question_id": "Q34",
+    "question": "According to the lecturer, what are the other names given for Surah Al-Fatiha?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0005",
+        "TQ2005-P01-L001F_chunk_0004"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided lecture excerpts, the lecturer mentions several other names for Surah Al-Fatiha:\n\n*   **Am al-Kitab** (ام الکتاب)\n*   **Am al-Quran** (ام القرآن)\n*   **Surah Al-Hamd** (سورۃ الحمد)\n*   **Ash-Shifa** (الشفاء)\n*   **Al-Kanz** (الکنز)\n*   **Ar-Raqi'ah** (الرقیہ)\n\nThese names are mentioned in the following excerpts:\n*   **Chunk TQ2005-P01-L001E (chunk_0005):** Lists \"Am al-Kitab\", \"Am al-Quran\", \"Surah Al-Hamd\" (سورۃ الحمد), \"Ash-Shifa\" (الشفاء), and \"Al-Kanz\" (الکنز).\n*   **Chunk TQ2005-P01-L001F (chunk_0004):** Mentions \"Am al-Quran\" and adds the name \"Ar-Raqi'ah\" (الرقیہ).\n\n**Citations:**\n*   TQ2005-P01-L001E_chunk_0005\n*   TQ2005-P01-L001F_chunk_0004",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 80.68,
+    "generated_at": "2026-09-24T06:56:36.898500+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Answer correctly lists the five names from L001E_chunk_0005 plus a sixth name, 'Ar-Raqi'ah', sourced from a chunk belonging to a DIFFERENT lecture (L001F_chunk_0004: 'اس سورت کا نام الشفاء بھی ہے اور الرقیہ بھی') that series-scope retrieval pooled in. This is exactly the cross-lecture pooling phenomenon under study, and here it correctly enriched the answer with an additional true fact rather than causing an error — correct_grounded."
+  },
+  {
+    "question_id": "Q67",
+    "question": "لیکچرر کے مطابق لفظ 'رب' کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0009",
+      "TQ2005-P01-L001E_chunk_0010",
+      "TQ2005-P01-L001E_chunk_0012"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.3333333333333333
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق لفظ 'رب' کا مطلب \"کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا\" ہے۔ اس کے علاوہ اس کا محدود معنی \"پالنے والا\" یا \"پرورش کرنے والا\" بھی بیان کیا گیا ہے۔\n\nChunk: TQ2005-P01-L001E_chunk_0009",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 8651,
+    "elapsed_seconds": 171.06,
+    "generated_at": "2026-09-24T06:59:27.961554+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "The definition of 'رب' given ('کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا', with the limited sense 'پالنے والا') is an exact match to retrieved chunk L001E_chunk_0009. Two of the three gold chunks (0010, 0012) were not retrieved by the series-scope search, but the single chunk that was retrieved fully supports the specific claim made — correct_grounded, though the answer may be less complete than the full gold set would allow."
+  },
+  {
+    "question_id": "Q68",
+    "question": "According to the lecturer, what meaning is given for the word 'Rabb' in this word-analysis session?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0009",
+      "TQ2005-P01-L001E_chunk_0010",
+      "TQ2005-P01-L001E_chunk_0012"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 4,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 2,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.3333333333333333
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecturer in chunk **TQ2005-P01-L001E_chunk_0009**, the word 'Rabb' is derived from the root **ر، ب، ب** (رَبَّ يَرُبُّ). The meaning is described as **\"کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا\"** (One who brings something to perfection gradually, bit by bit). The lecturer also notes a limited meaning of **\"پالنے والا\"** or **\"پرورش کرنے والا\"** (The one who nurtures/raises).\n\n**Cited Chunk:** TQ2005-P01-L001E_chunk_0009",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 8653,
+    "elapsed_seconds": 169.08,
+    "generated_at": "2026-09-24T07:02:17.039422+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English-phrased duplicate of Q67; same retrieved chunk L001E_chunk_0009 supports the given definition of 'Rabb' verbatim (root ر،ب،ب, gradual perfecting, with 'nurturer' as the limited sense). Two of three gold chunks weren't retrieved, but the answer is fully grounded in what was sent — correct_grounded."
+  },
+  {
+    "question_id": "Q35",
+    "question": "لیکچر میں بیان کردہ روایت کے مطابق حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو کن دو نوروں کی خوشخبری دی، جو اس سے پہلے کسی نبی کو نہیں دیے گئے تھے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچر میں بیان کردہ روایت کے مطابق حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو **سورۃ الفاتحہ** اور **سورۃ البقرہ کی آخری دو آیات** کی خوشخبری دی۔\n\n[chunk_id=TQ2005-P01-L001F_chunk_0001]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 5781,
+    "elapsed_seconds": 137.74,
+    "generated_at": "2026-09-24T07:04:34.786456+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "The two lights named (Surah Al-Fatiha and the last two verses of Surah Al-Baqarah) match the retrieved and cited chunk TQ2005-P01-L001F_chunk_0001 verbatim — correct_grounded, gold chunk retrieved directly with no cross-lecture issue."
+  },
+  {
+    "question_id": "Q36",
+    "question": "According to the narration cited in the lecture, which two lights did Jibreel (peace be upon him) announce to the Prophet (peace be upon him) as having never been given to any prophet before him?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecture, the two lights that Jibreel announced were **Surah Al-Fatiha** and the **last two verses of Surah Al-Baqarah**.\n\n[chunk_id=TQ2005-P01-L001F_chunk_0001]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 4320,
+    "elapsed_seconds": 116.23,
+    "generated_at": "2026-09-24T07:06:31.019194+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English-phrased duplicate of Q35; same gold chunk L001F_chunk_0001 retrieved and cited, and the two lights (Al-Fatiha, last two verses of Al-Baqarah) match the source text exactly — correct_grounded."
+  },
+  {
+    "question_id": "Q69",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے قرآن کی کونسی سورت ہے، اور اس میں کیا خاص بات بیان کی گئی ہے کہ یہ کیسے نازل ہوئی؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0025",
+        "TQ2005-P01-L001F_chunk_0005"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچر کے مطابق سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے قرآن کی **پانچویں سورت** ہے۔ اس میں یہ خاص بات بیان کی گئی ہے کہ یہ **نبوت کے ابتدائی دور میں نازل ہوئی** اور یہ **پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری** (جبکہ باقی سورتیں حصہ بہ حصہ اترا کرتی رہتی ہیں)۔\n\nChunk IDs: TQ2005-P01-L001F_chunk_0005, TQ2005-P01-L001B_chunk_0025",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 7463,
+    "elapsed_seconds": 182.19,
+    "generated_at": "2026-09-24T07:09:33.214826+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Claims (5th surah by order of revelation, revealed in the early prophetic period, the only surah revealed complete in one piece rather than incrementally) match retrieved chunk L001F_chunk_0005 exactly, and are independently corroborated by a chunk pulled from a DIFFERENT lecture via series-scope search (L001B_chunk_0025: 'نزولی ترتیب میں پانچویں نمبر پر ہے'). This is a good example of series-scope pooling reinforcing rather than harming the answer — correct_grounded."
+  },
+  {
+    "question_id": "Q70",
+    "question": "According to the lecturer, which surah in order of revelation is Al-Fatiha, and what is noted as special about the way it was revealed?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "TQ2005",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001",
+        "TQ2005-P01-L001F_chunk_0002",
+        "TQ2005-P01-L001F_chunk_0005"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided transcript excerpts, here are the answers to your questions:\n\n1.  **Order of Revelation:** According to the lecturer, Surah Al-Fatiha is the **fifth** surah in order of descending revelation (نمبرِ نزولی کے اعتبار سے پانچویں نمبر پر آتی ہے).\n2.  **Special Note on Revelation:** It is noted as special because it was the **first surah to be revealed in its entirety** (پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری). The lecturer contrasts this with other surahs, which were revealed in parts over time and later compiled together.\n\n**Citations:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001] (Context regarding the revelation of Al-Fatiha and Surah Al-Baqarah)\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002] (Context regarding the revelation of Al-Fatiha and Surah Al-Baqarah)\n\n*(Note: The specific details regarding the order of revelation and the unique nature of its complete initial descent are found in chunk 0005, while chunks 0001 and 0002 provide the context of it being given to the Prophet alongside the last two verses of Surah Al-Baqarah.)*\n\n**Answer:**\nAccording to the lecturer, **Surah Al-Fatiha is the fifth surah** in order of descending revelation. It is noted as special because it was **revealed all at once (in its entirety)** in a single instance, whereas other surahs were revealed piecemeal over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(Specifically, the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Refined Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.)*\n\n**Final Answer:**\nAccording to the lecturer, Surah Al-Fatiha is the **fifth surah** in order of descending revelation. It is noted as special because it was the **first surah to be revealed in its entirety** (all seven verses at once), unlike other surahs which were revealed in parts over time.\n\n**Cited Chunks:**\n*   [chunk_id=TQ2005-P01-L001F_chunk_0005]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0001]\n*   [chunk_id=TQ2005-P01-L001F_chunk_0002]\n\n*(The specific details regarding the order and unique revelation method are explicitly stated in chunk 0005.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 324.45,
+    "generated_at": "2026-09-24T07:14:57.664309+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Same core facts as Q69 (5th surah in revelation order; revealed whole in a single instance) are correctly grounded in retrieved chunk L001F_chunk_0005 and stay factually consistent throughout. The response is unusually repetitive/looped (finish_reason='length'; it regenerates essentially the same answer three times as 'Answer'/'Refined Answer') but every repetition remains accurate and grounded, so this is graded correct_grounded despite the verbosity/generation quality issue."
+  }
+]

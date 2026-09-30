@@ -1,0 +1,146 @@
+[
+  {
+    "question_id": "Q49",
+    "question": "لیکچرر کے مطابق آئینہ دیکھتے وقت پڑھی جانے والی مسنون دعا کیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-01-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-01-1A_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-01-1A_chunk_0002"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق آئینہ دیکھتے وقت پڑھی جانے والی مسنون دعا ہے: \"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\" (اے اللہ جس طرح تُو نے میری صورت اچھی بنائی اسی طرح تُو میرا اخلاق بھی اچھا بنا دے) [chunk_id=HEA-01-1A_chunk_0002]۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1584,
+    "elapsed_seconds": 24.82,
+    "generated_at": "2026-09-23T20:14:59.682891+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HEA-01-1A_chunk_0002 (text contains 'اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ اے اللہ جس طرح تُو نے میری صورت اچھی بنائی اسی طرح تُو میرا اخلاق بھی اچھا بنا دے'). Model's Arabic dua and Urdu translation match the chunk verbatim, cites chunk_0002, no extraneous or unsupported claims added."
+  },
+  {
+    "question_id": "Q50",
+    "question": "According to the lecturer, what is the recommended (masnoon) dua to recite when looking in a mirror?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-01-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-01-1A_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-01-1A_chunk_0002"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "The recommended dua to recite when looking in a mirror is: اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ (Allahumma kama hassanta khalqi fa hashin khuluqi), which means, \"O Allah, just as You made my appearance beautiful, make my character beautiful.\" ([chunk_id=HEA-01-1A_chunk_0002])",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1352,
+    "elapsed_seconds": 16.05,
+    "generated_at": "2026-09-23T20:15:15.737916+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HEA-01-1A_chunk_0002 - same dua text as Q49. Model gives correct Arabic, transliteration, and English translation ('O Allah, just as You made my appearance beautiful, make my character beautiful'), accurately matching the chunk's own Urdu gloss ('میری صورت اچھی بنائی...میرا اخلاق بھی اچھا بنا دے'). Cites chunk_0002, no fabricated additions (unlike the qwen answer to this same question, which invented an unsupported detail about 'seeing the Salaam on the mirror')."
+  },
+  {
+    "question_id": "Q81",
+    "question": "اس لیکچر میں حج کے مناسک کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-01-1A",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1745,
+    "elapsed_seconds": 13.2,
+    "generated_at": "2026-09-23T20:15:28.939910+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Q81, the deliberately-unanswerable Hajj-rituals question. Model gave the exact required refusal string, no citation, no fabricated Hajj content. Consistent with the lecture's actual subject (husn-al-khulq / good character), confirmed via chunks read for the other models' Q82 answers (chunk_0041, chunk_0063-0065) which cover character, not Hajj."
+  },
+  {
+    "question_id": "Q82",
+    "question": "What does the lecturer say about the rituals of Hajj in this lecture?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-01-1A",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1377,
+    "elapsed_seconds": 10.48,
+    "generated_at": "2026-09-23T20:15:39.424710+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Q82, English mirror of Q81 (Hajj rituals, unanswerable). Model gave the exact required refusal string with no citation and no fabricated Hajj content. Correct refusal."
+  }
+]

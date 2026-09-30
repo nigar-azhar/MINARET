@@ -1,0 +1,536 @@
+{
+  "ayat": [
+    {
+      "surah_number": "1",
+      "ayah_number": "1",
+      "text": "«بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ»",
+      "start": 0.0,
+      "end": 13.98,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "15",
+      "ayah_number": "87",
+      "text": "«وَلَقَدْ اٰتَیْنٰكَ سَبْعًا مِّنَ الْمَثَانِیْ وَالْقُرْاٰنَ الْعَظِیْمَ»",
+      "start": 103.3,
+      "end": 108.78,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "15",
+      "ayah_number": "87",
+      "text": "ہم نے آپ کو سات بار بار دہرائی جانے والی آیات عطا کی ہیں اور اس سے مراد سورۃ الفاتحہ ہی ہے",
+      "start": 108.78,
+      "end": 116.76,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "2",
+      "text": "«اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ»",
+      "start": 127.9,
+      "end": 137.72,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "16",
+      "ayah_number": "98",
+      "text": "«فَاِذَا قَرَاْتَ الْقُرْاٰنَ فَاسْتَعِذْ بِاللّٰهِ مِنَ الشَّیْطٰنِ الرَّجِیْمِ»",
+      "start": 224.16,
+      "end": 230.84,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "16",
+      "ayah_number": "98",
+      "text": "جب تم قرآن کی تلاوت کرو تو شیطان مردود سے اللہ کی پناہ مانگو",
+      "start": 232.06,
+      "end": 240.38,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "15",
+      "ayah_number": "42",
+      "text": "«اِنَّ عِبَادِیْ لَیْسَ لَكَ عَلَیْهِمْ سُلْطٰنٌ»",
+      "start": 288.32,
+      "end": 291.96,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "15",
+      "ayah_number": "42",
+      "text": "جو میرے بندے بن جائیں گے بے شک میرے بندے ان پر تیرا کوئی زور نہیں چلے گا",
+      "start": 291.96,
+      "end": 302.36,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "2",
+      "text": "«اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ»",
+      "start": 581.92,
+      "end": 590.4,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "2",
+      "text": "سب تعریف اللہ کے لیے ہے جو رب ہے تمام جہانوں کا",
+      "start": 581.92,
+      "end": 590.4,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "3",
+      "text": "«الرَّحْمٰنِ الرَّحِیْمِ»",
+      "start": 842.9,
+      "end": 856.3,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "4",
+      "text": "«مٰلِكِ یَوْمِ الدِّیْنِ»",
+      "start": 898.6,
+      "end": 911.0,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "16",
+      "text": "«یَوْمَ هُمْ بَارِزُوْنَ ۬ۚ لَا یَخْفٰی عَلَى اللّٰهِ مِنْهُمْ شَیْءٌ ؕ لِمَنِ الْمُلْكُ الْیَوْمَ ؕ لِلّٰهِ الْوَاحِدِ الْقَهَّارِ»",
+      "start": 929.04,
+      "end": 939.8,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "17",
+      "text": "«اَلْیَوْمَ تُجْزٰی كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ ؕ لَا ظُلْمَ الْیَوْمَ ؕ اِنَّ اللّٰهَ سَرِیْعُ الْحِسَابِ»",
+      "start": 939.8,
+      "end": 948.54,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "16",
+      "text": "وہ دن جب سب لوگ بے پردہ ہوں گے... آج بادشاہت کس کی ہے... صرف ایک اللہ کی جو بہت زبردست ہے... آج ہر شخص کو اس کی کمائی کا بدلہ دے دیا جائے گا",
+      "start": 948.54,
+      "end": 1007.04,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "17",
+      "text": "وہ دن جب سب لوگ بے پردہ ہوں گے... آج بادشاہت کس کی ہے... صرف ایک اللہ کی جو بہت زبردست ہے... آج ہر شخص کو اس کی کمائی کا بدلہ دے دیا جائے گا",
+      "start": 948.54,
+      "end": 1007.04,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "«اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ»",
+      "start": 1031.6,
+      "end": 1042.76,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "6",
+      "text": "«اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ»",
+      "start": 1099.68,
+      "end": 1109.76,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "2",
+      "text": "«ذٰلِكَ الْكِتٰبُ لَا رَیْبَ ۛ فِیْهِ ۛ هُدًى لِّلْمُتَّقِیْنَ»",
+      "start": 1493.16,
+      "end": 1503.8,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "7",
+      "text": "«صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ»",
+      "start": 1514.78,
+      "end": 1523.62,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "12",
+      "ayah_number": "101",
+      "text": "«فَاطِرَ السَّمٰوٰتِ وَالْاَرْضِ اَنْتَ وَلِیّٖ فِی الدُّنْیَا وَالْاٰخِرَةِ ۚ تَوَفَّنِیْ مُسْلِمًا وَّاَلْحِقْنِیْ بِالصّٰلِحِیْنَ»",
+      "start": 1587.52,
+      "end": 1600.68,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "27",
+      "ayah_number": "19",
+      "text": "«وَاَدْخِلْنِیْ بِرَحْمَتِكَ فِیْ عِبَادِكَ الصّٰلِحِیْنَ»",
+      "start": 1574.74,
+      "end": 1586.6,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "4",
+      "ayah_number": "69",
+      "text": "«فَاُولٰٓىِٕكَ مَعَ الَّذِیْنَ اَنْعَمَ اللّٰهُ عَلَیْهِمْ مِّنَ النَّبِیّٖنَ وَالصِّدِّیْقِیْنَ وَالشُّهَدَآءِ وَالصّٰلِحِیْنَ»",
+      "start": 1646.18,
+      "end": 1652.66,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "7",
+      "text": "«غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ»",
+      "start": 1653.68,
+      "end": 1663.16,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "61",
+      "ayah_number": "2",
+      "text": "«یٰۤاَیُّهَا الَّذِیْنَ اٰمَنُوْا لِمَ تَقُوْلُوْنَ مَا لَا تَفْعَلُوْنَ ۟ كَبُرَ مَقْتًا عِنْدَ اللّٰهِ اَنْ تَقُوْلُوْا مَا لَا تَفْعَلُوْنَ»",
+      "start": 1735.04,
+      "end": 1747.56,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "61",
+      "ayah_number": "3",
+      "text": "«یٰۤاَیُّهَا الَّذِیْنَ اٰمَنُوْا لِمَ تَقُوْلُوْنَ مَا لَا تَفْعَلُوْنَ ۟ كَبُرَ مَقْتًا عِنْدَ اللّٰهِ اَنْ تَقُوْلُوْا مَا لَا تَفْعَلُوْنَ»",
+      "start": 1735.04,
+      "end": 1747.56,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "71",
+      "ayah_number": "5",
+      "text": "«قَالَ رَبِّ اِنِّیْ دَعَوْتُ قَوْمِیْ لَیْلًا وَّنَهَارًا»",
+      "start": 1842.38,
+      "end": 1845.06,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "3",
+      "ayah_number": "31",
+      "text": "«قُلْ اِنْ كُنْتُمْ تُحِبُّوْنَ اللّٰهَ فَاتَّبِعُوْنِیْ یُحْبِبْكُمُ اللّٰهُ»",
+      "start": 1939.08,
+      "end": 1946.48,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "7",
+      "text": "«وَلَا الضَّآلِّیْنَ»",
+      "start": 1964.04,
+      "end": 1977.44,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "5",
+      "ayah_number": "3",
+      "text": "«اَتْمَمْتُ عَلَیْكُمْ نِعْمَتِیْ»",
+      "start": 2042.84,
+      "end": 2053.24,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "1",
+      "text": "«بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ۟ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ ۟ۙ الرَّحْمٰنِ الرَّحِیْمِ ۟ۙ مٰلِكِ یَوْمِ الدِّیْنِ ۟ؕ اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ ۟ؕ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ ۟ۙ صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ۙ۬ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ ۟۠ آمين»",
+      "start": 2215.72,
+      "end": 2286.92,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "2",
+      "text": "«بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ۟ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ ۟ۙ الرَّحْمٰنِ الرَّحِیْمِ ۟ۙ مٰلِكِ یَوْمِ الدِّیْنِ ۟ؕ اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ ۟ؕ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ ۟ۙ صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ۙ۬ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ ۟۠ آمين»",
+      "start": 2215.72,
+      "end": 2286.92,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "3",
+      "text": "«بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ۟ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ ۟ۙ الرَّحْمٰنِ الرَّحِیْمِ ۟ۙ مٰلِكِ یَوْمِ الدِّیْنِ ۟ؕ اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ ۟ؕ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ ۟ۙ صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ۙ۬ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ ۟۠ آمين»",
+      "start": 2215.72,
+      "end": 2286.92,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "4",
+      "text": "«بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ۟ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ ۟ۙ الرَّحْمٰنِ الرَّحِیْمِ ۟ۙ مٰلِكِ یَوْمِ الدِّیْنِ ۟ؕ اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ ۟ؕ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ ۟ۙ صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ۙ۬ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ ۟۠ آمين»",
+      "start": 2215.72,
+      "end": 2286.92,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "«بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ۟ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ ۟ۙ الرَّحْمٰنِ الرَّحِیْمِ ۟ۙ مٰلِكِ یَوْمِ الدِّیْنِ ۟ؕ اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ ۟ؕ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ ۟ۙ صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ۙ۬ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ ۟۠ آمين»",
+      "start": 2215.72,
+      "end": 2286.92,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "6",
+      "text": "«بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ۟ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ ۟ۙ الرَّحْمٰنِ الرَّحِیْمِ ۟ۙ مٰلِكِ یَوْمِ الدِّیْنِ ۟ؕ اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ ۟ؕ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ ۟ۙ صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ۙ۬ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ ۟۠ آمين»",
+      "start": 2215.72,
+      "end": 2286.92,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "7",
+      "text": "«بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ۟ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ ۟ۙ الرَّحْمٰنِ الرَّحِیْمِ ۟ۙ مٰلِكِ یَوْمِ الدِّیْنِ ۟ؕ اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ ۟ؕ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ ۟ۙ صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ۙ۬ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ ۟۠ آمين»",
+      "start": 2215.72,
+      "end": 2286.92,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "hadith": [
+    {
+      "reference": "SM_806",
+      "expanded_reference": "Ṣaḥīḥ Muslim, Kitāb Ṣalāt al-Musāfirīn (Book 6: Prayer of Travellers), Hadith 806",
+      "text": "یہ دو نور آپ ہی کو دیے جا رہے ہیں، آپ سے پہلے کسی نبی کو نہیں دیے گئے۔ ایک سورۃ الفاتحہ اور دوسرا سورۃ البقرہ کی آخری دو آیات۔",
+      "start": 52.88,
+      "end": 82.08,
+      "usage": "translation"
+    },
+    {
+      "reference": "SB_4474",
+      "expanded_reference": "Ṣaḥīḥ al-Bukhārī, Kitāb Tafsīr al-Qurʾān (Book 65: Prophetic Commentary), Hadith 4474",
+      "text": "میں تجھے قرآن کی ایک ایسی سورت بتلاؤں گا جو قرآن کی سب سورتوں سے بڑھ کر ہے اور وہ ہے الحمد للہ رب العالمین",
+      "start": 127.9,
+      "end": 145.34,
+      "usage": "translation"
+    },
+    {
+      "reference": "JT_3124",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb Tafsīr al-Qurʾān (Book 47: Chapters on Tafsir), Hadith 3124",
+      "text": "سورت الحمد ہی ام القرآن، ام الکتاب اور دہرائی ہوئی سات آیات ہیں",
+      "start": 146.54,
+      "end": 166.52,
+      "usage": "translation"
+    },
+    {
+      "reference": "SM_223",
+      "expanded_reference": "Ṣaḥīḥ Muslim, Kitāb aṭ-Ṭahārah (Book 2: Purification), Hadith 223",
+      "text": "«اَلْحَمْدُ لِلّٰهِ تَمْلَاُ الْمِیْزَانَ»",
+      "start": 661.14,
+      "end": 664.94,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_3383",
+      "expanded_reference": "Jāmiʿ at-Tirmidhī, Kitāb ad-Daʿawāt (Book 48: Supplications), Hadith 3383",
+      "text": "«اَلْحَمْدُ لِلّٰهِ اَفْضَلُ الدُّعَاءِ»",
+      "start": 703.14,
+      "end": 716.32,
+      "usage": "quotation"
+    },
+    {
+      "reference": "SB_799",
+      "expanded_reference": "Ṣaḥīḥ al-Bukhārī, Kitāb al-Adhān (Book 10: Call to Prayers), Hadith 799",
+      "text": "«حَمْدًا كَثِیْرًا طَیِّبًا مُّبَارَكًا فِیْهِ»",
+      "start": 741.32,
+      "end": 761.84,
+      "usage": "quotation"
+    },
+    {
+      "reference": "SM_395",
+      "expanded_reference": "Ṣaḥīḥ Muslim, Kitāb aṣ-Ṣalāh (Book 4: The Book of Prayer), Hadith 395",
+      "text": "میں نے نماز کو اپنے اور بندے کے درمیان آدھا آدھا تقسیم کر دیا ہے... میرا بندہ نماز میں کھڑا ہوتا ہے اور کہتا ہے الحمد للہ رب العالمین تو اللہ تعالیٰ فرماتا ہے میرے بندے نے میری تعریف کی...",
+      "start": 1276.98,
+      "end": 1367.42,
+      "usage": "translation"
+    },
+    {
+      "reference": "SB_780",
+      "expanded_reference": "Ṣaḥīḥ al-Bukhārī, Kitāb al-Adhān (Book 10: Call to Prayers), Hadith 780",
+      "text": "جب امام ولا الضالین کہے تو تم آمین کہو، جس کا آمین کہنا فرشتوں کے آمین کہنے کے موافق ہو گیا اس کے پچھلے گناہ بخش دیے جاتے ہیں",
+      "start": 2139.46,
+      "end": 2177.54,
+      "usage": "translation"
+    }
+  ],
+  "dua": [
+    {
+      "reference": "QuranicDua-62",
+      "text": "«اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ»",
+      "start": 1099.68,
+      "end": 1109.76,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "Healing-04",
+      "text": "«بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ۟ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ ۟ۙ الرَّحْمٰنِ الرَّحِیْمِ ۟ۙ مٰلِكِ یَوْمِ الدِّیْنِ ۟ؕ اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ ۟ؕ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ ۟ۙ صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ۙ۬ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ»",
+      "start": 2215.72,
+      "end": 2286.92,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "topics": [
+    {
+      "name_en": "Virtues and Unique Status of Surah Al-Fatihah (Fada'il al-Fatihah)",
+      "name_ur": "فضائل و خصوصیاتِ سورۃ الفاتحہ",
+      "description_en": "Revelation of the two lights, greatest Surah, cure (Shifa), and mother of the book (Umm al-Kitab).",
+      "description_ur": "دو نوروں کی بشارت، سب سے عظیم سورت، سبع مثانی اور شفاء و رقیہ کے فضائل۔",
+      "start": 0.0,
+      "end": 214.92,
+      "ur_translation_generated": false
+    },
+    {
+      "name_en": "Isti'adhah: Protection from Whispers (Al-Isti'adhah)",
+      "name_ur": "استعاذہ اور شیطانی وسوسوں سے پناہ",
+      "description_en": "Seeking divine sanctuary from Satan upon commencing recitation and understanding demonic vulnerability.",
+      "description_ur": "قرآنی تلاوت کے آغاز میں پناہ طلبی، شیطانی حربوں کا توڑ اور اخلاص کا حصار۔",
+      "start": 216.54,
+      "end": 348.34,
+      "ur_translation_generated": false
+    },
+    {
+      "name_en": "Reliance on Allah vs Material Causes (At-Tawakkul)",
+      "name_ur": "توکل علی اللہ بمقابلہ اسباب پرستی",
+      "description_en": "True reliance versus mere reliance on material means and beginning all affairs with the Basmalah.",
+      "description_ur": "اسباب کے دائرے میں رہ کر مسبب الاسباب پر بھروسہ اور تسمیہ کے ساتھ ہر کام کی ابتدا۔",
+      "start": 349.52,
+      "end": 579.54,
+      "ur_translation_generated": false
+    },
+    {
+      "name_en": "The Station and Multiplied Rewards of Hamd (Al-Hamd)",
+      "name_ur": "مقامِ حمد اور اس کے کثیر اجر و برکات",
+      "description_en": "Filling the scales of judgment, gratitude for visible and concealed blessings, and post-ruku' praise.",
+      "description_ur": "میزان کا بھر جانا، رب کے حضور افضل ترین کلمہ، اور رکوع کے بعد ملائکہ کا حمد کو لپکنا۔",
+      "start": 581.92,
+      "end": 842.9,
+      "ur_translation_generated": false
+    },
+    {
+      "name_en": "Divine Sovereignty on the Day of Judgment (Malik Yawm ad-Din)",
+      "name_ur": "مالکِ روزِ جزا اور اخروی جوابدہی",
+      "description_en": "Accountability, the absolute manifestation of divine kingship, and retribution on the Last Day.",
+      "description_ur": "حشر کے دن کی بے پردگی، للہ الواحد القہار کی پکار اور انسان کے اعمال کا کامل بدلہ۔",
+      "start": 898.6,
+      "end": 1031.6,
+      "ur_translation_generated": false
+    },
+    {
+      "name_en": "The Covenant of Worship and the Hadith of Dividing Salah (Al-'Ahd)",
+      "name_ur": "عہدِ عبودیت اور حدیثِ تقسیمِ نماز",
+      "description_en": "The sacred dialogue between Allah and the servant in prayer through Surah Al-Fatihah.",
+      "description_ur": "نماز کو رب اور بندے کے درمیان تقسیم کرنے کی حدیثِ قدسی اور سجدۂ بندگی کی حقیقت۔",
+      "start": 1031.6,
+      "end": 1395.94,
+      "ur_translation_generated": false
+    },
+    {
+      "name_en": "The Spiritual Map: Sirat al-Mustaqim and Human Categories (As-Sirat)",
+      "name_ur": "صراطِ مستقیم کا نقشہ اور انسانی گروہ",
+      "description_en": "The righteous path of prophets and martyrs contrasted with knowledge without action and action without knowledge.",
+      "description_ur": "انبیاء و صالحین کا سیدھا راستہ بمقابلہ علم کے باوجود بے عملی (مغضوب) اور بے علم بھٹکنے والے (ضالین)۔",
+      "start": 1395.94,
+      "end": 2139.46,
+      "ur_translation_generated": false
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "Virtues, Revelation, and Names of Surah Al-Fatihah",
+      "title_ur": "سورۃ الفاتحہ کے فضائل، اسماء اور نزول کا پس منظر",
+      "start": 0.0,
+      "end": 216.54
+    },
+    {
+      "title_en": "Isti'adhah and Sincere Reliance Through the Basmalah",
+      "title_ur": "استعاذہ کے آداب اور تسمیہ کے ذریعے توکل کی حقیقت",
+      "start": 216.54,
+      "end": 581.92
+    },
+    {
+      "title_en": "The Station of Gratitude, Rububiyyah, and All-Encompassing Mercy",
+      "title_ur": "مقامِ حمد، ربوبیتِ عامہ اور رحمتِ الٰہی کا بیان",
+      "start": 581.92,
+      "end": 898.6
+    },
+    {
+      "title_en": "Absolute Sovereignty on Yawm ad-Din and Physical Submission",
+      "title_ur": "روزِ جزا کی مطلق حاکمیت اور سجدۂ عبودیت",
+      "start": 898.6,
+      "end": 1230.68
+    },
+    {
+      "title_en": "The Hadith Qudsi of Divided Prayer and Seeking the Divine Path",
+      "title_ur": "حدیثِ قدسی: تقسیمِ نماز اور صراطِ مستقیم کی رہنمائی",
+      "start": 1230.68,
+      "end": 1544.26
+    },
+    {
+      "title_en": "Categories of Mankind: The Favored, Wrath-Incurred, and Astray",
+      "title_ur": "انسانی طبقات: انعام یافتہ، مغضوب اور ضالین کے اوصاف",
+      "start": 1544.26,
+      "end": 1866.28
+    },
+    {
+      "title_en": "The Peril of Hypocrisy in Claims and the Etiquette of Amin",
+      "title_ur": "دعووں اور عمل میں تضاد کا وبال اور آدابِ آمین",
+      "start": 1866.28,
+      "end": 2200.0
+    },
+    {
+      "title_en": "Surah Al-Fatihah Recitation, Daily Sunnahs, and Self-Accounting",
+      "title_ur": "تلاوتِ فاتحہ، مسنون عادات اور روزانہ خود احتسابی کا سبق",
+      "start": 2200.0,
+      "end": 2419.88
+    }
+  ]
+}

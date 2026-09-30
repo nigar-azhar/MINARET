@@ -1,0 +1,1692 @@
+[
+  {
+    "start": 0.0,
+    "end": 14.0,
+    "text": "لَبَّیْكَ اَللّٰهُمَّ لَبَّیْكَ، لَبَّیْكَ لَا شَرِیْكَ لَكَ لَبَّیْكَ، اِنَّ الْحَمْدَ، وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَاشَرِیْكَ لَكَ۔"
+  },
+  {
+    "start": 14.0,
+    "end": 30.0,
+    "text": "لَبَّیْكَ اَللّٰهُمَّ لَبَّیْكَ، لَبَّیْكَ لَا شَرِیْكَ لَكَ لَبَّیْكَ، اِنَّ الْحَمْدَ، وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَاشَرِیْكَ لَكَ۔"
+  },
+  {
+    "start": 30.0,
+    "end": 40.12,
+    "text": "اَللّٰهُمَّ لَبَّیْكَ، لَبَّیْكَ لَا شَرِیْكَ لَكَ لَبَّیْكَ، اِنَّ الْحَمْدَ، وَالنِّعْمَةَ لَكَ وَالْمُلْكَ"
+  },
+  {
+    "start": 40.12,
+    "end": 50.2,
+    "text": "لَاشَرِیْكَ لَكَ۔ اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ. Welcome back, Alhamdulillah, we"
+  },
+  {
+    "start": 50.2,
+    "end": 59.92,
+    "text": "are going to, Insha'Allah, begin our proper fiqh of Hajj subject from today. Yesterday was our orientation day; I hope you know what we are going to do in this course."
+  },
+  {
+    "start": 59.92,
+    "end": 69.76,
+    "text": "So let's just begin, Insha'Allah, properly: اِنَّ الْحَمْدَ لِلّٰهِ، نَحْمَدُهٗ وَنَسْتَعِیْنُهٗ وَنَسْتَغْفِرُهٗ، وَنَعُوْذُ بِاللّٰهِ مِنْ شُرُوْرِ اَنْفُسِنَا"
+  },
+  {
+    "start": 69.76,
+    "end": 79.94,
+    "text": "وَمِنْ سَیِّئٰتِ اَعْمَالِنَا، مَنْ یَّهْدِهِ اللّٰهُ فَلَا مُضِلَّ لَهٗ، وَمَنْ یُّضْلِلْهُ فَلَا هَادِیَ لَهٗ، وَاَشْهَدُ اَنْ لَّاۤ اِلٰهَ اِلَّا"
+  },
+  {
+    "start": 79.94,
+    "end": 90.1,
+    "text": "اللّٰهُ وَحْدَهٗ لَا شَرِیْكَ لَهٗ، وَاَشْهَدُ اَنَّ مُحَمَّدًا عَبْدُهٗ وَرَسُوْلُهٗ۔ اَعُوْذُ بِاللّٰهِ مِنَ الشَّیْطٰنِ الرَّجِیْمِ۔ بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ۔"
+  },
+  {
+    "start": 90.1,
+    "end": 99.08,
+    "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْ ۙ وَیَسِّرْ لِیْۤ اَمْرِیْ ۙ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْ ۙ یَفْقَهُوْا قَوْلِیْ۔ آمِينَ۔"
+  },
+  {
+    "start": 99.08,
+    "end": 113.18,
+    "text": "for this course, so Insha'Allah..."
+  },
+  {
+    "start": 113.88,
+    "end": 124.36,
+    "text": "our goal is that we will learn about Hajj, but not just learn about what is Hajj and what are the rites and rituals of Hajj; we"
+  },
+  {
+    "start": 124.36,
+    "end": 131.58,
+    "text": "will also, Insha'Allah, focus on why do we do all of these steps? What's the wisdom behind the steps of Hajj?"
+  },
+  {
+    "start": 131.64,
+    "end": 142.44,
+    "text": "What are the benefits of these steps? And we'll also learn about the history of these locations, Insha'Allah. So, Muslims, they all love to go for Hajj, isn't it?"
+  },
+  {
+    "start": 142.7,
+    "end": 150.7,
+    "text": "Muslims brought up in believing families kind of know about the basics of our deen including Hajj. We all wish to see the Kaaba,"
+  },
+  {
+    "start": 151.04,
+    "end": 160.62,
+    "text": "we all wish to go do tawaf. It is a genuine wish of every believing heart to be there. So, the ones who can go, they don't stop;"
+  },
+  {
+    "start": 160.92,
+    "end": 175.92,
+    "text": "the ones who cannot go, they keep wishing and yearning for it. So, let's see what the Qur'an tells us about Hajj, verse 1: اِنَّ اَوَّلَ بَیْتٍ وُّضِعَ لِلنَّاسِ لَلَّذِیْ بِبَكَّةَ"
+  },
+  {
+    "start": 176.98,
+    "end": 186.34,
+    "text": "مُبٰرَكًا وَّهُدًی لِّلْعٰلَمِیْنَ ۟ۚ"
+  },
+  {
+    "start": 188.04,
+    "end": 197.28,
+    "text": "فِیْهِ اٰیٰتٌۢ بَیِّنٰتٌ مَّقَامُ اِبْرٰهِیْمَ ۚ۬"
+  },
+  {
+    "start": 197.28,
+    "end": 207.98,
+    "text": "وَمَنْ دَخَلَهٗ كَانَ اٰمِنًا ؕ وَلِلّٰهِ عَلَی النَّاسِ"
+  },
+  {
+    "start": 207.98,
+    "end": 212.54,
+    "text": "حِجُّ الْبَیْتِ مَنِ اسْتَطَاعَ اِلَیْهِ سَبِیْلًا ؕ"
+  },
+  {
+    "start": 214.56,
+    "end": 222.44,
+    "text": "وَمَنْ كَفَرَ فَاِنَّ اللّٰهَ غَنِیٌّ عَنِ الْعٰلَمِیْنَ ۟"
+  },
+  {
+    "start": 224.14,
+    "end": 234.66,
+    "text": "Indeed, the first house of worship established for mankind was that at Makkah—blessed and a guidance for the worlds. In"
+  },
+  {
+    "start": 234.66,
+    "end": 244.78,
+    "text": "it are clear signs such as the standing place of Ibrahim, and whoever enters it shall be safe. And due to Allah from the people is a pilgrimage to the House"
+  },
+  {
+    "start": 244.78,
+    "end": 255.96,
+    "text": "for whoever is able to find thereto a way. But whoever disbelieves, then indeed Allah is free from need of the worlds."
+  },
+  {
+    "start": 256.64,
+    "end": 266.52,
+    "text": "Such amazing ayat! They talk about many different things, and Insha'Allah we are going to kind of get into a bit of the tafseer of these ayat before we actually, Insha'Allah, get down to the fiqh aspects."
+  },
+  {
+    "start": 266.52,
+    "end": 276.56,
+    "text": "So, while we are talking about Hajj, Hajj to the House of Allah is a great act of worship which Allah Subhanahu wa Ta'ala has prescribed for His"
+  },
+  {
+    "start": 276.56,
+    "end": 286.76,
+    "text": "servants, for His worshippers. This act of worship is a combination of many religious and worldly benefits. Allah Subhanahu wa Ta'ala has made it a means of entering"
+  },
+  {
+    "start": 286.76,
+    "end": 296.52,
+    "text": "Jannah and forgiveness of our sins and acts of disobedience. Hajj is a journey of faith, and it's a spiritual training—it's a"
+  },
+  {
+    "start": 296.52,
+    "end": 306.46,
+    "text": "tarbiyah. It's an opportunity to improve ourselves. In this journey, one gets the true concept of worship of Allah, and the believer is adorned with"
+  },
+  {
+    "start": 306.46,
+    "end": 316.48,
+    "text": "the high morals of Islam. In this journey, the souls are purified, the heart attains taqwa, and Muslims return with healthy and pure souls. May"
+  },
+  {
+    "start": 316.48,
+    "end": 326.46,
+    "text": "Allah make us among those! In this journey, the souls are purified and hearts attain taqwa; may Allah make us among those. Hajj is, in reality, a journey"
+  },
+  {
+    "start": 326.46,
+    "end": 336.52,
+    "text": "on the path of Allah, a journey of passion, a journey of love, a journey of devotion. And at the same time, it's a fundamental part"
+  },
+  {
+    "start": 336.52,
+    "end": 346.58,
+    "text": "of Islam, it's a pillar of Islam. Hajj is one of the best ways and means of worshipping Allah. It is a collective worship; if we analyze it, it is a combination"
+  },
+  {
+    "start": 346.58,
+    "end": 360.52,
+    "text": "of all acts of worship, SubhanAllah, because in it is prayers, in it is charity, and sometimes even fasting is involved in Hajj rituals. Hajj is an act of worship which is physical,"
+  },
+  {
+    "start": 360.72,
+    "end": 370.6,
+    "text": "financial, spiritual, and emotional in nature. Why is it the best type of worship? Because a"
+  },
+  {
+    "start": 370.6,
+    "end": 380.46,
+    "text": "Haji spends one's time, one's efforts, one's wealth, and sacrifices his comfort and ease, and then goes and submits to Allah. On the other"
+  },
+  {
+    "start": 380.46,
+    "end": 390.5,
+    "text": "hand, as soon as we intend to travel for Hajj, the condition of our hearts—it changes, it begins to change."
+  },
+  {
+    "start": 390.5,
+    "end": 400.36,
+    "text": "We get excited, and we start craving more for it. One's attention is directed towards Allah; the same thought overwhelms this person"
+  },
+  {
+    "start": 400.36,
+    "end": 410.36,
+    "text": "and this person's heart and mind, that soon this journey of passion will begin. All the attention"
+  },
+  {
+    "start": 410.36,
+    "end": 420.5,
+    "text": "and interest of the one intended to go for Hajj gets focused on this one point. This journey always reminds one of the hereafter; there"
+  },
+  {
+    "start": 420.5,
+    "end": 430.18,
+    "text": "are many occasions where one really feels the gathering of the hereafter when a person is at Hajj. The reckoning, the hardships—all of these"
+  },
+  {
+    "start": 430.18,
+    "end": 442.62,
+    "text": "remind a person of the hereafter, the Day of Resurrection, SubhanAllah. May Allah make us among those who witness these holy lands! May Allah enable us to go there over and over again, Ameen."
+  },
+  {
+    "start": 443.32,
+    "end": 453.26,
+    "text": "So, when did the Hajj begin? So, let's just talk about the beginning of Hajj a bit. So, Hajj actually began or the Baytullah was actually there since"
+  },
+  {
+    "start": 453.26,
+    "end": 463.26,
+    "text": "the time of Adam A.S. It was built by angels first, and all the prophets that we know of performed Hajj. And of"
+  },
+  {
+    "start": 463.26,
+    "end": 475.48,
+    "text": "course we learn about a few prophets which are mentioned exclusively in the Qur'an to do with Baytullah and Hajj. So, let's look at this narration which gives us an idea that other prophets were also doing Hajj and whatnot."
+  },
+  {
+    "start": 476.21999999999997,
+    "end": 482.0,
+    "text": "So, Abu Al-A'aliyah narrated on the authority of Ibn Abbas that Rasulullah"
+  },
+  {
+    "start": 482.71999999999997,
+    "end": 492.74,
+    "text": "passed through the valley of Azraq and he asked, 'Which valley is this?' Sahaba said, 'This is the valley of Azraq.' And he observed and he"
+  },
+  {
+    "start": 492.74,
+    "end": 502.62,
+    "text": "said, 'I perceive as if I'm seeing Musa coming down from the mountain track, and he's calling upon Allah loudly saying Talbiyah,' right?"
+  },
+  {
+    "start": 502.62,
+    "end": 509.7,
+    "text": "saying, 'Here I am at Your service.' Then he came to the mountain track of Harsha; he asked,"
+  },
+  {
+    "start": 510.46,
+    "end": 520.94,
+    "text": "'Which is this mountain track?' They said, 'It is the mountain track of Harsha.' He said, 'I feel as if I'm seeing Yunus on a well-"
+  },
+  {
+    "start": 520.94,
+    "end": 530.72,
+    "text": "built red camel with the cloak of wool around him, and the rein of his camel is made of the fibers of date palm,"
+  },
+  {
+    "start": 530.72,
+    "end": 540.9,
+    "text": "and he's calling upon Allah with Talbiyah.' So, this is what Rasulullah told Sahaba. So, this shows that even Yunus and"
+  },
+  {
+    "start": 540.9,
+    "end": 550.8,
+    "text": "Musa performed their Hajj. And we learn about Ibrahim and Ismail when they actually raised"
+  },
+  {
+    "start": 550.8,
+    "end": 560.5,
+    "text": "the Kaaba, right? And mentioned when Ibrahim was raising the foundations of the house with his son Ismail, saying—what were they saying?"
+  },
+  {
+    "start": 560.5,
+    "end": 570.42,
+    "text": "رَبَّنَا تَقَبَّلْ مِنَّا ؕ اِنَّكَ اَنْتَ السَّمِیْعُ الْعَلِیْمُ. Even though they were doing this amazing task, this noble act of worship building the house of"
+  },
+  {
+    "start": 570.42,
+    "end": 580.52,
+    "text": "Allah, but they still were concerned about acceptance, and their du'a was: رَبَّنَا تَقَبَّلْ مِنَّا."
+  },
+  {
+    "start": 580.52,
+    "end": 590.72,
+    "text": "'Our Lord, accept this from us, indeed You are the Hearing and the Knowing.' And this du'a doesn't stop there: رَبَّنَا وَجَعَلْنَا"
+  },
+  {
+    "start": 590.72,
+    "end": 600.96,
+    "text": "مُسْلِمَیْنِ لَكَ. 'Our Lord, and make us Muslims in submission to You, and from our descendants a Muslim nation in submission to You, and show us our rites like"
+  },
+  {
+    "start": 600.96,
+    "end": 611.22,
+    "text": "teach us how to worship, and accept our repentance, indeed You are the Accepting of repentance, the Merciful.' SubhanAllah, this is a very beautiful"
+  },
+  {
+    "start": 611.22,
+    "end": 621.34,
+    "text": "example of: they did what they could, but they wanted Allah Subhanahu wa Ta'ala's acceptance; they did not rely on their actions."
+  },
+  {
+    "start": 621.34,
+    "end": 631.64,
+    "text": "They did what they could, they did the best, but they were now asking Allah for help—such a beautiful example for us. And we also learn about Ibrahim"
+  },
+  {
+    "start": 631.64,
+    "end": 641.42,
+    "text": "that once he was done building the Kaaba, he was commanded by Allah Subhanahu wa Ta'ala to call the people. And from a narration, from a hadith, we learned that Ibrahim"
+  },
+  {
+    "start": 641.42,
+    "end": 651.32,
+    "text": "was concerned: 'Who's going to come here?' Because the Kaaba was built in just a very barren area, not very many people used to live around"
+  },
+  {
+    "start": 651.32,
+    "end": 661.34,
+    "text": "there. So, he was very concerned: 'We have built it, but who's going to come?' So, Allah Subhanahu wa Ta'ala He gave a very beautiful command, He said: 'And proclaim to the"
+  },
+  {
+    "start": 661.34,
+    "end": 671.3,
+    "text": "people the Hajj, they will come to you on foot and on every lean camel, they will come from every distant pass.' So, the job is only to"
+  },
+  {
+    "start": 671.3,
+    "end": 681.72,
+    "text": "give a call, just call, and people will come. Our job is not the result, our job is our effort—that"
+  },
+  {
+    "start": 681.72,
+    "end": 691.6,
+    "text": "is something we learned from this verse. And that is exactly what Ibrahim did when he called. Maybe for a few years not a lot of people turned"
+  },
+  {
+    "start": 691.6,
+    "end": 701.64,
+    "text": "up, maybe no one turned up—we don't have those details, right? But what we know is there were not a lot of people there. But SubhanAllah now when we"
+  },
+  {
+    "start": 701.64,
+    "end": 713.52,
+    "text": "all go, we are actually doing what? We are actually responding to the call of Ibrahim when he called us for Hajj. So, may Allah enable us to accept this call and respond to it!"
+  },
+  {
+    "start": 714.0600000000001,
+    "end": 723.82,
+    "text": "And when we talk about Baitullah, it was the very, very first house, as we have learned about it before, that angels actually built it at the time of Adam, and"
+  },
+  {
+    "start": 723.82,
+    "end": 734.1,
+    "text": "we learn it from this verse which we have actually listened to the recitation of in the beginning of this session—the verse from Surah Ali Imran. So, let's try to understand"
+  },
+  {
+    "start": 734.1,
+    "end": 744.4,
+    "text": "this verse a bit so that we can understand about Hajj and its history and its beginning. So, we learn: اِنَّ اَوَّلَ بَیْتٍ—indeed the first house. So,"
+  },
+  {
+    "start": 744.4,
+    "end": 754.28,
+    "text": "Kaaba is called the first house, Baytullah is called the first house, and it is the first place of worship on the face of this earth, and it's the first"
+  },
+  {
+    "start": 754.28,
+    "end": 766.9,
+    "text": "masjid—so, first masjid where we go do sajda, first place of worship for anyone to worship, and first house built. What's the proof? Sahih Muslim, hadith number 520:"
+  },
+  {
+    "start": 767.7199999999999,
+    "end": 779.54,
+    "text": "we learn that Rasulullah Sallallahu Alayhi wa Sallam was asked about the masjid which was first set up on the earth. He Sallallahu Alayhi wa Sallam responded: 'It was Al-Masjid al-Haram.'"
+  },
+  {
+    "start": 780.24,
+    "end": 790.24,
+    "text": "Then he was asked, 'Which one was the next after that?' So, he said, 'Al-Masjid al-Aqsa.' So, the first masjid: Masjid al-Haram on the face of the"
+  },
+  {
+    "start": 790.24,
+    "end": 799.96,
+    "text": "earth; second masjid: Al-Masjid al-Aqsa. In this verse we learn that Makkah is called Bakkah. So, what's the reason behind it?"
+  },
+  {
+    "start": 799.96,
+    "end": 809.62,
+    "text": "One understanding is that it's just another name of Makkah. But why is it called Bakkah? What is the meaning? There are two meanings."
+  },
+  {
+    "start": 809.62,
+    "end": 822.64,
+    "text": "One is that Bakkah—it bends the necks of the oppressors and tyrants, the arrogant ones, so that they come to Baytullah and they show humility and they weep, SubhanAllah."
+  },
+  {
+    "start": 823.46,
+    "end": 835.78,
+    "text": "Even the most arrogant ones, they show humility there. Another meaning of Bakkah is that people are often gathered here and it is crowded in Makkah, that's why it's called Bakkah. So, these are the two"
+  },
+  {
+    "start": 836.5600000000001,
+    "end": 846.44,
+    "text": "understandings from different tafaseer. Also in this verse we learn that Makkah is Mubarak. What does that mean? So, we're going to Insha'Allah learn"
+  },
+  {
+    "start": 846.44,
+    "end": 856.36,
+    "text": "about 10 different points—there can be so many different points about Makkah being Mubarak, but Insha'Allah we're going to learn about 10 points for our today's session."
+  },
+  {
+    "start": 856.36,
+    "end": 866.36,
+    "text": "First one: why is Makkah Mubarak? Because Rasulullah, he was sent there, revelation started there, the best Shariah which was given to"
+  },
+  {
+    "start": 866.36,
+    "end": 877.7,
+    "text": "the mankind was descended there first, right? It started off from there, SubhanAllah. And another reason that Makkah is Mubarak is because it's always busy with worship."
+  },
+  {
+    "start": 878.84,
+    "end": 888.72,
+    "text": "Isn't it, SubhanAllah? No matter when you turn the TV on—and before COVID it was like very crowded, SubhanAllah—so it's always busy with worship, that's why it's Mubarak."
+  },
+  {
+    "start": 888.72,
+    "end": 898.64,
+    "text": "And the reward of worship in Makkah is many times more. So, it's just all sorts of worship, not just salah, remember that. Scholars"
+  },
+  {
+    "start": 898.64,
+    "end": 908.58,
+    "text": "say that every act of worship you get more reward for that in Makkah, SubhanAllah. So, that's why it's Mubarak, it's Mubarak land. Whatever you do: you do charity, you"
+  },
+  {
+    "start": 908.58,
+    "end": 918.52,
+    "text": "get more rewards; you're nice to people around you, you get more reward; you show sabr there, you get more reward; you avoid sins, you get more reward; you don't harm people, you get more reward;"
+  },
+  {
+    "start": 918.52,
+    "end": 933.5,
+    "text": "you help people, you get more rewards, SubhanAllah. So, more rewards for the same deeds done elsewhere. And then of course this famous hadith about reward of salah in Masjid al-Haram—let's look at the narration today."
+  },
+  {
+    "start": 934.3,
+    "end": 944.1,
+    "text": "Rasulullah said: 'And one prayer in the sacred masjid—Al-Masjid al-Haram, which is in Makkah—is better than 100,000"
+  },
+  {
+    "start": 944.1,
+    "end": 954.42,
+    "text": "prayers elsewhere,' SubhanAllah. So, whenever you get an opportunity, whenever you get a chance, please don't ever miss any salah in Masjid al-Haram."
+  },
+  {
+    "start": 954.42,
+    "end": 964.12,
+    "text": "So, some people sometimes, you know, they kind of go around for ziyarat at salah timings—that's not a good idea. So, Insha'Allah you can always pick after Isha time"
+  },
+  {
+    "start": 964.12,
+    "end": 973.92,
+    "text": "or maybe after Fajr time to travel if you want to see some other places in Makkah, but come back before the next fard prayer"
+  },
+  {
+    "start": 973.92,
+    "end": 983.9,
+    "text": "so that you don't miss this amazing opportunity. So, just praying 100,000 prayers—it should not be missed and it should not be ignored, it should not be taken casually. Another"
+  },
+  {
+    "start": 983.9,
+    "end": 994.1,
+    "text": "reason why Makkah is Mubarak is because we get forgiveness of our sins, we get forgiveness of our sins, SubhanAllah! And it removes"
+  },
+  {
+    "start": 994.1,
+    "end": 1004.12,
+    "text": "poverty every time we go there; it's a means of becoming rich. Interesting, right? Such a beautiful concept: apparently we're spending money, but"
+  },
+  {
+    "start": 1004.12,
+    "end": 1013.4,
+    "text": "what's happening? Barakah in our wealth, because we're going to a Mubarak land! Where's the hadith? From Sahih Ibn Majah we learn:"
+  },
+  {
+    "start": 1014.34,
+    "end": 1028.64,
+    "text": "Rasulullah said: 'Perform Hajj and Umrah one after the other, for performing them one after the other removes poverty and sin, as the bellows removes impurity from iron.'"
+  },
+  {
+    "start": 1029.5,
+    "end": 1041.32,
+    "text": "SubhanAllah, just like these bellows they remove the filth, the extras from the iron and purifies it, Hajj and Umrah purify us from our sins."
+  },
+  {
+    "start": 1042.24,
+    "end": 1052.96,
+    "text": "Another reason that Makkah is Mubarak is because we get the reward for every step we take towards it. Let's look at the hadith Rasul said:"
+  },
+  {
+    "start": 1053.88,
+    "end": 1063.9,
+    "text": "'Not that—hadith: camel lifts its foot or places its hand except Allah the Exalted writes for him a good deed for it"
+  },
+  {
+    "start": 1063.9,
+    "end": 1074.1,
+    "text": "and removes from him an evil deed, or raises with it his rank,' SubhanAllah. So, with every step what's happening? Good"
+  },
+  {
+    "start": 1074.1,
+    "end": 1080.08,
+    "text": "deed is written, evil deed is removed, or a person is getting a raised rank."
+  },
+  {
+    "start": 1080.74,
+    "end": 1090.82,
+    "text": "So, even if you live really far away from Makkah, whenever you travel you benefit from it. The farther you are, the better it is for you, SubhanAllah, in terms"
+  },
+  {
+    "start": 1090.82,
+    "end": 1100.94,
+    "text": "of your book of deeds. And then blessed water is there. Which water is that? Which water is called blessed water? And SubhanAllah, it's just mind-blowing"
+  },
+  {
+    "start": 1100.94,
+    "end": 1115.58,
+    "text": "if you read about it, if you research about it: exactly, Zamzam water! It's blessed water. So, Insha'Allah one tip while we are talking about Zamzam water here: that when you are there, try to drink only Zamzam water, right?"
+  },
+  {
+    "start": 1116.26,
+    "end": 1131.02,
+    "text": "Don't drink any other water because you have access to it and you can drink it. So, what's the point of drinking mineral water there or spring water there when you have Zamzam water there, Insha'Allah? What's the benefit of Zamzam water? Rasulullah was"
+  },
+  {
+    "start": 1131.9199999999998,
+    "end": 1141.82,
+    "text": "heard saying: 'The water of Zamzam is for whatever it is drunk for. If it is drunk for food, it acts as food;"
+  },
+  {
+    "start": 1141.82,
+    "end": 1151.76,
+    "text": "if it's drunk for quenching one's thirst, it acts like that; if it is drunk for shifa, then it acts as one,"
+  },
+  {
+    "start": 1151.76,
+    "end": 1161.9,
+    "text": "like it cures people as well,' SubhanAllah. Yes, of course, we can do wudu with it as well wherever they allow us, right? Because of course when we go to any masjid we"
+  },
+  {
+    "start": 1161.9,
+    "end": 1172.18,
+    "text": "follow their rules; if they allow you, then Insha'Allah you do. Some places outside the masjid they allow you, from inside the masjid, you know, of course we can create a lot of mess there if we do that."
+  },
+  {
+    "start": 1180.98,
+    "end": 1186.14,
+    "text": "opportunities as well. And it's allowed to do business there even when you are on your Hajj trip,"
+  },
+  {
+    "start": 1187.4,
+    "end": 1197.1,
+    "text": "given that that is not your main goal, right? Your business is not your main goal, Hajj is your main goal, but you're allowed to do your business there if you want, SubhanAllah."
+  },
+  {
+    "start": 1198.04,
+    "end": 1208.1,
+    "text": "And abundance of sustenance is there. If you think about it, Makkah is, you know, it's like a dry land, nothing grows there as such; but"
+  },
+  {
+    "start": 1208.1,
+    "end": 1218.06,
+    "text": "you can find every type of fruit, you can find every type of food, every type of cuisine there. And SubhanAllah a lot of people go there and food doesn't run"
+  },
+  {
+    "start": 1218.06,
+    "end": 1225.72,
+    "text": "out! And think about water as well, Zamzam water: people have been going ever since, right? Ever"
+  },
+  {
+    "start": 1234.56,
+    "end": 1244.6,
+    "text": "homelands, and Zamzam water has reached pretty much every corner of this earth, yet it is there, yet it keeps coming—a big miracle, isn't"
+  },
+  {
+    "start": 1244.6,
+    "end": 1258.36,
+    "text": "it, SubhanAllah? Such blessed water! But before COVID situations, people were actually bringing back water as well: some countries allow you to fill your own bottles and bring back, some countries want you to have the packed proper"
+  },
+  {
+    "start": 1258.96,
+    "end": 1273.72,
+    "text": "bottles from Saudi government. So for that, of course, you have to pay a bit, otherwise it's available everywhere in Haram and also in—they have arranged that Zamzam water reaches, so you can even find it there, SubhanAllah."
+  },
+  {
+    "start": 1274.5,
+    "end": 1284.66,
+    "text": "From Surah Al-Qasas (57) we learned that Allah is questioning: 'Have We not established for them a safe sanctuary to which are brought"
+  },
+  {
+    "start": 1284.66,
+    "end": 1289.8,
+    "text": "the fruits of all things as provision from Us? But most of them do not know.'"
+  },
+  {
+    "start": 1290.4799999999998,
+    "end": 1299.76,
+    "text": "SubhanAllah, like it is Allah who provided all of this rizq for the people of Makkah because it was not possible otherwise. So that"
+  },
+  {
+    "start": 1310.08,
+    "end": 1320.14,
+    "text": "according to Shaykh Al-Uthaymeen means people, so it's guidance for the people. And SubhanAllah it is, you know, even when non-Muslims they view the footage of Kaaba,"
+  },
+  {
+    "start": 1320.14,
+    "end": 1334.96,
+    "text": "they see people going there in white, you know, in submission to Allah, they also feel something. I'm not sure if you have remembered, but you know, a few years back before COVID,"
+  },
+  {
+    "start": 1334.96,
+    "end": 1339.3,
+    "text": "you know, some people actually had a Snapchat story about"
+  },
+  {
+    "start": 1339.3,
+    "end": 1346.36,
+    "text": "27th night of Ramadan in Makkah, and a lot of non-Muslims were writing on it that, you know, 'We wish we were there, we just love it, we want to become Muslims,' SubhanAllah, like so many of"
+  },
+  {
+    "start": 1346.36,
+    "end": 1353.4,
+    "text": "them! It was just mind-blowing that how it is a guidance for the worlds just by looking at it."
+  },
+  {
+    "start": 1353.96,
+    "end": 1362.4,
+    "text": "So how is Makkah or Baitullah guidance for the 'Alamin, for the people?"
+  },
+  {
+    "start": 1362.86,
+    "end": 1370.16,
+    "text": "One, it's a gathering of all Muslims, so Muslims gather there, they learn from each other,"
+  },
+  {
+    "start": 1370.16,
+    "end": 1382.74,
+    "text": "and it becomes a means of guidance for each other. And SubhanAllah, by looking at others you feel that how you don't know much,"
+  },
+  {
+    "start": 1383.6200000000001,
+    "end": 1392.96,
+    "text": "and looking at others and their desire, their worship, their efforts, and their zeal and energy to worship Allah, then you're reminded that you're nothing,"
+  },
+  {
+    "start": 1393.8600000000001,
+    "end": 1403.56,
+    "text": "SubhanAllah. So when you look at others, you learn from them. So these amazing gatherings, they are beneficial for us—the Umrah gatherings, the Hajj gatherings—"
+  },
+  {
+    "start": 1403.56,
+    "end": 1414.24,
+    "text": "and it's a qibla for all Muslims, so it's a direction we all follow. So that's why it's a guide, it's hudan in that sense as well."
+  },
+  {
+    "start": 1415.02,
+    "end": 1424.36,
+    "text": "Also more guidance we get when we go for Umrah and Hajj: our iman increases and we also get more guidance."
+  },
+  {
+    "start": 1425.3999999999999,
+    "end": 1435.38,
+    "text": "Sometimes because there are lectures going on there and we benefit from them, but not all the time. It's not always the lectures or the knowledge which is there, which is amazing, Alhamdulillah,"
+  },
+  {
+    "start": 1435.38,
+    "end": 1449.76,
+    "text": "it's not always that. It's just, you know, SubhanAllah this beautiful experience of servitude, spending everything for Allah: your energy, your effort, your time, dedicating your time, dedicating your life, everything, SubhanAllah, and then learning from the people around you."
+  },
+  {
+    "start": 1450.54,
+    "end": 1460.62,
+    "text": "And then in Makkah there are ayat bayyinat, clear proofs, open proofs for all of us. What are these proofs? We're going to Insha'Allah cover six of them, so please jot them down."
+  },
+  {
+    "start": 1460.62,
+    "end": 1468.06,
+    "text": "First one: the biggest proof is that this amazing house of Allah is built on a very barren land, nothing usually grows there, SubhanAllah. And"
+  },
+  {
+    "start": 1468.06,
+    "end": 1481.06,
+    "text": "Zamzam—Zamzam water is a very big miracle, and when you look at the properties of this water and you do a bit of research, you'll be just mind-blown about it. And then security:"
+  },
+  {
+    "start": 1481.62,
+    "end": 1491.3,
+    "text": "security of Makkah is just amazing. Even today people when it's time for salah, they leave their shops open and they go and pray—no one steals their stuff, SubhanAllah!"
+  },
+  {
+    "start": 1491.96,
+    "end": 1501.46,
+    "text": "It's that beautiful. And the fruits, as we have talked about before: nothing grows there, but you can find every food there,"
+  },
+  {
+    "start": 1502.3200000000002,
+    "end": 1512.32,
+    "text": "from grapes to mangoes, from different countries from all over the world. And not just fruits, the fruits from all types, different cuisines, different tastes,"
+  },
+  {
+    "start": 1512.32,
+    "end": 1522.24,
+    "text": "and the kind of food people enjoy there, they don't even get to enjoy there wherever they come from; they get to enjoy more food there, SubhanAllah, even though, you know,"
+  },
+  {
+    "start": 1522.24,
+    "end": 1533.36,
+    "text": "a lot of people are there, but they don't run out of food, SubhanAllah! That's the barakah of Makkah. And also the Safa and Marwa—they are big signs, they are clear"
+  },
+  {
+    "start": 1533.9,
+    "end": 1542.06,
+    "text": "proofs, isn't it, SubhanAllah? They're still there. When you see Safa and Marwa there, where you're reminded of the story of Hajar,"
+  },
+  {
+    "start": 1542.98,
+    "end": 1556.08,
+    "text": "and then you are amazed at how much she put in effort and how hard it is to run through these two mountains. And you know, now it's very easy to walk through it or run through it, but back in"
+  },
+  {
+    "start": 1556.08,
+    "end": 1568.08,
+    "text": "those days it was just very hard. And the sixth sign is Maqam Ibrahim, where you can still see the footprints of Ibrahim Alayhi Salaam—you can still see them."
+  },
+  {
+    "start": 1568.08,
+    "end": 1578.5,
+    "text": "So, these were just few ayat which we have talked about, few signs which are open clear signs for believers, for people, for the world."
+  },
+  {
+    "start": 1578.5,
+    "end": 1592.24,
+    "text": "Now, there's a very beautiful tarbiyah tip by Dr. Farhat Hashmi: she said that if you ever are struggling with your children's tarbiyah, then what you can do is take your children"
+  },
+  {
+    "start": 1592.24,
+    "end": 1605.0,
+    "text": "to Baitullah, and they will be amazed by all of this. They will, Insha'Allah, feel more connected with their deen, they will get"
+  },
+  {
+    "start": 1605.0,
+    "end": 1614.98,
+    "text": "more guidance, they will see all of these amazing sha'air from their own eyes, all of these amazing sights. All of the history will come alive in front"
+  },
+  {
+    "start": 1614.98,
+    "end": 1625.9,
+    "text": "of them, all the stories you have been telling them, you know, they will experience them. But not once in a while—take them as many times as you can, because every time we go there, we learn so much from that, SubhanAllah."
+  },
+  {
+    "start": 1630.22,
+    "end": 1635.22,
+    "text": "So, after this part of the ayah which mentions the clear proofs,"
+  },
+  {
+    "start": 1635.94,
+    "end": 1645.54,
+    "text": "Maqam Ibrahim is mentioned specifically. Why is it mentioned specifically? Because that's a big sign, because we have learned from the Qur'an that Ibrahim and Ismail"
+  },
+  {
+    "start": 1645.54,
+    "end": 1655.1,
+    "text": "they built the Kaaba, right? And then we see the footsteps, you know, you can literally see them, SubhanAllah. So, it is a very"
+  },
+  {
+    "start": 1655.1,
+    "end": 1667.94,
+    "text": "enlightening moment, it's like you can actually feel that yes, Ibrahim was there and he built it. All of this gives you a lot of iman boost. And what"
+  },
+  {
+    "start": 1667.94,
+    "end": 1684.08,
+    "text": "is the virtue of Maqam Ibrahim? Let's see: Rasulullah Sallallahu Alayhi wa Sallam said: 'Black stone and Maqam Ibrahim are rubies of Jannah, they are yaqut of Jannah. If children of Adam"
+  },
+  {
+    "start": 1684.08,
+    "end": 1694.14,
+    "text": "wouldn't have touched it with sins, it would have illuminated whatever is between east and the west, and not any disabled and sick would touch it except would be cured,' SubhanAllah."
+  },
+  {
+    "start": 1694.14,
+    "end": 1702.58,
+    "text": "So, this is the virtue of Maqam Ibrahim and also Black Stone. And we also have learned that Maqam Ibrahim is mentioned"
+  },
+  {
+    "start": 1703.14,
+    "end": 1714.42,
+    "text": "in Qur'an: وَاتَّخِذُوْا مِنْ مَّقَامِ اِبْرٰهٖمَ مُصَلًّی ؕ 'And take for the standing place of Ibrahim a place of prayer.' And Alhamdulillah we do after"
+  },
+  {
+    "start": 1714.42,
+    "end": 1724.16,
+    "text": "every tawaf, we pray behind Maqam Ibrahim to fulfill this. And whoever enters Makkah: وَمَنْ دَخَلَهٗ كَانَ اٰمِنًا ؕ Whoever"
+  },
+  {
+    "start": 1724.16,
+    "end": 1734.36,
+    "text": "enters Makkah is safe—safe from what? Safe from all evils, SubhanAllah, because Makkah is a cradle of peace and security,"
+  },
+  {
+    "start": 1734.36,
+    "end": 1744.68,
+    "text": "peace and security, and you feel it, SubhanAllah. And Ibrahim actually made this du'a: وَاِذْ قَالَ اِبْرٰهٖمُ رَبِّ اجْعَلْ هٰذَا بَلَدًا اٰمِنًا. When"
+  },
+  {
+    "start": 1744.68,
+    "end": 1754.46,
+    "text": "Ibrahim said, 'My Lord, make this city secure and keep me and my sons away from worshipping idols,' his"
+  },
+  {
+    "start": 1754.46,
+    "end": 1764.6,
+    "text": "concern was that we don't do shirk; he wanted safety not for worldly reasons, he wanted safety for worship reasons,"
+  },
+  {
+    "start": 1764.6,
+    "end": 1772.56,
+    "text": "and Allah knows best. And we also learn about two other qualities of Baytullah from Surah Al-Baqarah, that it is called"
+  },
+  {
+    "start": 1772.56,
+    "end": 1783.3,
+    "text": "مَثَابَةً and أَمْنًا. Masaba is a place where people return, and that's why, SubhanAllah, people keep returning."
+  },
+  {
+    "start": 1783.3,
+    "end": 1791.3,
+    "text": "Anytime we go there, we just want to come back again. It's very hard to leave those sacred lands, it's very hard to leave"
+  },
+  {
+    "start": 1791.3,
+    "end": 1801.36,
+    "text": "Kaaba; people who go there, they want to keep going back, SubhanAllah. Masaba: a place of return, SubhanAllah."
+  },
+  {
+    "start": 1801.36,
+    "end": 1813.04,
+    "text": "And Amna is security. How is Makkah a place of safety and security? We're going to cover six points, but I really want all of you to jot down only the four"
+  },
+  {
+    "start": 1813.04,
+    "end": 1822.18,
+    "text": "points first—the first four points only at this point, because we are going to touch the other points if you get a chance in this course. First point:"
+  },
+  {
+    "start": 1822.78,
+    "end": 1837.4,
+    "text": "sacred place till Qiyamah. Makkah is going to stay sacred till Qiyamah; we need to remember that it's a sanctuary till the Day of Resurrection. Rasulullah, he said that on the day of conquest of Makkah:"
+  },
+  {
+    "start": 1837.4,
+    "end": 1849.64,
+    "text": "'There is no migration now, there is no hijra now, but there is jihad and good intentions. And when you are called for jihad, you should come out at once.' Rasulullah also"
+  },
+  {
+    "start": 1850.4399999999998,
+    "end": 1860.42,
+    "text": "said on the day of conquest of Makkah: 'Allah has made this town, this Makkah, a sanctuary since the day He created the heavens and the"
+  },
+  {
+    "start": 1860.42,
+    "end": 1870.52,
+    "text": "earth. So, it is a sanctuary by Allah's decree till the Day of Resurrection,' SubhanAllah. So, since beginning till end, it is a sacred and safe"
+  },
+  {
+    "start": 1870.52,
+    "end": 1877.8,
+    "text": "place; it is a safe zone not only for people, but also for animals and plants. And you're going to love this hadith, Insha'Allah:"
+  },
+  {
+    "start": 1878.5,
+    "end": 1888.48,
+    "text": "Narrated Ibn Abbas: 'On the day of the conquest of Makkah, Rasulullah said: Allah has made this town a sanctuary;"
+  },
+  {
+    "start": 1888.48,
+    "end": 1896.0,
+    "text": "its thorny bushes should not be cut, its game should not be chased'—like you're not supposed to"
+  },
+  {
+    "start": 1896.7,
+    "end": 1907.44,
+    "text": "hunt there—'and its fallen things should not be picked up except by the one who would announce it publicly,' right? So, if you see anything dropped, you're not supposed to pick it"
+  },
+  {
+    "start": 1907.44,
+    "end": 1917.48,
+    "text": "up unless you're able to get this back to the owner or you know how to get it to the authorities so that they can get that item back to the person"
+  },
+  {
+    "start": 1918.06,
+    "end": 1926.98,
+    "text": "who owns it or who dropped it. And then third point: anyone leaving for the House of Allah"
+  },
+  {
+    "start": 1926.98,
+    "end": 1937.16,
+    "text": "is in Allah's protection. That's another beautiful point, SubhanAllah. So, we learn from a narration: 'Three are under Allah's guarantee:"
+  },
+  {
+    "start": 1937.16,
+    "end": 1945.82,
+    "text": "a man who goes to the masjid from the masajid of Allah, and the soldier who leaves in the way of Allah, and"
+  },
+  {
+    "start": 1945.82,
+    "end": 1956.7,
+    "text": "a person who leaves for Hajj.' When we leave for Hajj, we are under Allah's guarantee, like He is going to take care of us, SubhanAllah."
+  },
+  {
+    "start": 1956.7,
+    "end": 1966.62,
+    "text": "First, SubhanAllah. And then fourth point: safety from Dajjal's fitna. We all are scared about Dajjal, isn't it? So, SubhanAllah Makkah is safe"
+  },
+  {
+    "start": 1966.62,
+    "end": 1981.02,
+    "text": "from Dajjal, Masjid al-Haram is safe from Dajjal. So, let's look at the narration now: Rasulullah said: 'There will be no town which Dajjal will not enter except Makkah and Medina, and there will"
+  },
+  {
+    "start": 1981.02,
+    "end": 1996.66,
+    "text": "be no entrance road of both Makkah and Medina but the angels will be standing in rows guarding it against him.' And then Medina will shake with its inhabitants thrice,"
+  },
+  {
+    "start": 1996.66,
+    "end": 2007.22,
+    "text": "earthquakes will come, and Allah will expel all the disbelievers and the Munafiqeen from it. So, only the pure people will stay in Medina, SubhanAllah."
+  },
+  {
+    "start": 2007.22,
+    "end": 2018.2,
+    "text": "So, they will not run away and they will stay safe from Dajjal. So, let's move on to the next part of this ayah where we learned that we are supposed to do Hajj for Allah."
+  },
+  {
+    "start": 2018.2,
+    "end": 2032.4,
+    "text": "Again, SubhanAllah, even that is something we have learned before from Surah Al-Baqarah, we learn the same thing: وَلِلّٰهِ عَلَی النَّاسِ حِجُّ الْبَیْتِ. For Allah, what are we supposed to do?"
+  },
+  {
+    "start": 2032.4,
+    "end": 2039.1200000000001,
+    "text": "People are obliged to do Hajj for Allah, not for any other reason, not for business, not for money, not for fame,"
+  },
+  {
+    "start": 2039.1200000000001,
+    "end": 2052.82,
+    "text": "nothing else, just for Allah. مَنِ اسْتَطَاعَ اِلَیْهِ سَبِیْلًا—whoever is able to do it. We are going to talk about the ability, we are going to talk about what is istita'ah in a bit."
+  },
+  {
+    "start": 2053.5,
+    "end": 2061.48,
+    "text": "But before that, let's just revisit the goal: that why do we do Hajj? We do Hajj only for the pleasure of Allah,"
+  },
+  {
+    "start": 2062.08,
+    "end": 2072.36,
+    "text": "only to get His approval, only to please Him, only to obey Him, only to respond to His call. May Allah make us among those people who do that!"
+  },
+  {
+    "start": 2072.36,
+    "end": 2085.72,
+    "text": "And Hajj is mandatory once in a lifetime, but if we perform more Hajj it's better for us. And Insha'Allah we are going to touch base that point today if time permits, Insha'Allah."
+  },
+  {
+    "start": 2085.72,
+    "end": 2095.04,
+    "text": "So, what's the proof that Hajj is mandatory for those who are able to go? He was given khutbah and he said: 'O people, Allah has made Hajj"
+  },
+  {
+    "start": 2095.04,
+    "end": 2102.26,
+    "text": "an obligation for you, so perform Hajj.' Thereupon a person said, 'Is it to be performed every year?'"
+  },
+  {
+    "start": 2102.26,
+    "end": 2109.82,
+    "text": "Rasulullah Sallallahu Alayhi wa Sallam, he kept quiet, but this person repeated his question three times."
+  },
+  {
+    "start": 2109.82,
+    "end": 2123.2,
+    "text": "Whereupon Allah's Messenger said: 'If I were to say yes, it would become obligatory and you would not be able to do it.' Then he said: 'Leave me with what I have left to you,"
+  },
+  {
+    "start": 2123.2,
+    "end": 2133.72,
+    "text": "for those who were before you were destroyed because of excessive questioning.' So, Allah He just clarified that it is mandatory only once. So, that's the proof for that."
+  },
+  {
+    "start": 2133.72,
+    "end": 2143.66,
+    "text": "And there's another narration which we have already covered before, and I'm going to show you that today as well. So, Hajj is mandatory for those who are able to go,"
+  },
+  {
+    "start": 2143.66,
+    "end": 2153.82,
+    "text": "who have istita'ah. What does that mean? It has three understandings based: first one, when a person has the travel expenses,"
+  },
+  {
+    "start": 2153.82,
+    "end": 2163.68,
+    "text": "when a person is able to travel, then he is capable to go for Hajj. And also this person should have enough expenses for the people he's leaving behind."
+  },
+  {
+    "start": 2163.68,
+    "end": 2177.64,
+    "text": "So, let's say if he is the father of the family and he has family left behind, so he should leave enough funds for them to eat, drink, and survive. So, this means this person is rich enough to go for Hajj, because that person has money to go for Hajj and also his family is not going to suffer."
+  },
+  {
+    "start": 2178.58,
+    "end": 2184.48,
+    "text": "Second point: that it should be safe, it should be safe to go."
+  },
+  {
+    "start": 2185.26,
+    "end": 2196.68,
+    "text": "So, scholars have mentioned in the tafaseer: safe way, when a person's life and property is safe, then it's okay for us to go. But if it's not safe, then"
+  },
+  {
+    "start": 2197.44,
+    "end": 2207.46,
+    "text": "it's not mandatory for us to go that year if there's a problem. So, Alhamdulillah because of this opinion, the COVID years were okay for us if we were not"
+  },
+  {
+    "start": 2207.46,
+    "end": 2217.62,
+    "text": "able to go, because it wasn't safe for our life, isn't it, SubhanAllah? And if people were not called for Hajj or they were not allowed to go for Hajj or Umrah,"
+  },
+  {
+    "start": 2217.62,
+    "end": 2227.52,
+    "text": "then it wasn't something so bad, it's totally allowed based on all of these narrations. And then if a person is not physically able to go,"
+  },
+  {
+    "start": 2227.52,
+    "end": 2234.02,
+    "text": "then again that person is not required to go. So, physical capability is also one of the conditions."
+  },
+  {
+    "start": 2234.02,
+    "end": 2244.76,
+    "text": "So, let's say a person is not able to go, but is rich enough—can that person send someone else on his or her behalf with her money or with his money? Yes, right? And Allah knows best."
+  },
+  {
+    "start": 2244.76,
+    "end": 2254.7,
+    "text": "So, the people who don't perform Hajj in spite of the ability to go for Hajj—you know, they have money, they are healthy enough,"
+  },
+  {
+    "start": 2254.7,
+    "end": 2263.94,
+    "text": "and there is no problem on the way—then it is considered a major sin. Not performing Hajj in spite of one's ability is a major sin."
+  },
+  {
+    "start": 2264.76,
+    "end": 2274.44,
+    "text": "But there is something to remember: this person believes that Hajj is fard, but not going because of laziness, because of whatever."
+  },
+  {
+    "start": 2274.44,
+    "end": 2289.38,
+    "text": "But believing that Hajj is not mandatory or Hajj is not part of Islam makes a person a non-believer, kicks a person out of the fold of Islam. So, it's something which is very important to remember."
+  },
+  {
+    "start": 2290.06,
+    "end": 2296.68,
+    "text": "So, two things, Insha'Allah, we need to remember, because the next part of the ayah—which is the concluding part of the ayah we have covered: وَمَنْ كَفَرَ—whoever"
+  },
+  {
+    "start": 2296.68,
+    "end": 2308.04,
+    "text": "disbelieves... The beginning part talks about Hajj, it would have mentioned, you know, the one who doesn't do Hajj; but here it is mentioned the one who does kufr."
+  },
+  {
+    "start": 2308.04,
+    "end": 2315.08,
+    "text": "What does that mean? It's the kufr of the blessing: Allah has given you health, Allah has given you wealth, Allah has made"
+  },
+  {
+    "start": 2315.08,
+    "end": 2322.02,
+    "text": "it easy for you to reach there, and you still are not going."
+  },
+  {
+    "start": 2322.02,
+    "end": 2331.72,
+    "text": "You are denying the blessing, and this blessing can be denied with heart and with actions. When this blessing is denied with heart, then"
+  },
+  {
+    "start": 2331.72,
+    "end": 2346.68,
+    "text": "the person doesn't believe in Hajj. When this blessing is denied with action, then person doesn't go for Hajj, believes in it but doesn't do it. So, both are wrong. So, whoever doesn't go for Hajj, then they need to remember: فَاِنَّ اللّٰهَ غَنِیٌّ عَنِ الْعٰلَمِیْنَ—"
+  },
+  {
+    "start": 2346.68,
+    "end": 2359.72,
+    "text": "Allah is Ghani, He doesn't need your Hajj, He doesn't need you. So, we don't do any favor on anyone when we do Hajj, it's a favor on us."
+  },
+  {
+    "start": 2360.32,
+    "end": 2366.5,
+    "text": "Now, let's just do some definitions. We have covered them yesterday as well briefly, but Insha'Allah today we're going to touch base"
+  },
+  {
+    "start": 2366.5,
+    "end": 2382.46,
+    "text": "those same definitions, so please jot them down if you can. So, the definition of Hajj or the meaning of Hajj linguistically is: to intend to go to a respectable thing again and again."
+  },
+  {
+    "start": 2382.9,
+    "end": 2397.84,
+    "text": "Hajj is the masdar of Hajj, and this is what it means: to intend to go to a respectable thing again and again. And in Sharia, in terminology, the"
+  },
+  {
+    "start": 2397.84,
+    "end": 2409.22,
+    "text": "definition of Hajj is: the act of performing the prescribed acts of worship by attending certain places on the days"
+  },
+  {
+    "start": 2409.22,
+    "end": 2430.38,
+    "text": "prescribed by the Sharia. Insha'Allah we're going to learn about the days, we're going to learn about the places, and we also are going to learn about the acts; but for now, just know the definition: the act of performing the prescribed acts of worship by attending certain places, by visiting certain places on the days prescribed by the Sharia."
+  },
+  {
+    "start": 2431.42,
+    "end": 2439.02,
+    "text": "And the one who performs Hajj is called 'Hajj' in Arabic."
+  },
+  {
+    "start": 2439.66,
+    "end": 2449.88,
+    "text": "In Urdu, in other languages, you must have heard the term 'Hajji', right? But it's Hajj in Arabic. Hajj is fine too, depends which language you're using to speak."
+  },
+  {
+    "start": 2449.88,
+    "end": 2462.68,
+    "text": "And what's the plural of Hajj? There are two plurals: one is Hujjaj and one is Hajeej, both mean the ones who are performing Hajj."
+  },
+  {
+    "start": 2462.68,
+    "end": 2473.2,
+    "text": "And Hajj was obligated in 9th Hijri, and Abu Bakr, he was sent as the"
+  },
+  {
+    "start": 2473.2,
+    "end": 2483.68,
+    "text": "lead for the first Hajj group after it became mandatory, right? So, Hajj was obligated in 9th Hijri, and"
+  },
+  {
+    "start": 2483.68,
+    "end": 2493.78,
+    "text": "Muslims did perform Hajj that year, and Abu Bakr, he was leading them, SubhanAllah. Rasulullah, he did not go this"
+  },
+  {
+    "start": 2493.78,
+    "end": 2503.64,
+    "text": "year, and we're going to learn about the reason in a bit. And when Muslims reached there and they performed Hajj, it was announced in the 9th Hijri that no one will"
+  },
+  {
+    "start": 2503.64,
+    "end": 2513.72,
+    "text": "perform Hajj naked after this day, no one will perform Hajj without clothes because this is what Mushrikeen would do, and no Mushrikeen will perform Hajj next year after"
+  },
+  {
+    "start": 2513.72,
+    "end": 2523.4,
+    "text": "this. And Rasulullah, he performed his first and last Hajj in 10th Hijri, and it was a shirk-free"
+  },
+  {
+    "start": 2523.4,
+    "end": 2539.88,
+    "text": "Hajj. Why? Because there were no idols there anymore near Kaaba—if you remember the history, Mushrikeen had placed a lot of idols around Kaaba,"
+  },
+  {
+    "start": 2539.88,
+    "end": 2549.6,
+    "text": "so they were removed. And also Mushrikeen were not allowed to come for Hajj this year. So, it was a shirk-free Hajj, and no sinful"
+  },
+  {
+    "start": 2549.6,
+    "end": 2559.72,
+    "text": "actions were involved in this Hajj. Rasulullah taught people Hajj with his actions and his words, and we call this Hajj 'Hajjat al-Wada'"
+  },
+  {
+    "start": 2559.72,
+    "end": 2569.82,
+    "text": "—the farewell Hajj, the only Hajj, Hajjat al-Wada'. And you must have heard about the khutbah which is very famous—the sermon of Hajjat al-Wada'—which"
+  },
+  {
+    "start": 2569.82,
+    "end": 2576.06,
+    "text": "is quoted over and over again because it has beautiful teachings for all of us, Insha'Allah if time permits we can also go over it."
+  },
+  {
+    "start": 2576.06,
+    "end": 2596.08,
+    "text": "Let's just talk about a few things we have already covered yesterday. I'm just going to quickly go over them, just jot down the title parts, right? Just know the main headings, Insha'Allah. Hajj is an obligation, and it's a very important obligation,"
+  },
+  {
+    "start": 2596.08,
+    "end": 2606.12,
+    "text": "it's a command of Allah, and also Rasulullah Sallallahu Alayhi wa Sallam, he emphasized it. And if a person wants to perform more Hajj,"
+  },
+  {
+    "start": 2606.12,
+    "end": 2618.26,
+    "text": "they can, and Insha'Allah we will cover that narration in a bit as well. And don't delay Hajj if Allah has given you enough, and if you fulfill all three conditions of istita'ah,"
+  },
+  {
+    "start": 2618.26,
+    "end": 2626.6,
+    "text": "then Insha'Allah go and don't delay it for petty reasons or for worldly reasons. And once Hajj becomes an obligation, do it before anything else."
+  },
+  {
+    "start": 2626.6,
+    "end": 2634.64,
+    "text": "And Hajj does not get waived—this is something we haven't discussed yesterday, so let's talk about that. A man said, 'My"
+  },
+  {
+    "start": 2634.64,
+    "end": 2647.1,
+    "text": "father has died, and he did not perform Hajj; shall I perform Hajj on his behalf?' Rasulullah Sallallahu Alayhi wa Sallam said: 'Don't you think that if your father owed a debt,"
+  },
+  {
+    "start": 2647.1,
+    "end": 2657.08,
+    "text": "you would pay off?' The man said, 'Yes.' He said, 'That debt owed to Allah is more deserving of being paid off,'"
+  },
+  {
+    "start": 2657.08,
+    "end": 2666.88,
+    "text": "SubhanAllah, right? So, if a person dies, his salah is not supposed to be prayed by anyone, but his Hajj or her Hajj is supposed to be performed by the heirs,"
+  },
+  {
+    "start": 2666.88,
+    "end": 2676.72,
+    "text": "just like fasting is, right? Fasting doesn't just get waived for the previous years; if a person has missed some fast, these fasts are to be made up by the heirs,"
+  },
+  {
+    "start": 2676.72,
+    "end": 2686.54,
+    "text": "by the family. So, Insha'Allah something to remember. So, it's better that we perform our mandatory Hajj before we die so that it doesn't become a burden for the people after us."
+  },
+  {
+    "start": 2686.54,
+    "end": 2697.94,
+    "text": "And Hajj is a very important pillar of our deen. Let's talk about the importance of Hajj. First of all, why is it important? Because it's a command of Allah,"
+  },
+  {
+    "start": 2697.94,
+    "end": 2710.8,
+    "text": "that's why it's important. It is called the rope of Islam, strong bond of Islam—that's why it's important. Let's look at this beautiful narration about rope of Islam or strong bond of Islam:"
+  },
+  {
+    "start": 2710.8,
+    "end": 2719.36,
+    "text": "Sahaba mentioned that we were sitting with Rasulullah, so one of them mentioned that we were sitting with Rasulullah and he asked:"
+  },
+  {
+    "start": 2719.36,
+    "end": 2730.5,
+    "text": "'Which bond of Islam is the strongest?' Sahaba said, 'The salah.' He said, 'Good.' 'And what next?' They said, 'Zakah.' He said, 'Good.' 'And what next?'"
+  },
+  {
+    "start": 2730.5,
+    "end": 2745.02,
+    "text": "They said, 'Fast of Ramadan.' He said, 'Good.' 'And what next?' And they said, 'Hajj.' He said, 'Good.' And this narration goes on, but SubhanAllah it shows the basic pillars of Islam right here."
+  },
+  {
+    "start": 2745.02,
+    "end": 2751.7,
+    "text": "And Hajj and Umrah, they are the identity of a Muslim. No one else goes for Hajj and Umrah, right,"
+  },
+  {
+    "start": 2751.7,
+    "end": 2761.64,
+    "text": "that you won't be confused if someone tells you that, 'I went for Hajj,' you won't be like, 'Maybe this person is a Muslim or not?' You won't be, because only Muslims do that,"
+  },
+  {
+    "start": 2761.64,
+    "end": 2771.66,
+    "text": "SubhanAllah. Even Umar narrates from his father Umar and from Rasulullah about the question of Jibreel which he asked about Islam,"
+  },
+  {
+    "start": 2771.66,
+    "end": 2791.68,
+    "text": "so Rasulullah responded to that question with this answer: 'Islam is that you bear witness that there is no god except Allah and Muhammad is the messenger of Allah Sallallahu Alayhi wa Sallam, and that you establish prayer, you pay zakah, you perform Hajj,"
+  },
+  {
+    "start": 2791.68,
+    "end": 2801.66,
+    "text": "you perform Umrah, and perform ghusl of janabah, and perform complete wudu, and fast in Ramadan.' Jibreel asked, 'Do I become a Muslim when I do that?'"
+  },
+  {
+    "start": 2801.66,
+    "end": 2809.44,
+    "text": "Rasulullah said, 'Yes,' SubhanAllah. So, all of these are the signs of a believer, all of these are the things Muslims do."
+  },
+  {
+    "start": 2809.44,
+    "end": 2824.16,
+    "text": "And Hajj is exclusively for Muslims, especially after the Hajj of 9th Hijri, so starting from 10th Hijri only Muslims performed Hajj, SubhanAllah. And Sahaba would include Hajj in major good deeds."
+  },
+  {
+    "start": 2824.16,
+    "end": 2835.14,
+    "text": "Let's look at this narration about Abu Huraira: he quoted Rasulullah saying: 'When the Muslim slave performs the due of Allah and the due of his master,"
+  },
+  {
+    "start": 2835.14,
+    "end": 2845.2,
+    "text": "he will have two rewards,' right? So, double reward for a Muslim who is not free. Abu Huraira said: 'By the One in Whose hand my soul is in,"
+  },
+  {
+    "start": 2845.2,
+    "end": 2855.34,
+    "text": "if jihad for the sake of Allah, Hajj, and kindness to my mother had not come in the way, I would have liked death to come to me while I was a slave.'"
+  },
+  {
+    "start": 2855.34,
+    "end": 2865.36,
+    "text": "Why? Because he wanted double ajr. But because he knew that Hajj and kindness to the mother and striving in the way of Allah is more rewardable,"
+  },
+  {
+    "start": 2865.36,
+    "end": 2875.22,
+    "text": "so he was okay with this, SubhanAllah. Another narration to show Sahabah's love for Hajj and the kind of importance they would give to Hajj:"
+  },
+  {
+    "start": 2875.22,
+    "end": 2885.02,
+    "text": "we learn about Abu Musa al-Ashari that a man asked him, 'O Abu Musa, I used to perform Hajj, that is, I used to perform when I was like younger or stronger,"
+  },
+  {
+    "start": 2885.02,
+    "end": 2895.16,
+    "text": "but now I'm weak and old, is there any action that is equal to Hajj? Like what else should I do? Like I cannot really do Hajj because I'm weak and old, what do I do?'"
+  },
+  {
+    "start": 2895.16,
+    "end": 2907.0,
+    "text": "Abu Musa said: 'Do you have the power to free 70 believing slaves from the children of Ismail, and do you know of anything which is like going for Hajj, camping there and leaving from there?'"
+  },
+  {
+    "start": 2907.0,
+    "end": 2931.08,
+    "text": "And then he said, 'I can't find any action like it,' SubhanAllah. There's nothing like Hajj, we cannot say, 'Okay, if you can't do Hajj you do this,' SubhanAllah. This was the answer of Abu Musa al-Ashari Radiyallahu Anhu, and Allah knows best. And not only just Sahaba, but also our salaf as-salihin,"
+  },
+  {
+    "start": 2931.7000000000003,
+    "end": 2941.54,
+    "text": "they also would give Hajj a lot of importance and they would perform a lot of Hajj as well. Let's look at this narration about Ta'us: Ta'us was asked, 'Nafl Hajj"
+  },
+  {
+    "start": 2941.54,
+    "end": 2955.54,
+    "text": "after the fard Hajj, is it better or charity is better? Like what should I do? Should I go for Hajj or give charity?' And SubhanAllah, such a valid question, because even today people ask this, isn't it?"
+  },
+  {
+    "start": 2956.12,
+    "end": 2966.18,
+    "text": "So, he responded: 'Where is the place to go and camp in Makkah? Where is the place to stay up late at night? Where is the place where you can go around the House of Allah?"
+  },
+  {
+    "start": 2966.18,
+    "end": 2976.26,
+    "text": "Where is the place you can pray in it? Where is the place where you can stand on Arafat, gather and throw stones?' What does it mean by all of this?"
+  },
+  {
+    "start": 2976.26,
+    "end": 2987.72,
+    "text": "He was questioning him to make him think that there's nothing like that. Where else can you perform all of these acts of worship? Where else can you do tawaf? Where else can you find Arafat? Where else can you actually stone jamarat?"
+  },
+  {
+    "start": 2987.72,
+    "end": 2997.92,
+    "text": "You can't, right? No matter where you try to do tawaf, it doesn't count; no matter which part of the earth you're going to go throw stones at someone or something,"
+  },
+  {
+    "start": 2997.92,
+    "end": 3007.78,
+    "text": "it's not going to be counted as worship, SubhanAllah. So, you cannot ignore or think that there is something else you can do instead of Hajj and it's still better."
+  },
+  {
+    "start": 3007.78,
+    "end": 3017.72,
+    "text": "So, Hajj is a very heavy good deed, SubhanAllah. May Allah enable all of us to go there over and over again! So, about Ta'us—the same person who gave this answer, right,"
+  },
+  {
+    "start": 3017.72,
+    "end": 3027.48,
+    "text": "pay attention—about the same person, when he passed away, Ibn Shozab said: 'I attended the funeral of Ta'us in Makkah in 106 after Hijri."
+  },
+  {
+    "start": 3027.48,
+    "end": 3037.5,
+    "text": "I heard people saying, 'O Abdurrahman'—that's the name of Ta'us—'O Abdurrahman, may Allah have mercy on you, you have performed 40 Hajj,' SubhanAllah!"
+  },
+  {
+    "start": 3037.5,
+    "end": 3047.7,
+    "text": "The one who said this, he actually did it. So, this is however our salaf were: if he said there's nothing better than Hajj, he actually was performing a lot of Hajj,"
+  },
+  {
+    "start": 3047.7,
+    "end": 3055.22,
+    "text": "and that's what he believed in, and that's what he did, SubhanAllah. So, the words and actions, they match, and this is how"
+  },
+  {
+    "start": 3055.78,
+    "end": 3062.66,
+    "text": "we should be, Insha'Allah. May Allah make us among those who are truthful in their actions and also on their tongue!"
+  },
+  {
+    "start": 3063.8,
+    "end": 3073.84,
+    "text": "And let's talk about some virtues, but before we get there, just wanted to share a few facts about how many Hajj people would perform back then. If Allah gives us the opportunity,"
+  },
+  {
+    "start": 3073.84,
+    "end": 3083.78,
+    "text": "we should also avail any opportunity, Insha'Allah, which comes our way. So, we learn that not only Ta'us performed 40 Hajj, but there were some Sahaba"
+  },
+  {
+    "start": 3083.78,
+    "end": 3093.7,
+    "text": "they performed more than 60 Hajj, and there were some Tabi'in and Taba Tabi'in, they performed more than 40 Hajj, SubhanAllah. And Ibn Masood"
+  },
+  {
+    "start": 3093.7,
+    "end": 3103.88,
+    "text": "he was heard saying: 'There are two acts of worship in which I wish that everyone gets a share, like everyone gets to experience"
+  },
+  {
+    "start": 3103.88,
+    "end": 3113.88,
+    "text": "two things: and one was to travel for Hajj, second was to do Umrah,' SubhanAllah. This was his wish, that everyone should experience that and everyone should, Insha'Allah, have a share in it"
+  },
+  {
+    "start": 3113.88,
+    "end": 3124.34,
+    "text": "because it's very rewardable and it's very spiritual journey, and you change and you become better, SubhanAllah. Let's talk about the virtues of Hajj quickly."
+  },
+  {
+    "start": 3125.02,
+    "end": 3134.7,
+    "text": "So, best deed after iman is Hajj. If you look at the order, then it comes after jihad. So, let's look at this: Rasulullah was asked, 'Which is the best deed?'"
+  },
+  {
+    "start": 3134.7,
+    "end": 3140.9,
+    "text": "So, he responded: 'To believe in Allah and His Messenger.'"
+  },
+  {
+    "start": 3141.52,
+    "end": 3151.22,
+    "text": "He was then asked, 'Which is next?' Then he said, 'Jihad fi sabilillah.' Then he was asked, 'What is next?' So, he said, 'To perform Hajj Mabroor,'"
+  },
+  {
+    "start": 3151.22,
+    "end": 3158.94,
+    "text": "to perform a Hajj which is Mabroor. Insha'Allah we will talk about Mabroor in detail in one of the future sessions."
+  },
+  {
+    "start": 3159.7000000000003,
+    "end": 3170.52,
+    "text": "Another virtue of Hajj is that when we are on this way, when we are going, when we are traveling, when we are planning, then we are in the way of Allah. Indeed,"
+  },
+  {
+    "start": 3172.98,
+    "end": 3182.98,
+    "text": "Hajj and Umrah are from the way of Allah, and the people who go for Hajj and Umrah, they are called a delegation of Allah, SubhanAllah, such a"
+  },
+  {
+    "start": 3182.98,
+    "end": 3196.2,
+    "text": "beautiful title! 'The soldier in the cause of Allah and the pilgrim performing Hajj and Umrah are a delegation to Allah: He invited them, so they responded to Him, and they asked Him and He gives to them.'"
+  },
+  {
+    "start": 3196.96,
+    "end": 3206.94,
+    "text": "He responds to their du'as as well, and du'as are granted, as we have just talked about, of hajjis and the ones who do Umrah."
+  },
+  {
+    "start": 3207.96,
+    "end": 3217.12,
+    "text": "And sins are forgiven for the people who go for Umrah—and we have talked about this before as well, but this is a very beautiful narration, so we just want to touch base this part of it."
+  },
+  {
+    "start": 2360.32,
+    "end": 3228.3,
+    "text": "And verily the pilgrimage wipes out all the previous misdeeds, all the previous misdeeds, all evil deeds, all sins. And Allah Subhanahu wa Ta'ala, He forgives the one who leaves the home for Hajj,"
+  },
+  {
+    "start": 3229.04,
+    "end": 3241.18,
+    "text": "and it's a means to remove poverty and sin, we have talked about that before."
+  },
+  {
+    "start": 2360.32,
+    "end": 3252.26,
+    "text": "And it's a jihad for the weak ones. Rasulullah said: 'Jihad of the elderly, the young, the weak, and woman is Hajj and Umrah,' SubhanAllah."
+  },
+  {
+    "start": 3252.92,
+    "end": 3262.64,
+    "text": "And SubhanAllah about this there was another narration where one person was asking Rasulullah and he was saying that, 'I'm very weak and, you know, I'm very coward,"
+  },
+  {
+    "start": 3262.64,
+    "end": 3277.28,
+    "text": "I cannot go for battle, I cannot go to defend Muslims, so what do I do?' So, Rasulullah told him: 'Jihad for the elderly, the young, the weak, and the woman is Hajj and Umrah,'"
+  },
+  {
+    "start": 3278.0,
+    "end": 3288.16,
+    "text": "SubhanAllah. So, we need to, Insha'Allah, go there to avail this amazing reward as well."
+  },
+  {
+    "start": 3289.02,
+    "end": 3298.94,
+    "text": "Aisha, she asked, 'Ya Rasulullah, shall we not go out for jihad with you?' He said, 'For you, the best and most beautiful type of"
+  },
+  {
+    "start": 3298.94,
+    "end": 3308.96,
+    "text": "jihad is Hajj'—and which Hajj? Al-Hajj al-Mabroor. So, Aisha, she said: 'So, I will not leave Hajj ever after hearing this from the"
+  },
+  {
+    "start": 3308.96,
+    "end": 3317.6,
+    "text": "Messenger of Allah Sallallahu Alayhi wa Sallam.' What does that mean? I will not miss the opportunity to perform Hajj. And May Allah also make us like her!"
+  },
+  {
+    "start": 3318.58,
+    "end": 3323.84,
+    "text": "And we also learn that when we travel in the way of Allah, whatever"
+  },
+  {
+    "start": 3325.1600000000003,
+    "end": 3335.54,
+    "text": "trace whatever mark we experience—maybe a bruise, maybe a cut, whatever happens—it is also something which is of a lot of virtue."
+  },
+  {
+    "start": 3335.54,
+    "end": 3348.14,
+    "text": "So, let's look at this narration: 'A trace resulting in Allah's cause and a trace resulting from one of the duties that Allah made an obligation—they are more beloved to Allah than any other trace,'"
+  },
+  {
+    "start": 3348.82,
+    "end": 3358.76,
+    "text": "SubhanAllah, they are more beloved to Allah. You know, sometimes when you're performing duties, sometimes you do get some marks; for example, when you're sitting for salah, sometimes"
+  },
+  {
+    "start": 3358.76,
+    "end": 3367.04,
+    "text": "you get some marks on your feet because of, you know, sitting in the same position over and over again many times in a day."
+  },
+  {
+    "start": 3367.7799999999997,
+    "end": 3377.78,
+    "text": "Similarly at Hajj, if you get some cut, some bruise, that is also something which is very rewardable because Allah loves it. And a person who dies on the"
+  },
+  {
+    "start": 3377.78,
+    "end": 3387.86,
+    "text": "way to Hajj and Umrah—let's talk about them: whoever leaves for Hajj and dies, Allah writes for him the reward for Hajj till the Day of Judgment, SubhanAllah, as if he's keep on performing Hajj."
+  },
+  {
+    "start": 3387.86,
+    "end": 3396.64,
+    "text": "And whoever leaves for Umrah and dies, Allah writes for him the reward for Umrah till the Day of Judgment. It should be Umrah here, and Allah knows best."
+  },
+  {
+    "start": 3397.5,
+    "end": 3411.62,
+    "text": "And the person who dies while performing Hajj, what will happen to that person on the Day of Judgment? Let's see: Narrated Ibn Abbas: 'While a man was riding in Arafat, he fell down from his ride"
+  },
+  {
+    "start": 3412.2000000000003,
+    "end": 3414.32,
+    "text": "and broke his neck and he passed away.'"
+  },
+  {
+    "start": 3414.9,
+    "end": 3422.76,
+    "text": "Rasulullah Sallallahu Alayhi wa Sallam said: 'Wash him with water and sidr,"
+  },
+  {
+    "start": 3422.76,
+    "end": 3433.18,
+    "text": "and shroud him in two pieces of cloth, and neither perfume him nor cover his head, because he will be resurrected on the Day of Resurrection saying: Labbayka"
+  },
+  {
+    "start": 3433.18,
+    "end": 3443.1,
+    "text": "Allahumma Labbayk, like a pilgrim.' So, leave him like you're leaving him in the state of Ihram, don't cover his head, and he will be raised by saying Labbayk,"
+  },
+  {
+    "start": 3443.1,
+    "end": 3456.46,
+    "text": "SubhanAllah! Beautiful ending and beautiful beginning. And the people who perform Hajj, even if they do a lot of other bad deeds after that, eventually they will be taken out from Hell—that's another virtue of Hajj, SubhanAllah."
+  },
+  {
+    "start": 3457.02,
+    "end": 3467.06,
+    "text": "Let's say you're not able to go for Hajj this year or you really want to, but for whatever reason, you know, you feel really sad that you're not"
+  },
+  {
+    "start": 3467.06,
+    "end": 3477.08,
+    "text": "able to go for Hajj and you're missing out on a lot of reward. So, are there any deeds which are going to give you the same reward as Hajj? The answer is yes,"
+  },
+  {
+    "start": 3477.08,
+    "end": 3486.98,
+    "text": "Alhamdulillah. So, let's learn about them: when we perform Umrah in Ramadan, we are going to get the reward equal to Hajj."
+  },
+  {
+    "start": 3486.98,
+    "end": 3496.7,
+    "text": "There's another narration which talks about: Umrah during Ramadan is equal to Hajj in terms of rewards—but what kind of Hajj? Hajj with Rasulullah Sallallahu Alayhi wa Sallam."
+  },
+  {
+    "start": 3496.7,
+    "end": 3506.62,
+    "text": "Another amazing opportunity we can all avail is praying our prayers in the masjid. So, do wudu, go"
+  },
+  {
+    "start": 3506.62,
+    "end": 3516.38,
+    "text": "to masjid and pray your prayers together in jamaah, right? It's for the brothers for sure, but for the sisters it's better for them to pray at home"
+  },
+  {
+    "start": 3516.38,
+    "end": 3526.46,
+    "text": "except in sacred masajid, right? Except in Haramain, except in Masjid al-Haram and Masjid an-Nabawi. So, Insha'Allah you can"
+  },
+  {
+    "start": 3526.46,
+    "end": 3532.26,
+    "text": "avail this opportunity when you go for Hajj and Umrah that you can go perform prayers there, but wherever you are"
+  },
+  {
+    "start": 3532.26,
+    "end": 3537.62,
+    "text": "and there is no fitna, you can go to masjid properly."
+  },
+  {
+    "start": 3537.62,
+    "end": 3547.26,
+    "text": "Another opportunity: praying Ishraq after Fajr. If you pray Fajr in jamaah, then sit remembering Allah at your prayer place"
+  },
+  {
+    "start": 3547.26,
+    "end": 3558.64,
+    "text": "until the sun rises, then you pray two rak'at, and you're going to get the reward like a complete Hajj and complete Umrah."
+  },
+  {
+    "start": 3560.12,
+    "end": 3569.72,
+    "text": "Going to masjid to learn or to teach—that also gives us the reward of Hajj, SubhanAllah. So, what are we supposed to do? Go to the masjid not desiring anything except to learn deen or to teach deen."
+  },
+  {
+    "start": 3570.42,
+    "end": 3580.46,
+    "text": "What could be anything else? To meet up, to chitchat, to catch up—those should not be the reasons, or to promote your business, those are all wrong reasons, right?"
+  },
+  {
+    "start": 3580.46,
+    "end": 3590.56,
+    "text": "Reason to go to the masjid is to desire to learn or teach, and of course to pray and to please Allah, all of that. But based on this narration, to learn or to teach,"
+  },
+  {
+    "start": 3590.56,
+    "end": 3609.36,
+    "text": "a person is going to get the reward like Hajj. Jazakumullahu Khairan Katheera for paying attention. So, let's Insha'Allah conclude, right? So, let's make du'a together: سُبْحَانَكَ اللّٰهُمَّ وَبِحَمْدِكَ، اَشْهَدُ اَنْ لَّاۤ اِلٰهَ اِلَّاۤ اَنْتَ، اَسْتَغْفِرُكَ وَاَتُوْبُ اِلَیْكَ۔ بَارَكَ اللّٰهُ فِیْكُمْ وَالسَّلَامُ عَلَیْكُمْ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ۔"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q45",
+    "question": "لیکچرر کے مطابق مشکل حالات کا سامنا کرنے والے لوگوں کی کون سی چار اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["SKD_U001_S001_0004_chunk_0010", "SKD_U001_S001_0004_chunk_0011", "SKD_U001_S001_0004_chunk_0012", "SKD_U001_S001_0004_chunk_0013"],
+    "note": "Fact verified directly against the transcript (segments 165-224: ناخوش/unhappy, صابر/patient, راضی/content, and شکر ادا کرنے والے/thankful). gold_chunk_ids backfilled 2026-09-24 from the pipeline run: chunk_0013 has the lecturer's explicit 4-item summary and was cited by correct_grounded answers (qwen3.5-9b, gemma-4-e4b); chunks 0010-0012 each cover one of the four types individually and were cited by meta-llama-3.1's correct_grounded English answer. Verified all four chunks against the transcript before adding."
+  },
+  {
+    "question_id": "Q46",
+    "question": "According to the lecturer, what are the four types of people described in how they respond to hardship?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["SKD_U001_S001_0004_chunk_0010", "SKD_U001_S001_0004_chunk_0011", "SKD_U001_S001_0004_chunk_0012", "SKD_U001_S001_0004_chunk_0013"],
+    "note": "Cross-lingual variant of Q45 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 - same chunk set as Q45; meta-llama-3.1's correct_grounded English answer cited chunks 0010-0012, verified against the transcript."
+  },
+  {
+    "question_id": "Q55",
+    "question": "لیکچرر کے مطابق اللہ تعالیٰ کن پانچ چیزوں سے پاک ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 918-929: عیب/fault, نقص/deficiency, کمزوری/weakness, خطا/error, برائی/evil - in Allah's sayings, actions, and attributes). gold_chunk_ids left empty 2026-09-24: none of the 3 models' Urdu answers to Q55 itself reached correct_grounded (qwen produced an empty/truncated response, gemma and llama each listed only a subset of the 5 items with one wrong or missing). Note the English pair Q56 DID get a correct_grounded answer (meta-llama-3.1) citing chunk_0055, which contains the correct 5-item list - see Q56's gold_chunk_ids. Left Q55 empty rather than borrowing Q56's chunk, since the verified answer must belong to the question itself."
+  },
+  {
+    "question_id": "Q56",
+    "question": "According to the lecturer, which five things is Allah described as being free from?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["SKD_U001_S001_0004_chunk_0055"],
+    "note": "Cross-lingual variant of Q55 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24: meta-llama-3.1-8b's answer was correct_grounded, listing all 5 items (عیب/fault, نقص/deficiency, کمزوری/weakness, خطا/error, برائی/evil) exactly matching the lecturer's 'یہ پانچ لفظ' statement, citing chunk_0055. Verified chunk_0055 (and V3 segments 915-924) support this before adding."
+  }
+]

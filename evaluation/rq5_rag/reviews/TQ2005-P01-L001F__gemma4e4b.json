@@ -1,0 +1,154 @@
+[
+  {
+    "question_id": "Q35",
+    "question": "لیکچر میں بیان کردہ روایت کے مطابق حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو کن دو نوروں کی خوشخبری دی، جو اس سے پہلے کسی نبی کو نہیں دیے گئے تھے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچر میں بیان کردہ روایت کے مطابق، حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو دو نوروں کی خوشخبری دی جو یہ تھے: ایک سورۃ الفاتحہ اور دوسرا سورۃ البقرہ کی آخری دو آیات [chunk_id=TQ2005-P01-L001F_chunk_0001]۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1806,
+    "elapsed_seconds": 37.67,
+    "generated_at": "2026-09-23T19:58:16.517618+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "checked chunk_0001 (start=32.4-66.58s), same text as above: two lights = Al-Fatiha and last two ayahs of Al-Baqarah, never given to a prior prophet. Model states this correctly and cites chunk_0001. Supported."
+  },
+  {
+    "question_id": "Q36",
+    "question": "According to the narration cited in the lecture, which two lights did Jibreel (peace be upon him) announce to the Prophet (peace be upon him) as having never been given to any prophet before him?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the narration, the two lights announced were Surah Al-Fatiha and the last two verses of Surah Al-Baqarah (ایک سورۃ الفاتحہ اور دوسرا سورۃ البقرہ کی آخری دو آیات). These lights were stated to be given only to the Prophet (peace be upon him), never before any other prophet.\n\n[chunk_id=TQ2005-P01-L001F_chunk_0001]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1948,
+    "elapsed_seconds": 14.34,
+    "generated_at": "2026-09-23T19:58:30.853168+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant. chunk_0001 confirms both the identity of the two lights and that they were never given to any prophet before (\"آپ سے پہلے کسی نبی کو نہیں دیے گئے\"). Model's answer restates both facts accurately, citing chunk_0001. Supported."
+  },
+  {
+    "question_id": "Q69",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے قرآن کی کونسی سورت ہے، اور اس میں کیا خاص بات بیان کی گئی ہے کہ یہ کیسے نازل ہوئی؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق، سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے پانچویں نمبر پر آتی ہے۔ اس میں خاص بات یہ بیان کی گئی ہے کہ یہ پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری۔ باقی سورتیں تو ایسے ہوتی ہیں کہ ان کا کوئی حصہ ایک دفعہ اترا، پھر کچھ بعد میں اترا، اور پھر انہیں اکٹھا کیا گیا۔ (TQ2005-P01-L001F_chunk_0005)",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2057,
+    "elapsed_seconds": 15.41,
+    "generated_at": "2026-09-23T19:58:46.267752+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "checked chunk_0005: confirms 5th in revelation order and that it's the first surah revealed whole/at once rather than piecemeal (\"باقی سورتیں تو ایسے ہوتی ہیں کہ ان کا کوئی حصہ ایک دفعہ اترا...\"). Model's answer matches source closely (near-verbatim), citing chunk_0005. Supported."
+  },
+  {
+    "question_id": "Q70",
+    "question": "According to the lecturer, which surah in order of revelation is Al-Fatiha, and what is noted as special about the way it was revealed?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, Surah Al-Fatiha comes fifth in order of revelation (ترتیبِ نزولی کے اعتبار سے پانچویں نمبر پر آتی ہے) [TQ2005-P01-L001F_chunk_0005].\n\nWhat is noted as special about its revelation is that it is the first surah to come down completely in one sitting (پوری کی پوری ایک ہی بار اتری) [TQ2005-P01-L001F_chunk_0005].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1856,
+    "elapsed_seconds": 14.43,
+    "generated_at": "2026-09-23T19:59:00.698457+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant of Q69. Model gives a concise, accurate translation of chunk_0005's two key facts (5th in revelation order; first surah revealed complete in one sitting) with correct citation. No extraneous or unsupported claims added. Supported."
+  }
+]

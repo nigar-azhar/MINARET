@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software or its released artifacts, please cite the MINARET paper."
+title: "MINARET"
+type: software
+authors:
+  - family-names: "Butt"
+    given-names: "Nigar Azhar"
+  # TODO(authors): add co-authors, affiliation and paper DOI before release
+license: MIT
+version: "1.0.0"
+references:
+  - type: article
+    title: "SemanticHadith: An Ontology-Driven Knowledge Graph for the Hadith Corpus"
+    authors:
+      - {family-names: "Kamran", given-names: "Amna Binte"}
+      - {family-names: "Abro", given-names: "Babar"}
+      - {family-names: "Basharat", given-names: "Amna"}
+    journal: "Journal of Web Semantics"
+    volume: 78
+    start: "100797"
+    year: 2023
+    doi: "10.1016/j.websem.2023.100797"
+  - type: article
+    title: "SemanticTafsir: Building a Cultural Heritage Ontology and Knowledge Graph from the Quranic Exegesis of al-Tabari"
+    authors:
+      - {family-names: "Kamran", given-names: "Amna Binte"}
+      - {family-names: "Basharat", given-names: "Amna"}
+      - {family-names: "Rehman", given-names: "Misbahur"}
+    journal: "Semantic Web"
+    year: 2026
+    notes: "Accepted; volume/issue/DOI not yet assigned"
+  - type: conference-paper
+    title: "Ontological Approach for Semantic Modeling and Querying the Qur'an"
+    authors:
+      - {family-names: "Hakkoum", given-names: "Abdelghani"}
+      - {family-names: "Raghay", given-names: "Said"}
+    collection-title: "Proceedings of the International Conference on Islamic Applications in Computer Science and Technology"
+    year: 2015
+

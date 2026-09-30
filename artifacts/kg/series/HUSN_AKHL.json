@@ -1,0 +1,117 @@
+{
+  "series_code": "HUSN_AKHL",
+  "recordings_dir": "HEA",
+  "category": "Hadith",
+  "series": {
+    "title_en": "Husn e Akhlaq",
+    "title_ur": "حسنِ اخلاق",
+    "category_id": 16,
+    "series_type": "audio"
+  },
+  "speaker": {
+    "code": "dr_farhat_hashmi",
+    "name_en": "Dr. Farhat Hashmi",
+    "name_ur": "ڈاکٹر فرحت ہاشمی"
+  },
+  "language": {
+    "code": "ur",
+    "label": "Urdu"
+  },
+  "recordings": [
+    {
+      "recording_id": "HEA-00-1A",
+      "kg_recording_id": "HUSN_AKHL-21590",
+      "audio": {
+        "id": 21590,
+        "audio_link": "https://data.alhudamedia.com/Media/Akhlaqiat/Husn_e_Akhlaaq/Husn_e_Akhlaq_00-1A-Introduction.mp3",
+        "english_name": "Introduction",
+        "urdu_name": "تعارف",
+        "duration": "00:52:09",
+        "upload_date": "2016-01-01"
+      }
+    },
+    {
+      "recording_id": "HEA-01-1A",
+      "kg_recording_id": "HUSN_AKHL-21591",
+      "audio": {
+        "id": 21591,
+        "audio_link": "https://data.alhudamedia.com/Media/Akhlaqiat/Husn_e_Akhlaaq/Husn_e_Akhlaq_01-1A-Husn_e_Akhlaq.mp3",
+        "english_name": "Husn e Akhlaq",
+        "urdu_name": "حسن اخلاق",
+        "duration": "00:58:21",
+        "upload_date": "2016-01-01"
+      }
+    },
+    {
+      "recording_id": "HEA-02-1A",
+      "kg_recording_id": "HUSN_AKHL-21592",
+      "audio": {
+        "id": 21592,
+        "audio_link": "https://data.alhudamedia.com/Media/Akhlaqiat/Husn_e_Akhlaaq/Husn_e_Akhlaq_02-1A-Narmi.mp3",
+        "english_name": "Narmi",
+        "urdu_name": "نرمی",
+        "duration": "01:00:23",
+        "upload_date": "2016-01-01"
+      }
+    },
+    {
+      "recording_id": "HEA-03-1A",
+      "kg_recording_id": "HUSN_AKHL-21593",
+      "audio": {
+        "id": 21593,
+        "audio_link": "https://data.alhudamedia.com/Media/Akhlaqiat/Husn_e_Akhlaaq/Husn_e_Akhlaq_03-1A-Zulm.mp3",
+        "english_name": "Zulm - Part 1",
+        "urdu_name": "ظلم - حصّہ 1",
+        "duration": "00:44:46",
+        "upload_date": "2016-01-01"
+      }
+    }
+  ],
+  "concept_keywords": {
+    "hadith:PillarsOfIslam": [
+      "salah",
+      "prayer",
+      "zakah",
+      "zakat",
+      "sawm",
+      "fasting",
+      "hajj",
+      "shahada"
+    ],
+    "hadith:ArticlesOfFaith": [
+      "iman",
+      "angel",
+      "revealed book",
+      "messenger",
+      "day of judgment",
+      "qadar",
+      "predestination",
+      "hereafter",
+      "akhirah"
+    ]
+  },
+  "reviewed_merges": [
+    {
+      "topics": [
+        "Moral Example and Accountability (Qudwah)",
+        "Self-Accountability (Muhasabah)"
+      ],
+      "decision": "reject_but_related"
+    }
+  ],
+  "reviewed_concepts": [
+    {
+      "topic": "The Hereafter (Akhirah)",
+      "concept": "hadith:ArticlesOfFaith",
+      "decision": "accept"
+    },
+    {
+      "topic": "The Scales of Judgment / Mizan",
+      "concept": "hadith:ArticlesOfFaith",
+      "decision": "accept"
+    }
+  ],
+  "topic_related": [],
+  "hub_related": null,
+  "manual_concept_matches": []
+}

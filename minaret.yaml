@@ -1,0 +1,50 @@
+# MINARET configuration. Relative paths resolve against this file's directory.
+# API keys never go in this file: set the environment variable named by each `api_key_env`
+# (or put it in a .env file next to this one -- see .env.example). CLI flags override values here.
+
+llm:
+  # Any OpenAI-compatible /chat/completions endpoint works: LM Studio, vLLM, Ollama's OpenAI
+  # shim, OpenRouter, or a hosted provider.
+  correction:                       # V0 -> V1
+    base_url: http://127.0.0.1:1234/v1
+    model: qwen3.5-9b-mlx
+    api_key_env: MINARET_CORRECTION_API_KEY
+    prompt: minaret/prompts/correction_v1.txt
+  extraction:                       # V1 -> entity candidates (-> E1/V2 after corpus validation)
+    base_url: http://127.0.0.1:1234/v1
+    model: qwen3.5-9b-mlx
+    api_key_env: MINARET_EXTRACTION_API_KEY
+    prompt: minaret/prompts/entity_extraction_v1.txt
+  rag_answer:                       # answer generation over retrieved chunks
+    base_url: http://127.0.0.1:1234/v1
+    model: qwen3.5-9b-mlx           # the paper also ran gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k
+    api_key_env: MINARET_RAG_API_KEY
+    prompt: minaret/prompts/rag_answer_v1.txt
+    max_tokens: 6000
+
+asr:                                # model is fixed: faster-whisper large-v3-turbo, CPU int8
+  language: null                    # null = auto-detect; e.g. "ur"
+
+validation:                         # corpus-grounded E1/V2 (paper Eq. 1-4)
+  alpha: 0.7                        # lexical weight
+  tau: 0.9                          # the paper's entity-validation threshold
+  delta: 0.02                       # minimum margin over the runner-up
+
+rag:
+  target_seconds: 30
+  top_k_initial: 10
+  top_k_final: 4
+
+corpora:                            # not redistributed -- see artifacts/corpora/README.md
+  quran_db: artifacts/corpora/quran.csv             # corpus validation (quran.csv or a SQLite DB)
+  dua_db: artifacts/corpora/duas.csv                # corpus validation (duas.csv or a SQLite DB)
+  quran_csv: artifacts/corpora/quran.csv            # KG canonical verse text/translations
+  duas_csv: artifacts/corpora/duas.csv              # KG canonical dua text/translations
+  semantic_hadith_dump: artifacts/corpora/SemanticHadithKG.rdf.zip
+  cache_dir: artifacts/corpora/cache
+
+paths:
+  runs_dir: runs                    # everything this pipeline generates goes under here
+  recordings_root: artifacts/recordings   # where `kg build` / `rag index` read v3.json + e2.json;
+                                          # point at runs/recordings for your own recordings
+  series_configs: artifacts/kg/series     # <SERIES>.json per series (metadata + review decisions)

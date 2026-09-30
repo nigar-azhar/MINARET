@@ -1,0 +1,16 @@
+# CQ15 -- What is the external SemanticTafsir entry ("skos:exactMatch") for a given QuranVerse?
+# Paper-reported result: `(20, 25, tafsir:V020_025)` — confirms the newest external alignment (added this round, against Ibn Jarir al-Tabari's *Jami' al-Bayan*, 6,236-verse coverage of the complete Quran) resolves correctly, same "own node + soft `skos` link" pattern as the `quranontology.com` and SemanticHadith links (CQ5)
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+SELECT ?surah ?verse ?tafsirURI WHERE {
+  ?a minaret:surahNumber ?surah ; minaret:verseNumber ?verse .
+  ?a minaret:surahNumber 20 ; minaret:verseNumber 25 .
+  ?a skos:exactMatch ?tafsirURI .
+  FILTER(STRSTARTS(STR(?tafsirURI), STR(tafsir:)))
+}

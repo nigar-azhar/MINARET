@@ -1,0 +1,152 @@
+[
+  {
+    "question_id": "Q5",
+    "question": "What does the lecturer say a pilgrim should do if they break a bone or become lame while in ihram?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L04",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L04_chunk_0033"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L04_chunk_0033",
+        "HajjJourney2022Eng-L04_chunk_0034"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecture, if a pilgrim breaks a bone or becomes lame while in ihram, they have exited the sacred state of ihram and must perform Hajj the following year. However, if it is possible for them to complete the rituals (for example by using a wheelchair or hiring someone), they can do it.\n\n[chunk_id=HajjJourney2022Eng-L04_chunk_0033], [chunk_id=HajjJourney2022Eng-L04_chunk_0034]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 13154,
+    "elapsed_seconds": 150.13,
+    "generated_at": "2026-09-23T18:43:59.393652+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0033: 'if anyone breaks a bone or leg or becomes lame, he has come out of ihram... must perform Hajj the following year. That person is not sinful because these situations were not in that person's control.' Matches the answer's core claim (exit ihram, redo Hajj next year). Answer adds a wheelchair/hire-someone nuance cited to chunk_0034, which reads: 'if it's a possibility a person is able to do it then that person can do it... a person can arrange or hire someone to do the wheelchair.' Both citations are accurate and support the answer."
+  },
+  {
+    "question_id": "Q20",
+    "question": "لیکچرر کے مطابق اگر کوئی حاجی احرام کی حالت میں اپنی ہڈی توڑ بیٹھے یا لنگڑا ہو جائے تو اسے کیا کرنا چاہیے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L04",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L04_chunk_0033"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L04_chunk_0033"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچر کے مطابق، اگر کوئی حاجی احرام کی حالت میں اپنی ہڈی توڑ بیٹھے یا لنگڑا ہو جائے، تو وہ احرام سے خارج ہوتا ہے اور اگلے سال حج ادا کرنا پڑتا ہے۔ اس کی وجہ یہ ہے کہ یہ حالات ان شخص کے کنٹرول میں نہیں ہوتے، اس لیے وہ گناہگار نہیں ہوتا۔\n\n[chunk_id=HajjJourney2022Eng-L04_chunk_0033]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 6805,
+    "elapsed_seconds": 103.99,
+    "generated_at": "2026-09-23T18:45:43.393317+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu translation of Q5. Checked chunk_0033 (same as Q5 gold chunk): 'has come out of ihram... must perform Hajj the following year... not sinful because these situations were not in that person's control.' The Urdu answer says he exits ihram, must do Hajj next year, and is not sinful because it's outside his control - correctly matches the English source and is consistent with qwen's own Q5 answer."
+  },
+  {
+    "question_id": "Q8",
+    "question": "What does the lecturer say about the Quranic concept of shifa (healing) and its six occurrences in the Qur'an?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L04",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question. The retrieved excerpts discuss fasting, Hajj rituals, Umrah, and the importance of Ahadith regarding specific details not found in the Quran (like the number of fasts or types of sacrifice), but they do not mention the concept of shifa (healing) or its six occurrences.\n\n**Citations:**\nNone (The information is not present in the provided excerpts).",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 61.61,
+    "generated_at": "2026-09-23T18:46:45.005177+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Q8 asks about 'shifa' (healing) and its six Quranic occurrences. Searched all 101 chunks in artifacts/rag/index/HajjJourney2022Eng-L04/chunks.json for 'shifa'/'healing' - zero matches; this lecture is entirely about Hajj/Umrah rulings (ihram, fidyah, tawaf, etc.), confirming the question is genuinely unanswerable from this lecture. Model correctly refused and gave an accurate description of what the retrieved chunks actually cover (fasting, Hajj rituals, ahadith on fidyah) instead of fabricating an answer."
+  },
+  {
+    "question_id": "Q23",
+    "question": "اس لیکچر میں قرآن میں لفظ 'شفا' کے چھ مقامات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L04",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L04_chunk_0000",
+        "HajjJourney2022Eng-L04_chunk_0015",
+        "HajjJourney2022Eng-L04_chunk_0061",
+        "HajjJourney2022Eng-L04_chunk_0064"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question. The provided excerpts discuss the rulings of Hajj and Umrah, specifically mentioning Surah Al-Baqarah, Ayah 196, the concept of completing Hajj and Umrah, and details regarding Fidyah (fasting, Sadaqah, or sacrifice). The word 'Shifa' is not mentioned in the retrieved text.\n\nChunk IDs used: HajjJourney2022Eng-L04_chunk_0015, HajjJourney2022Eng-L04_chunk_0061, HajjJourney2022Eng-L04_chunk_0064, HajjJourney2022Eng-L04_chunk_0000.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 66.77,
+    "generated_at": "2026-09-23T18:47:51.777387+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Urdu variant of Q8, same underlying unanswerable fact (no 'shifa' content in this lecture - confirmed via full-chunk grep, zero hits). Model cited chunks 0000, 0015, 0061, 0064; checked all four directly - chunk_0000 is the lecture's Quranic-recitation intro (Surah Al-Baqarah), chunk_0015 covers Hajj ruling intro (ayah 196 tamm al-hajj), chunk_0061/0064 cover fidyah (fasting/sadaqah/sacrifice) rulings. None mention shifa/healing, and the model correctly reported that the word 'Shifa' is not present rather than fabricating content."
+  }
+]

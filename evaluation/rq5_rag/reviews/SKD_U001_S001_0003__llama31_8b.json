@@ -1,0 +1,148 @@
+[
+  {
+    "question_id": "Q43",
+    "question": "لیکچرر کے مطابق رسول اللہ صلی اللہ علیہ وسلم کا بیماری اور اس کے علاج کے بارے میں کیا فرمان بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0003",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0003_chunk_0016"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 4,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0003_chunk_0028"
+      ],
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "(chunk_id=SKD_U001_S001_0003_chunk_0028 lecture_id=SKD_U001_S001_0003 start=934.36s end=964.30s)\nجابر بن عبداللہ رضی اللہ عنہما سے روایت ہے کہ رسول اللہ صلی اللہ علیہ وسلم نے فرمایا: \"بخار کو برا نہ کہو! بخار کو برا نہ کہو! کیونکہ بخار بنی آدم کے گناہوں کو اس طرح دور کرتا ہے جس طرح بھٹی لوہے کے میل کچیل کو دور کر دیتی ہے۔\"",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 29.7,
+    "generated_at": "2026-09-23T20:41:50.047777+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "Question specifically asks about the Prophet's statement regarding illness AND its cure (gold fact, segment 50: 'اللہ تعالیٰ نے کوئی بیماری ایسی نہیں اتاری جس کا علاج نہ اتارا ہو' -- found in chunk_0016). Model instead cited chunk_0028 (934.36-964.30s), which I verified says 'بخار کو برا نہ کہو! ... بخار بنی آدم کے گناہوں کو اس طرح دور کرتا ہے جس طرح بھٹی لوہے کے میل کچیل کو دور کر دیتی ہے' (fever removes sins, like a furnace removes impurity from iron) -- a real, accurately-quoted hadith about fever/sin-expiation, but it does not mention 'علاج' (cure) at all and is not the statement the question targets. The quote itself is grounded (not fabricated), but it fails to answer what was asked, so this is a wrong/off-target answer rather than a hallucination. Notably, the same model answered the English-language twin question (Q44) correctly by citing chunk_0016 -- a cross-lingual inconsistency worth flagging."
+  },
+  {
+    "question_id": "Q44",
+    "question": "According to the lecturer, what did the Prophet (peace be upon him) say about illness and its cure?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0003",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0003_chunk_0016"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0003_chunk_0016",
+        "SKD_U001_S001_0003_chunk_0023",
+        "SKD_U001_S001_0003_chunk_0027"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "The lecturer mentioned that the Prophet (peace be upon him) said: \"اللہ تعالیٰ نے کوئی بیماری ایسی نہیں اتاری جس کا علاج نہ اتارا ہو۔\" This means that Allah has not sent any disease without also sending its cure. (chunk_id=SKD_U001_S001_0003_chunk_0016 lecture_id=SKD_U001_S001_0003 start=577.34s end=607.52s)\n\nAdditionally, the lecturer mentioned another Hadith from Sahih Bukhari: \"مسلمان کو جو بھی مصیبت، بیماری، رنج و غم، تکلیف اور پریشانی آتی ہے، یہاں تک کہ اگر اسے کانٹا بھی چبھتا ہے، تو اللہ اس کے بدلے اس کے گناہ دور کر دیتا ہے۔\" This means that Allah will remove the Muslim's sins in exchange for any hardship, disease, or suffering they may face. (chunk_id=SKD_U001_S001_0003_chunk_0027 lecture_id=SKD_U001_S001_0003 start=903.86s end=934.36s)\n\nThe lecturer also mentioned that the Prophet (peace be upon him) would say: \"لا باس! کوئی بات نہیں، پھر کیا ہوا؟ طہور إن شاء الله! اچھی طرح پاک ہو جاؤ گے!\" This means that the Prophet (peace be upon him) would say that there is no problem, and that the person will become pure and clean if Allah wills it. (chunk_id=SKD_U001_S001_0003_chunk_0023 lecture_id=SKD_U001_S001_0003 start=798.02s end=823.82s)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 36.9,
+    "generated_at": "2026-09-23T20:42:26.950772+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked all 3 cited chunks. chunk_0016 (577-607s): 'اللہ تعالیٰ نے کوئی بیماری ایسی نہیں اتاری جس کا علاج نہ اتارا ہو' -- exact match to the primary claim and gold fact (segment 50), correctly translated as 'Allah has not sent any disease without also sending its cure.' chunk_0027 (903-934s): 'مسلمان کو جو بھی مصیبت، بیماری، رنج و غم، تکلیف اور پریشانی آتی ہے، یہاں تک کہ اگر اسے کانٹا بھی چبھتا ہے، تو اللہ اس کے بدلے اس کے گناہ دور کر دیتا ہے' -- matches quoted text and correctly attributed as Sahih Bukhari. chunk_0023 (798-823s): 'لا باس! کوئی بات نہیں، پھر کیا ہوا؟ طہور إن شاء الله!' -- matches quoted text. Unlike this same model's Urdu answer to Q43, this English answer correctly leads with the exact target statement. All quotes verbatim and accurately attributed."
+  },
+  {
+    "question_id": "Q77",
+    "question": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0003",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 28.61,
+    "generated_at": "2026-09-23T20:42:55.563930+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Lecture is about shifa/illness/sabr, not Hajj rituals. Model gave the required refusal string with no citation. Correct refusal."
+  },
+  {
+    "question_id": "Q78",
+    "question": "What does the lecturer say about the rituals of Hajj, such as Ihram or the stoning at Jamarat, in this lecture?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0003",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 30.91,
+    "generated_at": "2026-09-23T20:43:26.471075+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "English variant of Q77. No Hajj-ritual content in this lecture. Model gave the required refusal string with no citation. Correct refusal."
+  }
+]

@@ -1,0 +1,9 @@
+# CQ16 step 2 -- run against SemanticTafsirKG.ttl (external, not bundled): pass --tafsir-kg to compute.py
+# Step 2 — against SemanticTafsirKG.ttl, traversing Verse -> VerseFragment <- isAbout <- Section
+# -> containsCommentary -> Commentary (tafsir: prefix as above)
+PREFIX : <http://www.semantictafsir.com/ontology/>
+SELECT ?commentaryText WHERE {
+  :V001_001 :containsVerseFragment ?frag .
+  ?section :isAbout ?frag ; :containsCommentary ?commentary .
+  ?commentary :hasText ?commentaryText .
+} LIMIT 1

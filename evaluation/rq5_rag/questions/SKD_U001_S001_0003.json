@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q43",
+    "question": "لیکچرر کے مطابق رسول اللہ صلی اللہ علیہ وسلم کا بیماری اور اس کے علاج کے بارے میں کیا فرمان بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["SKD_U001_S001_0003_chunk_0016"],
+    "note": "Fact verified directly against this lecture's V3 transcript (segment 50: 'اللہ تعالیٰ نے کوئی بیماری ایسی نہیں اتاری جس کا علاج نہ اتارا ہو'). gold_chunk_ids backfilled 2026-09-24: chunk_0016 (577.34s-607.52s) contains this exact sentence verbatim; qwen3.5-9b-mlx and gemma-4-e4b-it both gave correct_grounded answers citing this chunk."
+  },
+  {
+    "question_id": "Q44",
+    "question": "According to the lecturer, what did the Prophet (peace be upon him) say about illness and its cure?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["SKD_U001_S001_0003_chunk_0016"],
+    "note": "Cross-lingual variant of Q43 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24: same chunk as Q43 (chunk_0016, 577.34s-607.52s, verbatim quote confirmed); qwen3.5-9b-mlx, gemma-4-e4b-it, and meta-llama-3.1-8b-instruct@q6_k all gave correct_grounded answers citing this chunk for the English question."
+  },
+  {
+    "question_id": "Q77",
+    "question": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - added 2026-09-23 as part of balancing the gold set to 2 concepts (answerable + unanswerable) per recording. This lecture is about shifa/sabr, not Hajj rites."
+  },
+  {
+    "question_id": "Q78",
+    "question": "What does the lecturer say about the rituals of Hajj, such as Ihram or the stoning at Jamarat, in this lecture?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q77 (same deliberately-unanswerable question, reverse language direction)."
+  }
+]

@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MINARET</title>
+<meta name="description" content="MINARET turns Urdu and English Islamic lectures into verified transcripts, quotations linked to their sources, a knowledge graph and question answering.">
+<meta name="minaret-data" content="landing.json">
+<link rel="icon" href="minaret-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap">
+<link rel="stylesheet" href="landing.css">
+</head>
+<body>
+<header class="nav">
+  <a class="nav-brand" href="#top"><img src="minaret-mark.svg" alt="" width="30" height="30"><span>MINARET</span></a>
+  <nav class="nav-links">
+    <a href="#how">How it works</a>
+    <a href="#released">What's released</a>
+    <a href="#try">Try it</a>
+    <a href="#credits">Credits</a>
+  </nav>
+  <a class="btn btn-small panel-only" href="/review">Open the panel</a>
+</header>
+
+<main id="top">
+  <!-- HERO -------------------------------------------------------------------------------- -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="hero-copy">
+      <img class="hero-mark" src="minaret-mark.svg" alt="" width="64" height="64">
+      <p class="eyebrow">MINARET</p>
+      <h1>Urdu and English Islamic lectures, transcribed, verified and connected.</h1>
+      <p class="tagline">Every quotation, traced to its source.</p>
+      <p class="lede">Lectures move between Urdu or English and the Arabic of the Quran, hadith and duas.
+        Speech recognition gets that Arabic wrong. MINARET corrects the transcript, checks every quotation
+        against its canonical source, has a reviewer confirm it, and turns the result into a knowledge graph
+        you can query and a question-answering system that cites the lecture.</p>
+      <div class="cta">
+        <a class="btn" href="#how">See how it works</a>
+        <a class="btn btn-ghost panel-only" href="/review">Open the reviewer panel</a>
+        <a class="btn btn-ghost static-only repo-link hidden" href="#">Get the code</a>
+      </div>
+    </div>
+    <figure class="hero-visual" aria-label="A lecture's audio becoming text">
+      <div class="wave" id="hero-wave" aria-hidden="true"></div>
+      <p class="hero-line" id="hero-line" dir="rtl"></p>
+      <figcaption id="hero-caption"></figcaption>
+    </figure>
+  </section>
+
+  <!-- PROBLEM ----------------------------------------------------------------------------- -->
+  <section class="problem reveal">
+    <div class="section-head">
+      <p class="kicker">The problem</p>
+      <h2>One lecture, three languages at once</h2>
+      <p>A speaker explains in Urdu or English and quotes the Arabic of the Quran from memory. Speech
+        recognition hears the explanation well and the Arabic badly: missing vowel marks, misheard letters,
+        words run together. A quotation that is wrong is worse than none.</p>
+    </div>
+    <div class="compare" id="problem-compare"></div>
+  </section>
+
+  <!-- HOW IT WORKS -------------------------------------------------------------------------- -->
+  <section id="how" class="how">
+    <div class="section-head">
+      <p class="kicker">How it works</p>
+      <h2>Follow one segment through the pipeline</h2>
+      <p>Ten seconds of a real lecture from the released data, through every stage.</p>
+      <div class="toggle" role="tablist" aria-label="Example lecture">
+        <button role="tab" data-example="ur" aria-selected="true">Urdu lecture</button>
+        <button role="tab" data-example="en" aria-selected="false">English lecture</button>
+      </div>
+    </div>
+    <div class="scrolly">
+      <div class="stage-wrap"><div class="stage" id="stage" aria-live="polite"></div></div>
+      <ol class="steps" id="steps">
+        <li class="step" data-step="listen"><span class="step-n">1</span><h3>Listen</h3>
+          <p>A recording from the publisher. MINARET never needs to store the audio: it reads it from the
+            publisher's link.</p><p class="note" data-note="meta"></p></li>
+        <li class="step" data-step="asr"><span class="step-n">2</span><h3>Transcribe <small>V0</small></h3>
+          <p>faster-whisper large-v3-turbo produces timed segments.</p><p class="note" data-note="asr"></p></li>
+        <li class="step" data-step="correct"><span class="step-n">3</span><h3>Correct <small>V1</small></h3>
+          <p>A language model corrects each segment on its own, keeping its timestamps. It fixes spelling and
+            punctuation and restores Arabic, but it can also get things wrong.</p><p class="note" data-note="correct"></p></li>
+        <li class="step" data-step="validate"><span class="step-n">4</span><h3>Find and verify <small>E1 · V2</small></h3>
+          <p>Ayahs, hadith, duas and topics are extracted. Each Quranic and dua quotation is scored against
+            the full canonical corpus; only a confident match replaces the text.</p><p class="note" data-note="validate"></p></li>
+        <li class="step" data-step="review"><span class="step-n">5</span><h3>Review <small>V3 · E2</small></h3>
+          <p>A reviewer checks every segment and entity against the audio. Anything unclear is flagged and
+            goes to a super reviewer, who makes the final decision.</p><p class="note" data-note="review"></p></li>
+        <li class="step" data-step="graph"><span class="step-n">6</span><h3>Connect</h3>
+          <p>The reviewed lecture becomes a knowledge graph: every quotation links to its verse, and every
+            verse to the Quran Ontology and SemanticTafsir; hadith link to SemanticHadith.</p></li>
+        <li class="step" data-step="ask"><span class="step-n">7</span><h3>Ask</h3>
+          <p>Questions in Urdu or English are answered from the lecture itself, with the passage cited, and
+            refused when the lecture does not say.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- BEFORE / AFTER ----------------------------------------------------------------------- -->
+  <section class="after reveal">
+    <div class="section-head">
+      <p class="kicker">Before and after</p>
+      <h2>From what was heard to what was said</h2>
+    </div>
+    <div class="compare" id="before-after"></div>
+  </section>
+
+  <!-- RELEASED ----------------------------------------------------------------------------- -->
+  <section id="released" class="released reveal">
+    <div class="section-head">
+      <p class="kicker">What's released</p>
+      <h2>Data, graph and tools, open for reuse</h2>
+    </div>
+    <div class="cards" id="released-cards"></div>
+  </section>
+
+  <!-- TRY IT ------------------------------------------------------------------------------- -->
+  <section id="try" class="try reveal">
+    <div class="section-head">
+      <p class="kicker">Try it</p>
+      <h2>Run the review yourself</h2>
+      <p>The reviewer panel is a local simulator of the review stage: load a lecture's V2 and E1, review
+        it, and produce V3 and E2 in the pipeline's format. It can also run every automatic stage and
+        answer questions over the graph and the lectures.</p>
+    </div>
+    <div class="cards panel-only">
+      <a class="card link" href="/review#review"><h3>Review a lecture</h3><p>Segments in order, entities beside
+        them, flags and super review. Replay a real review to see how the released V3 was reached.</p></a>
+      <a class="card link" href="/review#pipeline"><h3>Run the pipeline</h3><p>Transcribe, correct, extract
+        and validate, then build the knowledge graph and the RAG index, one stage at a time.</p></a>
+      <a class="card link" href="/review#ask"><h3>Ask a question</h3><p>RAG questions over the lectures, and
+        the paper's 16 competency questions over the knowledge graph.</p></a>
+      <a class="card link" href="/review#settings"><h3>Plug in your models</h3><p>Point each stage at LM Studio,
+        Ollama, OpenRouter or any OpenAI-compatible server, with your own keys.</p></a>
+    </div>
+    <div class="static-only">
+      <pre class="code"><code>pip install -e ".[all]"
+python -m reviewer_panel      # then open http://127.0.0.1:8765</code></pre>
+    </div>
+  </section>
+
+  <!-- CREDITS ------------------------------------------------------------------------------ -->
+  <section id="credits" class="credits reveal">
+    <div class="section-head">
+      <p class="kicker">Credits</p>
+      <h2 id="paper-title"></h2>
+      <p id="paper-link" class="hidden"></p>
+    </div>
+    <ul class="authors" id="authors"></ul>
+    <p class="affil" id="affiliation"></p>
+    <div class="fineprint">
+      <p><b>Linked resources.</b> SemanticHadith (Kamran, Abro &amp; Basharat, 2023, <i>Journal of Web
+        Semantics</i> 78); SemanticTafsir (Kamran, Basharat &amp; Rehman, <i>Semantic Web</i>, accepted);
+        the Quran Ontology (Hakkoum &amp; Raghay, 2015).</p>
+      <p><b>Lecture content.</b> The lectures, their audio and transcripts belong to their speakers and
+        publisher. Audio is not redistributed; the page plays it from the publisher's link.</p>
+      <p><b>License.</b> Code under the MIT license; the data under <code>artifacts/</code> carries the terms
+        in its <code>NOTICE.md</code>.</p>
+      <p><b>About the panel.</b> The reviewer panel simulates the review stage. The paper's reviews were
+        done in a purpose-built application from an industry collaboration, which is not released.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot"><img src="minaret-mark.svg" alt="" width="22" height="22"> MINARET</footer>
+<audio id="clip" preload="none"></audio>
+<script src="landing.js"></script>
+</body>
+</html>

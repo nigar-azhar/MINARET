@@ -1,0 +1,18 @@
+# CQ4 -- Which topics "discussesTopic" by more than one AudioSeries?
+# Paper-reported result: 5 topics returned, matching Table 1's cross-series integration row exactly — "Calling to Good (Da'wah)" (3 series), the other 4 (2 series each).
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?nameEn (COUNT(DISTINCT ?series) AS ?numSeries) (GROUP_CONCAT(DISTINCT ?seriesCode; separator=', ') AS ?series_list) WHERE {
+  ?sg minaret:discussesTopic ?topic .
+  ?sg minaret:containsSegment ?seg .
+  ?transcript minaret:hasSegment ?seg .
+  ?rec minaret:hasTranscript ?transcript .
+  ?aseries minaret:hasRecording ?rec ; minaret:seriesCode ?seriesCode .
+  ?topic minaret:nameEn ?nameEn .
+  BIND(?seriesCode AS ?series)
+} GROUP BY ?nameEn HAVING (COUNT(DISTINCT ?series) > 1) ORDER BY DESC(?numSeries)

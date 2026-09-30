@@ -1,0 +1,606 @@
+[
+  {
+    "question_id": "Q37",
+    "question": "According to the lecturer, what are the three types of people described when it comes to going for Hajj?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0007"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0007"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecturer in **HajjJourney2022Eng-L01_chunk_0007**, the three types of people described when it comes to Hajj are:\n\n1.  **First type:** They can afford and they also want to go.\n2.  **Second type:** They cannot afford, but they still want to go.\n3.  **Third type:** They can afford, but they don't go (they delay it or don't really want to go).\n\n**Citation:** HajjJourney2022Eng-L01_chunk_0007",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 4519,
+    "elapsed_seconds": 118.05,
+    "generated_at": "2026-09-24T07:47:08.823923+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Answer correctly lists all three types of people from the gold chunk L01_chunk_0007, matching the transcript verbatim (can-afford-and-want-to-go / cannot-afford-but-want-to-go / can-afford-but-delay). Series-scope retrieval also pulled in superficially similar \"three types of X\" chunks from other lectures (L03's three types of Hajj, L04's three types of good deeds) that a single-lecture search on L01 would not have surfaced, but the model ignored them and cited only the correct chunk, so retrieval noise had no effect on correctness."
+  },
+  {
+    "question_id": "Q38",
+    "question": "لیکچرر کے مطابق حج پر جانے کے حوالے سے لوگوں کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0007"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0007"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچر کے مطابق حج پر جانے والوں کی تین اقسام یہ بیان کی گئی ہیں:\n\n1. وہ لوگ جو خرچ کر سکتے ہیں اور انہیں جانا چاہیے۔\n2. وہ لوگ جو خرچ نہیں کر سکتے لیکن انہیں جانا چاہیے۔\n3. وہ لوگ جو خرچ کر سکتے ہیں لیکن نہیں جاتے، تاخیر کرتے ہیں اور انہیں واقعی جانا نہیں چاہیے۔\n\nchunk_id=HajjJourney2022Eng-L01_chunk_0007",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 8973,
+    "elapsed_seconds": 163.07,
+    "generated_at": "2026-09-24T07:49:51.900263+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu answer accurately restates the same three types of people found in gold chunk L01_chunk_0007 (can afford & want to go; can't afford but want to go; can afford but delay/don't really want to go). As with the English version (Q37), series-scope retrieval mixed in off-topic \"three types\" chunks from L03 and L04 (types of Hajj, Hajj months) that only exist because of the pooled series search, but the model correctly ignored them and cited only the right chunk."
+  },
+  {
+    "question_id": "Q57",
+    "question": "According to the lecturer, which four things do we ask Allah for in the beautiful du'a he introduces at the start of the course?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0010"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0010"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecturer, the four things we ask Allah for in that beautiful du'a are barakat (blessings), rahmat (mercy), fadl (favor/grace), and rizq (sustenance/provision).\n\n[chunk_id=HajjJourney2022Eng-L01_chunk_0010]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 7151,
+    "elapsed_seconds": 147.23,
+    "generated_at": "2026-09-24T07:52:19.132460+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "The four things asked for in the du'a (barakat, rahmat, fadl, rizq) are listed correctly and match gold chunk L01_chunk_0010 word for word, with correct sole citation. Series-scope retrieval brought in unrelated du'a-related chunks from L01, L02, and L03 (a different lecture's closing du'a, an intro invocation) that a single-lecture search restricted to L01 wouldn't have returned, but they weren't used and didn't affect the answer."
+  },
+  {
+    "question_id": "Q58",
+    "question": "لیکچرر کے مطابق کورس کے آغاز میں سکھائی جانے والی دعا میں اللہ تعالیٰ سے کون سی چار چیزیں مانگی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0010"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0010"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچر کے مطابق کورس کے آغاز میں سکھائی جانے والی دعا میں اللہ تعالیٰ سے چار چیزیں مانگی گئی ہیں:\n\n1. بَرَكَات (Barakat)\n2. رَحْمَة (Rahmat)\n3. فَضْل (Fadl)\n4. رِزْق (Rizq)\n\n[chunk_id=HajjJourney2022Eng-L01_chunk_0010]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 6416,
+    "elapsed_seconds": 154.28,
+    "generated_at": "2026-09-24T07:54:53.416542+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu answer correctly lists all four things (Barakat, Rahmat, Fadl, Rizq) matching gold chunk L01_chunk_0010 exactly, with correct citation. Series-scope retrieval again surfaced extra chunks from other lectures/parts of L01 (an intro invocation from L03, adjacent L01 chunks) not present in a single-lecture search, but the model correctly used only the right chunk."
+  },
+  {
+    "question_id": "Q39",
+    "question": "According to the lecturer, what are the three conditions of 'istita'ah' (ability) that make Hajj mandatory on a person?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L02_chunk_0061",
+        "HajjJourney2022Eng-L02_chunk_0063"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nBased on the provided transcript excerpts, the lecturer identifies three conditions of 'istita'ah' (ability) that make Hajj mandatory. These are found across chunks 0061 and 0063:\n\n1.  **Travel Expenses / Ability to Travel:** The person must have the travel expenses and be able to physically travel. (Chunk 0061)\n2.  **Expenses for Dependents:** The person must have enough expenses to cover the people they are leaving behind. (Chunk 0061)\n3.  **Physical Capability / Safety:** The person must be physically able to go, and their life and property must be safe (scholars' opinion on safety). (Chunk 0063)\n\n**Citations:**\n*   Chunk `HajjJourney2022Eng-L02_chunk_0061`\n*   Chunk `HajjJourney2022Eng-L02_chunk_0063`\n\n**Answer:**\nAccording to the lecturer, the three conditions of 'istita'ah' are:\n1.  Having travel expenses and being able to travel (financial capability).\n2.  Having enough expenses for the people left behind (dependents' financial security).\n3.  Physical capability and safety of life/property (physical and safety conditions).\n\n**Chunk IDs:** HajjJourney2022Eng-L02_chunk_0061, HajjJourney2022Eng-L02_chunk_0063.\n\n**Wait, I need to check the exact wording for citation.**\nThe instruction says \"Cite the chunk id(s) you used.\"\n\n**Revised Answer:**\nAccording to the lecturer, the three conditions of 'istita'ah' are:\n1.  **Travel expenses / Ability to travel:** The person must have the financial means for travel and be physically able to go. (Chunk `HajjJourney2022Eng-L02_chunk_0061`)\n2.  **Expenses for dependents:** The person must have enough expenses to support the people they are leaving behind. (Chunk `HajjJourney2022Eng-L02_chunk_0061`)\n3.  **Physical capability / Safety:** The person must be physically able to go, and their life/property must be safe. (Chunk `HajjJourney2022Eng-L02_chunk_0063`)\n\n**Chunk IDs:** HajjJourney2022Eng-L02_chunk_0061, HajjJourney2022Eng-L02_chunk_0063.\n\n**Wait, one detail:** Chunk 0061 says \"It has three understandings based\". It lists two. Chunk 0063 adds the third (\"physical capability is also one of the conditions\").\nSo I can confidently list all three.\n\n**Final check on constraints:** \"Cite the chunk id(s) you used.\"\nI will include the IDs in the final output.\n\n**Refining the list based strictly on text:**\nChunk 0061: \"first one, when a person has the travel expenses... And also this person should have enough expenses for the people he's leaving behind.\"\nChunk 0063: \"physical capability is also one of the conditions.\" (Also mentions \"safe way\").\n\nSo the three are:\n1. Travel expenses / able to travel.\n2. Expenses for people leaving behind.\n3. Physical capability (and safety).\n\nI will present this clearly.\n\n**Final Answer Formulation:**\nAccording to the lecturer, the three conditions of 'istita'ah' are:\n1.  **Travel expenses / Ability to travel:** The person must have the financial means for travel and be able to physically go. (Chunk `HajjJourney2",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 19078,
+    "elapsed_seconds": 277.61,
+    "generated_at": "2026-09-24T07:59:31.022113+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Retrieval correctly stayed within the gold lecture (both gold chunks are L02, no cross-lecture contamination here). The claims are individually grounded (travel expenses/ability to travel and dependents' expenses from chunk 0061; physical capability and safety of life/property from chunk 0063), but chunk 0061 says istita'ah \"has three understandings\" and then only clearly states two before the excerpt ends, while chunk 0063 separately raises both \"safe way\" and \"physical capability\" as conditions — the model collapsed those two into a single third bullet, an interpretive merge not explicitly stated in the transcript. The response is also degraded by finish_reason=length: it visibly second-guesses itself (\"Wait, I need to check...\", multiple \"Revised/Final Answer\" attempts) and cuts off mid-sentence without a clean final answer, though the repeated draft answers are consistent."
+  },
+  {
+    "question_id": "Q40",
+    "question": "لیکچرر کے مطابق 'استطاعت' کی وہ تین شرائط کیا ہیں جن کی بنا پر کسی شخص پر حج فرض ہوتا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 21836,
+    "elapsed_seconds": 275.18,
+    "generated_at": "2026-09-24T08:04:06.221903+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is empty (just \"\\n\\n\"); finish_reason=\"length\", reasoning_content_length=21836 — the model spent its entire generation budget on <think> reasoning and returned no final text, so no answer was given at all. This is a pure generation-side failure: retrieval correctly surfaced both gold chunks (L02_chunk_0061, L02_chunk_0063), unaffected by series-scope pooling, so the empty answer cannot be attributed to retrieval quality."
+  },
+  {
+    "question_id": "Q59",
+    "question": "According to the lecturer, what are the first four points given to explain why Makkah is a place of safety and security?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 21101,
+    "elapsed_seconds": 254.78,
+    "generated_at": "2026-09-23T18:27:38.162976+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is empty (\"\\n\\n\"); finish_reason=\"length\", reasoning_content_length=21101 — same token-exhaustion pattern. chunks_sent (0051,0055,0042,0048) only partially covered the true 4 points (see notes on Q59 for gemma/llama below re: the retrieval gap missing chunks 0052-0054 which hold points 2 and 3), but qwen produced no text regardless. Graded incorrect. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q60",
+    "question": "لیکچرر کے مطابق مکہ کے امن و سلامتی کا مقام ہونے کی وہ پہلی چار وجوہات کیا ہیں جو بتائی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 20573,
+    "elapsed_seconds": 213.31,
+    "generated_at": "2026-09-23T18:31:11.397182+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is empty (\"\\n\\n\"); finish_reason=\"length\", reasoning_content_length=20573. Same failure mode as the other three qwen answers in this set — the model spent its entire generation budget on <think> reasoning and returned no final text. Graded incorrect. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q41",
+    "question": "According to the lecturer, what are the three months during which Hajj takes place?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0043",
+        "HajjJourney2022Eng-L03_chunk_0084",
+        "HajjJourney2022Eng-L03_chunk_0087",
+        "HajjJourney2022Eng-L04_chunk_0067"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecturer, the three months during which Hajj takes place are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah.\n\n[chunk_id=HajjJourney2022Eng-L03_chunk_0084, chunk_id=HajjJourney2022Eng-L01_chunk_0043, chunk_id=HajjJourney2022Eng-L04_chunk_0067, chunk_id=HajjJourney2022Eng-L03_chunk_0087]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 9314,
+    "elapsed_seconds": 151.27,
+    "generated_at": "2026-09-24T08:06:37.430146+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Correctly identifies the three Hajj months (Shawwal, Dhu al-Qa'dah, Dhu al-Hijjah), matching gold chunk L03_chunk_0084/0087. This is a clear example of the series-scope phenomenon under study: alongside the two gold L03 chunks, retrieval also pulled in corroborating chunks from L01 (chunk_0043) and L04 (chunk_0067) — lectures a single-lecture search on L03 would never have reached — because the lecturer repeats this fact across the course. All cited chunks agree with each other, so the cross-lecture pooling enriched the citation without introducing any error."
+  },
+  {
+    "question_id": "Q42",
+    "question": "لیکچرر کے مطابق حج کے تین مہینے کون سے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.5
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0043",
+        "HajjJourney2022Eng-L03_chunk_0084",
+        "HajjJourney2022Eng-L04_chunk_0067"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچر کے مطابق حج کے تین مہینے شوال، ذوالقعدہ اور ذوالحجہ ہیں۔\n\n[chunk_id=HajjJourney2022Eng-L03_chunk_0084, chunk_id=HajjJourney2022Eng-L01_chunk_0043, chunk_id=HajjJourney2022Eng-L04_chunk_0067]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 8436,
+    "elapsed_seconds": 141.32,
+    "generated_at": "2026-09-24T08:08:58.846227+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu answer correctly names the three Hajj months (Shawwal, Dhu al-Qa'dah, Dhu al-Hijjah), consistent with gold chunk L03_chunk_0084. As in Q41, series-scope retrieval pooled in corroborating chunks from L01 (chunk_0043) and L04 (chunk_0067) covering the same fact repeated in different lectures of the series; all agree, so the cross-lecture mixing did not affect correctness (though the second gold chunk L03_chunk_0087 wasn't cited, the answer content is still fully correct)."
+  },
+  {
+    "question_id": "Q61",
+    "question": "According to the lecturer, what are the three types of Hajj mentioned in the lecture?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 2,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 22326,
+    "elapsed_seconds": 210.34,
+    "generated_at": "2026-09-24T08:12:29.189768+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is empty (\"\\n\\n\"); finish_reason=\"length\", reasoning_content_length=22326 — same token-exhaustion failure as Q40, the model never produced an actual answer. Series-scope retrieval here did mix in cross-lecture noise (L01's \"three types of people\" chunk and L04's \"three types of good deeds\"/\"three Hajj months\" chunks, none of which are the gold L03_chunk_0091 about the three types of Hajj), but since the model produced no answer at all, that noise can't be shown to have caused the failure — this is graded as a pure generation-side failure like Q40."
+  },
+  {
+    "question_id": "Q62",
+    "question": "لیکچرر کے مطابق حج کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0091",
+        "HajjJourney2022Eng-L04_chunk_0067"
+      ],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق حج کی تین اقسام یہ ہیں: Tamattu', Qiran, اور Ifrad۔\n[chunk_id=HajjJourney2022Eng-L03_chunk_0091, chunk_id=HajjJourney2022Eng-L04_chunk_0067]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 6605,
+    "elapsed_seconds": 115.59,
+    "generated_at": "2026-09-24T08:14:24.778251+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu answer correctly names the three types of Hajj (Tamattu', Qiran, Ifrad), matching gold chunk L03_chunk_0091, with a correct supporting citation to L04_chunk_0067 which recaps the same three types. Series-scope retrieval also surfaced two unrelated \"three types of X\" chunks from L01 and L03 (three types of people, three Hajj months) that a single-lecture search on L03 wouldn't have mixed in this way, but the model correctly ignored them, unlike its Q61 sibling which failed to answer at all under similar retrieved context."
+  },
+  {
+    "question_id": "Q5",
+    "question": "What does the lecturer say a pilgrim should do if they break a bone or become lame while in ihram?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L04_chunk_0033"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L04_chunk_0033"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecture, if a pilgrim breaks a bone or becomes lame while in ihram, they have come out of the sacred state of ihram and must perform Hajj the following year. The lecturer also notes that this person is not considered sinful because these situations were not in their control [chunk_id=HajjJourney2022Eng-L04_chunk_0033].",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 4298,
+    "elapsed_seconds": 101.69,
+    "generated_at": "2026-09-24T08:16:06.482060+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Answer correctly states that breaking a bone or becoming lame while in ihram means the pilgrim has exited ihram and must perform Hajj the following year, and is not sinful since it was outside their control — this matches gold chunk L04_chunk_0033 verbatim. The other retrieved chunks (from L02 and L03) are topically adjacent (exiting ihram normally, a funeral hadith mentioning ihram) but were correctly not used; no cross-lecture confusion affected the answer."
+  },
+  {
+    "question_id": "Q20",
+    "question": "لیکچرر کے مطابق اگر کوئی حاجی احرام کی حالت میں اپنی ہڈی توڑ بیٹھے یا لنگڑا ہو جائے تو اسے کیا کرنا چاہیے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L04_chunk_0033"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L04_chunk_0033"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچر کے مطابق، اگر کوئی حاجی احرام کی حالت میں اپنی ہڈی توڑ بیٹھے یا لنگڑا ہو جائے، تو وہ احرام سے خارج ہو جاتا ہے اور اگلے سال حج پرفرم کرنا چاہیے۔\n\n[chunk_id=HajjJourney2022Eng-L04_chunk_0033]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 8475,
+    "elapsed_seconds": 120.58,
+    "generated_at": "2026-09-24T08:18:07.064445+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu answer correctly conveys that breaking a bone or becoming lame in ihram means exiting ihram and having to perform Hajj the following year, matching gold chunk L04_chunk_0033. Retrieved noise chunks from L02 and L04 (an unrelated funeral hadith, a Qur'an verse on fidya for illness) were not used and didn't affect the correct, narrowly-grounded answer."
+  },
+  {
+    "question_id": "Q8",
+    "question": "What does the lecturer say about the Quranic concept of shifa (healing) and its six occurrences in the Qur'an?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L03_chunk_0048",
+        "HajjJourney2022Eng-L04_chunk_0000",
+        "HajjJourney2022Eng-L04_chunk_0010",
+        "HajjJourney2022Eng-L04_chunk_0061"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question. The retrieved excerpts discuss the benefits of Hajj, spiritual growth (iman boost), and specific details regarding fasting, rituals, and the importance of Ahadith for understanding Fidyah (sacrifice/fasting), but they do not mention the concept of shifa or its occurrences in the Qur'an.\n\n**Citation:**\n- chunk_id=HajjJourney2022Eng-L03_chunk_0048\n- chunk_id=HajjJourney2022Eng-L04_chunk_0010\n- chunk_id=HajjJourney2022Eng-L04_chunk_0061\n- chunk_id=HajjJourney2022Eng-L04_chunk_0000\n\n**Reasoning:**\nNone of the provided text excerpts contain any reference to \"shifa\" (healing) or a count of six occurrences in the Qur'an. The text focuses on Hajj rituals, benefits, and verses from Surah Al-Baqarah regarding fasting and sacrifice.\n\n**Answer:**\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 73.08,
+    "generated_at": "2026-09-24T08:19:20.151548+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Question is deliberately unanswerable (Quranic \"shifa\"/healing and its six occurrences is never discussed in this series). Model correctly stated the lecture does not provide enough information, and its own reasoning correctly notes none of the four retrieved chunks (pooled across L03 and L04 via series-scope search) mention shifa. No fabrication occurred despite chunks being cited alongside the refusal."
+  },
+  {
+    "question_id": "Q23",
+    "question": "اس لیکچر میں قرآن میں لفظ 'شفا' کے چھ مقامات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HajjJourney2022Eng",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\n'This lecture does not provide enough information to answer that question.'",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 12444,
+    "elapsed_seconds": 148.49,
+    "generated_at": "2026-09-24T08:21:48.635579+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Urdu counterpart of Q8, same deliberately unanswerable topic (Qur'anic 'shifa' and its six occurrences). Model gave the canonical refusal string with no fabrication. Notably, series-scope retrieval surfaced a completely different set of chunks for this phrasing (L02 chunks about Makkah's six signs of safety, L04 fidya chunk) than it did for the English Q8 (L03/L04 chunks about benefits of Hajj) — a real instance of retrieval divergence from series-wide pooling and query-phrasing sensitivity — but none of them mention shifa either, so the refusal is still correct."
+  }
+]

@@ -1,0 +1,543 @@
+{
+  "ayat": [
+    {
+      "surah_number": "20",
+      "ayah_number": "25",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْۙ وَیَسِّرْ لِیْۤ اَمْرِیْۙ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْۙ یَفْقَهُوْا قَوْلِیْ",
+      "start": 0.0,
+      "end": 19.86,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "26",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْۙ وَیَسِّرْ لِیْۤ اَمْرِیْۙ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْۙ یَفْقَهُوْا قَوْلِیْ",
+      "start": 0.0,
+      "end": 19.86,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "27",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْۙ وَیَسِّرْ لِیْۤ اَمْرِیْۙ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْۙ یَفْقَهُوْا قَوْلِیْ",
+      "start": 0.0,
+      "end": 19.86,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "28",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْۙ وَیَسِّرْ لِیْۤ اَمْرِیْۙ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْۙ یَفْقَهُوْا قَوْلِیْ",
+      "start": 0.0,
+      "end": 19.86,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "18",
+      "ayah_number": "29",
+      "text": "وَسَآءَتْ مُرْتَفَقًا",
+      "start": 296.08,
+      "end": 315.5,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "18",
+      "ayah_number": "31",
+      "text": "وَحَسُنَتْ مُرْتَفَقًا",
+      "start": 315.5,
+      "end": 335.0,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "3",
+      "ayah_number": "159",
+      "text": "فَبِمَا رَحْمَةٍ مِّنَ اللّٰهِ لِنْتَ لَهُمْ ۚ وَلَوْ كُنْتَ فَظًّا غَلِیْظَ الْقَلْبِ لَانْفَضُّوْا مِنْ حَوْلِكَ",
+      "start": 1365.8,
+      "end": 1385.52,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "3",
+      "ayah_number": "159",
+      "text": "کہ اگر آپ سخت ہوتے، بد خلق ہوتے، سخت مزاج ہوتے تو یہ سب آپ سے بھاگ جاتے",
+      "start": 1385.52,
+      "end": 1404.96,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "215",
+      "text": "وَاخْفِضْ جَنَاحَكَ لِمَنِ اتَّبَعَكَ مِنَ الْمُؤْمِنِیْنَ",
+      "start": 1602.3,
+      "end": 1622.2,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "215",
+      "text": "اور ایمان لانے والوں میں سے جو لوگ تمہاری پیروی اختیار کریں ان کے ساتھ تواضع سے پیش آؤ، نرمی سے پیش آؤ",
+      "start": 1622.2,
+      "end": 1641.98,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "215",
+      "text": "وَاخْفِضْ جَنَاحَكَ لِمَنِ اتَّبَعَكَ مِنَ الْمُؤْمِنِیْنَ",
+      "start": 1755.38,
+      "end": 1760.5,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "5",
+      "ayah_number": "54",
+      "text": "اَذِلَّةٍ عَلَی الْمُؤْمِنِیْنَ اَعِزَّةٍ عَلَی الْكٰفِرِیْنَ",
+      "start": 1780.1,
+      "end": 1799.98,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "5",
+      "ayah_number": "54",
+      "text": "جو مومنوں پر نرم اور کفار پر سخت ہوں گے",
+      "start": 1780.1,
+      "end": 1799.98,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "17",
+      "ayah_number": "13",
+      "text": "وَكُلَّ اِنْسَانٍ اَلْزَمْنٰهُ طٰٓىِٕرَهٗ فِیْ عُنُقِهٖ",
+      "start": 2848.46,
+      "end": 2868.42,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "17",
+      "ayah_number": "13",
+      "text": "ہر انسان کا شگون اس کی گردن میں لٹک رہا ہے",
+      "start": 2848.46,
+      "end": 2868.42,
+      "usage": "translation",
+      "extent": "partial"
+    }
+  ],
+  "hadith": [
+    {
+      "reference": "Ahmad_24427",
+      "expanded_reference": "Musnad Ahmad ibn Hanbal, Baqi Musnad al-Ansar, Hadith Sayyidah 'Aisha (RA), Hadith 24427",
+      "text": "اِذَا اَرَادَ اللّٰهُ عَزَّ وَجَلَّ بِاَهْلِ بَیْتٍ خَیْرًا اَدْخَلَ عَلَیْهِمُ الرِّفْقَ",
+      "start": 1819.66,
+      "end": 1839.66,
+      "usage": "quotation"
+    },
+    {
+      "reference": "Ahmad_24427",
+      "expanded_reference": "Musnad Ahmad ibn Hanbal, Baqi Musnad al-Ansar, Hadith Sayyidah 'Aisha (RA), Hadith 24427",
+      "text": "جب اللہ تعالیٰ کسی خاندان کے لیے بھلائی چاہتے ہیں تو ان میں نرمی ڈال دیتے ہیں",
+      "start": 1879.42,
+      "end": 1899.34,
+      "usage": "translation"
+    },
+    {
+      "reference": "JT_2013",
+      "expanded_reference": "Jami' at-Tirmidhi, Book of Righteousness and Maintaining Ties (Kitab al-Birr wa al-Silah), Chapter on Gentleness, Hadith 2013",
+      "text": "مَنْ اُعْطِیَ حَظَّهٗ مِنَ الرِّفْقِ فَقَدْ اُعْطِیَ حَظَّهٗ مِنَ الْخَیْرِ، وَمَنْ حُرِمَ حَظَّهٗ مِنَ الرِّفْقِ فَقَدْ حُرِمَ حَظَّهٗ مِنَ الْخَیْرِ",
+      "start": 2673.26,
+      "end": 2689.68,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2013",
+      "expanded_reference": "Jami' at-Tirmidhi, Book of Righteousness and Maintaining Ties (Kitab al-Birr wa al-Silah), Chapter on Gentleness, Hadith 2013",
+      "text": "مَنْ، جو کوئی، اُعْطِیَ، دیا گیا، حَظَّهٗ، اپنا حصہ، مِنَ الرِّفْقِ، نرمی میں سے، فَقَدْ، پس تحقیق، اُعْطِیَ، دیا گیا، حَظَّهٗ، اپنا حصہ، مِنَ الْخَیْرِ، خیر میں سے، وَمَنْ حُرِمَ، اور جو محروم کیا گیا، حَظَّهٗ، اپنے حصے سے، مِنَ الرِّفْقِ، نرمی سے، فَقَدْ حُرِمَ، پس تحقیق وہ محروم کیا گیا، حَظَّهٗ، اپنے حصے سے، مِنَ الْخَیْرِ، خیر کے",
+      "start": 2689.68,
+      "end": 2749.12,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2013",
+      "expanded_reference": "Jami' at-Tirmidhi, Book of Righteousness and Maintaining Ties (Kitab al-Birr wa al-Silah), Chapter on Gentleness, Hadith 2013",
+      "text": "جس کو نرمی میں سے حصہ ملا تو اسے خیر میں سے حصہ ملا اور جو کوئی نرمی کے حصے سے محروم رہا وہ خیر سے محروم رہا",
+      "start": 2729.16,
+      "end": 2769.04,
+      "usage": "translation"
+    },
+    {
+      "reference": "SM_2592",
+      "expanded_reference": "Sahih Muslim, Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship (Kitab al-Birr wa al-Silah), Chapter: The Virtue of Gentleness, Hadith 2592",
+      "text": "مَنْ یُّحْرَمِ الرِّفْقَ یُحْرَمِ الْخَیْرَ",
+      "start": 2789.0,
+      "end": 2808.74,
+      "usage": "quotation"
+    },
+    {
+      "reference": "SM_2592",
+      "expanded_reference": "Sahih Muslim, Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship (Kitab al-Birr wa al-Silah), Chapter: The Virtue of Gentleness, Hadith 2592",
+      "text": "جو محروم کر دیا گیا نرمی سے، وہ محروم کر دیا گیا خیر سے، بھلائی سے",
+      "start": 2789.0,
+      "end": 2808.74,
+      "usage": "translation"
+    },
+    {
+      "reference": "SM_2593",
+      "expanded_reference": "Sahih Muslim, Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship (Kitab al-Birr wa al-Silah), Chapter: The Virtue of Gentleness, Hadith 2593",
+      "text": "یَا عَائِشَةُ اِنَّ اللّٰهَ رَفِیْقٌ یُّحِبُّ الرِّفْقَ وَیُعْطِیْ عَلَی الرِّفْقِ مَا لَا یُعْطِیْ عَلَی الْعُنْفِ وَمَا لَا یُعْطِیْ عَلٰی مَا سِوَاهُ",
+      "start": 2908.1,
+      "end": 2927.9,
+      "usage": "quotation"
+    },
+    {
+      "reference": "SM_2593",
+      "expanded_reference": "Sahih Muslim, Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship (Kitab al-Birr wa al-Silah), Chapter: The Virtue of Gentleness, Hadith 2593",
+      "text": "اے عائشہ! بے شک اللہ تعالیٰ نرمی کرنے والا ہے، نرمی کو پسند فرماتا ہے، نرمی پر وہ جو کچھ عطا فرماتا ہے وہ سختی پر اور اس کے علاوہ کسی چیز پر عطا نہیں فرماتا",
+      "start": 2987.04,
+      "end": 3026.8,
+      "usage": "translation"
+    },
+    {
+      "reference": "SB_6030",
+      "expanded_reference": "Sahih al-Bukhari, Book of Good Manners (Kitab al-Adab), Chapter: Gentleness in All Matters, Hadith 6030",
+      "text": "اَنَّ الْیَهُوْدَ اَتَوُا النَّبِیَّ صَلَّی اللّٰهُ عَلَیْهِ وَسَلَّمَ فَقَالُوْا: اَلسَّامُ عَلَیْكَ، قَالَ: وَعَلَیْكُمْ، فَقَالَتْ عَائِشَةُ: اَلسَّامُ عَلَیْكُمْ وَلَعَنَكُمُ اللّٰهُ وَغَضِبَ عَلَیْكُمْ، فَقَالَ رَسُوْلُ اللّٰهِ صَلَّی اللّٰهُ عَلَیْهِ وَسَلَّمَ: مَهْلًا یَا عَائِشَةُ، عَلَیْكِ بِالرِّفْقِ وَاِیَّاكِ وَالْعُنْفَ وَالْفَحْشَ",
+      "start": 3066.7,
+      "end": 3105.6,
+      "usage": "quotation"
+    },
+    {
+      "reference": "SB_6030",
+      "expanded_reference": "Sahih al-Bukhari, Book of Good Manners (Kitab al-Adab), Chapter: Gentleness in All Matters, Hadith 6030",
+      "text": "یہود نبی کریم صلی اللہ علیہ وسلم کی خدمت میں حاضر ہوئے اور کہا: السام علیک۔ نبی کریم صلی اللہ علیہ وسلم نے فرمایا: وعلیکم۔ لیکن سیدہ عائشہ رضی اللہ عنہا نے کہا: السام علیکم ولعنکم اللہ وغضب علیکم۔ تو رسول اللہ صلی اللہ علیہ وسلم نے فرمایا: ٹھہرو عائشہ! نرم خوئی اختیار کرو اور سختی اور بدکلامی سے ہمیشہ پرہیز کرو",
+      "start": 3244.18,
+      "end": 3283.86,
+      "usage": "translation"
+    },
+    {
+      "reference": "SM_2594",
+      "expanded_reference": "Sahih Muslim, Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship (Kitab al-Birr wa al-Silah), Chapter: The Virtue of Gentleness, Hadith 2594",
+      "text": "اِنَّ الرِّفْقَ لَا یَكُوْنُ فِیْ شَیْءٍ اِلَّا زَانَهٗ، وَلَا یُنْزَعُ مِنْ شَیْءٍ اِلَّا شَانَهٗ",
+      "start": 3303.0,
+      "end": 3342.9,
+      "usage": "quotation"
+    },
+    {
+      "reference": "SM_2594",
+      "expanded_reference": "Sahih Muslim, Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship (Kitab al-Birr wa al-Silah), Chapter: The Virtue of Gentleness, Hadith 2594",
+      "text": "جس چیز میں بھی نرمی ہوتی ہے وہ اسے زینت دار بنا دیتی ہے اور جس سے یہ نکال دی جاتی ہے اسے عیب دار کر دیتی ہے",
+      "start": 3323.0,
+      "end": 3362.8,
+      "usage": "translation"
+    },
+    {
+      "reference": "JT_2488",
+      "expanded_reference": "Jami' at-Tirmidhi, Chapters on the Description of the Day of Judgement (Sifat al-Qiyamah), Hadith 2488",
+      "text": "اَلَاۤ اُخْبِرُكُمْ بِمَنْ یَّحْرُمُ عَلَی النَّارِ وَبِمَنْ تَحْرُمُ عَلَیْهِ النَّارُ۔ عَلٰی كُلِّ قَرِیْبٍ هَیِّنٍ سَهْلٍ",
+      "start": 3382.72,
+      "end": 3422.62,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2488",
+      "expanded_reference": "Jami' at-Tirmidhi, Chapters on the Description of the Day of Judgement (Sifat al-Qiyamah), Hadith 2488",
+      "text": "کیا میں تمہیں ایسے لوگوں کی خبر نہ دوں جو جہنم کی آگ پر یا جہنم کی آگ ان پر حرام ہے؟ یہ ہر اس شخص پر حرام ہے جو لوگوں کے قریب رہنے والا، نرمی کرنے والا، آسانی کرنے والا ہے",
+      "start": 3402.64,
+      "end": 3442.52,
+      "usage": "translation"
+    }
+  ],
+  "dua": [
+    {
+      "reference": "QuranicDua-08",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْۙ وَیَسِّرْ لِیْۤ اَمْرِیْۙ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْۙ یَفْقَهُوْا قَوْلِیْ",
+      "start": 0.0,
+      "end": 19.86,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-205",
+      "text": "اَللّٰهُمَّ صَلِّ عَلٰی مُحَمَّدٍ وَّعَلٰی اٰلِ مُحَمَّدٍ كَمَا صَلَّیْتَ عَلٰی اِبْرَاهِیْمَ وَعَلٰی اٰلِ اِبْرَاهِیْمَ اِنَّكَ حَمِیْدٌ مَّجِیْدٌ۔ اَللّٰهُمَّ بَارِكْ عَلٰی مُحَمَّدٍ وَّعَلٰی اٰلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلٰی اِبْرَاهِیْمَ وَعَلٰی اٰلِ اِبْرَاهِیْمَ اِنَّكَ حَمِیْدٌ مَّجِیْدٌ",
+      "start": 19.86,
+      "end": 58.92,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-118",
+      "text": "اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ",
+      "start": 78.26,
+      "end": 98.18,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-118",
+      "text": "اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ",
+      "start": 118.08,
+      "end": 138.02,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-118",
+      "text": "اَللّٰهُمَّ، اے اللہ! كَمَا، جیسا کہ، حَسَّنْتَ، تُو نے اچھا بنایا خوبصورت بنایا، خَلْقِیْ، میری خلق کو میری صورت کو میری شکل کو، فَحَسِّنْ، تُو اچھا بنا دے خوبصورت بنا دے، خُلُقِیْ، میرے خلق کو میرے اخلاق کو میری عادات کو",
+      "start": 138.02,
+      "end": 177.4,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-118",
+      "text": "اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ",
+      "start": 157.7,
+      "end": 184.1,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-118",
+      "text": "اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ، اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ",
+      "start": 184.1,
+      "end": 196.76,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "reference": "MasnoonDua-118",
+      "text": "فَحَسِّنْ خُلُقِیْ، اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ",
+      "start": 196.76,
+      "end": 216.72,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-159",
+      "text": "سُبْحَانَكَ اللّٰهُمَّ وَبِحَمْدِكَ، نَشْهَدُ اَنْ لَّاۤ اِلٰهَ اِلَّاۤ اَنْتَ، نَسْتَغْفِرُكَ وَنَتُوْبُ اِلَیْكَ",
+      "start": 3600.86,
+      "end": 3620.64,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "topics": [
+    {
+      "name_en": "Supplication for Good Character (Du'a Husn al-Khuluq)",
+      "name_ur": "حسنِ اخلاق کی مسنون دعا اور کردار کی تزکیہ",
+      "description_en": "Contemplating inner spiritual beauty alongside physical appearance through the consistent practice of the mirror supplication.",
+      "description_ur": "آئینہ دیکھتے وقت کی مسنون دعا کے ذریعے ظاہری صورت کے ساتھ باطنی سیرت و اخلاق کو سنوارنے کی اہمیت۔",
+      "start": 39.12,
+      "end": 216.72,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Linguistic Roots and Essence of Gentleness (Al-Rifq)",
+      "name_ur": "رفق کے لغوی و اصطلاحی مفاہیم اور بنیادی روٹ",
+      "description_en": "Detailed analysis of the root Ra-Fa-Qaf, signifying compassion, ease, assistance, mutual friendship, and pleasant companionship.",
+      "description_ur": "مادہ 'ر ف ق' کی تشریح جس سے نفع رسانی، نرمی، باہمی سہولت، رفاقت اور دوستی کے معانی نکلتے ہیں۔",
+      "start": 216.72,
+      "end": 394.4,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "The Parable of the Believer and Ethical Resilience",
+      "name_ur": "مومن کی تمثیل بطور لچکدار پودا اور حوادث میں استقامت",
+      "description_en": "The prophetic metaphor comparing the believer to an adaptable plant bending gracefully under life's storms without snapping.",
+      "description_ur": "حدیثِ نبوی میں مومن کی مثال ایک زرعی پودے سے جو تیز ہوا کے سامنے لچک دکھا کر ٹوٹنے سے محفوظ رہتا ہے۔",
+      "start": 394.4,
+      "end": 572.38,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Curbing Pride, Ego, and Obstinacy (Takabbur wa al-Ana)",
+      "name_ur": "تکبر، انا اور ہٹ دھرمی کا خاتمہ اور کبرِ نفس کا علاج",
+      "description_en": "Overcoming relational rigidity, stubborn self-righteousness, and recognizing supreme greatness solely for Allah.",
+      "description_ur": "انسانی تعلقات میں رکاوٹ بننے والی انا اور جھوٹی بڑائی کا خاتمہ اور اللہ کی کبریائی کا دل سے اقرار۔",
+      "start": 870.62,
+      "end": 1207.14,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Awakening Moral Conscience Through Gentleness",
+      "name_ur": "نرمی کے ذریعے ضمیر کی بیداری اور محاسبہ",
+      "description_en": "Choosing gentle responses to disarm adversaries and stimulate personal conscience rather than instigating arrogant defense.",
+      "description_ur": "سختی کے بجائے نرمی کا رویہ اپنا کر دوسروں کی انا کو ٹھیس پہنچانے کے بجائے ان کے باطنی ضمیر کو بیدار کرنا۔",
+      "start": 1246.98,
+      "end": 1365.8,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Prophetic Gentleness in Da'wah and Interpersonal Ties",
+      "name_ur": "دعوت میں پیغمبرانہ شفقت اور نبی کریمؐ کا اسوۂ حسنہ",
+      "description_en": "Reflecting on Surah Ali 'Imran:159 detailing how divine mercy made the Prophet gentle, attracting hearts toward Islam.",
+      "description_ur": "سورۃ آل عمران (159) کی روشنی میں رسول اللہ صلی اللہ علیہ وسلم کے نرم مزاج اور قلوب کو جوڑنے والی رحمت کا بیان۔",
+      "start": 1365.8,
+      "end": 1755.38,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Humility (Tawadu') and Lowering the Wings of Mercy",
+      "name_ur": "تواضع اور اہل ایمان کے لیے شفقت کا بازو جھکانا",
+      "description_en": "Quranic mandate to lower one's wings in kindness towards disciples, juniors, and maintaining warmth across all social tiers.",
+      "description_ur": "قرآنی حکم کے مطابق اپنے ماتحتوں، ساتھیوں اور سب مومنین کے سامنے عاجزی اور انکساری کا برتاؤ کرنا۔",
+      "start": 1602.3,
+      "end": 1839.66,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Domestic Harmony and Family Prosperity Through Rifq",
+      "name_ur": "گھریلو امن اور خاندان میں نرمی کی برکات",
+      "description_en": "Authentic Hadith of Aisha (RA) declaring that when Allah intends goodness for a household, He infuses gentleness among them.",
+      "description_ur": "مسند احمد کی حدیث کہ جب اللہ تعالیٰ کسی گھرانے پر بھلائی چاہتا ہے تو ان کے معاملات میں نرمی داخل فرما دیتا ہے۔",
+      "start": 1839.66,
+      "end": 2180.04,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Virtues and Scholarly Eminence of Mother of the Believers Aisha (RA)",
+      "name_ur": "ام المؤمنین سیدہ عائشہ رضی اللہ عنہا کے مناقب اور علمی فضیلت",
+      "description_en": "Highlighting Aisha's legal jurisprudence, inheritance expertise, medicine, memory, and unparalleled charity.",
+      "description_ur": "سیدہ عائشہؓ کا تبحرِ علمی، وراثت و طب میں مہارت، فصاحت و بلاغت اور بے مثل سخاوت و ایثار۔",
+      "start": 2180.04,
+      "end": 2660.62,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Spiritual Forfeiture Incurred by Lacking Gentleness",
+      "name_ur": "نرمی سے محرومی پر تمام بھلائیوں سے محرومی کی وعید",
+      "description_en": "Prophetic traditions warning that being deprived of gentleness is synonymous with being barred from all comprehensive goodness.",
+      "description_ur": "احادیثِ نبویہ کی تنبیہ کہ جس شخص کو نرمی کی دولت نہ ملی وہ دارین کی ہر خیر و برکت سے محروم رہ گیا۔",
+      "start": 2673.26,
+      "end": 2908.1,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Prophetic Forbearance (Hilm) in Responding to Hostility",
+      "name_ur": "ایذا رسانی پر حلمِ نبوی اور بدکلامی سے اجتناب کی تلقین",
+      "description_en": "The Prophet's dignified composure in answering the verbal abuse of the Jews, enjoining gentleness and forbidding obscenity.",
+      "description_ur": "یہود کی بددعا پر رسول اللہ صلی اللہ علیہ وسلم کا متانت بھرا جواب اور حضرت عائشہؓ کو نرمی کی تلقین۔",
+      "start": 3066.7,
+      "end": 3303.0,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Immunity from Hellfire for the Lenient and Gentle Believer",
+      "name_ur": "نرم مزاج اور ملنسار مومن پر جہنم کی آگ کی قطعی حرمت",
+      "description_en": "Canonical tradition from Ibn Mas'ud affirming that Jahannam is forbidden for every accessible, gentle, and accommodating person.",
+      "description_ur": "حضرت ابن مسعودؓ کی روایت کہ جہنم کی آگ ہر اس انسان پر حرام ہے جو لوگوں سے قریب، نرم خو اور آسان ہو۔",
+      "start": 3382.72,
+      "end": 3521.5,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "Introductory Exhortation: Mirror Supplication and Etymology of Rifq",
+      "title_ur": "تمہید: آئینہ دیکھنے کی دعا اور رفق کے لغوی مفاہیم",
+      "start": 0.0,
+      "end": 335.0
+    },
+    {
+      "title_en": "Rifq as the Atmosphere of Paradise and the Parable of the Resilient Believer",
+      "title_ur": "جنت کی صفتِ رفق اور مومن کی مثال بطور لچکدار پودا",
+      "start": 335.0,
+      "end": 632.3
+    },
+    {
+      "title_en": "Flexibility in Social Conduct versus Firmness in Core Creed",
+      "title_ur": "معاملاتِ زندگی میں لچک اور عقیدے میں پختگی",
+      "start": 632.3,
+      "end": 930.02
+    },
+    {
+      "title_en": "Remedying Pride, Ego, and Internalizing the Greatness of Allah",
+      "title_ur": "تکبر، انا اور خود پرستی کا علاج: اللہ کی عظمت کا ادراک",
+      "start": 930.02,
+      "end": 1226.98
+    },
+    {
+      "title_en": "Winning Hearts Through Compassion and the Prophetic Model of Da'wah",
+      "title_ur": "نرمی کے ذریعے دلوں کی تسخیر اور پیغمبرانہ اخلاقِ دعوت",
+      "start": 1226.98,
+      "end": 1523.36
+    },
+    {
+      "title_en": "Quranic Mandate of Humility: Lowering the Wings of Mercy",
+      "title_ur": "عاجزی و تواضع کا قرآنی حکم: جھکنے اور پر بچھانے کی فضیلت",
+      "start": 1523.36,
+      "end": 1819.66
+    },
+    {
+      "title_en": "Domestic Harmony: Hadith of Aisha (RA) and Her Early Life",
+      "title_ur": "گھریلو زندگی میں نرمی: حدیثِ عائشہؓ اور ان کی ابتدائی سیرت",
+      "start": 1819.66,
+      "end": 2120.4
+    },
+    {
+      "title_en": "Scholarly Excellence and Philanthropy of Sayyidah Aisha (RA)",
+      "title_ur": "ام المؤمنین حضرت عائشہ رضی اللہ عنہا کی علمی مہارت اور فیاضی",
+      "start": 2120.4,
+      "end": 2422.1
+    },
+    {
+      "title_en": "Eloquence of Aisha (RA) and Forfeiture of Goodness Through Harshness",
+      "title_ur": "سیدہ عائشہؓ کی بلاغت اور نرمی ترک کرنے پر خیر سے محرومی",
+      "start": 2422.1,
+      "end": 2729.16
+    },
+    {
+      "title_en": "Divine Preference for Gentleness and What Allah Confers upon It",
+      "title_ur": "اللہ تعالیٰ کا وصفِ رفق اور نرم رویے پر خصوصی انعامات",
+      "start": 2729.16,
+      "end": 3026.8
+    },
+    {
+      "title_en": "Restraint Against Provocation and Adorning Character with Rifq",
+      "title_ur": "بد زبانی کے مقابلے میں ضبطِ نفس اور نرمی بطور باطنی زینت",
+      "start": 3026.8,
+      "end": 3342.9
+    },
+    {
+      "title_en": "Immunity from Hellfire for the Lenient and Practical Weekly Tasks",
+      "title_ur": "نرم خو انسان پر جہنم کی آگ کی حرمت اور ہفتہ وار عملی لائحہ عمل",
+      "start": 3342.9,
+      "end": 3623.36
+    }
+  ]
+}

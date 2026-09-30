@@ -1,0 +1,21 @@
+recording_id,series,diff_index,type,category,location_side,gold_segment_index,gold_segment_start,gold_segment_end,v2_segment_index,v2_segment_start,v2_segment_end,gold_word_range,candidate_word_range,gold_text,candidate_text,gold_context_before,gold_context_after,candidate_context_before,candidate_context_after
+HajjJourney2022Eng-L02,HajjJourney2022Eng,0,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,20-21,20-20,لبيك,,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,1,deletion,quranic_hadith_wording,gold,1,14.0,30.0,,,,21-22,20-20,اللهم,,، لاشريك لك ۔ لبيك,لبيك ، لبيك لا شريك,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,2,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,22-23,20-20,لبيك,,لاشريك لك ۔ لبيك اللهم,، لبيك لا شريك لك,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,3,deletion,punctuation,gold,1,14.0,30.0,,,,23-24,20-20,،,,لك ۔ لبيك اللهم لبيك,لبيك لا شريك لك لبيك,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,4,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,24-25,20-20,لبيك,,۔ لبيك اللهم لبيك ،,لا شريك لك لبيك ،,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,5,deletion,quranic_hadith_wording,gold,1,14.0,30.0,,,,25-26,20-20,لا,,لبيك اللهم لبيك ، لبيك,شريك لك لبيك ، ان,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,6,deletion,quranic_hadith_wording,gold,1,14.0,30.0,,,,26-27,20-20,شريك,,اللهم لبيك ، لبيك لا,لك لبيك ، ان الحمد,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,7,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,27-28,20-20,لك,,لبيك ، لبيك لا شريك,لبيك ، ان الحمد ،,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,8,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,28-29,20-20,لبيك,,، لبيك لا شريك لك,، ان الحمد ، والنعمة,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,9,deletion,punctuation,gold,1,14.0,30.0,,,,29-30,20-20,،,,لبيك لا شريك لك لبيك,ان الحمد ، والنعمة لك,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,10,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,30-31,20-20,ان,,لا شريك لك لبيك ،,الحمد ، والنعمة لك والملك,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,11,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,31-32,20-20,الحمد,,شريك لك لبيك ، ان,، والنعمة لك والملك ،,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,12,deletion,punctuation,gold,1,14.0,30.0,,,,32-33,20-20,،,,لك لبيك ، ان الحمد,والنعمة لك والملك ، لاشريك,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,13,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,33-34,20-20,والنعمة,,لبيك ، ان الحمد ،,لك والملك ، لاشريك لك,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,14,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,34-35,20-20,لك,,، ان الحمد ، والنعمة,والملك ، لاشريك لك ۔,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,15,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,35-36,20-20,والملك,,ان الحمد ، والنعمة لك,، لاشريك لك ۔ اللهم,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,16,deletion,punctuation,gold,1,14.0,30.0,,,,36-37,20-20,،,,الحمد ، والنعمة لك والملك,لاشريك لك ۔ اللهم لبيك,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,17,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,37-38,20-20,لاشريك,,، والنعمة لك والملك ،,لك ۔ اللهم لبيك ،,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,18,deletion,wrong_missing_text,gold,1,14.0,30.0,,,,38-39,20-20,لك,,والنعمة لك والملك ، لاشريك,۔ اللهم لبيك ، لبيك,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا
+HajjJourney2022Eng-L02,HajjJourney2022Eng,19,deletion,punctuation,gold,1,14.0,30.0,,,,39-40,20-20,۔,,لك والملك ، لاشريك لك,اللهم لبيك ، لبيك لا,والملك ، لاشريك لك ۔,اللهم لبيك ، لبيك لا

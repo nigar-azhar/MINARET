@@ -1,0 +1,112 @@
+{
+  "TQ2005-P01-L001A": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/TQ2005-P01-L001A/20260923T170359289107Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/TQ2005-P01-L001A/20260923T195204153681Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/TQ2005-P01-L001A/20260923T202032970303Z.json"
+  },
+  "TQ2005-P01-L001B": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/TQ2005-P01-L001B/20260923T172023461144Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/TQ2005-P01-L001B/20260923T195321794682Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/TQ2005-P01-L001B/20260923T202231548886Z.json"
+  },
+  "TQ2005-P01-L001C": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/TQ2005-P01-L001C/20260923T173127730528Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/TQ2005-P01-L001C/20260923T195439564182Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/TQ2005-P01-L001C/20260923T202355171409Z.json"
+  },
+  "TQ2005-P01-L001D": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/TQ2005-P01-L001D/20260923T174305630633Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/TQ2005-P01-L001D/20260923T195622867297Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/TQ2005-P01-L001D/20260923T202617162289Z.json"
+  },
+  "TQ2005-P01-L001E": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/TQ2005-P01-L001E/20260923T175322763087Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/TQ2005-P01-L001E/20260923T195737248920Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/TQ2005-P01-L001E/20260923T202756400117Z.json"
+  },
+  "TQ2005-P01-L001F": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/TQ2005-P01-L001F/20260923T180243513546Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/TQ2005-P01-L001F/20260923T195900700069Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/TQ2005-P01-L001F/20260923T203020229898Z.json"
+  },
+  "HajjJourney2022Eng-L01": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/HajjJourney2022Eng-L01/20260923T181355779630Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/HajjJourney2022Eng-L01/20260923T200015551250Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/HajjJourney2022Eng-L01/20260923T203220652037Z.json"
+  },
+  "HajjJourney2022Eng-L02": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/HajjJourney2022Eng-L02/20260923T183111675837Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/HajjJourney2022Eng-L02/20260923T200157250836Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/HajjJourney2022Eng-L02/20260923T203345261993Z.json"
+  },
+  "HajjJourney2022Eng-L03": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/HajjJourney2022Eng-L03/20260923T184123770529Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/HajjJourney2022Eng-L03/20260923T200313928734Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/HajjJourney2022Eng-L03/20260923T203510592803Z.json"
+  },
+  "HajjJourney2022Eng-L04": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/HajjJourney2022Eng-L04/20260923T184751791933Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/HajjJourney2022Eng-L04/20260923T200424449246Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/HajjJourney2022Eng-L04/20260923T203701095236Z.json"
+  },
+  "SKD_U001_S001_0001": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/SKD_U001_S001_0001/20260923T185413377872Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/SKD_U001_S001_0001/20260923T200556766826Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/SKD_U001_S001_0001/20260923T203923457318Z.json"
+  },
+  "SKD_U001_S001_0002": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/SKD_U001_S001_0002/20260923T190117126504Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/SKD_U001_S001_0002/20260923T200713837249Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/SKD_U001_S001_0002/20260923T204116993753Z.json"
+  },
+  "SKD_U001_S001_0003": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/SKD_U001_S001_0003/20260923T190739641556Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/SKD_U001_S001_0003/20260923T200837192546Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/SKD_U001_S001_0003/20260923T204326481744Z.json"
+  },
+  "SKD_U001_S001_0004": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/SKD_U001_S001_0004/20260923T191722593916Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/SKD_U001_S001_0004/20260923T201026126348Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/SKD_U001_S001_0004/20260923T204533782932Z.json"
+  },
+  "HEA-00-1A": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/HEA-00-1A/20260923T192843763739Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/HEA-00-1A/20260923T201431593232Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/HEA-00-1A/20260923T204808820341Z.json"
+  },
+  "HEA-01-1A": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/HEA-01-1A/20260923T193522872914Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/HEA-01-1A/20260923T201539433992Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/HEA-01-1A/20260923T205001511171Z.json"
+  },
+  "HEA-02-1A": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/HEA-02-1A/20260923T194400739231Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/HEA-02-1A/20260923T201707851581Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/HEA-02-1A/20260923T205207847680Z.json"
+  },
+  "HEA-03-1A": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/HEA-03-1A/20260923T195046141424Z.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/HEA-03-1A/20260923T201820788849Z.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/HEA-03-1A/20260923T205429361095Z.json"
+  },
+  "series_TQ2005": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/series_merged/TQ2005__qwen35.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/series_merged/TQ2005__gemma4e4b.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/series_merged/TQ2005__llama31_8b.json"
+  },
+  "series_HajjJourney2022Eng": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/series_merged/HajjJourney2022Eng__qwen35.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/series_merged/HajjJourney2022Eng__gemma4e4b.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/series_merged/HajjJourney2022Eng__llama31_8b.json"
+  },
+  "series_SKD2025": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/series_merged/SKD2025__qwen35.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/series_merged/SKD2025__gemma4e4b.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/series_merged/SKD2025__llama31_8b.json"
+  },
+  "series_HEA": {
+    "qwen3.5-9b-mlx": "artifacts/rag/traces/series_merged/HEA__qwen35.json",
+    "gemma-4-e4b-it": "artifacts/rag/traces/series_merged/HEA__gemma4e4b.json",
+    "meta-llama-3.1-8b-instruct@q6_k": "artifacts/rag/traces/series_merged/HEA__llama31_8b.json"
+  }
+}

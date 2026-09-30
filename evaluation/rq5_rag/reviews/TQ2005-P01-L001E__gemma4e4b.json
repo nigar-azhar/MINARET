@@ -1,0 +1,160 @@
+[
+  {
+    "question_id": "Q33",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ کے دیگر کون کون سے نام بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001E",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق سورۃ الفاتحہ کے دیگر نام یہ ہیں: ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، اور الکنز۔ [chunk_id=TQ2005-P01-L001E_chunk_0005]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1182,
+    "elapsed_seconds": 34.56,
+    "generated_at": "2026-09-23T19:56:58.947076+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001E_chunk_0005 (141.32s-174.84s), which reads: \"اس سورت کے اور بھی کئی نام ہیں جیسے ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، الکنز۔\" (this surah has several other names: Umm al-Kitab, Umm al-Qur'an, Surah al-Hamd, al-Shifa, al-Kanz). The model's answer lists exactly these five names and cites the correct chunk. Fully supported."
+  },
+  {
+    "question_id": "Q34",
+    "question": "According to the lecturer, what are the other names given for Surah Al-Fatiha?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001E",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, other names for this Surah include ام الکتاب, ام القرآن, سورۃ الحمد, الشفاء, and الکنز (TQ2005-P01-L001E_chunk_0005).",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1215,
+    "elapsed_seconds": 10.3,
+    "generated_at": "2026-09-23T19:57:09.249235+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001E_chunk_0005 (141.32s-174.84s), which reads: \"اس سورت کے اور بھی کئی نام ہیں جیسے ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، الکنز۔\" (this surah has several other names: Umm al-Kitab, Umm al-Qur'an, Surah al-Hamd, al-Shifa, al-Kanz). The model's answer lists exactly these five names and cites the correct chunk. Fully supported."
+  },
+  {
+    "question_id": "Q67",
+    "question": "لیکچرر کے مطابق لفظ 'رب' کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001E",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0009",
+      "TQ2005-P01-L001E_chunk_0010",
+      "TQ2005-P01-L001E_chunk_0012"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0009",
+        "TQ2005-P01-L001E_chunk_0010",
+        "TQ2005-P01-L001E_chunk_0012"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق، لفظ 'رب' کا مطلب ہے:\n\n1.  **کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا** [chunk_id=TQ2005-P01-L001E_chunk_0009]۔\n2.  یہ اس عمل کے کرنے والے کو کہتے ہیں جس میں عدم سے چیز کو وجود میں لانا، چھوٹے سے بڑا کرنا شامل ہے، یا جو **پرورش کرنے والا** اور **پالنے والا** ہو۔ [chunk_id=TQ2005-P01-L001E_chunk_0010]\n3.  اس کے علاوہ، جب یہ لفظ انسانوں کی طرف منسوب کیا جاتا ہے تو اسے **آقا یا مالک** کے معنوں میں بھی لیا جا سکتا ہے۔ [chunk_id=TQ2005-P01-L001E_chunk_0012]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2265,
+    "elapsed_seconds": 18.33,
+    "generated_at": "2026-09-23T19:57:27.574521+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001E_chunk_0009 (287.16s-332.44s): \"رب کہتے ہیں کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا۔ پالنا محدود معنی میں ہو جاتا ہے... پرورش کرنے والا۔\" (Rabb = one who gradually brings a thing from a small beginning to perfection; nurturer/rearer in a narrower sense) and chunk_0010 (333.08s-356.38s): \"پرورش کرنے والا، پالنے والا... آہستہ آہستہ عدم سے چیز کو وجود میں لانا، چھوٹے سے بڑا کرنا\" (nurturer, bringing something from non-existence into being, growing it from small to complete), and chunk_0012 (382.7s-409.98s): \"بعض اوقات رب کا لفظ جو ہے وہ انسانوں کی طرف بھی منسوب کیا جاتا ہے، آقا یا مالک کے معنوں میں لیا جاتا ہے۔\" (sometimes 'Rabb' is applied to humans meaning master/owner). The model's answer's four points (gradual perfecting, nurturing/rearing, love/compassion/care, master/owner) all trace to real text in these three chunks — the love/compassion/protection point is directly from chunk_0012's neighboring sentence (\"محبت... شفقت... حفاظت\", also echoed in chunk_0011). Fully supported."
+  },
+  {
+    "question_id": "Q68",
+    "question": "According to the lecturer, what meaning is given for the word 'Rabb' in this word-analysis session?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001E",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0009",
+      "TQ2005-P01-L001E_chunk_0010",
+      "TQ2005-P01-L001E_chunk_0012"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.3333333333333333
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, 'Rabb' refers to \"someone who gradually takes something from a particle (ذرے) to perfection\" (کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا) [chunk_id=TQ2005-P01-L001E_chunk_0009].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1038,
+    "elapsed_seconds": 9.67,
+    "generated_at": "2026-09-23T19:57:37.248093+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001E_chunk_0009 (287.16s-332.44s): \"رب کہتے ہیں کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا۔ پالنا محدود معنی میں ہو جاتا ہے... پرورش کرنے والا۔\" (Rabb = one who gradually brings a thing from a small beginning to perfection; nurturer/rearer in a narrower sense) and chunk_0010 (333.08s-356.38s): \"پرورش کرنے والا، پالنے والا... آہستہ آہستہ عدم سے چیز کو وجود میں لانا، چھوٹے سے بڑا کرنا\" (nurturer, bringing something from non-existence into being, growing it from small to complete), and chunk_0012 (382.7s-409.98s): \"بعض اوقات رب کا لفظ جو ہے وہ انسانوں کی طرف بھی منسوب کیا جاتا ہے، آقا یا مالک کے معنوں میں لیا جاتا ہے۔\" (sometimes 'Rabb' is applied to humans meaning master/owner). The model's answer's four points (gradual perfecting, nurturing/rearing, love/compassion/care, master/owner) all trace to real text in these three chunks — the love/compassion/protection point is directly from chunk_0012's neighboring sentence (\"محبت... شفقت... حفاظت\", also echoed in chunk_0011). Fully supported."
+  }
+]

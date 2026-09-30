@@ -1,0 +1,371 @@
+{
+  "ayat": [
+    {
+      "surah_number": "20",
+      "ayah_number": "25",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْ ۟ۙ",
+      "start": 8.0,
+      "end": 12.5,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "26",
+      "text": "وَیَسِّرْ لِیْۤ اَمْرِیْ ۟ۙ",
+      "start": 12.5,
+      "end": 14.2,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "27",
+      "text": "وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْ ۟ۙ",
+      "start": 14.2,
+      "end": 16.0,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "28",
+      "text": "یَفْقَهُوْا قَوْلِیْ ۪۟",
+      "start": 16.0,
+      "end": 17.3,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "45",
+      "ayah_number": "28",
+      "text": "وَكُلُّ اُمَّةٍ جَاثِیَةً ۚ",
+      "start": 376.5,
+      "end": 379.68,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "45",
+      "ayah_number": "28",
+      "text": "جَاثِیَةً",
+      "start": 385.38,
+      "end": 386.6,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "45",
+      "ayah_number": "28",
+      "text": "ہر امت، ہر گروہ، اور امت کیا ہوتی؟ ایک نظریہ اور ایک دور کے لوگ، یعنی ایک گروہ۔ ہر امت، ہر نیشن، ہر قوم، گھٹنوں کے بل جھکی ہوئی ہوگی۔ یعنی لوگوں کی سب اکڑ اور سب تکبر ختم ہو چکا ہوگا اور سب جھکے ہوئے ہوں گے۔",
+      "start": 379.68,
+      "end": 401.44,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "59",
+      "ayah_number": "7",
+      "text": "وَمَاۤ اٰتٰىكُمُ الرَّسُوْلُ فَخُذُوْهُ ۗ",
+      "start": 1008.0,
+      "end": 1011.06,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "59",
+      "ayah_number": "7",
+      "text": "کہ جو تمہیں رسول دے رہے ہیں وہ لے لو",
+      "start": 1011.5,
+      "end": 1014.8,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "59",
+      "ayah_number": "7",
+      "text": "وَمَا نَهٰىكُمْ عَنْهُ فَانْتَهُوْا ۚ",
+      "start": 1056.5,
+      "end": 1059.2,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "59",
+      "ayah_number": "7",
+      "text": "اور جس چیز سے آپ روکیں اس سے رک بھی جاؤ",
+      "start": 1059.5,
+      "end": 1062.4,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "53",
+      "ayah_number": "3",
+      "text": "وَمَا یَنْطِقُ عَنِ الْهَوٰی ۟ؕ",
+      "start": 1065.2,
+      "end": 1068.5,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "53",
+      "ayah_number": "3",
+      "text": "کہ آپ اپنی خواہش نفس سے باتیں نہیں کرتے، آپ اپنی مرضی اور اپنی پسند و ناپسند سے باتیں نہیں کرتے",
+      "start": 1071.5,
+      "end": 1078.5,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "53",
+      "ayah_number": "4",
+      "text": "اِنْ هُوَ اِلَّا وَحْیٌ یُّوْحٰی ۟ۙ",
+      "start": 1068.6,
+      "end": 1071.4,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "53",
+      "ayah_number": "4",
+      "text": "وہ وحی ہے جو آپ کی طرف اللہ کی طرف سے القا کی گئی ہے، بھیجی گئی ہے",
+      "start": 1081.62,
+      "end": 1089.5,
+      "usage": "translation",
+      "extent": "complete"
+    }
+  ],
+  "hadith": [
+    {
+      "reference": "JT_2382",
+      "expanded_reference": "Jami` at-Tirmidhi, Book 36 (Chapters on Zuhd), Chapter 48: Regarding Riya' and Seeking Fame, Hadith 2382",
+      "text": "لَاُحَدِّثَنَّكَ حَدِیْثًا حَدَّثَنِیْهِ رَسُوْلُ اللّٰهِ صَلَّی اللّٰهُ عَلَیْهِ وَسَلَّمَ... اَنَّ اللّٰهَ تَبَارَكَ وَتَعَالٰی اِذَا كَانَ یَوْمُ الْقِیٰمَةِ یَنْزِلُ اِلَی الْعِبَادِ لِیَقْضِیَ بَیْنَهُمْ... فَاَوَّلُ مَنْ یُّدْعٰی بِهٖ رَجُلٌ جَمَعَ الْقُرْاٰنَ... وَرَجُلٌ كَثِیْرُ الْمَالِ... وَیُؤْتٰی بِالَّذِیْ قُتِلَ فِیْ سَبِیْلِ اللّٰهِ... اُولٰٓئِكَ الثَّلٰثَةُ اَوَّلُ خَلْقِ اللّٰهِ تُسَعَّرُ بِهِمُ النَّارُ یَوْمَ الْقِیٰمَةِ",
+      "start": 81.6,
+      "end": 677.32,
+      "usage": "quotation"
+    },
+    {
+      "reference": "JT_2382",
+      "expanded_reference": "Jami` at-Tirmidhi, Book 36 (Chapters on Zuhd), Chapter 48: Regarding Riya' and Seeking Fame, Hadith 2382",
+      "text": "مجھ سے رسول اللہ صلی اللہ علیہ وسلم نے حدیث بیان کی کہ بے شک اللہ تبارک و تعالیٰ جب قیامت کا دن ہوگا نازل ہوگا بندوں کی طرف... تو پہلا شخص جسے پکارا جائے گا وہ شخص ہوگا جس نے قرآن جمع کیا... اور وہ شخص جس کے پاس بہت مال تھا... پھر لایا جائے گا وہ شخص جو اللہ کی راہ میں مارا گیا... یہ تین لوگ ہوں گے اللہ کی مخلوق میں سے پہلے جن کے ذریعے جہنم کی آگ قیامت کے دن بھڑکائی جائے گی۔",
+      "start": 331.0,
+      "end": 677.32,
+      "usage": "translation"
+    },
+    {
+      "reference": "AD_1047",
+      "expanded_reference": "Sunan Abi Dawud, Book 2 (Prayer / Kitab As-Salat), Chapter: Invocations on Friday, Hadith 1047",
+      "text": "اور اس دن میں بہترین نفلی عبادت درود شریف کا کثرت سے پڑھنا ہے کیونکہ آپ صلی اللہ علیہ وسلم نے اس دن درود شریف پڑھنے کے لیے خود کہا ہے۔",
+      "start": 772.34,
+      "end": 783.5,
+      "usage": "explicit paraphrase"
+    },
+    {
+      "reference": "SM_746",
+      "expanded_reference": "Sahih Muslim, Book 4 (The Book of Prayer - Travelers), Chapter: Night Prayer and Recitation, Hadith 746a",
+      "text": "كَانَ خُلُقُهُ الْقُرْاٰنَ",
+      "start": 1123.76,
+      "end": 1126.8,
+      "usage": "quotation"
+    },
+    {
+      "reference": "SM_746",
+      "expanded_reference": "Sahih Muslim, Book 4 (The Book of Prayer - Travelers), Chapter: Night Prayer and Recitation, Hadith 746a",
+      "text": "وہ قرآن ہی تھا۔ گویا آپ کی عملی زندگی کیا تھی؟ قرآن کا چلتا پھرتا نمونہ۔",
+      "start": 1126.8,
+      "end": 1133.5,
+      "usage": "translation"
+    },
+    {
+      "reference": "AD_3646",
+      "expanded_reference": "Sunan Abi Dawud, Book 26 (Knowledge / Kitab Al-'Ilm), Chapter: Writing Knowledge, Hadith 3646",
+      "text": "خدا کی قسم جس کے قبضے میں میری جان ہے میری زبان سے حق کے سوا کچھ نہیں نکلتا، خواہ میں غصے میں ہوں، خواہ میں دوسری حالت میں ہوں لیکن اس زبان سے جو کچھ نکلتا ہے وہ درست نکلتا ہے، اور آپ نے ان کو لکھنے کی اجازت دی۔",
+      "start": 1686.0,
+      "end": 1699.18,
+      "usage": "translation"
+    },
+    {
+      "reference": "AD_3641",
+      "expanded_reference": "Sunan Abi Dawud, Book 26 (Knowledge / Kitab Al-'Ilm), Chapter: Encouragement to Seek Knowledge, Hadith 3641",
+      "text": "پیغمبر مال تو نہیں چھوڑ کے جاتے، پیغمبر تو علم چھوڑ کے جاتے ہیں، اور جس نے اس علم کا حصہ پا لیا اس نے آپ کی وراثت کا حصہ پا لیا۔",
+      "start": 2109.6,
+      "end": 2117.22,
+      "usage": "translation"
+    },
+    {
+      "reference": "Ahmad_24392",
+      "expanded_reference": "Musnad Ahmad, Musnad al-Ansar, Hadith of Sayyidah Aisha, Hadith 24392",
+      "text": "اَللّٰهُمَّ حَسَّنْتَ خَلْقِیْ فَاَحْسِنْ خُلُقِیْ",
+      "start": 2699.8,
+      "end": 2704.5,
+      "usage": "quotation"
+    },
+    {
+      "reference": "Ahmad_24392",
+      "expanded_reference": "Musnad Ahmad, Musnad al-Ansar, Hadith of Sayyidah Aisha, Hadith 24392",
+      "text": "اے اللہ تو نے میری صورت اچھی بنائی، تو نے میری شکل و صورت خوبصورت بنائی، تو میرے اخلاق کو بھی اچھا کر دے۔",
+      "start": 2704.8,
+      "end": 2715.0,
+      "usage": "translation"
+    },
+    {
+      "reference": "SB_13",
+      "expanded_reference": "Sahih al-Bukhari, Book 2 (Belief), Chapter: To Love for One's Brother What One Loves for Oneself, Hadith 13",
+      "text": "خدا کی قسم کوئی شخص اس وقت تک مومن نہیں ہو سکتا جب تک کہ وہ دوسرے کے لیے وہ نہ چاہے جو وہ اپنے لیے چاہتا ہے۔",
+      "start": 2881.0,
+      "end": 2897.56,
+      "usage": "translation"
+    }
+  ],
+  "dua": [
+    {
+      "reference": "QuranicDua-08",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْ ۟ۙ وَیَسِّرْ لِیْۤ اَمْرِیْ ۟ۙ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْ ۟ۙ یَفْقَهُوْا قَوْلِیْ ۪۟",
+      "start": 8.0,
+      "end": 17.3,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "SharhSadr-01",
+      "text": "اَللّٰهُمَّ صَلِّ عَلٰی مُحَمَّدٍ وَّعَلٰۤی اٰلِ مُحَمَّدٍ كَمَا صَلَّیْتَ عَلٰۤی اِبْرٰهِیْمَ وَعَلٰۤی اٰلِ اِبْرٰهِیْمَ اِنَّكَ حَمِیْدٌ مَّجِیْدٌ ؕ اَللّٰهُمَّ بَارِكْ عَلٰی مُحَمَّدٍ وَّعَلٰۤی اٰلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلٰۤی اِبْرٰهِیْمَ وَعَلٰۤی اٰلِ اِبْرٰهِیْمَ اِنَّكَ حَمِیْدٌ مَّجِیْدٌ ۟",
+      "start": 785.68,
+      "end": 814.2,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "SharhSadr-01",
+      "text": "اَللّٰهُمَّ صَلِّ عَلٰی مُحَمَّدٍ وَّعَلٰۤی اٰلِ مُحَمَّدٍ كَمَا صَلَّیْتَ عَلٰۤی اِبْرٰهِیْمَ وَعَلٰۤی اٰلِ اِبْرٰهِیْمَ اِنَّكَ حَمِیْدٌ مَّجِیْدٌ ؕ اَللّٰهُمَّ بَارِكْ عَلٰی مُحَمَّدٍ وَّعَلٰۤی اٰلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلٰۤی اِبْرٰهِیْمَ وَعَلٰۤی اٰلِ اِبْرٰهِیْمَ اِنَّكَ حَمِیْدٌ مَّجِیْدٌ ۟",
+      "start": 2543.64,
+      "end": 2577.0,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-118",
+      "text": "اَللّٰهُمَّ حَسَّنْتَ خَلْقِیْ فَاَحْسِنْ خُلُقِیْ",
+      "start": 2699.8,
+      "end": 2704.5,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-159",
+      "text": "سُبْحَانَكَ اللّٰهُمَّ وَبِحَمْدِكَ، نَشْهَدُ اَنْ لَّاۤ اِلٰهَ اِلَّاۤ اَنْتَ، نَسْتَغْفِرُكَ وَنَتُوْبُ اِلَیْكَ",
+      "start": 3119.74,
+      "end": 3126.5,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "topics": [
+    {
+      "name_en": "Sincerity in Worship (Ikhlas)",
+      "name_ur": "اخلاص فی العبادت",
+      "description_en": "Fulfilling pilgrimage rites purely for the pleasure and approval of Allah, guarding against ostentation, fame, and double intentions.",
+      "description_ur": "ریاکاری، نام ونمود اور دوہری نیت سے بچتے ہوئے حج اور تمام عبادات کو خالصتاً رضائے الٰہی کے لیے ادا کرنا۔",
+      "start": 18.46,
+      "end": 750.44,
+      "ur_translation_generated": false,
+      "renamed_from": "Sincerity / Ikhlas",
+      "split_from": null
+    },
+    {
+      "name_en": "The Hereafter (Akhirah)",
+      "name_ur": "آخرت",
+      "description_en": "Contrasting temporary worldly assistance with everlasting salvation in the Akhirah.",
+      "description_ur": "دنیاوی عارضی مدد کا آخرت کی ابدی نجات سے موازنہ۔",
+      "start": 335.46,
+      "end": 679.02,
+      "ur_translation_generated": false,
+      "renamed_from": "The Hereafter / Akhirah",
+      "split_from": null
+    },
+    {
+      "name_en": "Authority and Preservation of Sunnah / Hujjiyyat wa Tadwin al-Hadith",
+      "name_ur": "حجیت و تدوینِ حدیث",
+      "description_en": "The theological status of the Prophet's Sunnah as divine revelation (Wahy Ghayr Matlu), the living Quran, and the historical reality of its written preservation from the Prophetic era.",
+      "description_ur": "سنتِ نبوی کی دینی و تشریعی حیثیت بطور وحیِ غیر متلو اور عہدِ رسالت و صحابہ سے تحریری صحیفوں کے ذریعے حدیث کی حفاظت کی تاریخ۔",
+      "start": 819.82,
+      "end": 2543.64,
+      "ur_translation_generated": false,
+      "renamed_from": null,
+      "split_from": null
+    },
+    {
+      "name_en": "Morals and Ethics / Husn al-Khuluq",
+      "name_ur": "حُسنِ اخلاق اور کردار سازی",
+      "description_en": "The linguistic and spiritual foundation of moral character, emphasizing that outward conduct is the reflection of internal taqwa and loving for others what one loves for oneself.",
+      "description_ur": "حُسنِ اخلاق کا اسلامی تصور، جس کی بنیاد باطنی تقویٰ اور باہمی معاملات میں وہی پسند کرنے پر ہے جو انسان اپنے لیے پسند کرتا ہے۔",
+      "start": 2575.18,
+      "end": 3119.74,
+      "ur_translation_generated": true,
+      "renamed_from": null,
+      "split_from": null
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "The Gravity of Sincerity & Abu Hurairah's Narration",
+      "title_ur": "اخلاص کی اہمیت اور حضرت ابو ہریرہؓ کی روایت",
+      "start": 0.94,
+      "end": 322.82
+    },
+    {
+      "title_en": "The First Three Groups to be Judged on Judgment Day",
+      "title_ur": "قیامت کے دن سب سے پہلے فیصلہ کیے جانے والے تین افراد",
+      "start": 322.82,
+      "end": 679.02
+    },
+    {
+      "title_en": "Purifying Intentions & The Authority of Hadith",
+      "title_ur": "نیت کی طہارت اور حدیث کی دینی حیثیت",
+      "start": 679.02,
+      "end": 1003.16
+    },
+    {
+      "title_en": "Sunnah as Divine Revelation and the Living Quran",
+      "title_ur": "سنت بطور وحیِ غیر متلو اور قرآن کا عملی نمونہ",
+      "start": 1003.16,
+      "end": 1302.06
+    },
+    {
+      "title_en": "Documentation and Learning of Hadith in the Prophetic Era",
+      "title_ur": "عہدِ نبوی اور صحابہ کرام میں کتابت و تعلیمِ حدیث",
+      "start": 1302.06,
+      "end": 1651.18
+    },
+    {
+      "title_en": "Written Sahifas and Academic Diligence of the Companions",
+      "title_ur": "صحابہ کرام کے تحریری صحیفے اور علمی محنتیں",
+      "start": 1651.18,
+      "end": 1946.0
+    },
+    {
+      "title_en": "The Golden Chains, Dedication, and Academic Lineage",
+      "title_ur": "سلسلتہ الذہب، اساتذہ اور تلامذہ کا طویل علمی سفر",
+      "start": 1946.0,
+      "end": 2241.1
+    },
+    {
+      "title_en": "Immense Sacrifices and Zeal in Seeking Hadith",
+      "title_ur": "طلبِ حدیث میں بے مثال قربانیاں اور جذبۂ علم",
+      "start": 2241.1,
+      "end": 2583.8
+    },
+    {
+      "title_en": "Definition of Husn al-Khuluq and Inner Reformation",
+      "title_ur": "حُسنِ خُلق کا مفہوم اور باطن کی اصلاح",
+      "start": 2583.8,
+      "end": 2869.38
+    },
+    {
+      "title_en": "Universal Principles of Moral Interaction and Homework Exercise",
+      "title_ur": "اخلاقی برتاؤ کا بنیادی اصول اور عملی محاسبہ",
+      "start": 2869.38,
+      "end": 3128.24
+    }
+  ]
+}

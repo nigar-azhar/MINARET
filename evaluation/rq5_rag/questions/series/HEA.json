@@ -1,0 +1,168 @@
+[
+  {
+    "question_id": "Q47",
+    "question": "روایت کے مطابق حضرت ابو ہریرہ نے یہ حدیث بیان کرتے وقت کیسا جذباتی ردعمل ظاہر کیا؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-00-1A_chunk_0006",
+      "HEA-00-1A_chunk_0007",
+      "HEA-00-1A_chunk_0008"
+    ],
+    "note": "Fact verified directly against the transcript (segments 9-29: while narrating a hadith about the Day of Judgment to Shufi al-Asbahi, Abu Hurairah sobbed/choked and fainted (nashgha) multiple times, growing more severe each time, until the narrator had to hold him up). gold_chunk_ids backfilled 2026-09-24 from correct_grounded answers (gemma-4-e4b-it on Q47/Q48 citing chunks 0006/0007/0008; meta-llama-3.1-8b-instruct@q6_k on Q47 citing 0006/0008) after verifying that the chunk text supports the sobbing/fainting narrative."
+  },
+  {
+    "question_id": "Q48",
+    "question": "According to the narration, how did Abu Hurairah react emotionally while narrating this hadith about the Day of Judgment?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-00-1A_chunk_0006",
+      "HEA-00-1A_chunk_0007",
+      "HEA-00-1A_chunk_0008"
+    ],
+    "note": "Cross-lingual variant of Q47 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 from gemma-4-e4b-it's correct_grounded answer citing chunks 0006/0007/0008, verified against chunk text."
+  },
+  {
+    "question_id": "Q71",
+    "question": "اس حدیث کے مطابق وہ کون سے تین قسم کے لوگ ہیں جن کے اعمال قیامت کے دن مسترد کر دیے جائیں گے کیونکہ انہوں نے وہ اعمال دکھاوے کے لیے کیے تھے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 38-63: the Quran-reciter/qari, the martyr, and the wealthy philanthropist - each did their deed to be praised by people rather than for Allah, so their deeds are rejected and they are the first three whose case is judged on the Day of Judgment). Distinct from Q47/48, which is about Abu Hurairah's reaction, not the hadith's actual content. gold_chunk_ids left empty as of 2026-09-24 grading: no model gave a correct_grounded answer to backfill from - qwen3.5-9b-mlx failed to generate an answer (truncated), gemma-4-e4b-it refused despite the content being retrievable, and meta-llama-3.1-8b-instruct@q6_k hallucinated by misreading three consecutive lines about one man (HEA-00-1A_chunk_0017) as three different people. The real three types span HEA-00-1A_chunk_0011 (intro) through chunk_0017 (qari: 0011-0014, martyr: 0016-0017, philanthropist: 0014-0015); verified against the chunk text, but not set as gold because no model cited them in a correct answer."
+  },
+  {
+    "question_id": "Q72",
+    "question": "According to this hadith, who are the three types of people whose deeds will be rejected on the Day of Judgment because they did them to be seen and praised by others?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q71 (same content, reverse language direction). gold_chunk_ids left empty as of 2026-09-24 grading: best answers (gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) only reached partially_correct, citing HEA-00-1A_chunk_0017 which covers just the martyr/third man and explicitly flagged the other two types as missing rather than fabricating them - not eligible for gold-chunk backfill under the correct_grounded-only rule."
+  },
+  {
+    "question_id": "Q49",
+    "question": "لیکچرر کے مطابق آئینہ دیکھتے وقت پڑھی جانے والی مسنون دعا کیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-01-1A_chunk_0002"
+    ],
+    "note": "Fact verified directly against the transcript (segments 3-5: 'اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ'). gold_chunk_ids backfilled 2026-09-24: qwen3.5-9b-mlx, gemma-4-e4b-it, and meta-llama-3.1-8b-instruct@q6_k all cited HEA-01-1A_chunk_0002 for this question; Reading the chunk text directly confirmed that it contains the dua verbatim, so it is the correct gold chunk."
+  },
+  {
+    "question_id": "Q50",
+    "question": "According to the lecturer, what is the recommended (masnoon) dua to recite when looking in a mirror?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-01-1A_chunk_0002"
+    ],
+    "note": "Cross-lingual variant of Q49 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 for the same reason as Q49 - all 3 models cited chunk_0002, which contains the dua verbatim."
+  },
+  {
+    "question_id": "Q81",
+    "question": "اس لیکچر میں حج کے مناسک کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - added 2026-09-23 as part of balancing the gold set to 2 concepts (answerable + unanswerable) per recording. This lecture is about husn-al-khulq (good character), not Hajj rites."
+  },
+  {
+    "question_id": "Q82",
+    "question": "What does the lecturer say about the rituals of Hajj in this lecture?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q81 (same deliberately-unanswerable question, reverse language direction)."
+  },
+  {
+    "question_id": "Q51",
+    "question": "لیکچرر کے مطابق نرمی کے لیے استعمال ہونے والے عربی لفظ 'رفق' کا مادہ (روٹ) کیا ہے، اور اس سے ملتے جلتے کون سے دوسرے الفاظ بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "note": "Fact verified directly against the transcript (segments 12-18: root ر ف ق; related words رفیق/companion, مرفق/comfort). gold_chunk_ids backfilled 2026-09-24 after grading the RAG pipeline run: chunk_0006 gives the root (را،فا،قاف) and رفق's own meaning; chunk_0007 gives رافقہ; chunk_0008 gives رفیق، مرفق، مرتفق. Confirmed by reading the chunk text directly (not inferred from a model's claim) and cross-checked against qwen3.5-9b-mlx's correct_grounded answer citing exactly these three chunks."
+  },
+  {
+    "question_id": "Q52",
+    "question": "According to the lecturer, what is the Arabic root of the word 'rifq' (gentleness), and what related words are given from the same root?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "note": "Cross-lingual variant of Q51 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24, same chunks as Q51 (see Q51 note)."
+  },
+  {
+    "question_id": "Q73",
+    "question": "لیکچرر کے مطابق بخاری اور مسلم کی روایت میں مومن کی مثال کس چیز سے دی گئی ہے، اور کیوں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 21-25: the believer is compared to a plant/crop that the wind keeps bending - it bends but does not break - unlike a rigid person who breaks under pressure). gold_chunk_ids backfilled 2026-09-24: chunk_0010 introduces the plant analogy and names the Bukhari/Muslim hadith; chunk_0012 elaborates the wind/plant imagery (\"زرعی پودے... ہوائیں ہلاتی رہتی ہیں\"); chunk_0018 confirms the Bukhari/Muslim attribution and the firmness-in-belief contrast. Confirmed by reading the chunk text directly and cross-checked against multiple models' correct_grounded answers citing these chunks."
+  },
+  {
+    "question_id": "Q74",
+    "question": "According to the Bukhari and Muslim narration cited by the lecturer, what is the believer compared to, and why?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "note": "Cross-lingual variant of Q73 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24, same chunks as Q73 (see Q73 note)."
+  },
+  {
+    "question_id": "Q53",
+    "question": "لیکچرر کے مطابق روایت میں پہاڑ کے اپنی جگہ سے ہلنے اور انسان کے اپنی بری عادت چھوڑنے کے بارے میں کیا تقابل بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0009"
+    ],
+    "note": "Fact verified directly against the transcript (segment 18: if someone says a mountain has moved from its place, believe it; but if someone says a person has abandoned a bad habit, don't believe it). gold_chunk_ids backfilled 2026-09-24 after all three models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) gave correct_grounded answers citing HEA-03-1A_chunk_0009, confirmed against chunks.json to contain the exact comparison."
+  },
+  {
+    "question_id": "Q54",
+    "question": "According to the narration cited by the lecturer, what comparison is made between a mountain moving from its place and a person abandoning a bad habit?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0009"
+    ],
+    "note": "Cross-lingual variant of Q53 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24; see Q53 note."
+  },
+  {
+    "question_id": "Q75",
+    "question": "لیکچرر کے مطابق بغیر کسی وجہ کے گھر کے اچھے بھلے اونٹ کو ذبح کر دینے کی مثال سے 'ظلم' کے بارے میں کیا سمجھایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0012",
+      "HEA-03-1A_chunk_0013"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 29-32: slaughtering a healthy camel without any reason is zulm/injustice against the camel; the same principle applies to doing anything before its proper time). gold_chunk_ids backfilled 2026-09-24: chunk_0012 defines zulm and the phrase 'ظَلَمَ الْبَعِيرَ' (slaughtering a camel without disease/cause), chunk_0013 gives the camel-in-the-house example plus the 'anything done before its time is zulm' generalization; qwen3.5-9b-mlx and meta-llama-3.1-8b-instruct@q6_k both gave correct_grounded answers citing this exact pair, and gemma-4-e4b-it's correct_grounded answer (citing only 0013) is also consistent since 0013 alone supports the core claim."
+  },
+  {
+    "question_id": "Q76",
+    "question": "According to the lecturer, what does the example of slaughtering a perfectly healthy camel without any reason illustrate about the concept of 'zulm' (injustice)?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0012",
+      "HEA-03-1A_chunk_0013"
+    ],
+    "note": "Cross-lingual variant of Q75 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24; see Q75 note."
+  }
+]

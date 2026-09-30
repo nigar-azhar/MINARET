@@ -1,0 +1,13 @@
+# CQ9 -- How many HadithOccurrence "refersTo" each Hadith collection?
+# Paper-reported result: Sahih al-Bukhari (SB) 35, Jami' at-Tirmidhi (JT) 34, Sahih Muslim (SM) 24, Sunan Abu Dawud (AD) 15, Musnad Ahmad 9, Ibn Majah (IM + IbnMajah spellings) 5, Sunan an-Nasa'i (SN) 1.
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?reference WHERE {
+  ?occ a minaret:HadithOccurrence ; minaret:refersTo ?h .
+  ?h minaret:reference ?reference .
+}

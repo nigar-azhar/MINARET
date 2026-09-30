@@ -1,0 +1,42 @@
+[
+  {
+    "question_id": "Q35",
+    "question": "لیکچر میں بیان کردہ روایت کے مطابق حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو کن دو نوروں کی خوشخبری دی، جو اس سے پہلے کسی نبی کو نہیں دیے گئے تھے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "note": "Fact verified directly against the transcript (segments 1-6: the narration from Ibn Abbas, Sahih Muslim, that Jibreel announced Surah Al-Fatiha and the last two ayahs of Surah Al-Baqarah). gold_chunk_ids backfilled 2026-09-24 after confirming chunk_0001 text (\"...دو نوروں کی خوشخبری دی...ایک سورۃ الفاتحہ اور دوسرا سورۃ البقرہ کی آخری دو آیات\") directly answers the question; all 3 models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) independently cited chunk_0001 and were graded correct_grounded."
+  },
+  {
+    "question_id": "Q36",
+    "question": "According to the narration cited in the lecture, which two lights did Jibreel (peace be upon him) announce to the Prophet (peace be upon him) as having never been given to any prophet before him?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "note": "Cross-lingual variant of Q35 (same content, reverse language direction). gold_chunk_id backfilled 2026-09-24; see Q35 note for verification detail."
+  },
+  {
+    "question_id": "Q69",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے قرآن کی کونسی سورت ہے، اور اس میں کیا خاص بات بیان کی گئی ہے کہ یہ کیسے نازل ہوئی؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 18-19: Al-Fatiha is the 5th surah in order of revelation, and unlike most other surahs it was revealed complete, all at once, not in separate parts). gold_chunk_ids backfilled 2026-09-24 after confirming chunk_0005 text (\"سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے پانچویں نمبر پر آتی ہے...یہ پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری\") directly answers the question; all 3 models independently cited chunk_0005 and were graded correct_grounded."
+  },
+  {
+    "question_id": "Q70",
+    "question": "According to the lecturer, which surah in order of revelation is Al-Fatiha, and what is noted as special about the way it was revealed?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "note": "Cross-lingual variant of Q69 (same content, reverse language direction). gold_chunk_id backfilled 2026-09-24; see Q69 note for verification detail. Note: qwen3.5-9b-mlx also cited chunk_0001 and chunk_0002 as supplementary sources for this question, but the core answer (revelation order + what's special) is fully supported by chunk_0005 alone, so only chunk_0005 is recorded as gold."
+  }
+]

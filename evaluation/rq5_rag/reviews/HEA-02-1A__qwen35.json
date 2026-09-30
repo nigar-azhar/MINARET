@@ -1,0 +1,169 @@
+[
+  {
+    "question_id": "Q51",
+    "question": "لیکچرر کے مطابق نرمی کے لیے استعمال ہونے والے عربی لفظ 'رفق' کا مادہ (روٹ) کیا ہے، اور اس سے ملتے جلتے کون سے دوسرے الفاظ بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0006",
+        "HEA-02-1A_chunk_0007",
+        "HEA-02-1A_chunk_0008"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق نرمی کے لیے استعمال ہونے والے عربی لفظ 'رفق' کا مادہ (روٹ) **را، فا، قاف** ہے۔ اس سے ملتے جلتے کچھ دوسرے الفاظ بھی بتائے گئے ہیں جن میں **رفق، رافقہ، رفیق، مرفق اور مرتفق** شامل ہیں۔\n\n[chunk_id=HEA-02-1A_chunk_0006, chunk_id=HEA-02-1A_chunk_0007, chunk_id=HEA-02-1A_chunk_0008]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 8215,
+    "elapsed_seconds": 137.78,
+    "generated_at": "2026-09-23T19:37:48.685543+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0006 (\"روٹ...را، فا، قاف\"), chunk_0007 (\"رافقہ کہتے ہیں لطف و مہربانی کو\"), chunk_0008 (\"رفیق...ساتھی\", \"مرفق...کہنی\", \"مرتفق...وَسَآءَتْ مُرْتَفَقًا\"). Model's root (را،فا،قاف) and full related-word list (رفق، رافقہ، رفیق، مرفق، مرتفق) all match the cited chunks exactly. Complete and accurate."
+  },
+  {
+    "question_id": "Q52",
+    "question": "According to the lecturer, what is the Arabic root of the word 'rifq' (gentleness), and what related words are given from the same root?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 0.6666666666666666
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0006",
+        "HEA-02-1A_chunk_0008",
+        "HEA-02-1A_chunk_0073"
+      ],
+      "citation_precision": 0.6666666666666666,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided lecture excerpts, here is the answer:\n\n**Arabic Root:**\nThe root of the word **rifq** (نرمی) is given as:\n*   **Raafaa' (را)**\n*   **Faawwala (فا)**\n*   **Qaafaa' (قاف)**\n\n**Related Words from the Same Root:**\nThe lecturer mentions several words derived from this root:\n1.  **Rifq (الرفق):** Defined as gentleness, kindness, and easy behavior.\n2.  **Rafiq (الرفیق):** Defined as a companion or friend, who is described as being gentle and kind.\n3.  **Murfiq (مرفق):** Defined as a crutch or support used for leaning on.\n4.  **Murtafiq (مرتفق):** Mentioned in the Quranic verse \"وَسَآءَتْ مُرْتَفَقًا\" (and it was a good support).\n\n**Citation:**\n*   **Chunk ID HEA-02-1A_chunk_0006:** Contains the definition of the root (Ra, Fa, Qaf) and the meanings of Rifq.\n*   **Chunk ID HEA-02-1A_chunk_0008:** Contains the definitions of Rafiq, Murfiq, and Murtafiq.\n*   **Chunk ID HEA-02-1A_chunk_0073:** Contains the Quranic verse mentioning Allah as \"Rafiq\" (نرمی کرنے والا).\n\n**Source:**\n*   [chunk_id=HEA-02-1A_chunk_0006]\n*   [chunk_id=HEA-02-1A_chunk_0008]\n*   [chunk_id=HEA-02-1A_chunk_0073]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 69.05,
+    "generated_at": "2026-09-23T19:38:57.744639+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant of Q51. Root (Ra,Fa,Qaf) and 3 of the 4 related words (rifq/rafiq/murfiq/murtafiq) correctly sourced from chunk_0006/chunk_0008 (رفیق=companion, مرفق=elbow/support, مرتفق=Quranic term); omits رافقہ (chunk_0007) which was in context but not cited. Minor error: glosses وَسَآءَتْ مُرْتَفَقًا as \"a good support\" when سَآءَتْ actually means bad/evil (chunk_0010 confirms جہنم سَآءَتْ مُرْتَفَقًا = worst abode). Translation slip on a side detail, not the core claim. Core answer still grounded and correct."
+  },
+  {
+    "question_id": "Q73",
+    "question": "لیکچرر کے مطابق بخاری اور مسلم کی روایت میں مومن کی مثال کس چیز سے دی گئی ہے، اور کیوں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0010",
+        "HEA-02-1A_chunk_0012",
+        "HEA-02-1A_chunk_0018"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق بخاری اور مسلم کی روایت میں مومن کی مثال **ایک زرعی پودے** سے دی گئی ہے جو ہواؤں کی وجہ سے جھکتا اور کھڑا ہوتا رہتا ہے (chunk_id=HEA-02-1A_chunk_0010, chunk_id=HEA-02-1A_chunk_0012)۔ اس کی وجہ یہ ہے کہ **اس دنیا میں کچھ بھی سموتھ نہیں** اور حالات ہمیشہ ایک جیسے نہیں رہتے، کبھی مشرقی ہوا ہے تو کبھی مغربی (chunk_id=HEA-02-1A_chunk_0012)۔ نیز، انسان کو دنیاوی معاملات میں نرمی اور عقیدے کے معاملے میں مضبوطی (فرمنیس) ہونی چاہیے، لیکن دنیاوی حالات میں نرمی ضروری ہے تاکہ وہ ہلچل کے باوجود کھڑا رہ سکے (chunk_id=HEA-02-1A_chunk_0018)۔",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 12511,
+    "elapsed_seconds": 150.29,
+    "generated_at": "2026-09-23T19:41:28.036162+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0010 (\"مومن کی مثال ایسے پودے سے دی گئی ہے کہ جسے ہوا کا جھونکا گرا دیتا ہے اور دوسرا جھونکا اٹھا دیتا ہے\"), chunk_0012 (\"زرعی پودے کی طرح ہے جس کو ہوائیں ہلاتی رہتی ہیں... کچھ بھی سموتھ نہیں\"), chunk_0018 (\"انسان کے اندر...فرمنیس بھی رکھی ہے...مضبوطی بھی...عقیدے کے معاملے میں\"). Model's answer (crop/plant example, wind analogy, gentleness in worldly matters vs firmness in belief) matches all three chunks. Grounded."
+  },
+  {
+    "question_id": "Q74",
+    "question": "According to the Bukhari and Muslim narration cited by the lecturer, what is the believer compared to, and why?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 0.6666666666666666
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0012",
+        "HEA-02-1A_chunk_0018"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided excerpts, specifically **chunk_id=HEA-02-1A_chunk_0012**, the believer is compared to **a plant in a farm (زرعی پودے)**.\n\nThe lecturer explains that this comparison is used because **nothing in the world remains smooth or still**; there are always changing winds (east, west, north, south) and situations. Therefore, a believer must be flexible (\"softness\") to adapt to these changing circumstances—bending when the wind blows from one side and straightening up again when it stops or comes from another direction—so they can return to their original state.\n\n(Note: While **chunk_id=HEA-02-1A_chunk_0018** mentions that Bukhari and Muslim narrated a specific example involving people throwing something away, the text does not explicitly state what that object was or provide the full comparison associated with those names in this specific chunk. The detailed explanation of the \"plant\" analogy is found in chunk 0012.)\n\n**Answer:**\nAccording to the excerpts, the believer is compared to **a plant in a farm (زرعی پودے)**. This comparison is used because life involves constant changes and \"winds\" (metaphorical for changing situations), so a believer must be flexible, bending and straightening as needed to return to their original state.\n\n**Citation:**\n[chunk_id=HEA-02-1A_chunk_0012]\n\n*(Note: The prompt asks for the Bukhari and Muslim narration cited by the lecturer. Chunk 0018 mentions \"Bukhari and Muslim\" but does not explicitly name the comparison in that specific text segment, whereas Chunk 0012 provides the detailed \"plant\" analogy. If the question strictly requires the Bukhari/Muslim citation to be in the same text block as the answer, this lecture excerpt does not provide enough information. However, assuming the question asks for the content of the analogy mentioned in the lecture context provided:)*\n\n**Revised Answer based on strict constraints:**\nThe retrieved excerpts do not explicitly link the \"Bukhari and Muslim\" narration to the specific comparison in a single continuous text block. Chunk 0018 mentions Bukhari and Muslim but does not name the comparison (it cuts off before doing so). Chunk 0012 names the comparison (\"a plant in a farm\") but does not mention Bukhari and Muslim. Therefore, strictly using only the provided text to answer \"According to the Bukhari and Muslim narration cited by the lecturer...\", we cannot confirm which specific comparison belongs to that citation within these excerpts.\n\n**Final Answer:**\nThis lecture does not provide enough information to answer that question. (Because the specific Bukhari/Muslim narration is mentioned in chunk 0018 without the comparison, and the plant comparison is in chunk 0012 without the citation).\n\n**Wait, let me re-read the first sentence of chunk 0018 carefully.**\n\"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے۔\"\nTranslation: \"This example is not being given by me, it was given by the Prophet of Allah (PBUH). It is a narration from Bukhari and Muslim.\"\nThe text continues: \"Different people's behaviors... they throw it away...\" It does not explicitly name the object being thrown or compared in this specific chunk.\n\n**Conclusion:**\nThis lecture does not provide enough information to answer that question. (The text mentions the source Bukhari/Muslim but cuts off before stating what the believer is compared to in that specific narration).\n\n**Correction:**\nActually, looking at the flow of a typical lecture transcript provided in these datasets:\nChunk 0018 starts with \"This example is not being given by me...\". This implies the *previous* chunk (0012) might have been the example, or 0018 is a new topic.\nChunk 0012 says: \"The translation of the words of the Hadith is that the example of a believer is like a plant in a farm...\"\nIt does not explicitly say \"This Hadith from Bukhari and Muslim\".\n\nHowever, often in these tasks, if the user asks about a specific narration mentioned by name (Bukhari/Muslim), and one chunk mentions the source but not the content, and another has the content but not the source, we must be careful.\nChunk 0018: \"This example is not being given by me... Bukhari and Muslim narration.\" -> It implies the *next* part or refers to a previous part.\nChunk 0012: \"The translation of the words of the Hadith is that the example of a believer is like a plant...\" -> It does not mention Bukhari/Muslim.\n\nIf I must answer using *only* the retrieved excerpts, and neither excerpt contains both the source (Bukhari/Muslim) AND the specific comparison in the same text, I cannot definitively link them based *strictly* on the provided text.\n\n**However**, usually, in these specific dataset contexts (HEA-02-1A), the \"Plant\" analogy is a very famous Hadith from Bukhari and Muslim. But I cannot use outside knowledge.\nLet's look at Chunk 0018 again. \"Different people's behaviors... they throw it away and then it comes out from outside...\" This sounds like the description of the plant analogy (bending in wind).\nSo, Chunk 0018 describes the *behavior* of the plant (throwing it away/bending).\nChunk 0012 describes the *comparison* (Plant in a farm).\n\nIf I combine them?\nChunk 0012: \"The example of a believer is like a plant in a farm.\"\nChunk 0018: \"This example... Bukhari and Muslim narration.\" (Referring to the previous context).\n\nIf I assume they are part of the same continuous lecture flow (which they likely are, given the IDs 0012 and 0018), then the answer is in Chunk 0012.\nBut the instruction says \"Cite the chunk id(s) you used.\" and \"If the excerpts do not contain enough information...\".\nSince Chunk 0018 explicitly links \"Bukhari and Muslim\" to an example, but doesn't name the object in that chunk, and Chunk 0012 names the object (\"plant\") but doesn't name the source in that chunk, strictly speaking, I cannot link them.\n\n**Decision:**\nI will state that the information is not fully contained in a single chunk, but based on the flow of the provided text (assuming 0012 and 0018 are sequential parts of the same lecture), the answer is in Chunk 0012.\nHowever, to be safe and adhere strictly to \"ONLY the retrieved transcript excerpts\", if I cannot find the Bukhari/Muslim citation *with* the comparison in one chunk, I should say \"not enough information\".\nBUT, looking at Chunk 0018: \"This example is not being given by me... Bukhari and Muslim narration.\" This implies the *example* mentioned in the lecture (which is likely the one described in 0012) is from Bukhari/Muslim.\nActually, Chunk 0018 says \"This example...\". It refers to the example discussed previously.\nChunk 0012 discusses \"The translation of the words of the Hadith is that the example of a believer is like a plant\".\nSo, logically within the lecture flow provided: The Bukhari/Muslim narration is about the **plant in a farm**.\n\nI will provide the answer derived from Chunk 0012, noting that Chunk 0018 confirms the source of this specific example in the lecture context.\n\n**Answer:**\nAccording to the excerpts, specifically **chunk_id=HEA-02-1A_chunk_0012**, the believer is compared to **a plant in a farm (زرعی پودے)**.\nThe lecturer states that this comparison is used because **nothing in the world remains smooth or still** (kuch bhi smooth nahi hota); there are always changing winds and situations. The believer must be flexible, bending when the wind blows from one side and straightening up again to return to their original state.\n(Note: **chunk_id=HEA-02-1A_chunk_0018** confirms that this specific example is a narration from Bukhari and Muslim).\n\n**Citation:**\n[chunk_id=HEA-02-1A_chunk_0012, chunk_id=HEA-02-1A_chunk_0018]\n\n**Wait, one more check.**\nChunk 0018: \"This example is not being given by me... Bukhari and Muslim narration.\"\nChunk 0012: \"The translation of the words of the Hadith is that the example of a believer is like a plant...\"\nDoes Chunk 0018 refer to the *same* example as Chunk 0012?\nChunk 0018 starts with \"This example is not being given by me\". This implies the speaker is *not* giving it, but quoting someone else.\nChunk 0012 says \"The translation of the words of the Hadith is that...\".\nIt is highly probable they are discussing the same Hadith.\nI will cite both to be accurate about the source and the content.\n\n**Final Plan:**\n1. Identify the comparison from Chunk 0012 (Plant).\n2. Identify the source from Chunk 0018 (Bukhari and Muslim).\n3. Combine them in the answer.\n\n**Drafting the response:**\nBased on the provided excerpts, specifically **chunk_id=HEA-02-1A_chunk_0018** which identifies the source as a narration from **Bukhari and Muslim**, and **chunk_id=HEA-02-1A_chunk_0012** which describes the content of that narration:\nThe believer is compared to **a plant in a farm (زرعی پودے)**.\nThis comparison is used because life involves constant changes (\"winds\" blowing from different directions), and a believer must be flexible, bending and straightening as needed to return to their original state.\n\n**Citation:**\n[chunk_id=HEA-02-1A_chunk_0018, chunk_id=HEA-02-1A_chunk_0012]\n\nWait, looking closely at Chunk 0018 again.\n\"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے۔\"\nTranslation: \"This example is not being given by me, it was given by the Prophet of Allah (PBUH). It is a narration from Bukhari and Muslim.\"\nThen it describes behaviors: \"Different people's behaviors... they throw it away...\"\nThis description (\"throw it away\") matches the behavior of a plant in wind (bending and then straightening).\nSo Chunk 0018 describes the *action* of the plant (throwing it away/bending).\nChunk 0012 describes the *analogy* (Plant in a farm).\nSo yes, they go together.\n\n**Final Answer Formulation:**\nAccording to the excerpts, specifically **chunk_id=HEA-02-1A_chunk_0018** (which cites the Bukhari and Muslim narration) and **chunk_id=HEA-02-1A_chunk_0012** (which details the content of that narration), the believer is compared to **a plant in a farm**.\nThe reason for this comparison, as explained in the text, is that **nothing in the world remains smooth or still**; there are always changing winds and situations. The believer must be flexible, bending when the wind blows from one side and straightening up again to return to their original state.\n\n**Citation:**\n[chunk_id=HEA-02-1A_chunk_0018, chunk_id=HEA-02-1A_chunk_0012]\n\nWait, I need to check if Chunk 0018 explicitly says \"Believer\".\nChunk 0018: \"Different people's behaviors... they throw it away...\" It doesn't explicitly say \"Believer\" in the text provided, but Chunk 0012 says \"Example of a believer\".\nSince they are likely the same lecture segment (same ID HEA-02-1A), it is safe to assume they refer to the same topic.\nHowever, if I must be strict:\nChunk 0012 explicitly says \"Example of a believer\".\nChunk 0018 explicitly says \"Bukhari and Muslim narration\".\nSo I can answer the question by combining these two chunks.\n\n**Final check:**\nQuestion: According to the Bukhari and Muslim narration cited by the lecturer, what is the believer compared to, and why?\nAnswer: The believer is compared to a plant in a farm. Why? Because nothing remains smooth/still, there are changing winds/situations.\nCitation: 0012 (for the comparison) and 0018 (for the source).\n\nThis seems correct.\n\nOne detail: Chunk 0012 says \"The translation of the words of the Hadith is that...\". It doesn't explicitly say \"Bukhari and Muslim\" in *that* chunk.\nChunk 0018 says \"This example... Bukhari and Muslim\".\nSo I am using Chunk 0018 to establish the source of \"This example\", and assuming \"This example\" refers to the one described in Chunk 0012 (which is the only other example of a believer mentioned).\nThis logic holds up.\n\n**Final Answer:**\nAccording to the retrieved excerpts, specifically **chunk_id=HEA-02-1A_chunk_0018** (which identifies the narration as being from Bukhari and Muslim) and **chunk_id=HEA-02-1A_chunk_0012** (which describes the content of that narration), the believer is compared to **a plant in a farm**.\nThe reason for this comparison is that **nothing in the world remains smooth or still**; there are always changing winds and situations. The believer must be flexible, bending when the wind blows from one side and straightening up again to return to their original state.\n\n**Citation:**\n[chunk_id=HEA-02-1A_chunk_0018, chunk_id=HEA-02-1A_chunk_0012]\n\nWait, I should check if there is any other chunk that mentions Bukhari/Muslim.\nChunk 0041: \"You are the Prophet...\". No Bukhari/Muslim.\nChunk 0045: \"Allah's command...\". No Bukhari/Muslim.\n\nSo only 0018 mentions the source name.\nOnly 0012 mentions the comparison content (\"plant\").\nSo I must cite both.\n\nOne small correction: Chunk 0018 says \"This example is not being given by me...\". This implies the speaker (lecturer) is quoting someone else.\nChunk 0012 says \"The translation of the words of the Hadith is that...\".\nIt is consistent.\n\nOkay, ready to write.\n\n**Wait, one nuance:**\nChunk 0018 says \"This example is not being given by me...\".\nDoes it refer to the *previous* chunk (0012)? Or a different example?\nChunk 0018 starts with \"This example...\".\nIf Chunk 0012 is the previous chunk in the sequence (0012 vs 0018), then yes, it refers to Chunk 0012.\nThe IDs are HEA-02-1A_chunk_0018 and HEA-02-1A_chunk_0012.\nUsually, chunks are numbered sequentially in the file. 0012 comes before 0018.\nSo \"This example\" in 0018 refers to the content of 0012.\nSo yes, they are linked.\n\n**Final Answer:**\nAccording to the retrieved excerpts, specifically **chunk_id=HEA-02-1A_chunk_0018** (which identifies the narration as being from Bukhari and Muslim) and **chunk_id=HEA-02-1A_chunk_0012** (which describes the content of that narration), the believer is compared to **a plant in a farm**.\nThe reason for this comparison is that **nothing in the world remains smooth or still**; there are always changing winds and situations. The believer must be flexible, bending when the wind blows from one side and straightening up again to return to their original state.\n\n**Citation:**\n[chunk_id=HEA-02-1A_chunk_0018, chunk_id=HEA-02-1A_chunk_0012]\n\nWait, I should check the exact wording in Chunk 0018 again.\n\"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے۔\"\nTranslation: \"This example is not being given by me, it was given by the Prophet of Allah (PBUH). It is a narration from Bukhari and Muslim.\"\nSo the *source* of the example is Bukhari/Muslim (via Prophet).\nChunk 0012: \"The translation of the words of the Hadith is that the example of a believer is like a plant in a farm...\"\nSo yes, the Bukhari/Muslim narration compares the believer to a plant.\n\nOkay, good to go.\n</think>\n\nAccording to the retrieved excerpts, specifically **chunk_id=HEA-02-1A_chunk_0018** (which identifies the narration as being from Bukhari and Muslim) and **chunk_id=HEA-02-1A_chunk_0012** (which describes the content of that narration), the believer is compared to **a plant in a farm**.\n\nThe reason for this comparison, as explained in the text, is that **nothing in the world remains smooth or still**; there are always changing winds and situations. The believer must be flexible, bending when the wind blows from one side and straightening up again to return to their original state.\n\n**Citation:**\n[chunk_id=HEA-02-1A_chunk_0018, chunk_id=HEA-02-1A_chunk_0012]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 152.68,
+    "generated_at": "2026-09-23T19:44:00.720722+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant of Q73/Q74 concept, verified against same chunk_0012/chunk_0018 text as above. Final answer (plant/farm analogy, changing winds, source = Bukhari & Muslim) is correct and grounded. NOTE: the raw generated_answer field contains ~4000 words of exposed chain-of-thought (\"Wait, let me re-read...\", repeated self-corrections) before reaching the final answer - a formatting/leakage issue in the model output, not a correctness issue; verdict is based on the final stated answer only."
+  }
+]

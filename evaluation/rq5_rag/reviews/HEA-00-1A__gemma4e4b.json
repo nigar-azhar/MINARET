@@ -1,0 +1,156 @@
+[
+  {
+    "question_id": "Q47",
+    "question": "روایت کے مطابق حضرت ابو ہریرہ نے یہ حدیث بیان کرتے وقت کیسا جذباتی ردعمل ظاہر کیا؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-00-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-00-1A_chunk_0006",
+      "HEA-00-1A_chunk_0007",
+      "HEA-00-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-00-1A_chunk_0006",
+        "HEA-00-1A_chunk_0007",
+        "HEA-00-1A_chunk_0008"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "روایت کے مطابق، حضرت ابو ہریرہ نے حدیث بیان کرتے وقت شدید جذباتی ردعمل ظاہر کیا جس میں چیخ مارنا، لمبی سسکی لینا اور بے ہوش ہونا شامل تھا۔\n\n*   ایک جگہ ذکر ہے کہ وہ \"چیخ مار کر لمبی سسکی لیتے ہوئے بے ہوش ہو گئے\"۔ اس کے بعد وہ فاقہ کیے اور اپنے چہرے کو پونچھا (HEA-00-1A_chunk_0007)۔\n*   دوسری روایت میں بتایا گیا ہے کہ ان پر دوبارہ وہی کیفیت طاری ہوئی، انہوں نے سسکی لی، آہ بھری اور بے ہوش ہو گئے، جس کے بعد وہ فاقہ کیے اور اپنے چہرے سے مسح کیا (HEA-00-1A_chunk_0006)۔\n*   ایک دیگر بیان میں بھی ذکر ہے کہ جب ان پر شدید پریشانی طاری ہوئی تو وہ اسی طرح بے ہوش ہوئے تھے (HEA-00-1A_chunk_0008)۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2317,
+    "elapsed_seconds": 31.16,
+    "generated_at": "2026-09-23T20:13:20.311277+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk 0007 text 'چیخ مار کر لمبی سسکی لیتے ہوئے بے ہوش ہو گئے ... افاقہ ہوا اور اپنے چہرے کو پونچھا' - matches model's claim for that chunk almost verbatim. Checked chunk 0006 'سسکی لی آہ بھری اور بے ہوش ہو گئے ... مسح عن وجهه' - matches model's paraphrase. Checked chunk 0008 'نشغة شدیدة ... بے ہوش ہوئے اور شدید قسم کے حال سے' - matches model's 'شدید پریشانی طاری ہوئی تو بے ہوش ہوئے'. All three per-chunk claims are directly supported by the cited chunk text -> correct_grounded."
+  },
+  {
+    "question_id": "Q48",
+    "question": "According to the narration, how did Abu Hurairah react emotionally while narrating this hadith about the Day of Judgment?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-00-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-00-1A_chunk_0006",
+      "HEA-00-1A_chunk_0007",
+      "HEA-00-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-00-1A_chunk_0006",
+        "HEA-00-1A_chunk_0007",
+        "HEA-00-1A_chunk_0008"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the narrations, when Abu Hurairah was greatly distressed (نَشْغَةً), he reacted by screaming and taking long sobs (لمبی سسکی) before fainting. After this, he regained consciousness and wiped his face (مَسَحَ عَنْ وَجْهِهٖ).\n\nThis sequence of events occurred multiple times:\n*   He screamed and took long sobs and fainted, then regained consciousness and wiped his face (HEA-00-1A_chunk_0007).\n*   He was greatly distressed, subsequently fainting from a severe state (HEA-00-1A_chunk_0008).\n*   The same condition occurred to him; he took sobs and sighed and fainted, then regained consciousness and wiped his face (HEA-00-1A_chunk_0006).",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2656,
+    "elapsed_seconds": 22.22,
+    "generated_at": "2026-09-23T20:13:42.531567+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English twin of Q47, same three chunks cited (0006/0007/0008) and same verification applies - 'screaming and taking long sobs before fainting, then regained consciousness and wiped his face' matches chunk 0007 ('چیخ مار کر لمبی سسکی لیتے ہوئے بے ہوش ہو گئے ... مسح عن وجهه') and chunk 0006/0008 for the repeated/severe episodes -> correct_grounded."
+  },
+  {
+    "question_id": "Q71",
+    "question": "اس حدیث کے مطابق وہ کون سے تین قسم کے لوگ ہیں جن کے اعمال قیامت کے دن مسترد کر دیے جائیں گے کیونکہ انہوں نے وہ اعمال دکھاوے کے لیے کیے تھے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-00-1A",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2601,
+    "elapsed_seconds": 22.29,
+    "generated_at": "2026-09-23T20:14:04.818498+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "Model refused ('This lecture does not provide enough information...') with zero citations, despite the content (the qari/martyr/wealthy-man hadith, HEA-00-1A_chunk_0011-0017) being present in the index and retrieved successfully by this same model for the English twin Q72 (which cited chunk 0017). Failure to answer an answerable question -> incorrect."
+  },
+  {
+    "question_id": "Q72",
+    "question": "According to this hadith, who are the three types of people whose deeds will be rejected on the Day of Judgment because they did them to be seen and praised by others?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-00-1A",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-00-1A_chunk_0017"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the hadith, one of the types of deeds that will be rejected because they were done for show or praise is making false claims or exaggerating oneself. For instance, if someone makes a claim and Allah reveals that \"you wanted it to be said: so-and-so is brave,\" this falls under the category of actions done merely for people to say (appreciated by others) (HEA-00-1A_chunk_0017).\n\nThe excerpt mentions that there are three such types of people (\"اُولٰٓئِكَ الثَّلٰثَةُ\"), but it only elaborates on this first type.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 3076,
+    "elapsed_seconds": 26.76,
+    "generated_at": "2026-09-23T20:14:31.584094+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked HEA-00-1A_chunk_0017 text: it covers only the third man (the one killed 'fi sabilillah', accused of lying, told 'بَلْ اَرَدْتَّ اَنْ یُّقَالَ فُلَانٌ جَرِیْٓءٌ' - wanted to be called brave) and the closing line 'اُولٰٓئِكَ الثَّلٰثَةُ' (these are the three). Model's answer correctly summarizes what chunk 0017 contains (one type doing a deed to be called brave/praised) and explicitly flags that the excerpt doesn't name the other two types rather than fabricating them. This is accurate for what it retrieved but incomplete (misses the qari, HEA-00-1A_chunk_0012-14, and the wealthy philanthropist, HEA-00-1A_chunk_0014-15) -> partially_correct, not hallucinated, because it does not invent unsupported content."
+  }
+]

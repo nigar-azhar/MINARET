@@ -1,0 +1,14 @@
+# CQ11 -- Does every Recording "hasPrimarySpeaker" and "hasPrimaryLanguage"?
+# Paper-reported result: `(18, 18, 18)` — 100% completeness, every Recording has both.
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (COUNT(?rec) AS ?total) (COUNT(?sp) AS ?withSpeaker) (COUNT(?lang) AS ?withLang) WHERE {
+  ?rec a minaret:Recording .
+  OPTIONAL { ?rec minaret:hasPrimarySpeaker ?sp }
+  OPTIONAL { ?rec minaret:hasPrimaryLanguage ?lang }
+}

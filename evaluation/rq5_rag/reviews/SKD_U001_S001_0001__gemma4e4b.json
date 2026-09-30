@@ -1,0 +1,152 @@
+[
+  {
+    "question_id": "Q1",
+    "question": "قرآن میں ابراہیم علیہ السلام کی کونسی آیت شفا کے بارے میں بیان کی گئی ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0001_chunk_0006"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0006"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "قرآن میں ابراہیم علیہ السلام کا جو بیان شفا کے بارے میں ہے وہ یہ ہے: وَإِذَا مَرِضْتُ فَهُوَيَشْفِينَ، جس کا مطلب ہے کہ \"اور جب میں بیمار ہوتا ہوں تو وہ ہی مجھے شفا دیتا ہے\" [chunk_id=SKD_U001_S001_0001_chunk_0006]۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2448,
+    "elapsed_seconds": 41.14,
+    "generated_at": "2026-09-23T20:05:07.206000+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk SKD_U001_S001_0001_chunk_0006 (text: 'ابراہیم علیہ السلام نے کہا تھا نا وَإِذَا مَرِضْتُ فَهُوَيَشْفِينَ اور جب میں بیمار ہوتا ہوں تو وہ ہی مجھے شفا دیتا ہے'). Model answer quotes the identical verse and gives an accurate Urdu paraphrase of its meaning, citing chunk_0006. Matches source exactly. Correct and grounded."
+  },
+  {
+    "question_id": "Q2",
+    "question": "According to the lecture, who actually does the healing when a person is sick, according to the verse spoken by Prophet Ibrahim (peace be upon him)?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0001_chunk_0006"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0006"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, when a person is sick, the healing comes from Allah Ta'ala. The speaker notes that Prophet Ibrahim said, \"And when I am sick, He is the one who gives me healing,\" and then asks whose hands are in charge of healing, concluding that it belongs to Allah Ta'ala [SKD_U001_S001_0001_chunk_0006].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2472,
+    "elapsed_seconds": 16.67,
+    "generated_at": "2026-09-23T20:05:23.878293+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Same chunk 0006 as Q1. Model states healing comes from 'Allah Ta'ala', quotes Ibrahim's line ('And when I am sick, He is the one who gives me healing') and the follow-up about whose hands healing is in, citing chunk_0006. Matches source. Correct and grounded, consistent with the model's own Urdu answer to Q1."
+  },
+  {
+    "question_id": "Q4",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0027"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecturer, all acts of worship are means to correct one's condition (\"ہمارے حال کو درست کرنے کا ذریعہ ہیں\"). Regarding Hajj and Umrah specifically, he mentions a hadith that states performing Umrah on Umrah and Hajj on Hajj removes poverty (فقر دور کر دیتا ہے) and corrects the person's state. He also notes that when doing Umrah, there are prayers involved [chunk_id=SKD_U001_S001_0001_chunk_0027].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1607,
+    "elapsed_seconds": 12.96,
+    "generated_at": "2026-09-23T20:05:36.837330+00:00",
+    "answer_verdict": "incorrectly_answered",
+    "grader_notes": "Checked cited chunk SKD_U001_S001_0001_chunk_0027 (text: '...جتنی بھی عبادات ہیں وہ کیا ہیں ہمارے حال کو درست کرنے کا ذریعہ ہیں... عمرے پر عمرہ اور حج پر حج کیا کرتا ہے فقر دور کر دیتا ہے انسان کا حال درست ہوتا ہے... اس میں دعائیں ہیں'). This is about the general spiritual benefit of Hajj/Umrah (removing poverty, correcting one's state) and presence of prayers -- it is NOT about etiquette/adab (how to behave, rules of ihram, tawaf, etc.), which is what the question asks. Unlike qwen35's answer to the same question, this model does not acknowledge the mismatch and instead presents the general-benefit content as if it directly answers the etiquette question, without ever flagging that the lecture doesn't cover etiquette specifically. This is treated as a fabricated/off-target answer to a deliberately unanswerable question, i.e. incorrectly_answered rather than a refusal."
+  },
+  {
+    "question_id": "Q16",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0026",
+        "SKD_U001_S001_0001_chunk_0027",
+        "SKD_U001_S001_0001_chunk_0028"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "حج اور عمرہ کے بارے میں بتایا گیا ہے کہ:\n\n1.  یہ عبادات اپنے آپ میں ایک طرح سے دعا کا قائم مقام ہیں، جو انسان کی حالت کو درست کر دیں گی [SKD_U001_S001_0001_chunk_0027, SKD_U001_S001_0001_chunk_0028]۔\n2.  ایک حدیث کا حوالہ دیا گیا ہے کہ عمرے پر عمرہ اور حج پر حج کرنے سے فقر دور ہو جاتا ہے اور انسان کی حالت درست ہوتی ہے [SKD_U001_S001_0001_chunk_0027]۔\n\n(یہ عبادات دراصل اللہ کی طرف وسیلہ بناتی ہیں، جس پر ثواب اور اجر ملتا ہے) [SKD_U001_S001_0001_chunk_0026]۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2668,
+    "elapsed_seconds": 19.93,
+    "generated_at": "2026-09-23T20:05:56.764656+00:00",
+    "answer_verdict": "incorrectly_answered",
+    "grader_notes": "Checked cited chunks 0026, 0027, 0028. Chunk_0026 is about worship in general being a means (وسیلہ) to reward; chunk_0027/0028 are the same 'spiritual benefit / removing poverty / duas within Umrah' material as in the Q4 gemma answer. None of this is etiquette/adab content. Same issue as Q4: the model answers substantively (three bullet points) instead of refusing, repackaging general spiritual-benefit content as an answer to an adab question. incorrectly_answered, and notably the model fails to refuse in Urdu even though it also failed to refuse in English (Q4) -- refusal calibration does not hold cross-lingually for this model."
+  }
+]

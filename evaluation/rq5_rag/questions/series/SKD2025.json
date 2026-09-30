@@ -1,0 +1,154 @@
+[
+  {
+    "question_id": "Q1",
+    "question": "قرآن میں ابراہیم علیہ السلام کی کونسی آیت شفا کے بارے میں بیان کی گئی ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0001_chunk_0006"
+    ],
+    "note": "Native-language (Urdu) question. Grounded in the verse وَإِذَا مَرِضْتُ فَهُوَيَشْفِينَ, quoted in this chunk."
+  },
+  {
+    "question_id": "Q2",
+    "question": "According to the lecture, who actually does the healing when a person is sick, according to the verse spoken by Prophet Ibrahim (peace be upon him)?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0001_chunk_0006"
+    ],
+    "note": "Cross-lingual: English question about Urdu-dominant lecture content. Same supporting chunk as Q1 - tests whether cross-lingual retrieval finds the same evidence."
+  },
+  {
+    "question_id": "Q4",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - this lecture is about shifa (healing), not Hajj rites. Refusal test."
+  },
+  {
+    "question_id": "Q16",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q4 (same deliberately-unanswerable question, reverse language direction) - tests whether refusal calibration holds the same in Urdu as in English."
+  },
+  {
+    "question_id": "Q13",
+    "question": "According to the lecture, are both medicine (dawa) and supplication (dua) described as beneficial for healing, or only one of them?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0002_chunk_0011"
+    ],
+    "note": "Cross-lingual: English question referencing two specific Arabic/Urdu terms (dawa vs dua) that the RQ1 residual-error analysis flagged as an easily-confused minimal pair - tests whether retrieval and the model correctly distinguish them rather than conflating."
+  },
+  {
+    "question_id": "Q18",
+    "question": "لیکچر کے مطابق کیا دوا اور دعا دونوں شفا کے لیے فائدہ مند بتائی گئی ہیں، یا صرف ایک؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0002_chunk_0011"
+    ],
+    "note": "Cross-lingual variant of Q13 (same content, same gold chunk, reverse language direction)."
+  },
+  {
+    "question_id": "Q14",
+    "question": "What does the lecturer say about the rituals of Hajj, such as Ihram or the stoning at Jamarat?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - this lecture is about the Quranic concept of shifa, not Hajj rites. Refusal test."
+  },
+  {
+    "question_id": "Q19",
+    "question": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q14 (same deliberately-unanswerable question, reverse language direction)."
+  },
+  {
+    "question_id": "Q43",
+    "question": "لیکچرر کے مطابق رسول اللہ صلی اللہ علیہ وسلم کا بیماری اور اس کے علاج کے بارے میں کیا فرمان بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0003_chunk_0016"
+    ],
+    "note": "Fact verified directly against this lecture's V3 transcript (segment 50: 'اللہ تعالیٰ نے کوئی بیماری ایسی نہیں اتاری جس کا علاج نہ اتارا ہو'). gold_chunk_ids backfilled 2026-09-24: chunk_0016 (577.34s-607.52s) contains this exact sentence verbatim; qwen3.5-9b-mlx and gemma-4-e4b-it both gave correct_grounded answers citing this chunk."
+  },
+  {
+    "question_id": "Q44",
+    "question": "According to the lecturer, what did the Prophet (peace be upon him) say about illness and its cure?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0003_chunk_0016"
+    ],
+    "note": "Cross-lingual variant of Q43 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24: same chunk as Q43 (chunk_0016, 577.34s-607.52s, verbatim quote confirmed); qwen3.5-9b-mlx, gemma-4-e4b-it, and meta-llama-3.1-8b-instruct@q6_k all gave correct_grounded answers citing this chunk for the English question."
+  },
+  {
+    "question_id": "Q77",
+    "question": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - added 2026-09-23 as part of balancing the gold set to 2 concepts (answerable + unanswerable) per recording. This lecture is about shifa/sabr, not Hajj rites."
+  },
+  {
+    "question_id": "Q78",
+    "question": "What does the lecturer say about the rituals of Hajj, such as Ihram or the stoning at Jamarat, in this lecture?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q77 (same deliberately-unanswerable question, reverse language direction)."
+  },
+  {
+    "question_id": "Q45",
+    "question": "لیکچرر کے مطابق مشکل حالات کا سامنا کرنے والے لوگوں کی کون سی چار اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0010",
+      "SKD_U001_S001_0004_chunk_0011",
+      "SKD_U001_S001_0004_chunk_0012",
+      "SKD_U001_S001_0004_chunk_0013"
+    ],
+    "note": "Fact verified directly against the transcript (segments 165-224: ناخوش/unhappy, صابر/patient, راضی/content, and شکر ادا کرنے والے/thankful). gold_chunk_ids backfilled 2026-09-24 from the pipeline run: chunk_0013 has the lecturer's explicit 4-item summary and was cited by correct_grounded answers (qwen3.5-9b, gemma-4-e4b); chunks 0010-0012 each cover one of the four types individually and were cited by meta-llama-3.1's correct_grounded English answer. Verified all four chunks against the transcript before adding."
+  },
+  {
+    "question_id": "Q46",
+    "question": "According to the lecturer, what are the four types of people described in how they respond to hardship?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0010",
+      "SKD_U001_S001_0004_chunk_0011",
+      "SKD_U001_S001_0004_chunk_0012",
+      "SKD_U001_S001_0004_chunk_0013"
+    ],
+    "note": "Cross-lingual variant of Q45 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 - same chunk set as Q45; meta-llama-3.1's correct_grounded English answer cited chunks 0010-0012, verified against the transcript."
+  },
+  {
+    "question_id": "Q55",
+    "question": "لیکچرر کے مطابق اللہ تعالیٰ کن پانچ چیزوں سے پاک ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 918-929: عیب/fault, نقص/deficiency, کمزوری/weakness, خطا/error, برائی/evil - in Allah's sayings, actions, and attributes). gold_chunk_ids left empty 2026-09-24: none of the 3 models' Urdu answers to Q55 itself reached correct_grounded (qwen produced an empty/truncated response, gemma and llama each listed only a subset of the 5 items with one wrong or missing). Note the English pair Q56 DID get a correct_grounded answer (meta-llama-3.1) citing chunk_0055, which contains the correct 5-item list - see Q56's gold_chunk_ids. Left Q55 empty rather than borrowing Q56's chunk, since the verified answer must belong to the question itself."
+  },
+  {
+    "question_id": "Q56",
+    "question": "According to the lecturer, which five things is Allah described as being free from?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0055"
+    ],
+    "note": "Cross-lingual variant of Q55 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24: meta-llama-3.1-8b's answer was correct_grounded, listing all 5 items (عیب/fault, نقص/deficiency, کمزوری/weakness, خطا/error, برائی/evil) exactly matching the lecturer's 'یہ پانچ لفظ' statement, citing chunk_0055. Verified chunk_0055 (and V3 segments 915-924) support this before adding."
+  }
+]

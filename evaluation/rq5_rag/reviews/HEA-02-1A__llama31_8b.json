@@ -1,0 +1,164 @@
+[
+  {
+    "question_id": "Q51",
+    "question": "لیکچرر کے مطابق نرمی کے لیے استعمال ہونے والے عربی لفظ 'رفق' کا مادہ (روٹ) کیا ہے، اور اس سے ملتے جلتے کون سے دوسرے الفاظ بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0006",
+        "HEA-02-1A_chunk_0008"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "مادہ (روٹ) 'رفق' کا Ra, Fa, Qaf ہے۔ اور اس سے ملتے جلتے لفظ مرتفق، رفق، مرفق بتائے گئے ہیں۔ \n\n(chunk_id=HEA-02-1A_chunk_0006 lecture_id=HEA-02-1A start=216.72s end=255.28s)\n(chunk_id=HEA-02-1A_chunk_0008 lecture_id=HEA-02-1A start=276.12s end=315.50s)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 28.12,
+    "generated_at": "2026-09-23T20:50:32.940991+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked chunk_0006 (root را،فا،قاف - correct) and chunk_0008. Model lists مرتفق، رفق، مرفق as \"related words\" but omits رفیق (companion/friend) entirely, despite chunk_0008 explicitly defining رفیق (\"رفیق کس کو کہتے ہیں؟ ساتھی کو، دوست کو\") and despite chunk_0008 being in the model's own cited context. رفیق is arguably the most central related word in the lecture's explanation, so this is a meaningful gap. Root correct, word list incomplete/missing a key term."
+  },
+  {
+    "question_id": "Q52",
+    "question": "According to the lecturer, what is the Arabic root of the word 'rifq' (gentleness), and what related words are given from the same root?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 0.6666666666666666
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0006"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to chunk_id=HEA-02-1A_chunk_0006 lecture_id=HEA-02-1A start=216.72s end=255.28s, the Arabic root of the word 'rifq' (gentleness) is: را، فا، قاف۔ \n\nThe related words given from the same root are:\n- رفق کہتے ہیں کسی کو نفع پہنچانا، کسی کو فائدہ دینا۔\n- رفق کہتے ہیں نرم، آسان اور مہربانی کے برتاؤ کو۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 24.9,
+    "generated_at": "2026-09-23T20:50:57.842476+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked chunk_0006. Root (را، فا، قاف) correctly given. However for \"related words from the same root\" the model just restates two definitions of رفق itself (\"نفع پہنچانا\"، \"نرم، آسان اور مہربانی\") rather than giving any actual derived/related word (رفیق, مرفق, مرتفق, رافقہ) - despite chunk_0008 and chunk_0007 both being present in chunks_sent_to_model (confirmed via trace: Q52 sent chunk_0006, 0040, 0008, 0073). The model only cited chunk_0006 and ignored chunk_0008's content, so the second half of the question goes essentially unanswered. Root right, related-words part effectively wrong/empty."
+  },
+  {
+    "question_id": "Q73",
+    "question": "لیکچرر کے مطابق بخاری اور مسلم کی روایت میں مومن کی مثال کس چیز سے دی گئی ہے، اور کیوں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0010",
+        "HEA-02-1A_chunk_0012"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "(chunk_id=HEA-02-1A_chunk_0010, chunk_id=HEA-02-1A_chunk_0012)\n\nلیکچرر کے مطابق بخاری اور مسلم کی روایت میں مومن کی مثال ایک زرعی پودے سے دی گئی ہے، جس کو ہوائیں ہلاتی رہتی ہیں۔ اس کا مطلب یہ ہے کہ مومن کی مثال ایک پودے کی طرح ہے جو مختلف حالات میں بھی اپنی اصل حالت پر واپس آ جاتا ہے، جیسے کہ جب ہوا مشرقی طرف سے آتی ہے تو پودا گر جاتا ہے اور جب مغربی طرف سے ہوا آتی ہے تو وہ اٹھ جاتا ہے۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 26.82,
+    "generated_at": "2026-09-23T20:51:24.661371+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0010 (پودے سے مثال، ہوا کا جھونکا گرا/اٹھا دیتا ہے) and chunk_0012 (زرعی پودہ، ہوائیں ہلاتی رہتی ہیں، کبھی مشرقی کبھی مغربی ہوا). Model's paraphrase (plant, wind, falls/rises, returns to original state) matches both chunks accurately."
+  },
+  {
+    "question_id": "Q74",
+    "question": "According to the Bukhari and Muslim narration cited by the lecturer, what is the believer compared to, and why?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 0.6666666666666666
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0018"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "[chunk_id=HEA-02-1A_chunk_0018 lecture_id=HEA-02-1A start=712.12s end=752.00s]\nیہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے۔ مختلف لوگوں کے رویے اور حالات کیا کرتے ہیں؟ اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے، پھر ہو جاتا ہے۔ پھر اسی طرح آپ دیکھیے کہ انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔ جہاں انسان اور رب کا معاملہ ہو، اللہ کی وحدانیت کا معاملہ ہو، وہاں انسان کو فرم رہنا ہے اپنے\n\nThe believer is compared to a plant that is blown by the winds, which can come from different directions. This comparison is made because in this world, situations are constantly changing and one cannot remain still or stagnant.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 43.18,
+    "generated_at": "2026-09-23T20:52:07.838265+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Model pastes raw chunk_0018 text (Bukhari/Muslim source, behavior description) then gives an English summary: \"compared to a plant that is blown by the winds... situations are constantly changing.\" The specific word \"plant\" actually comes from chunk_0012 (زرعی پودے), not chunk_0018 which was the only chunk marked in the citation - chunk_0018 alone describes the up/down behavior without naming a plant. Content is factually correct and was available in the model's sent context (chunk_0012 was chunk 2 of 4 sent), but the citation is mislabeled/incomplete (should have included chunk_0012). Grounded in substance despite imprecise attribution."
+  }
+]

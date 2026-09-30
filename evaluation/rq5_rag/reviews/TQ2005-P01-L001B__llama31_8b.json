@@ -1,0 +1,157 @@
+[
+  {
+    "question_id": "Q27",
+    "question": "لیکچرر کے مطابق قرآن مجید کے کتنے فیصد الفاظ عام اردو بولنے والے پہلے سے اپنی روزمرہ زبان میں استعمال کرتے ہیں، اور کتنے فیصد الفاظ ایسے ہیں جن پر غور و فکر کی ضرورت ہوتی ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001B",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0048",
+      "TQ2005-P01-L001B_chunk_0049",
+      "TQ2005-P01-L001B_chunk_0050"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0048",
+        "TQ2005-P01-L001B_chunk_0050"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "لکچرر کے مطابق قرآن مجید کے 65 فیصد الفاظ عام اردو بولنے والے پہلے سے اپنی روزمرہ زبان میں استعمال کرتے ہیں (chunk_id=TQ2005-P01-L001B_chunk_0048) اور صرف 15 فیصد الفاظ ایسے ہیں جن پر غور و فکر کی ضرورت ہوتی ہے (chunk_id=TQ2005-P01-L001B_chunk_0050)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 32.38,
+    "generated_at": "2026-09-23T20:21:08.441635+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Cites chunk_0048 for 65% (verified: '...65% الفاظ ہم اپنی روزمرہ اردو زبان میں استعمال کرتے ہیں') and chunk_0050 for 15% (verified: chunk_0050 restates 'کتنے پرسنٹ پر آپ کو محنت کرنا ہے؟ 15%' — same fact as chunk_0049, both are valid support). Answer matches source numbers exactly, correctly grounded."
+  },
+  {
+    "question_id": "Q28",
+    "question": "According to the lecturer, what percentage of the Quran's words does an ordinary Urdu speaker already understand from daily usage, and what percentage require real reflection (tadabbur) to understand?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001B",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0048",
+      "TQ2005-P01-L001B_chunk_0049",
+      "TQ2005-P01-L001B_chunk_0050"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "According to the lecture, an ordinary Urdu speaker already understands more than 50% or 65% of the Quran's words from daily usage. \n\n15% of the Quran's words require real reflection (tadabbur) to understand.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 32.97,
+    "generated_at": "2026-09-23T20:21:41.413358+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Content is factually correct (65% already known from daily usage / more than 50%, 15% require tadabbur — matches chunk_0048 and chunk_0049/0050, same as Q27's verified figures) but the review record shows cited_chunk_ids=[] and no_citation_found=true — the generated_answer text contains no chunk id or citation marker at all, in violation of the system prompt's explicit citation requirement ('Cite the chunk id(s) you used'). Since the answer is correct but ungrounded/unverifiable from the answer text itself, downgraded from correct_grounded to partially_correct rather than accepting an uncited factual claim at face value."
+  },
+  {
+    "question_id": "Q63",
+    "question": "لیکچرر کے مطابق مکہ میں کتنے لوگ لکھنا جانتے تھے، اور ان میں سے کتنے لوگ عموماً رسول اللہ صلی اللہ علیہ وسلم کے حکم کا انتظار کرتے رہتے تھے تاکہ وحی فوراً لکھ سکیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001B",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0021"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0021"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "مکہ میں سترہ لوگ لکھنا جانتے تھے، اور ان میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے۔ (chunk_id=TQ2005-P01-L001B_chunk_0021)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 24.52,
+    "generated_at": "2026-09-23T20:22:05.928871+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Cites chunk_0021, verified above (17 total scribes, ~12 usually ready awaiting command). Answer matches exactly, concise, correctly grounded."
+  },
+  {
+    "question_id": "Q64",
+    "question": "According to the lecturer, how many people in Makkah knew how to write, and how many of them were usually ready and waiting to write down revelation immediately when called?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001B",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0021"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001B_chunk_0021"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, 17 people in Makkah knew how to write (chunk_id=TQ2005-P01-L001B_chunk_0021). Of these, approximately 12 people who were present would be immediately ready and waiting to write down revelation whenever they were called by the Prophet (chunk_id=TQ2005-P01-L001B_chunk_0021).",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 25.61,
+    "generated_at": "2026-09-23T20:22:31.539982+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant of Q63, cites chunk_0021 twice — verified content matches (17 total, ~12 ready to write immediately when called). Correct and grounded."
+  }
+]

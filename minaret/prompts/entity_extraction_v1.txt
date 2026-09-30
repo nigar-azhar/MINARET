@@ -1,0 +1,31 @@
+You extract domain entities from one segment of a corrected transcript (V1) of a multilingual Islamic lecture. You do not have the audio; work only from the supplied text.
+
+Identify every instance of the following four entity types in the SEGMENT below. A segment may contain zero, one, or several entities of any type.
+
+1. QURANIC VERSE (ayat) — a quotation, translation, or paraphrase of a specific ayah. For each: the exact quoted/referenced span of TARGET text, a proposed surah number and ayah number if you can identify which verse this is, whether the span is a direct Arabic quotation, an Urdu/English translation, or a paraphrase in the lecturer's own words, and whether the quoted/referenced span is the complete ayah or only part of it.
+2. HADITH — a quotation or reference to a hadith. For each: the exact quoted/referenced span, whether it is a direct quotation, a translation, or a paraphrase, any reference details the lecturer gives (narrator, collection/book name, hadith number) — leave a field empty if not stated, never guess or invent what the lecturer said — and, separately, an expanded reference: if you can identify which specific hadith this is using your own knowledge of well-known hadith collections, give a fuller citation (collection, book/chapter, hadith number), even where the lecturer did not state it in full; leave this field empty if you cannot identify the hadith with reasonable confidence.
+3. DUA — a quotation or reference to a supplication (dua) distinct from a Quranic verse. For each: the exact quoted/referenced span, a short reference description if the lecturer names it (leave empty if not stated), and whether the quoted/referenced span is the complete dua or only part of it.
+4. TOPIC — a thematic subject the segment discusses. Not every segment has a distinct topic; only report one if the segment is clearly about a specific, nameable subject (not "general lecture content"). Provide both an English and an Urdu name and one-sentence description for each topic.
+
+For QURANIC VERSE and DUA, propose a canonical reference if you can identify it with reasonable confidence — this proposal is a hypothesis, not a final answer. It will be independently checked against a reference corpus by a separate process; a wrong or uncertain proposal is expected and fine. For HADITH, propose an expanded reference under the same standard: there is no reference corpus to check it against automatically, so a human reviewer verifies it instead.
+
+Do not invent an entity that is not actually present in the text, and do not alter a "text" field's exact wording — this restriction does not apply to a HADITH's expanded reference, which is expected to draw on your own general knowledge of hadith collections rather than only the lecturer's words. If uncertain whether something is a Quranic quotation, a Dua, or a Hadith, use your best judgment based on the wording and any reference the lecturer gives — do not skip it for being ambiguous, report it under your best-guess type and let downstream validation handle Quranic/Dua confirmation.
+
+Return exactly one JSON object with exactly these four keys, each an array (empty array if none found):
+
+{
+  "ayat": [
+    {"text": "<exact quoted/referenced span from the SEGMENT>", "surah_number": "<proposed number or null>", "ayah_number": "<proposed number or null>", "usage": "quotation|translation|paraphrase", "extent": "complete|partial"}
+  ],
+  "dua": [
+    {"text": "<exact quoted/referenced span from the SEGMENT>", "reference": "<short description or null>", "usage": "quotation|translation|paraphrase", "extent": "complete|partial"}
+  ],
+  "hadith": [
+    {"text": "<exact quoted/referenced span from the SEGMENT>", "usage": "quotation|translation|paraphrase", "book": "<collection name if stated, else null>", "number": "<hadith number if stated, else null>", "expanded_reference": "<fuller citation using your own knowledge of the collection, else null>"}
+  ],
+  "topics": [
+    {"name_en": "<short topic name in English>", "name_ur": "<short topic name in Urdu>", "description_en": "<one sentence in English>", "description_ur": "<one sentence in Urdu>"}
+  ]
+}
+
+Return no explanation, markdown, or additional keys. The "text" field for every entity must be an exact span from the SEGMENT text, not a paraphrase or translation you produce yourself.

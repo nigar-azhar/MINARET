@@ -1,0 +1,246 @@
+[
+  {
+    "question_id": "Q9",
+    "question": "کامیاب انسان بننے کے لیے کن پہلوؤں کا جاگنا ضروری بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001A_chunk_0003",
+      "TQ2005-P01-L001A_chunk_0004"
+    ],
+    "note": "Native-language (Urdu) question. The chunk itself contains embedded English loanwords (intellectual aspect) inside Urdu speech - tests retrieval on genuinely code-mixed text, not just two separate languages. Updated 2026-09-23 after the first RAG runs: originally gold-labeled chunk_0004 only (uses the question's exact verb \"جاگنا\"/awaken); both Qwen3.5 and Gemma-4-E4B independently answered from chunk_0003 instead, verified as an equally direct match (\"کامیاب انسان... جسمانی، ذہنی، روحانی اور جذباتی اور سماجی... ہارمونی اور بیلنس\"). Widened to accept either - this was a gold-label imprecision, not a model error."
+  },
+  {
+    "question_id": "Q24",
+    "question": "According to the lecture, which aspects of a person need to 'awaken' in order to become a successful person?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001A_chunk_0003",
+      "TQ2005-P01-L001A_chunk_0004"
+    ],
+    "note": "Cross-lingual variant of Q9 (same content, same gold chunks, reverse language direction)."
+  },
+  {
+    "question_id": "Q11",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - this is a course-logistics recap lesson (Al-Fatiha series), not about Hajj. Refusal test."
+  },
+  {
+    "question_id": "Q26",
+    "question": "اس سبق میں حج اور عمرہ کے آداب کے بارے میں کیا بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q11 (same deliberately-unanswerable question, reverse language direction)."
+  },
+  {
+    "question_id": "Q27",
+    "question": "لیکچرر کے مطابق قرآن مجید کے کتنے فیصد الفاظ عام اردو بولنے والے پہلے سے اپنی روزمرہ زبان میں استعمال کرتے ہیں، اور کتنے فیصد الفاظ ایسے ہیں جن پر غور و فکر کی ضرورت ہوتی ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0048",
+      "TQ2005-P01-L001B_chunk_0049",
+      "TQ2005-P01-L001B_chunk_0050"
+    ],
+    "note": "Fact verified directly against this lecture's V3 transcript (segments citing Professor Abdul Jabbar Shakir's 65%/20%/15% breakdown of Quranic vocabulary familiarity for Urdu speakers). gold_chunk_ids backfilled 2026-09-24 after RQ5 grading: all 3 models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) gave correct_grounded answers citing chunk_0048 (\"...65% الفاظ ہم اپنی روزمرہ اردو زبان میں استعمال کرتے ہیں...\") for the 65% figure and chunk_0049/chunk_0050 (\"...صرف پندرہ فیصد یعنی 15%...\" / \"...15%.\") for the 15% figure; text of all three chunks verified against chunks.json."
+  },
+  {
+    "question_id": "Q28",
+    "question": "According to the lecturer, what percentage of the Quran's words does an ordinary Urdu speaker already understand from daily usage, and what percentage require real reflection (tadabbur) to understand?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0048",
+      "TQ2005-P01-L001B_chunk_0049",
+      "TQ2005-P01-L001B_chunk_0050"
+    ],
+    "note": "Cross-lingual variant of Q27 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24, same evidence as Q27 (qwen3.5-9b-mlx and gemma-4-e4b-it both correct_grounded citing these chunks; meta-llama-3.1-8b-instruct@q6_k's answer was factually correct but graded partially_correct because it cited no chunk id at all)."
+  },
+  {
+    "question_id": "Q63",
+    "question": "لیکچرر کے مطابق مکہ میں کتنے لوگ لکھنا جانتے تھے، اور ان میں سے کتنے لوگ عموماً رسول اللہ صلی اللہ علیہ وسلم کے حکم کا انتظار کرتے رہتے تھے تاکہ وحی فوراً لکھ سکیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0021"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segment 67: only 17 people in Makkah could write, about 12 of whom were always ready to write down revelation immediately). gold_chunk_ids backfilled 2026-09-24 after RQ5 grading: all 3 models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) gave correct_grounded answers citing chunk_0021 (\"مکہ میں سترہ لوگ لکھنا جانتے تھے صرف، اور اس میں سے تقریباً بارہ لوگ جو تھے وہ آپ کے حکم کے منتظر ہوتے تھے...\"), text verified against chunks.json."
+  },
+  {
+    "question_id": "Q64",
+    "question": "According to the lecturer, how many people in Makkah knew how to write, and how many of them were usually ready and waiting to write down revelation immediately when called?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001B_chunk_0021"
+    ],
+    "note": "Cross-lingual variant of Q63 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24, same evidence as Q63. qwen3.5-9b-mlx also cited chunk_0022 (Abu Bakr carrying writing materials during hijrah) as supporting context, but the core 17/12 figures are stated only in chunk_0021, so only that chunk is included as gold."
+  },
+  {
+    "question_id": "Q29",
+    "question": "لیکچر کے لفظی ترجمے کے مطابق سورۃ الفاتحہ کی آیت 'اِیَّاكَ نَعْبُدُ' کا لفظ بہ لفظ ترجمہ کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001C_chunk_0001"
+    ],
+    "note": "This lecture is a short (12-segment) word-by-word (lafzi) translation of Al-Fatiha; fact verified directly against the transcript (segment 6: 'صرف تیری ہی، ہم عبادت کرتے ہیں'). gold_chunk_id backfilled 2026-09-24: chunk_0001's text ('«اِیَّاكَ» صرف تیری ہی، «نَعْبُدُ» ہم عبادت کرتے ہیں،') was verified to support this answer, and both qwen3.5-9b-mlx and gemma-4-e4b-it gave correct_grounded answers citing exactly this chunk (see evaluation/rq5_rag/reviews/TQ2005-P01-L001C__qwen35.json and __gemma4e4b.json)."
+  },
+  {
+    "question_id": "Q30",
+    "question": "According to the lecture's word-for-word translation, what is the literal meaning given for the phrase 'Iyyaka na'budu' in Surah Al-Fatiha?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001C_chunk_0001"
+    ],
+    "note": "Cross-lingual variant of Q29 (same content, reverse language direction). gold_chunk_id backfilled 2026-09-24: same chunk_0001 evidence as Q29 - verified qwen3.5-9b-mlx and gemma-4-e4b-it both gave correct_grounded answers citing chunk_0001 (see evaluation/rq5_rag/reviews/TQ2005-P01-L001C__qwen35.json and __gemma4e4b.json). Note meta-llama-3.1-8b-instruct@q6_k incorrectly refused this exact question despite chunk_0001 being in its context - see that review file's grader_notes for Q30."
+  },
+  {
+    "question_id": "Q79",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - added 2026-09-23 as part of balancing the gold set to 2 concepts (answerable + unanswerable) per recording. This lecture is a short word-by-word translation of Al-Fatiha only, with no Hajj content."
+  },
+  {
+    "question_id": "Q80",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q79 (same deliberately-unanswerable question, reverse language direction)."
+  },
+  {
+    "question_id": "Q31",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ میں صرف ایک ایسا نیا لفظ ہے جو اردو میں اسی معنی میں استعمال نہیں ہوتا، وہ کون سا لفظ ہے اور اس کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0002"
+    ],
+    "note": "Fact verified directly against the transcript (segments 6-8: the word 'الدین' is named as the only genuinely new word in the surah, meaning reward/recompense, a sense not used in everyday Urdu). gold_chunk_ids intentionally left empty pending the pipeline run."
+  },
+  {
+    "question_id": "Q32",
+    "question": "According to the lecturer, which is the only word in Surah Al-Fatiha that is genuinely new (not used in that sense in everyday Urdu), and what meaning is given for it?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0002"
+    ],
+    "note": "Cross-lingual variant of Q31 (same content, reverse language direction)."
+  },
+  {
+    "question_id": "Q65",
+    "question": "لیکچرر کے مطابق شیخ ابن باز کے فتوے میں حالتِ حیض میں قرآن پاک کو ہاتھ لگا کر سبق یاد کرنے کے بارے میں کیا کہا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0021",
+      "TQ2005-P01-L001D_chunk_0024"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 63-71: Sheikh Ibn Baz's fatwa says reciting/memorizing the Quran without directly touching the mus-haf - e.g. using a cloth or thin rubber gloves - is permissible during menstruation, since no authentic hadith proves otherwise). gold_chunk_ids intentionally left empty pending the pipeline run."
+  },
+  {
+    "question_id": "Q66",
+    "question": "According to the lecturer, what does Sheikh Ibn Baz's fatwa say about a woman memorizing the Quran during her menstrual period without directly touching the mus-haf?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0021",
+      "TQ2005-P01-L001D_chunk_0024"
+    ],
+    "note": "Cross-lingual variant of Q65 (same content, reverse language direction)."
+  },
+  {
+    "question_id": "Q33",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ کے دیگر کون کون سے نام بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0005"
+    ],
+    "note": "Fact verified directly against the transcript (segment 14-15: ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، الکنز). gold_chunk_ids backfilled 2026-09-24 after all 3 models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) gave correct_grounded answers citing chunk_0005, verified against chunk text (141.32s-174.84s)."
+  },
+  {
+    "question_id": "Q34",
+    "question": "According to the lecturer, what are the other names given for Surah Al-Fatiha?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0005"
+    ],
+    "note": "Cross-lingual variant of Q33 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 on the same evidence as Q33."
+  },
+  {
+    "question_id": "Q67",
+    "question": "لیکچرر کے مطابق لفظ 'رب' کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0009",
+      "TQ2005-P01-L001E_chunk_0010",
+      "TQ2005-P01-L001E_chunk_0012"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 29-33: gradually nurturing/bringing something from a small beginning to its full completion - پالنے والا، آہستہ آہستہ ذرے سے کمال تک پہنچانے والا). gold_chunk_ids backfilled 2026-09-24: qwen3.5-9b-mlx and gemma-4-e4b-it gave correct_grounded answers citing chunk_0009 (287.16s-332.44s, core 'gradually to perfection' definition), chunk_0010 (333.08s-356.38s, nurturer/rearer extension), and chunk_0012 (382.7s-409.98s, master/owner sense for humans) — all verified against chunk text. meta-llama-3.1-8b-instruct@q6_k also gave a correct_grounded answer citing only chunk_0009 (the core definition)."
+  },
+  {
+    "question_id": "Q68",
+    "question": "According to the lecturer, what meaning is given for the word 'Rabb' in this word-analysis session?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0009",
+      "TQ2005-P01-L001E_chunk_0010",
+      "TQ2005-P01-L001E_chunk_0012"
+    ],
+    "note": "Cross-lingual variant of Q67 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 on the same evidence as Q67."
+  },
+  {
+    "question_id": "Q35",
+    "question": "لیکچر میں بیان کردہ روایت کے مطابق حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو کن دو نوروں کی خوشخبری دی، جو اس سے پہلے کسی نبی کو نہیں دیے گئے تھے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "note": "Fact verified directly against the transcript (segments 1-6: the narration from Ibn Abbas, Sahih Muslim, that Jibreel announced Surah Al-Fatiha and the last two ayahs of Surah Al-Baqarah). gold_chunk_ids backfilled 2026-09-24 after confirming chunk_0001 text (\"...دو نوروں کی خوشخبری دی...ایک سورۃ الفاتحہ اور دوسرا سورۃ البقرہ کی آخری دو آیات\") directly answers the question; all 3 models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) independently cited chunk_0001 and were graded correct_grounded."
+  },
+  {
+    "question_id": "Q36",
+    "question": "According to the narration cited in the lecture, which two lights did Jibreel (peace be upon him) announce to the Prophet (peace be upon him) as having never been given to any prophet before him?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "note": "Cross-lingual variant of Q35 (same content, reverse language direction). gold_chunk_id backfilled 2026-09-24; see Q35 note for verification detail."
+  },
+  {
+    "question_id": "Q69",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے قرآن کی کونسی سورت ہے، اور اس میں کیا خاص بات بیان کی گئی ہے کہ یہ کیسے نازل ہوئی؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 18-19: Al-Fatiha is the 5th surah in order of revelation, and unlike most other surahs it was revealed complete, all at once, not in separate parts). gold_chunk_ids backfilled 2026-09-24 after confirming chunk_0005 text (\"سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے پانچویں نمبر پر آتی ہے...یہ پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری\") directly answers the question; all 3 models independently cited chunk_0005 and were graded correct_grounded."
+  },
+  {
+    "question_id": "Q70",
+    "question": "According to the lecturer, which surah in order of revelation is Al-Fatiha, and what is noted as special about the way it was revealed?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "note": "Cross-lingual variant of Q69 (same content, reverse language direction). gold_chunk_id backfilled 2026-09-24; see Q69 note for verification detail. Note: qwen3.5-9b-mlx also cited chunk_0001 and chunk_0002 as supplementary sources for this question, but the core answer (revelation order + what's special) is fully supported by chunk_0005 alone, so only chunk_0005 is recorded as gold."
+  }
+]

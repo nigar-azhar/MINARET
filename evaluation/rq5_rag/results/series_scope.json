@@ -1,0 +1,250 @@
+{
+  "total_questions": 216,
+  "answerable_questions": 174,
+  "unanswerable_questions": 42,
+  "retrieval": {
+    "recall_at_10_initial": 0.879,
+    "recall_at_4_reranked": 0.879,
+    "recall_at_4_sent": 0.879,
+    "mrr_initial": 0.733,
+    "mrr_reranked": 0.819,
+    "mean_sent_precision": 0.363,
+    "mean_sent_recall": 0.895
+  },
+  "citation": {
+    "mean_citation_precision": 0.79,
+    "mean_citation_recall": 0.742,
+    "no_citation_rate": 0.245
+  },
+  "answer_verdict_breakdown_answerable": {
+    "correct_grounded": 129,
+    "partially_correct": 22,
+    "incorrect": 19,
+    "hallucinated": 4
+  },
+  "answer_verdict_breakdown_unanswerable": {
+    "correctly_refused": 39,
+    "incorrectly_answered": 3
+  },
+  "rerank_status_breakdown": {
+    "reranked": 216
+  },
+  "by_model": {
+    "gemma-4-e4b-it": {
+      "n": 72,
+      "answerable": 58,
+      "unanswerable": 14,
+      "graded": 72,
+      "correct": 59,
+      "accuracy": 0.819,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 47,
+        "partially_correct": 6,
+        "incorrect": 4,
+        "hallucinated": 1
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 12,
+        "incorrectly_answered": 2
+      }
+    },
+    "meta-llama-3.1-8b-instruct@q6_k": {
+      "n": 72,
+      "answerable": 58,
+      "unanswerable": 14,
+      "graded": 72,
+      "correct": 54,
+      "accuracy": 0.75,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 41,
+        "partially_correct": 11,
+        "incorrect": 3,
+        "hallucinated": 3
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 13,
+        "incorrectly_answered": 1
+      }
+    },
+    "qwen3.5-9b-mlx": {
+      "n": 72,
+      "answerable": 58,
+      "unanswerable": 14,
+      "graded": 72,
+      "correct": 55,
+      "accuracy": 0.764,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 41,
+        "partially_correct": 5,
+        "incorrect": 12,
+        "hallucinated": 0
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 14,
+        "incorrectly_answered": 0
+      }
+    }
+  },
+  "by_language": {
+    "english": {
+      "n": 108,
+      "answerable": 87,
+      "unanswerable": 21,
+      "graded": 108,
+      "correct": 83,
+      "accuracy": 0.769,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 63,
+        "partially_correct": 12,
+        "incorrect": 10,
+        "hallucinated": 2
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 20,
+        "incorrectly_answered": 1
+      }
+    },
+    "urdu": {
+      "n": 108,
+      "answerable": 87,
+      "unanswerable": 21,
+      "graded": 108,
+      "correct": 85,
+      "accuracy": 0.787,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 66,
+        "partially_correct": 10,
+        "incorrect": 9,
+        "hallucinated": 2
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 19,
+        "incorrectly_answered": 2
+      }
+    }
+  },
+  "by_model_and_language": {
+    "gemma-4-e4b-it / english": {
+      "n": 36,
+      "answerable": 29,
+      "unanswerable": 7,
+      "graded": 36,
+      "correct": 30,
+      "accuracy": 0.833,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 24,
+        "partially_correct": 2,
+        "incorrect": 3,
+        "hallucinated": 0
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 6,
+        "incorrectly_answered": 1
+      }
+    },
+    "gemma-4-e4b-it / urdu": {
+      "n": 36,
+      "answerable": 29,
+      "unanswerable": 7,
+      "graded": 36,
+      "correct": 29,
+      "accuracy": 0.806,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 23,
+        "partially_correct": 4,
+        "incorrect": 1,
+        "hallucinated": 1
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 6,
+        "incorrectly_answered": 1
+      }
+    },
+    "meta-llama-3.1-8b-instruct@q6_k / english": {
+      "n": 36,
+      "answerable": 29,
+      "unanswerable": 7,
+      "graded": 36,
+      "correct": 26,
+      "accuracy": 0.722,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 19,
+        "partially_correct": 6,
+        "incorrect": 2,
+        "hallucinated": 2
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 7,
+        "incorrectly_answered": 0
+      }
+    },
+    "meta-llama-3.1-8b-instruct@q6_k / urdu": {
+      "n": 36,
+      "answerable": 29,
+      "unanswerable": 7,
+      "graded": 36,
+      "correct": 28,
+      "accuracy": 0.778,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 22,
+        "partially_correct": 5,
+        "incorrect": 1,
+        "hallucinated": 1
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 6,
+        "incorrectly_answered": 1
+      }
+    },
+    "qwen3.5-9b-mlx / english": {
+      "n": 36,
+      "answerable": 29,
+      "unanswerable": 7,
+      "graded": 36,
+      "correct": 27,
+      "accuracy": 0.75,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 20,
+        "partially_correct": 4,
+        "incorrect": 5,
+        "hallucinated": 0
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 7,
+        "incorrectly_answered": 0
+      }
+    },
+    "qwen3.5-9b-mlx / urdu": {
+      "n": 36,
+      "answerable": 29,
+      "unanswerable": 7,
+      "graded": 36,
+      "correct": 28,
+      "accuracy": 0.778,
+      "verdict_breakdown_answerable": {
+        "correct_grounded": 21,
+        "partially_correct": 1,
+        "incorrect": 7,
+        "hallucinated": 0
+      },
+      "verdict_breakdown_unanswerable": {
+        "correctly_refused": 7,
+        "incorrectly_answered": 0
+      }
+    }
+  },
+  "source_review_files": [
+    "evaluation/rq5_rag/reviews/series_HEA__gemma4e4b.json",
+    "evaluation/rq5_rag/reviews/series_HEA__llama31_8b.json",
+    "evaluation/rq5_rag/reviews/series_HEA__qwen35.json",
+    "evaluation/rq5_rag/reviews/series_HajjJourney2022Eng__gemma4e4b.json",
+    "evaluation/rq5_rag/reviews/series_HajjJourney2022Eng__llama31_8b.json",
+    "evaluation/rq5_rag/reviews/series_HajjJourney2022Eng__qwen35.json",
+    "evaluation/rq5_rag/reviews/series_SKD2025__gemma4e4b.json",
+    "evaluation/rq5_rag/reviews/series_SKD2025__llama31_8b.json",
+    "evaluation/rq5_rag/reviews/series_SKD2025__qwen35.json",
+    "evaluation/rq5_rag/reviews/series_TQ2005__gemma4e4b.json",
+    "evaluation/rq5_rag/reviews/series_TQ2005__llama31_8b.json",
+    "evaluation/rq5_rag/reviews/series_TQ2005__qwen35.json"
+  ]
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "TQ2005-0314",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Self_Accountability_Muhasabah",
+    "name_a": "Self-Accountability (Muhasabah)",
+    "recordingId_b": "TQ2005-0314",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_Moral_Example_and_Accountability_Qudwah",
+    "name_b": "Moral Example and Accountability (Qudwah)",
+    "lexicalSimilarity": 0.611,
+    "status": "rejected_but_related"
+  },
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "TQ2005-0315",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Revelation_and_Descent_Wahy_wa_Inzal",
+    "name_a": "Revelation and Descent (Wahy wa Inzal)",
+    "recordingId_b": "TQ2005-0315",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_Compilation_and_Scribing_Jam_wa_Kitabat",
+    "name_b": "Compilation and Scribing (Jam' wa Kitabat)",
+    "lexicalSimilarity": 0.6,
+    "status": "rejected_but_related"
+  },
+  {
+    "type": "topic_merge",
+    "scope": "within_series",
+    "recordingId_a": "TQ2005-0318",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_The_Experience_and_Reality_of_Hamd_Haqiqat_al_Hamd",
+    "name_a": "The Experience and Reality of Hamd (Haqiqat al-Hamd)",
+    "recordingId_b": "TQ2005-0319",
+    "topicId_b": "http://minaret-eval.org/ontology#Topic_The_Station_and_Multiplied_Rewards_of_Hamd_Al_Hamd",
+    "name_b": "The Station and Multiplied Rewards of Hamd (Al-Hamd)",
+    "lexicalSimilarity": 0.615,
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "TQ2005-0314",
+    "topicId": "http://minaret-eval.org/ontology#Topic_The_Hereafter_Akhirah",
+    "name": "The Hereafter (Akhirah)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:ArticlesOfFaith",
+    "rationale": "keyword heuristic matched on: ['hereafter', 'akhirah']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "TQ2005-0314",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Prayer_and_Discipline_Salah",
+    "name": "Prayer and Discipline (Salah)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['salah', 'prayer']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "TQ2005-0315",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Revelation_and_Descent_Wahy_wa_Inzal",
+    "name": "Revelation and Descent (Wahy wa Inzal)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:ArticlesOfFaith",
+    "rationale": "keyword heuristic matched on: ['angel']",
+    "status": "reject"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "TQ2005-0319",
+    "topicId": "http://minaret-eval.org/ontology#Topic_Divine_Sovereignty_on_the_Day_of_Judgment_Malik_Yawm_ad_Din",
+    "name": "Divine Sovereignty on the Day of Judgment (Malik Yawm ad-Din)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:ArticlesOfFaith",
+    "rationale": "keyword heuristic matched on: ['day of judgment']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "TQ2005-0319",
+    "topicId": "http://minaret-eval.org/ontology#Topic_The_Covenant_of_Worship_and_the_Hadith_of_Dividing_Salah_Al_Ahd",
+    "name": "The Covenant of Worship and the Hadith of Dividing Salah (Al-'Ahd)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:PillarsOfIslam",
+    "rationale": "keyword heuristic matched on: ['salah', 'prayer']",
+    "status": "accepted"
+  }
+]

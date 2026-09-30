@@ -1,0 +1,164 @@
+{
+  "series_code": "TQ2005",
+  "recordings_dir": "TQ2005",
+  "category": "Quran",
+  "series": {
+    "title_en": "Talim al-Qur'an 2005",
+    "title_ur": "تعلیم القرآن 2005",
+    "category_id": 9,
+    "series_type": "audio"
+  },
+  "speaker": {
+    "code": "dr_farhat_hashmi",
+    "name_en": "Dr. Farhat Hashmi",
+    "name_ur": "ڈاکٹر فرحت ہاشمی"
+  },
+  "language": {
+    "code": "ur",
+    "label": "Urdu"
+  },
+  "recordings": [
+    {
+      "recording_id": "TQ2005-P01-L001A",
+      "kg_recording_id": "TQ2005-0314",
+      "audio": {
+        "id": 314,
+        "audio_link": "https://data.alhudamedia.com/Media/Al-Quran/Talim_al-Quran/TQ2005/TQ2005-P01-L001A_Al-Fatihah_1-7_Recap.mp3",
+        "english_name": "Recap",
+        "urdu_name": "دہرائی",
+        "duration": "0:18:54"
+      }
+    },
+    {
+      "recording_id": "TQ2005-P01-L001B",
+      "kg_recording_id": "TQ2005-0315",
+      "audio": {
+        "id": 315,
+        "audio_link": "https://data.alhudamedia.com/Media/Al-Quran/Talim_al-Quran/TQ2005/TQ2005-P01-L001B_Al-Fatihah_1-7_Introduction_about_the_Quran.mp3",
+        "english_name": "Introduction about the Qur'an",
+        "urdu_name": "قرآن کا تعارف",
+        "duration": "0:28:36"
+      }
+    },
+    {
+      "recording_id": "TQ2005-P01-L001C",
+      "kg_recording_id": "TQ2005-0316",
+      "audio": {
+        "id": 316,
+        "audio_link": "https://data.alhudamedia.com/Media/Al-Quran/Talim_al-Quran/TQ2005/TQ2005-P01-L001C_Al-Fatihah_1-7_Translation.mp3",
+        "english_name": "Translation",
+        "urdu_name": "ترجمہ",
+        "duration": "0:02:15"
+      }
+    },
+    {
+      "recording_id": "TQ2005-P01-L001D",
+      "kg_recording_id": "TQ2005-0317",
+      "audio": {
+        "id": 317,
+        "audio_link": "https://data.alhudamedia.com/Media/Al-Quran/Talim_al-Quran/TQ2005/TQ2005-P01-L001D_Al-Fatihah_1-7_How_to_Learn_Quran.mp3",
+        "english_name": "How to Learn Qur'an",
+        "urdu_name": "قرآن کیسے سیکھیں",
+        "duration": "0:13:44"
+      }
+    },
+    {
+      "recording_id": "TQ2005-P01-L001E",
+      "kg_recording_id": "TQ2005-0318",
+      "audio": {
+        "id": 318,
+        "audio_link": "https://data.alhudamedia.com/Media/Al-Quran/Talim_al-Quran/TQ2005/TQ2005-P01-L001E_Al-Fatihah_1-7_Word_Analysis.mp3",
+        "english_name": "Word Analysis",
+        "urdu_name": "الفاظ کا تجزیہ",
+        "duration": "0:24:26"
+      }
+    },
+    {
+      "recording_id": "TQ2005-P01-L001F",
+      "kg_recording_id": "TQ2005-0319",
+      "audio": {
+        "id": 319,
+        "audio_link": "https://data.alhudamedia.com/Media/Al-Quran/Talim_al-Quran/TQ2005/TQ2005-P01-L001F_Al-Fatihah_1-7_Tafsir_1-7.mp3",
+        "english_name": "Tafsir 1-7",
+        "urdu_name": "تفسیر 1-7",
+        "duration": "0:40:20"
+      }
+    }
+  ],
+  "concept_keywords": {
+    "hadith:PillarsOfIslam": [
+      "salah",
+      "prayer",
+      "zakah",
+      "zakat",
+      "sawm",
+      "fasting",
+      "hajj",
+      "shahada"
+    ],
+    "hadith:ArticlesOfFaith": [
+      "iman",
+      "angel",
+      "revealed book",
+      "messenger",
+      "day of judgment",
+      "qadar",
+      "predestination",
+      "hereafter",
+      "akhirah"
+    ]
+  },
+  "reviewed_merges": [
+    {
+      "topics": [
+        "Moral Example and Accountability (Qudwah)",
+        "Self-Accountability (Muhasabah)"
+      ],
+      "decision": "reject_but_related"
+    },
+    {
+      "topics": [
+        "Compilation and Scribing (Jam' wa Kitabat)",
+        "Revelation and Descent (Wahy wa Inzal)"
+      ],
+      "decision": "reject_but_related"
+    },
+    {
+      "topics": [
+        "The Experience and Reality of Hamd (Haqiqat al-Hamd)",
+        "The Station and Multiplied Rewards of Hamd (Al-Hamd)"
+      ],
+      "decision": "accept"
+    }
+  ],
+  "reviewed_concepts": [
+    {
+      "topic": "The Hereafter (Akhirah)",
+      "concept": "hadith:ArticlesOfFaith",
+      "decision": "accept"
+    },
+    {
+      "topic": "Prayer and Discipline (Salah)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    },
+    {
+      "topic": "Revelation and Descent (Wahy wa Inzal)",
+      "concept": "hadith:ArticlesOfFaith",
+      "decision": "reject"
+    },
+    {
+      "topic": "Divine Sovereignty on the Day of Judgment (Malik Yawm ad-Din)",
+      "concept": "hadith:ArticlesOfFaith",
+      "decision": "accept"
+    },
+    {
+      "topic": "The Covenant of Worship and the Hadith of Dividing Salah (Al-'Ahd)",
+      "concept": "hadith:PillarsOfIslam",
+      "decision": "accept"
+    }
+  ],
+  "topic_related": [],
+  "hub_related": null,
+  "manual_concept_matches": []
+}

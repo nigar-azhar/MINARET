@@ -1,0 +1,18 @@
+# CQ1 -- Which verses does Recording X "refersTo"?
+# Paper-reported result: 5 rows returned, e.g. `(1, 1, "بسم الله الرحمن الرحيم", 0.62)`, `(20, 25, "قال رب اشرح لي صدري", 0.62)` — verified ordered by start time.
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?surah ?verse ?text ?start WHERE {
+  ?rec minaret:recordingId "TQ2005-0314" .
+  ?rec minaret:hasTranscript/minaret:hasSegment ?seg .
+  ?occ minaret:occursIn ?sg .
+  ?sg minaret:containsSegment ?seg .
+  ?occ minaret:refersTo ?verseNode .
+  ?verseNode minaret:surahNumber ?surah ; minaret:verseNumber ?verse ; minaret:textClean ?text .
+  ?occ minaret:startTime ?start .
+} ORDER BY ?start LIMIT 5

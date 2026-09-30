@@ -1,0 +1,18 @@
+# CQ13 -- What type of CitationUsage is a given VerseOccurrence?
+# Paper-reported result: `Quotation` (twice) — confirms the citation-usage controlled vocabulary is queryable by `rdf:type`/object-property traversal rather than string matching, matching how SemanticHadith models its own `HadithType`.
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?usageLabel WHERE {
+  ?rec minaret:recordingId "TQ2005-0314" .
+  ?rec minaret:hasTranscript/minaret:hasSegment ?seg .
+  ?occ a minaret:VerseOccurrence ; minaret:occursIn ?sg .
+  ?sg minaret:containsSegment ?seg .
+  ?occ minaret:refersTo ?verseNode ; minaret:hasUsageType ?usage .
+  ?verseNode minaret:surahNumber 20 ; minaret:verseNumber 25 .
+  ?usage minaret:label ?usageLabel .
+} LIMIT 3

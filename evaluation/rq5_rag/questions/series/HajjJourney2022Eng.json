@@ -1,0 +1,158 @@
+[
+  {
+    "question_id": "Q37",
+    "question": "According to the lecturer, what are the three types of people described when it comes to going for Hajj?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0007"
+    ],
+    "note": "Fact verified directly against the transcript (segments 17-19: those who can afford and want to go, those who cannot afford but want to go, and those who can afford but delay/don't want to go). gold_chunk_ids backfilled 2026-09-24 after confirming all 3 models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) gave correct_grounded answers citing chunk_0007, and verified chunk_0007's text supports the claim verbatim."
+  },
+  {
+    "question_id": "Q38",
+    "question": "لیکچرر کے مطابق حج پر جانے کے حوالے سے لوگوں کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0007"
+    ],
+    "note": "Cross-lingual variant of Q37 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 after confirming all 3 models gave correct_grounded answers citing chunk_0007 (the underlying transcript is English only; models translated to/from Urdu)."
+  },
+  {
+    "question_id": "Q57",
+    "question": "According to the lecturer, which four things do we ask Allah for in the beautiful du'a he introduces at the start of the course?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0010"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 29-31: barakat/blessings, rahmat/mercy, fadl/favor, and rizq/sustenance, from the dua 'Allahumma-bsut alayna min barakatika, wa rahmatika, wa fadlika, wa rizqika'). gold_chunk_ids backfilled 2026-09-24 after confirming all 3 models gave correct_grounded answers citing chunk_0010, and verified chunk_0010's text supports the claim verbatim."
+  },
+  {
+    "question_id": "Q58",
+    "question": "لیکچرر کے مطابق کورس کے آغاز میں سکھائی جانے والی دعا میں اللہ تعالیٰ سے کون سی چار چیزیں مانگی گئی ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0010"
+    ],
+    "note": "Cross-lingual variant of Q57 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 after confirming all 3 models gave correct_grounded answers citing/matching chunk_0010 (one model's citation tag had a typo causing the automated parser to miss it, but content was verified directly against chunk_0010 text)."
+  },
+  {
+    "question_id": "Q39",
+    "question": "According to the lecturer, what are the three conditions of 'istita'ah' (ability) that make Hajj mandatory on a person?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "note": "Fact verified directly against the transcript (segments 200-209: financial means to travel and support family left behind, safety of the journey, and physical capability). gold_chunk_ids backfilled 2026-09-24: meta-llama-3.1-8b-instruct@q6_k gave a correct_grounded answer to the Urdu variant (Q40) citing chunk_0061 (financial means: \"It has three understandings...travel expenses...enough expenses for the people he's leaving behind\") and chunk_0063 (\"safe way, when a person's life and property is safe...physical capability is also one of the conditions\"); both chunks were read and confirmed to support the correct 3-condition answer. Applied to Q39 as well since it is the identical underlying fact in the other language (same source chunks) even though no model scored correct_grounded on the English phrasing itself."
+  },
+  {
+    "question_id": "Q40",
+    "question": "لیکچرر کے مطابق 'استطاعت' کی وہ تین شرائط کیا ہیں جن کی بنا پر کسی شخص پر حج فرض ہوتا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "note": "Cross-lingual variant of Q39 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 from meta-llama-3.1-8b-instruct@q6_k's correct_grounded answer (citing chunk_0061 and chunk_0063), verified against source text."
+  },
+  {
+    "question_id": "Q59",
+    "question": "According to the lecturer, what are the first four points given to explain why Makkah is a place of safety and security?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 169-186: (1) sacred until the Day of Resurrection, (2) its thorny bushes/game/fallen items must not be disturbed, (3) whoever leaves for Hajj is under Allah's guarantee, (4) safety from Dajjal's fitna). gold_chunk_ids left empty after the 2026-09-24 review: no model produced a correct_grounded answer to backfill from. The retrieval/rerank pipeline sent chunks 0051, 0055, 0042, 0048 for this question, but the actual points 2 and 3 live in chunks 0052-0054 (never retrieved) — chunk_0051 covers point 1 and chunk_0055 covers point 4 correctly, while chunks 0042/0048 belong to an unrelated 'ayat bayyinat' (six proofs) passage the lecturer gives elsewhere and do not support points 2/3 of this list. Every model either left points 2/3 unanswered (gemma, English) or fabricated them from chunks 0042/0048 (all other cases; graded hallucinated). Correct gold chunks for a future pipeline run should be 0051, 0052, 0053, 0054, 0055 — left unset because no model cited them in a correct answer."
+  },
+  {
+    "question_id": "Q60",
+    "question": "لیکچرر کے مطابق مکہ کے امن و سلامتی کا مقام ہونے کی وہ پہلی چار وجوہات کیا ہیں جو بتائی گئی ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q59 (same content, reverse language direction). Left empty for the same reason as Q59 — see that note; no model gave a correct_grounded answer to backfill from, and the true supporting chunks (0052-0054) were never retrieved for either language variant."
+  },
+  {
+    "question_id": "Q41",
+    "question": "According to the lecturer, what are the three months during which Hajj takes place?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "note": "Fact verified directly against the transcript (segment 323: Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah, citing the ayah 'al-Hajju ashhurun ma'lumat'). gold_chunk_ids backfilled 2026-09-24 after grading the RQ5 answers: qwen3.5-9b-mlx and gemma-4-e4b-it both gave correct_grounded answers citing chunk_0084 (\"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah\") and chunk_0087 (\"it should be Shawwal, Dhul-Qa'dah, or Dhul-Hijjah\"); both chunk texts verified to state all three months."
+  },
+  {
+    "question_id": "Q42",
+    "question": "لیکچرر کے مطابق حج کے تین مہینے کون سے ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "note": "Cross-lingual variant of Q41 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 (same evidence as Q41: all three models' Urdu answers that cited these chunks were correct_grounded)."
+  },
+  {
+    "question_id": "Q61",
+    "question": "According to the lecturer, what are the three types of Hajj mentioned in the lecture?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segment 350: Tamattu', Qiran, and Ifrad). gold_chunk_ids backfilled 2026-09-24 after grading the RQ5 answers: qwen3.5-9b-mlx and gemma-4-e4b-it both gave correct_grounded answers citing only chunk_0091, verified to state \"There are three types of Hajj: Tamattu', Qiran, and Ifrad\" verbatim. (meta-llama-3.1-8b-instruct@q6_k also cited chunk_0091 correctly but additionally hallucinated a Qiran attribution to chunk_0084, which does not mention hajj types at all -- graded partially_correct, not used as gold evidence.)"
+  },
+  {
+    "question_id": "Q62",
+    "question": "لیکچرر کے مطابق حج کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "note": "Cross-lingual variant of Q61 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 (same evidence as Q61: all three models' Urdu answers cited chunk_0091 and were correct_grounded)."
+  },
+  {
+    "question_id": "Q5",
+    "question": "What does the lecturer say a pilgrim should do if they break a bone or become lame while in ihram?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L04_chunk_0033"
+    ],
+    "note": "Native-language (English) question, English-dominant lecture."
+  },
+  {
+    "question_id": "Q20",
+    "question": "لیکچرر کے مطابق اگر کوئی حاجی احرام کی حالت میں اپنی ہڈی توڑ بیٹھے یا لنگڑا ہو جائے تو اسے کیا کرنا چاہیے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L04_chunk_0033"
+    ],
+    "note": "Cross-lingual variant of Q5 (same content, same gold chunk, reverse language direction)."
+  },
+  {
+    "question_id": "Q8",
+    "question": "What does the lecturer say about the Quranic concept of shifa (healing) and its six occurrences in the Qur'an?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - this lecture is about Hajj rulings, not the shifa/healing topic covered in SKD_0001/SKD_0002. Refusal test."
+  },
+  {
+    "question_id": "Q23",
+    "question": "اس لیکچر میں قرآن میں لفظ 'شفا' کے چھ مقامات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q8 (same deliberately-unanswerable question, reverse language direction)."
+  }
+]

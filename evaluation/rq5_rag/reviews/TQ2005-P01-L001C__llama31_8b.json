@@ -1,0 +1,144 @@
+[
+  {
+    "question_id": "Q29",
+    "question": "لیکچر کے لفظی ترجمے کے مطابق سورۃ الفاتحہ کی آیت 'اِیَّاكَ نَعْبُدُ' کا لفظ بہ لفظ ترجمہ کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001C",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001C_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.3333333333333333,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001C_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "[chunk_id=TQ2005-P01-L001C_chunk_0001 lecture_id=TQ2005-P01-L001C start=36.92s end=64.86s]\n«رَبِّ» جو رب ہے، «الْعٰلَمِیْنَ» تمام جہانوں کا، «الرَّحْمٰنِ» بہت مہربان ہے، «الرَّحِیْمِ» نہایت رحم کرنے والا ہے۔ «مٰلِكِ» مالک ہے، «یَوْمِ» دن کا، «الدِّیْنِ» بدلے کے، یعنی قیامت کے۔ «اِیَّاكَ» صرف تیری ہی، «نَعْبُدُ» ہم عبادت کرتے ہیں،\n\nلفظ بہ لفظ ترجمہ یہ ہے: \"جو رب ہے، تمام جہانوں کا، بہت مہربان ہے، نہایت رحم کرنے والا ہے۔ مالک ہے، دن کا بدلے کے (یعنی قیامت کے)۔ صرف تیری ہی، ہم عبادت کرتے ہیں۔\"",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 36.99,
+    "generated_at": "2026-09-23T20:23:11.603459+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001C_chunk_0001, which the model quoted in full: '...«اِیَّاكَ» صرف تیری ہی، «نَعْبُدُ» ہم عبادت کرتے ہیں،'. The model's paraphrase ends with 'صرف تیری ہی، ہم عبادت کرتے ہیں' which correctly matches the source for the specific phrase asked about (Iyyaka na'budu). Note the answer also pads in the preceding Rabb al-Alameen / Maliki Yawmiddin translations from the same chunk, which weren't asked for - unfocused but not incorrect, since the requested fact is present and accurate."
+  },
+  {
+    "question_id": "Q30",
+    "question": "According to the lecture's word-for-word translation, what is the literal meaning given for the phrase 'Iyyaka na'budu' in Surah Al-Fatiha?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001C",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001C_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 2,
+      "sent_hit": true,
+      "sent_precision": 0.3333333333333333,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 22.03,
+    "generated_at": "2026-09-23T20:23:33.638484+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "Verified via the raw trace (artifacts/rag/traces/TQ2005-P01-L001C/20260923T202355171409Z.json) that all 3 chunks, including chunk_0001 ('«اِیَّاكَ» صرف تیری ہی، «نَعْبُدُ» ہم عبادت کرتے ہیں،' - the exact answer to this question), were retrieved and sent to the model (chunks_sent_to_model lists chunk_0002, chunk_0001, chunk_0000). Despite having the correct answer in context (and despite this model answering the Urdu-language twin question Q29 correctly using the same chunk), it refused this English-language question with 'This lecture does not provide enough information to answer that question.' This is answerable and the model had the evidence - a pure generation failure, not a retrieval failure. Graded incorrect (not correctly_refused, since Q30 is a genuinely answerable question, unlike Q79/Q80)."
+  },
+  {
+    "question_id": "Q79",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001C",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 9.81,
+    "generated_at": "2026-09-23T20:23:43.446631+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Checked all 3 chunks of the lecture (entire lecture sent to model) - it is a word-by-word Al-Fatiha translation drill with no Hajj/Umrah content. Model correctly refused with the exact required string, no citation. Correct refusal of a genuinely unanswerable question."
+  },
+  {
+    "question_id": "Q80",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001C",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 11.71,
+    "generated_at": "2026-09-23T20:23:55.161452+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Same check as Q79 - entire lecture (all 3 chunks) sent to model, no Hajj/Umrah content exists in it. Model correctly refused, matching the required refusal string with no citation, no fabricated content. Correct refusal."
+  }
+]

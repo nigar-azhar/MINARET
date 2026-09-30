@@ -1,0 +1,146 @@
+[
+  {
+    "question_id": "Q13",
+    "question": "According to the lecture, are both medicine (dawa) and supplication (dua) described as beneficial for healing, or only one of them?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0002",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0002_chunk_0011"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0002_chunk_0011"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, both medicine (دوا) and supplication (دعا) are described as beneficial for healing. \n\n[chunk_id=SKD_U001_S001_0002_chunk_0011 lecture_id=SKD_U001_S001_0002 start=364.76s end=394.76s]\nٹھیک ہے یعنی دوا بھی ہوتی ہے اور دعا بھی ہوتی ہے دونوں چیزیں شفا کے لئے فائدہ مند ہوتی ہیں",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 29.65,
+    "generated_at": "2026-09-23T20:39:57.375631+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Answer cites only gold chunk_0011 and reproduces it verbatim (\"ٹھیک ہے یعنی دوا بھی ہوتی ہے اور دعا بھی ہوتی ہے دونوں چیزیں شفا کے لئے فائدہ مند ہوتی ہیں\" - exact match to chunks.json text for SKD_U001_S001_0002_chunk_0011, 364.76-394.76s). citation_precision=1.0, recall=1.0 per the automatic scorer. Directly and fully supports 'both dawa and dua are beneficial'."
+  },
+  {
+    "question_id": "Q18",
+    "question": "لیکچر کے مطابق کیا دوا اور دعا دونوں شفا کے لیے فائدہ مند بتائی گئی ہیں، یا صرف ایک؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0002",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0002_chunk_0011"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0002_chunk_0011"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "دوا اور دعا دونوں شفا کے لیے فائدہ مند ہوتی ہیں۔ \n\nٹھیک ہے یعنی دوا بھی ہوتی ہے اور دعا بھی ہوتی ہے دونوں چیزیں شفا کے لئے فائدہ مند ہوتی ہیں (chunk_id=SKD_U001_S001_0002_chunk_0011)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 29.32,
+    "generated_at": "2026-09-23T20:40:26.695931+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Urdu pair of Q13, same single citation to chunk_0011, verbatim quote matches source exactly (checked above). Correct and fully grounded."
+  },
+  {
+    "question_id": "Q14",
+    "question": "What does the lecturer say about the rituals of Hajj, such as Ihram or the stoning at Jamarat?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0002",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 21.95,
+    "generated_at": "2026-09-23T20:40:48.647783+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Same verification as other models (no Hajj-ritual terms anywhere in the 78-chunk index for this lecture). Correct refusal, no fabricated content."
+  },
+  {
+    "question_id": "Q19",
+    "question": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0002",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 28.33,
+    "generated_at": "2026-09-23T20:41:16.981729+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Urdu pair of Q14; same verification, correct refusal."
+  }
+]

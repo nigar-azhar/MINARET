@@ -1,0 +1,17 @@
+# CQ16 -- What does Tabari's Tafsir (an independent external KG) say about a verse MINARET cites?
+# Two-step federated query: step 1 runs on minaret_combined.ttl, step 2 on the external
+# SemanticTafsir KG (not bundled). compute.py runs step 1 only.
+# Paper-reported result: real Tabari commentary text is returned, e.g. (Section `S_001.004`, on the verse fragment for "Ar-Rahman Ar-Raheem"): *"Abu Ja'far said: the explanation of the interpretation of 'Ar-Rahman Ar-Raheem' already passed in the interpretation of 'Bismillah...'"* (Commentary `C_001_S_001.004`). This is the
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+# Step 1 -- against minaret_combined.ttl: get the external Verse URI for Surah 1, Verse 1
+SELECT ?tafsirVerse WHERE {
+  ?a minaret:surahNumber 1 ; minaret:verseNumber 1 ; skos:exactMatch ?tafsirVerse .
+  FILTER(STRSTARTS(STR(?tafsirVerse), STR(tafsir:)))
+}
+# -> tafsir:V001_001

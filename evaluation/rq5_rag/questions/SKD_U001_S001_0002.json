@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q13",
+    "question": "According to the lecture, are both medicine (dawa) and supplication (dua) described as beneficial for healing, or only one of them?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["SKD_U001_S001_0002_chunk_0011"],
+    "note": "Cross-lingual: English question referencing two specific Arabic/Urdu terms (dawa vs dua) that the RQ1 residual-error analysis flagged as an easily-confused minimal pair - tests whether retrieval and the model correctly distinguish them rather than conflating."
+  },
+  {
+    "question_id": "Q18",
+    "question": "لیکچر کے مطابق کیا دوا اور دعا دونوں شفا کے لیے فائدہ مند بتائی گئی ہیں، یا صرف ایک؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["SKD_U001_S001_0002_chunk_0011"],
+    "note": "Cross-lingual variant of Q13 (same content, same gold chunk, reverse language direction)."
+  },
+  {
+    "question_id": "Q14",
+    "question": "What does the lecturer say about the rituals of Hajj, such as Ihram or the stoning at Jamarat?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - this lecture is about the Quranic concept of shifa, not Hajj rites. Refusal test."
+  },
+  {
+    "question_id": "Q19",
+    "question": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q14 (same deliberately-unanswerable question, reverse language direction)."
+  }
+]

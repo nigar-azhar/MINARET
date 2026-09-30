@@ -1,0 +1,14 @@
+Loaded quran.csv: 6236 ayat.
+Loaded duas.csv: 1427 duas.
+Loaded 84 resolved SemanticHadith blocks.
+Loaded topic registry: 100 topics from prior series.
+Hadith Ahmad_24392: no SemanticHadith match (collection not in KG dump) -- stays unresolved (reference + expandedReference only).
+Hadith Ahmad_8952: no SemanticHadith match (collection not in KG dump) -- stays unresolved (reference + expandedReference only).
+Hadith Ahmad_24427: no SemanticHadith match (collection not in KG dump) -- stays unresolved (reference + expandedReference only).
+Topic dedup uses difflib lexical similarity as a placeholder for the paper's BGE-M3 embedding approach (no embedding model available). tau=0.6 on normalized-name ratio. All candidates logged to E3 as 'proposed'.
+Topic dedup: 30 topic instances, 1 merge candidates flagged (1 cross-series), 2 concept-mapping candidates flagged.
+Topic concept mapping ACCEPTED: 'The Hereafter (Akhirah)' closeMatch hadith:ArticlesOfFaith.
+Topic concept mapping ACCEPTED: 'The Scales of Judgment / Mizan' closeMatch hadith:ArticlesOfFaith.
+Wrote artifacts/kg/instances/HUSN_AKHL.ttl -- 9276 triples.
+Wrote artifacts/kg/series/HUSN_AKHL_topic_proposals.json -- 3 records.
+Wrote artifacts/kg/series/HUSN_AKHL_topics.md.

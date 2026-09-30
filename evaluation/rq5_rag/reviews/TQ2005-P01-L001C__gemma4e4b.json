@@ -1,0 +1,146 @@
+[
+  {
+    "question_id": "Q29",
+    "question": "لیکچر کے لفظی ترجمے کے مطابق سورۃ الفاتحہ کی آیت 'اِیَّاكَ نَعْبُدُ' کا لفظ بہ لفظ ترجمہ کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001C",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001C_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.3333333333333333,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001C_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچر کے لفظی ترجمے کے مطابق 'اِیَّاكَ نَعْبُدُ' کا ترجمہ یہ ہے:\n*   «اِیَّاكَ» = صرف تیری ہی\n*   «نَعْبُدُ» = ہم عبادت کرتے ہیں\n\n(TQ2005-P01-L001C_chunk_0001)",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1114,
+    "elapsed_seconds": 39.56,
+    "generated_at": "2026-09-23T19:54:03.282467+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001C_chunk_0001: '«اِیَّاكَ» صرف تیری ہی، «نَعْبُدُ» ہم عبادت کرتے ہیں،'. Model's answer '«اِیَّاكَ» = صرف تیری ہی / «نَعْبُدُ» = ہم عبادت کرتے ہیں' matches the source verbatim, correctly cited to chunk_0001. Entire 3-chunk lecture was sent to the model."
+  },
+  {
+    "question_id": "Q30",
+    "question": "According to the lecture's word-for-word translation, what is the literal meaning given for the phrase 'Iyyaka na'budu' in Surah Al-Fatiha?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001C",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001C_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 2,
+      "sent_hit": true,
+      "sent_precision": 0.3333333333333333,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001C_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, the phrase 'Iyyaka na'budu' literally means \"اِیَّاكَ صرف تیری ہی، «نَعْبُدُ» ہم عبادت کرتے ہیں\" (Iyyaka sirf teri hi, hum ibadat karte hain).\n\n[chunk_id=TQ2005-P01-L001C_chunk_0001]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1329,
+    "elapsed_seconds": 14.69,
+    "generated_at": "2026-09-23T19:54:17.970360+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001C_chunk_0001: '«اِیَّاكَ» صرف تیری ہی، «نَعْبُدُ» ہم عبادت کرتے ہیں،'. Model reproduced the correct Urdu phrase plus a romanized transliteration ('Iyyaka sirf teri hi, hum ibadat karte hain') and cited chunk_0001 correctly. Content is factually accurate and consistent with the Q29 Urdu answer, though it stops short of giving a plain-English gloss ('Only You we worship') - a minor style gap, not a correctness error, since the transliterated meaning conveyed is accurate."
+  },
+  {
+    "question_id": "Q79",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001C",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1330,
+    "elapsed_seconds": 11.1,
+    "generated_at": "2026-09-23T19:54:29.072648+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Checked all 3 chunks of the lecture (entire lecture sent to model) - it is a word-by-word Al-Fatiha translation drill with no Hajj/Umrah content. Model correctly refused with the exact required string, no citation. Correct refusal of a genuinely unanswerable question."
+  },
+  {
+    "question_id": "Q80",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001C",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "This lecture does not provide enough information to answer that question.",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1401,
+    "elapsed_seconds": 10.49,
+    "generated_at": "2026-09-23T19:54:39.561243+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Same check as Q79 - entire lecture (all 3 chunks) sent to model, no Hajj/Umrah content exists in it. Model correctly refused, matching the required refusal string with no citation, no fabricated content. Correct refusal."
+  }
+]

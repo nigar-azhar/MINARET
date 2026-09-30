@@ -1,0 +1,162 @@
+{
+  "per_recording": {
+    "TQ2005-P01-L001A": {
+      "series": "TQ2005",
+      "audio_minutes": 18.9,
+      "review_hours": 1.75,
+      "rtf": 5.555555555555555,
+      "review_min_per_audio_hour": 333.3333333333333
+    },
+    "TQ2005-P01-L001B": {
+      "series": "TQ2005",
+      "audio_minutes": 28.6,
+      "review_hours": 2.0,
+      "rtf": 4.195804195804196,
+      "review_min_per_audio_hour": 251.74825174825176
+    },
+    "TQ2005-P01-L001C": {
+      "series": "TQ2005",
+      "audio_minutes": 1.8,
+      "review_hours": 0.25,
+      "rtf": 8.333333333333332,
+      "review_min_per_audio_hour": 499.99999999999994
+    },
+    "TQ2005-P01-L001D": {
+      "series": "TQ2005",
+      "audio_minutes": 13.7,
+      "review_hours": 0.75,
+      "rtf": 3.2846715328467155,
+      "review_min_per_audio_hour": 197.08029197080293
+    },
+    "TQ2005-P01-L001E": {
+      "series": "TQ2005",
+      "audio_minutes": 24.4,
+      "review_hours": 1.25,
+      "rtf": 3.073770491803279,
+      "review_min_per_audio_hour": 184.42622950819674
+    },
+    "TQ2005-P01-L001F": {
+      "series": "TQ2005",
+      "audio_minutes": 40.4,
+      "review_hours": 2.0,
+      "rtf": 2.9702970297029703,
+      "review_min_per_audio_hour": 178.21782178217822
+    },
+    "HajjJourney2022Eng-L01": {
+      "series": "HajjJourney2022Eng",
+      "audio_minutes": 55.7,
+      "review_hours": 5.0,
+      "rtf": 5.385996409335727,
+      "review_min_per_audio_hour": 323.1597845601436
+    },
+    "HajjJourney2022Eng-L02": {
+      "series": "HajjJourney2022Eng",
+      "audio_minutes": 60.2,
+      "review_hours": 4.5,
+      "rtf": 4.485049833887043,
+      "review_min_per_audio_hour": 269.10299003322257
+    },
+    "HajjJourney2022Eng-L03": {
+      "series": "HajjJourney2022Eng",
+      "audio_minutes": 58.2,
+      "review_hours": 4.25,
+      "rtf": 4.381443298969072,
+      "review_min_per_audio_hour": 262.8865979381443
+    },
+    "HajjJourney2022Eng-L04": {
+      "series": "HajjJourney2022Eng",
+      "audio_minutes": 56.0,
+      "review_hours": 4.0,
+      "rtf": 4.285714285714286,
+      "review_min_per_audio_hour": 257.1428571428571
+    },
+    "SKD_U001_S001_0001": {
+      "series": "SKD2025",
+      "audio_minutes": 47.4,
+      "review_hours": 6.25,
+      "rtf": 7.9113924050632916,
+      "review_min_per_audio_hour": 474.6835443037975
+    },
+    "SKD_U001_S001_0002": {
+      "series": "SKD2025",
+      "audio_minutes": 45.4,
+      "review_hours": 5.5,
+      "rtf": 7.268722466960353,
+      "review_min_per_audio_hour": 436.1233480176212
+    },
+    "SKD_U001_S001_0003": {
+      "series": "SKD2025",
+      "audio_minutes": 45.6,
+      "review_hours": 4.75,
+      "rtf": 6.25,
+      "review_min_per_audio_hour": 375.0
+    },
+    "SKD_U001_S001_0004": {
+      "series": "SKD2025",
+      "audio_minutes": 44.2,
+      "review_hours": 4.25,
+      "rtf": 5.769230769230769,
+      "review_min_per_audio_hour": 346.15384615384613
+    },
+    "HEA-00-1A": {
+      "series": "HEA (HUSN_AKHL)",
+      "audio_minutes": 52.2,
+      "review_hours": 5.75,
+      "rtf": 6.609195402298851,
+      "review_min_per_audio_hour": 396.55172413793105
+    },
+    "HEA-01-1A": {
+      "series": "HEA (HUSN_AKHL)",
+      "audio_minutes": 58.4,
+      "review_hours": 5.25,
+      "rtf": 5.3938356164383565,
+      "review_min_per_audio_hour": 323.6301369863014
+    },
+    "HEA-02-1A": {
+      "series": "HEA (HUSN_AKHL)",
+      "audio_minutes": 60.4,
+      "review_hours": 5.0,
+      "rtf": 4.966887417218543,
+      "review_min_per_audio_hour": 298.0132450331126
+    },
+    "HEA-03-1A": {
+      "series": "HEA (HUSN_AKHL)",
+      "audio_minutes": 44.8,
+      "review_hours": 3.5,
+      "rtf": 4.687500000000001,
+      "review_min_per_audio_hour": 281.25000000000006
+    }
+  },
+  "by_series": {
+    "TQ2005": {
+      "audio_minutes": 127.80000000000001,
+      "review_hours": 8.0,
+      "rtf": 3.7558685446009386,
+      "review_min_per_audio_hour": 225.35211267605632
+    },
+    "HajjJourney2022Eng": {
+      "audio_minutes": 230.10000000000002,
+      "review_hours": 17.75,
+      "rtf": 4.628422425032594,
+      "review_min_per_audio_hour": 277.7053455019556
+    },
+    "SKD2025": {
+      "audio_minutes": 182.60000000000002,
+      "review_hours": 20.75,
+      "rtf": 6.818181818181817,
+      "review_min_per_audio_hour": 409.090909090909
+    },
+    "HEA (HUSN_AKHL)": {
+      "audio_minutes": 215.8,
+      "review_hours": 19.5,
+      "rtf": 5.421686746987952,
+      "review_min_per_audio_hour": 325.30120481927713
+    },
+    "ALL": {
+      "audio_minutes": 756.3,
+      "review_hours": 66.0,
+      "rtf": 5.236017453391512,
+      "review_min_per_audio_hour": 314.16104720349074
+    }
+  }
+}

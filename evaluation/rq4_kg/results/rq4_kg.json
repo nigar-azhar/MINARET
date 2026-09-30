@@ -1,0 +1,458 @@
+{
+  "statistics": {
+    "structure": {
+      "ontology_classes": 18,
+      "object_properties": 32,
+      "owl_inverseOf_axioms": 16,
+      "datatype_properties": 43,
+      "class_hierarchy_depth": 0,
+      "schema_triples": 401
+    },
+    "knowledge_graph": {
+      "total_triples": 54388,
+      "total_individuals": 7174,
+      "classes_populated": "18 / 18",
+      "instances_per_class": {
+        "TranscriptSegment": 5517,
+        "SegmentGroup": 546,
+        "VerseOccurrence": 344,
+        "Heading": 138,
+        "QuranVerse": 136,
+        "Topic": 125,
+        "HadithOccurrence": 123,
+        "Hadith": 89,
+        "DuaOccurrence": 62,
+        "Dua": 26,
+        "Audio": 18,
+        "Recording": 18,
+        "Transcript": 18,
+        "AudioSeries": 4,
+        "Language": 3,
+        "CitationUsage": 3,
+        "Speaker": 2,
+        "CitationExtent": 2
+      }
+    },
+    "internal_links": {
+      "containsSegment": 5558,
+      "hasSegment": 5517,
+      "precedesSegment": 5499,
+      "hasUsageType": {
+        "Quotation": 341,
+        "Translation": 158,
+        "Paraphrase": 30
+      },
+      "hasExtentType": {
+        "CompleteCitation": 260,
+        "PartialCitation": 146
+      },
+      "discussesTopic": 137,
+      "occursIn": 529,
+      "refersTo_QuranVerse": 344,
+      "refersTo_Hadith": 123,
+      "refersTo_Dua": 62,
+      "hasHeading": 138,
+      "hasRecording": 18,
+      "skos_related_topic": 20,
+      "skos_altLabel": 7
+    },
+    "external_links": {
+      "hadith_exactMatch_SemanticHadith": 84,
+      "topic_closeMatch_or_exactMatch_hadith_concepts": 18,
+      "hadith_resolution_rate": "84 / 89",
+      "verse_exactMatch_QuranOntology": 136,
+      "verse_exactMatch_SemanticTafsir": 136
+    },
+    "cross_series_topics": [
+      {
+        "topic": "Calling to Good (Da'wah)",
+        "series": "HAJJLT22, SKD2025, TQ2005"
+      },
+      {
+        "topic": "Remembrance of Allah (Dhikrullah)",
+        "series": "HAJJLT22, SKD2025"
+      },
+      {
+        "topic": "Self-Accountability (Muhasabah)",
+        "series": "HUSN_AKHL, TQ2005"
+      },
+      {
+        "topic": "Sincerity in Worship (Ikhlas)",
+        "series": "HAJJLT22, HUSN_AKHL"
+      },
+      {
+        "topic": "The Hereafter (Akhirah)",
+        "series": "HUSN_AKHL, TQ2005"
+      }
+    ]
+  },
+  "competency_questions": {
+    "CQ01": {
+      "row_count": 5,
+      "rows": [
+        [
+          "1",
+          "1",
+          "بسم الله الرحمن الرحيم",
+          "0.62"
+        ],
+        [
+          "20",
+          "25",
+          "قال رب اشرح لي صدري",
+          "0.62"
+        ],
+        [
+          "20",
+          "25",
+          "قال رب اشرح لي صدري",
+          "0.62"
+        ],
+        [
+          "20",
+          "26",
+          "ويسر لي أمري",
+          "11.08"
+        ],
+        [
+          "20",
+          "27",
+          "واحلل عقدة من لساني",
+          "11.08"
+        ]
+      ]
+    },
+    "CQ02": {
+      "row_count": 5,
+      "rows": [
+        [
+          "SKD2025-0001"
+        ],
+        [
+          "TQ2005-0316"
+        ],
+        [
+          "TQ2005-0317"
+        ],
+        [
+          "TQ2005-0318"
+        ],
+        [
+          "TQ2005-0319"
+        ]
+      ]
+    },
+    "CQ03": {
+      "row_count": 12,
+      "rows": [
+        [
+          "Virtues of Hajj and Umrah",
+          "فضائل حج و عمرہ"
+        ],
+        [
+          "Sincerity in Worship (Ikhlas)",
+          "اخلاص فی العبادت"
+        ],
+        [
+          "Charity (Sadaqah)",
+          "صدقہ"
+        ],
+        [
+          "Ihsan",
+          "ایثار"
+        ],
+        [
+          "Seeking Forgiveness (Istighfar & Tawbah)",
+          "استغفار اور توبہ"
+        ],
+        [
+          "God-Consciousness (Taqwa)",
+          "تقویٰ"
+        ],
+        [
+          "Patience (Sabr)",
+          "صبر"
+        ],
+        [
+          "The Islamic Will (Al-Wasiyyah)",
+          "وصیت نامہ (الوصیہ)"
+        ],
+        [
+          "Supplication in Islam (Ad-Du'a)",
+          "دعا اور تضرع"
+        ],
+        [
+          "Seeking Islamic Knowledge (Talab al-'Ilm)",
+          "طلبِ علمِ دین"
+        ],
+        [
+          "Obligation of Hajj (Fardiyyat al-Hajj)",
+          "فرضیتِ حج"
+        ],
+        [
+          "Hastening to Good Deeds (Al-Mubadarah ilal-Khayrat)",
+          "نیکیوں میں جلدی (المبادرۃ الی الخیرات)"
+        ]
+      ]
+    },
+    "CQ04": {
+      "row_count": 5,
+      "rows": [
+        [
+          "Calling to Good (Da'wah)",
+          "3",
+          "HAJJLT22, SKD2025, TQ2005"
+        ],
+        [
+          "Sincerity in Worship (Ikhlas)",
+          "2",
+          "HAJJLT22, HUSN_AKHL"
+        ],
+        [
+          "Remembrance of Allah (Dhikrullah)",
+          "2",
+          "HAJJLT22, SKD2025"
+        ],
+        [
+          "The Hereafter (Akhirah)",
+          "2",
+          "HUSN_AKHL, TQ2005"
+        ],
+        [
+          "Self-Accountability (Muhasabah)",
+          "2",
+          "HUSN_AKHL, TQ2005"
+        ]
+      ]
+    },
+    "CQ05": {
+      "row_count": 1,
+      "rows": [
+        [
+          "JT_2517",
+          "http://www.semantichadith.com/ontology/JT-HD2517",
+          null
+        ]
+      ]
+    },
+    "CQ06": {
+      "row_count": 11,
+      "rows": [
+        [
+          "Excellence and Rewards of Pilgrimage"
+        ],
+        [
+          "Hastening to Good Deeds (Al-Mubadarah ilal-Khayrat)"
+        ],
+        [
+          "Jurisprudence of Ihsar (Impediments to Pilgrimage)"
+        ],
+        [
+          "Jurisprudence of Pilgrimage Modalities (Fiqh al-Hajj)"
+        ],
+        [
+          "Pilgrimage Modalities and Fasting Expiation (Tamattu' & Siyam)"
+        ],
+        [
+          "Prayer and Discipline (Salah)"
+        ],
+        [
+          "Sacrifice (Hady)"
+        ],
+        [
+          "Sacrificial Animals and Fidya for Violations (Hady & Kaffarah)"
+        ],
+        [
+          "The Covenant of Worship and the Hadith of Dividing Salah (Al-'Ahd)"
+        ],
+        [
+          "Virtues of Hajj and Umrah"
+        ],
+        [
+          "Obligation of Hajj (Fardiyyat al-Hajj)"
+        ]
+      ]
+    },
+    "CQ07": {
+      "row_count": 3,
+      "rows": [
+        [
+          "نَحْمَدُهُ وَنُصَلِّيَ لَا رَسُولِهِ الْكَرِيمِ أَمَّا بَعَدْ فَأَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ رَبِّ شْرَحْلِي صَدْرِي",
+          "0.0"
+        ],
+        [
+          "نَحْمَدُهٗ وَنُصَلِّیْ عَلٰی رَسُوْلِهِ الْكَرِیْمِ، اَمَّا بَعْدُ، فَاَعُوْذُ بِاللّٰهِ مِنَ الشَّیْطٰنِ الرَّجِیْمِ، بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ، رَبِّ اشْرَحْ لِیْ صَدْرِیْ ۟ۙ وَیَسِّرْ لِیْۤ اَمْرِیْ ۟ۙ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْ ۟ۙ یَفْقَهُوْا قَوْلِیْ ۪۟",
+          "0.0"
+        ],
+        [
+          "نَحْمَدُهٗ وَنُصَلِّیْ عَلٰی رَسُوْلِهِ الْكَرِیْمِ۔ اَمَّا بَعْدُ! فَاَعُوْذُ بِاللّٰهِ مِنَ الشَّیْطٰنِ الرَّجِیْمِ، بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ۔ رَبِّ اشْرَحْ لِیْ صَدْرِیْۙ وَیَسِّرْ لِیْۤ اَمْرِیْۙ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْۙ یَفْقَهُوْا قَوْلِیْ۔ ایک دفعہ درود شریف پڑھ لیجیے۔",
+          "0.0"
+        ]
+      ]
+    },
+    "CQ08": {
+      "row_count": 1,
+      "rows": [
+        [
+          "Hajj Journey of a lifetime",
+          "Maryam Saeed"
+        ]
+      ]
+    },
+    "CQ09": {
+      "row_count": 123,
+      "rows": [
+        [
+          "SB_1773"
+        ],
+        [
+          "SN_3140"
+        ],
+        [
+          "SB_6307"
+        ],
+        [
+          "SM_1337"
+        ],
+        [
+          "SM_1337"
+        ],
+        [
+          "AD_1721"
+        ],
+        [
+          "Ahmad_2867"
+        ],
+        [
+          "Ahmad_2867"
+        ],
+        [
+          "AD_1732"
+        ],
+        [
+          "JT_810"
+        ],
+        [
+          "AD_1798"
+        ],
+        [
+          "SM_520"
+        ],
+        [
+          "IbnMajah_2898"
+        ],
+        [
+          "SM_1337"
+        ],
+        [
+          "SM_1348"
+        ],
+        [
+          "SB_3364"
+        ],
+        [
+          "JT_960"
+        ],
+        [
+          "SB_1865"
+        ],
+        [
+          "SB_2860"
+        ],
+        [
+          "SB_1562"
+        ]
+      ],
+      "by_collection": {
+        "SB": 35,
+        "JT": 34,
+        "SM": 24,
+        "AD": 15,
+        "Ahmad": 9,
+        "IM": 3,
+        "IbnMajah": 2,
+        "SN": 1
+      }
+    },
+    "CQ10": {
+      "row_count": 5,
+      "rows": [
+        [
+          "QuranicDua-08",
+          "O My Lord, expand for me my chest. And ease for me my task. And untie the knot from my tongue. That they may understand my speech."
+        ],
+        [
+          "SH-ShifaDuas-GoodExpectations-13",
+          "And never have I been unhappy in my supplication to You, my Lord."
+        ],
+        [
+          "QuranicDua-46",
+          "Indeed, adversity has touched me, and you are the most merciful of the merciful."
+        ],
+        [
+          "QuranicDua-47",
+          "There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers."
+        ],
+        [
+          "QuranicDua-35",
+          "Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers."
+        ]
+      ]
+    },
+    "CQ11": {
+      "row_count": 1,
+      "rows": [
+        [
+          "18",
+          "18",
+          "18"
+        ]
+      ]
+    },
+    "CQ12": {
+      "row_count": 1,
+      "rows": [
+        [
+          "510"
+        ]
+      ]
+    },
+    "CQ13": {
+      "row_count": 2,
+      "rows": [
+        [
+          "Quotation"
+        ],
+        [
+          "Quotation"
+        ]
+      ]
+    },
+    "CQ14": {
+      "row_count": 1,
+      "rows": [
+        [
+          "اشْرَحْ لِیْ صَدْرِیْ وَیَسِّرْ لِیْۤ اَمْرِیْ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْ یَفْقَهُوْا قَوْلِیْ۔"
+        ]
+      ]
+    },
+    "CQ15": {
+      "row_count": 1,
+      "rows": [
+        [
+          "20",
+          "25",
+          "http://www.semantictafsir.com/ontology/V020_025"
+        ]
+      ]
+    },
+    "CQ16": {
+      "row_count": 1,
+      "rows": [
+        [
+          "http://www.semantictafsir.com/ontology/V001_001"
+        ]
+      ]
+    }
+  }
+}

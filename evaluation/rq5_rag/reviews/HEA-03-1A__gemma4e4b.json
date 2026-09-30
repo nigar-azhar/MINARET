@@ -1,0 +1,157 @@
+[
+  {
+    "question_id": "Q53",
+    "question": "لیکچرر کے مطابق روایت میں پہاڑ کے اپنی جگہ سے ہلنے اور انسان کے اپنی بری عادت چھوڑنے کے بارے میں کیا تقابل بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-03-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0009"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق، اگر کوئی یہ کہے کہ پہاڑ اپنی جگہ سے ٹل گیا ہے یا ہل گیا ہے تو اسے مان لیا جائے، لیکن اگر کوئی یہ کہے کہ اس نے اپنی عادت چھوڑ دی ہے تو اسے نہیں ماننا چاہیے۔ بری عادات کو ترک کرنا آسان کام نہیں ہے؛ یہ پہاڑ کو اپنی جگہ سے ہلا دینے سے بھی زیادہ مشکل ہے۔ اس کی وجہ یہ ہے کہ پہاڑ زمین میں گڑے ہوئے ہیں، جبکہ بری عادات ہماری رگ و پے میں سرایت کر چکی ہیں اور وہ ہماری روح، جسم اور جان کا حصہ بن چکی ہیں۔ [chunk_id=HEA-03-1A_chunk_0009]",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2293,
+    "elapsed_seconds": 28.13,
+    "generated_at": "2026-09-23T20:17:38.970255+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HEA-03-1A_chunk_0009 (same text as verified for qwen35/Q53 above). The model's Urdu answer closely paraphrases the source almost verbatim (mountain moving = believe it, habit abandonment = don't believe it; habit-breaking harder than moving a mountain; mountains embedded in earth vs. habits in veins/soul/body/life) and cites chunk_0009 correctly. No unsupported additions."
+  },
+  {
+    "question_id": "Q54",
+    "question": "According to the narration cited by the lecturer, what comparison is made between a mountain moving from its place and a person abandoning a bad habit?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-03-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0009"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the narration cited by the lecturer, if someone claims that a mountain has shifted or moved from its place, one should believe it; however, if someone claims that a person has abandoned a habit, one should not believe it (HEA-03-1A_chunk_0009). The lecture further explains that abandoning bad habits is more difficult than moving a mountain because while mountains are embedded in the earth, bad habits have permeated and become part of our soul, body, and life (HEA-03-1A_chunk_0009).",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1934,
+    "elapsed_seconds": 16.62,
+    "generated_at": "2026-09-23T20:17:55.586742+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HEA-03-1A_chunk_0009, same source text. English answer is an accurate, faithful translation of the chunk's content, correctly citing chunk_0009 only (no over-citation). Matches source closely."
+  },
+  {
+    "question_id": "Q75",
+    "question": "لیکچرر کے مطابق بغیر کسی وجہ کے گھر کے اچھے بھلے اونٹ کو ذبح کر دینے کی مثال سے 'ظلم' کے بارے میں کیا سمجھایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-03-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0012",
+      "HEA-03-1A_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "لیکچرر کے مطابق، گھر میں اچھا بھلا اونٹ بغیر کسی وجہ کے ذبح کر دینا ظلم ہے (HEA-03-1A_chunk_0013)۔ اس مثال سے یہ سمجھایا گیا ہے کہ ہر وہ کام جو وقت سے پہلے کیا جائے، اس پر بھی ظلم کا اطلاق ہوتا ہے۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1561,
+    "elapsed_seconds": 12.27,
+    "generated_at": "2026-09-23T20:18:07.861776+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HEA-03-1A_chunk_0013 (start 516.46-556.1s), which alone contains both the camel example ('fine camel in the house, slaughtered without reason = zulm on the camel') and the generalization ('anything done before its proper time is zulm'). The model cites only chunk_0013 (not 0012), but 0013 alone fully supports both claims made in the answer, so the citation is accurate and sufficient even though narrower than other models' citations."
+  },
+  {
+    "question_id": "Q76",
+    "question": "According to the lecturer, what does the example of slaughtering a perfectly healthy camel without any reason illustrate about the concept of 'zulm' (injustice)?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-03-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0012",
+      "HEA-03-1A_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0012",
+        "HEA-03-1A_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "Slaughtering a healthy camel without any disease or ailment ('ظَلَمَ الْبَعِيرَ') is defined as committing 'zulm' on the camel [HEA-03-1A_chunk_0012]. This example illustrates that any action performed before its proper time (وقت سے پہلے) falls under the scope of 'zulm' [HEA-03-1A_chunk_0013].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1649,
+    "elapsed_seconds": 12.92,
+    "generated_at": "2026-09-23T20:18:20.781196+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunks 0012 (defines 'ظَلَمَ الْبَعِيرَ' as slaughtering a healthy camel without disease/cause) and 0013 (camel example + 'any action before its proper time is zulm'). English answer accurately states both points and cites both chunks correctly."
+  }
+]

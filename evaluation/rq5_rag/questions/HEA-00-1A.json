@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q47",
+    "question": "روایت کے مطابق حضرت ابو ہریرہ نے یہ حدیث بیان کرتے وقت کیسا جذباتی ردعمل ظاہر کیا؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["HEA-00-1A_chunk_0006", "HEA-00-1A_chunk_0007", "HEA-00-1A_chunk_0008"],
+    "note": "Fact verified directly against the transcript (segments 9-29: while narrating a hadith about the Day of Judgment to Shufi al-Asbahi, Abu Hurairah sobbed/choked and fainted (nashgha) multiple times, growing more severe each time, until the narrator had to hold him up). gold_chunk_ids backfilled 2026-09-24 from correct_grounded answers (gemma-4-e4b-it on Q47/Q48 citing chunks 0006/0007/0008; meta-llama-3.1-8b-instruct@q6_k on Q47 citing 0006/0008) after verifying that the chunk text supports the sobbing/fainting narrative."
+  },
+  {
+    "question_id": "Q48",
+    "question": "According to the narration, how did Abu Hurairah react emotionally while narrating this hadith about the Day of Judgment?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["HEA-00-1A_chunk_0006", "HEA-00-1A_chunk_0007", "HEA-00-1A_chunk_0008"],
+    "note": "Cross-lingual variant of Q47 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 from gemma-4-e4b-it's correct_grounded answer citing chunks 0006/0007/0008, verified against chunk text."
+  },
+  {
+    "question_id": "Q71",
+    "question": "اس حدیث کے مطابق وہ کون سے تین قسم کے لوگ ہیں جن کے اعمال قیامت کے دن مسترد کر دیے جائیں گے کیونکہ انہوں نے وہ اعمال دکھاوے کے لیے کیے تھے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 38-63: the Quran-reciter/qari, the martyr, and the wealthy philanthropist - each did their deed to be praised by people rather than for Allah, so their deeds are rejected and they are the first three whose case is judged on the Day of Judgment). Distinct from Q47/48, which is about Abu Hurairah's reaction, not the hadith's actual content. gold_chunk_ids left empty as of 2026-09-24 grading: no model gave a correct_grounded answer to backfill from - qwen3.5-9b-mlx failed to generate an answer (truncated), gemma-4-e4b-it refused despite the content being retrievable, and meta-llama-3.1-8b-instruct@q6_k hallucinated by misreading three consecutive lines about one man (HEA-00-1A_chunk_0017) as three different people. The real three types span HEA-00-1A_chunk_0011 (intro) through chunk_0017 (qari: 0011-0014, martyr: 0016-0017, philanthropist: 0014-0015); verified against the chunk text, but not set as gold because no model cited them in a correct answer."
+  },
+  {
+    "question_id": "Q72",
+    "question": "According to this hadith, who are the three types of people whose deeds will be rejected on the Day of Judgment because they did them to be seen and praised by others?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q71 (same content, reverse language direction). gold_chunk_ids left empty as of 2026-09-24 grading: best answers (gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) only reached partially_correct, citing HEA-00-1A_chunk_0017 which covers just the martyr/third man and explicitly flagged the other two types as missing rather than fabricating them - not eligible for gold-chunk backfill under the correct_grounded-only rule."
+  }
+]

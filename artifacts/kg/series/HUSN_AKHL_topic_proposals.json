@@ -1,0 +1,34 @@
+[
+  {
+    "type": "topic_merge",
+    "scope": "cross_series",
+    "recordingId_a": "HUSN_AKHL-21591",
+    "topicId_a": "http://minaret-eval.org/ontology#Topic_Self_Accountability_Muhasabah",
+    "name_a": "Self-Accountability (Muhasabah)",
+    "recordingId_b": "TQ2005",
+    "topicId_b": "minaret:Topic_Moral_Example_and_Accountability_Qudwah",
+    "name_b": "Moral Example and Accountability (Qudwah)",
+    "lexicalSimilarity": 0.611,
+    "status": "reject_but_related"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HUSN_AKHL-21590",
+    "topicId": "http://minaret-eval.org/ontology#Topic_The_Hereafter_Akhirah",
+    "name": "The Hereafter (Akhirah)",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:ArticlesOfFaith",
+    "rationale": "keyword heuristic matched on: ['hereafter', 'akhirah']",
+    "status": "accepted"
+  },
+  {
+    "type": "topic_concept_mapping",
+    "recordingId": "HUSN_AKHL-21591",
+    "topicId": "http://minaret-eval.org/ontology#Topic_The_Scales_of_Judgment_Mizan",
+    "name": "The Scales of Judgment / Mizan",
+    "matchType": "closeMatch",
+    "targetConcept": "hadith:ArticlesOfFaith",
+    "rationale": "keyword heuristic matched on: ['hereafter']",
+    "status": "accepted"
+  }
+]

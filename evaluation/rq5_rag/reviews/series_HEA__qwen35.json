@@ -1,0 +1,621 @@
+[
+  {
+    "question_id": "Q47",
+    "question": "روایت کے مطابق حضرت ابو ہریرہ نے یہ حدیث بیان کرتے وقت کیسا جذباتی ردعمل ظاہر کیا؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-00-1A_chunk_0006",
+      "HEA-00-1A_chunk_0007",
+      "HEA-00-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-00-1A_chunk_0006",
+        "HEA-00-1A_chunk_0007",
+        "HEA-00-1A_chunk_0008",
+        "HEA-01-1A_chunk_0038"
+      ],
+      "citation_precision": 0.75,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nروایت کے مطابق حضرت ابو ہریرہ حدیث بیان کرتے وقت بہت زیادہ جذباتی ہو جاتے تھے۔ ان کی محبت اور خوشی اتنی شدید تھی کہ وہ چیخ مار کر لمبی سسکی لیتے ہوئے بے ہوش ہو جاتے تھے اور اپنے چہرے کو پونچھتے تھے۔ وہ خوشی کے ساتھ روتے بھی تھے۔\n\nChunk IDs: HEA-01-1A_chunk_0038, HEA-00-1A_chunk_0007, HEA-00-1A_chunk_0006, HEA-00-1A_chunk_0008",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 12129,
+    "elapsed_seconds": 161.69,
+    "generated_at": "2026-09-24T09:36:54.536387+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Core claim (Abu Hurairah crying out, sobbing, fainting, wiping his face) is accurately grounded in gold chunks HEA-00-1A_chunk_0006/0007/0008. But the added claim \"وہ خوشی کے ساتھ روتے بھی تھے\" (he also cried with joy) draws on HEA-01-1A_chunk_0038, a different lecture's account of an unrelated incident (the milk-sharing story) where Abu Hurairah cried tears of joy in a totally different context. This is series-scope pooling surfacing a superficially similar but contextually distinct chunk from another lecture, and the model presents it as part of the same hadith-narration reaction rather than flagging the discrepancy."
+  },
+  {
+    "question_id": "Q48",
+    "question": "According to the narration, how did Abu Hurairah react emotionally while narrating this hadith about the Day of Judgment?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-00-1A_chunk_0006",
+      "HEA-00-1A_chunk_0007",
+      "HEA-00-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 21657,
+    "elapsed_seconds": 209.13,
+    "generated_at": "2026-09-24T09:40:23.668350+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is essentially blank ('\\n\\n') even though the correct gold chunks (HEA-00-1A_chunk_0006/0007/0008) were retrieved and present in chunks_sent_to_model. finish_reason='length' with reasoning_content_length=21657 confirms this is the known Qwen3.5 blank-answer bug: the whole token budget went to hidden reasoning, leaving nothing for the visible answer. Not a retrieval problem -- the right lecture's chunks were available; generation failed."
+  },
+  {
+    "question_id": "Q71",
+    "question": "اس حدیث کے مطابق وہ کون سے تین قسم کے لوگ ہیں جن کے اعمال قیامت کے دن مسترد کر دیے جائیں گے کیونکہ انہوں نے وہ اعمال دکھاوے کے لیے کیے تھے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 13243,
+    "elapsed_seconds": 167.7,
+    "generated_at": "2026-09-24T09:43:11.373910+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "Model refused ('This lecture does not provide enough information...') despite answerable=true. Retrieved chunks are fragmented: HEA-00-1A_chunk_0017 covers only one of the three \"people whose deeds are rejected\" (the boastful fighter) without naming the other two, plus unrelated chunks pulled in from HEA-03-1A (oppressors having no helper) and HEA-01-1A (the scale/mizan and good character) via series-scope pooling. gold_chunk_ids is empty for this question. Given the retrieved context genuinely lacks the full three-part hadith, the refusal is defensible given the input, but the rubric scores an answerable question with no answer content as incorrect."
+  },
+  {
+    "question_id": "Q72",
+    "question": "According to this hadith, who are the three types of people whose deeds will be rejected on the Day of Judgment because they did them to be seen and praised by others?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 11949,
+    "elapsed_seconds": 170.56,
+    "generated_at": "2026-09-24T09:46:01.937279+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "English twin of Q71, but series-scope retrieval pulled an entirely different and even weaker chunk set for this phrasing: HEA-03-1A oppressor/blackmail chunks, the HEA-01-1A mizan chunk, and HEA-00-1A_chunk_0011, which only introduces the Quran-reciter and the martyr as \"first to be called\" without the riya (showing-off) framing that makes them relevant to this question. This is a clear example of retrieval-scope variance between two phrasings of the same question under series search. Model correctly avoided fabricating an answer from insufficient material, but since answerable=true and the response contains no answer content, graded incorrect."
+  },
+  {
+    "question_id": "Q49",
+    "question": "لیکچرر کے مطابق آئینہ دیکھتے وقت پڑھی جانے والی مسنون دعا کیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-01-1A_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 7,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 3,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 18134,
+    "elapsed_seconds": 219.65,
+    "generated_at": "2026-09-24T09:49:41.595338+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "generated_answer is blank ('\\n\\n') even though the gold chunk (HEA-01-1A_chunk_0002, containing the mirror-dua text) was retrieved and present in chunks_sent_to_model alongside two reinforcing chunks from HEA-00-1A and HEA-02-1A. finish_reason='length', reasoning_content_length=18134 -- the known Qwen3.5 blank-answer bug (hidden reasoning consumed the whole budget). Retrieval was not the problem; generation was."
+  },
+  {
+    "question_id": "Q50",
+    "question": "According to the lecturer, what is the recommended (masnoon) dua to recite when looking in a mirror?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-01-1A_chunk_0002"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 6,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 3,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-00-1A_chunk_0077",
+        "HEA-01-1A_chunk_0002",
+        "HEA-02-1A_chunk_0002",
+        "HEA-02-1A_chunk_0003"
+      ],
+      "citation_precision": 0.25,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided lecture excerpts, the recommended (masnoon) dua to recite when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n(Allahumma kama has-santa khulqee fa-hassin khuluqe)\n\nThe lecturer explains that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror because it is the best time for a person to see their physical appearance (shape and form). The lecturer advises students to write this dua on a small piece of paper and stick it above their mirror so that they can recite it whenever they look at themselves, asking Allah to improve their character (khuluq) just as He has made their physical form beautiful.\n\n**Chunk IDs used:**\n*   HEA-02-1A_chunk_0002\n*   HEA-02-1A_chunk_0003\n*   HEA-01-1A_chunk_0002\n*   HEA-00-1A_chunk_0077\n\n**Explanation:**\n*   **Chunk HEA-01-1A_chunk_0002** states: \"Prophet Muhammad (peace be upon him) used to ask for this for himself while looking in the mirror.\"\n*   **Chunk HEA-02-1A_chunk_0002** provides the Arabic text of the dua and suggests writing it on a paper to stick above the mirror.\n*   **Chunk HEA-02-1A_chunk_0003** emphasizes the importance of acting upon this dua.\n*   **Chunk HEA-00-1A_chunk_0077** provides the Urdu translation and context regarding looking in the mirror.\n\n*(Note: The question asks for the \"masnoon\" dua, which implies a Sunnah practice. While the text explicitly mentions this is the Prophet's habit (\"masnoon\" in Islamic terminology), the provided excerpts describe it as a practice of the Prophet and a recommendation for students to adopt, without explicitly using the word \"masnoon\" in the text itself.)*\n\n**Answer:**\nThe dua is: **\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"** (Allahumma kama has-santa khulqee fa-hassin khuluqe).\n\n**Chunk IDs:** HEA-02-1A_chunk_0002, HEA-01-1A_chunk_0002.\n\n*(Self-Correction/Refinement for strict adherence to \"ONLY the retrieved transcript excerpts\"):*\nThe prompt asks me to answer using ONLY the retrieved transcript excerpts. The word \"masnoon\" (Sunnah) is not explicitly written in the text provided, though it is implied by \"Prophet Muhammad... used to ask\". I should answer based strictly on what the text says: that it is the dua the Prophet used to recite.\n\n**Revised Answer:**\nAccording to the lecturer, the dua that the Prophet Muhammad (peace be upon him) used to recite when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n(Allahumma kama has-santa khulqee fa-hassin khuluqe)\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Reasoning:**\n*   **HEA-01-1A_chunk_0002** states: \"Prophet Muhammad (peace be upon him) used to ask for this for himself while looking in the mirror.\"\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, looking closer at the prompt instructions: \"Cite the chunk id(s) you used.\" and \"If the excerpts do not contain enough information to answer, say exactly...\". The question asks for the \"recommended (masnoon) dua\". The text says it is what the Prophet did. In Islamic context, this makes it masnoon. I will provide the dua text as requested.)*\n\n**Final Answer Formulation:**\nAccording to the lecturer, the dua is: **\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"** (Allahumma kama has-santa khulqee fa-hassin khuluqe).\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\nThe text in **HEA-01-1A_chunk_0002** explicitly states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror. The text in **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Self-Correction on \"masnoon\"):* The prompt asks for the \"recommended (masnoon) dua\". Does the text explicitly call it masnoon? No. It says \"Prophet Muhammad... used to ask\". Does this equate to masnoon? Yes, by definition. But I must be careful not to use outside knowledge if the text doesn't support it. However, identifying a practice of the Prophet as \"masnoon\" is general knowledge about Islamic terminology, but the *fact* that he did it is in the text. I will answer with the dua itself, as that is the core of the question.\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ XULQİY\"** (Note: I should copy the text exactly from the chunk).\n\nCorrect Arabic from **HEA-02-1A_chunk_0002**:\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** mentions that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the full Arabic text of this dua.\n\n*(Wait, I need to check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if the prompt requires me to confirm it is \"masnoon\" based on the text. The text says \"Prophet... used to ask\". It does not use the word masnoon. If I say it is masnoon, am I using outside knowledge? Yes, technically. But the question asks \"what is the recommended (masnoon) dua\". If I just give the dua, it answers the \"what is\" part. The \"(masnoon)\" part might be a hint or a label in the question. I will provide the dua text as that is the factual answer derived from the text.)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically. Scanning... No chunk uses the word masnoon or sunnah explicitly in relation to this dua, other than mentioning the Prophet. I will assume the question implies \"the dua mentioned in the lecture\".)*\n\n**Final Answer:**\nAccording to the lecturer, the dua recited when looking in a mirror is:\n\n**\"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\"**\n\n**Chunk IDs:** HEA-01-1A_chunk_0002, HEA-02-1A_chunk_0002.\n\n**Explanation:**\n*   **HEA-01-1A_chunk_0002** states that the Prophet Muhammad (peace be upon him) used to recite this dua while looking in a mirror.\n*   **HEA-02-1A_chunk_0002** provides the Arabic text of this dua.\n\n*(Wait, I should check if there is any other chunk that mentions \"masnoon\" specifically.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 213.52,
+    "generated_at": "2026-09-24T09:53:15.120298+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English twin of Q49. Series-scope retrieval pulled in three different lectures (HEA-00, HEA-01, HEA-02) that each independently repeat the same mirror-dua teaching, reinforcing rather than confusing the answer. Despite an extremely long, repetitive, self-correcting response (visible reasoning loops since reasoning_content_length=0, finish_reason='length' cutting it off mid-loop), the dua text the model repeatedly settles on -- \"اَللّٰهُمَّ كَمَا حَسَّنْتَ خَلْقِیْ فَحَسِّنْ خُلُقِیْ\" -- matches gold chunk HEA-01-1A_chunk_0002 exactly, and the surrounding explanation (recite while looking in mirror, write it above the mirror) is accurate. Graded correct despite the verbosity."
+  },
+  {
+    "question_id": "Q81",
+    "question": "اس لیکچر میں حج کے مناسک کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 13812,
+    "elapsed_seconds": 173.63,
+    "generated_at": "2026-09-24T09:56:08.741885+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Correctly unanswerable question about Hajj rituals. Series-scope retrieval surfaced only passing mentions of the word \"حج\" (as a list item alongside Namaz/Roza/Zakat) across HEA-00-1A chunks; no lecture in this series actually describes Hajj rituals. Model correctly refused."
+  },
+  {
+    "question_id": "Q82",
+    "question": "What does the lecturer say about the rituals of Hajj in this lecture?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-00-1A_chunk_0032"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question.\n\n**Reasoning:**\nWhile the transcript in chunk `HEA-00-1A_chunk_0032` mentions \"Hajj\" (حج) as one of the rituals taught in the first part of the course (\"نماز روزہ حج زکاة\"), it does not provide any specific details, descriptions, or teachings regarding the rituals of Hajj itself. The text only lists it as a category alongside prayer (Namaz), fasting (Roza), and Zakat. The rest of the provided excerpts discuss a story about lying to God (chunk 0013), reciting Surah Al-Fatiha/Durood Sharif (chunk 0073), and the title of a book on ethics (\"Husn-ul-Khuluq\"). Therefore, there is no information about the specific rituals of Hajj.\n\n**Citation:**\n[chunk_id=HEA-00-1A_chunk_0032] (Mentions the word 'Hajj' only as a list item).\n\n**Answer:**\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 96.81,
+    "generated_at": "2026-09-24T09:57:45.574873+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "English twin of Q81, same conclusion. The model went further and explicitly explained why the one relevant-looking chunk (HEA-00-1A_chunk_0032, which mentions \"حج\" only as a category label alongside prayer/fasting/zakat) doesn't actually describe Hajj rituals, then correctly refused. Well-reasoned refusal."
+  },
+  {
+    "question_id": "Q51",
+    "question": "لیکچرر کے مطابق نرمی کے لیے استعمال ہونے والے عربی لفظ 'رفق' کا مادہ (روٹ) کیا ہے، اور اس سے ملتے جلتے کون سے دوسرے الفاظ بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0006",
+        "HEA-02-1A_chunk_0007",
+        "HEA-02-1A_chunk_0008"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق نرمی کے لیے استعمال ہونے والے عربی لفظ 'رفق' کا مادہ (روٹ) **را، فا، قاف** ہے۔ اس سے ملتے جلتے کچھ دوسرے الفاظ بھی بتائے گئے ہیں جن میں **رفق، رافقہ، رفیق، مرفق اور مرتفق** شامل ہیں۔\n\n[chunk_id=HEA-02-1A_chunk_0006, chunk_id=HEA-02-1A_chunk_0007, chunk_id=HEA-02-1A_chunk_0008]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 8215,
+    "elapsed_seconds": 137.78,
+    "generated_at": "2026-09-23T19:37:48.685543+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0006 (\"روٹ...را، فا، قاف\"), chunk_0007 (\"رافقہ کہتے ہیں لطف و مہربانی کو\"), chunk_0008 (\"رفیق...ساتھی\", \"مرفق...کہنی\", \"مرتفق...وَسَآءَتْ مُرْتَفَقًا\"). Model's root (را،فا،قاف) and full related-word list (رفق، رافقہ، رفیق، مرفق، مرتفق) all match the cited chunks exactly. Complete and accurate. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q52",
+    "question": "According to the lecturer, what is the Arabic root of the word 'rifq' (gentleness), and what related words are given from the same root?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 0.6666666666666666
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0006",
+        "HEA-02-1A_chunk_0008",
+        "HEA-02-1A_chunk_0073"
+      ],
+      "citation_precision": 0.6666666666666666,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided lecture excerpts, here is the answer:\n\n**Arabic Root:**\nThe root of the word **rifq** (نرمی) is given as:\n*   **Raafaa' (را)**\n*   **Faawwala (فا)**\n*   **Qaafaa' (قاف)**\n\n**Related Words from the Same Root:**\nThe lecturer mentions several words derived from this root:\n1.  **Rifq (الرفق):** Defined as gentleness, kindness, and easy behavior.\n2.  **Rafiq (الرفیق):** Defined as a companion or friend, who is described as being gentle and kind.\n3.  **Murfiq (مرفق):** Defined as a crutch or support used for leaning on.\n4.  **Murtafiq (مرتفق):** Mentioned in the Quranic verse \"وَسَآءَتْ مُرْتَفَقًا\" (and it was a good support).\n\n**Citation:**\n*   **Chunk ID HEA-02-1A_chunk_0006:** Contains the definition of the root (Ra, Fa, Qaf) and the meanings of Rifq.\n*   **Chunk ID HEA-02-1A_chunk_0008:** Contains the definitions of Rafiq, Murfiq, and Murtafiq.\n*   **Chunk ID HEA-02-1A_chunk_0073:** Contains the Quranic verse mentioning Allah as \"Rafiq\" (نرمی کرنے والا).\n\n**Source:**\n*   [chunk_id=HEA-02-1A_chunk_0006]\n*   [chunk_id=HEA-02-1A_chunk_0008]\n*   [chunk_id=HEA-02-1A_chunk_0073]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 69.05,
+    "generated_at": "2026-09-23T19:38:57.744639+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant of Q51. Root (Ra,Fa,Qaf) and 3 of the 4 related words (rifq/rafiq/murfiq/murtafiq) correctly sourced from chunk_0006/chunk_0008 (رفیق=companion, مرفق=elbow/support, مرتفق=Quranic term); omits رافقہ (chunk_0007) which was in context but not cited. Minor error: glosses وَسَآءَتْ مُرْتَفَقًا as \"a good support\" when سَآءَتْ actually means bad/evil (chunk_0010 confirms جہنم سَآءَتْ مُرْتَفَقًا = worst abode). Translation slip on a side detail, not the core claim. Core answer still grounded and correct. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q73",
+    "question": "لیکچرر کے مطابق بخاری اور مسلم کی روایت میں مومن کی مثال کس چیز سے دی گئی ہے، اور کیوں؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0010",
+        "HEA-02-1A_chunk_0012"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق بخاری اور مسلم کی روایت میں مومن کی مثال **ایک زرعی پودے** سے دی گئی ہے۔ اس کی وجہ یہ بیان کی گئی ہے کہ دنیا میں کچھ بھی مستحکم یا سموتھ نہیں ہوتا، بلکہ حالات تبدیل ہوتے رہتے ہیں اور ہوائیں کبھی مختلف سمتوں (مشرق، مغرب، شمال، جنوب) سے آتی ہیں۔\n\n[chunk_id=HEA-02-1A_chunk_0010 lecture_id=HEA-02-1A start=354.60s end=413.00s]\n[chunk_id=HEA-02-1A_chunk_0012 lecture_id=HEA-02-1A start=453.62s end=493.24s]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 7959,
+    "elapsed_seconds": 183.73,
+    "generated_at": "2026-09-24T10:00:49.305032+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Correctly identifies the mu'min-as-plant analogy from gold chunks HEA-02-1A_chunk_0010/0012 (Bukhari/Muslim hadith: the believer is compared to an agricultural plant bent by shifting winds, because the world/circumstances are never stable -- winds come from different directions at different times). Series-scope pooling added an unrelated chunk from HEA-01-1A (on good character being the heaviest good deed on the scale) which the model correctly ignored rather than conflating into this answer. Does not incorporate gold chunk 0018's additional theological reasoning (firmness reserved for matters of faith vs. gentleness for worldly interactions), but everything the answer does state is accurately grounded and sufficient to answer the question as asked."
+  },
+  {
+    "question_id": "Q74",
+    "question": "According to the Bukhari and Muslim narration cited by the lecturer, what is the believer compared to, and why?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.3333333333333333
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0018"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided excerpts, here is the answer:\n\nAccording to the lecture, the believer is compared to **a tree** (or a plant that can be uprooted and replanted).\n\n*   **The Comparison:** The lecturer states, \"This example is not given by me, it was given by the Prophet of Allah (PBUH). It is a narration from Bukhari and Muslim.\" The description follows that people would \"uproot it\" (اس کو لٹا دیتے ہیں) and then the believer would come out from it, stand up again (\"پھر کھڑا ہو جاتا ہے\"), and be moved to the other side (\"دوسری طرف سے\").\n*   **The Reason:** The lecturer explains that while humans are given \"stubbornness\" (ضد) and \"strength\" (مضبوطی), these traits are reserved for matters of faith regarding the relationship between man and God (specifically \"God's Oneness\" or **Tawheed**). However, in worldly matters involving other people (like bowing to elders or parents), the believer should be \"soft\" and \"gentle.\" The comparison to a tree that is uprooted but replanted illustrates the believer's resilience and ability to be moved or changed in worldly interactions without breaking their faith, unlike a tree that might die if uprooted.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے...\" (This example is not given by me, it was given by the Prophet of Allah... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side...)\n\n*(Note: The specific word for \"tree\" is not explicitly written in the provided text snippet, but the description of being uprooted and replanted is a standard metaphor for a tree used in this specific Hadith found in Bukhari and Muslim.)*\n\n**Correction based strictly on the provided text:**\nThe provided text **does not explicitly state what object the believer is compared to** (e.g., \"a tree\" or \"grass\"). It only describes the **action**:\n1.  The believer is uprooted (\"اس کو لٹا دیتے ہیں\").\n2.  The believer comes out and stands up again (\"پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے\").\n3.  The believer is moved to the other side (\"پھر دوسری طرف سے\").\n\nTherefore, strictly using **only** the provided text:\nAccording to the Bukhari and Muslim narration cited by the lecturer, the believer is described as being **uprooted** (\"اس کو لٹا دیتے ہیں\") and then **standing up again** or being **moved to the other side** (\"پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے\").\n\n**Why?**\nThe lecturer explains that while humans possess \"stubbornness\" and \"strength,\" these are reserved for the relationship with God (Oneness of God). In worldly matters involving other people, humans are commanded to be \"soft\" and \"gentle.\" The narration illustrates that a believer can be uprooted (moved or changed) in worldly interactions but will not break; they are resilient and can be \"planted\" or placed elsewhere without losing their faith.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے... انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\" (This example is not given by me... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side... God has placed firmness and stubbornness inside humans but for what purpose? In matters of faith.)\n\n**Final Answer:**\nAccording to the provided text, the believer is compared to something that can be **uprooted** and then **re-planted/stands up again**. The reason for this comparison is to illustrate that while humans have \"stubbornness\" and \"strength,\" these are reserved for their relationship with God (Oneness). In worldly matters, believers should be \"soft\" and \"gentle,\" allowing them to be moved or changed in their interactions with others without breaking their faith.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے... انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\" (This example is not given by me, it was given by the Prophet of Allah... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side... God has placed firmness and stubbornness inside humans but for what purpose? In matters of faith.)\n\n**Wait, I must check if the text explicitly says \"tree\".**\nThe text provided in chunk 0018 is: \"...اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے...\" (They uproot it and then he comes out of it so he stands up again, then to the other side).\nIt does **not** contain the word \"tree\" (درخت) or \"grass\" (چمن).\nTherefore, I cannot say it is a tree based *only* on the provided text.\n\n**Revised Answer:**\nAccording to the Bukhari and Muslim narration cited by the lecturer, the believer is compared to something that can be **uprooted** (\"اس کو لٹا دیتے ہیں\") and then **stands up again** or is **moved to the other side** (\"پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے\").\n\n**Why?**\nThe lecturer explains that humans are given \"stubbornness\" (ضد) and \"strength\" (مضبوطی), but these traits are reserved for matters of faith regarding the relationship between man and God (Oneness). In worldly matters involving other people, humans are commanded to be \"soft\" and \"gentle.\" The narration illustrates that a believer can be uprooted (moved or changed) in worldly interactions but will not break; they are resilient and can be placed elsewhere without losing their faith.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے... انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\" (This example is not given by me, it was given by the Prophet of Allah... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side... God has placed firmness and stubbornness inside humans but for what purpose? In matters of faith.)\n\n**Final Check:**\nDoes the text say \"tree\"? No.\nDoes it describe the action of uprooting and replanting? Yes (\"uprooted\", \"comes out\", \"stands up again\").\nDoes it explain the reason? Yes (Stubbornness/Strength is for God; Gentleness is for people).\n\nI will formulate the response based strictly on these points.\n\n**Answer:**\nAccording to the Bukhari and Muslim narration cited by the lecturer, the believer is compared to something that can be **uprooted** (\"اس کو لٹا دیتے ہیں\") and then **stands up again** or is **moved to the other side** (\"پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے\").\n\n**Why?**\nThe lecturer explains that humans are given \"stubbornness\" (ضد) and \"strength\" (مضبوطی), but these traits are reserved for matters of faith regarding the relationship between man and God (Oneness). In worldly matters involving other people, humans are commanded to be \"soft\" and \"gentle.\" The narration illustrates that a believer can be uprooted (moved or changed) in worldly interactions but will not break; they are resilient and can be placed elsewhere without losing their faith.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے... انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\" (This example is not given by me, it was given by the Prophet of Allah... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side... God has placed firmness and stubbornness inside humans but for what purpose? In matters of faith.)\n\n**Wait, one more check.**\nThe prompt asks \"what is the believer compared to\". If I don't know what it's compared to (e.g., a tree), can I answer?\nThe text says \"This example is not given by me...\". It describes the action of uprooting and replanting.\nIf I say \"It is compared to a tree\", that is outside knowledge (though common Islamic knowledge).\nIf I say \"It is compared to something that can be uprooted and replanted\", that is strictly from the text.\nI will stick to the strict interpretation of the provided text.\n\n**Final Answer Formulation:**\nAccording to the Bukhari and Muslim narration cited by the lecturer, the believer is compared to something that can be **uprooted** (\"اس کو لٹا دیتے ہیں\") and then **stands up again** or is **moved to the other side** (\"پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے\").\n\n**Why?**\nThe lecturer explains that humans are given \"stubbornness\" (ضد) and \"strength\" (مضبوطی), but these traits are reserved for matters of faith regarding the relationship between man and God (Oneness). In worldly matters involving other people, humans are commanded to be \"soft\" and \"gentle.\" The narration illustrates that a believer can be uprooted (moved or changed) in worldly interactions but will not break; they are resilient and can be placed elsewhere without losing their faith.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے... انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\" (This example is not given by me, it was given by the Prophet of Allah... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side... God has placed firmness and stubbornness inside humans but for what purpose? In matters of faith.)\n\nThis seems the most accurate and safe answer given the constraint \"ONLY the retrieved transcript excerpts\". The text describes the *action* of uprooting and replanting, but does not explicitly name the object (like \"tree\").\n\n**Wait, looking closer at chunk 0018:**\n\"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے۔ مختلف لوگوں کے رویے اور حالات کیا کرتے ہیں؟ اس کو لٹا دیتے ہیں...\"\n\"اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے...\"\n\"پھر اسی طرح آپ دیکھیے کہ انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\"\n\nThe text describes the *process* of uprooting and replanting. It does not explicitly name the object being compared to (e.g., \"a tree\").\nSo, I must answer based on the description provided in the text.\n\n**Answer:**\nAccording to the Bukhari and Muslim narration cited by the lecturer, the believer is compared to something that can be **uprooted** (\"اس کو لٹا دیتے ہیں\") and then **stands up again** or is **moved to the other side** (\"پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے\").\n\n**Why?**\nThe lecturer explains that humans are given \"stubbornness\" (ضد) and \"strength\" (مضبوطی), but these traits are reserved for matters of faith regarding the relationship between man and God (Oneness). In worldly matters involving other people, humans are commanded to be \"soft\" and \"gentle.\" The narration illustrates that a believer can be uprooted (moved or changed) in worldly interactions but will not break; they are resilient and can be placed elsewhere without losing their faith.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے... انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\" (This example is not given by me, it was given by the Prophet of Allah... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side... God has placed firmness and stubbornness inside humans but for what purpose? In matters of faith.)\n\nThis is the correct approach. I will not mention \"tree\" as it is not in the text.\n\n**Final Answer:**\nAccording to the Bukhari and Muslim narration cited by the lecturer, the believer is compared to something that can be **uprooted** (\"اس کو لٹا دیتے ہیں\") and then **stands up again** or is **moved to the other side** (\"پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے\").\n\n**Why?**\nThe lecturer explains that humans are given \"stubbornness\" (ضد) and \"strength\" (مضبوطی), but these traits are reserved for matters of faith regarding the relationship between man and God (Oneness). In worldly matters involving other people, humans are commanded to be \"soft\" and \"gentle.\" The narration illustrates that a believer can be uprooted (moved or changed) in worldly interactions but will not break; they are resilient and can be placed elsewhere without losing their faith.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے... انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\" (This example is not given by me, it was given by the Prophet of Allah... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side... God has placed firmness and stubbornness inside humans but for what purpose? In matters of faith.)\n\nThis is the final answer. I will write it out clearly.\nWait, I should check if there's any other chunk that mentions the object.\nChunk 0041 talks about bowing to followers and elders.\nChunk 0045 talks about being soft/humble (Azil) for believers and hard for disbelievers, citing Quran.\nChunk 0040 talks about \"Rafq\" (gentleness) and the verse from Surah Ash-Shu'ara.\n\nNone of these mention the object of comparison for the Bukhari/Muslim narration (which is in chunk 0018).\nSo, sticking to the description of uprooting/replanting is the only valid answer based on the text.\n\n**Final Answer:**\nAccording to the Bukhari and Muslim narration cited by the lecturer, the believer is compared to something that can be **uprooted** (\"اس کو لٹا دیتے ہیں\") and then **stands up again** or is **moved to the other side** (\"پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے\").\n\n**Why?**\nThe lecturer explains that humans are given \"stubbornness\" (ضد) and \"strength\" (مضبوطی), but these traits are reserved for matters of faith regarding the relationship between man and God (Oneness). In worldly matters involving other people, humans are commanded to be \"soft\" and \"gentle.\" The narration illustrates that a believer can be uprooted (moved or changed) in worldly interactions but will not break; they are resilient and can be placed elsewhere without losing their faith.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے... انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\" (This example is not given by me, it was given by the Prophet of Allah... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side... God has placed firmness and stubbornness inside humans but for what purpose? In matters of faith.)\n\nThis is the final answer. I will write it out clearly.\nWait, I should check if there's any other chunk that mentions the object.\nChunk 0041 talks about bowing to followers and elders.\nChunk 0045 talks about being soft/humble (Azil) for believers and hard for disbelievers, citing Quran.\nChunk 0040 talks about \"Rafq\" (gentleness) and the verse from Surah Ash-Shu'ara.\n\nNone of these mention the object of comparison for the Bukhari/Muslim narration (which is in chunk 0018).\nSo, sticking to the description of uprooting/replanting is the only valid answer based on the text.\n\n**Final Answer:**\nAccording to the Bukhari and Muslim narration cited by the lecturer, the believer is compared to something that can be **uprooted** (\"اس کو لٹا دیتے ہیں\") and then **stands up again** or is **moved to the other side** (\"پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے\").\n\n**Why?**\nThe lecturer explains that humans are given \"stubbornness\" (ضد) and \"strength\" (مضبوطی), but these traits are reserved for matters of faith regarding the relationship between man and God (Oneness). In worldly matters involving other people, humans are commanded to be \"soft\" and \"gentle.\" The narration illustrates that a believer can be uprooted (moved or changed) in worldly interactions but will not break; they are resilient and can be placed elsewhere without losing their faith.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے... انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\" (This example is not given by me, it was given by the Prophet of Allah... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side... God has placed firmness and stubbornness inside humans but for what purpose? In matters of faith.)\n\nThis is the final answer. I will write it out clearly.\nWait, I should check if there's any other chunk that mentions the object.\nChunk 0041 talks about bowing to followers and elders.\nChunk 0045 talks about being soft/humble (Azil) for believers and hard for disbelievers, citing Quran.\nChunk 0040 talks about \"Rafq\" (gentleness) and the verse from Surah Ash-Shu'ara.\n\nNone of these mention the object of comparison for the Bukhari/Muslim narration (which is in chunk 0018).\nSo, sticking to the description of uprooting/replanting is the only valid answer based on the text.\n\n**Final Answer:**\nAccording to the Bukhari and Muslim narration cited by the lecturer, the believer is compared to something that can be **uprooted** (\"اس کو لٹا دیتے ہیں\") and then **stands up again** or is **moved to the other side** (\"پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے\").\n\n**Why?**\nThe lecturer explains that humans are given \"stubbornness\" (ضد) and \"strength\" (مضبوطی), but these traits are reserved for matters of faith regarding the relationship between man and God (Oneness). In worldly matters involving other people, humans are commanded to be \"soft\" and \"gentle.\" The narration illustrates that a believer can be uprooted (moved or changed) in worldly interactions but will not break; they are resilient and can be placed elsewhere without losing their faith.\n\n**Citation:**\n*   **Chunk ID:** HEA-02-1A_chunk_0018\n*   **Source Text:** \"یہ مثال میں نہیں دے رہی، یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے... اس کو لٹا دیتے ہیں اور پھر وہ ان سے باہر آتا ہے تو پھر کھڑا ہو جاتا ہے، پھر دوسری طرف سے... انسان کے اندر اللہ نے فرمنیس بھی رکھی ہے، ضد رکھی ہے، مضبوطی بھی رکھی ہے لیکن یہ کس لیے ہے؟ عقیدے کے معاملے میں۔\" (This example is not given by me, it was given by the Prophet of Allah... It is a narration from Bukhari and Muslim... they uproot it and then he comes out of it, so he stands up again, then to the other side... God has placed firmness and stubbornness inside humans but for what purpose? In matters of faith.)\n\nThis is the final answer. I will write it out clearly.\nWait, I should check if there's any other chunk that mentions the object.\nChunk 0041 talks about bowing to followers and elders.\nChunk 0045 talks about being soft/humble (Azil) for believers and hard for disbelievers, citing Quran.\nChunk 0040 talks about \"Rafq\" (gentleness) and the verse from Surah Ash-Shu'ara.\n\nNone of these mention the object of comparison for the",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "length",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 224.62,
+    "generated_at": "2026-09-24T10:04:33.931446+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "English twin of Q73, but series-scope retrieval for this instance pulled a different, weaker chunk set -- it got gold chunk HEA-02-1A_chunk_0018 (the \"uproot and replant\" continuation) but NOT chunks 0010/0012, which are the ones that explicitly state the believer is compared to a \"زرعی پودا\" (agricultural plant). Chunk_0018 alone describes only the uprooting/replanting action, not the object of comparison. The model noticed this gap itself (visible in its rambling self-correction) and avoided fabricating \"tree/plant\", instead describing only the uprooting/replanting behavior -- but this means it never actually answers the core \"what is the believer compared to\", even though the \"why\" explanation given (firmness reserved for matters of faith, gentleness for worldly dealings) is accurately grounded in chunk 0018. A clear case of series-scope retrieval variance between two phrasings of the same question producing different, less complete evidence than its Urdu twin (Q73)."
+  },
+  {
+    "question_id": "Q53",
+    "question": "لیکچرر کے مطابق روایت میں پہاڑ کے اپنی جگہ سے ہلنے اور انسان کے اپنی بری عادت چھوڑنے کے بارے میں کیا تقابل بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0009"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق، روایت میں یہ تقابل بیان کیا گیا ہے کہ انسان کی بری عادت چھوڑنا، پہاڑ کو اپنی جگہ سے ہلانے کے مقابلے میں زیادہ مشکل کام ہے۔ لیکچرر نے اس کی وجہ یہ بتائی کہ پہاڑ زمین میں گڑے ہوئے ہیں، جبکہ بری عادتیں انسان کی رگ و پے میں سرایت کر چکی ہیں اور ان کا حصہ بنی ہوئی ہیں۔\n\n[chunk_id=HEA-03-1A_chunk_0009]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 8911,
+    "elapsed_seconds": 137.5,
+    "generated_at": "2026-09-24T10:06:51.431156+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Answer is a precise paraphrase of gold chunk HEA-03-1A_chunk_0009 (mountain moving vs. a person abandoning a bad habit -- the habit is harder to give up because it is embedded in one's being, while a mountain is merely embedded in the earth). Series-scope pooling added noise chunks from HEA-02-1A and HEA-01-1A (different hadiths, about the believer-as-plant and \"follow a bad deed with a good one\") which the model correctly ignored rather than conflating into this answer."
+  },
+  {
+    "question_id": "Q54",
+    "question": "According to the narration cited by the lecturer, what comparison is made between a mountain moving from its place and a person abandoning a bad habit?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0009"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-01-1A_chunk_0069",
+        "HEA-03-1A_chunk_0008",
+        "HEA-03-1A_chunk_0009"
+      ],
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question.\n\n**Reasoning:**\nThe provided excerpts discuss the difficulty of abandoning bad habits (chunk HEA-03-1A_chunk_0009) and the concept of following a good deed to erase a bad one (chunk HEA-01-1A_chunk_0069). However, the specific comparison between \"a mountain moving from its place\" and \"a person abandoning a bad habit\" is found in the lecture transcript segment **HEA-03-1A_chunk_0009** (start=314.02s), but the text provided in that chunk begins *after* the comparison has already been made. The chunk starts with \"Because a tradition also tells us...\" (کیونکہ ایک روایت سے ہمیں یہ بھی پتا چلتا ہے کہ...). The actual narration comparing the mountain to the habit is likely in a preceding chunk (e.g., HEA-03-1A_chunk_0008 or earlier) which is not included in the retrieved excerpts. Therefore, based strictly on the provided text, I cannot cite the specific comparison being made between the two.\n\n*Correction based on strict instruction:* The prompt asks to answer using *only* the retrieved excerpts.\nChunk HEA-03-1A_chunk_0009 says: \"Because a tradition also tells us that if someone says the mountain has moved from its place, we should believe it, but if someone says a person has abandoned their habit, do not believe them.\"\nThis chunk *does* contain the comparison. The lecturer states that believing a mountain moved is accepted, but believing someone abandoned a habit is not (because it's harder).\n\nLet me re-read the chunk text carefully.\nChunk HEA-03-1A_chunk_0009: \"کیونکہ ایک روایت سے ہمیں یہ بھی پتا چلتا ہے کہ اگر کوئی یہ کہے کہ پہاڑ اپنی جگہ سے ٹل گیا ہے، ہل گیا ہے تو مان لو، لیکن اگر کوئی یہ کہے کہ کسی نے اپنی عادت چھوڑ دی ہے تو اس کو نہ مانو۔\"\nTranslation: \"Because a tradition also tells us that if someone says the mountain has moved from its place, shake up, then believe it, but if someone says that a person has abandoned their habit, do not believe them.\"\n\nThe comparison is explicitly made in this chunk.\nComparison: Moving a mountain (believable/accepted) vs Abandoning a bad habit (not believable/harder).\n\nI can answer now.\n\n**Answer:**\nAccording to the narration cited in chunk **HEA-03-1A_chunk_0009**, the comparison is that if someone claims a mountain has moved from its place, it should be believed, but if someone claims a person has abandoned their bad habit, it should not be believed. The lecturer explains that moving a mountain is easier than abandoning bad habits because mountains are embedded in the earth, whereas bad habits have penetrated a person's veins and become part of their soul, body, and life.\n\n**Chunk ID:** HEA-03-1A_chunk_0009",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 87.41,
+    "generated_at": "2026-09-24T10:08:18.839950+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English twin of Q53; unlike Q74, retrieval here did include gold chunk HEA-03-1A_chunk_0009 plus its directly preceding context chunk HEA-03-1A_chunk_0008 from the same lecture. After a long, repetitive self-correcting internal monologue that leaked into the visible answer (reasoning_content_length=0, but finish_reason='stop' so it did complete), the model's final answer accurately paraphrases chunk_0009: claiming a mountain moved is believable but claiming someone abandoned a habit is not, because habits are embedded in one's soul/body/life while mountains are merely embedded in the earth."
+  },
+  {
+    "question_id": "Q75",
+    "question": "لیکچرر کے مطابق بغیر کسی وجہ کے گھر کے اچھے بھلے اونٹ کو ذبح کر دینے کی مثال سے 'ظلم' کے بارے میں کیا سمجھایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0012",
+      "HEA-03-1A_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0012",
+        "HEA-03-1A_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر نے اس مثال سے یہ سمجھایا ہے کہ بغیر کسی مرض اور علت کے اونٹ کو ذبح کر دینا 'ظلم' ہے۔ اس مثال سے یہ بھی واضح ہوتا ہے کہ ظلم کا معنی کسی چیز کو بے موقع رکھنا یا وقت سے پہلے کام کرنا ہے۔ لیکچرر نے کہا کہ \"ہر وہ کام جس کو وقت سے پہلے کیا جائے اس پہ ظلم کا اطلاق ہوتا ہے۔\"\n\nChunks used: HEA-03-1A_chunk_0012, HEA-03-1A_chunk_0013",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 7844,
+    "elapsed_seconds": 112.34,
+    "generated_at": "2026-09-23T19:49:07.439465+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HEA-03-1A_chunk_0012 (defines zulm as displacing something from its place/out of season, and glosses 'ظَلَمَ الْبَعِيرَ' as slaughtering a camel with no disease/cause) and chunk_0013 (start 516.46-556.1s: 'there was a fine camel in the house, slaughtered without reason — that is zulm on the camel; likewise, anything done before its proper time is zulm'). The model's answer states both facts (slaughtering the healthy camel without cause = zulm; zulm = doing something out of place/before its time) accurately and cites both chunks correctly. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  },
+  {
+    "question_id": "Q76",
+    "question": "According to the lecturer, what does the example of slaughtering a perfectly healthy camel without any reason illustrate about the concept of 'zulm' (injustice)?",
+    "question_language": "english",
+    "search_scope": "series",
+    "scope_label": "HEA",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-03-1A_chunk_0012",
+      "HEA-03-1A_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-03-1A_chunk_0012",
+        "HEA-03-1A_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecturer, the example illustrates that 'zulm' (injustice) involves doing something before its proper time or without a valid reason. The lecturer explains that the phrase 'ظَلَمَ الْبَعِيرَ' means slaughtering a camel without any disease or cause (Chunk 0012). He further clarifies that this is because \"ہر وہ کام جس کو وقت سے پہلے کیا جائے اس پہ ظلم کا اطلاق ہوتا ہے\" (any action done before its time is considered injustice) (Chunk 0013).\n\n**Citations:**\n*   HEA-03-1A_chunk_0012\n*   HEA-03-1A_chunk_0013",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 5309,
+    "elapsed_seconds": 98.69,
+    "generated_at": "2026-09-23T19:50:46.126544+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Same chunks as Q75 (0012, 0013), verified against source text above. English answer correctly states the camel-slaughter-without-cause example is zulm, and correctly extends it to 'any action done before its time is zulm,' quoting the Urdu phrase 'ہر وہ کام جس کو وقت سے پہلے کیا جائے اس پہ ظلم کا اطلاق ہوتا ہے' which matches chunk_0013 verbatim. [reused from lecture-scope grading — identical top-4 context and answer, no series-scope regrade needed]"
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "question_id": "Q43",
+    "question": "لیکچرر کے مطابق رسول اللہ صلی اللہ علیہ وسلم کا بیماری اور اس کے علاج کے بارے میں کیا فرمان بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0003",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0003_chunk_0016"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 4,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0003_chunk_0016"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق رسول اللہ صلی اللہ علیہ وسلم کا فرمان یہ بیان کیا گیا ہے کہ \"اللہ تعالیٰ نے کوئی بیماری ایسی نہیں اتاری جس کا علاج نہ اتارا ہو۔\" [chunk_id=SKD_U001_S001_0003_chunk_0016]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 16352,
+    "elapsed_seconds": 159.9,
+    "generated_at": "2026-09-23T19:04:01.153192+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0016 (start 577.34s-607.52s) in artifacts/rag/index/SKD_U001_S001_0003/chunks.json. Chunk text contains verbatim: 'رسول اللہ صلی اللہ علیہ وسلم کا فرمان ہے: \"اللہ تعالیٰ نے کوئی بیماری ایسی نہیں اتاری جس کا علاج نہ اتارا ہو۔\"' This is an exact word-for-word match to the model's quoted answer and to the gold note's target fact (segment 50). Correctly cited and grounded."
+  },
+  {
+    "question_id": "Q44",
+    "question": "According to the lecturer, what did the Prophet (peace be upon him) say about illness and its cure?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0003",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0003_chunk_0016"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0003_chunk_0016"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided excerpts, the Prophet (peace be upon him) stated that **Allah has not sent any illness for which there is no cure**.\n\nThe lecturer cites the Prophet's command: \"Allah has not sent down any disease for which there is no cure.\" (Chunk 0016).\n\n**Citation:**\n[chunk_id=SKD_U001_S001_0003_chunk_0016]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 56.13,
+    "generated_at": "2026-09-23T19:04:57.284684+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0016 (577.34s-607.52s). Contains 'رسول اللہ صلی اللہ علیہ وسلم کا فرمان ہے: \"اللہ تعالیٰ نے کوئی بیماری ایسی نہیں اتاری جس کا علاج نہ اتارا ہو۔\"' which the English answer translates accurately as 'Allah has not sent any illness for which there is no cure.' English paraphrase of Q43's gold fact, correctly grounded in the same chunk."
+  },
+  {
+    "question_id": "Q77",
+    "question": "اس لیکچر میں حج کے مناسک، جیسے احرام یا رمی جمرات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0003",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 6534,
+    "elapsed_seconds": 94.24,
+    "generated_at": "2026-09-23T19:06:31.527081+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Question asks about Hajj rituals (Ihram, Rami Jamarat), which this lecture (about shifa/illness/sabr) does not cover. Model gave the exact required refusal string with no citation. Correct refusal of a genuinely unanswerable question."
+  },
+  {
+    "question_id": "Q78",
+    "question": "What does the lecturer say about the rituals of Hajj, such as Ihram or the stoning at Jamarat, in this lecture?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0003",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0003_chunk_0000",
+        "SKD_U001_S001_0003_chunk_0034",
+        "SKD_U001_S001_0003_chunk_0035",
+        "SKD_U001_S001_0003_chunk_0071"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nThis lecture does not provide enough information to answer that question. The retrieved excerpts discuss the importance of performing Hajj in general, missing prayers (Qada), and how illness can serve as a reminder of the afterlife, but they do not mention specific rituals like Ihram or the stoning at Jamarat.\n\n**Citation:**\n- chunk_id=SKD_U001_S001_0003_chunk_0034 (Mentions performing Hajj and missing prayers)\n- chunk_id=SKD_U001_S001_0003_chunk_0071 (Discusses the role of a mentor after death)\n- chunk_id=SKD_U001_S001_0003_chunk_0035 (Discusses the spiritual benefit of illness)\n- chunk_id=SKD_U001_S001_0003_chunk_0000 (Opening greeting)\n\nNone of these excerpts contain details about specific Hajj rituals.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 68.1,
+    "generated_at": "2026-09-23T19:07:39.623770+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Checked chunks 0000 (opening greeting, no Hajj content), 0034 (1100-1130s, mentions the speaker has 'not done Hajj this year' in passing, no rituals), 0035 (1130-1157s, illness-as-lesson concept, no Hajj), 0071 (2368-2404s, about a mentor filling in after a parent's death, unrelated to Hajj). None mention Ihram or Rami Jamarat. Model correctly concluded the lecture doesn't cover Hajj rituals and gave the required refusal sentence, though it listed these irrelevant chunks under 'Citation' as context rather than truly citing supporting evidence -- still a correct refusal, no fabricated Hajj-ritual content."
+  }
+]

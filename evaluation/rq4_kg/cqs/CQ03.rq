@@ -1,0 +1,16 @@
+# CQ3 -- Which topics does Recording X "discussesTopic"?
+# Paper-reported result: 12 topics, e.g. `("Virtues of Hajj and Umrah", "فضائل حج و عمرہ")`, `("Sincerity in Worship (Ikhlas)", "اخلاص فی العبادت")` — confirms bilingual topic retrieval.
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?nameEn ?nameUr WHERE {
+  ?rec minaret:recordingId "HAJJLT22-7038" .
+  ?rec minaret:hasTranscript/minaret:hasSegment ?seg .
+  ?sg minaret:containsSegment ?seg ; minaret:discussesTopic ?topic .
+  ?topic minaret:nameEn ?nameEn .
+  OPTIONAL { ?topic minaret:nameUr ?nameUr }
+}

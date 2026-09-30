@@ -1,0 +1,161 @@
+[
+  {
+    "question_id": "Q45",
+    "question": "لیکچرر کے مطابق مشکل حالات کا سامنا کرنے والے لوگوں کی کون سی چار اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0004",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0010",
+      "SKD_U001_S001_0004_chunk_0011",
+      "SKD_U001_S001_0004_chunk_0012",
+      "SKD_U001_S001_0004_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 0.75
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0010",
+        "SKD_U001_S001_0004_chunk_0013"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "no_citation_found": false
+    },
+    "generated_answer": "لکچرر نے مشکل حالات کا سامنا کرنے والوں کی تین اقسام بیان کی ہیں، جن میں سے ایک ناخوش (پہلا درجہ)، دوسرا صابر (دوسرا درجہ) اور تیسرا راضی (تیسرا درجہ)۔ چوتھا درجہ وہ ہے جو شکر ادا کرنے والوں کا ہے، لیکن یہ سب سے اونچا درجہ مشکل حالات میں بھی اللہ تعالیٰ سے حسنِ ظن رکھنا ہے۔ (chunk_id=SKD_U001_S001_0004_chunk_0013, chunk_id=SKD_U001_S001_0004_chunk_0010)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 31.59,
+    "generated_at": "2026-09-23T20:44:00.882110+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked chunk_0010 and chunk_0013 against V3 segments 165-228. The model lists all 4 correct categories (ناخوش، صابر، راضی، شکر ادا کرنے والے) but explicitly mislabels the scheme as 'تین اقسام' (three types) in its opening sentence, then confusingly attaches the 'حسنِ ظن' (good opinion of Allah) description - which chunk_0013 actually gives as the summary description of the WHOLE 4-level scheme, not specifically of the 4th level - to the 4th type alone. Core facts (all 4 names) are grounded and correct, but the stated count (3) contradicts the question's own premise of 4 and the framing is muddled. Downgraded from correct_grounded for this reason."
+  },
+  {
+    "question_id": "Q46",
+    "question": "According to the lecturer, what are the four types of people described in how they respond to hardship?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0004",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0010",
+      "SKD_U001_S001_0004_chunk_0011",
+      "SKD_U001_S001_0004_chunk_0012",
+      "SKD_U001_S001_0004_chunk_0013"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 1.0,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0010",
+        "SKD_U001_S001_0004_chunk_0011",
+        "SKD_U001_S001_0004_chunk_0012"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.75,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, the four types of people described in how they respond to hardship are:\n\n1. نمبر ایک وہ جو مشکل میں ناخوش ہوتا ہے (Number one: those who become unhappy in difficulty) [chunk_id=SKD_U001_S001_0004_chunk_0010 lecture_id=SKD_U001_S001_0004 start=329.00s end=359.66s]\n2. دوسری قسم مشکل حالات میں صبر کرنے والے لوگ (The second type: those who are patient in difficult situations) [chunk_id=SKD_U001_S001_0004_chunk_0010 lecture_id=SKD_U001_S001_0004 start=329.00s end=359.66s]\n3. تیسرا درجہ ہے ان لوگوں کا جو مشکل حالات میں اللہ کی رضا میں راضی اور خوش رہتے ہیں (The third type: those who are pleased and happy in difficult situations due to Allah's pleasure) [chunk_id=SKD_U001_S001_0004_chunk_0011 lecture_id=SKD_U001_S001_0004 start=359.66s end=389.64s]\n4. چوتھے درجہ میں وہ لوگ ہیں جو مشکل حالات میں اللہ تعالیٰ کا شکر ادا کرتے ہیں (The fourth type: those who express gratitude to Allah in difficult situations) [chunk_id=SKD_U001_S001_0004_chunk_0012 lecture_id=SKD_U001_S001_0004 start=389.64s end=420.18s]",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 40.77,
+    "generated_at": "2026-09-23T20:44:41.649597+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0010 (ناخوش/dissatisfied and صابر/patient - both present, with matching timestamps 329-359.66s), chunk_0011 (راضی/content with Allah's decree, 359.66-389.64s), and chunk_0012 (شکر ادا کرنے والے/thankful in hardship, 389.64-420.18s). All four types, translations, and timestamps line up with the transcript (V3 segments 165-228). Correctly grounded, well-cited, no fabrication."
+  },
+  {
+    "question_id": "Q55",
+    "question": "لیکچرر کے مطابق اللہ تعالیٰ کن پانچ چیزوں سے پاک ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0004",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0055"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "(chunk_id=SKD_U001_S001_0004_chunk_0055 lecture_id=SKD_U001_S001_0004 start=1781.90s end=1810.12s)\n\nلکچرر کے مطابق اللہ تعالیٰ کمزوری، خطا اور برائی سے پاک ہیں۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 27.9,
+    "generated_at": "2026-09-23T20:45:09.546648+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked chunk_0055 against V3 segments 915-924 ('یہ پانچ لفظ لکھ لیں': عیب، نقص، کمزوری، خطا، برائی). Model answers only 3 of the 5 items (کمزوری، خطا، برائی), omitting عیب (fault) and نقص (deficiency) entirely, and never states that there are five things despite the question asking for exactly five. What is stated is accurate and grounded in chunk_0055, but the answer is materially incomplete (60% of the list missing). Contrast with the same model's English answer to Q56 (paired question), which correctly gives all 5."
+  },
+  {
+    "question_id": "Q56",
+    "question": "According to the lecturer, which five things is Allah described as being free from?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0004",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0004_chunk_0055"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0004_chunk_0055"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture, Allah تعالیٰ is described as being free from (پاک ہے) the following five things:\n\n1. نقص (defect)\n2. کمزوری (weakness)\n3. خطا (error)\n4. برائی (evil)\n5. عیب (flaw)\n\nThis information can be found in chunk_id=SKD_U001_S001_0004_chunk_0055 lecture_id=SKD_U001_S001_0004 start=1781.90s end=1810.12s",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 24.22,
+    "generated_at": "2026-09-23T20:45:33.772015+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0055 (1781.9-1810.12s) against V3 segments 915-924. Model's 5-item list - نقص (defect), کمزوری (weakness), خطا (error), برائی (evil), عیب (flaw) - matches the lecturer's explicit 'پانچ لفظ' (five words) exactly, just in different order, with no fabricated items and an accurate citation/timestamp. Fully correct and grounded; notably better than this same model's Urdu answer to the paired Q55, which only listed 3 of the 5."
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "question_id": "Q39",
+    "question": "According to the lecturer, what are the three conditions of 'istita'ah' (ability) that make Hajj mandatory on a person?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "note": "Fact verified directly against the transcript (segments 200-209: financial means to travel and support family left behind, safety of the journey, and physical capability). gold_chunk_ids backfilled 2026-09-24: meta-llama-3.1-8b-instruct@q6_k gave a correct_grounded answer to the Urdu variant (Q40) citing chunk_0061 (financial means: \"It has three understandings...travel expenses...enough expenses for the people he's leaving behind\") and chunk_0063 (\"safe way, when a person's life and property is safe...physical capability is also one of the conditions\"); both chunks were read and confirmed to support the correct 3-condition answer. Applied to Q39 as well since it is the identical underlying fact in the other language (same source chunks) even though no model scored correct_grounded on the English phrasing itself."
+  },
+  {
+    "question_id": "Q40",
+    "question": "لیکچرر کے مطابق 'استطاعت' کی وہ تین شرائط کیا ہیں جن کی بنا پر کسی شخص پر حج فرض ہوتا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L02_chunk_0061",
+      "HajjJourney2022Eng-L02_chunk_0063"
+    ],
+    "note": "Cross-lingual variant of Q39 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 from meta-llama-3.1-8b-instruct@q6_k's correct_grounded answer (citing chunk_0061 and chunk_0063), verified against source text."
+  },
+  {
+    "question_id": "Q59",
+    "question": "According to the lecturer, what are the first four points given to explain why Makkah is a place of safety and security?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 169-186: (1) sacred until the Day of Resurrection, (2) its thorny bushes/game/fallen items must not be disturbed, (3) whoever leaves for Hajj is under Allah's guarantee, (4) safety from Dajjal's fitna). gold_chunk_ids left empty after the 2026-09-24 review: no model produced a correct_grounded answer to backfill from. The retrieval/rerank pipeline sent chunks 0051, 0055, 0042, 0048 for this question, but the actual points 2 and 3 live in chunks 0052-0054 (never retrieved) — chunk_0051 covers point 1 and chunk_0055 covers point 4 correctly, while chunks 0042/0048 belong to an unrelated 'ayat bayyinat' (six proofs) passage the lecturer gives elsewhere and do not support points 2/3 of this list. Every model either left points 2/3 unanswered (gemma, English) or fabricated them from chunks 0042/0048 (all other cases; graded hallucinated). Correct gold chunks for a future pipeline run should be 0051, 0052, 0053, 0054, 0055 — left unset because no model cited them in a correct answer."
+  },
+  {
+    "question_id": "Q60",
+    "question": "لیکچرر کے مطابق مکہ کے امن و سلامتی کا مقام ہونے کی وہ پہلی چار وجوہات کیا ہیں جو بتائی گئی ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q59 (same content, reverse language direction). Left empty for the same reason as Q59 — see that note; no model gave a correct_grounded answer to backfill from, and the true supporting chunks (0052-0054) were never retrieved for either language variant."
+  }
+]

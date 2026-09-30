@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+minaret.local.yaml
+runs/
+# ~13 MB per recording; regenerate with export_diffs.py --word-diffs
+evaluation/rq1_transcripts/results/word_differences/
+.minaret_cache/
+# regenerable embedding/score matrices written by minaret/calibration/sweep.py
+minaret/calibration/cache/
+.pytest_cache/
+.DS_Store
+# Third-party corpora are not redistributed (see artifacts/corpora/README.md)
+artifacts/corpora/*
+!artifacts/corpora/README.md

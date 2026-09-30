@@ -1,0 +1,154 @@
+[
+  {
+    "question_id": "Q35",
+    "question": "لیکچر میں بیان کردہ روایت کے مطابق حضرت جبرائیل علیہ السلام نے رسول اللہ صلی اللہ علیہ وسلم کو کن دو نوروں کی خوشخبری دی، جو اس سے پہلے کسی نبی کو نہیں دیے گئے تھے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "ان دو نوروں میں سورۃ الفاتحہ اور سورۃ البقرہ کی آخری دو آیات شامل ہیں۔ (chunk_id=TQ2005-P01-L001F_chunk_0001)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 25.4,
+    "generated_at": "2026-09-23T20:28:25.141435+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "checked chunk_0001: confirms two lights = Al-Fatiha + last two ayahs of Al-Baqarah, never given to a prophet before. Model's (brief) answer states this correctly and cites chunk_0001. Supported."
+  },
+  {
+    "question_id": "Q36",
+    "question": "According to the narration cited in the lecture, which two lights did Jibreel (peace be upon him) announce to the Prophet (peace be upon him) as having never been given to any prophet before him?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0001"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0001"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "انہوں نے اپنا سر اٹھایا، پھر فرمایا: یہ آسمان کا ایک دروازہ ہے جو آج سے پہلے کبھی نہیں کھلا۔ پھر فرمایا: یہ ایک فرشتہ ہے جو آج سے پہلے زمین پر کبھی نہیں اترا۔ پھر اس فرشتے نے آپ صلی اللہ علیہ وسلم کو سلام کیا اور دو نوروں کی خوشخبری دی، اور کہا: یہ دو نور آپ ہی کو دیے جا رہے ہیں، آپ سے پہلے کسی نبی کو نہیں دیے گئے۔ ایک سورۃ الفاتحہ اور دوسرا سورۃ البقرہ کی آخری دو آیات۔ [chunk_id=TQ2005-P01-L001F_chunk_0001]",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 43.1,
+    "generated_at": "2026-09-23T20:29:08.239093+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant. Model reproduces the entirety of chunk_0001's Urdu text (rather than translating to English) but the reproduced text does contain the correct answer (\"ایک سورۃ الفاتحہ اور دوسرا سورۃ البقرہ کی آخری دو آیات\") and matches the source verbatim since it's a direct quote. Content is fully grounded/correct; only stylistic issue is that it doesn't answer in English despite an English question, which doesn't affect the correctness verdict."
+  },
+  {
+    "question_id": "Q69",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے قرآن کی کونسی سورت ہے، اور اس میں کیا خاص بات بیان کی گئی ہے کہ یہ کیسے نازل ہوئی؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "سورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے قرآن کی پانچویں نمبر پر آتی ہے (chunk_id=TQ2005-P01-L001F_chunk_0005). اور یہ پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری۔ باقی سورتیں تو کس طرح ہوتی ہیں کہ کوئی حصہ ایک دفعہ اترا، پھر کچھ بعد میں اترا، پھر ان کو اکٹھا کیا گیا، لیکن یہ پوری سات آیات اکٹھی اتری ہیں (chunk_id=TQ2005-P01-L001F_chunk_0005).",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 38.13,
+    "generated_at": "2026-09-23T20:29:46.367538+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "checked chunk_0005: matches model's claim of 5th in revelation order and being the first surah revealed whole/complete in one go (quoted almost verbatim, including the extra detail that all seven ayahs came down together). Citation to chunk_0005 correct. Supported."
+  },
+  {
+    "question_id": "Q70",
+    "question": "According to the lecturer, which surah in order of revelation is Al-Fatiha, and what is noted as special about the way it was revealed?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001F",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001F_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001F_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to chunk_id=TQ2005-P01-L001F_chunk_0005 lecture_id=TQ2005-P01-L001F start=190.06s end=223.60s, \nسورۃ الفاتحہ ترتیبِ نزولی کے اعتبار سے پانچویں نمبر پر آتی ہے اور یوں یہ نبوت کے ابتدائی دور میں نازل ہوئی، اور یہ پہلی سورت ہے جو پوری کی پوری ایک ہی بار اتری۔ \n\nThis means that Al-Fatiha is the 5th surah in order of revelation, and it was revealed all at once, unlike other surahs which were partially revealed over time.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 33.85,
+    "generated_at": "2026-09-23T20:30:20.219844+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "English variant of Q69. Model quotes chunk_0005 verbatim in Urdu then gives an accurate English paraphrase (5th surah in revelation order, revealed all at once unlike others revealed in parts). Citation correct, no unsupported additions. Supported."
+  }
+]

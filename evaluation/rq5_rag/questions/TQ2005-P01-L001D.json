@@ -1,0 +1,44 @@
+[
+  {
+    "question_id": "Q31",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ میں صرف ایک ایسا نیا لفظ ہے جو اردو میں اسی معنی میں استعمال نہیں ہوتا، وہ کون سا لفظ ہے اور اس کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0002"
+    ],
+    "note": "Fact verified directly against the transcript (segments 6-8: the word 'الدین' is named as the only genuinely new word in the surah, meaning reward/recompense, a sense not used in everyday Urdu). gold_chunk_ids intentionally left empty pending the pipeline run."
+  },
+  {
+    "question_id": "Q32",
+    "question": "According to the lecturer, which is the only word in Surah Al-Fatiha that is genuinely new (not used in that sense in everyday Urdu), and what meaning is given for it?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0002"
+    ],
+    "note": "Cross-lingual variant of Q31 (same content, reverse language direction)."
+  },
+  {
+    "question_id": "Q65",
+    "question": "لیکچرر کے مطابق شیخ ابن باز کے فتوے میں حالتِ حیض میں قرآن پاک کو ہاتھ لگا کر سبق یاد کرنے کے بارے میں کیا کہا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0021",
+      "TQ2005-P01-L001D_chunk_0024"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 63-71: Sheikh Ibn Baz's fatwa says reciting/memorizing the Quran without directly touching the mus-haf - e.g. using a cloth or thin rubber gloves - is permissible during menstruation, since no authentic hadith proves otherwise). gold_chunk_ids intentionally left empty pending the pipeline run."
+  },
+  {
+    "question_id": "Q66",
+    "question": "According to the lecturer, what does Sheikh Ibn Baz's fatwa say about a woman memorizing the Quran during her menstrual period without directly touching the mus-haf?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001D_chunk_0021",
+      "TQ2005-P01-L001D_chunk_0024"
+    ],
+    "note": "Cross-lingual variant of Q65 (same content, reverse language direction)."
+  }
+]

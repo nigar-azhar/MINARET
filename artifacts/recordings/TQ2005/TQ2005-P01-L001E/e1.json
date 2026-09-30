@@ -1,0 +1,201 @@
+{
+  "ayat": [
+    {
+      "surah_number": "1",
+      "ayah_number": "1",
+      "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "start": 22.44,
+      "end": 34.98,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "2",
+      "text": "الْحَمْدُ لِلَّهِ",
+      "start": 309.74,
+      "end": 318.86,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "114",
+      "text": "رَّبِّ زِدْنِي عِلْمًا",
+      "start": 434.42,
+      "end": 444.94,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "51",
+      "ayah_number": "56",
+      "text": "وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ",
+      "start": 782.78,
+      "end": 793.44,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "51",
+      "ayah_number": "56",
+      "text": "اللہ نے ہمیں اپنی عبادت کے لیے پیدا کیا اور ہم بندوں کے اونلی یورز ہو گئے۔",
+      "start": 782.78,
+      "end": 795.02,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "إِيَّاكَ نَعْبُدُ",
+      "start": 836.1,
+      "end": 847.0,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "صرف تیری ہم عبادت کرتے ہیں",
+      "start": 836.1,
+      "end": 847.0,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "وَإِيَّاكَ نَسْتَعِينُ",
+      "start": 847.54,
+      "end": 862.14,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "اور صرف تجھ سے ہم مدد چاہتے ہیں",
+      "start": 847.54,
+      "end": 862.14,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "6",
+      "text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "start": 968.18,
+      "end": 981.62,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "1-7",
+      "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ٭ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ٭ الرَّحْمَٰنِ الرَّحِيمِ ٭ مَالِكِ يَوْمِ الدِّينِ ٭ إِيَّاكَ نَعْبُدُ ٭ وَإِيَّاكَ نَسْتَعِينُ ٭ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ٭ صِرَاطَ الَّذِينَ ٭ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "start": 1420.02,
+      "end": 1459.58,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "hadith": [
+    {
+      "reference": "Ahmad_4142",
+      "expanded_reference": "Musnad Aḥmad (Hadith 4142); Sunan ad-Dārimī (Hadith 202)",
+      "text": "آپ صلی اللہ علیہ وسلم نے ایک سیدھا خط کھینچا، سیدھی لکیر کھینچی اور پھر اس کے ساتھ ادھر ادھر لکیریں بھی۔ آپ نے فرمایا کہ یہ صراطِ مستقیم ہے اور ہر راستے پہ شیطان بیٹھا ہوا ہے۔",
+      "start": 907.36,
+      "end": 927.74,
+      "usage": "explicit paraphrase"
+    }
+  ],
+  "dua": [
+    {
+      "reference": "QuranicDua-61",
+      "text": "رَّبِّ زِدْنِي عِلْمًا",
+      "start": 434.42,
+      "end": 444.94,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "QuranicDua-62",
+      "text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "start": 968.18,
+      "end": 981.62,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Etymology and Root-Words of Divine Names (Ishtiqāq)",
+      "description": "Linguistic derivation of Bism, Allah, Ar-Rahman, Ar-Rahim, and the superlative weight of Fa'lan.",
+      "start": 1.44,
+      "end": 174.84
+    },
+    {
+      "name": "The Experience and Reality of Hamd (Haqiqat al-Hamd)",
+      "description": "Hamd as an innate spiritual experience of awe, contemplation of human creation, and universal praise.",
+      "start": 174.84,
+      "end": 309.74
+    },
+    {
+      "name": "Divine Nurturing and Cosmic Lordship (Ar-Rububiyyah)",
+      "description": "Gradual elevation of creation from nothingness to perfection, maternal care, and the sign of 'Alam.",
+      "start": 309.74,
+      "end": 561.76
+    },
+    {
+      "name": "The Essence of Worship: Humility and Love (Al-'Ibadah)",
+      "description": "The lexical definition of 'Ubudiyyah combining total submission (Khudu') and utmost love (Kamal al-Hubb).",
+      "start": 611.36,
+      "end": 847.0
+    },
+    {
+      "name": "Exclusive Reliance and Divine Guidance (Al-Isti'anah wal-Hidayah)",
+      "description": "Seeking help solely from Allah and navigating the threefold stages of Hidayah: pathfinding, traversing, and arriving.",
+      "start": 847.0,
+      "end": 983.36
+    },
+    {
+      "name": "The Straight Path and the Trial of the Pul-Sirat (As-Sirat)",
+      "description": "The earthly and heavenly bridges of Sirat, satanic detours, steadfastness, and avoiding the paths of wrath and error.",
+      "start": 983.36,
+      "end": 1360.2
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "Root-Word Analysis of the Basmalah and the Inner Experience of Hamd",
+      "title_ur": "تسمیہ کا لغوی و اشتقاقی تجزیہ اور حقیقتِ حمد کا قلبی تجربہ",
+      "start": 1.44,
+      "end": 309.74
+    },
+    {
+      "title_en": "The Essence of Rububiyyah, the Cosmic Sign of 'Alam, and Yawm ad-Din",
+      "title_ur": "ربوبیتِ کاملہ کی وسعت، عالَم بطورِ نشانی اور یوم الدین کی حقیقت",
+      "start": 309.74,
+      "end": 622.22
+    },
+    {
+      "title_en": "The Meaning of 'Ibadah: Balancing Utmost Love with Supreme Humility",
+      "title_ur": "حقیقتِ عبودیت: کمالِ عاجزی اور کمالِ محبت کا امتزاج",
+      "start": 622.22,
+      "end": 907.36
+    },
+    {
+      "title_en": "As-Sirat al-Mustaqim, the Worldly and Eternal Pul-Sirat, and Steadfastness",
+      "title_ur": "صراطِ مستقیم، دنیا و آخرت کا پل صراط اور استقامت کا امتحان",
+      "start": 907.36,
+      "end": 1215.56
+    },
+    {
+      "title_en": "Favors, Avoiding Error, and Complete Recitation of Surah Al-Fatihah",
+      "title_ur": "انعام یافتہ بندوں کی راہ، گمراہی سے پناہ اور سورۃ الفاتحہ کی مکمل تلاوت",
+      "start": 1215.56,
+      "end": 1459.58
+    }
+  ]
+}

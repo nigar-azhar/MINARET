@@ -1,0 +1,194 @@
+{
+  "per_run": [
+    {
+      "recording": "SKD_U001_S001_0001",
+      "backend": "faster_whisper",
+      "model": "large-v3-turbo",
+      "excluded_from_selection": false,
+      "elapsed_seconds": 7718.615047333995,
+      "without_diacritics_cer": 0.06253318058621364,
+      "without_diacritics_wer": 0.10830106485963215,
+      "with_diacritics_cer": 0.08508745923510229,
+      "with_diacritics_wer": 0.1183159932252601,
+      "char_deletions": 1093,
+      "word_deletions": 197
+    },
+    {
+      "recording": "SKD_U001_S001_0001",
+      "backend": "faster_whisper",
+      "model": "large-v3",
+      "excluded_from_selection": false,
+      "elapsed_seconds": 14736.991185959021,
+      "without_diacritics_cer": 0.09117326552851435,
+      "without_diacritics_wer": 0.12996127783155856,
+      "with_diacritics_cer": 0.11737595342694661,
+      "with_diacritics_wer": 0.13839825792402613,
+      "char_deletions": 2124,
+      "word_deletions": 426
+    },
+    {
+      "recording": "SKD_U001_S001_0001",
+      "backend": "faster_whisper",
+      "model": "medium",
+      "excluded_from_selection": true,
+      "elapsed_seconds": 10587.804498500016,
+      "without_diacritics_cer": 0.764955712649138,
+      "without_diacritics_wer": 0.9697483059051307,
+      "with_diacritics_cer": 0.7711775328140582,
+      "with_diacritics_wer": 0.9845148802322768,
+      "char_deletions": 18560,
+      "word_deletions": 4899
+    },
+    {
+      "recording": "SKD_U001_S001_0001",
+      "backend": "openai_whisper",
+      "model": "large-v3",
+      "excluded_from_selection": false,
+      "elapsed_seconds": 14294.725243708992,
+      "without_diacritics_cer": 0.09198357037078432,
+      "without_diacritics_wer": 0.13468054211035818,
+      "with_diacritics_cer": 0.11540845753712638,
+      "with_diacritics_wer": 0.1454149528187757,
+      "char_deletions": 2053,
+      "word_deletions": 419
+    },
+    {
+      "recording": "SKD_U001_S001_0001",
+      "backend": "openai_whisper",
+      "model": "medium",
+      "excluded_from_selection": true,
+      "elapsed_seconds": 4294.777314707986,
+      "without_diacritics_cer": 0.7430774819078488,
+      "without_diacritics_wer": 0.9745885769603098,
+      "with_diacritics_cer": 0.7511252459369863,
+      "with_diacritics_wer": 0.9931042826034358,
+      "char_deletions": 14950,
+      "word_deletions": 4182
+    },
+    {
+      "recording": "SKD_U001_S001_0001",
+      "backend": "openai_whisper",
+      "model": "turbo",
+      "excluded_from_selection": false,
+      "elapsed_seconds": 1840.8056141249835,
+      "without_diacritics_cer": 0.06557880913129732,
+      "without_diacritics_wer": 0.11156824782187802,
+      "with_diacritics_cer": 0.0873244751098294,
+      "with_diacritics_wer": 0.12097749818533753,
+      "char_deletions": 1167,
+      "word_deletions": 211
+    },
+    {
+      "recording": "SKD_U001_S001_0002",
+      "backend": "faster_whisper",
+      "model": "large-v3-turbo",
+      "excluded_from_selection": false,
+      "elapsed_seconds": 1072.1697135830182,
+      "without_diacritics_cer": 0.06270863881695941,
+      "without_diacritics_wer": 0.11096202871326982,
+      "with_diacritics_cer": 0.08509554903252861,
+      "with_diacritics_wer": 0.12434607645875252,
+      "char_deletions": 825,
+      "word_deletions": 147
+    },
+    {
+      "recording": "SKD_U001_S001_0002",
+      "backend": "faster_whisper",
+      "model": "large-v3",
+      "excluded_from_selection": false,
+      "elapsed_seconds": 4239.7770645830315,
+      "without_diacritics_cer": 0.09487411474744954,
+      "without_diacritics_wer": 0.1408828659600161,
+      "with_diacritics_cer": 0.1160366620739232,
+      "with_diacritics_wer": 0.14956405097250167,
+      "char_deletions": 1031,
+      "word_deletions": 189
+    },
+    {
+      "recording": "SKD_U001_S001_0002",
+      "backend": "faster_whisper",
+      "model": "medium",
+      "excluded_from_selection": true,
+      "elapsed_seconds": 3469.618561499985,
+      "without_diacritics_cer": 0.7922191370542538,
+      "without_diacritics_wer": 0.9718234268079968,
+      "with_diacritics_cer": 0.7994069370394776,
+      "with_diacritics_wer": 0.9920858484238766,
+      "char_deletions": 18246,
+      "word_deletions": 4828
+    },
+    {
+      "recording": "SKD_U001_S001_0002",
+      "backend": "openai_whisper",
+      "model": "large-v3",
+      "excluded_from_selection": false,
+      "elapsed_seconds": 9175.838058624999,
+      "without_diacritics_cer": 0.08813527594920913,
+      "without_diacritics_wer": 0.13471085468938682,
+      "with_diacritics_cer": 0.11480860240819506,
+      "with_diacritics_wer": 0.1472837022132797,
+      "char_deletions": 1517,
+      "word_deletions": 297
+    },
+    {
+      "recording": "SKD_U001_S001_0002",
+      "backend": "openai_whisper",
+      "model": "medium",
+      "excluded_from_selection": true,
+      "elapsed_seconds": 8026.549003249966,
+      "without_diacritics_cer": 0.7492278413877016,
+      "without_diacritics_wer": 0.9503555615188515,
+      "with_diacritics_cer": 0.7573234289822081,
+      "with_diacritics_wer": 0.9711602951039571,
+      "char_deletions": 16587,
+      "word_deletions": 4425
+    },
+    {
+      "recording": "SKD_U001_S001_0002",
+      "backend": "openai_whisper",
+      "model": "turbo",
+      "excluded_from_selection": false,
+      "elapsed_seconds": 922.2936929579591,
+      "without_diacritics_cer": 0.07493838330265498,
+      "without_diacritics_wer": 0.11968334898698511,
+      "with_diacritics_cer": 0.09896363745282453,
+      "with_diacritics_wer": 0.13306505700871898,
+      "char_deletions": 1198,
+      "word_deletions": 235
+    }
+  ],
+  "aggregate": [
+    {
+      "backend": "faster_whisper",
+      "model": "large-v3-turbo",
+      "mean_cer": 0.06262090970158653,
+      "mean_wer": 0.10963154678645098,
+      "total_char_deletions": 1918,
+      "total_word_deletions": 344
+    },
+    {
+      "backend": "openai_whisper",
+      "model": "turbo",
+      "mean_cer": 0.07025859621697615,
+      "mean_wer": 0.11562579840443157,
+      "total_char_deletions": 2365,
+      "total_word_deletions": 446
+    },
+    {
+      "backend": "openai_whisper",
+      "model": "large-v3",
+      "mean_cer": 0.09005942315999672,
+      "mean_wer": 0.1346956983998725,
+      "total_char_deletions": 3570,
+      "total_word_deletions": 716
+    },
+    {
+      "backend": "faster_whisper",
+      "model": "large-v3",
+      "mean_cer": 0.09302369013798195,
+      "mean_wer": 0.1354220718957873,
+      "total_char_deletions": 3155,
+      "total_word_deletions": 615
+    }
+  ]
+}

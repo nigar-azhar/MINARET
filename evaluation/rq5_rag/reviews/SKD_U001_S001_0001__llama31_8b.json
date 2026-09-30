@@ -1,0 +1,151 @@
+[
+  {
+    "question_id": "Q1",
+    "question": "قرآن میں ابراہیم علیہ السلام کی کونسی آیت شفا کے بارے میں بیان کی گئی ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0001_chunk_0006"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0006"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "[chunk_id=SKD_U001_S001_0001_chunk_0006 lecture_id=SKD_U001_S001_0001 start=178.22s end=208.02s]\n\nآیت ابراہیم علیہ السلام کی نہیں، بلکہ ایوب علیہ السلام کی آیت کا ذکر ہوا ہے جس میں شفا کے بارے میں بیان کیا گیا ہے۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 27.95,
+    "generated_at": "2026-09-23T20:37:32.637435+00:00",
+    "answer_verdict": "hallucinated",
+    "grader_notes": "Checked cited chunk SKD_U001_S001_0001_chunk_0006 (text: 'ابراہیم علیہ السلام نے کہا تھا نا وَإِذَا مَرِضْتُ فَهُوَيَشْفِينَ اور جب میں بیمار ہوتا ہوں تو وہ ہی مجھے شفا دیتا ہے'). This chunk is explicitly about Ibrahim (a.s.) quoting the verse. The model's Urdu answer states the opposite: 'آیت ابراہیم علیہ السلام کی نہیں، بلکہ ایوب علیہ السلام کی آیت کا ذکر ہوا ہے' ('The verse is not Ibrahim's, rather it is Ayyub's verse that is mentioned') -- directly contradicting the very chunk it cites, which never mentions Ayyub at all (Ayyub only appears in a different chunk, 0061, which was not retrieved/cited here). This is a hallucination: the model fabricates a claim that contradicts its own cited source. Notably the same model answers Q2 (the English paraphrase of the identical question) correctly using the same chunk, showing the failure is specific to this Urdu-language generation, not missing retrieval."
+  },
+  {
+    "question_id": "Q2",
+    "question": "According to the lecture, who actually does the healing when a person is sick, according to the verse spoken by Prophet Ibrahim (peace be upon him)?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0001_chunk_0006"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0006"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to chunk_id=SKD_U001_S001_0001_chunk_0006 lecture_id=SKD_U001_S001_0001 start=178.22s end=208.02s, when a person is sick, it is said that \"ابراہیم علیہ السلام نے کہا تھا نا وَإِذَا مَرِضْتُ فَهُوَيَشْفِينَ\" which translates to \"Abraham (peace be upon him) said: And when I am ill, it is He who heals me.\" \n\nSo, according to the verse spoken by Prophet Ibrahim (peace be upon him), Allah is the one who actually does the healing.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 29.99,
+    "generated_at": "2026-09-23T20:38:02.628182+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk SKD_U001_S001_0001_chunk_0006, same text as above. Model quotes 'ابراہیم علیہ السلام نے کہا تھا نا وَإِذَا مَرِضْتُ فَهُوَيَشْفِينَ' correctly, translates it correctly ('And when I am ill, it is He who heals me'), and concludes 'Allah is the one who actually does the healing.' Matches source and answers the question correctly, directly contradicting this same model's incorrect Urdu answer to Q1 on the identical fact."
+  },
+  {
+    "question_id": "Q4",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0027"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "[chunk_id=SKD_U001_S001_0001_chunk_0027 lecture_id=SKD_U001_S001_0001 start=866.52s end=896.28s]\nوہ تو خود عبادت کا نچوڑ ہے ٹھیک ہے یعنی جتنی بھی عبادات ہیں وہ کیا ہیں ہمارے حال کو درست کرنے کا ذریعہ ہیں یاد رہے گی یہ بات آپ حج کرتے ہیں تو یہ کیا ہے دعا ئےعبادت ہے یہ آپ کی حالت درست کرے گی وہ حدیث میں آتا ہے نا کہ عمرے پر عمرہ اور حج پر حج کیا کرتا ہے فقر دور کر دیتا ہے انسان کا حال درست ہوتا ہے اب آپ عمرہ کر رہے ہیں ٹھیک اس میں دعائیں ہیں\n\nThe lecturer mentions that Hajj and Umrah are a means of correcting one's state, and that they include acts of worship such as prayer.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 42.18,
+    "generated_at": "2026-09-23T20:38:44.807173+00:00",
+    "answer_verdict": "incorrectly_answered",
+    "grader_notes": "Checked cited chunk SKD_U001_S001_0001_chunk_0027, same general-benefit-of-Hajj/Umrah text as above (poverty removal, correcting one's state, prayers included). This is not etiquette/adab content. The model quotes the chunk verbatim and then states 'The lecturer mentions that Hajj and Umrah are a means of correcting one's state, and that they include acts of worship such as prayer' as if this answers the etiquette question, without noting the mismatch or refusing. incorrectly_answered."
+  },
+  {
+    "question_id": "Q16",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0027",
+        "SKD_U001_S001_0001_chunk_0028"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "chunk_id=SKD_U001_S001_0001_chunk_0027 lecture_id=SKD_U001_S001_0001 start=866.52s end=896.28s\n chunk_id=SKD_U001_S001_0001_chunk_0028 lecture_id=SKD_U001_S001_0001 start=896.28s end=927.44s\n\nاس لیکچر میں بتایا گیا ہے کہ حج اور عمرہ دونوں عبادت کے ذریعے انسان کا حال درست کرنے کا ذریعہ ہیں (chunk_id=SKD_U001_S001_0001_chunk_0027 lecture_id=SKD_U001_S001_0001 start=866.52s end=896.28s) اور عمرہ میں دعائیں ہوتی ہیں جو انسان کا حال درست کرتی ہیں (chunk_id=SKD_U001_S001_0001_chunk_0027 lecture_id=SKD_U001_S001_0001 start=866.52s end=896.28s) اور عمرہ بھی دعا کے قائم مقام ہے جو انسان کا حال درست کر دیتی ہے (chunk_id=SKD_U001_S001_0001_chunk_0028 lecture_id=SKD_U001_S001_0001 start=896.28s end=927.44s)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 38.63,
+    "generated_at": "2026-09-23T20:39:23.441128+00:00",
+    "answer_verdict": "incorrectly_answered",
+    "grader_notes": "Checked cited chunks 0027 and 0028, same general-benefit material as the English Q4 answer (spiritual benefit / poverty removal / Umrah as substitute for explicit dua). Not etiquette/adab content. Model answers substantively in Urdu instead of refusing, same failure mode as Q4. incorrectly_answered; this model never refuses either unanswerable variant (Q4 or Q16), unlike qwen35 which refused both."
+  }
+]

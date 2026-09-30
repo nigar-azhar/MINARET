@@ -1,0 +1,149 @@
+[
+  {
+    "question_id": "Q1",
+    "question": "قرآن میں ابراہیم علیہ السلام کی کونسی آیت شفا کے بارے میں بیان کی گئی ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0001_chunk_0006"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": 0.0,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\nBased on the provided excerpts, there is no specific mention of a Quranic verse (Ayah) related to **Ibrahim** (عليه السلام) specifically regarding **Shifa** (healing).\n\nThe text mentions Ibrahim in the context of a general statement about prayer and healing, but does not quote his specific verse for this purpose.\n*   **Chunk 0006** states: \"ابراہیم علیہ السلام نے کہا تھا نا وَإِذَا مَرِضْتُ فَهُوَيَشْفِين\" (Ibrahim said: \"And when I am ill, He is the One who heals me\"). However, this is presented as a general statement of belief in God's power to heal (\"اللہ کا کام ہے شفا دینا\"), not a specific Quranic verse citation for Ibrahim's healing story in the same way Ayub is discussed later.\n*   **Chunk 0061** explicitly discusses the story of **Ayub** (Job) regarding healing through prayer, citing Quran 21:83 (\"وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُ\").\n*   **Chunk 0036** lists Ibrahim, Musa, Isa, and Muhammad as prophets who prayed (\"ان سب کی دعائیں ہیں نا قرآن میں سب کے سب نے دعا کی\"), but it does not provide a specific verse for Ibrahim regarding healing.\n\nTherefore, the lecture excerpts do not contain enough information to answer that question specifically for Ibrahim.\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 70.53,
+    "generated_at": "2026-09-23T18:49:06.332468+00:00",
+    "answer_verdict": "incorrect",
+    "grader_notes": "Checked chunk SKD_U001_S001_0001_chunk_0006 (text: 'ابراہیم علیہ السلام نے کہا تھا نا وَإِذَا مَرِضْتُ فَهُوَيَشْفِينَ اور جب میں بیمار ہوتا ہوں تو وہ ہی مجھے شفا دیتا ہے تو شفا کس کے ہاتھ میں ہے اللہ تعالیٰ کے ہاتھ میں'). This chunk directly attributes the verse وَإِذَا مَرِضْتُ فَهُوَيَشْفِينَ to Ibrahim (a.s.) and is exactly the gold evidence for this question. The model's own answer quotes this verse correctly from chunk 0006, but then reasons that it 'is presented as a general statement of belief... not a specific Quranic verse citation for Ibrahim's healing story in the same way Ayub is discussed later' and concludes 'This lecture does not provide enough information to answer that question.' That conclusion is wrong: the chunk it quotes IS the answer (the verse is Quran 26:80, part of Ibrahim's prayer, and is exactly what the lecture cites). The model had the correct evidence in hand and refused to give the answer anyway, so this is graded incorrect (not hallucinated, since it did not invent false content, but it failed to answer an answerable question despite quoting the right source verbatim). Notably the same model (qwen35) answers Q2 -- the English-language paraphrase of this same question -- correctly using the same chunk."
+  },
+  {
+    "question_id": "Q2",
+    "question": "According to the lecture, who actually does the healing when a person is sick, according to the verse spoken by Prophet Ibrahim (peace be upon him)?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "SKD_U001_S001_0001_chunk_0006"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0006"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\nBased on the provided lecture excerpts, **Allah** actually does the healing when a person is sick.\n\nThe speaker explains that while it is a human's job to make Dua (supplication), the act of healing itself belongs to Allah. This is supported by the verse spoken by Prophet Ibrahim (peace be upon him), which states: \"وَأَإِذَا مَرِضْتُ فَهُوَ يَشْفِين\" (And when I am sick, He is the One who heals me). The speaker explicitly asks and answers where healing lies: \"تو شفا کس کے ہاتھ میں ہے اللہ تعالیٰ کے ہاتھ میں\" (So whose hand is healing? In the hands of Allah).\n\n**Citation:**\n[chunk_id=SKD_U001_S001_0001_chunk_0006]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 60.21,
+    "generated_at": "2026-09-23T18:50:06.541718+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk SKD_U001_S001_0001_chunk_0006, same text as above. Model states 'Allah actually does the healing', quotes the verse وَأَإِذَا مَرِضْتُ فَهُوَ يَشْفِين and the follow-up line 'تو شفا کس کے ہاتھ میں ہے اللہ تعالیٰ کے ہاتھ میں' ('so whose hand is healing in? In Allah's hand'), and cites chunk_0006 explicitly. This matches the source text and directly answers the question (Allah is the healer, per the verse spoken by Ibrahim a.s.). Correct and properly grounded."
+  },
+  {
+    "question_id": "Q4",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "SKD_U001_S001_0001_chunk_0027",
+        "SKD_U001_S001_0001_chunk_0049",
+        "SKD_U001_S001_0001_chunk_0052",
+        "SKD_U001_S001_0001_chunk_0084"
+      ],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": false
+    },
+    "generated_answer": "\nAnswer:\n\nThis lecture does not provide enough information to answer that question. The provided excerpts discuss the spiritual benefits of Hajj and Umrah (such as correcting one's state or removing poverty) and the importance of sharing good deeds, but they do not mention any specific etiquettes (adab) or rules regarding how to perform these rituals.\n\n**Citation:**\n- chunk_id=SKD_U001_S001_0001_chunk_0027 (Discusses Hajj and Umrah as means to correct one's state)\n- chunk_id=SKD_U001_S001_0001_chunk_0084 (Discusses the benefit of sharing good deeds)\n- chunk_id=SKD_U001_S001_0001_chunk_0049 (Discusses medical diagnosis issues)\n- chunk_id=SKD_U001_S001_0001_chunk_0052 (Discusses the importance of gathering in person for spiritual growth)\n\nNone of these excerpts contain information regarding the etiquettes of Hajj and Umrah.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 64.25,
+    "generated_at": "2026-09-23T18:51:10.794710+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Checked the 4 cited chunks (0027, 0049, 0052, 0084). None of them describe etiquette/rules (آداب) of Hajj or Umrah -- chunk_0027/0028-adjacent text only discusses the general spiritual benefit ('عمرے پر عمرہ اور حج پر حج ... فقر دور کر دیتا ہے'), chunk_0049 is about doctors/diagnosis, chunk_0052 is about sitting in gatherings of good company, and chunk_0084 is about sharing good deeds -- none is about Hajj/Umrah etiquette. The model correctly states the excerpts discuss spiritual benefits, not etiquette, and gives the required refusal sentence. Correct refusal of a genuinely unanswerable question."
+  },
+  {
+    "question_id": "Q16",
+    "question": "اس لیکچر میں حج اور عمرہ کے آداب کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "SKD_U001_S001_0001",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": null,
+      "initial_rank_of_first_gold": null,
+      "reranked_hit": null,
+      "reranked_rank_of_first_gold": null,
+      "sent_hit": null,
+      "sent_precision": null,
+      "sent_recall": null
+    },
+    "citation": {
+      "cited_chunk_ids": [],
+      "citation_precision": null,
+      "citation_recall": null,
+      "no_citation_found": true
+    },
+    "generated_answer": "\n\n\n\nThis lecture does not provide enough information to answer that question.",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 21404,
+    "elapsed_seconds": 182.56,
+    "generated_at": "2026-09-23T18:54:13.357260+00:00",
+    "answer_verdict": "correctly_refused",
+    "grader_notes": "Model output is exactly the required refusal string 'This lecture does not provide enough information to answer that question.' with no fabricated content and no citations, mirroring the correct English refusal on Q4 for the same underlying (deliberately unanswerable) question. Correct refusal."
+  }
+]

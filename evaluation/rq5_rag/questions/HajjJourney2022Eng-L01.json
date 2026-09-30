@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q37",
+    "question": "According to the lecturer, what are the three types of people described when it comes to going for Hajj?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["HajjJourney2022Eng-L01_chunk_0007"],
+    "note": "Fact verified directly against the transcript (segments 17-19: those who can afford and want to go, those who cannot afford but want to go, and those who can afford but delay/don't want to go). gold_chunk_ids backfilled 2026-09-24 after confirming all 3 models (qwen3.5-9b-mlx, gemma-4-e4b-it, meta-llama-3.1-8b-instruct@q6_k) gave correct_grounded answers citing chunk_0007, and verified chunk_0007's text supports the claim verbatim."
+  },
+  {
+    "question_id": "Q38",
+    "question": "لیکچرر کے مطابق حج پر جانے کے حوالے سے لوگوں کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["HajjJourney2022Eng-L01_chunk_0007"],
+    "note": "Cross-lingual variant of Q37 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 after confirming all 3 models gave correct_grounded answers citing chunk_0007 (the underlying transcript is English only; models translated to/from Urdu)."
+  },
+  {
+    "question_id": "Q57",
+    "question": "According to the lecturer, which four things do we ask Allah for in the beautiful du'a he introduces at the start of the course?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["HajjJourney2022Eng-L01_chunk_0010"],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segments 29-31: barakat/blessings, rahmat/mercy, fadl/favor, and rizq/sustenance, from the dua 'Allahumma-bsut alayna min barakatika, wa rahmatika, wa fadlika, wa rizqika'). gold_chunk_ids backfilled 2026-09-24 after confirming all 3 models gave correct_grounded answers citing chunk_0010, and verified chunk_0010's text supports the claim verbatim."
+  },
+  {
+    "question_id": "Q58",
+    "question": "لیکچرر کے مطابق کورس کے آغاز میں سکھائی جانے والی دعا میں اللہ تعالیٰ سے کون سی چار چیزیں مانگی گئی ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["HajjJourney2022Eng-L01_chunk_0010"],
+    "note": "Cross-lingual variant of Q57 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 after confirming all 3 models gave correct_grounded answers citing/matching chunk_0010 (one model's citation tag had a typo causing the automated parser to miss it, but content was verified directly against chunk_0010 text)."
+  }
+]

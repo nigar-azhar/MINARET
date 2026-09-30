@@ -1,0 +1,259 @@
+{
+  "ayat": [
+    {
+      "surah_number": "59",
+      "ayah_number": "21",
+      "text": "لَوْ أَنْزَلْنَا هَٰذَا الْقُرْآنَ عَلَىٰ جَبَلٍ لَّرَأَيْتَهُ خَاشِعًا مُّتَصَدِّعًا مِّنْ خَشْيَةِ اللهِ",
+      "start": 11.74,
+      "end": 22.28,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "59",
+      "ayah_number": "21",
+      "text": "اگر اس قرآن کو ہم کسی پہاڑ پر اتارتے، پہاڑ پر رکھتے، تو تم دیکھتے کہ وہ دب گیا ہے، دب گیا ہے۔ خَاشِعًا مُّتَصَدِّعًا، پھٹ گیا ہے، ٹکڑے ٹکڑے ہو گیا ہے، مِّنْ خَشْيَةِ اللهِ، اللہ کے خوف سے۔",
+      "start": 23.12,
+      "end": 52.48,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "86",
+      "ayah_number": "13",
+      "text": "إِنَّهُ لَقَوْلٌ فَصْلٌ",
+      "start": 38.2,
+      "end": 52.48,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "86",
+      "ayah_number": "14",
+      "text": "وَمَا هُوَ بِالْهَزْلِ",
+      "start": 38.2,
+      "end": 52.48,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "86",
+      "ayah_number": "13-14",
+      "text": "یہ کوئی کھیل تماشے کی چیز نہیں ہے، یہ کوئی ہنسی مذاق کی چیز نہیں ہے، یہ تو فیصلہ کن بات ہے۔",
+      "start": 53.2,
+      "end": 60.48,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "192",
+      "text": "وَإِنَّهُ لَتَنزِيلُ رَبِّ الْعَالَمِينَ",
+      "start": 264.56,
+      "end": 278.64,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "193",
+      "text": "نَزَلَ بِهِ الرُّوحُ الْأَمِينُ",
+      "start": 279.48,
+      "end": 291.42,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "194",
+      "text": "عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ الْمُنذِرِينَ",
+      "start": 279.48,
+      "end": 291.42,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "195",
+      "text": "بِلِسَانٍ عَرَبِيٍّ مُّبِينٍ",
+      "start": 279.48,
+      "end": 291.42,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "196",
+      "text": "وَإِنَّهُ لَفِي زُبُرِ الْأَوَّلِينَ",
+      "start": 279.48,
+      "end": 291.42,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "192-196",
+      "text": "بے شک یہ خداوندِ عالم کا اتارا ہوا کلام ہے، اس کو امانت دار فرشتہ لے کر اترا ہے، تمہارے دل پر، یعنی محمد صلی اللہ علیہ وسلم کے دل پر، تاکہ تم ڈرانے والوں میں سے بنو، صاف عربی زبان میں ہے، اور اس کا ذکر پہلے لوگوں کی کتابوں میں بھی ہے",
+      "start": 300.64,
+      "end": 320.26,
+      "usage": "translation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "192",
+      "text": "وَإِنَّهُ لَتَنزِيلُ رَبِّ الْعَالَمِينَ",
+      "start": 331.34,
+      "end": 341.78,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "193",
+      "text": "نَزَلَ بِهِ الرُّوحُ الْأَمِينُ",
+      "start": 342.72,
+      "end": 354.02,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "194",
+      "text": "عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ الْمُنذِرِينَ",
+      "start": 342.72,
+      "end": 354.02,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "195",
+      "text": "بِلِسَانٍ عَرَبِيٍّ مُّبِينٍ",
+      "start": 364.78,
+      "end": 375.64,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "196",
+      "text": "وَإِنَّهُ لَفِي زُبُرِ الْأَوَّلِينَ",
+      "start": 364.78,
+      "end": 375.64,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "3",
+      "ayah_number": "64",
+      "text": "تَعَالَوْا إِلَىٰ كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ",
+      "start": 503.3,
+      "end": 513.84,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "3",
+      "ayah_number": "64",
+      "text": "آؤ ایک بات کی طرف جو ہمارے اور تمہارے درمیان برابر ہے",
+      "start": 503.3,
+      "end": 513.84,
+      "usage": "translation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "54",
+      "ayah_number": "17",
+      "text": "ہم نے قرآن کو نصیحت کے لیے آسان بنا دیا، تو ہے کوئی جو نصیحت حاصل کرے؟",
+      "start": 1699.8,
+      "end": 1709.02,
+      "usage": "translation",
+      "extent": "complete"
+    }
+  ],
+  "hadith": [],
+  "dua": [],
+  "topics": [
+    {
+      "name": "Majesty of the Quran (Azmat-e-Quran)",
+      "description": "The transcendent weight, solemnity, and decisive nature of divine revelation.",
+      "start": 0.84,
+      "end": 109.52
+    },
+    {
+      "name": "Revelation and Descent (Wahy wa Inzal)",
+      "description": "The historical timeframe, angel of revelation, and linguistic conveyance in clear Arabic.",
+      "start": 209.96,
+      "end": 375.64
+    },
+    {
+      "name": "Dialogue with People of the Book (Mukalamah)",
+      "description": "Establishing common grounds in communication and acknowledging prior scriptures.",
+      "start": 489.48,
+      "end": 524.84
+    },
+    {
+      "name": "Miraculous Nature of the Quran (I'jaz)",
+      "description": "Textual invariance across fourteen centuries and alignment with scientific realities.",
+      "start": 526.38,
+      "end": 643.6
+    },
+    {
+      "name": "Compilation and Scribing (Jam' wa Kitabat)",
+      "description": "The roles of scribes of revelation, Abu Bakr's compilation, and Uthman's official codices.",
+      "start": 708.0,
+      "end": 1141.82
+    },
+    {
+      "name": "Oral Tradition and Recitation (Qira'at)",
+      "description": "The preservation of phonetics, tajweed, and oral transmission alongside calligraphy.",
+      "start": 1142.9,
+      "end": 1345.9
+    },
+    {
+      "name": "Comprehension and Contemplation (Fahm wa Tadabbur)",
+      "description": "Direct engagement with the text, leveraging linguistic affinity with Urdu, and daily practice.",
+      "start": 1495.22,
+      "end": 1715.98
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "The Majesty, Weight, and Divine Origin of the Quran",
+      "title_ur": "عظمتِ قرآن اور کلامِ الٰہی کی حقیقت",
+      "start": 0.84,
+      "end": 300.64
+    },
+    {
+      "title_en": "Presenting the Quran: Purpose, Proofs, and Truthfulness",
+      "title_ur": "قرآن کا مؤثر تعارف اور حقانیت کے دلائل",
+      "start": 300.64,
+      "end": 602.14
+    },
+    {
+      "title_en": "Preservation of Language and Scriptural Integrity",
+      "title_ur": "عربی زبان اور متن کی بے مثال حفاظت",
+      "start": 602.14,
+      "end": 921.22
+    },
+    {
+      "title_en": "Historical Compilation: From Scribes to the Uthmanic Codex",
+      "title_ur": "جمع و تدوینِ قرآن کے تاریخی مراحل: عہدِ صدیقی سے عثمانی تک",
+      "start": 921.22,
+      "end": 1216.82
+    },
+    {
+      "title_en": "Evolution of Preservation: Calligraphy, Printing, and Audio",
+      "title_ur": "کتابت، طباعت اور صوتی ریکارڈنگ کے ذریعے حفاظت",
+      "start": 1216.82,
+      "end": 1487.34
+    },
+    {
+      "title_en": "The Believer's Responsibility: Direct Understanding and Action",
+      "title_ur": "ہماری انفرادی ذمہ داری: فہمِ قرآن، تدبر اور عمل",
+      "start": 1487.34,
+      "end": 1715.98
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "question_id": "Q41",
+    "question": "According to the lecturer, what are the three months during which Hajj takes place?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "note": "Fact verified directly against the transcript (segment 323: Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah, citing the ayah 'al-Hajju ashhurun ma'lumat'). gold_chunk_ids backfilled 2026-09-24 after grading the RQ5 answers: qwen3.5-9b-mlx and gemma-4-e4b-it both gave correct_grounded answers citing chunk_0084 (\"The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah\") and chunk_0087 (\"it should be Shawwal, Dhul-Qa'dah, or Dhul-Hijjah\"); both chunk texts verified to state all three months."
+  },
+  {
+    "question_id": "Q42",
+    "question": "لیکچرر کے مطابق حج کے تین مہینے کون سے ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0084",
+      "HajjJourney2022Eng-L03_chunk_0087"
+    ],
+    "note": "Cross-lingual variant of Q41 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 (same evidence as Q41: all three models' Urdu answers that cited these chunks were correct_grounded)."
+  },
+  {
+    "question_id": "Q61",
+    "question": "According to the lecturer, what are the three types of Hajj mentioned in the lecture?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "note": "Added 2026-09-23 as the second balanced concept for this recording. Fact verified directly against the transcript (segment 350: Tamattu', Qiran, and Ifrad). gold_chunk_ids backfilled 2026-09-24 after grading the RQ5 answers: qwen3.5-9b-mlx and gemma-4-e4b-it both gave correct_grounded answers citing only chunk_0091, verified to state \"There are three types of Hajj: Tamattu', Qiran, and Ifrad\" verbatim. (meta-llama-3.1-8b-instruct@q6_k also cited chunk_0091 correctly but additionally hallucinated a Qiran attribution to chunk_0084, which does not mention hajj types at all -- graded partially_correct, not used as gold evidence.)"
+  },
+  {
+    "question_id": "Q62",
+    "question": "لیکچرر کے مطابق حج کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L03_chunk_0091"
+    ],
+    "note": "Cross-lingual variant of Q61 (same content, reverse language direction). gold_chunk_ids backfilled 2026-09-24 (same evidence as Q61: all three models' Urdu answers cited chunk_0091 and were correct_grounded)."
+  }
+]

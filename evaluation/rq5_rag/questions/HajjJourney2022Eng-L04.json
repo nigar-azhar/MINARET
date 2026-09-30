@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q5",
+    "question": "What does the lecturer say a pilgrim should do if they break a bone or become lame while in ihram?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["HajjJourney2022Eng-L04_chunk_0033"],
+    "note": "Native-language (English) question, English-dominant lecture."
+  },
+  {
+    "question_id": "Q20",
+    "question": "لیکچرر کے مطابق اگر کوئی حاجی احرام کی حالت میں اپنی ہڈی توڑ بیٹھے یا لنگڑا ہو جائے تو اسے کیا کرنا چاہیے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["HajjJourney2022Eng-L04_chunk_0033"],
+    "note": "Cross-lingual variant of Q5 (same content, same gold chunk, reverse language direction)."
+  },
+  {
+    "question_id": "Q8",
+    "question": "What does the lecturer say about the Quranic concept of shifa (healing) and its six occurrences in the Qur'an?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - this lecture is about Hajj rulings, not the shifa/healing topic covered in SKD_0001/SKD_0002. Refusal test."
+  },
+  {
+    "question_id": "Q23",
+    "question": "اس لیکچر میں قرآن میں لفظ 'شفا' کے چھ مقامات کے بارے میں کیا بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q8 (same deliberately-unanswerable question, reverse language direction)."
+  }
+]

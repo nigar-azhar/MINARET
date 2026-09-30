@@ -1,0 +1,154 @@
+[
+  {
+    "question_id": "Q37",
+    "question": "According to the lecturer, what are the three types of people described when it comes to going for Hajj?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L01",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0007"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0007"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nBased on the provided transcript excerpts, specifically **chunk_0007**, the lecture mentions that there are three types of people when it comes to Hajj:\n\n1.  **First type:** They can afford and they also want to go.\n2.  **Second type:** They cannot afford, but they still want to go.\n3.  **Third type:** They can afford, but they don't go (they delay it or don't really want to go).\n\n[chunk_id=HajjJourney2022Eng-L01_chunk_0007]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 16959,
+    "elapsed_seconds": 233.66,
+    "generated_at": "2026-09-23T18:06:45.070380+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HajjJourney2022Eng-L01_chunk_0007, which reads verbatim: 'there are three types of people when it comes to Hajj: one type, they can afford and they also want to go; second type, they cannot afford, but they still want to go; third type, they can afford, but they don't go, they delay it, they don't really, really want to go.' The model's three types (can-afford+want-to-go / cannot-afford+want-to-go / can-afford-but-delay-or-don't-want-to-go) match this exactly. correct_grounded."
+  },
+  {
+    "question_id": "Q38",
+    "question": "لیکچرر کے مطابق حج پر جانے کے حوالے سے لوگوں کی کون سی تین اقسام بیان کی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L01",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0007"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0007"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچرر کے مطابق حج پر جانے والوں کی تین اقسام یہ ہیں:\n\n1. وہ لوگ جو خرچ کر سکتے ہیں اور جانا چاہتے ہیں۔\n2. وہ لوگ جو خرچ نہیں کر سکتے، لیکن جانا چاہتے ہیں۔\n3. وہ لوگ جو خرچ کر سکتے ہیں، لیکن نہیں جاتے (تھوڑا دیر سے کر لیتے ہیں)۔\n\n[chunk_id=HajjJourney2022Eng-L01_chunk_0007]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 7031,
+    "elapsed_seconds": 154.62,
+    "generated_at": "2026-09-23T18:09:19.767286+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Same underlying fact as Q37 (cross-lingual pair). Checked chunk HajjJourney2022Eng-L01_chunk_0007 (English source only; no Urdu transcript exists, so the model translated). Content matches: type 1 = can afford and wants to go, type 2 = cannot afford but wants to go, type 3 = can afford but doesn't go/doesn't want to go. correct_grounded."
+  },
+  {
+    "question_id": "Q57",
+    "question": "According to the lecturer, which four things do we ask Allah for in the beautiful du'a he introduces at the start of the course?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L01",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0010"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0010"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nAccording to the lecturer, the four things we ask Allah for in this beautiful du'a are barakat (blessings), rahmat (mercy), fadl (favor/grace), and rizq (sustenance/provision).\n\n[chunk_id=HajjJourney2022Eng-L01_chunk_0010]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 4441,
+    "elapsed_seconds": 127.05,
+    "generated_at": "2026-09-23T18:11:26.821514+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk HajjJourney2022Eng-L01_chunk_0010, which reads: 'this beautiful du'a... talks about four important things. We're asking Allah Subhanahu wa Ta'ala for four things in this du'a: barakat, rahmat, fadl, and rizq. Allahumma-bsut alayna min barakatika, wa rahmatika, wa fadlika, wa rizqika.' The model's four items (barakat/blessings, rahmat/mercy, fadl/favor, rizq/sustenance) match exactly. correct_grounded."
+  },
+  {
+    "question_id": "Q58",
+    "question": "لیکچرر کے مطابق کورس کے آغاز میں سکھائی جانے والی دعا میں اللہ تعالیٰ سے کون سی چار چیزیں مانگی گئی ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HajjJourney2022Eng-L01",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HajjJourney2022Eng-L01_chunk_0010"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HajjJourney2022Eng-L01_chunk_0010"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "\n\n\n\nلیکچر کے مطابق کورس کے آغاز میں سکھائی جانے والی دعا میں اللہ تعالیٰ سے چار چیزیں مانگی گئی ہیں:\n\n1. بَرَكَات (barakat)\n2. رَحْمَة (rahmat)\n3. فَضْل (fadl)\n4. رِزْق (rizq)\n\n[chunk_id=HajjJourney2022Eng-L01_chunk_0010]",
+    "generation_model": "qwen3.5-9b-mlx",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 5813,
+    "elapsed_seconds": 148.94,
+    "generated_at": "2026-09-23T18:13:55.758909+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Same underlying fact as Q57 (cross-lingual pair). Checked chunk HajjJourney2022Eng-L01_chunk_0010 (English/Arabic source; no Urdu transcript exists). The four items listed (barakat, rahmat, fadl, rizq) match the chunk's du'a text exactly. correct_grounded."
+  }
+]

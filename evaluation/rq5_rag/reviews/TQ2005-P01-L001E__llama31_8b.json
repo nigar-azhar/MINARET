@@ -1,0 +1,158 @@
+[
+  {
+    "question_id": "Q33",
+    "question": "لیکچرر کے مطابق سورۃ الفاتحہ کے دیگر کون کون سے نام بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001E",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "chunk_id=TQ2005-P01-L001E_chunk_0005 lecture_id=TQ2005-P01-L001E start=141.32s end=174.84s\n\nسورۃ الفاتحہ کے نام یہ ہیں: ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، الکنز۔",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 24.53,
+    "generated_at": "2026-09-23T20:26:44.678681+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001E_chunk_0005 (141.32s-174.84s), which reads: \"اس سورت کے اور بھی کئی نام ہیں جیسے ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، الکنز۔\" (this surah has several other names: Umm al-Kitab, Umm al-Qur'an, Surah al-Hamd, al-Shifa, al-Kanz). The model's answer lists exactly these five names and cites the correct chunk. Fully supported."
+  },
+  {
+    "question_id": "Q34",
+    "question": "According to the lecturer, what are the other names given for Surah Al-Fatiha?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001E",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0005"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0005"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to chunk_id=TQ2005-P01-L001E_chunk_0005 lecture_id=TQ2005-P01-L001E start=141.32s end=174.84s, the other names given for Surah Al-Fatiha are: ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، الکنز.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 19.98,
+    "generated_at": "2026-09-23T20:27:04.656982+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001E_chunk_0005 (141.32s-174.84s), which reads: \"اس سورت کے اور بھی کئی نام ہیں جیسے ام الکتاب، ام القرآن، سورۃ الحمد، الشفاء، الکنز۔\" (this surah has several other names: Umm al-Kitab, Umm al-Qur'an, Surah al-Hamd, al-Shifa, al-Kanz). The model's answer lists exactly these five names and cites the correct chunk. Fully supported."
+  },
+  {
+    "question_id": "Q67",
+    "question": "لیکچرر کے مطابق لفظ 'رب' کا کیا مطلب بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001E",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0009",
+      "TQ2005-P01-L001E_chunk_0010",
+      "TQ2005-P01-L001E_chunk_0012"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "لفظ 'رب' کا مطلب یہ ہے کہ کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا۔ (chunk_id=TQ2005-P01-L001E_chunk_0009 lecture_id=TQ2005-P01-L001E start=287.16s end=332.44s)",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 28.41,
+    "generated_at": "2026-09-23T20:27:33.070117+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001E_chunk_0009 (287.16s-332.44s): \"رب کہتے ہیں کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا۔\" (Rabb = one who gradually brings a thing from a small beginning/particle to perfection). This is exactly the core definition the lecturer gives and matches the gold note's expected fact verbatim. The answer is accurate but narrower than qwen/gemma's — it omits the nurturing extension (chunk_0010) and the master/owner sense (chunk_0012), which the model didn't retrieve/cite (only chunk_0009 cited). Since it directly and correctly answers with the lecture's primary definition and doesn't misstate anything, grading as correct on the core fact rather than partial, since the question does not require every extension to be enumerated."
+  },
+  {
+    "question_id": "Q68",
+    "question": "According to the lecturer, what meaning is given for the word 'Rabb' in this word-analysis session?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "TQ2005-P01-L001E",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "TQ2005-P01-L001E_chunk_0009",
+      "TQ2005-P01-L001E_chunk_0010",
+      "TQ2005-P01-L001E_chunk_0012"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.25,
+      "sent_recall": 0.3333333333333333
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "TQ2005-P01-L001E_chunk_0009"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.3333333333333333,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the lecture excerpt [chunk_id=TQ2005-P01-L001E_chunk_0009], the lecturer says that \"Rab\" (part of the word \"Rabb\") کہتے ہیں کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا.",
+    "generation_model": "meta-llama-3.1-8b-instruct@q6_k",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 0,
+    "elapsed_seconds": 23.32,
+    "generated_at": "2026-09-23T20:27:56.388472+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk TQ2005-P01-L001E_chunk_0009 (287.16s-332.44s): \"رب کہتے ہیں کسی چیز کو آہستہ آہستہ ذرے سے کمال تک پہنچانے والا۔\" (Rabb = one who gradually brings a thing from a small beginning/particle to perfection). This is exactly the core definition the lecturer gives and matches the gold note's expected fact verbatim. The answer is accurate but narrower than qwen/gemma's — it omits the nurturing extension (chunk_0010) and the master/owner sense (chunk_0012), which the model didn't retrieve/cite (only chunk_0009 cited). Since it directly and correctly answers with the lecture's primary definition and doesn't misstate anything, grading as correct on the core fact rather than partial, since the question does not require every extension to be enumerated."
+  }
+]

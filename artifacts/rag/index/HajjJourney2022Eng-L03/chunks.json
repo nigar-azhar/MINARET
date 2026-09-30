@@ -1,0 +1,1452 @@
+{
+  "lecture_id": "HajjJourney2022Eng-L03",
+  "series": "HajjJourney2022Eng",
+  "source_gold_file": "artifacts/recordings/HajjJourney2022Eng/HajjJourney2022Eng-L03/v3.json",
+  "chunk_policy": {
+    "version": "lecture-rag-chunk-v1",
+    "target_seconds": 30,
+    "minimum_seconds": 15,
+    "maximum_seconds": 60,
+    "pause_seconds": 1.0
+  },
+  "chunk_count": 97,
+  "chunks": [
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0000",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 0,
+      "start": 0.0,
+      "end": 32.04,
+      "constituent_segment_ids": [
+        "idx_0",
+        "idx_1",
+        "idx_2"
+      ],
+      "text": "As-salamu alaykum wa rahmatullahi wa barakatuh everyone. Alhamdulillah, welcome back to the course. Good to see all of you here. Alhamdulillah, let's Insha'Allah begin properly. نَحْمَدُهٗ وَنُصَلِّیْ عَلٰی رَسُوْلِهِ الْكَرِیْمِ ؔؕ اَمَّا بَعْدُ فَاَعُوْذُ بِاللّٰهِ مِنَ الشَّیْطٰنِ الرَّجِیْمِ ؔؕ بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ؔؕ رَبِّ اشْرَحْ لِیْ صَدْرِیْ ۙ وَیَسِّرْ لِیْۤ اَمْرِیْ ۙ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْ ۙ یَفْقَهُوْا قَوْلِیْ۔ رَبِّ زِدْنِیْ عِلْمًا ؕ اَللّٰهُمَّ فَقِّهْنَا فِی الدِّیْنِ. May Allah give us the correct understanding of Hajj."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0001",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 1,
+      "start": 32.12,
+      "end": 62.86,
+      "constituent_segment_ids": [
+        "idx_3",
+        "idx_4",
+        "idx_5",
+        "idx_6"
+      ],
+      "text": "And may Allah enable us to perform all of these rites beautifully whenever we get a chance to do so, Ameen. So Insha'Allah today, we'll have a look at the verses about Hajj in Surah Al-Hajj. Then we will go over the commands and matters mentioned in these ayat. So let's listen to the ayat first. وَاِذْ بَوَّأْنَا لِاِبْرٰهِیْمَ مَكَانَ الْبَیْتِ اَنْ لَّا تُشْرِكْ بِیْ شَیْـًٔا Ameen."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0002",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 2,
+      "start": 62.86,
+      "end": 91.76,
+      "constituent_segment_ids": [
+        "idx_7",
+        "idx_8",
+        "idx_9",
+        "idx_10",
+        "idx_11",
+        "idx_12",
+        "idx_13",
+        "idx_14",
+        "idx_15",
+        "idx_16"
+      ],
+      "text": "اَنْ لَّا تُشْرِكْ بِیْ شَیْـًٔا وَّطَهِّرْ بَیْتِیَ لِلطَّآىِٕفِیْنَ Ameen. لِلطَّآىِٕفِیْنَ وَالْقَآىِٕمِیْنَ وَالرُّكَّعِ السُّجُوْدِ Ameen, Ameen. وَاَذِّنْ فِی النَّاسِ بِالْحَجِّ یَاْتُوْكَ رِجَالًا Ameen, Ameen. رِجَالًا وَّعَلٰی كُلِّ ضَامِرٍ Ameen. یَّاْتِیْنَ مِنْ كُلِّ فَجٍّ عَمِیْقٍ ۟ۙ Ameen, Ameen."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0003",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 3,
+      "start": 91.76,
+      "end": 120.74,
+      "constituent_segment_ids": [
+        "idx_17",
+        "idx_18"
+      ],
+      "text": "لِّیَشْهَدُوْا مَنَافِعَ لَهُمْ وَیَذْكُرُوا اسْمَ اللّٰهِ فِیْۤ اَیَّامٍ مَّعْلُوْمٰتٍ Ameen, Ameen."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0004",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 4,
+      "start": 120.74,
+      "end": 152.24,
+      "constituent_segment_ids": [
+        "idx_19",
+        "idx_20",
+        "idx_21",
+        "idx_22",
+        "idx_23",
+        "idx_24",
+        "idx_25",
+        "idx_26",
+        "idx_27",
+        "idx_28"
+      ],
+      "text": "فِیْۤ اَیَّامٍ مَّعْلُوْمٰتٍ عَلٰی مَا رَزَقَهُمْ مِّنْۢ بَهِیْمَةِ الْاَنْعَامِ ۚ Ameen. فَكُلُوْا مِنْهَا Ameen. وَاَطْعِمُوا الْبَآىِٕسَ الْفَقِیْرَ ۟ Ameen. ثُمَّ لْیَقْضُوْا تَفَثَهُمْ وَلْیُوْفُوْا نُذُوْرَهُمْ Ameen. وَلْیَطَّوَّفُوْا بِالْبَیْتِ الْعَتِیْقِ ۟ Ameen, Ameen."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0005",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 5,
+      "start": 152.24,
+      "end": 181.08,
+      "constituent_segment_ids": [
+        "idx_29",
+        "idx_30",
+        "idx_31",
+        "idx_32",
+        "idx_33",
+        "idx_34"
+      ],
+      "text": "ذٰلِكَ ؕ وَمَنْ یُّعَظِّمْ حُرُمٰتِ اللّٰهِ فَهُوَ خَیْرٌ لَّهٗ عِنْدَ رَبِّهٖ ؕ Ameen. وَاُحِلَّتْ لَكُمُ الْاَنْعَامُ اِلَّا مَا یُتْلٰی عَلَیْكُمْ Ameen. فَاجْتَنِبُوا الرِّجْسَ مِنَ الْاَوْثَانِ وَاجْتَنِبُوْا قَوْلَ الزُّوْرِ ۟ۙ Ameen, Ameen, Ameen, Ameen, Ameen, Ameen."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0006",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 6,
+      "start": 183.74,
+      "end": 219.32,
+      "constituent_segment_ids": [
+        "idx_35",
+        "idx_36",
+        "idx_37",
+        "idx_38"
+      ],
+      "text": "وَإِذْ بَوَّأْنَا لِإِبْرَاهِيمَ مَكَانَ الْبَيْتِ أَنْ لَا تُشْرِكْ بِي شَيْئًا وَطَهِّرْ بَيْتِيَ لِلطَّائِفِينَ وَالْقَائِمِينَ وَالرُُكَّعِ السُّجُودِ And mention when We designated for Ibrahim the site of the House: 'Do not associate anything with Me and purify My House for those who perform tawaf and those who stand in prayer and those who bow and those who prostrate.' وَأَذِّنْ فِي النَّاسِ بِالْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَى كُلِّ ضَامِرٍ يَأْتِينَ مِنْ كُلِّ فَجِّ عَمِيقٍ 'And proclaim to the people the Hajj; they will come to you on foot and on every lean camel, they will come from every distant pass, that they may witness benefits for themselves and mention the name of Allah on known days over what He has provided for them of sacrificial animals.'"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0007",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 7,
+      "start": 219.52,
+      "end": 252.64,
+      "constituent_segment_ids": [
+        "idx_39",
+        "idx_40",
+        "idx_41"
+      ],
+      "text": "فَكُلُوا مِنْهَا وَأَطْعِمُوا الْبَائِسَ الْفَقِيرَ ٭ ثُمَّ لْيَقْضُوا تَفَثَهُمْ وَلْيُوفُوا نُذُورَهُمْ وَلْيَطَّوَّفُوا بِالْبَيْتِ الْعَتِيقِ 'So eat of them and feed the miserable and poor. Then let them end their untidiness and fulfill their vows and perform tawaf around the Ancient House.' That has been commanded, and whoever honors the sacred ordinances of Allah, it is best for him in the sight of his Lord. And permitted to you are the grazing livestock except what is recited to you. فَاجْتَنِبُوا الرِّجْسَ مِنَ الْأَوْثَانِ وَاجْتَنِبُوا قَوْلَ الزُّورِ. So avoid the uncleanniness of idols and avoid false statement. These verses give us an overview of Hajj, a picture of Hajj."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0008",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 8,
+      "start": 252.76,
+      "end": 283.42,
+      "constituent_segment_ids": [
+        "idx_42",
+        "idx_43",
+        "idx_44"
+      ],
+      "text": "So let's understand what these verses are actually telling us about. So if you look at the background of these verses, it's gonna, Insha'Allah, make it easier for us to understand. So in these verses, Allah Subhanahu wa Ta'ala is rebuking the mushrikeen of Makkah. Why? Because they prevented Muslims from entering Baytullah. Ibrahim Alayhi Salam built this house, and he was commanded to keep the House of Allah clean and pure for the people who wanted to offer prayers in it, and this invitation was open for everyone."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0009",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 9,
+      "start": 283.6,
+      "end": 313.72,
+      "constituent_segment_ids": [
+        "idx_45",
+        "idx_46",
+        "idx_47"
+      ],
+      "text": "So that's why they are reprimanded. So people are welcome to come to Hajj so that they may get some religious benefits and also some worldly benefits. So if we just look at the overall picture of these verses, we learn that Allah Subhanahu wa Ta'ala says: 'O Ibrahim, explain to the people that Hajj is an obligation upon them.' They will respond to your inspiration in spite of their various circumstances, and they will come on foot and also on rides, SubhanAllah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0010",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 10,
+      "start": 313.96,
+      "end": 345.42,
+      "constituent_segment_ids": [
+        "idx_48",
+        "idx_49",
+        "idx_50"
+      ],
+      "text": "And even if their rides are lean and weak, they will still come. These rides will come from every remote area so that pilgrims will be present from, you know, different places. For what? For their religious and worldly benefits. And also, they will mention the name of Allah. When they will reach there, they will mention the name of Allah, not just as dhikr, but also on the animals: camels, cows, and goats. Why would they mention the name of Allah on all of these animals? To slaughter them. And when will they do this? In the 10 days of Dhul-Hijjah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0011",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 11,
+      "start": 345.94,
+      "end": 379.26,
+      "constituent_segment_ids": [
+        "idx_51",
+        "idx_52",
+        "idx_53",
+        "idx_54"
+      ],
+      "text": "And then we also learn that it's allowed for the people who are slaughtering these animals to even enjoy the meat of that. So eat from these slaughtered animals yourself and also feed the needy and also the ones who are very poor, the ones who are starving. Then the pilgrims should complete the remaining rulings of Hajj, and then they can just exit Ihram or leave Ihram. And then they can cut their nails, they can shave their hair, and they can fulfill whatever is left from their obligations. If they have made any vows, they should complete them."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0012",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 12,
+      "start": 379.66,
+      "end": 415.48,
+      "constituent_segment_ids": [
+        "idx_55",
+        "idx_56",
+        "idx_57"
+      ],
+      "text": "And they can just do their final tawaf, and they are, SubhanAllah, done. So if you think about it, this was the summary of all these verses. So it kind of covers the Hajj from the beginning till end, SubhanAllah. So what is our goal? Our goal, Insha'Allah, is to have a look at what Allah has mentioned about Hajj in the Qur'an first. Right? Sunnah explains Hajj beautifully and scholars categorize it amazingly. But first we will have a look at these verses so that we know what Allah Subhanahu wa Ta'ala tells us, that Insha'Allah we are going to build on it."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0013",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 13,
+      "start": 415.6,
+      "end": 444.78,
+      "constituent_segment_ids": [
+        "idx_58",
+        "idx_59",
+        "idx_60"
+      ],
+      "text": "We are going to add, Insha'Allah, other sources as well in order to enrich ourselves in this beautiful subject. And SubhanAllah what we learn is from these ayat that Allah Subhanahu wa Ta'ala, He picked, He assigned the land for Ibrahim. وَاِذْ بَوَّأْنَا—the word bawwana means we assigned. So Allah picked the land for Ibrahim to build upon it. And something cool is that the foundations of the Kaaba, they were already there. Foundations of the Kaaba were already there."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0014",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 14,
+      "start": 444.94,
+      "end": 478.34,
+      "constituent_segment_ids": [
+        "idx_61",
+        "idx_62",
+        "idx_63"
+      ],
+      "text": "He just built upon that. And this place in Makkah was picked by Allah, and this House of Allah had already been there before that. Because it was the first house of Allah on the earth. And it is clear that Adam Alayhi Salam and even other prophets, they used to worship there along with their families and the righteous ones. And it was long before Ibrahim Alayhi Salam. So foundations were there on a hill at the time of Ibrahim Alayhi Salam, on which Ibrahim Alayhi Salam and his son Ismail Alayhi Salam, they built the Kaaba."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0015",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 15,
+      "start": 478.72,
+      "end": 504.08,
+      "constituent_segment_ids": [
+        "idx_64",
+        "idx_65"
+      ],
+      "text": "So this is what we know about it. And then Insha'Allah there is a very beautiful narration which kind of hints towards that. So let's have a look: Rasulullah Sallallahu Alayhi wa Sallam said: 'May Allah bestow mercy on Ismail's mother.' Who was that? Hajar. Had she let the Zamzam flow without trying to control it, Zamzam would have been streaming, or Zamzam would have been a stream flowing on the surface of the earth."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0016",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 16,
+      "start": 504.76,
+      "end": 538.18,
+      "constituent_segment_ids": [
+        "idx_66",
+        "idx_67",
+        "idx_68"
+      ],
+      "text": "The Prophet Sallallahu Alayhi wa Sallam further added: 'Then she drank water and suckled her child. The angel said to her: Don't be afraid of being neglected, like don't be afraid of being alone.' 'Don't be afraid of being neglected, for this is the House of Allah which will be built by this boy and his father.' SubhanAllah, just imagine at that time there was nothing there. But the angel gave this glad tiding to Hajar that you will survive, your son will survive, there will be one day that you will have a reunion, and then you will also have a beautiful house of Allah built here."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0017",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 17,
+      "start": 538.5,
+      "end": 572.0,
+      "constituent_segment_ids": [
+        "idx_69",
+        "idx_70",
+        "idx_71"
+      ],
+      "text": "And he also mentioned: 'And Allah never neglects His people.' The house at that time was on a high place resembling a hillock, and when torrents came, like floods, they flowed to its right and left. She lived in that way till some people from the tribe of Jurhum—or a family from Jurhum—passed by her and her child, and then they of course settled there afterwards, SubhanAllah. So from this narration from Sahih al-Bukhari, what do we know? The foundations were already there. So the Kaaba was built far before Ibrahim Alayhi Salam as well. That's a fact to remember."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0018",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 18,
+      "start": 572.24,
+      "end": 605.46,
+      "constituent_segment_ids": [
+        "idx_72",
+        "idx_73",
+        "idx_74"
+      ],
+      "text": "And it's at a height and at a hilltop. How do we know that today? Like is there any proof? Yes. If you think about the door of the Kaaba, it's at a height, isn't it? People need some stairs in order to get in the Kaaba. So if anyone wants to go in the Kaaba, they have to climb some stairs to enter. This shows that Kaaba is on a hill. And why was Kaaba built? The purpose behind building the Kaaba: the first one is to lay the foundations of pure tawheed, oneness of Allah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0019",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 19,
+      "start": 606.28,
+      "end": 643.84,
+      "constituent_segment_ids": [
+        "idx_75",
+        "idx_76",
+        "idx_77"
+      ],
+      "text": "No one should come to Kaaba and perform any shirk, and no one should come to Kaaba and do anything which is vulgar, do anything which is an act of disobedience. They should only worship Allah. But what happened? Even though the mushrikeen of Makkah, they claimed that they actually were following Ibrahim Alayhi Salam, they disobeyed this instruction to such an extent that they raised 360 idols there. So in this picture, it's just a depiction, you can see a lot of idols around the Kaaba."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0020",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 20,
+      "start": 644.24,
+      "end": 677.14,
+      "constituent_segment_ids": [
+        "idx_78",
+        "idx_79",
+        "idx_80"
+      ],
+      "text": "May Allah save us and protect us from all sorts of shirk, Ameen. And then Allah Subhanahu wa Ta'ala after telling to build the Kaaba, He gave another instruction to Ibrahim Alayhi Salam. Another instruction to Ibrahim Alayhi Salam was: وَطَهِّرْ بَيْتِيَ—'And purify My House.' So Allah Subhanahu wa Ta'ala is referring to Kaaba as 'My House'. Referring to Baytullah as 'My House'—which gives it a lot of importance, Subhanahu wa Ta'ala. And then we learn that Allah Subhanahu wa Ta'ala told them to purify this house. Why?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0021",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 21,
+      "start": 677.82,
+      "end": 697.16,
+      "constituent_segment_ids": [
+        "idx_81",
+        "idx_82"
+      ],
+      "text": "Not for any worldly purpose, but for the ones who do tawaf: لِلطَّآىِٕفِیْنَ, and also for those وَالْعٰكِفِیْنَ—the ones who do qiyam, وَالرُّكَّعِ السُّجُوْدِ—and the ones who do ruku and sujood. So the ones who pray and the ones who do tawaf, purify the house for them so it's easy for them to worship Allah Subhanahu wa Ta'ala there."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0022",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 22,
+      "start": 697.88,
+      "end": 752.54,
+      "constituent_segment_ids": [
+        "idx_83",
+        "idx_84",
+        "idx_85",
+        "idx_86",
+        "idx_87",
+        "idx_88"
+      ],
+      "text": "And then when we talk about purification, purification is of two types. So this cleanliness of Baytullah can be done in two ways: one is inwardly, and one is outwardly. So how is it done outwardly? Alhamdulillah we all understand how to clean masajid, how to keep everything clean, so that's the obvious meaning of cleanliness. But there is an inward purification meaning as well, inward cleanliness, and that is to clean the Kaaba from shirk, to clean Baytullah from sins, from any type of zulm (injustice), any type of vulgarity, fawahish, and bad habits. So this is another way to clean the Baytullah. May Allah enable us that whenever we go there, we remember all of these points and we don't, Insha'Allah, fall short. So this is how Kaaba is supposed to be cleaned—for who?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0023",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 23,
+      "start": 752.68,
+      "end": 779.84,
+      "constituent_segment_ids": [
+        "idx_89",
+        "idx_90",
+        "idx_91"
+      ],
+      "text": "The ones who do tawaf around it. Tawaf is, SubhanAllah, a beautiful ibadah that can only be done around Kaaba, that can only be done there. That's the ibadah we cannot do at home; you can pray at home, you can pray at any part of this world, but when it comes to tawaf, you can only do it there. And SubhanAllah, another beautiful point about tawaf is, there is a narration Rasulullah mentioned that"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0024",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 24,
+      "start": 780.6800000000001,
+      "end": 830.18,
+      "constituent_segment_ids": [
+        "idx_92",
+        "idx_93",
+        "idx_94",
+        "idx_95",
+        "idx_96"
+      ],
+      "text": "tawaf is like salah, the only difference is that during tawaf you can talk. It doesn't mean that you should talk, it's just if you need to talk, you can talk to someone as well. But rest of the rulings are pretty much the same. So we should, Insha'Allah, respect tawaf, and we should consider it as an act of worship, and we should not use that opportunity while we are doing tawaf to Facebook Live, people! It has been seen that people actually when they go there, they forget about their ibadah, they're so amazed by Kaaba that they forget about that they're actually doing an act of worship: they start taking selfies or they start, you know, doing tawaf with their video call on with their family and friends. That kind of goes against the respect of Kaaba, that also goes against the act of worship, because when you're praying, can you take your selfies? When you're praying, can you Facebook Live there?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0025",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 25,
+      "start": 830.7,
+      "end": 876.8,
+      "constituent_segment_ids": [
+        "idx_97",
+        "idx_98",
+        "idx_99",
+        "idx_100",
+        "idx_101"
+      ],
+      "text": "You don't, right, SubhanAllah? So Insha'Allah we need to remember those points for tawaf. If you really, really, really want to take a picture after you're done your acts of worship, you can also take a picture of Kaaba—no problem, Insha'Allah, and Allah knows best. And also make this house pure and clean for the people who pray, because you know prayers in Masjid al-Haram, as we have learned earlier, prayers in Masjid al-Haram, they're also very rewardable, and people, they love to pray there. So Insha'Allah if it's clean, it's easier for them to pray. And Alhamdulillah Alhamdulillah Masjid is very clean and it's cleaner than before after COVID because of the, you know, Alhamdulillah extreme efforts to keep everyone healthy and safe, and Alhamdulillah for that."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0026",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 26,
+      "start": 876.8,
+      "end": 927.8,
+      "constituent_segment_ids": [
+        "idx_102",
+        "idx_103",
+        "idx_104",
+        "idx_105",
+        "idx_106"
+      ],
+      "text": "So Insha'Allah whenever we go, whenever we get a chance to go to Makkah, we will make sure that we will do a lot of tawafs, because tawafs cannot be done elsewhere, and Insha'Allah we should pray every prayer in the masjid so that we can secure all of these rewards. And SubhanAllah the Kaaba was built for one purpose—what was that? Pure tawheed, right? To establish pure tawheed. It's not for any political reason. So Insha'Allah we need to remember that we should not turn Kaaba into anything or this journey into anything which is of some lesser reason than tawheed, Insha'Allah. And we also learn from another verse of the Qur'an that Ibrahim and Ismail were given the command to purify the Kaaba for another four set of categories. So three of them are same,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0027",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 27,
+      "start": 928.52,
+      "end": 963.08,
+      "constituent_segment_ids": [
+        "idx_107",
+        "idx_108",
+        "idx_109",
+        "idx_110"
+      ],
+      "text": "but وَالْعٰكِفِیْنَ is added. Who are these people who do i'tikaf? I'tikaf—do you know what kind of ibadah is this? Anyone has ever done i'tikaf? So i'tikaf is one of the confirmed Sunnah of Prophet Muhammad, and he used to do it regularly. And SubhanAllah he would dedicate ten days of his Ramadan to spend in the masjid. He would sleep there, he would stay there, he would worship there, he would spend all his time there. So i'tikaf is something which is beautiful. So Insha'Allah whenever you get a chance, do that."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0028",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 28,
+      "start": 963.08,
+      "end": 999.81,
+      "constituent_segment_ids": [
+        "idx_111",
+        "idx_112",
+        "idx_113",
+        "idx_114"
+      ],
+      "text": "And that's why it has been seen that Alhamdulillah every Ramadan a lot of people, they go to Baytullah and they do i'tikaf there in Makkah. So also purify the House of Allah for the people who are going to do i'tikaf there. So all of these categories of people doing all of these amazing acts of worship, they are also very sacred. For them Allah is giving instructions to prophets to keep the masajid clean. And the next part of the ayah tells us about that famous call, that famous adhan for Hajj: وَأَذِّنْ فِی النَّاسِ بِالْحَجِّ۔"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0029",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 29,
+      "start": 999.8100000000001,
+      "end": 1030.41,
+      "constituent_segment_ids": [
+        "idx_115",
+        "idx_116",
+        "idx_117"
+      ],
+      "text": "So Allah Subhanahu wa Ta'ala is giving this command to Ibrahim to call people, to invite people after building it, for Hajj. So Allah Subhanahu wa Ta'ala says in this ayah: 'And proclaim to mankind the Hajj.' So we learned from Tafseer Ibn Kathir that Ibrahim, he said, 'O Lord, how can I convey to people when my voice will not reach them?' Allah Subhanahu wa Ta'ala told him: 'Call, and it is Our duty to convey it.'"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0030",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 30,
+      "start": 1030.41,
+      "end": 1046.61,
+      "constituent_segment_ids": [
+        "idx_118",
+        "idx_119"
+      ],
+      "text": "So Ibrahim, he stood at his maqam, or it was said on a stone, or maybe it was on Safa, or on Abu Qubais— a mountain near Kaaba—and then he said, 'O mankind, your Lord has built a House,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0031",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 31,
+      "start": 1047.3100000000002,
+      "end": 1106.93,
+      "constituent_segment_ids": [
+        "idx_120",
+        "idx_121",
+        "idx_122",
+        "idx_123",
+        "idx_124",
+        "idx_125"
+      ],
+      "text": "so come on pilgrimage to it.' It was said that the mountains lowered themselves so that his voice could reach all corners of the earth. So those who were still in their mothers' wombs and fathers' loins, they heard, and everything that heard him of rocks, cities, trees responded, and those whom Allah decreed would perform Hajj until the Day of Resurrection, and everyone said: لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ. So this is what is reported by many narrations, some going back to Ibn Abbas, some going to Mujahid, some going to Ikrimah, and Allah knows best. But we know that Ibrahim, he announced it to people. So adhin is from adhan, right? It's a call. And different mountains and different stones are mentioned where Ibrahim actually stood to call. And if you just search for Jabal Abu Qubais, you can still find it—it's not jabal anymore because of construction, but you can still find that area, SubhanAllah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0032",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 32,
+      "start": 1106.93,
+      "end": 1145.03,
+      "constituent_segment_ids": [
+        "idx_126",
+        "idx_127",
+        "idx_128",
+        "idx_129",
+        "idx_130"
+      ],
+      "text": "So he called from here according to one of the narrations, and everyone heard it, and Allah knows best. And Ibrahim, he not only made the call, he also made du'a for people. And this is something which is very important, and this is a very important point we need to remember: what is the du'a? Where is the du'a? Du'a is in Surah Ibrahim, ayah number 37. Ibrahim said: فَاجْعَلْ اَفْـِٕدَةً مِّنَ النَّاسِ تَهْوِیْۤ اِلَیْهِمْ— 'So make hearts among the people inclined towards them,' so their hearts should incline towards Kaaba, their hearts should incline towards this sacred place."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0033",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 33,
+      "start": 1145.03,
+      "end": 1175.63,
+      "constituent_segment_ids": [
+        "idx_131",
+        "idx_132",
+        "idx_133"
+      ],
+      "text": "And SubhanAllah this is so true, right? Anyone who goes there, they yearn to go there again and again, we cannot stop, we just love it. And all the believers, they wish to at least go there once, but once they go there, they just want to go there over and over again, SubhanAllah. So another side point from this is, or the lesson we can learn from this point is that invitation only isn't enough, we also need to make du'as. You know, sometimes when we are trying to call people towards deen, when we are trying to call people towards Qur'an,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0034",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 34,
+      "start": 1176.25,
+      "end": 1206.63,
+      "constituent_segment_ids": [
+        "idx_134",
+        "idx_135",
+        "idx_136"
+      ],
+      "text": "then we just tell them, 'Okay, come, join us,' and that's it. But that's not enough! Sending a flyer, sending a message is not enough—what should we do? We should make du'as for the people, we should make du'as that it becomes easy for them to come, we should make du'as for them that they stay steadfast, so even if they come, they stay steadfast, they enjoy their learning, and they connect with Allah Subhanahu wa Ta'ala. And even after they're done, we should also make du'as for their guidance and"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0035",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 35,
+      "start": 1206.63,
+      "end": 1259.57,
+      "constituent_segment_ids": [
+        "idx_137",
+        "idx_138",
+        "idx_139",
+        "idx_140",
+        "idx_141"
+      ],
+      "text": "we should also make du'as that they keep doing the right thing, SubhanAllah. So du'a is something which is very, very important. And Insha'Allah this also shows our sincerity: that how sincere is our call, whatever we are calling people towards, how sincere we are in it. If we are sincere, then we're going to make du'as for them, then we're going to pick the Hajj time for other people for their guidance, then we're going to not miss any opportunity of any of those times where du'as are accepted, we will make du'as for all these people we're inviting towards khair, we're inviting towards goodness, we're inviting towards Allah Subhanahu wa Ta'ala. So we need to, Insha'Allah, remember to remember people in our du'as, Insha'Allah. And then we learn that after this call, Allah Subhanahu wa Ta'ala says that people will come to you, O Ibrahim, how? By foot and on rides."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0036",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 36,
+      "start": 1260.31,
+      "end": 1280.47,
+      "constituent_segment_ids": [
+        "idx_142",
+        "idx_143"
+      ],
+      "text": "So ضَامِرٍ is referring to camels because back in the day camels were used as rides, but even today if you think about it, a lot of people they use rides to reach Makkah and some people even walk. So what does it mean by walking? Walking could be that some people, they live in Makkah, they can just walk to Kaaba, to Baytullah,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0037",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 37,
+      "start": 1281.01,
+      "end": 1310.97,
+      "constituent_segment_ids": [
+        "idx_144",
+        "idx_145",
+        "idx_146"
+      ],
+      "text": "and some people, they take rides. So there are some different opinions about this: some scholars say because rijalan is mentioned first, so walking is preferred; others say not necessarily, because Rasulullah, he did his Hajj on a ride, he came on a ride, so that's Sunnah, so that's more rewardable. And Allah knows best, both opinions are there, whatever is easy, Insha'Allah we can do that. So if we can walk"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0038",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 38,
+      "start": 1310.97,
+      "end": 1343.23,
+      "constituent_segment_ids": [
+        "idx_147",
+        "idx_148",
+        "idx_149"
+      ],
+      "text": "to Kaaba—amazing; if we cannot, then we can also ride there, you know, we can take a plane first, then maybe a car, a taxi, or a bus or a train. So Insha'Allah rides are fine. And also for the rituals, right? You know, sometimes it's very hard for people to do all the rituals on foot because of their age or health, they can also do it on wheelchair—no problem, it's allowed. And they can also use those carts they have—that is also allowed, and Allah knows best."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0039",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 39,
+      "start": 1343.81,
+      "end": 1376.83,
+      "constituent_segment_ids": [
+        "idx_150",
+        "idx_151",
+        "idx_152"
+      ],
+      "text": "And a person is not supposed to put himself or herself in difficulty for no reason; this is not a requirement of our deen that, you know, you suffer yourself, you walk even though if you can ride, you should just, you know, put yourself in trouble—that's not what Islam demands from us. And there's a hadith about it: Rasulullah, he saw an old man walking supported by his two sons, and he asked about him. The people informed Rasulullah that he had vowed to go on foot to the Kaaba."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0040",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 40,
+      "start": 1377.71,
+      "end": 1411.61,
+      "constituent_segment_ids": [
+        "idx_153",
+        "idx_154",
+        "idx_155",
+        "idx_156"
+      ],
+      "text": "Rasulullah responded, he said: 'Allah is not in need of this old man's torturing himself,' and then he ordered him to ride, SubhanAllah. So what does it show? That if we have some ease and comfort, we should take it, and we should not try to put ourselves in unnecessary hardship, because Hajj, Insha'Allah, is already filled with a lot of adventurous steps, right? It's already hard for many, so we should not make it harder for us so that we can, Insha'Allah, fulfill all the rites and rituals properly."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0041",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 41,
+      "start": 1412.29,
+      "end": 1456.55,
+      "constituent_segment_ids": [
+        "idx_157",
+        "idx_158",
+        "idx_159",
+        "idx_160",
+        "idx_161"
+      ],
+      "text": "And whatever we use in the way of Allah, that is also sacred, that is also rewardable. Like if we are going to use our ride to do tawaf, if we are going to use our ride to reach Makkah, then Insha'Allah whatever money, whatever ride, whatever is in the way of Allah, it's something which is going to be rewardable for us, you know, it will become a good deed on our scales. What's the proof for that? The proof is from this famous hadith to do with three types of horses. So Rasulullah said: 'A horse may be kept for one of the three reasons: for a man, it may be a source of reward, second is, for another, it may be a means of living, and for a third, it may be a burden.'"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0042",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 42,
+      "start": 1457.33,
+      "end": 1492.01,
+      "constituent_segment_ids": [
+        "idx_162",
+        "idx_163",
+        "idx_164"
+      ],
+      "text": "'As for the one to whom it is a source of reward, he is the one who keeps his horse for the sake of Allah's cause: he ties it with a long rope on a pasture or in a garden, so whatever its rope allows it to eat will be regarded as good rewardable deed for its owner. And if it breaks off its rope and jumps over one or two hillocks, even its dung will be considered amongst his good deeds, and if it passes by a river and drinks water from it, that will be considered as good deeds for his benefit, even if he has had no intention of"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0043",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 43,
+      "start": 1492.01,
+      "end": 1544.77,
+      "constituent_segment_ids": [
+        "idx_165",
+        "idx_166",
+        "idx_167",
+        "idx_168",
+        "idx_169"
+      ],
+      "text": "watering it, SubhanAllah. So what do we learn from this? So if you're using our car, and if the fuel goes in, that fuel is also going to be weighed on the Day of Judgment. So even if it's not for Hajj, in the way of Allah—like going to the masjid, going to different halaqat to learn, going to attend Jumu'ah khutbah. A lot of times people, you know, they complain that now because the gas prices are so high, I rather stay home, but SubhanAllah, all of this will be counted towards your good deeds. Whatever you are going to put in your car, whatever services you do of your car, all of this will be good deeds for you, so Insha'Allah be happily and willingly use yourself and your ride in the way of Allah. And after this call, what will happen? People will come to you, O Ibrahim, from where? مِنْ كُلِّ فَجٍّ عَمِيقٍ—from every deep valley. What does that mean by every deep valley?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0044",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 44,
+      "start": 1544.77,
+      "end": 1562.77,
+      "constituent_segment_ids": [
+        "idx_170",
+        "idx_171",
+        "idx_172",
+        "idx_173"
+      ],
+      "text": "الْفَجُّ is the cleft between two hills, a cleft between two hills, or you can say a passage between two hills. And 'ameeq' word referring to the paths leading to Baytullah. And 'ameeq' word means, you know, from far away or from deep places."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0045",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 45,
+      "start": 1563.41,
+      "end": 1605.03,
+      "constituent_segment_ids": [
+        "idx_174",
+        "idx_175",
+        "idx_176",
+        "idx_177"
+      ],
+      "text": "From far away or from deep places. So people will come from different far-off lands, and SubhanAllah this is something which was not known at that time, even at the time of Rasulullah—Muslims were not all over the place yet, SubhanAllah! So what do we learn? That it's sort of like a prophecy, right? That it's something which is now very obvious: people from all over the world come to Baytullah, SubhanAllah. And if you look at the image of it, you know, different valleys, people are coming, and you know the way they're walking towards the Kaaba, it's just mind-blowing, it's just beautiful, SubhanAllah. So it's happening what Allah Subhanahu wa Ta'ala said, it's happening now."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0046",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 46,
+      "start": 1605.57,
+      "end": 1651.15,
+      "constituent_segment_ids": [
+        "idx_178",
+        "idx_179",
+        "idx_180",
+        "idx_181"
+      ],
+      "text": "And when people will come, what will happen? They will witness a lot of benefits, they will experience a lot of benefits. What are some of the benefits? So let's look at four of them: they will see unity of Muslim Ummah, right? Even if we don't understand each other there, everyone is united in doing everything, and that's something which is so beautiful, isn't it? Just think about it: one Allahu Akbar, and everyone assembles themselves in beautiful rows, and another Allahu Akbar, everyone bends down—even though they don't understand each other's languages, even though they don't understand what's going on around them, SubhanAllah, many times—but they follow these instructions beautifully, and it shows a beautiful picture of Muslim Ummah, SubhanAllah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0047",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 47,
+      "start": 1652.11,
+      "end": 1700.23,
+      "constituent_segment_ids": [
+        "idx_182",
+        "idx_183",
+        "idx_184",
+        "idx_185",
+        "idx_186"
+      ],
+      "text": "And opportunities to earn halal are many there, SubhanAllah—we have talked about business opportunities the other day as well—and people, they increase in their knowledge because they learn from each other, they also learn from the scholars, and there are a lot of halaqat going on there when you are there. And also the Jumu'ah khutbah is usually very amazing, and alhamdulillah they have these tools now that whatever is going on in Arabic, especially the khutbahs, they are translated for you on the spot in English if you have your gadgets with you, you can just tune in and listen to the same khutbah which is going on in Arabic, you can listen to that in your own language, SubhanAllah. There are a few languages they are Alhamdulillah worked on for khutbahs, and Insha'Allah it will be available for Hajj khutbah as well. So Insha'Allah don't miss that this year!"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0048",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 48,
+      "start": 1700.81,
+      "end": 1749.07,
+      "constituent_segment_ids": [
+        "idx_187",
+        "idx_188",
+        "idx_189",
+        "idx_190",
+        "idx_191"
+      ],
+      "text": "And familiarity with different regions of the world, because you know people from all of the world are there, so you get to meet new people, different people, and you get to talk to them, you learn new experiences, you learn how they do different things. And SubhanAllah it's a very beneficial trip. If you talk about benefits, it's a never-ending lecture, right? There are tons of benefits—just to be on the safer side we can say that, right?—there are tons of benefits, a lot of spiritual benefits as well. You know, you feel so good when you come back, you keep remembering all of that, and you are feeling the iman boost, you're feeling that you are more guided, SubhanAllah. And then what are we supposed to do when we are there in Baytullah? Allah says: لِيَشْهَدُوا مَنَافِعَ لَهُمْ وَيَذْكُرُوا اسْمَ اللَّهِ فِي أَيَّامٍ مَعْلُومَاتٍ."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0049",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 49,
+      "start": 1750.87,
+      "end": 1804.35,
+      "constituent_segment_ids": [
+        "idx_192",
+        "idx_193",
+        "idx_194",
+        "idx_195",
+        "idx_196",
+        "idx_197"
+      ],
+      "text": "So remember Allah in known days. How do you remember Allah? You do tahmeed. What is tahmeed? Can you notice the root letters? Ha Meem Daal, right? So you say Alhamdulillah. in—and you do takbir, and that is Allāhu Akbar, and you do tasbih, and that is Subhānallāh. Okay, what is tahleel then? Tahmeed is Alḥamdulillāh, takbir is Allāhu Akbar, tasbih is Subhānallāh, and tahleel is Lā ilāha illallāh, beautiful! Bāraka llāhu fīkum. And then when it comes to ayyamin ma'lumat, there are two understandings among the scholars: so when do you remember Allah much? During the first ten days of Dhul-Hijjah! So Alhamdulillah when a lot of people reach Hajj, they reach Hajj in Dhul-Hijjah, especially from Western countries."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0050",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 50,
+      "start": 1805.0500000000002,
+      "end": 1838.01,
+      "constituent_segment_ids": [
+        "idx_198",
+        "idx_199",
+        "idx_200",
+        "idx_201"
+      ],
+      "text": "So sadly it has been seen—sadly it has been seen—that people, they get busy in shopping and everything, and they forget about the importance of the days of the first 10 days of Dhul-Hijjah. These days are for remembering Allah, right? These are the days to do a lot of good deeds. Every good deed we do during the first ten days of Dhul-Hijjah, no matter where we are in the world, we get more rewards for those, right? Those deeds they get us more rewards, SubhanAllah. So we should seize that opportunity."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0051",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 51,
+      "start": 1838.01,
+      "end": 1887.43,
+      "constituent_segment_ids": [
+        "idx_202",
+        "idx_203",
+        "idx_204",
+        "idx_205",
+        "idx_206"
+      ],
+      "text": "there at Hajj or we are not there, then in either case we need to, Insha'Allah, give the haqq of these ten days by remembering Allah much. Another opinion is that we are referring to the Day of Sacrifice, which is 10th, and then the three days afterwards. So Insha'Allah even in those days we should remember Allah much. So Insha'Allah if you want to benefit from both opinions, you can Insha'Allah do from 1st to 13th, Insha'Allah remember Allah much, instead of chitchatting, wasting time, analyzing people's outfits and commenting on others. It's the best time to remember Allah. There are many ways to remember Allah: you can also do istighfar, you can also recite Qur'an, you can also, you know, make the du'as, right? Tasbihat and all, Insha'Allah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0052",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 52,
+      "start": 1888.25,
+      "end": 1932.31,
+      "constituent_segment_ids": [
+        "idx_207",
+        "idx_208",
+        "idx_209",
+        "idx_210",
+        "idx_211"
+      ],
+      "text": "And another time when we remember the name of Allah or when we mention the name of Allah is when we are slaughtering our animals. So when people go for Hajj, they also slaughter their animals, and even the people who are not at Hajj, they slaughter their animals on Eid, right? So what do they do? They remember Allah. بَهِيمَةِ الْأَنْعَامِ are mentioned, and who are they? Camels, cows, sheep, and goats, which are slaughtered for Eid or which are slaughtered for Hajj. So what do you do with this slaughtered meat? فَكُلُوا مِنْهَا—eat from it, and what else? وَأَطْعِمُوا الْبَائِسَ الْفَقِيرَ—also feed others! Feed who? The poor people."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0053",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 53,
+      "start": 1932.31,
+      "end": 1964.81,
+      "constituent_segment_ids": [
+        "idx_212",
+        "idx_213",
+        "idx_214"
+      ],
+      "text": "So does it mean that we are only supposed to give this meat to poor people? Not necessarily, right? So we can give meat to rich people as well, but we should first consider the ones who are starving and the ones who are very poor. So faqir are beggars, and ba'is are those who are really in a miserable state and they are starving as well. So it is possible that faqir is also very poor; ba'is is actually in a worse state than faqir, SubhanAllah. So we should feed the ones who deserve the most."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0054",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 54,
+      "start": 1965.41,
+      "end": 1995.81,
+      "constituent_segment_ids": [
+        "idx_215",
+        "idx_216",
+        "idx_217"
+      ],
+      "text": "And what's the proof that we can eat from it? First of all, this ayah is the proof Allah is telling us. And the next is that Rasulullah, he ate from his sacrificial animals. So let's look at this part of the narration from Sahih Muslim: Rasulullah, he went to the place of sacrifice and he sacrificed 63 camels with his own hand, then he gave the remaining number to Ali, who sacrificed them all, and then he shared him"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0055",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 55,
+      "start": 1995.81,
+      "end": 2030.75,
+      "constituent_segment_ids": [
+        "idx_218",
+        "idx_219",
+        "idx_220"
+      ],
+      "text": "in his sacrifice. He then commanded that a piece of flesh, piece of meat from each animal sacrificed should be put in a pot; when it was cooked, both of them—who? Rasulullah and Ali—they took some meat out of it and they drank its soup, SubhanAllah, right? So even though there were a lot of animals, but they still did something to, you know, benefit from all the animals by taking one piece of meat from all of them, SubhanAllah. Then after the sacrifice is done, then what should be done? From this part of the ayah we learn it:"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0056",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 56,
+      "start": 2030.75,
+      "end": 2072.17,
+      "constituent_segment_ids": [
+        "idx_221",
+        "idx_222",
+        "idx_223",
+        "idx_224",
+        "idx_225"
+      ],
+      "text": "ثُمَّ لْیَقْضُوا تَفَثَهُمْ. It has two understandings: one is that remove the dirt. How are we going to remove the dirt? Because when people are, you know, they live in Mina, you know, they get dirty sometimes and, you know, it's a lot of walking and all of that. So remove the dirt would be: clean yourself, and, you know, cut also would mean to come out of ihram, and also would mean to shave the head for the brothers, and all. Another meaning is: complete Hajj rituals, complete the rest of the Hajj rituals. So once sacrifice is done, then complete the rest of the rituals, so that you can complete your Hajj, and after pretty much the main Hajj rites are done,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0057",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 57,
+      "start": 2073.73,
+      "end": 2133.69,
+      "constituent_segment_ids": [
+        "idx_226",
+        "idx_227",
+        "idx_228",
+        "idx_229",
+        "idx_230",
+        "idx_231"
+      ],
+      "text": "it's a reminder from Allah that complete your vows. What is nadhar and what are vows? Let's understand that. Wow is something when you oblige yourself to do something that is not an obligation on you, but you oblige it on yourself—why? Because of something that you want to happen. For example, some people, they really want to go for Hajj, so they, you know, vow like that: 'O Allah, if You call me for Hajj, then I'm going to do this, this, this, this,' right? 'If You call me for Hajj, then I'm going to maybe do tawaf every morning, every evening, every night,' things like that, right? 'Or if You call me for Hajj, then I'm going to give this much sadaqah or I'm going to sacrifice every day in Dhul-Hijjah for the first 10 days,' things like that. So if people have made some vows, then they are supposed to fulfill them. They were not obligations, but just because we made a vow, now it's an obligation. So we have to be cautious about making big vows, but it's good that if we make good vows, right?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0058",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 58,
+      "start": 2133.69,
+      "end": 2156.87,
+      "constituent_segment_ids": [
+        "idx_232",
+        "idx_233"
+      ],
+      "text": "To pray more, to do sadaqah more—these are all good vows. So if you make these vows, Insha'Allah fulfill them. And then what do you do? وَلْيَطَّوَّفُوا بِالْبَيْتِ الْعَتِيقِ—then do tawaf around the Kaaba. Which tawaf is it?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0059",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 59,
+      "start": 2157.69,
+      "end": 2192.91,
+      "constituent_segment_ids": [
+        "idx_234",
+        "idx_235",
+        "idx_236"
+      ],
+      "text": "So scholars say it is Tawaf of Ifadah. And the word, it could have been وَلْيَطُوفُوا, but there is a shaddah on ṭā' (وَلْیَطَّوَّفُوا), which shows the struggle in it. So Tawaf Ifadah sometimes is very hard for people. Why is it hard for people? Because, you know, they're tired for all of these days and they just want to, you know, just complete their Hajj tasks and they want to come out of ihram; but now they have to go for tawaf after sacrificing"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0060",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 60,
+      "start": 2192.91,
+      "end": 2224.09,
+      "constituent_segment_ids": [
+        "idx_237",
+        "idx_238",
+        "idx_239"
+      ],
+      "text": "their animal. Usually people go for tawaf, and just imagine everyone goes for tawaf at the same time, so it's sometimes hot, sometimes it's crowded. So it's okay, even if you have to put in some effort, do it. Another understanding of this is that why this shaddah is used or this form of this word is used, is that after you do Tawaf Ifadah, still do more tawaf if you get an opportunity, do as many tawafs as possible! Because as we have already mentioned, tawaf cannot be done elsewhere in"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0061",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 61,
+      "start": 2224.09,
+      "end": 2266.73,
+      "constituent_segment_ids": [
+        "idx_240",
+        "idx_241",
+        "idx_242",
+        "idx_243",
+        "idx_244"
+      ],
+      "text": "the world. So while you're there, grab the opportunity, because tawaf is something which is beautiful, you're going to just love it, Insha'Allah, when you get there and when you actually make proper du'as and when you avail this opportunity happily, you're gonna, Insha'Allah, find a lot of benefits in tawaf. And the word الْعَتِيْقِ—why doesn't Allah Subhanahu wa Ta'ala call it Baytullah here? Allah knows best, right? That's one. And Atiq also has two meanings, you can say it gives us another angle to understand built, so that's why it's al-atiq. Another Baytullah: one is that al-atiq means ancient, so it's the ancient house, the old house—remember we talked about it that it's the first house built."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0062",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 62,
+      "start": 2266.73,
+      "end": 2303.35,
+      "constituent_segment_ids": [
+        "idx_245",
+        "idx_246",
+        "idx_247",
+        "idx_248"
+      ],
+      "text": "Another meaning is that it's a free house. What does that mean by free? It's not under anyone's possession, like it's not owned by people. Kaaba ذٰلِكَ ؕ وَمَنْ یُّعَظِّمْ حُرُمٰتِ اللّٰهِ فَهُوَ خَیْرٌ لَّهٗ عِنْدَ رَبِّهٖ ؕ— is no one's property, SubhanAllah, it's not a property of any individual, so it's free, SubhanAllah, that's what it means. Then we also learn from these verses: whoever honors the sacred ordinances of whoever honors these sacred commands of Allah. What are these hurumat?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0063",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 63,
+      "start": 2303.35,
+      "end": 2363.15,
+      "constituent_segment_ids": [
+        "idx_249",
+        "idx_250",
+        "idx_251",
+        "idx_252",
+        "idx_253",
+        "idx_254"
+      ],
+      "text": "Some scholars say there are sacred boundaries, and there are also Masjid al-Haram sacred boundaries—Haram area. So it's not only the masjid, but Haram area has boundary line—you can, Insha'Allah, check on the maps. So honor them, respect them, follow the rules there, don't hurt anyone there. And also sacred months, we should respect them. And then sacrificial animals, they also should be respected, SubhanAllah, just because they are going there for Hajj in the way of Allah, even the animals are respected. So whoever honors these hurumat, it is best for that person in the sight of Allah. And also sacred ordinances of Allah include ihram restrictions: when we are in the state of ihram, we are not supposed to do certain things. So Insha'Allah when we follow those, we also are actually obeying Allah in this regard, and we should do that wholeheartedly. And when we respect sha'air, when we respect these hurumat,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0064",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 64,
+      "start": 2363.15,
+      "end": 2388.15,
+      "constituent_segment_ids": [
+        "idx_255",
+        "idx_256",
+        "idx_257"
+      ],
+      "text": "that is a sign of taqwa in our hearts, as it comes in Surah Al-Hajj, ayah number 32: ذَلِكَ وَمَنْ يُعَظِّمْ شَعَائِرَ اللَّهِ فَإِنَّهَا مِنْ تَقْوَى الْقُلُوبِ—'That is so, and whoever honors the symbols of Allah, indeed it is from the piety of hearts.' So may Allah enable us to have taqwa of our hearts so that we can respect all of these beautiful sha'air of Allah. And then we also learn about that what's halal in terms of an'am—what can be halal? What can we sacrifice? What can we eat from? So all the an'am are"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0065",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 65,
+      "start": 2388.15,
+      "end": 2427.71,
+      "constituent_segment_ids": [
+        "idx_258",
+        "idx_259",
+        "idx_260",
+        "idx_261"
+      ],
+      "text": "halal. We have talked about them already: camels, cows, sheep, and goat, etc. Why is it mentioned? Because mushrikeen of Makkah, they made their own criterias: they made an'am haram on them, but they had some other different types of, you know, categories of animals they made halal. So Allah Subhanahu wa Ta'ala is reminding them what's halal and what's not. And then Allah Subhanahu wa Ta'ala gives us a very clear command: فَاجْتَنِبُوا الرِّجْسَ مِنَ الْأَوْثَانِ وَاجْتَنِبُوا قَوْلَ الزُّورِ—stay away, avoid rits min al-awsaan—of the idols, and wajtani bu qawla al-zur—and stay away from lies! Stay away from shirk and stay away from lies."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0066",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 66,
+      "start": 2427.71,
+      "end": 2447.21,
+      "constituent_segment_ids": [
+        "idx_262",
+        "idx_263"
+      ],
+      "text": "These two are very important, SubhanAllah. So we understand shirk is bad, we are not supposed to do any shirk there, but we also are not supposed to lie. Rasul was once asked, 'Can a believer be a coward?' Rasul said, 'Yes.' Then he was asked, 'Can a believer be a miser?'"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0067",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 67,
+      "start": 2447.21,
+      "end": 2476.01,
+      "constituent_segment_ids": [
+        "idx_264",
+        "idx_265",
+        "idx_266"
+      ],
+      "text": "He said, 'Yes.' Then he was asked, 'Can a believer be a liar?' Rasul said, 'No.' So a believer cannot be a liar. Lying is a trait of hypocrisy. May Allah save all of us from lies! This is something we need to take out of our lives, not just at Hajj time, but forever, Insha'Allah. So make du'as and try your best never ever lie, even for petty things and even big things, of course."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0068",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 68,
+      "start": 2476.83,
+      "end": 2514.81,
+      "constituent_segment_ids": [
+        "idx_267",
+        "idx_268",
+        "idx_269",
+        "idx_270"
+      ],
+      "text": "So what are some of the lessons we have learned from all of these verses? Let's just look at them quickly. First one: going for Hajj and Umrah is actually responding to the call of Allah, even though that adhan was given or that call was given by Ibrahim, we call it call of Allah why? Because Allah told him to call us. It is permissible to go for Hajj on foot or on a ride, both are fine. Ibrahim visits to the House of Allah in every Hajj season—that's an indication, that's something we learn indirectly from all of these narrations because people would come to him, right?"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0069",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 69,
+      "start": 2514.81,
+      "end": 2549.29,
+      "constituent_segment_ids": [
+        "idx_271",
+        "idx_272",
+        "idx_273"
+      ],
+      "text": "So he would go to Hajj as well every Hajj season, and Allah knows best. Hajj days should be made the most of: so if you talked about the first 10 days, they should be made the most of even if you are not at Makkah. So Insha'Allah these days are around the corner, so Insha'Allah plan ahead and make sure that you do a lot of good deeds during these 10 days. You can also fast—not of course on Eid, but the rest of the days Insha'Allah for the first nine days you can memorize Qur'an, you can do charity, Insha'Allah many more things, and of course remember Allah much."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0070",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 70,
+      "start": 2549.87,
+      "end": 2579.47,
+      "constituent_segment_ids": [
+        "idx_274",
+        "idx_275"
+      ],
+      "text": "And dhikr of Allah should be done in abundance during Hajj days. So there was a very beautiful advice by Ustadha Dr. Farhat Hashmi that usually when people are going for Hajj, they ask you, like, you know, 'Give me a tip, tell me something I should do there, so give them this tip: that when you are there, remember Allah much. Don't waste your time, don't waste your energies there, just focus on your ibadah and make sure you remember Allah much. And then entering the House of Allah:"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0071",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 71,
+      "start": 2579.4700000000003,
+      "end": 2609.35,
+      "constituent_segment_ids": [
+        "idx_276",
+        "idx_277",
+        "idx_278"
+      ],
+      "text": "when you are entering Kaaba, entering Baytullah near it, realize the greatness of this beautiful house. Think about the history—we have talked about many things to do with it, right? Who built it, foundations were already there—and all of these things, if you keep them in your mind, Insha'Allah you will remember the greatness. And of course remember that Allah called it 'My House', so remember that as well. And it is not permissible to spread disobedience and filth in the House of Allah. Just remember this point:"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0072",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 72,
+      "start": 2609.35,
+      "end": 2664.73,
+      "constituent_segment_ids": [
+        "idx_279",
+        "idx_280",
+        "idx_281",
+        "idx_282",
+        "idx_283"
+      ],
+      "text": "that how can we be filthy in the House of Allah? How can we drop our used tissues, napkins there? How can we make it messy? How can we eat there and drop food particles there? Just imagine it's a House of Allah, and now try to just put yourself in a situation where you have guests over and your guests are really untidy and they drop things all over the place, how would you feel? Would you invite them again? So it's a House of Allah, respect it, keep it clean, even if you have to use, you know, some napkins and tissues or whatnot or your masks, please keep them with you, discard them properly, don't keep the house dirty. Even though Alhamdulillah for the services, they keep cleaning them, but we're not supposed to become a burden on them, Insha'Allah. So take care of the cleanliness of Allah's house more than your own house."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0073",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 73,
+      "start": 2665.43,
+      "end": 2701.97,
+      "constituent_segment_ids": [
+        "idx_284",
+        "idx_285",
+        "idx_286",
+        "idx_287"
+      ],
+      "text": "Do qiyam, ruku, and sujood more as mentioned in these verses of Surah Al-Hajj. And Insha'Allah when are we going to do qiyam, ruku, and sujood more? If you're going to pray in the masajid, if you're going to pray our tahajjud, if you're going to pray our, Insha'Allah, duha there, and all these beautiful nawafil and salawat. And we can also eat from our own sacrificial animals—no problem with that. And vows were also prescribed in the Shariah of Ibrahim, that's a fact we learned from here, and fulfilling vows is a worship and it's also an obligation, right? It wasn't an obligation before you made it a vow, but now because it's a vow, now it's an obligation."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0074",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 74,
+      "start": 2702.63,
+      "end": 2729.59,
+      "constituent_segment_ids": [
+        "idx_288",
+        "idx_289",
+        "idx_290"
+      ],
+      "text": "It is also an obligation to fulfill the vows of slaughtering an animal. You know, sometimes people make these vows as well that: 'Every day I'm going to give one animal as a slaughter if Allah calls me here and there,' whatever, or 'If Allah gives me success.' So if people have made such vows, they are supposed to fulfill them as well. So we are okay or we are allowed to eat from our own sacrificial animals if they are for Hajj, all right? Or if they are for qurban for Eid al-Adha. But we are not supposed to eat from the animal slaughtered in"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0075",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 75,
+      "start": 2729.59,
+      "end": 2759.51,
+      "constituent_segment_ids": [
+        "idx_291",
+        "idx_292",
+        "idx_293"
+      ],
+      "text": "fulfill. But we are not supposed to eat from the animal slaughtered in fulfillment of a vow or as fidya, okay? This is not okay for us to eat, this is not allowed for us to eat, these two types of slaughtered animals by us. And it is not correct to perform tawaf from inside Hateem. So you know that half-circle type of construction on one side of the Kaaba, we're not supposed to bypass it or go through it because"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0076",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 76,
+      "start": 2759.51,
+      "end": 2789.67,
+      "constituent_segment_ids": [
+        "idx_294",
+        "idx_295",
+        "idx_296"
+      ],
+      "text": "that was actually part of Kaaba, so if we're going to go through it, our that cycle is not complete. So we have to be extremely cautious, and Alhamdulillah they have blocked it, so we cannot really go through. But let's say if they open it for cleaning purposes, don't just think that you're smart enough to go inside and make your cycle shorter, because your cycle won't be valid anymore if you go through it, SubhanAllah. And tawaf is an important part of Hajj, tawaf can be done at any time, so there is no forbidden timings for tawaf,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0077",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 77,
+      "start": 2789.67,
+      "end": 2820.59,
+      "constituent_segment_ids": [
+        "idx_297",
+        "idx_298",
+        "idx_299"
+      ],
+      "text": "you know, like for salah there are some forbidden timings, but for tawaf there is none. So you can, Insha'Allah, do tawaf whenever you can, and Hajj ends with Tawaf Ifadah, and it is a wajib. So, Insha'Allah, we will talk about all different types of tawaf and their names and definitions, so don't worry too much about it, just jot down the points at this point. So what are some of the aims and objectives of Hajj. First of all: to establish pure tawheed. Aim and objective of Hajj is to establish pure tawheed. Second benefit,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0078",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 78,
+      "start": 2820.59,
+      "end": 2850.93,
+      "constituent_segment_ids": [
+        "idx_300",
+        "idx_301",
+        "idx_302"
+      ],
+      "text": "second aim and objective: taqwa. The way we achieve taqwa from fasting, Alhamdulillah with Hajj we also achieve that. And the aim and objective is that we remember Allah much, we do a lot of dhikr of Allah. And in Talbiyah as well you would notice that it's pure tawheed in Talbiyah, right? We don't say anything extra: لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0079",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 79,
+      "start": 2851.85,
+      "end": 2888.57,
+      "constituent_segment_ids": [
+        "idx_303",
+        "idx_304",
+        "idx_305"
+      ],
+      "text": "Then we are also told in Surah Al-Baqarah that when we are done with our Hajj rites, then what should we do? Remember Allah. So Insha'Allah we need to obey Allah like that, also in Surah Al-Baqarah number two or three we learn: وَاذْكُرُوا اللَّهَ فِي أَيَّامٍ مَعْدُودَاتٍ—'And remember Allah during specific number of days.' It's not a lot of days, it's just few days. Do dhikr of Allah. And how should you remember Allah? Remember Allah the way Allah Subhanahu wa Ta'ala has guided you. So we can remember Allah in many ways: we can remember Allah in salah, we can remember Allah in tawaf, we can remember Allah by reciting Qur'an, and much more."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0080",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 80,
+      "start": 2889.41,
+      "end": 2914.29,
+      "constituent_segment_ids": [
+        "idx_306",
+        "idx_307",
+        "idx_308"
+      ],
+      "text": "Other objectives and aims of Hajj are that we do istighfar and we get forgiveness. So Insha'Allah keep doing istighfar, A lot of times people think that we're already at Hajj, we will be forgiven, what's the point of doing istighfar? Remember, we are human beings, so we make mistakes. So it is possible that while doing a lot of Hajj we make mistakes in Hajj rites, so it's a very good idea to keep doing istighfar, keep asking Allah for forgiveness for our shortcomings. And then tazkiyah"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0081",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 81,
+      "start": 2914.29,
+      "end": 2945.21,
+      "constituent_segment_ids": [
+        "idx_309",
+        "idx_310",
+        "idx_311"
+      ],
+      "text": "is a beautiful objective of Hajj: that we should come back with a pure heart, we should come back with a better heart, with a good heart. May Allah enable us to do that, Ameen! And we should not fight there, and we should not disobey Allah Subhanahu wa Ta'ala there. Another objective is that we learn to respect the Hajj months and Hajj sites. So everything about Hajj is respectable—for example, all sites, so think about Kaaba, think about"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0082",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 82,
+      "start": 2945.21,
+      "end": 2979.07,
+      "constituent_segment_ids": [
+        "idx_312",
+        "idx_313",
+        "idx_314",
+        "idx_315"
+      ],
+      "text": "Mina, Muzdalifah, Arafat—we should respect all Hajj sites, and we should respect all Hajj rituals and rites, and we should also respect all hujjaj there insha'Allah, because they all are there to worship Allah. So we should not make it difficult for them to do Hajj because of us. Another aim and objective of Hajj is the sense of gratitude: that Alhamdulillah Allah called us, Alhamdulillah Allah gave me the opportunity that I can walk and do Hajj, or even if I'm not able to walk, I can sit and do Hajj on a wheelchair or on a cart."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0083",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 83,
+      "start": 2979.57,
+      "end": 3016.43,
+      "constituent_segment_ids": [
+        "idx_316",
+        "idx_317",
+        "idx_318",
+        "idx_319"
+      ],
+      "text": "So Alhamdulillah when people reach there, so this sense of gratitude develops automatically, but we also need to remind ourselves that we have to be more grateful that Allah called us here. And we also need to instill the quality of patience in us, and there's a reminder at Hajj which we get pretty much at every location, at every Hajj, right? And that is standing before Allah on the Day of Judgment. A lot of people from different backgrounds, you know, maybe some are rich, maybe some are poor, maybe some are tall, maybe some are short, but all of them are there standing to worship Allah."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0084",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 84,
+      "start": 3017.09,
+      "end": 3050.07,
+      "constituent_segment_ids": [
+        "idx_320",
+        "idx_321",
+        "idx_322",
+        "idx_323"
+      ],
+      "text": "All of them are standing in Arafat. So it's a good reminder for all of us that one day we will be standing in front of Allah on the Day of Judgment. And then let's just talk about Hajj rulings quickly, Insha'Allah. will build on them, so don't worry too much about the details, just jot down important points at this point. So when it comes to Hajj months: there are three. The three Hajj months are Shawwal, Dhu al-Qa'dah, and Dhu al-Hijjah. اَلْحَجُّ أَشْهُرٌ مَعْلُومَاتٌ—so Hajj is during well-known months, and these are the three months."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0085",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 85,
+      "start": 3050.77,
+      "end": 3105.77,
+      "constituent_segment_ids": [
+        "idx_324",
+        "idx_325",
+        "idx_326",
+        "idx_327",
+        "idx_328",
+        "idx_329"
+      ],
+      "text": "Aisha said: 'We set out with Allah's Messenger in the months of Hajj, and in the nights of Hajj, and at the time and places of Hajj, and in a state of Hajj.' So all of these things were known to Sahaba as well. And Rasulullah, he left at the end of Shawwal. So Rasulullah with his Sahaba, they started for Medina—they left from Medina for Makkah, so they were in Medina, they left Medina for Makkah after combing their hair, oiling their hair, and putting on two sheets of ihram. And so in the early morning Rasulullah, he mounted his mount while in Dhul Hulaifah, the area, and set out till they reached Baidah, another area where he and his companions recited Talbiyah: لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ. And then they did the ceremony of taqlid,"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0086",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 86,
+      "start": 3105.77,
+      "end": 3132.51,
+      "constituent_segment_ids": [
+        "idx_330",
+        "idx_331",
+        "idx_332"
+      ],
+      "text": "which was to put the colored necklaces around the necks of their sacrificial animals. And all that happened on the 25th of Dhu al-Qa'dah, and when he reached Makkah it was the 4th of Dhu al-Hijjah, SubhanAllah! How many days? Nine days. It took them nine days to reach there. And then he performed tawaf around the Kaaba and the Sa'ee around Safa and Marwa. And the"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0087",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 87,
+      "start": 3132.51,
+      "end": 3168.57,
+      "constituent_segment_ids": [
+        "idx_333",
+        "idx_334",
+        "idx_335",
+        "idx_336"
+      ],
+      "text": "Sunnah is to enter ihram for Hajj only during the month of Hajj. So we cannot wear ihram in Ramadan or any other month, it should be Shawwal, Dhul-Qa'dah, or Dhul-Hijjah, and Allah knows best. What are some of the conditions of be Hajj. They are seven in total, right? Or if you want to merge it, five in total and two are sub-categories. So the conditions of Hajj are: the person should be a Muslim, because a non-Muslim's Hajj won't be accepted; a person should be sane with a sound mind; third, person should be an adult for Hajj to be"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0088",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 88,
+      "start": 3168.57,
+      "end": 3215.39,
+      "constituent_segment_ids": [
+        "idx_337",
+        "idx_338",
+        "idx_339",
+        "idx_340",
+        "idx_341"
+      ],
+      "text": "be the mandatory Hajj, right? So nafl Hajj can be done by children as well, and their parents get the reward for it, and they also get the reward for it, Insha'Allah, but their mandatory Hajj is not done. When they grow older and when they have enough means, then Hajj is mandatory on them, then they can do that again, Insha'Allah. Being free is another condition of Hajj: so let's say there's a slave, if that slave does Hajj, that Hajj is good, it's nafl, of course a lot of rewards and forgiveness and everything, but when this slave becomes free, then he will do his mandatory Hajj if he's able to financially and physically. And our fifth condition is being able, and that is how? Physically and financially."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0089",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 89,
+      "start": 3215.39,
+      "end": 3248.49,
+      "constituent_segment_ids": [
+        "idx_342",
+        "idx_343",
+        "idx_344"
+      ],
+      "text": "Is that when a person is able to afford the trip for Hajj and also can leave enough funds for his family back home, so they should not suffer. It doesn't mean he should leave extra money for them to waste, enough money for them to survive, to have their groceries, to have their bills paid and everything; and then this person also has enough to go. So this is financial ability. What's physical ability? When a person is able to walk, able to do all these, Insha'Allah, Hajj rites"
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0090",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 90,
+      "start": 3248.49,
+      "end": 3293.45,
+      "constituent_segment_ids": [
+        "idx_345",
+        "idx_346",
+        "idx_347",
+        "idx_348",
+        "idx_349"
+      ],
+      "text": "properly. Let's say the person is worried that this person can get sick, then he can make a conditional intention. So there's a fear—it's a genuine fear the person will get sick—so he can just say this: 'اللَّهُمَّ مَحِلِّي حَيْثُ حَبَسْتَنِي— اَللّٰهُمَّ مَحِلِّيْ حَیْثُ حَبَسْتَنِیْ—O O Allah, I will exit ihram wherever You stop me.' And then there are two extra conditions for women, and they are that women should have a mahram, a male family member like a husband, father, brother, or son, or a nephew, and she should not be in the state of iddah. So these are the two conditions for women according to different narrations, Insha'Allah we're going to cover them in detail in future."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0091",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 91,
+      "start": 3293.45,
+      "end": 3331.97,
+      "constituent_segment_ids": [
+        "idx_350",
+        "idx_351",
+        "idx_352",
+        "idx_353"
+      ],
+      "text": "There are three types of Hajj: Tamattu', Qiran, and Ifrad. Tamattu', Qiran, and Ifrad—what's the difference? Hajj Tamattu' is that Hajj which is performed as one Umrah separately and one Hajj separately. So we go in ihram state for Umrah, we perform the whole Umrah, we come out of ihram state, we trim our hair for the ladies, the brothers they shave their head and they're out of it, and they do everything else whatever they want to do. And when Hajj begins, they go in another ihram and then they perform their Hajj. So this is Hajj Tamattu'."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0092",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 92,
+      "start": 3332.57,
+      "end": 3374.39,
+      "constituent_segment_ids": [
+        "idx_354",
+        "idx_355",
+        "idx_356",
+        "idx_357"
+      ],
+      "text": "It's like a very relaxed type of Hajj, you can say. Sister Shabana is asking: 'How about purity for women?' That's not a condition, it's just she's not able to do only the tawaf; rest of the rituals and rites she can easily perform, and Allah knows best. Second type of Hajj is Hajj Qiran, that is with one ihram for Umrah and Hajj. So person goes in ihram and does Umrah and stays in the state of ihram till Hajj begins. Then comes Hajj Ifrad, that is only Hajj, so one ihram for Hajj, no Umrah. Usually people who live in Makkah, they do this because they get to do Umrah every now and then, so they just go for Hajj and they come back."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0093",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 93,
+      "start": 3374.39,
+      "end": 3401.17,
+      "constituent_segment_ids": [
+        "idx_358",
+        "idx_359",
+        "idx_360"
+      ],
+      "text": "back. But does it mean the people who are coming from other countries, they're not supposed to do Hajj Ifrad? No, it doesn't mean that; That they can also do that. So Alhamdulillah proof for all three types of Hajj, they are mentioned in Sahih al-Bukhari, hadith number 1562, you can read up more on it. And which Hajj did Rasulullah perform? So we learned Ibn Abbas said that Abu Talha told me that Rasulullah performed Hajj and Umrah together, so it was Qiran."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0094",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 94,
+      "start": 3401.79,
+      "end": 3421.83,
+      "constituent_segment_ids": [
+        "idx_361",
+        "idx_362"
+      ],
+      "text": "But Rasulullah, he wished for Tamattu'. He said: 'And if I were to know my affair before what I had to do, I would not have brought with me the sacrificial animals, and I would have bought them at Makkah and I would have put off ihram as others have done.' So he wished that he would have done Tamattu'."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0095",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 95,
+      "start": 3421.83,
+      "end": 3446.19,
+      "constituent_segment_ids": [
+        "idx_363",
+        "idx_364"
+      ],
+      "text": "So based on this, a lot of scholars say Tamattu' is the best type of Hajj, and Allah knows best. So Alhamdulillah we are done with our today's content. Sister Michelle, good question: 'Is there a particular dress for men doing Umrah?' Yes, yes, same ihram is the same for Umrah, it's the same ihram which we wear for Hajj, it's the same for Umrah as well."
+    },
+    {
+      "chunk_id": "HajjJourney2022Eng-L03_chunk_0096",
+      "lecture_id": "HajjJourney2022Eng-L03",
+      "series": "HajjJourney2022Eng",
+      "chunk_index": 96,
+      "start": 3446.19,
+      "end": 3493.59,
+      "constituent_segment_ids": [
+        "idx_365",
+        "idx_366",
+        "idx_367",
+        "idx_368",
+        "idx_369"
+      ],
+      "text": "It's just Umrah is shorter, we're done in a few hours; Hajj is longer, It goes over a few days. Sister Subal was asking: 'How long does it take for Hajj to complete?' So roughly five to six days, all right? And Allah knows best. You know, if we are going for Hajj, Sister Michelle, right? So if you're going for Hajj, then we are to wear the ihram for Hajj during Hajj months; but if you're going for Umrah, let's say in November or if you're going for Umrah, let's say in Muharram, so then we will get in the ihram for that Umrah only. so, for Hajj Insha'Allah it will be during Hajj months, all right? So let's conclude here: سُبْحَانَكَ اللّٰهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ. Assalamu alaykum wa rahmatullahi wa barakatuh!"
+    }
+  ]
+}

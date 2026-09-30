@@ -1,0 +1,429 @@
+{
+  "per_recording": {
+    "TQ2005-P01-L001A": {
+      "series": "TQ2005",
+      "total_diffs": 23,
+      "diff_counts_by_category": {
+        "wrong_missing_text": 17,
+        "punctuation": 4,
+        "spelling_typographical": 2
+      },
+      "affected_segments_by_category": {
+        "wrong_missing_text": 9,
+        "punctuation": 4,
+        "spelling_typographical": 2
+      },
+      "v2_segments": 106,
+      "gold_segments": 107,
+      "segment_ratio": 1.01,
+      "v2_words": 3385,
+      "gold_words": 3405,
+      "word_ratio": 1.01,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "TQ2005-P01-L001B": {
+      "series": "TQ2005",
+      "total_diffs": 20,
+      "diff_counts_by_category": {
+        "wrong_missing_text": 18,
+        "punctuation": 2
+      },
+      "affected_segments_by_category": {
+        "wrong_missing_text": 2,
+        "punctuation": 1
+      },
+      "v2_segments": 160,
+      "gold_segments": 163,
+      "segment_ratio": 1.02,
+      "v2_words": 5207,
+      "gold_words": 5227,
+      "word_ratio": 1.0,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "TQ2005-P01-L001C": {
+      "series": "TQ2005",
+      "total_diffs": 0,
+      "diff_counts_by_category": {},
+      "affected_segments_by_category": {},
+      "v2_segments": 12,
+      "gold_segments": 12,
+      "segment_ratio": 1.0,
+      "v2_words": 188,
+      "gold_words": 188,
+      "word_ratio": 1.0,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "TQ2005-P01-L001D": {
+      "series": "TQ2005",
+      "total_diffs": 39,
+      "diff_counts_by_category": {
+        "wrong_missing_text": 34,
+        "punctuation": 5
+      },
+      "affected_segments_by_category": {
+        "wrong_missing_text": 2,
+        "punctuation": 2
+      },
+      "v2_segments": 78,
+      "gold_segments": 80,
+      "segment_ratio": 1.03,
+      "v2_words": 2606,
+      "gold_words": 2645,
+      "word_ratio": 1.01,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "TQ2005-P01-L001E": {
+      "series": "TQ2005",
+      "total_diffs": 27,
+      "diff_counts_by_category": {
+        "wrong_missing_text": 20,
+        "punctuation": 6,
+        "quranic_hadith_wording": 1
+      },
+      "affected_segments_by_category": {
+        "wrong_missing_text": 5,
+        "punctuation": 1,
+        "quranic_hadith_wording": 1
+      },
+      "v2_segments": 131,
+      "gold_segments": 135,
+      "segment_ratio": 1.03,
+      "v2_words": 4390,
+      "gold_words": 4417,
+      "word_ratio": 1.01,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "TQ2005-P01-L001F": {
+      "series": "TQ2005",
+      "total_diffs": 346,
+      "diff_counts_by_category": {
+        "spelling_typographical": 68,
+        "punctuation": 167,
+        "wrong_missing_text": 106,
+        "quranic_hadith_wording": 4,
+        "code_switch_transliteration": 1
+      },
+      "affected_segments_by_category": {
+        "spelling_typographical": 40,
+        "punctuation": 111,
+        "wrong_missing_text": 38,
+        "quranic_hadith_wording": 3,
+        "code_switch_transliteration": 1
+      },
+      "v2_segments": 221,
+      "gold_segments": 222,
+      "segment_ratio": 1.0,
+      "v2_words": 7091,
+      "gold_words": 7177,
+      "word_ratio": 1.01,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "HajjJourney2022Eng-L01": {
+      "series": "HajjJourney2022Eng",
+      "total_diffs": 1428,
+      "diff_counts_by_category": {
+        "wrong_missing_text": 1244,
+        "quranic_hadith_wording": 10,
+        "punctuation": 168,
+        "spelling_typographical": 6
+      },
+      "affected_segments_by_category": {
+        "wrong_missing_text": 62,
+        "quranic_hadith_wording": 3,
+        "punctuation": 45,
+        "spelling_typographical": 6
+      },
+      "v2_segments": 282,
+      "gold_segments": 332,
+      "segment_ratio": 1.18,
+      "v2_words": 9480,
+      "gold_words": 10861,
+      "word_ratio": 1.15,
+      "structure_classification": "split-dominant (more, smaller gold segments; word count matches V2 closely)"
+    },
+    "HajjJourney2022Eng-L02": {
+      "series": "HajjJourney2022Eng",
+      "total_diffs": 20,
+      "diff_counts_by_category": {
+        "wrong_missing_text": 12,
+        "quranic_hadith_wording": 3,
+        "punctuation": 5
+      },
+      "affected_segments_by_category": {
+        "wrong_missing_text": 1,
+        "quranic_hadith_wording": 1,
+        "punctuation": 1
+      },
+      "v2_segments": 337,
+      "gold_segments": 338,
+      "segment_ratio": 1.0,
+      "v2_words": 10192,
+      "gold_words": 10212,
+      "word_ratio": 1.0,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "HajjJourney2022Eng-L03": {
+      "series": "HajjJourney2022Eng",
+      "total_diffs": 883,
+      "diff_counts_by_category": {
+        "wrong_missing_text": 769,
+        "quranic_hadith_wording": 11,
+        "proper_noun_identity": 1,
+        "punctuation": 99,
+        "spelling_typographical": 3
+      },
+      "affected_segments_by_category": {
+        "wrong_missing_text": 59,
+        "quranic_hadith_wording": 8,
+        "proper_noun_identity": 1,
+        "punctuation": 33,
+        "spelling_typographical": 3
+      },
+      "v2_segments": 325,
+      "gold_segments": 370,
+      "segment_ratio": 1.14,
+      "v2_words": 10127,
+      "gold_words": 10935,
+      "word_ratio": 1.08,
+      "structure_classification": "split-dominant (more, smaller gold segments; word count matches V2 closely)"
+    },
+    "HajjJourney2022Eng-L04": {
+      "series": "HajjJourney2022Eng",
+      "total_diffs": 387,
+      "diff_counts_by_category": {
+        "proper_noun_identity": 1,
+        "spelling_typographical": 165,
+        "wrong_missing_text": 185,
+        "punctuation": 13,
+        "quranic_hadith_wording": 23
+      },
+      "affected_segments_by_category": {
+        "proper_noun_identity": 1,
+        "spelling_typographical": 95,
+        "wrong_missing_text": 53,
+        "punctuation": 9,
+        "quranic_hadith_wording": 7
+      },
+      "v2_segments": 329,
+      "gold_segments": 332,
+      "segment_ratio": 1.01,
+      "v2_words": 10380,
+      "gold_words": 10412,
+      "word_ratio": 1.0,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "SKD_U001_S001_0001": {
+      "series": "SKD2025",
+      "total_diffs": 674,
+      "diff_counts_by_category": {
+        "punctuation": 76,
+        "spelling_typographical": 166,
+        "wrong_missing_text": 362,
+        "quranic_hadith_wording": 13,
+        "code_switch_transliteration": 55,
+        "proper_noun_identity": 2
+      },
+      "affected_segments_by_category": {
+        "punctuation": 66,
+        "spelling_typographical": 133,
+        "wrong_missing_text": 158,
+        "quranic_hadith_wording": 11,
+        "code_switch_transliteration": 40,
+        "proper_noun_identity": 2
+      },
+      "v2_segments": 274,
+      "gold_segments": 510,
+      "segment_ratio": 1.86,
+      "v2_words": 8184,
+      "gold_words": 8269,
+      "word_ratio": 1.01,
+      "structure_classification": "split-dominant (more, smaller gold segments; word count matches V2 closely)"
+    },
+    "SKD_U001_S001_0002": {
+      "series": "SKD2025",
+      "total_diffs": 576,
+      "diff_counts_by_category": {
+        "spelling_typographical": 200,
+        "wrong_missing_text": 214,
+        "quranic_hadith_wording": 22,
+        "proper_noun_identity": 9,
+        "punctuation": 37,
+        "code_switch_transliteration": 94
+      },
+      "affected_segments_by_category": {
+        "spelling_typographical": 167,
+        "wrong_missing_text": 87,
+        "quranic_hadith_wording": 21,
+        "proper_noun_identity": 7,
+        "punctuation": 33,
+        "code_switch_transliteration": 74
+      },
+      "v2_segments": 1441,
+      "gold_segments": 1426,
+      "segment_ratio": 0.99,
+      "v2_words": 7347,
+      "gold_words": 7496,
+      "word_ratio": 1.02,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "SKD_U001_S001_0003": {
+      "series": "SKD2025",
+      "total_diffs": 266,
+      "diff_counts_by_category": {
+        "script_conversion": 185,
+        "punctuation": 50,
+        "spelling_typographical": 14,
+        "wrong_missing_text": 16,
+        "quranic_hadith_wording": 1
+      },
+      "affected_segments_by_category": {
+        "script_conversion": 71,
+        "punctuation": 43,
+        "spelling_typographical": 14,
+        "wrong_missing_text": 13,
+        "quranic_hadith_wording": 1
+      },
+      "v2_segments": 243,
+      "gold_segments": 242,
+      "segment_ratio": 1.0,
+      "v2_words": 9316,
+      "gold_words": 9315,
+      "word_ratio": 1.0,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "SKD_U001_S001_0004": {
+      "series": "SKD2025",
+      "total_diffs": 909,
+      "diff_counts_by_category": {
+        "spelling_typographical": 230,
+        "wrong_missing_text": 452,
+        "quranic_hadith_wording": 196,
+        "proper_noun_identity": 11,
+        "code_switch_transliteration": 12,
+        "punctuation": 8
+      },
+      "affected_segments_by_category": {
+        "spelling_typographical": 159,
+        "wrong_missing_text": 133,
+        "quranic_hadith_wording": 43,
+        "proper_noun_identity": 9,
+        "code_switch_transliteration": 6,
+        "punctuation": 4
+      },
+      "v2_segments": 237,
+      "gold_segments": 431,
+      "segment_ratio": 1.82,
+      "v2_words": 6400,
+      "gold_words": 6652,
+      "word_ratio": 1.04,
+      "structure_classification": "split-dominant (more, smaller gold segments; word count matches V2 closely)"
+    },
+    "HEA-00-1A": {
+      "series": "HEA",
+      "total_diffs": 573,
+      "diff_counts_by_category": {
+        "wrong_missing_text": 187,
+        "spelling_typographical": 268,
+        "punctuation": 70,
+        "proper_noun_identity": 30,
+        "quranic_hadith_wording": 17,
+        "code_switch_transliteration": 1
+      },
+      "affected_segments_by_category": {
+        "wrong_missing_text": 67,
+        "spelling_typographical": 151,
+        "punctuation": 35,
+        "proper_noun_identity": 13,
+        "quranic_hadith_wording": 11,
+        "code_switch_transliteration": 1
+      },
+      "v2_segments": 299,
+      "gold_segments": 303,
+      "segment_ratio": 1.01,
+      "v2_words": 8138,
+      "gold_words": 8317,
+      "word_ratio": 1.02,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "HEA-01-1A": {
+      "series": "HEA",
+      "total_diffs": 975,
+      "diff_counts_by_category": {
+        "spelling_typographical": 70,
+        "punctuation": 95,
+        "proper_noun_identity": 15,
+        "wrong_missing_text": 742,
+        "quranic_hadith_wording": 53
+      },
+      "affected_segments_by_category": {
+        "spelling_typographical": 37,
+        "punctuation": 25,
+        "proper_noun_identity": 9,
+        "wrong_missing_text": 32,
+        "quranic_hadith_wording": 9
+      },
+      "v2_segments": 168,
+      "gold_segments": 185,
+      "segment_ratio": 1.1,
+      "v2_words": 8696,
+      "gold_words": 9556,
+      "word_ratio": 1.1,
+      "structure_classification": "structure + content both changed (word count diverges from segment-count ratio)"
+    },
+    "HEA-02-1A": {
+      "series": "HEA",
+      "total_diffs": 177,
+      "diff_counts_by_category": {
+        "wrong_missing_text": 152,
+        "quranic_hadith_wording": 7,
+        "punctuation": 17,
+        "proper_noun_identity": 1
+      },
+      "affected_segments_by_category": {
+        "wrong_missing_text": 26,
+        "quranic_hadith_wording": 3,
+        "punctuation": 8,
+        "proper_noun_identity": 1
+      },
+      "v2_segments": 183,
+      "gold_segments": 189,
+      "segment_ratio": 1.03,
+      "v2_words": 10453,
+      "gold_words": 10593,
+      "word_ratio": 1.01,
+      "structure_classification": "neutral (segment count ~matches)"
+    },
+    "HEA-03-1A": {
+      "series": "HEA",
+      "total_diffs": 194,
+      "diff_counts_by_category": {
+        "wrong_missing_text": 142,
+        "proper_noun_identity": 10,
+        "punctuation": 27,
+        "quranic_hadith_wording": 15
+      },
+      "affected_segments_by_category": {
+        "wrong_missing_text": 10,
+        "proper_noun_identity": 3,
+        "punctuation": 9,
+        "quranic_hadith_wording": 8
+      },
+      "v2_segments": 135,
+      "gold_segments": 140,
+      "segment_ratio": 1.04,
+      "v2_words": 7378,
+      "gold_words": 7569,
+      "word_ratio": 1.03,
+      "structure_classification": "neutral (segment count ~matches)"
+    }
+  },
+  "grand_total_diff_counts": {
+    "wrong_missing_text": 4672,
+    "punctuation": 849,
+    "spelling_typographical": 1192,
+    "quranic_hadith_wording": 376,
+    "code_switch_transliteration": 163,
+    "proper_noun_identity": 80,
+    "script_conversion": 185
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q9",
+    "question": "کامیاب انسان بننے کے لیے کن پہلوؤں کا جاگنا ضروری بتایا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": true,
+    "gold_chunk_ids": ["TQ2005-P01-L001A_chunk_0003", "TQ2005-P01-L001A_chunk_0004"],
+    "note": "Native-language (Urdu) question. The chunk itself contains embedded English loanwords (intellectual aspect) inside Urdu speech - tests retrieval on genuinely code-mixed text, not just two separate languages. Updated 2026-09-23 after the first RAG runs: originally gold-labeled chunk_0004 only (uses the question's exact verb \"جاگنا\"/awaken); both Qwen3.5 and Gemma-4-E4B independently answered from chunk_0003 instead, verified as an equally direct match (\"کامیاب انسان... جسمانی، ذہنی، روحانی اور جذباتی اور سماجی... ہارمونی اور بیلنس\"). Widened to accept either - this was a gold-label imprecision, not a model error."
+  },
+  {
+    "question_id": "Q24",
+    "question": "According to the lecture, which aspects of a person need to 'awaken' in order to become a successful person?",
+    "question_language": "english",
+    "answerable": true,
+    "gold_chunk_ids": ["TQ2005-P01-L001A_chunk_0003", "TQ2005-P01-L001A_chunk_0004"],
+    "note": "Cross-lingual variant of Q9 (same content, same gold chunks, reverse language direction)."
+  },
+  {
+    "question_id": "Q11",
+    "question": "What does the lecturer say about the etiquettes of Hajj and Umrah in this lesson?",
+    "question_language": "english",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Deliberately unanswerable - this is a course-logistics recap lesson (Al-Fatiha series), not about Hajj. Refusal test."
+  },
+  {
+    "question_id": "Q26",
+    "question": "اس سبق میں حج اور عمرہ کے آداب کے بارے میں کیا بیان کیا گیا ہے؟",
+    "question_language": "urdu",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "note": "Cross-lingual variant of Q11 (same deliberately-unanswerable question, reverse language direction)."
+  }
+]

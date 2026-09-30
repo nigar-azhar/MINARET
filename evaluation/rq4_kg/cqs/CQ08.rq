@@ -1,0 +1,17 @@
+# CQ8 -- Which AudioSeries and Speaker "hasRecording"/"hasPrimarySpeaker" covering Topic X?
+# Paper-reported result: `("Hajj Journey of a lifetime", "Maryam Saeed")` — confirms topic-to-provenance traversal.
+PREFIX minaret: <http://minaret-eval.org/ontology#>
+PREFIX hadith: <http://www.semantichadith.com/ontology/>
+PREFIX qur: <http://quranontology.com/Resource/>
+PREFIX tafsir: <http://www.semantictafsir.com/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?seriesTitle ?speakerName WHERE {
+  ?topic minaret:nameEn "Supplication in Islam (Ad-Du'a)" .
+  ?sg minaret:discussesTopic ?topic ; minaret:containsSegment ?seg .
+  ?transcript minaret:hasSegment ?seg .
+  ?rec minaret:hasTranscript ?transcript ; minaret:hasPrimarySpeaker ?speaker .
+  ?aseries minaret:hasRecording ?rec ; minaret:titleEn ?seriesTitle .
+  ?speaker minaret:nameEn ?speakerName .
+}

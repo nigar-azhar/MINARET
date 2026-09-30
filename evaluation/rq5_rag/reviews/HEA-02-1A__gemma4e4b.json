@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "Q51",
+    "question": "لیکچرر کے مطابق نرمی کے لیے استعمال ہونے والے عربی لفظ 'رفق' کا مادہ (روٹ) کیا ہے، اور اس سے ملتے جلتے کون سے دوسرے الفاظ بتائے گئے ہیں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0006",
+        "HEA-02-1A_chunk_0008"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "نرمی کے لیے استعمال ہونے والے عربی لفظ 'الرِّفْقُ' کا مادہ (روٹ) را، فا، قاف ہے [HEA-02-1A_chunk_0006]۔\n\nاس سے ملتے جلتے دوسرے الفاظ جو بتائے گئے ہیں وہ یہ ہیں:\n1. **رفيق:** جس کا مطلب ساتھی یا دوست ہوتا ہے [HEA-02-1A_chunk_0008]۔\n2. **مرتفق:** یہ لفظ قرآن پاک میں پڑھا جا چکا ہے، جیسا کہ وَسَآءَتْ مُرْتَفَقًا، وَحَسُنَتْ [HEA-02-1A_chunk_0008]۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1960,
+    "elapsed_seconds": 29.11,
+    "generated_at": "2026-09-23T20:16:11.553362+00:00",
+    "answer_verdict": "partially_correct",
+    "grader_notes": "Checked chunk_0006 (root را،فا،قاف - correct) and chunk_0008 (رفیق=ساتھی/دوست - correct; مرتفق - correct, cites the same Quranic phrase). However chunk_0007 (رافقہ) and the مرفق=کہنی/elbow definition in chunk_0008 were both in the model's context (chunks_sent_to_model included 0007) but omitted from the answer, even though the question asks for related words generally. Root correct, related-word list incomplete (2 of 4 words given)."
+  },
+  {
+    "question_id": "Q52",
+    "question": "According to the lecturer, what is the Arabic root of the word 'rifq' (gentleness), and what related words are given from the same root?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0006",
+      "HEA-02-1A_chunk_0007",
+      "HEA-02-1A_chunk_0008"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 0.6666666666666666
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0006",
+        "HEA-02-1A_chunk_0008"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "The Arabic root for اَلرِّفْقُ (gentleness) is را، فا، قاف (Rā, Fā, Qāf) [HEA-02-1A_chunk_0006].\n\nAccording to the lecturer:\n*   **رفق** means to benefit someone or give them advantage; it also refers to gentle, easy, and kind behavior [HEA-02-1A_chunk_0006].\n*   The related word **رفيق** (Rafiq) is mentioned as meaning a companion or friend, and describes the qualities of such a person (gentle, very kind, good behavior) [HEA-02-1A_chunk_0008].\n\nAdditionally, other words derived from this root are mentioned:\n*   **مرفق** means elbow, which is used for support [HEA-02-1A_chunk_0008].\n*   The word **مرتفق** was also noted as being read in the Quran [HEA-02-1A_chunk_0008].",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 1831,
+    "elapsed_seconds": 18.38,
+    "generated_at": "2026-09-23T20:16:29.935193+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0006 (root, رفق definition) and chunk_0008 (رفیق=companion, مرفق=elbow/for support - translated accurately, مرتفق=Quranic reference). 3 of 4 related words given accurately (missing رافقہ from chunk_0007 only). Translations are precise (unlike qwen's Q52, correctly identifies مرفق as elbow, not crutch). Solid, grounded answer."
+  },
+  {
+    "question_id": "Q73",
+    "question": "لیکچرر کے مطابق بخاری اور مسلم کی روایت میں مومن کی مثال کس چیز سے دی گئی ہے، اور کیوں؟",
+    "question_language": "urdu",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 1,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.75,
+      "sent_recall": 1.0
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0010",
+        "HEA-02-1A_chunk_0012",
+        "HEA-02-1A_chunk_0018"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "no_citation_found": false
+    },
+    "generated_answer": "بخاری اور مسلم کی روایت کے مطابق مومن کی مثال ایک زرعی پودے کی طرح ہے جسے ہوائیں مسلسل ہلاتی رہتی ہیں، جیسے کہ اسے ہوا کا جھونکا گرا دیتا ہے اور دوسرا جھونکا اٹھا دیتا ہے [HEA-02-1A_chunk_0010]۔\n\nاس مثال کا مقصد یہ بتانا ہے کہ مختلف لوگوں کے رویے اور حالات مومن کو لٹا دیتے ہیں یا گراتے ہیں، لیکن وہ پھر دوبارہ کھڑا ہو جاتا ہے [HEA-02-1A_chunk_0018]۔ اس طرح، مومن کی زندگی میں کوئی بھی چیز مستقل نہیں رہتی؛ اسے مسلسل ہلچل کا سامنا کرنا پڑتا رہتا ہے [HEA-02-1A_chunk_0012]۔",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2676,
+    "elapsed_seconds": 20.02,
+    "generated_at": "2026-09-23T20:16:49.956367+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0010 (crop/plant example, wind knocks down/raises up), chunk_0012 (زرعی پودے، ہوائیں ہلاتی رہتی ہیں), chunk_0018 (behavior described: لٹا دیتے ہیں... کھڑا ہو جاتا ہے). Model's paraphrase matches; attributes the standing-back-up behavior to chunk_0018 and instability to chunk_0012, both accurate paraphrases of the source text."
+  },
+  {
+    "question_id": "Q74",
+    "question": "According to the Bukhari and Muslim narration cited by the lecturer, what is the believer compared to, and why?",
+    "question_language": "english",
+    "search_scope": "lecture",
+    "scope_label": "HEA-02-1A",
+    "answerable": true,
+    "gold_chunk_ids": [
+      "HEA-02-1A_chunk_0010",
+      "HEA-02-1A_chunk_0012",
+      "HEA-02-1A_chunk_0018"
+    ],
+    "rerank_status": "reranked",
+    "retrieval": {
+      "initial_hit": true,
+      "initial_rank_of_first_gold": 2,
+      "reranked_hit": true,
+      "reranked_rank_of_first_gold": 1,
+      "sent_hit": true,
+      "sent_precision": 0.5,
+      "sent_recall": 0.6666666666666666
+    },
+    "citation": {
+      "cited_chunk_ids": [
+        "HEA-02-1A_chunk_0012",
+        "HEA-02-1A_chunk_0018"
+      ],
+      "citation_precision": 1.0,
+      "citation_recall": 0.6666666666666666,
+      "no_citation_found": false
+    },
+    "generated_answer": "According to the translation of the hadith, a believer is compared to an agricultural plant (زرعی پودے) that is blown by winds. This comparison is made because nothing in this world is smooth; life involves constant changes and circumstances, like winds coming from the east, west, north, or south (HEA-02-1A_chunk_0012). The lecturer notes that this example was given by the Messenger of Allah (PBUH) and is found in a narration from Bukhari and Muslim (HEA-02-1A_chunk_0018).",
+    "generation_model": "gemma-4-e4b-it",
+    "system_prompt_used": "You answer questions about ONE specific lecture using ONLY the retrieved transcript excerpts below. Cite the chunk id(s) you used. If the excerpts do not contain enough information to answer, say exactly: 'This lecture does not provide enough information to answer that question.' Do not use outside knowledge.",
+    "finish_reason": "stop",
+    "reasoning_content_length": 2521,
+    "elapsed_seconds": 17.89,
+    "generated_at": "2026-09-23T20:17:07.843751+00:00",
+    "answer_verdict": "correct_grounded",
+    "grader_notes": "Checked chunk_0012 (plant/farm analogy, changing winds from all directions, nothing stays smooth) and chunk_0018 (\"یہ اللہ کے رسول صلی اللہ علیہ وسلم نے دی ہے۔ بخاری اور مسلم کی روایت ہے\" = explicitly names Bukhari & Muslim as source). Answer correctly attributes analogy to 0012 and source citation to 0018. Accurate and well-grounded."
+  }
+]

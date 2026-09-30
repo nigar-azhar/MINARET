@@ -1,0 +1,983 @@
+{
+  "ayat": [
+    {
+      "surah_number": "1",
+      "ayah_number": "1",
+      "text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "start": 9.74,
+      "end": 19.58,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "25",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْ",
+      "start": 9.74,
+      "end": 19.58,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "26",
+      "text": "وَیَسِّرْ لِیْۤ اَمْرِیْ",
+      "start": 19.58,
+      "end": 29.66,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "27",
+      "text": "وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْ",
+      "start": 19.58,
+      "end": 29.66,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "20",
+      "ayah_number": "28",
+      "text": "یَفْقَهُوْا قَوْلِیْ",
+      "start": 19.58,
+      "end": 29.66,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "31",
+      "ayah_number": "20",
+      "text": "وَاَسْبَغَ عَلَیْكُمْ نِعَمَهٗ ظَاهِرَةً وَّبَاطِنَةً",
+      "start": 29.66,
+      "end": 39.64,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "51",
+      "ayah_number": "56",
+      "text": "وَمَا خَلَقْتُ الْجِنَّ وَالْاِنْسَ اِلَّا لِیَعْبُدُوْنِ",
+      "start": 110.78,
+      "end": 133.0,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "80",
+      "usage": "translation",
+      "extent": "complete",
+      "text": "اور جب میں بیمار ہوتا ہوں تو وہی مجھے شفا دیتا ہے",
+      "start": 192.06,
+      "end": 202.36
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "text": "وَاِذَا سَاَلَكَ عِبَادِیْ عَنِّیْ فَاِنِّیْ قَرِیْبٌ اُجِیْبُ دَعْوَةَ الدَّاعِ اِذَا دَعَانِ فَلْیَسْتَجِیْبُوْا لِیْ وَلْیُؤْمِنُوْا بِیْ لَعَلَّهُمْ یَرْشُدُوْنَ",
+      "start": 425.74,
+      "end": 460.16,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "اور جب میرے بندے آپ سے میرے بارے میں سوال کریں",
+      "start": 463.86,
+      "end": 474.96
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "تو کہہ دیجئے بے شک میں قریب ہوں میں بندے کے قریب ہوں میں پکارنے والے کی پکار کا جواب دیتا ہوں",
+      "start": 474.96,
+      "end": 494.8
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "میں پکارنے والے کی پکار کا جواب دیتا ہوں جب وہ مجھے پکارے",
+      "start": 519.84,
+      "end": 529.86
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "usage": "explicit paraphrase",
+      "extent": "partial",
+      "text": "وہ میرا حکم مانے وہ بھی میری بات مانا کریں",
+      "start": 529.86,
+      "end": 540.1
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "usage": "explicit paraphrase",
+      "extent": "partial",
+      "text": "اور مجھ پر ایمان رکھیں اعتماد کریں یقین کر لیں تاکہ وہ ہدایت پائیں",
+      "start": 529.86,
+      "end": 550.12
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "text": "فَاِنِّیْ قَرِیْبٌ",
+      "start": 571.76,
+      "end": 579.4599999999999,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "میں قریب ہوں",
+      "start": 571.76,
+      "end": 579.4599999999999
+    },
+    {
+      "surah_number": "9",
+      "ayah_number": "40",
+      "text": "لَا تَحْزَنْ اِنَّ اللّٰهَ مَعَنَا",
+      "start": 677.5,
+      "end": 687.18,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "8",
+      "ayah_number": "19",
+      "text": "وَاَنَّ اللّٰهَ مَعَ الْمُؤْمِنِیْنَ",
+      "start": 687.18,
+      "end": 697.26,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "text": "اُجِیْبُ دَعْوَةَ الدَّاعِ اِذَا دَعَانِ",
+      "start": 736.01,
+      "end": 749.46,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "text": "اُجِیْبُ دَعْوَةَ الدَّاعِ",
+      "start": 940.08,
+      "end": 950.1,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "35",
+      "ayah_number": "15",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "اے لوگو تم سب اللہ کے محتاج ہو",
+      "start": 1002.78,
+      "end": 1013.32
+    },
+    {
+      "surah_number": "55",
+      "ayah_number": "29",
+      "usage": "explicit paraphrase",
+      "extent": "partial",
+      "text": "آسمانوں میں جو بھی مخلوق ہے ہمیں تو صرف فرشتوں کا پتہ ہے نا اس کے علاوہ بھی جو کوئی ہے وہ سب سوال کرتے ہیں",
+      "start": 1075.94,
+      "end": 1087.28
+    },
+    {
+      "surah_number": "55",
+      "ayah_number": "29",
+      "usage": "explicit paraphrase",
+      "extent": "partial",
+      "text": "اور جو زمین میں وہ سارے کے سارے وہ سب سوال کرتے ہیں",
+      "start": 1075.94,
+      "end": 1087.28
+    },
+    {
+      "surah_number": "55",
+      "ayah_number": "29",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "ہر روز وہ ایک نئی شان میں",
+      "start": 1103.1,
+      "end": 1108.42
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "60",
+      "text": "وَقَالَ رَبُّكُمُ ادْعُوْنِیْۤ اَسْتَجِبْ لَكُمْ اِنَّ الَّذِیْنَ یَسْتَكْبِرُوْنَ عَنْ عِبَادَتِیْ سَیَدْخُلُوْنَ جَهَنَّمَ دٰخِرِیْنَ",
+      "start": 1146.82,
+      "end": 1180.68,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "60",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "تمہارے رب نے فرمایا مجھے پکارو مجھ سے دعا مانگو میں تمہاری دعا قبول کروں گا",
+      "start": 1165.78,
+      "end": 1180.68
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "60",
+      "usage": "explicit paraphrase",
+      "extent": "partial",
+      "text": "بے شک وہ لوگ جو میری عبادت سے، یعنی یہاں دعا مطلب ہے تکبر کرتے ہیں",
+      "start": 1181.4,
+      "end": 1191.4
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "60",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "عنقریب وہ ذلیل ہو کر جہنم میں داخل ہوں گے",
+      "start": 1192.1399999999999,
+      "end": 1201.84
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "60",
+      "text": "وَقَالَ رَبُّكُمُ ادْعُوْنِیْۤ",
+      "start": 1202.4,
+      "end": 1215.12,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "40",
+      "ayah_number": "60",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "مجھ سے مانگو مجھے پکارو",
+      "start": 1202.4,
+      "end": 1215.12
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "text": "فَلْیَسْتَجِیْبُوْا لِیْ وَلْیُؤْمِنُوْا بِیْ لَعَلَّهُمْ یَرْشُدُوْنَ",
+      "start": 1355.62,
+      "end": 1365.62,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "usage": "explicit paraphrase",
+      "extent": "partial",
+      "text": "چاہیے وہ بھی میری بات مانیں",
+      "start": 1355.62,
+      "end": 1365.62
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "152",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "مجھے یاد کرو میں تمہیں یاد کروں گا",
+      "start": 1398.94,
+      "end": 1408.88
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "text": "وَلْیُؤْمِنُوْا بِیْ",
+      "start": 1408.88,
+      "end": 1418.94,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "usage": "explicit paraphrase",
+      "extent": "partial",
+      "text": "چاہیے کہ وہ مجھ پر ایمان لائیں مجھ پر اعتماد کریں",
+      "start": 1408.88,
+      "end": 1418.94
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "text": "لَعَلَّهُمْ یَرْشُدُوْنَ",
+      "start": 1566.56,
+      "end": 1577.08,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "92",
+      "ayah_number": "5",
+      "text": "فَاَمَّا مَنْ اَعْطٰی وَاتَّقٰی",
+      "start": 1596.92,
+      "end": 1607.3,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "92",
+      "ayah_number": "6",
+      "text": "وَصَدَّقَ بِالْحُسْنٰی",
+      "start": 1596.92,
+      "end": 1607.3,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "92",
+      "ayah_number": "7",
+      "text": "فَسَنُیَسِّرُهٗ لِلْیُسْرٰی",
+      "start": 1596.92,
+      "end": 1607.3,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "2",
+      "ayah_number": "186",
+      "text": "لَعَلَّهُمْ یَرْشُدُوْنَ",
+      "start": 1607.3,
+      "end": 1621.8,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "92",
+      "ayah_number": "5",
+      "usage": "translation",
+      "extent": "complete",
+      "text": "پس وہ جس نے دیا اور پھر تقویٰ اختیار کیا",
+      "start": 1607.3,
+      "end": 1621.8
+    },
+    {
+      "surah_number": "92",
+      "ayah_number": "6",
+      "usage": "translation",
+      "extent": "complete",
+      "text": "اس نے سب سے اچھی بات کو سچ مانا",
+      "start": 1607.3,
+      "end": 1621.8
+    },
+    {
+      "surah_number": "92",
+      "ayah_number": "7",
+      "usage": "translation",
+      "extent": "complete",
+      "text": "تو یقیناً ہم اسے آسان راستے کی سہولت دیں گے",
+      "start": 1607.3,
+      "end": 1621.8
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "5",
+      "text": "اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ",
+      "start": 1850.9,
+      "end": 1870.86,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "1",
+      "ayah_number": "6",
+      "text": "اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ",
+      "start": 1861.0,
+      "end": 1870.86,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "27",
+      "ayah_number": "62",
+      "usage": "translation",
+      "extent": "partial",
+      "text": "بھلا کون ہے جو لاچار کی فریاد رسی کرتا ہے جب وہ اسے پکارتا ہے اور اس کی تکلیف دور کرتا ہے",
+      "start": 1898.6399999999999,
+      "end": 1906.44
+    },
+    {
+      "surah_number": "6",
+      "ayah_number": "17",
+      "usage": "translation",
+      "extent": "complete",
+      "text": "اگر اللہ تمہیں کوئی تکلیف پہنچائے تو اس کے سوا کوئی دور نہیں کر سکتا اور اگر وہ تجھے کوئی بھلائی پہنچائے تو وہ ہر چیز پر پوری طرح قادر ہے",
+      "start": 1910.3,
+      "end": 1924.7
+    },
+    {
+      "surah_number": "19",
+      "ayah_number": "4",
+      "text": "لَمْ اَكُنْ بِدُعَآىِٕكَ رَبِّ شَقِیًّا",
+      "start": 1977.8,
+      "end": 1986.22,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "19",
+      "ayah_number": "4",
+      "usage": "explicit paraphrase",
+      "extent": "partial",
+      "text": "اللہ آپ سے مانگ کے تو میں کبھی بدبخت ہوا ہی نہیں",
+      "start": 1977.8,
+      "end": 1986.22
+    },
+    {
+      "surah_number": "21",
+      "ayah_number": "83",
+      "text": "وَاَیُّوْبَ اِذْ نَادٰی رَبَّهٗۤ اَنِّیْ مَسَّنِیَ الضُّرُّ وَاَنْتَ اَرْحَمُ الرّٰحِمِیْنَ",
+      "start": 2032.24,
+      "end": 2055.46,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "21",
+      "ayah_number": "84",
+      "text": "فَاسْتَجَبْنَا لَهٗ فَكَشَفْنَا مَا بِهٖ مِنْ ضُرٍّ وَّاٰتَیْنٰهُ اَهْلَهٗ وَمِثْلَهُمْ مَّعَهُمْ رَحْمَةً مِّنْ عِنْدِنَا",
+      "start": 2042.52,
+      "end": 2066.36,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "21",
+      "ayah_number": "84",
+      "text": "رَحْمَةً مِّنْ عِنْدِنَا",
+      "start": 2068.08,
+      "end": 2070.84,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "21",
+      "ayah_number": "84",
+      "text": "وَذِكْرٰی لِلْعٰبِدِیْنَ",
+      "start": 2073.12,
+      "end": 2082.96,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "21",
+      "ayah_number": "83",
+      "usage": "translation",
+      "extent": "complete",
+      "text": "اور ایوب جب اس نے اپنے رب کو پکارا کہ بے شک مجھے تکلیف پہنچی ہے اور تو رحم کرنے والوں میں سب سے زیادہ رحم والا ہے",
+      "start": 2073.12,
+      "end": 2082.96
+    },
+    {
+      "surah_number": "21",
+      "ayah_number": "84",
+      "usage": "translation",
+      "extent": "complete",
+      "text": "تو ہم نے اس کی دعا قبول کر لی پس اسے جو بھی تکلیف تھی دور کر دی اور اسے اس کے گھر والے اور ان کے ساتھ ان کی مانند اور عطا کر دیے اپنے پاس سے رحمت کے لیے اور ان لوگوں کی یاد دہانی کرنے کے لیے جو عبادت کرنے والے ہیں",
+      "start": 2082.96,
+      "end": 2102.82
+    },
+    {
+      "surah_number": "21",
+      "ayah_number": "87",
+      "text": "لَّاۤ اِلٰهَ اِلَّاۤ اَنْتَ سُبْحٰنَكَ اِنِّیْ كُنْتُ مِنَ الظّٰلِمِیْنَ",
+      "start": 2335.96,
+      "end": 2346.42,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "7",
+      "ayah_number": "23",
+      "text": "رَبَّنَا ظَلَمْنَاۤ اَنْفُسَنَا وَاِنْ لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُوْنَنَّ مِنَ الْخٰسِرِیْنَ",
+      "start": 2335.96,
+      "end": 2356.2,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "surah_number": "114",
+      "ayah_number": "5",
+      "text": "الَّذِیْ یُوَسْوِسُ فِیْ صُدُوْرِ النَّاسِ",
+      "start": 2463.38,
+      "end": 2473.32,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "114",
+      "ayah_number": "6",
+      "text": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+      "start": 2463.38,
+      "end": 2473.32,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "26",
+      "ayah_number": "80",
+      "text": "وَاِذَا مَرِضْتُ فَهُوَ یَشْفِیْنِ ۟",
+      "start": 144.42,
+      "end": 146.0,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "surah_number": "55",
+      "ayah_number": "29",
+      "text": "یَسْـَٔلُهٗ مَنْ فِی السَّمٰوٰتِ وَالْاَرْضِ ؕ كُلَّ یَوْمٍ هُوَ فِیْ شَاْنٍ ۟ۚ",
+      "start": 1067.82,
+      "end": 1072.22,
+      "usage": "quotation",
+      "extent": "complete"
+    }
+  ],
+  "hadith": [
+    {
+      "reference": "JT_2517",
+      "expanded_reference": "Jami at-Tirmidhi; Book 37, Description of the Day of Judgement, Ar-Riqaq and Al-Wara; chapter 60, Tie it and rely upon Allah; hadith 2517",
+      "usage": "quotation",
+      "text": "اعْقِلْ وَتَوَكَّلْ",
+      "start": 219.66,
+      "end": 230.9
+    },
+    {
+      "reference": "JT_2517",
+      "expanded_reference": "Jami at-Tirmidhi; Book 37, Description of the Day of Judgement, Ar-Riqaq and Al-Wara; chapter 60, Tie it and rely upon Allah; hadith 2517",
+      "usage": "explicit paraphrase",
+      "text": "پہلے اپنا سبب اختیار کرے انسان اور پھر توکل بھی کرے",
+      "start": 231.5,
+      "end": 241.32
+    },
+    {
+      "reference": "SB_6224",
+      "expanded_reference": "Sahih al-Bukhari; Book 78, Al-Adab; chapter 126, What to say when someone sneezes; hadith 6224",
+      "usage": "explicit paraphrase",
+      "text": "حتیٰ کہ ایک چھینک آئے تو کیا کرنا چاہیے الْحَمْدُ لِلَّهِ کہنا چاہیے",
+      "start": 354.26,
+      "end": 376.5
+    },
+    {
+      "reference": "JT_2139",
+      "expanded_reference": "Jami at-Tirmidhi; Book 32, Al-Qadar; chapter 6, Nothing repels the decree except supplication; hadith 2139",
+      "usage": "explicit paraphrase",
+      "text": "دعا تقدیر بھی بدل دیتی ہے",
+      "start": 403.74,
+      "end": 414.24
+    },
+    {
+      "reference": "SB_7405",
+      "expanded_reference": "Sahih al-Bukhari; Book 97, Tawhid; chapter 15, And Allah warns you against Himself; hadith 7405",
+      "usage": "explicit paraphrase",
+      "text": "جو اللہ تعالی کی طرف چل کے جاتا ہے اللہ تعالی اس کی طرف دوڑ کر آتے ہیں",
+      "start": 725.58,
+      "end": 735.66
+    },
+    {
+      "reference": "JT_3371",
+      "expanded_reference": "Jami at-Tirmidhi; Book 48, Supplication; chapter 1B, Supplication is the essence of worship; hadith 3371",
+      "usage": "explicit paraphrase",
+      "text": "وہ تو خود عبادت کا نچوڑ ہے",
+      "start": 862.48,
+      "end": 868.58
+    },
+    {
+      "reference": "JT_810",
+      "expanded_reference": "Jami at-Tirmidhi; Book 9, Hajj; chapter 2, Rewards for Hajj and Umrah; hadith 810",
+      "usage": "explicit paraphrase",
+      "text": "عمرے پر عمرہ اور حج پر حج کیا کرتا ہے فقر دور کر دیتا ہے",
+      "start": 879.88,
+      "end": 899.98
+    },
+    {
+      "reference": "JT_2685",
+      "expanded_reference": "Jami at-Tirmidhi; Book 41, Knowledge; chapter 19, Superiority of fiqh over worship; hadith 2685",
+      "usage": "explicit paraphrase",
+      "text": "چیونٹیاں بھی دعا کرتی ہیں اور سمندر کی مچھلیاں بھی دعائیں کرتی ہیں کس کے لئے آپ لوگ کے لئے جو خیر کی تعلیم دیتا ہے",
+      "start": 1036.52,
+      "end": 1049.64
+    },
+    {
+      "reference": "AD_4084",
+      "expanded_reference": "Sunan Abi Dawud; Book 34, Clothing; chapter 27, Isbal with the izar; hadith 4084",
+      "usage": "explicit paraphrase",
+      "text": "میں اللہ کی طرف دعوت دیتا ہوں، یعنی لوگوں کو اللہ سے جوڑتا ہوں جو ایک ہے اکیلہ ہے وہ اللہ کہ جب تم پر کوئی مصیبت آتی ہے اور تم اسے پکارتے ہو تو وہ تم سے مصیبت دور کر دیتا ہے",
+      "start": 1237.56,
+      "end": 1257.44
+    },
+    {
+      "reference": "AD_4084",
+      "expanded_reference": "Sunan Abi Dawud; Book 34, Clothing; chapter 27, Isbal with the izar; hadith 4084",
+      "usage": "explicit paraphrase",
+      "text": "رب وہ ہے کہ جب تم پہ کوئی مصیبت آتی ہے اور تم اسے پکارتے ہو تو وہ تمہاری مصیبت دور کر دیتا ہے",
+      "start": 1274.46,
+      "end": 1284.48
+    },
+    {
+      "reference": "AD_4084",
+      "expanded_reference": "Sunan Abi Dawud; Book 34, Clothing; chapter 27, Isbal with the izar; hadith 4084",
+      "usage": "explicit paraphrase",
+      "text": "جب تم کسی بیابان اور جنگل میں راستہ بھول جاؤ اور تم اس سے دعا کرو تو وہ تمہیں واپس پہنچا دیتا ہے",
+      "start": 1284.48,
+      "end": 1294.54
+    },
+    {
+      "reference": "AD_4084",
+      "expanded_reference": "Sunan Abi Dawud; Book 34, Clothing; chapter 27, Isbal with the izar; hadith 4084",
+      "usage": "explicit paraphrase",
+      "text": "اور جب تم قحط سالی میں مبتلا ہوتے ہو اور تم دعا کرتے ہو تو تم پر پیداوار ظاہر کر دیتا ہے",
+      "start": 1304.62,
+      "end": 1313.24
+    },
+    {
+      "reference": "JT_3373",
+      "expanded_reference": "Jami at-Tirmidhi; Book 48, Supplication; chapter 2, Whoever does not ask Allah; hadith 3373",
+      "usage": "explicit paraphrase",
+      "text": "اللہ تعالیٰ کو وہ شخص سخت ناپسند ہے جو اس سے نہیں مانگتا",
+      "start": 1336.08,
+      "end": 1345.1
+    },
+    {
+      "reference": "JT_3479",
+      "expanded_reference": "Jami at-Tirmidhi; Book 48, Supplication; untitled chapter 65 (Arabic numbering 66); hadith 3479",
+      "usage": "explicit paraphrase",
+      "text": "غافل دل کی دعا قبول نہیں ہوتی",
+      "start": 1767.52,
+      "end": 1777.1
+    },
+    {
+      "reference": "AD_1488",
+      "expanded_reference": "Sunan Abi Dawud; Book 8, Witr; chapter 23, Supplication; hadith 1488",
+      "usage": "explicit paraphrase",
+      "text": "اللہ تعالی بندوں کو خالی ہاتھ لوٹانے سے شرماتا ہے",
+      "start": 1996.8,
+      "end": 2017.06
+    },
+    {
+      "reference": "SB_1031",
+      "expanded_reference": "Sahih al-Bukhari; Book 15, Invoking Allah for Rain; chapter 22, Imam raising both hands during istisqa; hadith 1031",
+      "usage": "explicit paraphrase",
+      "text": "نبی صلی اللہ علیہ وسلم نے بعض وقت کتنا اونچا ہاتھ اٹھایا اتنا کہ آپ کے بغلوں کی سفیدی نظر آنے لگے",
+      "start": 2292.16,
+      "end": 2305.42
+    },
+    {
+      "reference": "SM_919",
+      "expanded_reference": "Sahih Muslim; Book 11, Funerals; chapter 3, What to say in the presence of the sick and dying; hadith 919",
+      "usage": "translation",
+      "text": "جب تم مریض یا میت کے پاس جاؤ تو اچھی بات کہو",
+      "start": 2709.36,
+      "end": 2729.32
+    },
+    {
+      "reference": "SM_919",
+      "expanded_reference": "Sahih Muslim; Book 11, Funerals; chapter 3, What to say in the presence of the sick and dying; hadith 919",
+      "usage": "translation",
+      "text": "جب تم مریض یا میت کے پاس جاؤ تو اچھی بات کہو کیونکہ فرشتے تمہاری بات پر آمین کہیں گے",
+      "start": 2719.24,
+      "end": 2739.4
+    }
+  ],
+  "dua": [
+    {
+      "reference": "QuranicDua-08",
+      "text": "رَبِّ اشْرَحْ لِیْ صَدْرِیْ وَیَسِّرْ لِیْۤ اَمْرِیْ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِیْ یَفْقَهُوْا قَوْلِیْ",
+      "start": 9.74,
+      "end": 29.66,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "SH-ShifaDuas-GoodExpectations-13",
+      "text": "لَمْ اَكُنْ بِدُعَآىِٕكَ رَبِّ شَقِیًّا",
+      "start": 1977.8,
+      "end": 1986.22,
+      "usage": "quotation",
+      "extent": "partial"
+    },
+    {
+      "reference": "QuranicDua-46",
+      "text": "اَنِّیْ مَسَّنِیَ الضُّرُّ وَاَنْتَ اَرْحَمُ الرّٰحِمِیْنَ",
+      "start": 2032.24,
+      "end": 2055.46,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "QuranicDua-46",
+      "usage": "translation",
+      "extent": "complete",
+      "text": "بے شک مجھے تکلیف پہنچی ہے اور تو رحم کرنے والوں میں سب سے زیادہ رحم والا ہے",
+      "start": 2073.12,
+      "end": 2082.96
+    },
+    {
+      "reference": "QuranicDua-47",
+      "text": "لَّاۤ اِلٰهَ اِلَّاۤ اَنْتَ سُبْحٰنَكَ اِنِّیْ كُنْتُ مِنَ الظّٰلِمِیْنَ",
+      "start": 2335.96,
+      "end": 2346.42,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "QuranicDua-35",
+      "text": "رَبَّنَا ظَلَمْنَاۤ اَنْفُسَنَا وَاِنْ لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُوْنَنَّ مِنَ الْخٰسِرِیْنَ",
+      "start": 2335.96,
+      "end": 2356.2,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "MasnoonDua-159",
+      "text": "سُبْحَانَكَ اللّٰهُمَّ وَبِحَمْدِكَ اَشْهَدُ اَنْ لَّا اِلٰهَ اِلَّا اَنْتَ اَسْتَغْفِرُكَ وَاَتُوْبُ اِلَیْكَ",
+      "start": 2749.42,
+      "end": 2774.98,
+      "usage": "quotation",
+      "extent": "complete"
+    },
+    {
+      "reference": "QuranicDua-07",
+      "text": "اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "start": 2807.54,
+      "end": 2843.88,
+      "usage": "quotation",
+      "extent": "partial"
+    }
+  ],
+  "topics": [
+    {
+      "name_en": "Gratitude (Shukr)",
+      "name_ur": "شکر",
+      "description_en": "Gratitude for Islam, life and health, and using health for worship and service.",
+      "description_ur": "اسلام، زندگی اور صحت کی نعمتوں پر شکر اور صحت کو عبادت و خدمت میں استعمال کرنا۔",
+      "start": 19.58,
+      "end": 154.46,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Supplication and reliance on Allah",
+      "name_ur": "دعا اور توکل",
+      "description_en": "Combining treatment with supplication, reliance and humility before Allah.",
+      "description_ur": "علاج کے ساتھ دعا، توکل اور اللہ کے سامنے عاجزی اختیار کرنا۔",
+      "start": 154.46,
+      "end": 353.32,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Remembrance of Allah (Dhikrullah)",
+      "name_ur": "کثرتِ ذکرِ الٰہی",
+      "description_en": "Continuous glorification of Allah during the first ten days of Dhul-Hijjah and the days of Tashreeq.",
+      "description_ur": "عشرہ ذوالحجہ اور ایام تشریق میں تکبیر، تحمید اور تسبیح کے ذریعے کثرت سے اللہ کا ذکر۔",
+      "start": 354.26,
+      "end": 425.18,
+      "ur_translation_generated": false,
+      "renamed_from": "Remembrance of Allah (Dhikr)"
+    },
+    {
+      "name_en": "Names and attributes of Allah",
+      "name_ur": "اللہ کے اسماء و صفات",
+      "description_en": "Divine nearness and response to prayer, as explained through Al-Qarib and Al-Mujib.",
+      "description_ur": "القریب اور المجیب کے مفہوم کے ذریعے اللہ کے قرب اور دعا کی قبولیت کی وضاحت۔",
+      "start": 425.74,
+      "end": 810.46,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Supplication as worship",
+      "name_ur": "دعا بطور عبادت",
+      "description_en": "Distinguishing worship from asking for needs, and recognizing dependence on Allah.",
+      "description_ur": "دعائے عبادت اور دعائے مسئلہ کا فرق اور اللہ کے سامنے محتاجی کا اعتراف۔",
+      "start": 810.46,
+      "end": 1022.98,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Supplication and humility",
+      "name_ur": "دعا اور عاجزی",
+      "description_en": "Creation and the prophets ask Allah; arrogance prevents supplication.",
+      "description_ur": "مخلوقات اور انبیاء کا اللہ سے مانگنا اور تکبر کا دعا میں رکاوٹ بننا۔",
+      "start": 1023.5999999999999,
+      "end": 1229.38,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Calling to Good (Da'wah)",
+      "name_ur": "دعوتِ خیر (دعوہ)",
+      "description_en": "Guiding others towards virtue, sharing beneficial reminders, and earning reward equal to the doer.",
+      "description_ur": "دوسروں کو نیکی کی طرف رہنمائی کرنا، مفید نصیحت پہنچانا، اور عمل کرنے والے کے برابر اجر پانا۔",
+      "start": 1229.94,
+      "end": 1335.54,
+      "ur_translation_generated": false,
+      "renamed_from": "Calling to Allah (Dawah)"
+    },
+    {
+      "name_en": "Obedience and certainty of faith",
+      "name_ur": "اطاعت اور یقین",
+      "description_en": "Connecting acceptance of supplication with obedience and trust in Allah.",
+      "description_ur": "دعا کی قبولیت کو اللہ کی اطاعت اور اس پر یقین سے جوڑنا۔",
+      "start": 1336.08,
+      "end": 1437.24,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Oneness of Allah (Tawhid)",
+      "name_ur": "توحید",
+      "description_en": "The lecturer argues for directing supplication to Allah alone and critiques appeals to the dead.",
+      "description_ur": "مقررہ صرف اللہ سے دعا کرنے کی تاکید اور مردوں کو پکارنے پر تنقید کرتی ہیں۔",
+      "start": 1437.92,
+      "end": 1577.08,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Knowledge of Allah and certainty",
+      "name_ur": "معرفتِ الٰہی اور یقین",
+      "description_en": "Strengthening faith through Quran, divine names, reflection on creation and good company.",
+      "description_ur": "قرآن، اسمائے الٰہی، کائنات میں غور و فکر اور اچھی صحبت سے یقین مضبوط کرنا۔",
+      "start": 1577.8200000000002,
+      "end": 1777.1,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Hope and perseverance in supplication",
+      "name_ur": "دعا میں امید اور استقامت",
+      "description_en": "Avoiding heedlessness and despair while persisting in prayer and accepting different outcomes.",
+      "description_ur": "غفلت اور مایوسی سے بچتے ہوئے دعا جاری رکھنا اور قبولیت کی مختلف صورتوں کو سمجھنا۔",
+      "start": 1777.1,
+      "end": 2017.06,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Healing and supplication",
+      "name_ur": "شفا اور دعا",
+      "description_en": "The prayer of Ayyub and the lecturer’s discussion of prayer alongside treatment.",
+      "description_ur": "ایوب علیہ السلام کی دعا اور علاج کے ساتھ دعا کے کردار پر مقررہ کی گفتگو۔",
+      "start": 2017.06,
+      "end": 2249.7,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Contentment and etiquette of supplication",
+      "name_ur": "رضا اور آدابِ دعا",
+      "description_en": "Accepting Allah’s decisions, sincerity, humility, persistence and lawful provision.",
+      "description_ur": "اللہ کے فیصلوں پر رضا، اخلاص، عاجزی، دعا پر اصرار اور حلال رزق کا اہتمام۔",
+      "start": 2252.44,
+      "end": 2356.2,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Good speech and ruqyah",
+      "name_ur": "حسنِ کلام اور رقیہ",
+      "description_en": "Encouraging constructive speech and recitation rather than discouraging the sick.",
+      "description_ur": "مریض کو مایوس کرنے کے بجائے اچھی بات کہنے اور کلامِ الٰہی پڑھنے کی ترغیب۔",
+      "start": 2356.2,
+      "end": 2452.74,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Good expectations and protection from whisperings",
+      "name_ur": "حسنِ ظن اور وسوسوں سے حفاظت",
+      "description_en": "Discussion of negative thoughts, harmful speech, hope and Quranic recitation.",
+      "description_ur": "منفی خیالات، نقصان دہ گفتگو، امید اور تلاوتِ قرآن پر گفتگو۔",
+      "start": 2453.38,
+      "end": 2696.98,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    },
+    {
+      "name_en": "Supplication and visiting the sick",
+      "name_ur": "دعا اور عیادتِ مریض",
+      "description_en": "Occasions for supplication and the instruction to speak good near the sick or deceased.",
+      "description_ur": "دعا کے مواقع اور مریض یا میت کے پاس اچھی بات کہنے کی ہدایت۔",
+      "start": 2697.52,
+      "end": 2739.4,
+      "ur_translation_generated": false,
+      "renamed_from": null
+    }
+  ],
+  "headings": [
+    {
+      "title_en": "Health, gratitude and supplication",
+      "title_ur": "صحت، شکر اور دعا",
+      "start": 0.0,
+      "end": 322.1
+    },
+    {
+      "title_en": "Turning to Allah and His nearness",
+      "title_ur": "اللہ کی طرف رجوع اور اس کا قرب",
+      "start": 322.1,
+      "end": 622.02
+    },
+    {
+      "title_en": "Divine nearness and worship",
+      "title_ur": "قربِ الٰہی اور عبادت",
+      "start": 622.02,
+      "end": 940.08
+    },
+    {
+      "title_en": "Dependence on Allah and the call to prayer",
+      "title_ur": "اللہ کی محتاجی اور دعا کی دعوت",
+      "start": 940.08,
+      "end": 1274.46
+    },
+    {
+      "title_en": "Trust, obedience and worshipping Allah alone",
+      "title_ur": "یقین، اطاعت اور صرف اللہ کی عبادت",
+      "start": 1274.46,
+      "end": 1577.8200000000002
+    },
+    {
+      "title_en": "Strengthening faith and persevering in prayer",
+      "title_ur": "یقین کی مضبوطی اور دعا پر استقامت",
+      "start": 1577.8200000000002,
+      "end": 1893.84
+    },
+    {
+      "title_en": "Hope, healing and the prayer of Ayyub",
+      "title_ur": "امید، شفا اور ایوب علیہ السلام کی دعا",
+      "start": 1893.84,
+      "end": 2206.88
+    },
+    {
+      "title_en": "Accepting outcomes and speaking well",
+      "title_ur": "فیصلوں پر رضا اور اچھی گفتگو",
+      "start": 2206.88,
+      "end": 2521.1400000000003
+    },
+    {
+      "title_en": "Hope for the sick and closing supplications",
+      "title_ur": "مریض کے لیے امید اور اختتامی دعائیں",
+      "start": 2521.1400000000003,
+      "end": 2844.8654
+    }
+  ]
+}
