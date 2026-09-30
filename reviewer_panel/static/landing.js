@@ -115,7 +115,10 @@ function released(data) {
 function credits(data) {
   const p = data.paper;
   $("#paper-title").textContent = p.title;
-  if (p.url) { const el = $("#paper-link"); el.innerHTML = `<a href="${esc(p.url)}" target="_blank" rel="noopener">Read the paper</a>`; el.classList.remove("hidden"); }
+  const pl = $("#paper-link");
+  pl.innerHTML = p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">Read the paper</a>`
+    : "The paper is under peer review. Please do not reuse the code or data until it is published.";
+  pl.classList.remove("hidden");
   $("#authors").innerHTML = p.authors.map((a) => `<li>${esc(a.name)}<a href="https://orcid.org/${esc(a.orcid)}" target="_blank" rel="noopener" title="ORCID ${esc(a.orcid)}">ORCID</a></li>`).join("");
   $("#affiliation").textContent = p.affiliation;
   if (data.repo_url) $$(".repo-link").forEach((a) => { a.href = data.repo_url; a.classList.remove("hidden"); });

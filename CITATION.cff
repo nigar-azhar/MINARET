@@ -5,7 +5,17 @@ type: software
 authors:
   - family-names: "Butt"
     given-names: "Nigar Azhar"
-  # TODO(authors): add co-authors, affiliation and paper DOI before release
+    affiliation: "FAST National University of Computer and Emerging Sciences, Islamabad, Pakistan"
+    orcid: "https://orcid.org/0009-0009-7560-1023"
+  - family-names: "Kamran"
+    given-names: "Amna Binte"
+    affiliation: "FAST National University of Computer and Emerging Sciences, Islamabad, Pakistan"
+    orcid: "https://orcid.org/0009-0003-1397-4912"
+  - family-names: "Basharat"
+    given-names: "Amna"
+    affiliation: "FAST National University of Computer and Emerging Sciences, Islamabad, Pakistan"
+    orcid: "https://orcid.org/0000-0002-5744-6498"
+repository-code: "https://github.com/nigar-azhar/MINARET"
 license: MIT
 version: "1.0.0"
 references:

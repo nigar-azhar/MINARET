@@ -31,7 +31,7 @@ PAPER = {
     ],
     "affiliation": "FAST National University of Computer and Emerging Sciences, Islamabad, Pakistan",
 }
-REPO_URL: Optional[str] = None  # set once the repository is public
+REPO_URL: Optional[str] = "https://github.com/nigar-azhar/MINARET"
 
 # The two walkthrough segments. `notes` describe what each stage did to this segment; each was
 # checked against the files named here.

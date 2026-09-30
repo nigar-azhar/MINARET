@@ -1,5 +1,10 @@
 # MINARET
 
+> **Under review.** This repository accompanies a paper that is currently under peer review. It
+> is public so that reviewers and readers can inspect the code and data behind the paper. Please
+> do not reuse, redistribute or build on it until the paper is published; this notice will be
+> removed and a citation added at that point.
+
 Code and released artifacts for the MINARET paper: automatic transcription and correction of
 multilingual Islamic lecture audio, corpus-grounded validation of cited Quranic verses and Duas,
 human-in-the-loop review, and two downstream knowledge tasks built on the reviewed output (a

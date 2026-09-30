@@ -9,14 +9,13 @@ These are the entity annotations (`e1.json`, `e2.json`), the knowledge-graph str
 alignments (`kg/`), the per-series review decisions (`kg/series/*.json`), the RAG gold questions,
 the graded reviews and the traces.
 
-> **TODO (authors): confirm before release.** Intended license: CC BY 4.0
-> (https://creativecommons.org/licenses/by/4.0/).
+These are licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
 
 ## Third-party material, not relicensed here
 
 | Material | Where it appears | Rights holder |
 |---|---|---|
-| Lecture content: transcripts `v0`-`v3`, RAG chunk text, `TranscriptSegment` text in the KG | `recordings/`, `rag/`, `kg/` | The speakers / publishers of the lectures. Redistribution depends on the industry partner's permission. **TODO (authors): confirm.** |
+| Lecture content: transcripts `v0`-`v3`, RAG chunk text, `TranscriptSegment` text in the KG | `recordings/`, `rag/`, `kg/` | The speakers / publishers of the lectures. Redistributed here with the publisher's permission, for research use; not covered by the CC BY license above. |
 | Audio | Not included; `source.json` links to the publisher's URL | Publisher |
 | Quran translations (`translationEn`, `translationUr` on `QuranVerse`) | `kg/` | Their respective translators and publishers |
 | Dua translations and transliterations | `kg/` | Source of `duas.csv` |
