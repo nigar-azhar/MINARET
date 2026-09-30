@@ -150,9 +150,12 @@ when the corpora are absent.
 The knowledge graph aligns with, and in part reuses, three external resources. Please cite them
 alongside MINARET when you use `artifacts/kg/`:
 
-- **SemanticHadith** (hadith text, `skos:exactMatch` and concept alignment): Kamran, A. B., Abro, B.,
-  & Basharat, A. (2023). SemanticHadith: An ontology-driven knowledge graph for the Hadith corpus.
-  *Journal of Web Semantics*, 78, 100797. https://doi.org/10.1016/j.websem.2023.100797
+- **SemanticHadith** (hadith text, `skos:exactMatch` and concept alignment), in the updated version
+  described in Kamran, A. B., Butt, N. A., & Basharat, A. (2026). Semantic enrichment of Hadith
+  corpus: Knowledge graph generation from Islamic text. *Semantic Web*, 17(2).
+  https://doi.org/10.1177/22104968261431425. It extends the original SemanticHadith: Kamran, A. B.,
+  Abro, B., & Basharat, A. (2023). SemanticHadith: An ontology-driven knowledge graph for the
+  Hadith corpus. *Journal of Web Semantics*, 78, 100797. https://doi.org/10.1016/j.websem.2023.100797
 - **SemanticTafsir** (verse-level `skos:exactMatch` links; CQ16): Kamran, A. B., Basharat, A., &
   Rehman, M. (2026). SemanticTafsir: Building a cultural heritage ontology and knowledge graph from
   the Quranic exegesis of al-Tabari. *Semantic Web* (accepted).

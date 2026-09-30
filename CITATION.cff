@@ -20,6 +20,17 @@ license: MIT
 version: "1.0.0"
 references:
   - type: article
+    title: "Semantic Enrichment of Hadith Corpus: Knowledge Graph Generation From Islamic Text"
+    authors:
+      - {family-names: "Kamran", given-names: "Amna Binte"}
+      - {family-names: "Butt", given-names: "Nigar Azhar"}
+      - {family-names: "Basharat", given-names: "Amna"}
+    journal: "Semantic Web"
+    volume: 17
+    issue: 2
+    year: 2026
+    doi: "10.1177/22104968261431425"
+  - type: article
     title: "SemanticHadith: An Ontology-Driven Knowledge Graph for the Hadith Corpus"
     authors:
       - {family-names: "Kamran", given-names: "Amna Binte"}
